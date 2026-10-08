@@ -3842,6 +3842,3346 @@
    ],
    "notes": "Típico de Cuenca; tradicionalmente con caza (liebre, perdiz). Se toma caliente untado en pan.",
    "done": false
+  },
+  {
+   "id": "r-recetas-arroz-con-leche",
+   "tab": "recetas",
+   "name": "Arroz con leche",
+   "group": "Dulce",
+   "tag": "Asturias",
+   "yield": "6 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Arroz redondo"
+      },
+      {
+       "q": "1,5",
+       "u": "l",
+       "n": "Leche entera"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Piel de limón"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Piel de naranja"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Mantequilla"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Canela molida"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar el arroz y escurrir.",
+      "Infusionar la leche con la canela y las pieles de cítricos, sin que hierva fuerte.",
+      "Añadir el arroz y cocer a fuego muy suave 45–50 min, removiendo a menudo.",
+      "Retirar la canela y las pieles.",
+      "Añadir el azúcar y la mantequilla y cocer 10 min más, removiendo.",
+      "Repartir en cuencos y enfriar.",
+      "Espolvorear canela, o azúcar y requemar con hierro o soplete."
+     ]
+    }
+   ],
+   "notes": "En Asturias se sirve con costra de azúcar quemado.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-natillas",
+   "tab": "recetas",
+   "name": "Natillas",
+   "group": "Dulce",
+   "tag": "",
+   "yield": "6 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Leche entera"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Yema de huevo"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Maicena"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Piel de limón"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Galleta María"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Canela molida"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Infusionar la leche con la canela y la piel de limón 10 min.",
+      "Blanquear las yemas con el azúcar y la maicena.",
+      "Verter la leche colada sobre las yemas, sin dejar de batir.",
+      "Cocer a fuego suave removiendo con varillas hasta que napen, sin que hierva.",
+      "Repartir en cuencos, poner una galleta encima y enfriar.",
+      "Espolvorear canela al servir."
+     ]
+    }
+   ],
+   "notes": "Con las claras sobrantes: merengue o leche merengada.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-flan-de-huevo",
+   "tab": "recetas",
+   "name": "Flan de huevo",
+   "group": "Dulce",
+   "tag": "",
+   "yield": "6 pax",
+   "parts": [
+    {
+     "name": "Caramelo",
+     "ings": [
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cocinar el azúcar con el agua hasta obtener un caramelo dorado.",
+      "Cubrir el fondo de la flanera o de las flaneras individuales."
+     ]
+    },
+    {
+     "name": "Flan",
+     "ings": [
+      {
+       "q": "5",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Leche entera"
+      },
+      {
+       "q": "120",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Piel de limón"
+      }
+     ],
+     "steps": [
+      "Infusionar la leche con la piel de limón y templar.",
+      "Batir los huevos con el azúcar sin incorporar aire.",
+      "Añadir la leche colada y mezclar.",
+      "Verter sobre el caramelo.",
+      "Cocer al baño maría en el horno a 160 ºC durante 45–50 min (25 min en flaneras individuales).",
+      "Enfriar y refrigerar 4 h antes de desmoldar."
+     ]
+    }
+   ],
+   "notes": "Si salen agujeros, el horno estaba demasiado fuerte.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-crema-catalana",
+   "tab": "recetas",
+   "name": "Crema catalana",
+   "group": "Dulce",
+   "tag": "Cataluña",
+   "yield": "6 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Leche entera"
+      },
+      {
+       "q": "8",
+       "u": "ud.",
+       "n": "Yema de huevo"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Maicena"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Piel de limón"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Azúcar (para quemar)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Infusionar la leche con la canela y la piel de limón.",
+      "Blanquear las yemas con el azúcar y la maicena.",
+      "Verter la leche colada sobre las yemas, batiendo.",
+      "Cocer a fuego suave removiendo hasta que espese.",
+      "Repartir en cazuelitas de barro y refrigerar 3 h.",
+      "Espolvorear azúcar y quemar con hierro o soplete justo antes de servir."
+     ]
+    }
+   ],
+   "notes": "Tradicional del día de San José (19 de marzo).",
+   "done": false
+  },
+  {
+   "id": "r-recetas-leche-frita",
+   "tab": "recetas",
+   "name": "Leche frita",
+   "group": "Dulce",
+   "tag": "Castilla y León",
+   "yield": "6 pax",
+   "parts": [
+    {
+     "name": "Masa",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Leche entera"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Maicena"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Yema de huevo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Piel de limón"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Infusionar 750 ml de leche con la canela, la piel de limón y el azúcar.",
+      "Disolver la maicena y las yemas en el resto de la leche fría.",
+      "Añadir a la leche caliente colada y cocer removiendo 8–10 min hasta obtener una crema muy espesa.",
+      "Extender en una fuente engrasada de 2 cm de grosor, cubrir con film y refrigerar 4 h."
+     ]
+    },
+    {
+     "name": "Rebozado y fritura",
+     "ings": [
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite de girasol para freír"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Canela molida"
+      }
+     ],
+     "steps": [
+      "Cortar la masa en cuadrados.",
+      "Pasar por harina y huevo batido.",
+      "Freír en aceite a 180 ºC hasta dorar y escurrir.",
+      "Rebozar en azúcar con canela."
+     ]
+    }
+   ],
+   "notes": "Se toma templada o fría.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-torrijas",
+   "tab": "recetas",
+   "name": "Torrijas",
+   "group": "Dulce",
+   "tag": "",
+   "yield": "8 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Barra de pan de torrijas del día anterior"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Leche entera"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Piel de limón"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite de oliva suave para freír"
+      },
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Azúcar (para rebozar)"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Canela molida"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Infusionar la leche con la canela, la piel de limón y el azúcar. Templar.",
+      "Cortar el pan en rebanadas de 2 cm.",
+      "Empapar las rebanadas en la leche sin que se rompan.",
+      "Pasar por huevo batido.",
+      "Freír en aceite a 170 ºC por ambos lados y escurrir.",
+      "Rebozar en azúcar con canela."
+     ]
+    }
+   ],
+   "notes": "Variante: bañarlas en almíbar o miel en lugar de azúcar.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-tocino-de-cielo",
+   "tab": "recetas",
+   "name": "Tocino de cielo",
+   "group": "Dulce",
+   "tag": "Andalucía",
+   "yield": "6 pax",
+   "parts": [
+    {
+     "name": "Caramelo",
+     "ings": [
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hacer un caramelo dorado y cubrir el fondo del molde."
+     ]
+    },
+    {
+     "name": "Tocino",
+     "ings": [
+      {
+       "q": "12",
+       "u": "ud.",
+       "n": "Yema de huevo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Piel de limón"
+      }
+     ],
+     "steps": [
+      "Hacer un almíbar con el agua, el azúcar y la piel de limón: hervir 5 min. Templar.",
+      "Mezclar las yemas y el huevo sin batir en exceso.",
+      "Añadir el almíbar templado poco a poco, removiendo.",
+      "Colar y verter sobre el caramelo.",
+      "Tapar con papel de aluminio y cocer al baño maría a 160 ºC durante 30–35 min.",
+      "Enfriar y refrigerar antes de desmoldar."
+     ]
+    }
+   ],
+   "notes": "Nació en Jerez, con las yemas que sobraban de clarificar el vino con claras.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-cuajada-con-miel",
+   "tab": "recetas",
+   "name": "Cuajada con miel",
+   "group": "Dulce",
+   "tag": "Navarra",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Leche de oveja"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Cuajo líquido"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Miel"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Nueces"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar la leche a 37–40 ºC.",
+      "Retirar del fuego y añadir el cuajo, removiendo.",
+      "Repartir de inmediato en recipientes y no moverlos.",
+      "Dejar cuajar a temperatura ambiente 30 min y refrigerar 2 h.",
+      "Servir con miel y nueces."
+     ]
+    }
+   ],
+   "notes": "La temperatura es clave: si la leche está muy caliente no cuaja.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-leche-merengada",
+   "tab": "recetas",
+   "name": "Leche merengada",
+   "group": "Dulce",
+   "tag": "Comunidad Valenciana",
+   "yield": "6 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Leche entera"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Piel de limón"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Clara de huevo"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Canela molida"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hervir la leche con la canela, la piel de limón y el azúcar. Infusionar 15 min.",
+      "Colar, enfriar y congelar 2–3 h, removiendo cada 30 min.",
+      "Montar las claras a punto de nieve.",
+      "Mezclar la leche semihelada con las claras con movimientos envolventes.",
+      "Servir muy fría con canela."
+     ]
+    }
+   ],
+   "notes": "Con las claras que sobran de natillas o crema catalana.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-gachas-dulces",
+   "tab": "recetas",
+   "name": "Gachas dulces",
+   "group": "Dulce",
+   "tag": "Andalucía",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "750",
+       "u": "ml",
+       "n": "Leche entera"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Piel de limón"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Matalahúva"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Rebanada de pan"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Canela molida"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Freír el pan en dados en el AOVE con la piel de limón y la matalahúva. Retirar.",
+      "Tostar la harina en el mismo aceite 2 min.",
+      "Añadir la leche caliente poco a poco, sin dejar de remover.",
+      "Añadir el azúcar y cocer a fuego suave 10 min hasta que espese.",
+      "Servir con los picatostes y canela."
+     ]
+    }
+   ],
+   "notes": "Típicas de Todos los Santos.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-bunuelos-de-viento",
+   "tab": "recetas",
+   "name": "Buñuelos de viento",
+   "group": "Dulce",
+   "tag": "Madrid",
+   "yield": "30 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Mantequilla"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Azúcar"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Piel de limón"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite de girasol para freír"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azúcar glas"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hervir el agua con la mantequilla, el azúcar, la sal y la piel de limón. Retirar la piel.",
+      "Añadir la harina de golpe y remover hasta que la masa se despegue del cazo.",
+      "Templar y añadir los huevos uno a uno, integrando cada uno antes del siguiente.",
+      "Freír porciones pequeñas con dos cucharas en aceite a 160 ºC, dejando que se inflen y giren solas.",
+      "Escurrir y espolvorear azúcar glas."
+     ]
+    }
+   ],
+   "notes": "Se pueden rellenar de crema pastelera o nata. Típicos de Todos los Santos.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-pestinos",
+   "tab": "recetas",
+   "name": "Pestiños",
+   "group": "Dulce",
+   "tag": "Andalucía",
+   "yield": "30 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Vino blanco"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Piel de naranja"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Matalahúva"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Ajonjolí"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "AOVE para freír"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Miel"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Freír la piel de naranja en el AOVE, retirar y dejar templar el aceite.",
+      "Añadir la matalahúva y el ajonjolí al aceite templado.",
+      "Mezclar la harina con la sal, el aceite aromatizado y el vino y amasar hasta que no se pegue.",
+      "Reposar 30 min.",
+      "Estirar fino, cortar cuadrados y unir dos puntas opuestas.",
+      "Freír en aceite a 170 ºC hasta dorar y escurrir.",
+      "Calentar la miel con el agua y bañar los pestiños."
+     ]
+    }
+   ],
+   "notes": "Típicos de Semana Santa y Navidad.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-roscos-fritos",
+   "tab": "recetas",
+   "name": "Roscos fritos",
+   "group": "Dulce",
+   "tag": "Andalucía",
+   "yield": "30 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Leche"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Piel de limón"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Levadura química"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "AOVE para freír"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azúcar (para rebozar)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Freír la piel de limón en el AOVE y dejar templar.",
+      "Batir los huevos con el azúcar, añadir la leche y el aceite.",
+      "Incorporar la harina con la levadura y amasar hasta obtener una masa blanda que no se pegue.",
+      "Formar rosquillas con un agujero en el centro.",
+      "Freír en aceite a 170 ºC por ambos lados.",
+      "Escurrir y rebozar en azúcar."
+     ]
+    }
+   ],
+   "notes": "Se pueden aromatizar con un chorrito de anís.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-churros",
+   "tab": "recetas",
+   "name": "Churros",
+   "group": "Dulce",
+   "tag": "Madrid",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite de girasol para freír"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azúcar"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hervir el agua con la sal.",
+      "Añadir la harina de golpe y remover enérgicamente hasta obtener una masa lisa.",
+      "Templar y meter en una churrera o manga con boquilla rizada.",
+      "Freír tiras en aceite a 190 ºC hasta dorar.",
+      "Escurrir y espolvorear azúcar."
+     ]
+    }
+   ],
+   "notes": "Acompañar con chocolate a la taza.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-flores-de-sarten",
+   "tab": "recetas",
+   "name": "Flores de sartén",
+   "group": "Dulce",
+   "tag": "Castilla-La Mancha",
+   "yield": "25 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Leche"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Ralladura de limón"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite de girasol para freír"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azúcar o miel"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Batir los huevos con la leche, el azúcar, la ralladura y la sal.",
+      "Añadir la harina tamizada hasta obtener una masa como de crepe espesa. Reposar 1 h.",
+      "Calentar el molde de flores en el aceite a 180 ºC.",
+      "Mojar el molde caliente en la masa sin cubrirlo por arriba.",
+      "Freír hasta que la flor se suelte y dore. Escurrir.",
+      "Espolvorear azúcar o bañar en miel."
+     ]
+    }
+   ],
+   "notes": "Hace falta el molde de flor de hierro.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-orejas-de-carnaval",
+   "tab": "recetas",
+   "name": "Orejas de carnaval",
+   "group": "Dulce",
+   "tag": "Galicia",
+   "yield": "25 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Mantequilla"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Anís"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Ralladura de limón"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite de girasol para freír"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azúcar glas"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar los huevos, la mantequilla derretida, el anís, el agua, la ralladura y la sal.",
+      "Añadir la harina y amasar hasta obtener una masa lisa. Reposar 1 h.",
+      "Estirar muy fino y cortar en piezas irregulares.",
+      "Freír en aceite a 180 ºC unos segundos por lado.",
+      "Escurrir y espolvorear azúcar glas."
+     ]
+    }
+   ],
+   "notes": "Típicas del Entroido (carnaval).",
+   "done": false
+  },
+  {
+   "id": "r-recetas-filloas",
+   "tab": "recetas",
+   "name": "Filloas",
+   "group": "Dulce",
+   "tag": "Galicia",
+   "yield": "15 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Leche"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Tocino o mantequilla (para engrasar)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azúcar o miel"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Batir los huevos con la leche, el agua y la sal.",
+      "Añadir la harina tamizada y batir sin grumos. Reposar 1 h.",
+      "Engrasar una sartén caliente con el tocino.",
+      "Verter una capa muy fina de masa y cocinar 30 s por cada lado.",
+      "Servir con azúcar, miel o rellenas de crema."
+     ]
+    }
+   ],
+   "notes": "Típicas del Entroido; también salen saladas con caldo de cocido.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-frixuelos",
+   "tab": "recetas",
+   "name": "Frixuelos",
+   "group": "Dulce",
+   "tag": "Asturias",
+   "yield": "15 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Leche"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Anís"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Mantequilla"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Miel o azúcar"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Batir los huevos con la leche, el azúcar, el anís y la sal.",
+      "Añadir la harina y batir sin grumos. Reposar 1 h.",
+      "Engrasar una sartén caliente con mantequilla.",
+      "Cocinar capas finas de masa por ambos lados.",
+      "Servir con miel o azúcar."
+     ]
+    }
+   ],
+   "notes": "Pariente asturiano de la filloa gallega.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-bunuelos-de-calabaza",
+   "tab": "recetas",
+   "name": "Buñuelos de calabaza",
+   "group": "Dulce",
+   "tag": "Comunidad Valenciana",
+   "yield": "30 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Calabaza"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "25",
+       "u": "g",
+       "n": "Levadura fresca"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Agua tibia"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Ralladura de naranja"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite de girasol para freír"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azúcar"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cocer la calabaza pelada en trozos 15 min, escurrir muy bien y triturar.",
+      "Disolver la levadura en el agua tibia.",
+      "Mezclar el puré templado con la levadura, la ralladura y la harina hasta obtener una masa pegajosa.",
+      "Fermentar tapada 1 h hasta doblar volumen.",
+      "Formar los buñuelos con las manos mojadas, haciendo un agujero en el centro.",
+      "Freír en aceite a 180 ºC, escurrir y espolvorear azúcar."
+     ]
+    }
+   ],
+   "notes": "Típicos de Fallas, con chocolate.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-rosquillas-de-san-isidro",
+   "tab": "recetas",
+   "name": "Rosquillas de San Isidro",
+   "group": "Dulce",
+   "tag": "Madrid",
+   "yield": "20 ud.",
+   "parts": [
+    {
+     "name": "Rosquillas",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Anís"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Levadura química"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Huevo (para pintar)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Batir los huevos con el azúcar, el aceite y el anís.",
+      "Añadir la harina con la levadura y amasar hasta obtener una masa blanda.",
+      "Formar rosquillas y pintarlas con huevo.",
+      "Hornear a 180 ºC durante 15–18 min. Enfriar."
+     ]
+    },
+    {
+     "name": "Baño de las listas",
+     "ings": [
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Azúcar glas"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Clara de huevo"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Zumo de limón"
+      }
+     ],
+     "steps": [
+      "Batir el azúcar glas con la clara y el limón hasta obtener un glaseado espeso.",
+      "Bañar la mitad de las rosquillas y dejar secar."
+     ]
+    }
+   ],
+   "notes": "Sin baño son las «tontas»; con glaseado, las «listas». Típicas de San Isidro (15 de mayo).",
+   "done": false
+  },
+  {
+   "id": "r-recetas-casadielles",
+   "tab": "recetas",
+   "name": "Casadielles",
+   "group": "Dulce",
+   "tag": "Asturias",
+   "yield": "12 ud.",
+   "parts": [
+    {
+     "name": "Relleno",
+     "ings": [
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Nuez pelada"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Anís"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Picar las nueces finas.",
+      "Mezclar con el azúcar y el anís hasta obtener una pasta."
+     ]
+    },
+    {
+     "name": "Masa y fritura",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Vino blanco"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite de girasol para freír"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azúcar glas"
+      }
+     ],
+     "steps": [
+      "Mezclar el vino, el aceite, el huevo y la sal.",
+      "Añadir la harina y amasar hasta obtener una masa elástica. Reposar 30 min.",
+      "Estirar fino y cortar rectángulos de 10 × 8 cm.",
+      "Poner relleno en el centro, enrollar y sellar los bordes con un tenedor.",
+      "Freír en aceite a 170 ºC, escurrir y espolvorear azúcar glas."
+     ]
+    }
+   ],
+   "notes": "Típicas de Antroxu (carnaval).",
+   "done": false
+  },
+  {
+   "id": "r-recetas-tarta-de-santiago",
+   "tab": "recetas",
+   "name": "Tarta de Santiago",
+   "group": "Dulce",
+   "tag": "Galicia",
+   "yield": "8 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Almendra molida"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "5",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Ralladura de limón"
+      },
+      {
+       "q": "½",
+       "u": "cdta.",
+       "n": "Canela molida"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Mantequilla (para el molde)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azúcar glas"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Precalentar el horno a 180 ºC y engrasar un molde de 24 cm.",
+      "Batir los huevos con el azúcar sin montar.",
+      "Añadir la almendra, la ralladura y la canela y mezclar.",
+      "Verter en el molde y hornear 35–40 min.",
+      "Enfriar y decorar con azúcar glas usando la plantilla de la cruz de Santiago."
+     ]
+    }
+   ],
+   "notes": "Sin harina: apta para celíacos si la almendra es apta.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-bizcocho-de-yogur",
+   "tab": "recetas",
+   "name": "Bizcocho de yogur",
+   "group": "Dulce",
+   "tag": "",
+   "yield": "8 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Yogur natural (125 g)"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Vaso de yogur de azúcar"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Vaso de yogur de harina"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Vaso de yogur de aceite de girasol"
+      },
+      {
+       "q": "16",
+       "u": "g",
+       "n": "Levadura química"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Ralladura de limón"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Precalentar el horno a 180 ºC y engrasar un molde.",
+      "Batir los huevos con el azúcar hasta que blanqueen.",
+      "Añadir el yogur, el aceite y la ralladura.",
+      "Incorporar la harina tamizada con la levadura con movimientos envolventes.",
+      "Hornear 35–40 min, sin abrir el horno los primeros 25 min.",
+      "Comprobar con un palillo y enfriar sobre rejilla."
+     ]
+    }
+   ],
+   "notes": "El vaso del yogur sirve de medida para todo.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-magdalenas",
+   "tab": "recetas",
+   "name": "Magdalenas",
+   "group": "Dulce",
+   "tag": "",
+   "yield": "16 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Aceite de girasol"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Leche"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "8",
+       "u": "g",
+       "n": "Levadura química"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Ralladura de limón"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azúcar (para espolvorear)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Batir los huevos con el azúcar hasta que doblen volumen.",
+      "Añadir el aceite, la leche y la ralladura.",
+      "Incorporar la harina tamizada con la levadura con movimientos envolventes.",
+      "Reposar la masa en nevera 1 h.",
+      "Rellenar las cápsulas hasta ¾, espolvorear azúcar.",
+      "Hornear a 220 ºC durante 15 min."
+     ]
+    }
+   ],
+   "notes": "El contraste de masa fría y horno fuerte hace el copete.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-bizcocho-borracho",
+   "tab": "recetas",
+   "name": "Bizcocho borracho",
+   "group": "Dulce",
+   "tag": "Castilla-La Mancha",
+   "yield": "8 pax",
+   "parts": [
+    {
+     "name": "Bizcocho",
+     "ings": [
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "180",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "180",
+       "u": "g",
+       "n": "Harina de trigo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Precalentar el horno a 180 ºC.",
+      "Montar los huevos con el azúcar hasta que tripliquen el volumen.",
+      "Incorporar la harina tamizada con movimientos envolventes.",
+      "Verter en un molde rectangular engrasado y hornear 25 min.",
+      "Desmoldar y enfriar."
+     ]
+    },
+    {
+     "name": "Almíbar",
+     "ings": [
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Vino dulce"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Canela molida"
+      }
+     ],
+     "steps": [
+      "Hervir el agua con el azúcar y la canela 5 min.",
+      "Retirar del fuego y añadir el vino dulce.",
+      "Cortar el bizcocho en porciones y empaparlo con el almíbar caliente.",
+      "Espolvorear canela y reposar unas horas."
+     ]
+    }
+   ],
+   "notes": "Típico de Guadalajara.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-tarta-de-queso-vasca",
+   "tab": "recetas",
+   "name": "Tarta de queso vasca",
+   "group": "Dulce",
+   "tag": "País Vasco",
+   "yield": "8 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Queso crema"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "5",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Nata 35% MG"
+      },
+      {
+       "q": "25",
+       "u": "g",
+       "n": "Harina de trigo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Precalentar el horno a 220 ºC y forrar un molde de 24 cm con papel sulfurizado arrugado.",
+      "Mezclar el queso con el azúcar sin batir en exceso.",
+      "Añadir los huevos uno a uno.",
+      "Incorporar la nata y la harina tamizada.",
+      "Verter en el molde y hornear 45–50 min, hasta que esté muy tostada por fuera y tiemble en el centro.",
+      "Enfriar a temperatura ambiente y refrigerar 4 h."
+     ]
+    }
+   ],
+   "notes": "Debe quedar cremosa por dentro: mejor pasarse de tostado que de cocción.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-quesada-pasiega",
+   "tab": "recetas",
+   "name": "Quesada pasiega",
+   "group": "Dulce",
+   "tag": "Cantabria",
+   "yield": "8 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Queso fresco o requesón"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Mantequilla"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Leche"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Ralladura de limón"
+      },
+      {
+       "q": "½",
+       "u": "cdta.",
+       "n": "Canela molida"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Precalentar el horno a 180 ºC y engrasar un molde.",
+      "Triturar el queso con el azúcar y la mantequilla derretida.",
+      "Añadir los huevos, la leche, la ralladura y la canela.",
+      "Incorporar la harina tamizada.",
+      "Hornear 50–60 min hasta que esté dorada.",
+      "Enfriar antes de desmoldar."
+     ]
+    }
+   ],
+   "notes": "Tradicionalmente con cuajada fresca de los valles pasiegos.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-sobaos-pasiegos",
+   "tab": "recetas",
+   "name": "Sobaos pasiegos",
+   "group": "Dulce",
+   "tag": "Cantabria",
+   "yield": "12 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Mantequilla"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "8",
+       "u": "g",
+       "n": "Levadura química"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Ralladura de limón"
+      },
+      {
+       "q": "20",
+       "u": "ml",
+       "n": "Ron o anís"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Precalentar el horno a 180 ºC.",
+      "Batir la mantequilla pomada con el azúcar hasta blanquear.",
+      "Añadir los huevos uno a uno, la ralladura, el licor y la sal.",
+      "Incorporar la harina con la levadura.",
+      "Repartir en cápsulas rectangulares de papel y espolvorear azúcar.",
+      "Hornear 20–25 min."
+     ]
+    }
+   ],
+   "notes": "Mejor al día siguiente, bien envueltos.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-ensaimada",
+   "tab": "recetas",
+   "name": "Ensaimada",
+   "group": "Dulce",
+   "tag": "Baleares",
+   "yield": "2 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina de fuerza"
+      },
+      {
+       "q": "25",
+       "u": "g",
+       "n": "Levadura fresca"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Agua tibia"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Manteca de cerdo"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azúcar glas"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Disolver la levadura en el agua tibia.",
+      "Mezclar la harina, el azúcar, la sal, los huevos y el agua con levadura.",
+      "Amasar 15 min hasta obtener una masa fina y elástica. Reposar 1 h.",
+      "Dividir en dos y estirar cada parte muy fina, casi transparente.",
+      "Untar con manteca, enrollar en forma de cordón y luego en espiral.",
+      "Fermentar en la bandeja 8–12 h hasta triplicar volumen.",
+      "Pulverizar con agua y hornear a 180 ºC durante 15–20 min.",
+      "Enfriar y espolvorear azúcar glas."
+     ]
+    }
+   ],
+   "notes": "Admite relleno de cabello de ángel o crema.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-coca-de-llanda",
+   "tab": "recetas",
+   "name": "Coca de llanda",
+   "group": "Dulce",
+   "tag": "Comunidad Valenciana",
+   "yield": "8 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "200",
+       "u": "ml",
+       "n": "Leche"
+      },
+      {
+       "q": "200",
+       "u": "ml",
+       "n": "Aceite de girasol"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "16",
+       "u": "g",
+       "n": "Levadura química"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Ralladura de limón"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azúcar y canela (para cubrir)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Precalentar el horno a 180 ºC y engrasar una llanda (bandeja rectangular).",
+      "Batir los huevos con el azúcar hasta blanquear.",
+      "Añadir la leche, el aceite y la ralladura.",
+      "Incorporar la harina con la levadura.",
+      "Verter en la llanda, de 2–3 cm de grosor, y cubrir con azúcar y canela.",
+      "Hornear 30 min."
+     ]
+    }
+   ],
+   "notes": "La merienda valenciana de toda la vida.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-fartons",
+   "tab": "recetas",
+   "name": "Fartons",
+   "group": "Dulce",
+   "tag": "Comunidad Valenciana",
+   "yield": "15 ud.",
+   "parts": [
+    {
+     "name": "Masa",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina de fuerza"
+      },
+      {
+       "q": "25",
+       "u": "g",
+       "n": "Levadura fresca"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Leche tibia"
+      },
+      {
+       "q": "80",
+       "u": "ml",
+       "n": "Aceite de girasol"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Huevo (para pintar)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Disolver la levadura en la leche tibia.",
+      "Mezclar todo y amasar hasta obtener una masa suave. Fermentar 1 h.",
+      "Formar cilindros alargados de 15 cm y colocar en la bandeja.",
+      "Fermentar 45 min más y pintar con huevo.",
+      "Hornear a 190 ºC durante 12–15 min."
+     ]
+    },
+    {
+     "name": "Glaseado",
+     "ings": [
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Azúcar glas"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mezclar el azúcar glas con el agua.",
+      "Pincelar los fartons recién salidos del horno."
+     ]
+    }
+   ],
+   "notes": "De Alboraia, para mojar en horchata.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-pan-de-calatrava",
+   "tab": "recetas",
+   "name": "Pan de Calatrava",
+   "group": "Dulce",
+   "tag": "Murcia",
+   "yield": "8 pax",
+   "parts": [
+    {
+     "name": "Caramelo",
+     "ings": [
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hacer un caramelo dorado y cubrir el fondo de un molde rectangular."
+     ]
+    },
+    {
+     "name": "Pan",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Leche entera"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Magdalenas o bizcocho del día anterior"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Piel de limón"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      }
+     ],
+     "steps": [
+      "Infusionar la leche con la canela y la piel de limón. Templar.",
+      "Batir los huevos con el azúcar y añadir la leche colada.",
+      "Trocear las magdalenas en el molde.",
+      "Verter la mezcla por encima y dejar empapar 10 min.",
+      "Cocer al baño maría a 170 ºC durante 50–60 min.",
+      "Enfriar y refrigerar antes de desmoldar."
+     ]
+    }
+   ],
+   "notes": "Aprovechamiento de bollería del día anterior.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-brazo-de-gitano",
+   "tab": "recetas",
+   "name": "Brazo de gitano",
+   "group": "Dulce",
+   "tag": "",
+   "yield": "8 pax",
+   "parts": [
+    {
+     "name": "Plancha",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Harina de trigo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Precalentar el horno a 200 ºC.",
+      "Montar los huevos con el azúcar hasta que tripliquen el volumen.",
+      "Incorporar la harina tamizada con movimientos envolventes.",
+      "Extender sobre una bandeja con papel sulfurizado, de 1 cm de grosor.",
+      "Hornear 8–10 min.",
+      "Enrollar en caliente con un paño húmedo y dejar templar."
+     ]
+    },
+    {
+     "name": "Crema pastelera y montaje",
+     "ings": [
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Leche entera"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Yema de huevo"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Maicena"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Piel de limón"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azúcar glas"
+      }
+     ],
+     "steps": [
+      "Infusionar la leche con la piel de limón.",
+      "Blanquear las yemas con el azúcar y la maicena.",
+      "Añadir la leche y cocer removiendo hasta que espese. Enfriar con film a piel.",
+      "Desenrollar la plancha, extender la crema y volver a enrollar.",
+      "Espolvorear azúcar glas o quemar azúcar por encima."
+     ]
+    }
+   ],
+   "notes": "Admite relleno de nata o trufa.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-pastel-vasco",
+   "tab": "recetas",
+   "name": "Pastel vasco",
+   "group": "Dulce",
+   "tag": "País Vasco",
+   "yield": "8 pax",
+   "parts": [
+    {
+     "name": "Crema pastelera",
+     "ings": [
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Leche entera"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Yema de huevo"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Maicena"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Piel de limón"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Infusionar la leche con la piel de limón.",
+      "Blanquear las yemas con el azúcar y la maicena.",
+      "Añadir la leche y cocer removiendo hasta que espese.",
+      "Enfriar con film a piel."
+     ]
+    },
+    {
+     "name": "Masa y montaje",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Mantequilla"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Almendra molida"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Levadura química"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Yema de huevo (para pintar)"
+      }
+     ],
+     "steps": [
+      "Batir la mantequilla pomada con el azúcar.",
+      "Añadir los huevos, la almendra, la harina con la levadura y la sal.",
+      "Refrigerar la masa 1 h.",
+      "Forrar la base y los laterales de un molde de 22 cm con la mitad de la masa.",
+      "Rellenar con la crema y cubrir con el resto de la masa.",
+      "Pintar con yema y marcar un dibujo con un tenedor.",
+      "Hornear a 180 ºC durante 40 min."
+     ]
+    }
+   ],
+   "notes": "Gâteau basque; en Iparralde también se rellena de cereza negra.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-carquinoles",
+   "tab": "recetas",
+   "name": "Carquiñoles",
+   "group": "Dulce",
+   "tag": "Cataluña",
+   "yield": "30 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Almendra cruda con piel"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Ralladura de limón"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Levadura química"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Huevo (para pintar)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Precalentar el horno a 180 ºC.",
+      "Batir los huevos con el azúcar y la ralladura.",
+      "Añadir la harina con la levadura y las almendras enteras.",
+      "Formar dos barras alargadas y aplanadas y pintar con huevo.",
+      "Hornear 20 min.",
+      "Cortar en caliente en rebanadas de 1 cm.",
+      "Volver a hornear 10 min hasta que se sequen."
+     ]
+    }
+   ],
+   "notes": "Para mojar en vino dulce o café.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-perrunillas",
+   "tab": "recetas",
+   "name": "Perrunillas",
+   "group": "Dulce",
+   "tag": "Extremadura",
+   "yield": "25 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Manteca de cerdo"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Yema de huevo"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Ralladura de limón"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Anís"
+      },
+      {
+       "q": "½",
+       "u": "cdta.",
+       "n": "Canela molida"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Clara de huevo (para pintar)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Almendra (para decorar)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Batir la manteca con el azúcar hasta obtener una crema.",
+      "Añadir las yemas, la ralladura, el anís y la canela.",
+      "Incorporar la harina tostada y templada hasta obtener una masa arenosa.",
+      "Formar bolas aplastadas, pintar con clara y poner una almendra.",
+      "Hornear a 180 ºC durante 15–20 min.",
+      "Dejar enfriar en la bandeja antes de moverlas."
+     ]
+    }
+   ],
+   "notes": "Tostar la harina en el horno 15 min antes las hace más finas.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-mantecados",
+   "tab": "recetas",
+   "name": "Mantecados",
+   "group": "Dulce",
+   "tag": "Andalucía",
+   "yield": "30 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Manteca de cerdo"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Azúcar glas"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Almendra tostada molida"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Canela molida"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Ajonjolí tostado"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azúcar glas (para cubrir)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Tostar la harina en el horno a 150 ºC durante 30 min, removiendo. Enfriar.",
+      "Batir la manteca con el azúcar glas.",
+      "Añadir la harina, la almendra, la canela y el ajonjolí y amasar.",
+      "Estirar de 1,5 cm de grosor y cortar con un cortapastas.",
+      "Hornear a 180 ºC durante 15 min.",
+      "Enfriar sin tocar y espolvorear azúcar glas."
+     ]
+    }
+   ],
+   "notes": "De Estepa. Muy frágiles en caliente.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-roscon-de-reyes",
+   "tab": "recetas",
+   "name": "Roscón de Reyes",
+   "group": "Dulce",
+   "tag": "",
+   "yield": "8 pax",
+   "parts": [
+    {
+     "name": "Masa",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina de fuerza"
+      },
+      {
+       "q": "25",
+       "u": "g",
+       "n": "Levadura fresca"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Leche tibia"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Mantequilla"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Agua de azahar"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Ralladura de naranja"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Ralladura de limón"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Infusionar la leche con las ralladuras y templar.",
+      "Disolver la levadura en la leche.",
+      "Mezclar la harina, el azúcar, la sal, los huevos, el azahar y la leche.",
+      "Amasar 10 min, añadir la mantequilla pomada y amasar hasta que la masa sea elástica.",
+      "Fermentar tapada 2 h o toda la noche en nevera."
+     ]
+    },
+    {
+     "name": "Formado y decoración",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Huevo (para pintar)"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Fruta escarchada"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Almendra laminada"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "10",
+       "u": "ml",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Formar una bola, hacer un agujero en el centro y estirar en forma de rosca.",
+      "Fermentar en la bandeja 1 h 30 min.",
+      "Pintar con huevo y decorar con la fruta, la almendra y el azúcar humedecido.",
+      "Hornear a 180 ºC durante 20 min.",
+      "Enfriar y rellenar de nata si se desea."
+     ]
+    }
+   ],
+   "notes": "Esconder la figura y el haba antes de hornear.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-panellets",
+   "tab": "recetas",
+   "name": "Panellets",
+   "group": "Dulce",
+   "tag": "Cataluña",
+   "yield": "30 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Almendra molida"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "125",
+       "u": "g",
+       "n": "Patata o boniato cocido"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Ralladura de limón"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Piñón"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Chafar la patata cocida y mezclar con la almendra, el azúcar y la ralladura.",
+      "Refrigerar la masa 2 h.",
+      "Formar bolitas de 20 g.",
+      "Separar la clara de la yema. Pasar las bolitas por clara y rebozar en piñones.",
+      "Pintar con la yema.",
+      "Hornear a 200 ºC durante 10 min hasta dorar."
+     ]
+    }
+   ],
+   "notes": "Típicos de Todos los Santos, con moscatel.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-mazapan-de-toledo",
+   "tab": "recetas",
+   "name": "Mazapán de Toledo",
+   "group": "Dulce",
+   "tag": "Castilla-La Mancha",
+   "yield": "30 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Almendra cruda pelada molida"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Azúcar glas"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Clara de huevo"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Yema de huevo (para pintar)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar la almendra con el azúcar glas.",
+      "Añadir la clara y el agua y amasar hasta obtener una pasta compacta.",
+      "Reposar tapada 12 h en nevera.",
+      "Formar figuritas y pintarlas con yema.",
+      "Gratinar a 220 ºC 3–4 min hasta dorar por arriba."
+     ]
+    }
+   ],
+   "notes": "Con IGP en Toledo. Mejor tras unos días de reposo.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-yemas-de-santa-teresa",
+   "tab": "recetas",
+   "name": "Yemas de Santa Teresa",
+   "group": "Dulce",
+   "tag": "Castilla y León",
+   "yield": "20 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "12",
+       "u": "ud.",
+       "n": "Yema de huevo"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Piel de limón"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azúcar glas"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hacer un almíbar con el agua, el azúcar, la piel de limón y la canela hasta punto de hebra.",
+      "Retirar la canela y el limón y dejar templar.",
+      "Añadir las yemas coladas al almíbar, removiendo.",
+      "Cocer a fuego muy suave sin dejar de remover hasta que la pasta se despegue del cazo.",
+      "Enfriar la pasta.",
+      "Formar bolitas, rebozar en azúcar glas y poner en cápsulas."
+     ]
+    }
+   ],
+   "notes": "De Ávila. Con las claras: merengues o leche merengada.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-peras-al-vino",
+   "tab": "recetas",
+   "name": "Peras al vino",
+   "group": "Dulce",
+   "tag": "La Rioja",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Pera conferencia"
+      },
+      {
+       "q": "750",
+       "u": "ml",
+       "n": "Vino tinto"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Clavo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Piel de naranja"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Pelar las peras dejando el rabo.",
+      "Llevar el vino a ebullición con el azúcar y las especias.",
+      "Cocer las peras en el vino, tapadas, a fuego suave 30–40 min, girándolas.",
+      "Retirar las peras y reducir el vino hasta que quede como un jarabe.",
+      "Servir las peras bañadas en la reducción."
+     ]
+    }
+   ],
+   "notes": "Mejor de un día para otro, reposadas en el vino.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-manzanas-asadas",
+   "tab": "recetas",
+   "name": "Manzanas asadas",
+   "group": "Dulce",
+   "tag": "",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Manzana reineta"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Mantequilla"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Vino dulce o moscatel"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Canela molida"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Precalentar el horno a 180 ºC.",
+      "Descorazonar las manzanas sin atravesarlas y hacer un corte superficial alrededor.",
+      "Rellenar el hueco con la mantequilla, el azúcar y la canela.",
+      "Colocar en una fuente y regar con el vino.",
+      "Hornear 40–45 min, bañándolas con su jugo.",
+      "Servir templadas con el jugo."
+     ]
+    }
+   ],
+   "notes": "La reineta aguanta bien el horno sin deshacerse.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-miguelitos-de-la-roda",
+   "tab": "recetas",
+   "name": "Miguelitos de La Roda",
+   "group": "Dulce",
+   "tag": "Castilla-La Mancha",
+   "yield": "12 ud.",
+   "parts": [
+    {
+     "name": "Crema",
+     "ings": [
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Leche entera"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Yema de huevo"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Maicena"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Piel de limón"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Infusionar la leche con la piel de limón.",
+      "Blanquear las yemas con el azúcar y la maicena.",
+      "Añadir la leche y cocer removiendo hasta que espese.",
+      "Enfriar con film a piel y meter en manga."
+     ]
+    },
+    {
+     "name": "Hojaldre y montaje",
+     "ings": [
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Lámina de hojaldre"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azúcar glas"
+      }
+     ],
+     "steps": [
+      "Cortar el hojaldre en cuadrados de 6 cm.",
+      "Hornear a 200 ºC durante 15 min hasta que suban y doren.",
+      "Enfriar, abrir por la mitad y rellenar con la crema.",
+      "Espolvorear abundante azúcar glas."
+     ]
+    }
+   ],
+   "notes": "Con hojaldre comprado salen en una hora.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-tortas-de-aceite",
+   "tab": "recetas",
+   "name": "Tortas de aceite",
+   "group": "Dulce",
+   "tag": "Andalucía",
+   "yield": "10 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "80",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "80",
+       "u": "ml",
+       "n": "Agua tibia"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Levadura fresca"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Matalahúva"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Ajonjolí"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Clara de huevo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Disolver la levadura en el agua tibia.",
+      "Calentar el AOVE con la matalahúva y el ajonjolí 1 min y templar.",
+      "Mezclar la harina, la sal, el aceite y el agua con levadura y amasar. Fermentar 1 h.",
+      "Dividir en bolas de 40 g y estirar muy finas.",
+      "Pintar con clara y espolvorear azúcar.",
+      "Hornear a 200 ºC durante 10–12 min hasta que estén crujientes."
+     ]
+    }
+   ],
+   "notes": "Las de Castilleja de la Cuesta (Sevilla) son las más conocidas.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-bienmesabe-canario",
+   "tab": "recetas",
+   "name": "Bienmesabe canario",
+   "group": "Dulce",
+   "tag": "Canarias",
+   "yield": "6 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Almendra cruda pelada molida"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Yema de huevo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Ralladura de limón"
+      },
+      {
+       "q": "½",
+       "u": "cdta.",
+       "n": "Canela molida"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hacer un almíbar con el agua y el azúcar hasta punto de hebra.",
+      "Añadir la almendra, la ralladura y la canela y cocer 5 min removiendo.",
+      "Templar y añadir las yemas batidas, removiendo.",
+      "Cocer a fuego muy suave 5 min más sin que hierva.",
+      "Repartir en cuencos y enfriar."
+     ]
+    }
+   ],
+   "notes": "Se toma solo, con helado de vainilla o sobre bizcocho.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-frangollo",
+   "tab": "recetas",
+   "name": "Frangollo",
+   "group": "Dulce",
+   "tag": "Canarias",
+   "yield": "6 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Harina de millo (maíz)"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Leche entera"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Mantequilla"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Almendra picada"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Pasa"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Piel de limón"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Infusionar la leche con la canela y la piel de limón.",
+      "Retirar las aromáticas y añadir la harina de millo en forma de lluvia, removiendo.",
+      "Cocer a fuego suave 20 min sin dejar de remover.",
+      "Añadir el azúcar, la mantequilla, las almendras y las pasas.",
+      "Retirar del fuego e incorporar los huevos batidos.",
+      "Verter en un molde, enfriar y cortar en porciones."
+     ]
+    }
+   ],
+   "notes": "Se sirve con miel de palma.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-mel-i-mato",
+   "tab": "recetas",
+   "name": "Mel i mató",
+   "group": "Dulce",
+   "tag": "Cataluña",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Mató o requesón fresco"
+      },
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Miel"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Nuez"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar el mató en porciones.",
+      "Regar con la miel.",
+      "Decorar con las nueces troceadas."
+     ]
+    }
+   ],
+   "notes": "Postre de los monasterios de Montserrat.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-sopa-de-almendras",
+   "tab": "recetas",
+   "name": "Sopa de almendras",
+   "group": "Dulce",
+   "tag": "",
+   "yield": "6 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Almendra cruda pelada"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Leche entera"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Piel de limón"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Pan duro"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Canela molida"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Tostar ligeramente la almendra y triturarla fina.",
+      "Hervir la leche con la canela, la piel de limón y el azúcar.",
+      "Añadir la almendra y cocer 15 min a fuego suave, removiendo.",
+      "Retirar la canela y la piel.",
+      "Cortar el pan en rebanadas muy finas y tostarlas.",
+      "Servir la sopa caliente sobre el pan, con canela."
+     ]
+    }
+   ],
+   "notes": "Postre tradicional de Nochebuena en Castilla.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-pan-de-higo",
+   "tab": "recetas",
+   "name": "Pan de higo",
+   "group": "Dulce",
+   "tag": "Andalucía",
+   "yield": "1 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Higo seco"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Almendra tostada"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Nuez"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Matalahúva"
+      },
+      {
+       "q": "½",
+       "u": "cdta.",
+       "n": "Canela molida"
+      },
+      {
+       "q": "½",
+       "u": "cdta.",
+       "n": "Clavo molido"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Ralladura de naranja"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Anís"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Retirar el rabito de los higos y picarlos.",
+      "Picar groseramente las almendras y las nueces.",
+      "Mezclar todo con las especias, la ralladura y el anís hasta obtener una pasta compacta.",
+      "Prensar en un molde forrado con film.",
+      "Reposar 2–3 días en lugar fresco antes de cortar."
+     ]
+    }
+   ],
+   "notes": "Acompaña bien un queso curado.",
+   "done": false
   }
  ]
 }
