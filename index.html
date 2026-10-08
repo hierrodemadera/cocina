@@ -1,0 +1,1433 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Cocina">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
+<title>Cocina</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231c1c1e'/%3E%3Cpath d='M18 30h28v6a14 14 0 0 1-28 0z' fill='%23fff'/%3E%3Cpath d='M26 14c-3 4 3 6 0 10M34 14c-3 4 3 6 0 10' stroke='%23fff' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  --bg:#ffffff;--fg:#1c1c1e;--muted:#8a8a8e;--line:#ececec;--soft:#f4f4f3;--field:#dcdcdc;
+  --ok:#0a8a3f;--accent:#1c1c1e;--on-accent:#fff;--shadow:0 -6px 30px rgba(0,0,0,.14);
+  --strip:#f3f3f2;--card-shadow:0 1px 2px rgba(0,0,0,.06);
+  --st:env(safe-area-inset-top,0px);--sb:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root{--bg:#121212;--fg:#ececec;--muted:#8d8d92;--line:#262626;--soft:#1c1c1c;--field:#3a3a3a;
+    --ok:#3ccf7a;--accent:#ececec;--on-accent:#121212;--shadow:0 -6px 30px rgba(0,0,0,.6);--strip:#1a1a1a;--card-shadow:none;}
+}
+html,body{background:var(--bg);color:var(--fg);}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size:16px;line-height:1.5;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;}
+body.noscroll{overflow:hidden;}
+button,input,textarea{font:inherit;color:inherit;}
+button{background:none;border:none;cursor:pointer;}
+svg{display:block;}
+.wrap{max-width:720px;margin:0 auto;padding:0 16px;}
+
+/* ---------- cabecera ---------- */
+.top{position:sticky;top:0;z-index:10;background:var(--bg);padding-top:var(--st);border-bottom:1px solid var(--line);}
+/* color de cada grupo, como las etiquetas de Airtable */
+.gp{display:inline-flex;align-items:center;max-width:100%;padding:2px 10px;border-radius:12px;background:var(--gc,#eee);color:#1c1c1e;
+  font-size:13.5px;line-height:1.4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.gdot{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--gc,#ddd);margin-right:6px;vertical-align:1px;box-shadow:inset 0 0 0 1px rgba(0,0,0,.08);}
+/* tablero */
+.board{display:flex;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;scroll-snap-type:x proximity;
+  margin:0 calc(50% - 50vw);padding:14px 16px 0;scroll-padding-left:16px;height:70vh;}
+.col{flex:1 1 0;min-width:min(72vw,240px);max-width:360px;display:flex;flex-direction:column;min-height:0;
+  scroll-snap-align:start;padding:0 12px;border-left:1px solid var(--line);}
+.col:first-child{border-left:none;margin-left:auto;padding-left:0;}
+.col:last-child{margin-right:auto;padding-right:0;}
+.top .wrap,.wide{max-width:none;}
+.col-body{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:2px 2px calc(90px + var(--sb));margin:0 -2px;scrollbar-width:thin;}
+body.boardmode main{padding-bottom:0;}
+.col-h{display:flex;align-items:center;gap:8px;padding:2px 0 12px;flex-shrink:0;}
+.col-h .c{font-size:13px;color:var(--muted);flex-shrink:0;}
+.col-empty{font-size:12.5px;color:var(--muted);text-align:center;padding:8px 0 4px;}
+.col-add{display:flex;align-items:center;gap:6px;color:var(--muted);font-size:14px;padding:8px 4px;}
+.col-add:hover{color:var(--fg);}
+.rcard{display:flex;align-items:center;gap:4px;border:1px solid var(--line);border-radius:8px;background:var(--bg);
+  box-shadow:var(--card-shadow);margin-bottom:8px;padding:4px 4px 4px 12px;min-height:46px;}
+.rcard .open{flex:1;min-width:0;text-align:left;padding:7px 0;}
+.rcard .n{display:block;font-size:15.5px;line-height:1.3;}
+.rcard .sub{display:flex;align-items:center;gap:6px;margin-top:3px;font-size:12.5px;color:var(--muted);}
+.rcard .sub:empty{display:none;}
+.rcard .chk{width:38px;height:38px;justify-content:center;}
+.rcard .chk i{width:21px;height:21px;}
+.rcard .wk{margin-left:0;font-size:10px;padding:0 5px;}
+.list{margin:0 calc(50% - 50vw);padding:26px 16px 0 26px;}
+.list > *{max-width:560px;}
+@media (min-width:700px){
+  .top .wrap,.wide{padding:0 28px;}
+  .tabs{margin:0 -28px;padding:0 28px;}
+  .list{padding:30px 28px 0 52px;}
+  .board{padding:18px 28px 0;scroll-padding-left:28px;}
+  .groups{padding-top:14px;}
+}
+.bar{display:flex;align-items:center;gap:2px;height:50px;}
+.bar h1{font-size:17px;font-weight:650;flex:1;}
+.ib{width:42px;height:42px;display:flex;align-items:center;justify-content:center;color:var(--muted);border-radius:10px;position:relative;flex-shrink:0;}
+#menu-btn{margin-right:-10px;}
+.ib.on{color:var(--fg);}
+.ib .badge{position:absolute;top:9px;right:8px;width:7px;height:7px;border-radius:50%;background:var(--ok);}
+.searchbox{flex:1;display:none;align-items:center;gap:8px;}
+.bar.searching h1,.bar.searching .ib{display:none;}
+.bar.searching .searchbox{display:flex;}
+.searchbox input{flex:1;min-width:0;height:38px;padding:0 12px;border:none;border-radius:10px;background:var(--soft);font-size:16px;}
+.searchbox input:focus{outline:none;}
+.searchbox button{font-size:15px;color:var(--muted);padding:8px 2px 8px 6px;}
+.tabstrip{background:var(--strip);border-top:1px solid var(--line);}
+.tabs{display:flex;gap:0;overflow-x:auto;scrollbar-width:none;margin:0 -16px;padding:0 16px;}
+.tabs::-webkit-scrollbar{display:none;}
+.tab{position:relative;padding:11px 13px 10px;font-size:13px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);
+  white-space:nowrap;border:1px solid transparent;border-bottom:none;margin-bottom:-1px;}
+.tab + .tab::before{content:'';position:absolute;left:0;top:12px;bottom:12px;width:1px;background:var(--line);}
+.tab.on{color:var(--fg);background:var(--bg);border-color:var(--line);border-radius:6px 6px 0 0;}
+.tab.on::before,.tab.on + .tab::before{display:none;}
+.tab .n{font-size:12px;color:var(--muted);margin-left:3px;}
+
+/* grupos: segunda fila de navegación */
+.groups{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:12px 0 2px;}
+.groups::-webkit-scrollbar{display:none;}
+.groups.hide{display:none;}
+.chip{flex-shrink:0;height:32px;padding:0 13px;border-radius:16px;border:1px solid var(--field);font-size:14px;color:var(--muted);white-space:nowrap;}
+.chip.on{background:var(--accent);color:var(--on-accent);border-color:var(--accent);}
+.chip .c{opacity:.6;margin-left:4px;font-size:12.5px;}
+.chips{display:flex;gap:6px;flex-wrap:wrap;}
+.active-f{display:flex;align-items:center;gap:8px;padding:8px 0 0;font-size:13.5px;color:var(--muted);}
+.active-f button{text-decoration:underline;text-underline-offset:3px;color:var(--muted);font-size:13.5px;}
+
+/* desplegable de filtro */
+#fpop{position:fixed;z-index:30;display:none;min-width:240px;max-width:calc(100vw - 24px);background:var(--bg);
+  border:1px solid var(--line);border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,.15);padding:8px;}
+#fpop.open{display:block;}
+.fp-h{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding:8px 8px 4px;}
+.fp-o{display:flex;align-items:center;justify-content:space-between;width:100%;padding:10px 8px;border-radius:8px;font-size:15px;text-align:left;}
+.fp-o:hover{background:var(--soft);}
+.fp-o.on::after{content:'✓';color:var(--ok);font-weight:700;}
+.fp-tags{display:flex;flex-wrap:wrap;gap:6px;padding:4px 8px 8px;}
+
+/* ---------- lista ---------- */
+main{padding-bottom:calc(96px + var(--sb));}
+.ghead{display:flex;align-items:baseline;gap:8px;padding:20px 0 4px;width:100%;text-align:left;}
+button.ghead{padding:20px 0 6px;}
+.ghead .ch{margin-left:auto;align-self:center;color:var(--muted);transition:transform .15s;}
+.ghead.closed .ch{transform:rotate(-90deg);}
+.ghead.closed{border-bottom:1px solid var(--line);padding-bottom:12px;}
+.ghead .t{font-size:12.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);}
+.ghead .c{font-size:12.5px;color:var(--muted);}
+.row{display:flex;align-items:center;border-bottom:1px solid var(--line);min-height:54px;}
+.chk{width:42px;height:52px;flex-shrink:0;display:flex;align-items:center;}
+.chk i{width:22px;height:22px;border-radius:50%;border:1.5px solid var(--field);display:flex;align-items:center;justify-content:center;}
+.chk.on i{background:var(--ok);border-color:var(--ok);}
+.chk.on i::after{content:'';width:9px;height:5px;border-left:2px solid #fff;border-bottom:2px solid #fff;transform:translateY(-1px) rotate(-45deg);}
+.rname{flex:1;min-width:0;display:flex;align-items:center;gap:8px;min-height:52px;text-align:left;padding:6px 0;}
+.rname .n{font-size:16px;overflow:hidden;text-overflow:ellipsis;}
+.row.done .rname .n{color:var(--muted);}
+.tag{font-size:13px;color:var(--muted);white-space:nowrap;}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--fg);flex-shrink:0;opacity:.5;}
+.wk{margin-left:auto;font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);
+  border:1px solid var(--field);border-radius:6px;padding:1px 6px;flex-shrink:0;}
+.empty{padding:48px 8px;text-align:center;color:var(--muted);font-size:15px;line-height:1.7;}
+
+.fab{position:fixed;right:20px;bottom:calc(20px + var(--sb));z-index:20;width:56px;height:56px;border-radius:50%;
+  background:var(--accent);color:var(--on-accent);font-size:30px;line-height:1;box-shadow:0 6px 18px rgba(0,0,0,.22);}
+.fab.hide{display:none;}
+
+/* ---------- semana ---------- */
+.week-top{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:14px 0 4px;color:var(--muted);font-size:14px;}
+.link{color:var(--muted);font-size:14px;text-decoration:underline;text-underline-offset:3px;padding:8px 0;}
+.card{border:1px solid var(--line);border-radius:14px;margin-top:12px;overflow:hidden;}
+.card-h{display:flex;align-items:center;gap:6px;padding:6px 6px 6px 14px;border-bottom:1px solid var(--line);}
+.card-h .n{flex:1;min-width:0;font-weight:600;text-align:left;padding:8px 0;}
+.card-h .sm{height:36px;padding:0 10px;border-radius:8px;font-size:14px;color:var(--muted);}
+.card-h .sm.ok{color:var(--ok);font-weight:600;}
+.card .scaler{margin:10px 14px 2px;}
+.card .note{padding:12px 14px;color:var(--muted);font-size:14px;}
+.shop{list-style:none;padding:2px 14px 8px;}
+.shop li{display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-bottom:1px solid var(--line);cursor:pointer;}
+.shop li:last-child{border-bottom:none;}
+.shop li::before{content:'';flex-shrink:0;width:18px;height:18px;margin-top:2px;border-radius:5px;border:1.5px solid var(--field);}
+.shop li.struck{color:var(--muted);text-decoration:line-through;}
+.shop li.struck::before{background:var(--muted);border-color:var(--muted);}
+.shop li.sub{cursor:default;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding-top:14px;border-bottom:none;}
+.shop li.sub::before{display:none;}
+.shop b{font-weight:650;}
+
+/* ---------- raciones ---------- */
+.scaler{display:inline-flex;align-items:center;gap:4px;background:var(--soft);border-radius:10px;padding:3px;font-size:14px;}
+.scaler button{width:36px;height:34px;border-radius:8px;font-size:19px;}
+.scaler input{width:52px;height:34px;text-align:center;border:none;background:var(--bg);border-radius:8px;font-size:16px;font-weight:600;}
+.scaler .u{padding:0 8px 0 2px;color:var(--muted);}
+.scaler .l{padding:0 2px 0 8px;color:var(--muted);}
+
+/* ---------- hojas ---------- */
+#sheet{position:fixed;inset:0;z-index:50;display:none;}
+#sheet.open{display:block;}
+.backdrop{position:absolute;inset:0;background:rgba(0,0,0,.35);animation:fade .18s ease-out;}
+.sheet{position:absolute;left:0;right:0;bottom:0;max-height:94vh;display:flex;flex-direction:column;
+  background:var(--bg);border-radius:18px 18px 0 0;box-shadow:var(--shadow);animation:up .22s cubic-bezier(.2,.8,.3,1);}
+.sheet.tall{height:94vh;}
+@supports (height:1dvh){.sheet{max-height:94dvh;}.sheet.tall{height:94dvh;}}
+@keyframes up{from{transform:translateY(40px);opacity:.4;}to{transform:none;opacity:1;}}
+@keyframes fade{from{opacity:0;}}
+@media (min-width:700px){
+  .sheet{left:50%;right:auto;bottom:auto;top:50%;width:min(680px,92vw);transform:translate(-50%,-50%);
+    border-radius:18px;max-height:88vh;animation:pop .18s ease-out;}
+  .sheet.tall{height:88vh;}
+  @supports (height:1dvh){.sheet{max-height:88dvh;}.sheet.tall{height:88dvh;}}
+  @keyframes pop{from{transform:translate(-50%,-48%);opacity:.4;}to{transform:translate(-50%,-50%);opacity:1;}}
+}
+.sh-head{display:flex;align-items:center;gap:6px;padding:8px 8px 8px 6px;border-bottom:1px solid var(--line);flex-shrink:0;}
+.sh-head h2{flex:1;min-width:0;font-size:17px;font-weight:650;line-height:1.3;padding:4px 0;}
+.x{width:44px;height:44px;font-size:18px;color:var(--muted);flex-shrink:0;}
+.sh-btn{height:38px;padding:0 14px;border-radius:10px;font-size:15px;font-weight:600;flex-shrink:0;}
+.sh-btn.primary{background:var(--accent);color:var(--on-accent);}
+.sh-btn.ghost{background:var(--soft);}
+.sh-body{overflow-y:auto;-webkit-overflow-scrolling:touch;padding:16px 18px calc(28px + var(--sb));flex:1;overscroll-behavior:contain;}
+.pills{display:flex;flex-wrap:wrap;gap:8px;align-items:center;}
+.pill{height:36px;padding:0 14px;border-radius:18px;border:1px solid var(--field);font-size:14px;color:var(--muted);}
+.pill.on{border-color:var(--ok);color:var(--ok);font-weight:600;}
+.pill.on.wkp{border-color:var(--fg);color:var(--fg);}
+.meta-line{color:var(--muted);font-size:14px;margin-top:12px;}
+
+/* ficha técnica (lectura) */
+.ficha-top{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-top:18px;
+  padding:12px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+.ficha-top .lb{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);}
+.compo{margin-top:18px;}
+.compo ol{list-style:none;margin-top:6px;}
+.compo li button{display:block;width:100%;text-align:left;padding:7px 0;font-size:15.5px;border-bottom:1px solid var(--line);}
+.compo li button::before{content:'– ';color:var(--muted);}
+.lbl{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);}
+.part{margin-top:30px;scroll-margin-top:12px;}
+.part > h3{font-size:18px;font-weight:650;line-height:1.3;margin-bottom:12px;}
+.part .lbl{display:block;margin:14px 0 4px;}
+.ings{width:100%;border-collapse:collapse;}
+.ings td{padding:7px 0;border-bottom:1px solid var(--line);vertical-align:top;font-size:15.5px;}
+.ings tr:last-child td{border-bottom:none;}
+.ings .q{width:1%;white-space:nowrap;text-align:right;font-weight:650;padding-right:6px;}
+.ings .u{width:1%;white-space:nowrap;color:var(--muted);padding-right:12px;}
+.steps{padding-left:0;list-style:none;counter-reset:s;}
+.steps li{counter-increment:s;display:flex;gap:10px;padding:6px 0;font-size:15.5px;line-height:1.55;}
+.steps li::before{content:counter(s) '.';flex-shrink:0;min-width:22px;text-align:right;color:var(--muted);font-variant-numeric:tabular-nums;}
+.prose{white-space:pre-wrap;word-wrap:break-word;font-size:15.5px;line-height:1.6;}
+.foot{margin-top:30px;display:flex;gap:10px;flex-wrap:wrap;}
+.foot button{height:42px;padding:0 16px;border-radius:10px;background:var(--soft);font-size:15px;}
+.foot button.danger{color:#c0392b;}
+
+/* edición */
+.f{margin-top:16px;}
+.f:first-child{margin-top:0;}
+.f > label,.f > .lb{display:block;font-size:13px;color:var(--muted);margin-bottom:6px;}
+.hint{font-size:12.5px;color:var(--muted);margin-top:5px;}
+.in,.ta{width:100%;border:1px solid var(--field);border-radius:10px;background:var(--bg);padding:10px 12px;font-size:16px;}
+.in{height:46px;}
+.ta{min-height:92px;resize:none;line-height:1.5;overflow:hidden;}
+.in:focus,.ta:focus{outline:none;border-color:var(--fg);}
+.row2{display:flex;gap:10px;}
+.row2 > *{flex:1;min-width:0;}
+.row2 > .f:first-child{margin-top:16px;}
+.seg{display:flex;background:var(--soft);border-radius:10px;padding:3px;}
+.seg button{flex:1;height:36px;border-radius:8px;font-size:14px;color:var(--muted);}
+.seg button.on{background:var(--bg);color:var(--fg);font-weight:600;box-shadow:0 1px 3px rgba(0,0,0,.08);}
+.epart{margin-top:22px;border:1px solid var(--line);border-radius:14px;padding:14px 12px;}
+.epart-h{display:flex;gap:8px;align-items:center;}
+.epart-h .in{font-weight:600;}
+.epart-h .x{width:40px;height:40px;}
+.irow{display:grid;grid-template-columns:58px 74px 1fr 34px;gap:6px;margin-top:6px;}
+.irow .in{height:42px;padding:0 9px;font-size:15.5px;}
+.irow .in.q{text-align:right;}
+.irow .rm{color:var(--muted);font-size:15px;}
+.ihead{display:grid;grid-template-columns:58px 74px 1fr 34px;gap:6px;font-size:11.5px;color:var(--muted);margin-top:12px;}
+.ihead span:first-child{text-align:right;padding-right:9px;}
+.ihead span{padding-left:9px;}
+.addline{margin-top:8px;height:38px;padding:0 12px;border-radius:9px;background:var(--soft);font-size:14px;}
+.addpart{margin-top:16px;width:100%;height:46px;border-radius:12px;border:1.5px dashed var(--field);color:var(--muted);font-size:15px;}
+
+/* menú */
+.mitem{display:block;width:100%;text-align:left;padding:14px 4px;border-bottom:1px solid var(--line);font-size:16px;}
+.mitem small{display:block;color:var(--muted);font-size:13px;margin-top:2px;}
+.mitem:last-child{border-bottom:none;}
+.muted{color:var(--muted);font-size:14px;}
+
+.toast{position:fixed;left:50%;top:calc(14px + var(--st));transform:translateX(-50%);z-index:80;
+  background:var(--accent);color:var(--on-accent);padding:9px 16px;border-radius:20px;font-size:14px;
+  opacity:0;pointer-events:none;transition:opacity .2s;max-width:88vw;text-align:center;}
+.toast.show{opacity:1;}
+@keyframes shake{0%,100%{transform:none;}25%{transform:translateX(-6px);}75%{transform:translateX(6px);}}
+.shake{animation:shake .25s;}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <div class="bar" id="bar">
+      <h1>Cocina</h1>
+      <button class="ib" id="search-btn" aria-label="Buscar">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      </button>
+      <button class="ib" id="filter-btn" aria-label="Filtrar">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
+        <i class="badge" style="display:none"></i>
+      </button>
+      <button class="ib" id="menu-btn" aria-label="Más">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="12" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="19" cy="12" r="1.8"/></svg>
+      </button>
+      <div class="searchbox">
+        <input id="search" type="search" placeholder="Buscar en todo" autocomplete="off" spellcheck="false" enterkeyhint="search">
+        <button id="search-cancel">Cancelar</button>
+      </div>
+    </div>
+  </div>
+  <div class="tabstrip"><div class="wrap"><nav class="tabs" id="tabs"></nav></div></div>
+</header>
+
+<div class="wrap wide">
+  <div class="groups" id="groups"></div>
+  <div id="active-f"></div>
+</div>
+<div class="wrap">
+  <main id="main"></main>
+</div>
+
+<div id="fpop"></div>
+<button class="fab" id="fab" aria-label="Añadir">+</button>
+<div id="sheet"></div>
+<div class="toast" id="toast"></div>
+<datalist id="tags-dl"></datalist>
+<datalist id="units-dl">
+  <option value="g"><option value="kg"><option value="ml"><option value="l"><option value="ud."><option value="C/S">
+  <option value="cda."><option value="cdta."><option value="taza"><option value="pizca"><option value="diente"><option value="rama">
+</datalist>
+
+<script>
+(function(){
+"use strict";
+
+/*PURE-START*/
+const TABS = [
+  {id:'recetas', label:'Recetas'},
+  {id:'productos', label:'Productos'},
+  {id:'conservas', label:'Conservas'}
+];
+const GROUPS = {
+  recetas:   ['Salado','Dulce'],
+  productos: ['Lácteos y derivados','Masas','Legumbres y semillas','Aceites, infusiones y derivados','Salsas'],
+  conservas: ['Fermentos','Encurtidos','Conservas dulces','Conservas saladas']
+};
+
+/* colores de los grupos (paleta suave, como las etiquetas de Airtable) */
+const GCOLOR = {
+  'Salado':'#fee2d5', 'Dulce':'#ffdaf6',
+  'Lácteos y derivados':'#cfdfff', 'Masas':'#d0f0fd', 'Legumbres y semillas':'#c2f5e9',
+  'Aceites, infusiones y derivados':'#d1f7c4', 'Salsas':'#ffeab6',
+  'Fermentos':'#ede2fe', 'Encurtidos':'#d1f7c4', 'Conservas dulces':'#ffdaf6', 'Conservas saladas':'#ffeab6'
+};
+function gc(g){ return GCOLOR[g] || '#eeeeee'; }
+const PALETTE = ['#cfdfff','#d0f0fd','#c2f5e9','#d1f7c4','#ffeab6','#fee2d5','#ffdce5','#ffdaf6','#ede2fe'];
+function tc(t){ let h = 0; for(const ch of norm(t)) h = (h*31 + ch.charCodeAt(0)) | 0; return PALETTE[Math.abs(h) % PALETTE.length]; }
+function norm(s){ return (s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().trim(); }
+
+/* ---- cantidades ---- */
+const FR = '½¼¾⅓⅔⅛';
+const FRV = {'½':.5,'¼':.25,'¾':.75,'⅓':1/3,'⅔':2/3,'⅛':.125};
+const NUM = `(?:\\d+\\/\\d+|\\d+(?:[.,]\\d+)?(?:\\s?[${FR}])?|[${FR}])`;
+const QRE = new RegExp(`^((?:[-•·*–−]\\s*)?(?:\\(opcional\\)\\s*|opcional:?\\s*(?:[-•]\\s*)?)?)(${NUM})(?:\\s*[–-]\\s*(${NUM}))?(?=\\s|$|[a-zA-ZáéíóúüñÁÉÍÓÚÑ%(])`, 'i');
+const QONLY = new RegExp(`^(${NUM})(?:\\s*[–-]\\s*(${NUM}))?$`);
+const YRE = new RegExp(`^(${NUM})\\s*(.*)$`);
+const UNIT_RE = /^(kg|g|gr|grs?|mg|l|ml|cl|dl|ud\.?|uds\.?|unidad(?:es)?|cucharaditas?|cucharadas?|cdtas?\.?|cdas?\.?|tazas?|pizcas?|vasos?|dientes?|ramas?|hojas?|latas?|rodajas?|manojos?|puñados?|sobres?)(?=[\s.]|$)\.?\s*/i;
+
+function parseNum(s){
+  s = (s||'').replace(/\s/g,'');
+  let m = s.match(/^(\d+)\/(\d+)$/);
+  if(m) return +m[1] / +m[2];
+  m = s.match(/^(\d+(?:[.,]\d+)?)?([½¼¾⅓⅔⅛])?$/);
+  if(!m || (!m[1] && !m[2])) return NaN;
+  return (m[1] ? parseFloat(m[1].replace(',','.')) : 0) + (m[2] ? FRV[m[2]] : 0);
+}
+function fmtNum(v){
+  if(!isFinite(v) || v <= 0) return '0';
+  const r = Math.round(v);
+  if(Math.abs(v - r) < 0.03) return String(r);
+  if(v < 10){
+    const w = Math.floor(v), f = v - w;
+    for(const [x,c] of [[.25,'¼'],[.5,'½'],[.75,'¾'],[1/3,'⅓'],[2/3,'⅔']])
+      if(Math.abs(f - x) < 0.04) return (w ? w + ' ' : '') + c;
+    return v.toFixed(1).replace('.', ',');
+  }
+  return String(r);
+}
+/* escala el contenido de la casilla «cantidad»; si no es un número (C/S…), lo deja igual */
+function scaleQ(q, f){
+  q = (q||'').trim();
+  if(f === 1 || !q) return q;
+  const m = q.match(QONLY);
+  if(!m) return q;
+  const a = parseNum(m[1]), b = m[2] ? parseNum(m[2]) : null;
+  if(!isFinite(a)) return q;
+  return fmtNum(a*f) + (b !== null && isFinite(b) ? '–' + fmtNum(b*f) : '');
+}
+function isNumQ(q){ return QONLY.test((q||'').trim()); }
+function stripBullet(line){ return line.trim().replace(/^[-•·*−]\s*/,''); }
+function cap(s){ return s ? s.charAt(0).toLocaleUpperCase('es') + s.slice(1) : s; }
+
+/* una línea de texto libre («400 g de panceta») → {q, u, n} */
+function parseIngLine(line){
+  const t = stripBullet(line.replace(/\t/g,' '));
+  if(!t) return null;
+  const m = t.match(QRE);
+  if(!m){
+    const cs = t.match(/^(.*?)[,\s]*\b(al gusto|c\/s|cantidad suficiente)\b\.?\s*$/i);
+    if(cs && cs[1].trim()) return { q:'', u:'C/S', n: cap(cs[1].trim()) };
+    return { q:'', u:'', n: cap(t) };
+  }
+  const opt = /opcional/i.test(m[1]);
+  let rest = t.slice(m[0].length).trim();
+  let u = '';
+  const um = rest.match(UNIT_RE);
+  if(um){ u = um[1]; rest = rest.slice(um[0].length); }
+  rest = rest.replace(/^de\s+/i,'').trim();
+  const q = m[2].replace(/\s+/g,' ') + (m[3] ? '–' + m[3] : '');
+  return { q, u, n: cap(rest) + (opt ? ' (opcional)' : '') };
+}
+/* una línea con casillas «400 | g | Panceta» → {q, u, n}; o texto libre */
+function parseIngCell(line){
+  if(line.includes('|')){
+    let cells = line.split('|').map(c=> c.trim());
+    if(cells[0] === '') cells.shift();
+    if(cells.length && cells[cells.length-1] === '') cells.pop();
+    if(!cells.length || cells.every(c=> /^:?-*:?$/.test(c))) return null;
+    if(/^cant/.test(norm(cells[0]))) return null;
+    if(cells.length === 1) return parseIngLine(cells[0]);
+    if(cells.length === 2) return { q: cells[0], u:'', n: cap(cells[1]) };
+    return { q: cells[0], u: cells[1], n: cap(cells.slice(2).join(' | ')) };
+  }
+  return parseIngLine(line);
+}
+function stepLines(text){
+  return (text||'').split('\n').map(l=> l.trim().replace(/^\d+\s*[.)-]\s*/,'').replace(/^[-−•]\s*/,'').trim()).filter(Boolean);
+}
+function yieldInfo(y){
+  const m = (y||'').trim().match(YRE);
+  if(!m) return null;
+  const base = parseNum(m[1]);
+  return isFinite(base) && base > 0 ? { base, unit: m[2] || '' } : null;
+}
+
+/* ---- plantilla de texto (la que escribe la IA) ---- */
+function normTab(v, fallback){
+  const n = norm(v);
+  if(n.startsWith('rece') || n.startsWith('plato')) return 'recetas';
+  if(n.startsWith('produ')) return 'productos';
+  if(n.startsWith('conse') || n.startsWith('ferment') || n.startsWith('encurt')) return 'conservas';
+  return fallback || 'recetas';
+}
+function matchGroup(tab, v){
+  const n = norm(v);
+  if(!n) return '';
+  const gs = GROUPS[tab] || [];
+  return gs.find(g=> norm(g) === n)
+      || gs.find(g=> norm(g).startsWith(n) || n.startsWith(norm(g).split(/[ ,]/)[0]))
+      || '';
+}
+function trimBlock(arr){
+  arr = arr.slice();
+  while(arr.length && !arr[0].trim()) arr.shift();
+  while(arr.length && !arr[arr.length-1].trim()) arr.pop();
+  return arr.join('\n');
+}
+function parseTemplate(text, fallbackTab){
+  const lines = (text||'').replace(/```[a-zA-Z]*/g,'').split(/\r?\n/);
+  const out = [];
+  let cur = null, part = null, sec = null;
+  const newPart = (name)=>{ part = { name: name||'', ings:[], steps:[] }; cur.parts.push(part); return part; };
+  for(const raw of lines){
+    const line = raw.replace(/\s+$/,'');
+    if(/^#\s+\S/.test(line)){
+      cur = { name: line.replace(/^#\s+/,'').replace(/\*\*/g,'').trim(), tab:'', group:'', tag:'', yield:'', parts:[], notes:[] };
+      out.push(cur); part = null; sec = null; continue;
+    }
+    if(!cur) continue;
+    const h = line.match(/^(#{2,})\s*(.*)$/);
+    if(h){
+      const title = h[2].replace(/\*\*/g,'').replace(/:\s*$/,'').trim();
+      const k = norm(title);
+      if(k.startsWith('ingred')){ if(!part) newPart(''); sec = 'ings'; continue; }
+      if(/^(elaboracion|proceso|pasos|preparacion|instrucciones|metodo)$/.test(k)){ if(!part) newPart(''); sec = 'steps'; continue; }
+      if(/^(observ|nota|trucos|consejos|variantes)/.test(k)){ sec = 'notes'; continue; }
+      if(/^terminado/.test(k)){ sec = 'notes'; continue; }
+      if(/^(composicion|emplatado|boceto|presentacion)/.test(k)){ sec = 'skip'; continue; }
+      newPart(title); sec = null; continue;
+    }
+    if(!sec){
+      const kv = line.match(/^\s*[*-]?\s*\**([a-zA-ZñÑáéíóúÁÉÍÓÚ]+)\**\s*:\s*(.*)$/);
+      if(kv){
+        const k = norm(kv[1]), v = kv[2].replace(/\*\*/g,'').trim();
+        if(k.startsWith('pesta') || k === 'tab' || k === 'seccion') cur.tab = v;
+        else if(k.startsWith('grupo') || k.startsWith('categ') || k === 'tipo') cur.group = v;
+        else if(k.startsWith('etiq') || k.startsWith('origen') || k === 'cocina') cur.tag = v;
+        else if(k.startsWith('racion') || k === 'para' || k.startsWith('rinde')) cur.yield = v;
+      }
+      continue;
+    }
+    if(sec === 'skip') continue;
+    if(sec === 'ings'){ if(line.trim()){ const ing = parseIngCell(line); if(ing && (ing.n || ing.q)) part.ings.push(ing); } continue; }
+    if(sec === 'steps'){ part.steps.push(line); continue; }
+    if(sec === 'notes') cur.notes.push(line);
+  }
+  return out.filter(r=> r.name).map(r=>{
+    const tab = normTab(r.tab, fallbackTab);
+    const parts = r.parts.map(p=> ({ name: p.name, ings: p.ings, steps: stepLines(p.steps.join('\n')).join('\n') }))
+                         .filter(p=> p.name || p.ings.length || p.steps);
+    return { name: r.name, tab, group: matchGroup(tab, r.group), tag: r.tag.trim(), yield: r.yield.trim(),
+             parts: parts.length ? parts : [{ name:'', ings:[], steps:'' }], notes: trimBlock(r.notes) };
+  });
+}
+function recipeToText(r){
+  let s = `# ${r.name}\npestaña: ${r.tab}\n`;
+  if(r.group) s += `grupo: ${r.group.toLowerCase()}\n`;
+  if(r.tag) s += `etiqueta: ${r.tag}\n`;
+  if(r.yield) s += `raciones: ${r.yield}\n`;
+  const single = r.parts.length === 1 && !r.parts[0].name;
+  r.parts.forEach(p=>{
+    if(!p.ings.length && !p.steps.trim() && !p.name) return;
+    const h = single ? '##' : '###';
+    if(!single) s += `\n## ${p.name || 'Elaboración'}\n`;
+    if(p.ings.length) s += `\n${h} Ingredientes\n` + p.ings.map(i=> `${i.q} | ${i.u} | ${i.n}`).join('\n') + '\n';
+    const st = stepLines(p.steps);
+    if(st.length) s += `\n${h} Elaboración\n` + st.map((x,i)=> `${i+1}. ${x}`).join('\n') + '\n';
+  });
+  if(r.notes.trim()) s += `\n## Observaciones\n${r.notes.trim()}\n`;
+  return s;
+}
+/* receta del formato antiguo (ingredientes y proceso en texto) al nuevo */
+function migrateOld(r){
+  const parts = [];
+  let p = { name:'', ings:[], steps:'' };
+  (r.ingredients||'').split('\n').forEach(l=>{
+    const t = l.trim(); if(!t) return;
+    if(/:\s*$/.test(t) && !QRE.test(t)){
+      if(p.ings.length || p.name) parts.push(p);
+      p = { name: cap(t.replace(/:\s*$/,'')), ings:[], steps:'' }; return;
+    }
+    const ing = parseIngLine(t); if(ing) p.ings.push(ing);
+  });
+  parts.push(p);
+  parts[0].steps = stepLines(r.process||'').join('\n');
+  return parts;
+}
+/*PURE-END*/
+
+const AI_PROMPT = `Eres el redactor de mi recetario. Abajo tienes mi archivo data.json. Haz lo que te pida al final y devuélveme el archivo data.json COMPLETO y actualizado: todas las recetas, también las que no cambies. Responde SOLO con el JSON, sin explicaciones ni texto alrededor.
+
+Cada receta tiene esta forma:
+{
+  "id": "r-recetas-panceta-con-all-i-oli-negro",
+  "tab": "recetas",
+  "name": "Panceta con all i oli negro",
+  "group": "Salado",
+  "tag": "Cataluña",
+  "yield": "4 pax",
+  "parts": [
+    {
+      "name": "Panceta a baja temperatura",
+      "ings": [
+        { "q": "400", "u": "g", "n": "Panceta de cerdo" },
+        { "q": "2", "u": "ud.", "n": "Diente de ajo" },
+        { "q": "", "u": "C/S", "n": "Sal" }
+      ],
+      "steps": [
+        "Mise en place de géneros y útiles.",
+        "Chamuscar y raspar la piel.",
+        "Cocinar a 80 ºC durante 12 h en un roner."
+      ]
+    }
+  ],
+  "notes": "Observaciones: conservación, variantes o trucos útiles.",
+  "done": false
+}
+
+Reglas:
+- No cambies el "id" de las recetas que ya existen. Para una receta nueva, crea un id único con el formato "r-" + pestaña + "-" + nombre en minúsculas y con guiones.
+- Para modificar una receta, edítala dentro del archivo; no la dupliques. Respeta el "done" que tenga.
+- "tab": "recetas" (platos con nombre propio), "productos" (elaboraciones base: masas, salsas, lácteos, bebidas…) o "conservas".
+- "group": en recetas, "Salado" o "Dulce". En productos: "Lácteos y derivados", "Masas", "Legumbres y semillas", "Aceites, infusiones y derivados" o "Salsas". En conservas: "Fermentos", "Encurtidos", "Conservas dulces" o "Conservas saladas".
+- "tag": región de origen (país o región: "Perú", "Japón", "Galicia"…), con mayúscula inicial. Usa exactamente el mismo nombre que ya tengan otras recetas de esa región. Si no está claro, "".
+- "yield": número y unidad (4 pax, 1 l, 2 tarros…).
+- "parts": una por elaboración del plato (cada componente: la carne, la salsa, el crujiente…). Si la receta es sencilla, una sola, con "name": "".
+- "ings": "q" solo el número (400, 2, ½, 1,5), "u" la unidad (g, kg, ml, l, ud., cda., cdta., pizca…), "n" el ingrediente con mayúscula inicial. Cantidad suficiente: "q": "", "u": "C/S". Unidades métricas siempre que se pueda.
+- "steps": pasos cortos, en infinitivo (pelar, cortar, saltear, marcar, reducir, rectificar…), con vocabulario técnico de cocina (brunoise, mirepoix, a la inglesa, napar…). El primero siempre "Mise en place de géneros y útiles.". Temperaturas y tiempos cuando importen. Sin numerar.
+- "notes": observaciones útiles; si no hay, "".
+- Nada de emplatado, boceto, alérgenos, costes ni calorías.
+- Español de España. Sin emojis.`;
+
+/* ---------- almacenamiento ---------- */
+const KEY = 'cocina_v1', UIKEY = 'cocina_ui_v2';
+function uid(){ return 'r' + Date.now().toString(36) + Math.random().toString(36).slice(2,7); }
+let data, ui;
+function loadJSON(k){ try{ const v = localStorage.getItem(k); return v ? JSON.parse(v) : null; }catch(e){ return null; } }
+function save(){ try{ localStorage.setItem(KEY, JSON.stringify(data)); }catch(e){ toast('No se pudo guardar'); } }
+let saveT;
+function saveSoon(){ clearTimeout(saveT); saveT = setTimeout(save, 350); }
+function saveUi(){ try{ const c = Object.assign({}, ui); delete c.q; delete c.searching; localStorage.setItem(UIKEY, JSON.stringify(c)); }catch(e){} }
+function validData(d){ return d && Array.isArray(d.recipes); }
+function slug(s){ return norm(s).replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,60); }
+function asText(v){ return Array.isArray(v) ? v.map(x=> String(x).trim()).filter(Boolean).join('\n') : String(v||''); }
+function asIng(i){
+  if(Array.isArray(i)) return { q: String(i[0]||''), u: String(i[1]||''), n: String(i.slice(2).join(' ')||'') };
+  if(typeof i === 'string') return parseIngCell(i) || {q:'',u:'',n:''};
+  return { q: String(i.q != null ? i.q : (i.cantidad||'')), u: String(i.u != null ? i.u : (i.unidad||'')), n: String(i.n != null ? i.n : (i.ingrediente||'')) };
+}
+/* fromFile: las recetas sin id reciben uno fijo a partir de su nombre, para reconocerlas la próxima vez */
+function cleanRecipe(r, fromFile){
+  let parts = Array.isArray(r.parts) ? r.parts : migrateOld(r);
+  parts = parts.map(p=>({ name: String(p.name||''), steps: stepLines(asText(p.steps)).join('\n'),
+    ings: (p.ings||[]).map(i=> i && asIng(i)).filter(i=> i && (i.q || i.u || i.n)) }));
+  if(!parts.length) parts = [{ name:'', ings:[], steps:'' }];
+  const tab = normTab(r.tab), name = String(r.name).trim();
+  return { id: r.id ? String(r.id) : (fromFile ? 'r-' + tab + '-' + slug(name) : uid()), tab, name,
+           group: matchGroup(tab, r.group) || '', tag: String(r.tag||'').trim(), yield: String(r.yield||'').trim(),
+           parts, notes: asText(r.notes), done: !!r.done };
+}
+function cleanData(d){
+  const v2 = d.version >= 2;
+  return {
+    version: 2,
+    recipes: d.recipes.filter(r=> r && r.name).map(r=> cleanRecipe(r)),
+    week: Array.isArray(d.week) ? d.week.filter(w=> w && w.recipeId).map(w=>({
+      id: w.id || uid(), recipeId: w.recipeId, target: typeof w.target === 'number' ? w.target : null,
+      struck: v2 && Array.isArray(w.struck) ? w.struck.map(String) : [] })) : [],
+    prompt: d.promptCustom && typeof d.prompt === 'string' && d.prompt.trim() ? d.prompt : AI_PROMPT,
+    promptCustom: !!d.promptCustom,
+    fileSync: d.fileSync && typeof d.fileSync === 'object' ? d.fileSync : {},
+    syncedAt: d.syncedAt || null,
+    reset: d.reset || null
+  };
+}
+/* lo que va en data.json (lo que sube a GitHub y lo que lee la IA) */
+function fileData(){
+  return { version: 2, reset: data.reset || undefined, recipes: data.recipes.map(r=>({
+    id: r.id, tab: r.tab, name: r.name, group: r.group, tag: r.tag, yield: r.yield,
+    parts: r.parts.map(p=>({ name: p.name, ings: p.ings.map(i=>({q:i.q,u:i.u,n:i.n})), steps: stepLines(p.steps) })),
+    notes: r.notes, done: r.done })) };
+}
+function hashRecipe(r){
+  const s = JSON.stringify([r.tab, r.name, r.group, r.tag, r.yield, r.parts, r.notes]);
+  let h = 0; for(let i=0;i<s.length;i++){ h = (h*31 + s.charCodeAt(i)) | 0; }
+  return String(h);
+}
+/* aplica un data.json: lo nuevo entra, lo cambiado en el archivo se actualiza,
+   lo quitado del archivo se quita. Lo hecho/no hecho y la semana siguen siendo de este dispositivo. */
+function applyFile(obj){
+  if(!validData(obj)) return null;
+  if(obj.reset && obj.reset !== data.reset){
+    data.recipes = []; data.week = []; data.fileSync = {}; data.reset = obj.reset;
+  }
+  const incoming = obj.recipes.filter(r=> r && r.name).map(r=> cleanRecipe(r, true));
+  const prev = data.fileSync || {}, next = {};
+  let added = 0, changed = 0, removed = 0;
+  incoming.forEach(f=>{
+    const h = hashRecipe(f); next[f.id] = h;
+    let l = data.recipes.find(x=> x.id === f.id) || data.recipes.find(x=> x.tab === f.tab && norm(x.name) === norm(f.name));
+    if(!l){ data.recipes.push(f); added++; return; }
+    if(l.id !== f.id){ data.week.forEach(w=>{ if(w.recipeId === l.id) w.recipeId = f.id; }); l.id = f.id; }
+    if(prev[f.id] !== h && hashRecipe(l) !== h){
+      Object.assign(l, { tab:f.tab, name:f.name, group:f.group, tag:f.tag, yield:f.yield, parts:f.parts, notes:f.notes });
+      changed++;
+    }
+  });
+  Object.keys(prev).forEach(id=>{
+    if(next[id]) return;
+    if(data.recipes.some(r=> r.id === id)){ data.recipes = data.recipes.filter(r=> r.id !== id); data.week = data.week.filter(w=> w.recipeId !== id); removed++; }
+  });
+  data.fileSync = next; data.syncedAt = Date.now();
+  save();
+  return { added, changed, removed };
+}
+function syncMsg(res){
+  return [res.added ? `${res.added} nueva${res.added>1?'s':''}` : '', res.changed ? `${res.changed} cambiada${res.changed>1?'s':''}` : '',
+          res.removed ? `${res.removed} quitada${res.removed>1?'s':''}` : ''].filter(Boolean).join(' · ');
+}
+
+/* ---------- utilidades ---------- */
+function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+const $ = (s, el) => (el || document).querySelector(s);
+let toastT;
+function toast(msg){ const t = $('#toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(toastT); toastT = setTimeout(()=> t.classList.remove('show'), 1900); }
+function shake(el){ el.classList.remove('shake'); void el.offsetWidth; el.classList.add('shake'); }
+function byId(id){ return data.recipes.find(r=> r.id === id); }
+function inWeek(id){ return data.week.some(w=> w.recipeId === id); }
+function allIngs(r){ return r.parts.reduce((a,p)=> a.concat(p.ings), []); }
+function hasContent(r){ return r.parts.some(p=> p.ings.length || p.steps.trim()) || !!r.notes.trim(); }
+function grow(t){ t.style.height = 'auto'; t.style.height = (t.scrollHeight + 2) + 'px'; }
+function copyText(text, msg){
+  const done = ()=> toast(msg || 'Copiado');
+  if(navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, ()=> fallbackCopy(text, done));
+  else fallbackCopy(text, done);
+}
+function fallbackCopy(text, done){
+  const ta = document.createElement('textarea'); ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+  document.body.appendChild(ta); ta.select();
+  try{ document.execCommand('copy'); done(); }catch(e){ toast('No se pudo copiar'); }
+  ta.remove();
+}
+function download(text, name){
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([text], {type:'application/json'}));
+  a.download = name; document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(()=> URL.revokeObjectURL(a.href), 4000);
+}
+
+/* pantalla encendida mientras miras una receta */
+let wakeLock = null;
+async function keepAwake(on){
+  try{
+    if(on && 'wakeLock' in navigator && !wakeLock){
+      wakeLock = await navigator.wakeLock.request('screen');
+      wakeLock.addEventListener('release', ()=>{ wakeLock = null; });
+    } else if(!on && wakeLock){ await wakeLock.release(); wakeLock = null; }
+  }catch(e){}
+}
+document.addEventListener('visibilitychange', ()=>{ if(document.visibilityState === 'visible' && fichaId) keepAwake(true); });
+
+/* ============================================================
+   PANTALLA PRINCIPAL
+   ============================================================ */
+function render(){ renderTabs(); renderGroups(); renderActiveFilter(); keepBoard(renderMain); updateHeaderIcons(); }
+
+function renderTabs(){
+  const n = data.week.length;
+  $('#tabs').innerHTML = TABS.map(t=> `<button class="tab${ui.tab===t.id?' on':''}" data-tab="${t.id}">${t.label}</button>`).join('')
+    + `<button class="tab${ui.tab==='regiones'?' on':''}" data-tab="regiones">Regiones</button>`
+    + `<button class="tab${ui.tab==='semana'?' on':''}" data-tab="semana">Semana${n?`<span class="n">${n}</span>`:''}</button>`;
+}
+$('#tabs').addEventListener('click', e=>{
+  const b = e.target.closest('.tab'); if(!b) return;
+  if(ui.searching) closeSearch(true);
+  if(ui.tab === b.dataset.tab){ render(); window.scrollTo({top:0, behavior:'smooth'}); return; }
+  ui.tab = b.dataset.tab; closePop(); saveUi(); render(); window.scrollTo(0,0);
+  const nb = $('#main .board'); if(nb) nb.scrollLeft = 0;
+});
+function updateHeaderIcons(){
+  const isWeek = ui.tab === 'semana';
+  $('#filter-btn').style.display = isWeek ? 'none' : '';
+  $('#fab').classList.toggle('hide', isWeek || ui.tab === 'regiones' || ui.searching);
+  const active = !isWeek && ((ui.filter[ui.tab] || 'all') !== 'all' || !!ui.tagFilter[ui.tab]);
+  $('#filter-btn').classList.toggle('on', active);
+  $('#filter-btn .badge').style.display = active ? '' : 'none';
+}
+
+/* grupos como segunda fila de navegación */
+function curGroup(){ const g = ui.group[ui.tab] || ''; return (GROUPS[ui.tab]||[]).includes(g) ? g : ''; }
+function curRegion(){ const r = ui.region || ''; return tagsOf(null).find(t=> norm(t) === norm(r)) || ''; }
+function renderGroups(){
+  const el = $('#groups');
+  if(ui.tab === 'semana' || ui.searching){ el.classList.add('hide'); el.innerHTML = ''; return; }
+  el.classList.remove('hide');
+  if(ui.tab === 'regiones'){
+    const tags = tagsOf(null), cur = curRegion();
+    const cnt = t => data.recipes.filter(r=> norm(r.tag) === norm(t)).length;
+    el.innerHTML = tags.length ? `<button class="chip${!cur?' on':''}" data-r="">Todas</button>` +
+      tags.map(t=> `<button class="chip${norm(t)===norm(cur)?' on':''}" data-r="${esc(t)}"><span class="gdot" style="--gc:${tc(t)}"></span>${esc(t)}<span class="c">${cnt(t)}</span></button>`).join('') : '';
+    if(!tags.length) el.classList.add('hide');
+    return;
+  }
+  const g = curGroup();
+  const base = data.recipes.filter(r=> r.tab === ui.tab);
+  const cnt = gg => base.filter(r=> r.group === gg).length;
+  el.innerHTML = `<button class="chip${!g?' on':''}" data-g="">Todo</button>` +
+    GROUPS[ui.tab].map(x=> `<button class="chip${g===x?' on':''}" data-g="${esc(x)}"><span class="gdot" style="--gc:${gc(x)}"></span>${esc(x)}${cnt(x)?`<span class="c">${cnt(x)}</span>`:''}</button>`).join('');
+  const on = el.querySelector('.chip.on');
+  if(on && on.offsetLeft + on.offsetWidth > el.clientWidth + el.scrollLeft) on.scrollIntoView({inline:'center', block:'nearest'});
+}
+$('#groups').addEventListener('click', e=>{
+  const b = e.target.closest('.chip'); if(!b) return;
+  if(b.dataset.r != null){ ui.region = b.dataset.r; saveUi(); renderGroups(); renderMain(); return; }
+  ui.group[ui.tab] = b.dataset.g; saveUi(); renderGroups(); renderMain();
+});
+function renderActiveFilter(){
+  const el = $('#active-f');
+  if(ui.tab === 'semana' || ui.searching){ el.innerHTML = ''; return; }
+  const st = ui.filter[ui.tab] || 'all', tg = ui.tagFilter[ui.tab] || '';
+  const parts = [st === 'todo' ? 'Por hacer' : st === 'done' ? 'Hechas' : '', tg].filter(Boolean);
+  el.innerHTML = parts.length ? `<div class="active-f"><span>Filtro: ${esc(parts.join(' · '))}</span><button data-clear>quitar</button></div>` : '';
+}
+$('#active-f').addEventListener('click', e=>{
+  if(!e.target.closest('[data-clear]')) return;
+  ui.filter[ui.tab] = 'all'; ui.tagFilter[ui.tab] = ''; saveUi(); render();
+});
+
+/* ---------- buscar ---------- */
+$('#search-btn').addEventListener('click', ()=>{
+  ui.searching = true; closePop();
+  $('#bar').classList.add('searching');
+  render();
+  const s = $('#search'); s.value = ui.q || ''; s.focus();
+});
+function closeSearch(silent){
+  ui.searching = false; ui.q = ''; $('#search').value = '';
+  $('#bar').classList.remove('searching'); $('#search').blur();
+  if(!silent) render();
+}
+$('#search-cancel').addEventListener('click', ()=> closeSearch());
+$('#search').addEventListener('input', e=>{ ui.q = e.target.value; renderMain(); });
+$('#search').addEventListener('keydown', e=>{ if(e.key === 'Escape') closeSearch(); if(e.key === 'Enter') e.target.blur(); });
+
+/* ---------- filtro (desplegable) ---------- */
+const pop = $('#fpop');
+function tagsOf(tab){
+  const seen = new Map();
+  data.recipes.forEach(r=>{
+    if((tab && r.tab !== tab) || !r.tag.trim()) return;
+    const k = norm(r.tag); if(!seen.has(k)) seen.set(k, r.tag.trim());
+  });
+  return [...seen.values()].sort((a,b)=> a.localeCompare(b,'es'));
+}
+$('#filter-btn').addEventListener('click', e=>{
+  e.stopPropagation();
+  if(pop.classList.contains('open')){ closePop(); return; }
+  drawPop(); pop.classList.add('open');
+  const r = $('#filter-btn').getBoundingClientRect();
+  pop.style.top = (r.bottom + 6) + 'px';
+  pop.style.left = Math.max(12, Math.min(window.innerWidth - pop.offsetWidth - 12, r.right - pop.offsetWidth + 8)) + 'px';
+});
+function drawPop(){
+  const st = ui.filter[ui.tab] || 'all', tg = ui.tagFilter[ui.tab] || '';
+  const tags = ui.tab === 'regiones' ? [] : tagsOf(ui.tab);
+  pop.innerHTML = `<div class="fp-h">Mostrar</div>` +
+    [['all','Todas'],['todo','Por hacer'],['done','Hechas']].map(([k,l])=> `<button class="fp-o${st===k?' on':''}" data-st="${k}">${l}</button>`).join('') +
+    (tags.length ? `<div class="fp-h" style="margin-top:6px;">Región</div><div class="fp-tags">` +
+      tags.map(t=> `<button class="chip${norm(t)===norm(tg)?' on':''}" data-tg="${esc(t)}">${esc(t)}</button>`).join('') + `</div>` : '');
+}
+pop.addEventListener('click', e=>{
+  e.stopPropagation();
+  const s = e.target.closest('[data-st]'), t = e.target.closest('[data-tg]');
+  if(s) ui.filter[ui.tab] = s.dataset.st;
+  if(t) ui.tagFilter[ui.tab] = norm(t.dataset.tg) === norm(ui.tagFilter[ui.tab]) ? '' : t.dataset.tg;
+  if(s || t){ saveUi(); drawPop(); renderActiveFilter(); renderMain(); updateHeaderIcons(); }
+});
+function closePop(){ pop.classList.remove('open'); }
+document.addEventListener('click', e=>{ if(pop.classList.contains('open') && !pop.contains(e.target)) closePop(); });
+window.addEventListener('resize', closePop);
+
+/* ---------- lista ---------- */
+function renderMain(){
+  const main = $('#main');
+  document.body.classList.remove('boardmode');
+  if(ui.searching){ renderSearch(main); return; }
+  if(ui.tab === 'semana'){ renderWeek(main); return; }
+  if(ui.tab === 'regiones'){ renderRegions(main); return; }
+  const tab = ui.tab, g = curGroup();
+  const all = data.recipes.filter(r=> r.tab === tab);
+  const st = ui.filter[tab] || 'all', tg = norm(ui.tagFilter[tab]);
+  const list = all.filter(r=> (st === 'all' || (st === 'done' ? r.done : !r.done)) && (!tg || norm(r.tag) === tg) && (!g || r.group === g));
+  if(!list.length && g){ main.innerHTML = `<div class="empty">Nada en ${esc(g)}${st!=='all'||tg?' con este filtro':''}.</div>`; return; }
+  const sort = arr => arr.sort((a,b)=> a.name.localeCompare(b.name,'es'));
+  if(g){ main.innerHTML = `<div class="list">${sort(list).map(cardHTML).join('')}</div>`; return; }
+  // «Todo»: tablero con una columna por grupo, todas iguales, que se desliza en horizontal
+  const filtering = st !== 'all' || !!tg;
+  const cols = [...GROUPS[tab], ''].map(gg=>{
+    const items = sort(list.filter(r=> (GROUPS[tab].includes(r.group) ? r.group : '') === gg));
+    if(gg === '' && !items.length) return '';
+    return `<section class="col">
+      <div class="col-h">${gg ? `<span class="gp" style="--gc:${gc(gg)}">${esc(gg)}</span>` : `<span class="gp">Sin grupo</span>`}<span class="c">${items.length}</span></div>
+      <div class="col-body">
+        ${items.length ? items.map(cardHTML).join('') : `<div class="col-empty">${filtering ? 'Nada con este filtro' : 'Vacío'}</div>`}
+        <button class="col-add" data-addg="${esc(gg)}">+ Añadir</button>
+      </div>
+    </section>`;
+  }).join('');
+  main.innerHTML = `<div class="board">${cols}</div>`;
+  document.body.classList.add('boardmode');
+  fitBoard();
+}
+/* el tablero ocupa justo hasta abajo de la ventana: así la barra de deslizar (si hace falta) queda abajo del todo */
+function fitBoard(){
+  const b = $('#main .board'); if(!b) return;
+  const top = b.getBoundingClientRect().top + window.scrollY;
+  b.style.height = Math.max(240, window.innerHeight - top) + 'px';
+}
+window.addEventListener('resize', fitBoard);
+/* volver a dibujar sin perder dónde estabas dentro del tablero */
+function keepBoard(fn){
+  const b = $('#main .board');
+  const x = b ? b.scrollLeft : 0, ys = b ? [...b.querySelectorAll('.col-body')].map(c=> c.scrollTop) : [];
+  fn();
+  const nb = $('#main .board'); if(!nb) return;
+  nb.scrollLeft = x; nb.querySelectorAll('.col-body').forEach((c,i)=>{ if(ys[i]) c.scrollTop = ys[i]; });
+}
+function renderRegions(main){
+  const tags = tagsOf(null);
+  if(!tags.length){ main.innerHTML = `<div class="empty">Aún no hay regiones.<br>Escribe una en el campo <b>Región</b> de cualquier receta<br>(Perú, Japón, Galicia…) y aparecerá aquí.</div>`; return; }
+  const st = ui.filter.regiones || 'all', cur = curRegion();
+  const ok = r => st === 'all' || (st === 'done' ? r.done : !r.done);
+  const sort = arr => arr.sort((a,b)=> a.name.localeCompare(b.name,'es'));
+  if(cur){
+    // una región: sus recetas de todas las pestañas, cada pestaña con su título
+    let html = '';
+    TABS.forEach(t=>{
+      const items = sort(data.recipes.filter(r=> r.tab === t.id && norm(r.tag) === norm(cur) && ok(r)));
+      if(items.length) html += `<div class="ghead"><span class="t">${t.label}</span><span class="c">${items.length}</span></div>` + items.map(r=> cardHTML(r, 'regionList')).join('');
+    });
+    main.innerHTML = html ? `<div class="list">${html}</div>` : `<div class="empty">Nada en ${esc(cur)} con este filtro.</div>`;
+    return;
+  }
+  // todas: tablero con una columna por región
+  const cols = tags.map(t=>{
+    const items = sort(data.recipes.filter(r=> norm(r.tag) === norm(t) && ok(r)));
+    return `<section class="col">
+      <div class="col-h"><span class="gp" style="--gc:${tc(t)}">${esc(t)}</span><span class="c">${items.length}</span></div>
+      <div class="col-body">${items.length ? items.map(r=> cardHTML(r, 'region')).join('') : '<div class="col-empty">Nada con este filtro</div>'}</div>
+    </section>`;
+  }).join('');
+  main.innerHTML = `<div class="board">${cols}</div>`;
+  document.body.classList.add('boardmode');
+  fitBoard();
+}
+function renderSearch(main){
+  const q = norm(ui.q);
+  if(!q){ main.innerHTML = `<div class="empty">Busca por nombre, etiqueta o ingrediente.</div>`; return; }
+  const hit = r => norm(r.name).includes(q) || norm(r.tag).includes(q) || allIngs(r).some(i=> norm(i.n).includes(q));
+  let html = '';
+  TABS.forEach(t=>{
+    const items = data.recipes.filter(r=> r.tab === t.id && hit(r)).sort((a,b)=> a.name.localeCompare(b.name,'es'));
+    if(items.length) html += `<div class="ghead"><span class="t">${t.label}</span><span class="c">${items.length}</span></div>` + items.map(cardHTML).join('');
+  });
+  main.innerHTML = html ? `<div class="list">${html}</div>` : `<div class="empty">Nada con «${esc(ui.q)}».</div>`;
+}
+function cardHTML(r, ctx){
+  const where = ctx === 'regionList' ? (r.group ? `<span><span class="gdot" style="--gc:${gc(r.group)}"></span>${esc(r.group)}</span>` : '') : ctx === 'region' ? `<span>${esc([TABS.find(t=> t.id === r.tab).label, r.group].filter(Boolean).join(' · '))}</span>`
+    : (r.tag ? `<span><span class="gdot" style="--gc:${tc(r.tag)}"></span>${esc(r.tag)}</span>` : '');
+  const sub = [where, inWeek(r.id) ? '<span class="wk">semana</span>' : ''].join('');
+  return `<div class="rcard${r.done?' done':''}" data-id="${r.id}">
+    <button class="open"><span class="n">${esc(r.name)}</span><span class="sub">${sub}</span></button>
+    ${hasContent(r) ? '<span class="dot" title="tiene receta"></span>' : ''}
+    <button class="chk${r.done?' on':''}" aria-label="Hecha"><i></i></button>
+  </div>`;
+}
+function rowHTML(r){
+  return `<div class="row${r.done?' done':''}" data-id="${r.id}">
+    <button class="chk${r.done?' on':''}" aria-label="Hecha"><i></i></button>
+    <button class="rname"><span class="n">${esc(r.name)}</span>${r.tag?`<span class="tag">${esc(r.tag)}</span>`:''}${hasContent(r)?'<span class="dot" title="tiene receta"></span>':''}${inWeek(r.id)?'<span class="wk">semana</span>':''}</button>
+  </div>`;
+}
+$('#main').addEventListener('click', e=>{
+  const fold = e.target.closest('[data-fold]');
+  if(fold){ const k = fold.dataset.fold; ui.collapsed[k] = !ui.collapsed[k]; saveUi(); renderMain(); return; }
+  const addg = e.target.closest('[data-addg]');
+  if(addg){ openNew(addg.dataset.addg); return; }
+  const row = e.target.closest('.row, .rcard');
+  if(row){
+    const r = byId(row.dataset.id); if(!r) return;
+    if(e.target.closest('.chk')){
+      r.done = !r.done; save(); keepBoard(renderMain);
+      toast(r.done ? 'Hecha' : 'Por hacer');
+    }
+    else if(e.target.closest('.rname, .open')) openFicha(r.id);
+    return;
+  }
+  weekClick(e);
+});
+
+/* ============================================================
+   RACIONES
+   ============================================================ */
+function factorFor(r, target){
+  const y = yieldInfo(r.yield);
+  if(target == null) return 1;
+  return y ? target / y.base : target;
+}
+function scalerHTML(r, target, attrs){
+  const y = yieldInfo(r.yield);
+  const v = target == null ? (y ? y.base : 1) : target;
+  return `<div class="scaler" ${attrs}><span class="l">${y?'para':'×'}</span><button data-d="-1" aria-label="menos">−</button><input inputmode="decimal" value="${fmtNum(v).replace(' ','')}" aria-label="raciones"><button data-d="1" aria-label="más">+</button><span class="u">${y?esc(y.unit):''}</span></div>`;
+}
+function scalerValue(sc, r, d){
+  let v = parseNum(sc.querySelector('input').value.replace(/\s/g,''));
+  const y = yieldInfo(r.yield);
+  if(!isFinite(v) || v <= 0) v = y ? y.base : 1;
+  if(d){ const st = !y ? .5 : (v <= 1 && y.base <= 2 ? .5 : 1); v = Math.max(st, Math.round((v + d*st)/st)*st); }
+  return v;
+}
+function anyNumeric(r){ return allIngs(r).some(i=> isNumQ(i.q)); }
+
+/* ============================================================
+   SEMANA + LISTA DE LA COMPRA
+   ============================================================ */
+function renderWeek(main){
+  data.week = data.week.filter(w=> byId(w.recipeId));
+  if(!data.week.length){
+    main.innerHTML = `<div class="empty">Nada para esta semana.<br>Abre una receta y pulsa <b>+ semana</b>.<br>Aquí te saldrá con su lista de la compra.</div>`;
+    return;
+  }
+  let total = 0, struckN = 0;
+  const cards = data.week.map(w=>{
+    const r = byId(w.recipeId);
+    const f = factorFor(r, w.target);
+    const named = r.parts.filter(p=> p.ings.length).length > 1;
+    let lis = '';
+    r.parts.forEach((p,pi)=>{
+      if(!p.ings.length) return;
+      if(named) lis += `<li class="sub">${esc(p.name || 'Elaboración ' + (pi+1))}</li>`;
+      p.ings.forEach((i,ii)=>{
+        const k = pi + ':' + ii, s = w.struck.includes(k);
+        total++; if(s) struckN++;
+        const q = scaleQ(i.q, f);
+        lis += `<li data-k="${k}"${s?' class="struck"':''}><span>${q?`<b>${esc(q)}</b> `:''}${i.u && i.u !== 'C/S' ? esc(i.u) + ' ' : ''}${esc(i.n)}${i.u === 'C/S' ? ' <span class="muted">(C/S)</span>' : ''}</span></li>`;
+      });
+    });
+    return `<div class="card" data-w="${w.id}">
+      <div class="card-h">
+        <button class="n" data-act="open">${esc(r.name)}</button>
+        <button class="sm ok" data-act="done">✓ hecha</button>
+        <button class="sm" data-act="rm" aria-label="Quitar de la semana">✕</button>
+      </div>
+      ${lis ? (anyNumeric(r) ? scalerHTML(r, w.target, 'data-wsc') : '') + `<ul class="shop">${lis}</ul>`
+            : `<div class="note">Sin ingredientes. Ábrela para añadirlos.</div>`}
+    </div>`;
+  }).join('');
+  main.innerHTML = `<div class="week-top"><span>${data.week.length} receta${data.week.length>1?'s':''}${total?` · ${struckN}/${total} en la cesta`:''}</span>
+    ${struckN?'<button class="link" data-act="unstrike">desmarcar todo</button>':''}</div>` + cards
+    + `<div style="text-align:center;padding:18px 0;"><button class="link" data-act="clear">vaciar semana</button></div>`;
+}
+function weekClick(e){
+  if(ui.tab !== 'semana' || ui.searching) return;
+  const act = e.target.closest('[data-act]');
+  const card = e.target.closest('.card');
+  const w = card ? data.week.find(x=> x.id === card.dataset.w) : null;
+  if(act && act.dataset.act === 'unstrike'){ data.week.forEach(x=> x.struck = []); save(); renderMain(); return; }
+  if(act && act.dataset.act === 'clear'){
+    if(!confirm('¿Quitar todas las recetas de esta semana?')) return;
+    data.week = []; save(); render(); return;
+  }
+  if(!w) return;
+  if(act){
+    const a = act.dataset.act;
+    if(a === 'open') openFicha(w.recipeId);
+    if(a === 'rm'){ data.week = data.week.filter(x=> x !== w); save(); render(); }
+    if(a === 'done'){
+      const r = byId(w.recipeId); r.done = true;
+      data.week = data.week.filter(x=> x !== w); save(); render(); toast(`${r.name}: hecha`);
+    }
+    return;
+  }
+  const sb = e.target.closest('.scaler button');
+  if(sb){ w.target = scalerValue(sb.closest('.scaler'), byId(w.recipeId), +sb.dataset.d); save(); renderMain(); return; }
+  const li = e.target.closest('li[data-k]');
+  if(li){
+    const k = li.dataset.k;
+    w.struck = w.struck.includes(k) ? w.struck.filter(x=> x !== k) : [...w.struck, k];
+    save(); renderMain();
+  }
+}
+$('#main').addEventListener('change', e=>{
+  if(ui.tab !== 'semana') return;
+  const sc = e.target.closest('.scaler'), card = e.target.closest('.card');
+  if(!sc || !card) return;
+  const w = data.week.find(x=> x.id === card.dataset.w), r = w && byId(w.recipeId);
+  if(!r) return;
+  w.target = scalerValue(sc, r, 0); save(); renderMain();
+});
+
+/* ============================================================
+   HOJAS
+   ============================================================ */
+const sheetRoot = $('#sheet');
+let sheetOpen = false, pushed = false;
+function openSheet(html, cls, onMount){
+  closePop();
+  sheetRoot.innerHTML = `<div class="backdrop"></div><div class="sheet ${cls||''}" role="dialog" aria-modal="true">${html}</div>`;
+  sheetRoot.classList.add('open');
+  if(!sheetOpen){ try{ history.pushState({sheet:1}, ''); pushed = true; }catch(e){} }
+  sheetOpen = true;
+  document.body.classList.add('noscroll');
+  sheetRoot.querySelector('.backdrop').addEventListener('click', ()=> closeSheet());
+  if(onMount) onMount(sheetRoot.querySelector('.sheet'));
+}
+function closeSheet(fromPop){
+  if(!sheetOpen) return;
+  flushFicha();
+  sheetOpen = false; fichaId = null; keepAwake(false);
+  sheetRoot.classList.remove('open'); sheetRoot.innerHTML = '';
+  document.body.classList.remove('noscroll');
+  if(!fromPop && pushed){ pushed = false; history.back(); } else pushed = false;
+  render();
+}
+window.addEventListener('popstate', ()=>{ if(sheetOpen) closeSheet(true); });
+document.addEventListener('keydown', e=>{ if(e.key === 'Escape'){ if(sheetOpen) closeSheet(); else closePop(); } });
+
+/* ---------- ficha ---------- */
+let fichaId = null, fichaEdit = false, fichaTarget = null;
+function openFicha(id, edit){
+  const r = byId(id); if(!r) return;
+  fichaId = id; fichaTarget = null;
+  fichaEdit = edit != null ? edit : !hasContent(r);
+  openSheet('', 'tall', sh=> drawFicha(sh));
+  keepAwake(true);
+}
+function drawFicha(sh, keepScroll, focusSel){
+  sh = sh || sheetRoot.querySelector('.sheet');
+  const r = byId(fichaId); if(!r || !sh) return;
+  const old = sh.querySelector('.sh-body'), top = keepScroll && old ? old.scrollTop : 0;
+  sh.innerHTML = fichaEdit ? editHTML(r) : readHTML(r);
+  mountFicha(sh, r);
+  if(top) sh.querySelector('.sh-body').scrollTop = top;
+  if(focusSel){ const el = sh.querySelector(focusSel); if(el) el.focus(); }
+}
+function ingTable(p, f){
+  return `<table class="ings">` + p.ings.map(i=>
+    `<tr><td class="q">${esc(scaleQ(i.q, f))}</td><td class="u">${esc(i.u)}</td><td>${esc(i.n)}</td></tr>`).join('') + `</table>`;
+}
+function shownParts(r){ return r.parts.filter(p=> p.ings.length || p.steps.trim() || p.name); }
+function partsHTML(r){
+  const f = factorFor(r, fichaTarget);
+  const shown = shownParts(r);
+  const multi = shown.length > 1;
+  return shown.map((p,i)=>{
+    const st = stepLines(p.steps);
+    return `<section class="part" id="part-${i}">
+      ${multi || p.name ? `<h3>${esc(p.name || 'Elaboración ' + (i+1))}</h3>` : ''}
+      ${p.ings.length ? `<span class="lbl">Ingredientes</span>${ingTable(p, f)}` : ''}
+      ${st.length ? `<span class="lbl">Elaboración</span><ol class="steps">${st.map(s=> `<li><span>${esc(s)}</span></li>`).join('')}</ol>` : ''}
+    </section>`;
+  }).join('');
+}
+function readHTML(r){
+  const shown = shownParts(r);
+  const meta = r.group || r.tag;
+  return `<div class="sh-head">
+      <button class="x" data-act="close" aria-label="Cerrar">✕</button>
+      <h2>${esc(r.name)}</h2>
+      <button class="sh-btn ghost" data-act="edit">Editar</button>
+    </div>
+    <div class="sh-body">
+      <div class="pills">
+        <button class="pill${r.done?' on':''}" data-act="done">${r.done?'✓ hecha':'marcar hecha'}</button>
+        <button class="pill wkp${inWeek(r.id)?' on':''}" data-act="week">${inWeek(r.id)?'✓ en la semana':'+ semana'}</button>
+      </div>
+      ${meta?`<div class="meta-line">${r.group?`<span class="gp" style="--gc:${gc(r.group)}">${esc(r.group)}</span>`:''}${r.tag?` <span class="gp" style="--gc:${tc(r.tag)};margin-left:6px;">${esc(r.tag)}</span>`:''}</div>`:''}
+      ${(r.yield || anyNumeric(r)) && hasContent(r) ? `<div class="ficha-top"><span class="lb">Raciones</span>${anyNumeric(r) ? scalerHTML(r, fichaTarget, 'data-fsc') : `<span>${esc(r.yield)}</span>`}</div>` : ''}
+      ${shown.length > 1 ? `<div class="compo"><span class="lbl">Composición</span><ol>${shown.map((p,i)=> `<li><button data-goto="${i}">${esc(p.name || 'Elaboración ' + (i+1))}</button></li>`).join('')}</ol></div>` : ''}
+      <div id="f-parts">${partsHTML(r)}</div>
+      ${r.notes.trim() ? `<section class="part"><h3>Observaciones</h3><div class="prose">${esc(r.notes)}</div></section>` : ''}
+      ${!hasContent(r) ? `<div class="empty" style="padding:34px 0;">Solo está el nombre.<br><button class="link" data-act="edit">Añadir la receta</button></div>` : ''}
+      <div class="foot"><button data-act="copy">Copiar como texto</button></div>
+    </div>`;
+}
+function editHTML(r){
+  const parts = r.parts;
+  return `<div class="sh-head">
+      <button class="x" data-act="close" aria-label="Cerrar">✕</button>
+      <h2 class="muted" style="font-weight:500;">Editando</h2>
+      <button class="sh-btn primary" data-act="view">Listo</button>
+    </div>
+    <div class="sh-body">
+      <div class="f"><label>Nombre</label><input class="in" data-k="name" value="${esc(r.name)}" autocomplete="off"></div>
+      <div class="f"><span class="lb">Pestaña</span>
+        <div class="seg">${TABS.map(t=> `<button data-tabset="${t.id}" class="${r.tab===t.id?'on':''}">${t.label}</button>`).join('')}</div></div>
+      <div class="f"><span class="lb">Grupo</span>
+        <div class="chips">${GROUPS[r.tab].map(g=> `<button class="chip${r.group===g?' on':''}" data-groupset="${esc(g)}"><span class="gdot" style="--gc:${gc(g)}"></span>${esc(g)}</button>`).join('')}</div></div>
+      <div class="row2">
+        <div class="f"><label>Región</label><input class="in" data-k="tag" value="${esc(r.tag)}" list="tags-dl" placeholder="Perú, Japón… (opcional)" autocomplete="off"></div>
+        <div class="f"><label>Raciones</label><input class="in" data-k="yield" value="${esc(r.yield)}" placeholder="4 pax" autocomplete="off"></div>
+      </div>
+      ${parts.map((p,pi)=> `<div class="epart" data-p="${pi}">
+        <div class="epart-h">
+          <input class="in" data-pk="name" value="${esc(p.name)}" placeholder="${parts.length>1?'Nombre de la elaboración':'Nombre de la elaboración (opcional)'}" autocomplete="off">
+          ${parts.length>1?`<button class="x" data-act="rmpart" aria-label="Quitar elaboración">✕</button>`:''}
+        </div>
+        ${p.ings.length ? `<div class="ihead"><span>cant.</span><span>ud.</span><span>ingrediente</span><span></span></div>` : ``}
+        ${p.ings.map((i,ii)=> `<div class="irow" data-i="${ii}">
+          <input class="in q" data-ik="q" value="${esc(i.q)}" inputmode="decimal" autocomplete="off" aria-label="cantidad">
+          <input class="in" data-ik="u" value="${esc(i.u)}" list="units-dl" autocomplete="off" aria-label="unidad">
+          <input class="in" data-ik="n" value="${esc(i.n)}" autocomplete="off" enterkeyhint="next" aria-label="ingrediente">
+          <button class="rm" data-act="rming" aria-label="Quitar">✕</button>
+        </div>`).join('')}
+        <button class="addline" data-act="adding">+ ingrediente</button>
+        <div class="f"><label>Elaboración</label>
+          <textarea class="ta" data-pk="steps" placeholder="Mise en place de géneros y útiles.&#10;Pelar y cortar en brunoise.&#10;…">${esc(p.steps)}</textarea>
+          <div class="hint">Un paso por línea, en infinitivo. Se numeran solos.</div></div>
+      </div>`).join('')}
+      <button class="addpart" data-act="addpart">+ otra elaboración</button>
+      <div class="f" style="margin-top:22px;"><label>Observaciones</label><textarea class="ta" data-k="notes" placeholder="Conservación, variantes, qué cambiarías…">${esc(r.notes)}</textarea></div>
+      <div class="foot"><button class="danger" data-act="delete">Eliminar receta</button></div>
+    </div>`;
+}
+function mountFicha(sh, r){
+  sh.querySelectorAll('.ta').forEach(t=> requestAnimationFrame(()=> grow(t)));
+  const partOf = el => { const pe = el.closest('[data-p]'); return pe ? r.parts[+pe.dataset.p] : null; };
+  sh.onclick = e=>{
+    const go = e.target.closest('[data-goto]');
+    if(go){ const t = sh.querySelector('#part-' + go.dataset.goto); if(t) t.scrollIntoView({behavior:'smooth', block:'start'}); return; }
+    const a = e.target.closest('[data-act]');
+    if(a){
+      const act = a.dataset.act;
+      if(act === 'close') return closeSheet();
+      if(act === 'edit'){ fichaEdit = true; drawFicha(sh); return; }
+      if(act === 'view'){ flushFicha(); fichaEdit = false; drawFicha(sh); return; }
+      if(act === 'done'){ r.done = !r.done; save(); drawFicha(sh, true); return; }
+      if(act === 'week'){
+        if(inWeek(r.id)) data.week = data.week.filter(w=> w.recipeId !== r.id);
+        else data.week.push({ id: uid(), recipeId: r.id, target: fichaTarget, struck: [] });
+        save(); drawFicha(sh, true); renderTabs(); return;
+      }
+      if(act === 'copy') return copyText(recipeToText(r), 'Receta copiada como texto');
+      if(act === 'delete'){
+        if(!confirm(`¿Eliminar «${r.name}»? No se puede deshacer.`)) return;
+        data.recipes = data.recipes.filter(x=> x !== r);
+        data.week = data.week.filter(w=> w.recipeId !== r.id);
+        save(); closeSheet(); toast('Eliminada'); return;
+      }
+      if(act === 'adding'){
+        const p = partOf(a); const pi = r.parts.indexOf(p);
+        p.ings.push({q:'',u:'',n:''}); save();
+        drawFicha(sh, true, `[data-p="${pi}"] .irow[data-i="${p.ings.length-1}"] [data-ik="q"]`); return;
+      }
+      if(act === 'rming'){
+        const p = partOf(a); p.ings.splice(+a.closest('.irow').dataset.i, 1); save(); drawFicha(sh, true); return;
+      }
+      if(act === 'addpart'){
+        r.parts.push({ name:'', ings:[], steps:'' }); save();
+        drawFicha(sh, true, `[data-p="${r.parts.length-1}"] [data-pk="name"]`); return;
+      }
+      if(act === 'rmpart'){
+        const p = partOf(a);
+        if((p.ings.length || p.steps.trim()) && !confirm(`¿Quitar la elaboración «${p.name || 'sin nombre'}»?`)) return;
+        r.parts = r.parts.filter(x=> x !== p); save(); drawFicha(sh, true); return;
+      }
+    }
+    const ts = e.target.closest('[data-tabset]');
+    if(ts){ flushFicha(); r.tab = ts.dataset.tabset; if(!GROUPS[r.tab].includes(r.group)) r.group = ''; save(); drawFicha(sh, true); return; }
+    const gs = e.target.closest('[data-groupset]');
+    if(gs){
+      r.group = r.group === gs.dataset.groupset ? '' : gs.dataset.groupset;
+      sh.querySelectorAll('[data-groupset]').forEach(b=> b.classList.toggle('on', b.dataset.groupset === r.group));
+      save(); return;
+    }
+    const sb = e.target.closest('[data-fsc] button');
+    if(sb){ fichaTarget = scalerValue(sb.closest('.scaler'), r, +sb.dataset.d); redrawParts(sh, r); }
+  };
+  sh.oninput = e=>{
+    const t = e.target;
+    if(t.dataset.k){ r[t.dataset.k] = t.value; }
+    else if(t.dataset.pk){ partOf(t)[t.dataset.pk] = t.value; }
+    else if(t.dataset.ik){ partOf(t).ings[+t.closest('.irow').dataset.i][t.dataset.ik] = t.value; }
+    else return;
+    if(t.tagName === 'TEXTAREA') grow(t);
+    saveSoon();
+  };
+  sh.onkeydown = e=>{
+    const t = e.target;
+    if(e.key === 'Enter' && t.dataset && t.dataset.ik){
+      e.preventDefault();
+      const p = partOf(t), pi = r.parts.indexOf(p), ii = +t.closest('.irow').dataset.i;
+      if(t.dataset.ik !== 'n'){ const nx = t.nextElementSibling; if(nx && nx.tagName === 'INPUT') nx.focus(); return; }
+      p.ings.splice(ii+1, 0, {q:'',u:'',n:''}); save();
+      drawFicha(sh, true, `[data-p="${pi}"] .irow[data-i="${ii+1}"] [data-ik="q"]`);
+    }
+  };
+  // pegar varias líneas en una casilla de ingrediente → una fila por línea
+  sh.onpaste = e=>{
+    const t = e.target;
+    if(!t.dataset || !t.dataset.ik) return;
+    const txt = (e.clipboardData || window.clipboardData).getData('text');
+    if(!txt || !txt.includes('\n')) return;
+    e.preventDefault();
+    const p = partOf(t), ii = +t.closest('.irow').dataset.i;
+    const rows = txt.split(/\r?\n/).map(l=> parseIngCell(l)).filter(Boolean);
+    const cur = p.ings[ii];
+    const empty = !cur.q && !cur.u && !cur.n;
+    p.ings.splice(empty ? ii : ii+1, empty ? 1 : 0, ...rows);
+    save(); drawFicha(sh, true); toast(`${rows.length} ingredientes`);
+  };
+  sh.onchange = e=>{
+    if(e.target.closest('[data-fsc]')){ fichaTarget = scalerValue(e.target.closest('.scaler'), r, 0); redrawParts(sh, r); }
+  };
+  if(fichaEdit) refreshTagsDatalist();
+}
+function redrawParts(sh, r){
+  const box = sh.querySelector('#f-parts'); if(box) box.innerHTML = partsHTML(r);
+  const inp = sh.querySelector('[data-fsc] input'); if(inp) inp.value = fmtNum(fichaTarget).replace(' ','');
+}
+function flushFicha(){
+  clearTimeout(saveT);
+  const r = fichaId && byId(fichaId);
+  if(r){
+    r.name = r.name.trim() || 'Sin nombre'; r.tag = r.tag.trim(); r.yield = r.yield.trim();
+    r.parts.forEach(p=>{ p.name = p.name.trim(); p.ings = p.ings.filter(i=> i.q.trim() || i.u.trim() || i.n.trim()).map(i=>({q:i.q.trim(),u:i.u.trim(),n:i.n.trim()})); });
+    if(r.parts.length > 1) r.parts = r.parts.filter(p=> p.name || p.ings.length || p.steps.trim());
+    if(!r.parts.length) r.parts = [{ name:'', ings:[], steps:'' }];
+  }
+  save();
+}
+function refreshTagsDatalist(){ $('#tags-dl').innerHTML = tagsOf(null).map(t=> `<option value="${esc(t)}">`).join(''); }
+
+/* ---------- añadir rápido ---------- */
+$('#fab').addEventListener('click', ()=> openNew());
+function openNew(group){
+  const tab = ui.tab === 'semana' ? 'recetas' : ui.tab;
+  let newGroup = group != null ? group : curGroup();
+  const label = TABS.find(t=> t.id === tab).label;
+  openSheet(`<div class="sh-head">
+      <button class="x" data-act="close" aria-label="Cerrar">✕</button>
+      <h2>Añadir a ${label}</h2>
+    </div>
+    <div class="sh-body">
+      <div class="f"><input class="in" id="new-name" placeholder="Nombre" autocomplete="off" enterkeyhint="done"></div>
+      <div class="f"><span class="lb">Grupo</span><div class="chips">${GROUPS[tab].map(g=> `<button class="chip${newGroup===g?' on':''}" data-g="${esc(g)}"><span class="gdot" style="--gc:${gc(g)}"></span>${esc(g)}</button>`).join('')}</div></div>
+      <div class="foot" style="margin-top:22px;">
+        <button class="sh-btn primary" data-act="add" style="height:44px;">Añadir</button>
+        <button data-act="addopen">Añadir y abrir ficha</button>
+      </div>
+      <p class="muted" style="margin-top:14px;">Con Intro se añade y puedes escribir la siguiente.</p>
+    </div>`, '', sh=>{
+      const inp = sh.querySelector('#new-name');
+      setTimeout(()=> inp.focus(), 50);
+      const add = (open)=>{
+        const name = inp.value.trim();
+        if(!name){ shake(inp); inp.focus(); return; }
+        const r = { id: uid(), tab, name, group: newGroup, tag:'', yield:'', parts:[{name:'', ings:[], steps:''}], notes:'', done:false };
+        data.recipes.push(r); save();
+        if(open){ closeSheet(); openFicha(r.id, true); return; }
+        inp.value = ''; inp.focus(); renderGroups(); renderMain(); toast(`Añadida: ${name}`);
+      };
+      inp.addEventListener('keydown', e=>{ if(e.key === 'Enter'){ e.preventDefault(); add(false); } });
+      sh.addEventListener('click', e=>{
+        const a = e.target.closest('[data-act]');
+        if(a){ if(a.dataset.act === 'close') closeSheet(); else add(a.dataset.act === 'addopen'); return; }
+        const g = e.target.closest('[data-g]');
+        if(g){
+          newGroup = newGroup === g.dataset.g ? '' : g.dataset.g;
+          sh.querySelectorAll('[data-g]').forEach(b=> b.classList.toggle('on', b.dataset.g === newGroup));
+          inp.focus();
+        }
+      });
+    });
+}
+
+/* ---------- menú ---------- */
+$('#menu-btn').addEventListener('click', openMenu);
+function timeAgo(t){
+  if(!t) return '';
+  const m = Math.round((Date.now() - t) / 60000);
+  if(m < 1) return 'ahora mismo';
+  if(m < 60) return `hace ${m} min`;
+  const d = new Date(t);
+  return d.toDateString() === new Date().toDateString() ? `hoy a las ${d.toLocaleTimeString('es-ES',{hour:'2-digit',minute:'2-digit'})}`
+    : d.toLocaleDateString('es-ES',{day:'numeric',month:'short'});
+}
+function openMenu(){
+  openSheet(`<div class="sh-head"><button class="x" data-act="close" aria-label="Cerrar">✕</button><h2>Más</h2></div>
+    <div class="sh-body">
+      <button class="mitem" data-act="ai">Copiar para la IA<small>Instrucciones y tus recetas, listo para pegar</small></button>
+      <button class="mitem" data-act="export">Descargar data.json</button>
+      <button class="mitem" data-act="import">Cargar archivo</button>
+      <p class="muted" style="margin-top:18px;">${data.recipes.length} recetas${data.syncedAt ? ` · data.json leído ${timeAgo(data.syncedAt)}` : ''}</p>
+      <button class="link" data-act="prompt" style="margin-top:4px;">editar las instrucciones</button>
+    </div>`, '', sh=>{
+      sh.addEventListener('click', e=>{
+        const a = e.target.closest('[data-act]'); if(!a) return;
+        const act = a.dataset.act;
+        if(act === 'close') return closeSheet();
+        if(act === 'ai') return copyText(data.prompt + '\n\n--- data.json ---\n' + JSON.stringify(fileData()) + '\n\n--- Lo que quiero ---\n', 'Copiado: pégalo en la IA y escribe lo que quieres');
+        if(act === 'export'){ download(JSON.stringify(fileData(), null, 1), 'data.json'); toast('Descargado'); return; }
+        if(act === 'import') return fileInput.click();
+        if(act === 'prompt') return openPrompt();
+      });
+    });
+}
+function openPrompt(){
+  openSheet(`<div class="sh-head"><button class="x" data-act="close" aria-label="Cerrar">✕</button><h2>Instrucciones para la IA</h2></div>
+    <div class="sh-body">
+      <textarea class="ta" id="pr-ta" style="font-size:14px;">${esc(data.prompt)}</textarea>
+      <div class="foot"><button data-act="reset">Volver a las originales</button></div>
+    </div>`, 'tall', sh=>{
+      const ta = sh.querySelector('#pr-ta');
+      requestAnimationFrame(()=> grow(ta));
+      ta.addEventListener('input', ()=>{ data.prompt = ta.value; data.promptCustom = true; grow(ta); saveSoon(); });
+      sh.addEventListener('click', e=>{
+        const a = e.target.closest('[data-act]'); if(!a) return;
+        if(a.dataset.act === 'close') return closeSheet();
+        if(a.dataset.act === 'reset' && confirm('¿Volver a las instrucciones originales?')){ data.prompt = AI_PROMPT; data.promptCustom = false; ta.value = AI_PROMPT; grow(ta); save(); }
+      });
+    });
+}
+
+/* ---------- cargar un archivo a mano ---------- */
+const fileInput = document.createElement('input');
+fileInput.type = 'file'; fileInput.accept = '.json,.txt,.md,application/json,text/plain,text/markdown';
+fileInput.addEventListener('change', async ()=>{
+  const f = fileInput.files[0]; fileInput.value = '';
+  if(!f) return;
+  const txt = await f.text();
+  let res = null;
+  try{ res = applyFile(JSON.parse(txt.replace(/^[^{]*/, '').replace(/[^}]*$/, ''))); }catch(e){}
+  if(!res){
+    // también vale un texto con recetas en el formato de «Copiar como texto»
+    const list = parseTemplate(txt, ui.tab === 'semana' ? 'recetas' : ui.tab);
+    if(!list.length){ toast('Ese archivo no tiene recetas'); return; }
+    list.forEach(n=>{
+      const ex = data.recipes.find(x=> x.tab === n.tab && norm(x.name) === norm(n.name));
+      if(ex) Object.assign(ex, n); else data.recipes.push(Object.assign({ id: uid(), done:false }, n));
+    });
+    save(); res = { added: list.length, changed: 0, removed: 0 };
+  }
+  if(sheetOpen) closeSheet(); else render();
+  toast(syncMsg(res) || 'Sin cambios');
+});
+
+/* ---------- data.json publicado (GitHub) ---------- */
+let syncing = false, lastTry = 0;
+async function syncFromGithub(){
+  if(syncing || !/^https?:/.test(location.protocol)) return;
+  syncing = true; lastTry = Date.now();
+  try{
+    const res = await fetch('data.json?t=' + Date.now(), {cache:'no-store'});
+    if(!res.ok) return;
+    const out = applyFile(await res.json());
+    if(out){
+      const msg = syncMsg(out);
+      if(msg){ if(!sheetOpen) render(); toast('Actualizado: ' + msg); }
+    }
+  }catch(e){}
+  finally{ syncing = false; }
+}
+document.addEventListener('visibilitychange', ()=>{
+  if(document.visibilityState === 'visible' && Date.now() - lastTry > 30000) syncFromGithub();
+});
+
+/* ============================================================
+   ARRANQUE
+   ============================================================ */
+async function boot(){
+  ui = Object.assign({ tab:'recetas', filter:{}, tagFilter:{}, group:{}, collapsed:{} }, loadJSON(UIKEY) || {});
+  ui.q = ''; ui.searching = false;
+  const stored = loadJSON(KEY);
+  if(validData(stored)){
+    data = cleanData(stored);
+    save();
+    render();
+    syncFromGithub();
+  } else {
+    data = cleanData({ version:2, recipes:[] });
+    await syncFromGithub();
+    save();
+    render();
+  }
+  try{ if(navigator.storage && navigator.storage.persist) navigator.storage.persist(); }catch(e){}
+  if('serviceWorker' in navigator && /^https?:/.test(location.protocol)) navigator.serviceWorker.register('sw.js').catch(()=>{});
+}
+boot();
+})();
+</script>
+</body>
+</html>
