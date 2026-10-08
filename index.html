@@ -16,12 +16,12 @@
 :root{
   --bg:#ffffff;--fg:#1c1c1e;--muted:#8a8a8e;--line:#ececec;--soft:#f4f4f3;--field:#dcdcdc;
   --ok:#0a8a3f;--accent:#1c1c1e;--on-accent:#fff;--shadow:0 -6px 30px rgba(0,0,0,.14);
-  --strip:#f3f3f2;--card-shadow:0 1px 2px rgba(0,0,0,.06);
+  --strip:#f3f3f2;--card-shadow:0 1px 2px rgba(0,0,0,.06);--card:var(--bg);--miss:#d9480f;--miss-bg:#fff1e6;
   --st:env(safe-area-inset-top,0px);--sb:env(safe-area-inset-bottom,0px);
 }
 @media (prefers-color-scheme: dark){
   :root{--bg:#121212;--fg:#ececec;--muted:#8d8d92;--line:#262626;--soft:#1c1c1c;--field:#3a3a3a;
-    --ok:#3ccf7a;--accent:#ececec;--on-accent:#121212;--shadow:0 -6px 30px rgba(0,0,0,.6);--strip:#1a1a1a;--card-shadow:none;}
+    --ok:#3ccf7a;--accent:#ececec;--on-accent:#121212;--shadow:0 -6px 30px rgba(0,0,0,.6);--strip:#1a1a1a;--card-shadow:none;--miss:#ff8a4c;--miss-bg:#2a1a10;}
 }
 html,body{background:var(--bg);color:var(--fg);}
 body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
@@ -53,7 +53,7 @@ body.boardmode main{padding-bottom:0;}
 .col-empty{font-size:12.5px;color:var(--muted);text-align:center;padding:8px 0 4px;}
 .col-add{display:flex;align-items:center;gap:6px;color:var(--muted);font-size:14px;padding:8px 4px;}
 .col-add:hover{color:var(--fg);}
-.rcard{display:flex;align-items:center;gap:4px;border:1px solid var(--line);border-radius:8px;background:var(--bg);
+.rcard{display:flex;align-items:center;gap:4px;border:1px solid var(--line);border-radius:8px;background:var(--card);
   box-shadow:var(--card-shadow);margin-bottom:8px;padding:4px 4px 4px 12px;min-height:46px;}
 .rcard .open{flex:1;min-width:0;text-align:left;padding:7px 0;}
 .rcard .n{display:block;font-size:15.5px;line-height:1.3;}
@@ -73,12 +73,34 @@ body.boardmode main{padding-bottom:0;}
 }
 .bar{display:flex;align-items:center;gap:2px;height:50px;}
 .bar h1{font-size:17px;font-weight:650;flex:1;}
+/* dos espacios: Recetario y Despensa */
+.space-sw{flex:1;display:flex;align-items:center;}
+.space-sw > div{display:inline-flex;background:var(--soft);border-radius:10px;padding:3px;}
+.space-sw button{height:32px;padding:0 13px;border-radius:8px;font-size:14.5px;font-weight:600;color:var(--muted);}
+.space-sw button.on{background:var(--card);color:var(--fg);box-shadow:0 1px 3px rgba(0,0,0,.1);}
+html.despensa{--bg:#faf6ef;--strip:#f1ebe0;--soft:#f1ece3;--line:#e9e2d6;--card:#ffffff;}
+@media (prefers-color-scheme: dark){ html.despensa{--bg:#15130f;--strip:#1c1a15;--soft:#221f19;--line:#2c2820;--card:#1d1a15;} }
+html.despensa,html.despensa body,html.despensa .top{background:var(--bg);}
+/* cosas de la despensa */
+.rcard.item{cursor:pointer;-webkit-user-select:none;user-select:none;}
+.rcard.item.missing{border-color:var(--miss);background:var(--miss-bg);}
+.rcard.item .miss{display:none;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--miss);
+  border:1px solid var(--miss);border-radius:6px;padding:0 6px;flex-shrink:0;}
+.rcard.item.missing .miss{display:inline-block;}
+.rcard .more{width:34px;height:36px;color:var(--muted);font-size:18px;flex-shrink:0;border-radius:8px;}
+.col-h .zname{cursor:pointer;}
+.col.addcol{flex:0 0 auto;min-width:0;max-width:none;border-left:1px dashed var(--line);}
+.col.addcol button{white-space:nowrap;color:var(--muted);font-size:14px;padding:4px 6px;}
+.buy-sec{margin-top:6px;}
+.buy-done{margin-top:14px;height:42px;padding:0 16px;border-radius:10px;background:var(--accent);color:var(--on-accent);font-size:15px;font-weight:600;}
+.shop.flat{padding:0;}
+.shop .from{margin-left:auto;font-size:12px;color:var(--muted);flex-shrink:0;padding-left:8px;}
 .ib{width:42px;height:42px;display:flex;align-items:center;justify-content:center;color:var(--muted);border-radius:10px;position:relative;flex-shrink:0;}
 #menu-btn{margin-right:-10px;}
 .ib.on{color:var(--fg);}
 .ib .badge{position:absolute;top:9px;right:8px;width:7px;height:7px;border-radius:50%;background:var(--ok);}
 .searchbox{flex:1;display:none;align-items:center;gap:8px;}
-.bar.searching h1,.bar.searching .ib{display:none;}
+.bar.searching h1,.bar.searching .ib,.bar.searching .space-sw{display:none;}
 .bar.searching .searchbox{display:flex;}
 .searchbox input{flex:1;min-width:0;height:38px;padding:0 12px;border:none;border-radius:10px;background:var(--soft);font-size:16px;}
 .searchbox input:focus{outline:none;}
@@ -271,7 +293,7 @@ button.ghead{padding:20px 0 6px;}
 <header class="top">
   <div class="wrap">
     <div class="bar" id="bar">
-      <h1>Cocina</h1>
+      <div class="space-sw" id="space-sw"><div><button data-space="recetario">Recetario</button><button data-space="despensa">Despensa</button></div></div>
       <button class="ib" id="search-btn" aria-label="Buscar">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
       </button>
@@ -568,7 +590,8 @@ Reglas:
 - "steps": pasos cortos, en infinitivo (pelar, cortar, saltear, marcar, reducir, rectificar…), con vocabulario técnico de cocina (brunoise, mirepoix, a la inglesa, napar…). El primero siempre "Mise en place de géneros y útiles.". Temperaturas y tiempos cuando importen. Sin numerar.
 - "notes": observaciones útiles; si no hay, "".
 - Nada de emplatado, boceto, alérgenos, costes ni calorías.
-- Español de España. Sin emojis.`;
+- Español de España. Sin emojis.
+- El apartado "pantry" (mi despensa) déjalo exactamente como está, salvo que te pida cambiarlo.`;
 
 /* ---------- almacenamiento ---------- */
 const KEY = 'cocina_v1', UIKEY = 'cocina_ui_v2';
@@ -610,15 +633,25 @@ function cleanData(d){
     promptCustom: !!d.promptCustom,
     fileSync: d.fileSync && typeof d.fileSync === 'object' ? d.fileSync : {},
     syncedAt: d.syncedAt || null,
+    pantry: cleanPantry(d.pantry),
     reset: d.reset || null
   };
 }
+const DEFAULT_ZONES = ['Nevera','Congelador','Despensa','Bodega'];
+function cleanPantry(pt){
+  const zones = pt && Array.isArray(pt.zones) ? pt.zones : DEFAULT_ZONES.map(n=> ({ name: n, items: [] }));
+  return { zones: zones.filter(z=> z && z.name).map(z=>({
+    id: z.id || uid(), name: String(z.name),
+    items: (z.items||[]).filter(i=> i && i.name).map(i=>({ id: i.id || uid(), name: String(i.name), note: String(i.note||''), missing: !!i.missing, bought: !!i.bought })) })) };
+}
+function pantryCount(){ return data.pantry.zones.reduce((n,z)=> n + z.items.length, 0); }
 /* lo que va en data.json (lo que sube a GitHub y lo que lee la IA) */
 function fileData(){
   return { version: 2, reset: data.reset || undefined, recipes: data.recipes.map(r=>({
     id: r.id, tab: r.tab, name: r.name, group: r.group, tag: r.tag, yield: r.yield,
     parts: r.parts.map(p=>({ name: p.name, ings: p.ings.map(i=>({q:i.q,u:i.u,n:i.n})), steps: stepLines(p.steps) })),
-    notes: r.notes, done: r.done })) };
+    notes: r.notes, done: r.done })),
+    pantry: { zones: data.pantry.zones.map(z=>({ id: z.id, name: z.name, items: z.items.map(i=>({ id: i.id, name: i.name, note: i.note, missing: i.missing })) })) } };
 }
 function hashRecipe(r){
   const s = JSON.stringify([r.tab, r.name, r.group, r.tag, r.yield, r.parts, r.notes]);
@@ -649,6 +682,8 @@ function applyFile(obj){
     if(next[id]) return;
     if(data.recipes.some(r=> r.id === id)){ data.recipes = data.recipes.filter(r=> r.id !== id); data.week = data.week.filter(w=> w.recipeId !== id); removed++; }
   });
+  // la despensa solo se toma del archivo si en este dispositivo aún está vacía
+  if(obj.pantry && !pantryCount()){ const pt = cleanPantry(obj.pantry); if(pt.zones.some(z=> z.items.length)) data.pantry = pt; }
   data.fileSync = next; data.syncedAt = Date.now();
   save();
   return { added, changed, removed };
@@ -702,7 +737,19 @@ document.addEventListener('visibilitychange', ()=>{ if(document.visibilityState 
 /* ============================================================
    PANTALLA PRINCIPAL
    ============================================================ */
-function render(){ renderTabs(); renderGroups(); renderActiveFilter(); keepBoard(renderMain); updateHeaderIcons(); }
+function render(){
+  const desp = ui.space === 'despensa';
+  document.documentElement.classList.toggle('despensa', desp);
+  document.querySelectorAll('#space-sw button').forEach(b=> b.classList.toggle('on', b.dataset.space === (desp ? 'despensa' : 'recetario')));
+  if(desp){ renderPTabs(); renderZones(); $('#active-f').innerHTML = ''; keepBoard(renderPantry); updateHeaderIcons(); return; }
+  renderTabs(); renderGroups(); renderActiveFilter(); keepBoard(renderMain); updateHeaderIcons();
+}
+$('#space-sw').addEventListener('click', e=>{
+  const b = e.target.closest('[data-space]'); if(!b) return;
+  if(ui.space === b.dataset.space) return;
+  ui.space = b.dataset.space; closePop(); saveUi(); render(); window.scrollTo(0,0);
+  const nb = $('#main .board'); if(nb) nb.scrollLeft = 0;
+});
 
 function renderTabs(){
   const n = data.week.length;
@@ -712,12 +759,23 @@ function renderTabs(){
 }
 $('#tabs').addEventListener('click', e=>{
   const b = e.target.closest('.tab'); if(!b) return;
+  if(b.dataset.ptab){
+    ui.ptab = b.dataset.ptab; saveUi(); render(); window.scrollTo(0,0);
+    const nb = $('#main .board'); if(nb) nb.scrollLeft = 0;
+    return;
+  }
   if(ui.searching) closeSearch(true);
   if(ui.tab === b.dataset.tab){ render(); window.scrollTo({top:0, behavior:'smooth'}); return; }
   ui.tab = b.dataset.tab; closePop(); saveUi(); render(); window.scrollTo(0,0);
   const nb = $('#main .board'); if(nb) nb.scrollLeft = 0;
 });
 function updateHeaderIcons(){
+  if(ui.space === 'despensa'){
+    $('#search-btn').style.display = 'none'; $('#filter-btn').style.display = 'none';
+    $('#fab').classList.toggle('hide', ui.ptab === 'compra');
+    return;
+  }
+  $('#search-btn').style.display = '';
   const isWeek = ui.tab === 'semana';
   $('#filter-btn').style.display = isWeek ? 'none' : '';
   $('#fab').classList.toggle('hide', isWeek || ui.tab === 'regiones' || ui.searching);
@@ -751,6 +809,7 @@ function renderGroups(){
 }
 $('#groups').addEventListener('click', e=>{
   const b = e.target.closest('.chip'); if(!b) return;
+  if(b.dataset.z != null){ ui.zone = b.dataset.z; saveUi(); renderZones(); keepBoard(renderPantry); return; }
   if(b.dataset.r != null){ ui.region = b.dataset.r; saveUi(); renderGroups(); renderMain(); return; }
   ui.group[ui.tab] = b.dataset.g; saveUi(); renderGroups(); renderMain();
 });
@@ -921,6 +980,7 @@ function rowHTML(r){
   </div>`;
 }
 $('#main').addEventListener('click', e=>{
+  if(ui.space === 'despensa'){ pantryClick(e); return; }
   const fold = e.target.closest('[data-fold]');
   if(fold){ const k = fold.dataset.fold; ui.collapsed[k] = !ui.collapsed[k]; saveUi(); renderMain(); return; }
   const addg = e.target.closest('[data-addg]');
@@ -1272,7 +1332,7 @@ function flushFicha(){
 function refreshTagsDatalist(){ $('#tags-dl').innerHTML = tagsOf(null).map(t=> `<option value="${esc(t)}">`).join(''); }
 
 /* ---------- añadir rápido ---------- */
-$('#fab').addEventListener('click', ()=> openNew());
+$('#fab').addEventListener('click', ()=> ui.space === 'despensa' ? openItem(null, curZone() ? curZone().id : null) : openNew());
 function openNew(group){
   const tab = ui.tab === 'semana' ? 'recetas' : ui.tab;
   let newGroup = group != null ? group : curGroup();
@@ -1297,7 +1357,7 @@ function openNew(group){
         if(!name){ shake(inp); inp.focus(); return; }
         const r = { id: uid(), tab, name, group: newGroup, tag:'', yield:'', parts:[{name:'', ings:[], steps:''}], notes:'', done:false };
         data.recipes.push(r); save();
-        if(open){ closeSheet(); openFicha(r.id, true); return; }
+        if(open){ render(); openFicha(r.id, true); return; }
         inp.value = ''; inp.focus(); renderGroups(); renderMain(); toast(`Añadida: ${name}`);
       };
       inp.addEventListener('keydown', e=>{ if(e.key === 'Enter'){ e.preventDefault(); add(false); } });
@@ -1362,6 +1422,197 @@ function openPrompt(){
     });
 }
 
+
+/* ============================================================
+   DESPENSA: lo que siempre tiene que haber
+   ============================================================ */
+function curZone(){ return data.pantry.zones.find(z=> z.id === ui.zone) || null; }
+function missingItems(){ const out = []; data.pantry.zones.forEach(z=> z.items.forEach(i=>{ if(i.missing) out.push({z, i}); })); return out; }
+function weekShopCount(){
+  let n = 0;
+  data.week.forEach(w=>{ const r = byId(w.recipeId); if(!r) return; r.parts.forEach((p,pi)=> p.ings.forEach((i,ii)=>{ if(!w.struck.includes(pi+':'+ii)) n++; })); });
+  return n;
+}
+function renderPTabs(){
+  const n = missingItems().filter(x=> !x.i.bought).length + weekShopCount();
+  const pt = ui.ptab === 'compra' ? 'compra' : 'lista';
+  $('#tabs').innerHTML = `<button class="tab${pt==='lista'?' on':''}" data-ptab="lista">Lo que hay</button>`
+    + `<button class="tab${pt==='compra'?' on':''}" data-ptab="compra">Compra${n?`<span class="n">${n}</span>`:''}</button>`;
+}
+function renderZones(){
+  const el = $('#groups');
+  if(ui.ptab === 'compra'){ el.classList.add('hide'); el.innerHTML = ''; return; }
+  el.classList.remove('hide');
+  const cur = curZone();
+  el.innerHTML = `<button class="chip${!cur?' on':''}" data-z="">Todo</button>` +
+    data.pantry.zones.map(z=>{
+      const m = z.items.filter(i=> i.missing).length;
+      return `<button class="chip${cur && cur.id===z.id?' on':''}" data-z="${z.id}"><span class="gdot" style="--gc:${tc(z.name)}"></span>${esc(z.name)}${m?`<span class="c" style="color:var(--miss);opacity:1;">${m}</span>`:''}</button>`;
+    }).join('');
+}
+function itemHTML(z, i){
+  return `<div class="rcard item${i.missing?' missing':''}" data-item="${i.id}" data-zone="${z.id}">
+    <div class="open"><span class="n">${esc(i.name)}</span><span class="sub">${i.note?`<span>${esc(i.note)}</span>`:''}</span></div>
+    <span class="miss">falta</span>
+    <button class="more" data-edit aria-label="Editar">⋯</button>
+  </div>`;
+}
+function renderPantry(){
+  const main = $('#main');
+  document.body.classList.remove('boardmode');
+  if(ui.ptab === 'compra'){ renderBuy(main); return; }
+  const cur = curZone();
+  if(cur){
+    main.innerHTML = `<div class="list">
+      ${cur.items.length ? cur.items.map(i=> itemHTML(cur, i)).join('') : '<div class="muted" style="padding:6px 0 10px;">Aún no hay nada en esta zona.</div>'}
+      <button class="col-add" data-additem="${cur.id}">+ Añadir</button>
+      <p class="muted" style="margin-top:18px;">Toca una cosa cuando se acabe o quede poco: pasa a la compra.</p>
+    </div>`;
+    return;
+  }
+  const cols = data.pantry.zones.map(z=> `<section class="col">
+      <div class="col-h"><span class="gp zname" data-zedit="${z.id}" style="--gc:${tc(z.name)}">${esc(z.name)}</span><span class="c">${z.items.length}</span></div>
+      <div class="col-body">
+        ${z.items.length ? z.items.map(i=> itemHTML(z, i)).join('') : '<div class="col-empty">Vacío</div>'}
+        <button class="col-add" data-additem="${z.id}">+ Añadir</button>
+      </div>
+    </section>`).join('') + `<section class="col addcol"><button data-addzone>+ Zona</button></section>`;
+  main.innerHTML = `<div class="board">${cols}</div>`;
+  document.body.classList.add('boardmode');
+  fitBoard();
+}
+function renderBuy(main){
+  const miss = missingItems();
+  const weeks = data.week.map(w=> ({ w, r: byId(w.recipeId) })).filter(x=> x.r && x.r.parts.some(p=> p.ings.length));
+  if(!miss.length && !weeks.length){
+    main.innerHTML = `<div class="empty">No falta nada.<br>En <b>Lo que hay</b>, toca lo que se acabe y aparecerá aquí.<br>Las recetas que metas en la Semana también traen aquí sus ingredientes.</div>`;
+    return;
+  }
+  let html = '';
+  if(miss.length){
+    html += `<div class="ghead"><span class="t">De la despensa</span><span class="c">${miss.length}</span></div><ul class="shop flat">` +
+      miss.map(({z,i})=> `<li data-buy="${i.id}"${i.bought?' class="struck"':''}><span>${esc(i.name)}${i.note?` <span class="muted">(${esc(i.note)})</span>`:''}</span><span class="from">${esc(z.name)}</span></li>`).join('') + `</ul>`;
+    if(miss.some(x=> x.i.bought)) html += `<button class="buy-done" data-stock>Ya está en casa: quitar lo tachado</button>`;
+  }
+  if(weeks.length){
+    html += `<div class="ghead" style="margin-top:14px;"><span class="t">De las recetas de la semana</span></div>`;
+    weeks.forEach(({w, r})=>{
+      const f = factorFor(r, w.target);
+      html += `<div class="ghead" style="padding-top:12px;"><span style="font-weight:600;">${esc(r.name)}</span></div><ul class="shop flat">`;
+      r.parts.forEach((p,pi)=> p.ings.forEach((i,ii)=>{
+        const k = pi + ':' + ii, q = scaleQ(i.q, f);
+        html += `<li data-wk="${w.id}" data-k="${k}"${w.struck.includes(k)?' class="struck"':''}><span>${q?`<b>${esc(q)}</b> `:''}${i.u && i.u !== 'C/S' ? esc(i.u) + ' ' : ''}${esc(i.n)}</span></li>`;
+      }));
+      html += `</ul>`;
+    });
+  }
+  main.innerHTML = `<div class="list">${html}</div>`;
+}
+function pantryClick(e){
+  const t = e.target;
+  if(t.closest('[data-addzone]')) return openZone(null);
+  const ze = t.closest('[data-zedit]'); if(ze) return openZone(ze.dataset.zedit);
+  const ai = t.closest('[data-additem]'); if(ai) return openItem(null, ai.dataset.additem);
+  const card = t.closest('[data-item]');
+  if(card){
+    const z = data.pantry.zones.find(x=> x.id === card.dataset.zone), i = z && z.items.find(x=> x.id === card.dataset.item);
+    if(!i) return;
+    if(t.closest('[data-edit]')) return openItem(i.id, z.id);
+    i.missing = !i.missing; i.bought = false; save();
+    keepBoard(renderPantry); renderPTabs(); renderZones();
+    toast(i.missing ? `${i.name}: a la compra` : `${i.name}: hay`);
+    return;
+  }
+  const b = t.closest('[data-buy]');
+  if(b){ const x = missingItems().find(m=> m.i.id === b.dataset.buy); if(x){ x.i.bought = !x.i.bought; save(); renderPantry(); renderPTabs(); } return; }
+  if(t.closest('[data-stock]')){
+    let n = 0; missingItems().forEach(({i})=>{ if(i.bought){ i.missing = false; i.bought = false; n++; } });
+    save(); renderPantry(); renderPTabs(); toast(`${n} de vuelta en la despensa`); return;
+  }
+  const wl = t.closest('[data-wk]');
+  if(wl){
+    const w = data.week.find(x=> x.id === wl.dataset.wk), k = wl.dataset.k;
+    if(w){ w.struck = w.struck.includes(k) ? w.struck.filter(x=> x !== k) : [...w.struck, k]; save(); renderPantry(); renderPTabs(); }
+  }
+}
+/* añadir o editar una cosa */
+function openItem(itemId, zoneId){
+  let zone = data.pantry.zones.find(z=> z.id === zoneId) || data.pantry.zones[0];
+  if(!zone){ openZone(null); return; }
+  const item = itemId ? zone.items.find(i=> i.id === itemId) : null;
+  let selZone = zone.id;
+  openSheet(`<div class="sh-head"><button class="x" data-act="close" aria-label="Cerrar">✕</button><h2>${item ? 'Editar' : 'Añadir a la despensa'}</h2>
+      ${item ? '<button class="sh-btn primary" data-act="ok">Listo</button>' : ''}</div>
+    <div class="sh-body">
+      <div class="f"><input class="in" id="it-name" placeholder="Qué (aceite de oliva, huevos…)" value="${item ? esc(item.name) : ''}" autocomplete="off" enterkeyhint="done"></div>
+      <div class="f"><input class="in" id="it-note" placeholder="Nota (opcional: virgen extra, de garrafa…)" value="${item ? esc(item.note) : ''}" autocomplete="off" enterkeyhint="done"></div>
+      <div class="f"><span class="lb">Dónde</span><div class="chips">${data.pantry.zones.map(z=> `<button class="chip${z.id===selZone?' on':''}" data-zs="${z.id}"><span class="gdot" style="--gc:${tc(z.name)}"></span>${esc(z.name)}</button>`).join('')}</div></div>
+      ${item ? `<div class="foot"><button class="danger" data-act="del">Quitar de la lista</button></div>`
+             : `<div class="foot" style="margin-top:22px;"><button class="sh-btn primary" data-act="add" style="height:44px;">Añadir</button></div>
+                <p class="muted" style="margin-top:14px;">Con Intro se añade y puedes escribir la siguiente.</p>`}
+    </div>`, '', sh=>{
+      const nm = sh.querySelector('#it-name'), nt = sh.querySelector('#it-note');
+      setTimeout(()=> nm.focus(), 50);
+      const commit = ()=>{
+        const name = nm.value.trim();
+        if(!name){ shake(nm); nm.focus(); return false; }
+        const target = data.pantry.zones.find(z=> z.id === selZone);
+        if(item){
+          item.name = name; item.note = nt.value.trim();
+          if(target && !target.items.includes(item)){ zone.items = zone.items.filter(i=> i !== item); target.items.push(item); }
+        } else target.items.push({ id: uid(), name, note: nt.value.trim(), missing: false, bought: false });
+        save(); return true;
+      };
+      const addMore = ()=>{ if(!commit()) return; toast(`Añadido: ${nm.value.trim()}`); nm.value = ''; nt.value = ''; nm.focus(); renderZones(); keepBoard(renderPantry); };
+      [nm, nt].forEach(inp=> inp.addEventListener('keydown', e=>{
+        if(e.key !== 'Enter') return; e.preventDefault();
+        if(item){ if(commit()) closeSheet(); } else addMore();
+      }));
+      sh.addEventListener('click', e=>{
+        const zs = e.target.closest('[data-zs]');
+        if(zs){ selZone = zs.dataset.zs; sh.querySelectorAll('[data-zs]').forEach(b=> b.classList.toggle('on', b.dataset.zs === selZone)); return; }
+        const a = e.target.closest('[data-act]'); if(!a) return;
+        const act = a.dataset.act;
+        if(act === 'close') return closeSheet();
+        if(act === 'add') return addMore();
+        if(act === 'ok'){ if(commit()) closeSheet(); return; }
+        if(act === 'del' && confirm(`¿Quitar «${item.name}» de la lista?`)){ zone.items = zone.items.filter(i=> i !== item); save(); closeSheet(); }
+      });
+    });
+}
+/* crear, renombrar o quitar una zona */
+function openZone(zoneId){
+  const zone = zoneId ? data.pantry.zones.find(z=> z.id === zoneId) : null;
+  openSheet(`<div class="sh-head"><button class="x" data-act="close" aria-label="Cerrar">✕</button><h2>${zone ? 'Zona' : 'Nueva zona'}</h2>
+      <button class="sh-btn primary" data-act="ok">${zone ? 'Listo' : 'Crear'}</button></div>
+    <div class="sh-body">
+      <div class="f"><input class="in" id="z-name" placeholder="Nevera, Congelador, Especias…" value="${zone ? esc(zone.name) : ''}" autocomplete="off" enterkeyhint="done"></div>
+      ${zone ? `<div class="foot"><button data-act="left">← Mover a la izquierda</button><button class="danger" data-act="del">Quitar zona</button></div>` : ''}
+    </div>`, '', sh=>{
+      const nm = sh.querySelector('#z-name');
+      setTimeout(()=> nm.focus(), 50);
+      const ok = ()=>{
+        const name = nm.value.trim(); if(!name){ shake(nm); return; }
+        if(zone) zone.name = name; else data.pantry.zones.push({ id: uid(), name, items: [] });
+        save(); closeSheet();
+      };
+      nm.addEventListener('keydown', e=>{ if(e.key === 'Enter'){ e.preventDefault(); ok(); } });
+      sh.addEventListener('click', e=>{
+        const a = e.target.closest('[data-act]'); if(!a) return;
+        const act = a.dataset.act;
+        if(act === 'close') return closeSheet();
+        if(act === 'ok') return ok();
+        if(act === 'left'){ const zs = data.pantry.zones, i = zs.indexOf(zone); if(i > 0){ zs.splice(i,1); zs.splice(i-1,0,zone); save(); toast('Movida'); } return; }
+        if(act === 'del'){
+          if(zone.items.length && !confirm(`«${zone.name}» tiene ${zone.items.length} cosas. ¿Quitar la zona y todo lo que tiene?`)) return;
+          data.pantry.zones = data.pantry.zones.filter(z=> z !== zone);
+          if(ui.zone === zone.id) ui.zone = '';
+          save(); closeSheet();
+        }
+      });
+    });
+}
+
 /* ---------- cargar un archivo a mano ---------- */
 const fileInput = document.createElement('input');
 fileInput.type = 'file'; fileInput.accept = '.json,.txt,.md,application/json,text/plain,text/markdown';
@@ -1409,7 +1660,7 @@ document.addEventListener('visibilitychange', ()=>{
    ARRANQUE
    ============================================================ */
 async function boot(){
-  ui = Object.assign({ tab:'recetas', filter:{}, tagFilter:{}, group:{}, collapsed:{} }, loadJSON(UIKEY) || {});
+  ui = Object.assign({ space:'recetario', tab:'recetas', ptab:'lista', zone:'', filter:{}, tagFilter:{}, group:{}, collapsed:{} }, loadJSON(UIKEY) || {});
   ui.q = ''; ui.searching = false;
   const stored = loadJSON(KEY);
   if(validData(stored)){
