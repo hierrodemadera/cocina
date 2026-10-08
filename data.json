@@ -7,7 +7,7 @@
    "tab": "recetas",
    "name": "Sopa de ajo",
    "group": "Salado",
-   "tag": "Castilla y León",
+   "tag": "España / Castilla y León",
    "yield": "4 pax",
    "parts": [
     {
@@ -75,7 +75,7 @@
    "tab": "recetas",
    "name": "Salmorejo",
    "group": "Salado",
-   "tag": "Andalucía",
+   "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
     {
@@ -138,7 +138,7 @@
    "tab": "recetas",
    "name": "Gazpacho",
    "group": "Salado",
-   "tag": "Andalucía",
+   "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
     {
@@ -210,7 +210,7 @@
    "tab": "recetas",
    "name": "Porra antequerana",
    "group": "Salado",
-   "tag": "Andalucía",
+   "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
     {
@@ -287,7 +287,7 @@
    "tab": "recetas",
    "name": "Ajoblanco",
    "group": "Salado",
-   "tag": "Andalucía",
+   "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
     {
@@ -354,7 +354,7 @@
    "tab": "recetas",
    "name": "Sopa de picadillo",
    "group": "Salado",
-   "tag": "Andalucía",
+   "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
     {
@@ -409,7 +409,7 @@
    "tab": "recetas",
    "name": "Caldo gallego",
    "group": "Salado",
-   "tag": "Galicia",
+   "tag": "España / Galicia",
    "yield": "4 pax",
    "parts": [
     {
@@ -482,7 +482,7 @@
    "tab": "recetas",
    "name": "Sopa de tomate extremeña",
    "group": "Salado",
-   "tag": "Extremadura",
+   "tag": "España / Extremadura",
    "yield": "4 pax",
    "parts": [
     {
@@ -560,7 +560,7 @@
    "tab": "recetas",
    "name": "Gazpacho manchego",
    "group": "Salado",
-   "tag": "Castilla-La Mancha",
+   "tag": "España / Castilla-La Mancha",
    "yield": "4 pax",
    "parts": [
     {
@@ -643,7 +643,7 @@
    "tab": "recetas",
    "name": "Migas",
    "group": "Salado",
-   "tag": "Extremadura",
+   "tag": "España / Extremadura",
    "yield": "4 pax",
    "parts": [
     {
@@ -715,7 +715,7 @@
    "tab": "recetas",
    "name": "Gachas manchegas",
    "group": "Salado",
-   "tag": "Castilla-La Mancha",
+   "tag": "España / Castilla-La Mancha",
    "yield": "4 pax",
    "parts": [
     {
@@ -787,7 +787,7 @@
    "tab": "recetas",
    "name": "Pa amb tomàquet",
    "group": "Salado",
-   "tag": "Cataluña",
+   "tag": "España / Cataluña",
    "yield": "4 pax",
    "parts": [
     {
@@ -836,7 +836,7 @@
    "tab": "recetas",
    "name": "Coca de trempó",
    "group": "Salado",
-   "tag": "Baleares",
+   "tag": "España / Baleares",
    "yield": "6 pax",
    "parts": [
     {
@@ -928,7 +928,7 @@
    "tab": "recetas",
    "name": "Empanada gallega",
    "group": "Salado",
-   "tag": "Galicia",
+   "tag": "España / Galicia",
    "yield": "6 pax",
    "parts": [
     {
@@ -1043,7 +1043,7 @@
    "tab": "recetas",
    "name": "Croquetas de aprovechamiento",
    "group": "Salado",
-   "tag": "",
+   "tag": "España",
    "yield": "30 ud.",
    "parts": [
     {
@@ -1131,7 +1131,7 @@
    "tab": "recetas",
    "name": "Lentejas estofadas",
    "group": "Salado",
-   "tag": "",
+   "tag": "España",
    "yield": "4 pax",
    "parts": [
     {
@@ -1224,7 +1224,7 @@
    "tab": "recetas",
    "name": "Potaje de vigilia",
    "group": "Salado",
-   "tag": "",
+   "tag": "España",
    "yield": "4 pax",
    "parts": [
     {
@@ -1312,7 +1312,7 @@
    "tab": "recetas",
    "name": "Garbanzos con espinacas",
    "group": "Salado",
-   "tag": "Andalucía",
+   "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
     {
@@ -1388,7 +1388,7 @@
    "tab": "recetas",
    "name": "Olla gitana",
    "group": "Salado",
-   "tag": "Murcia",
+   "tag": "España / Murcia",
    "yield": "4 pax",
    "parts": [
     {
@@ -1485,7 +1485,7 @@
    "tab": "recetas",
    "name": "Michirones",
    "group": "Salado",
-   "tag": "Murcia",
+   "tag": "España / Murcia",
    "yield": "4 pax",
    "parts": [
     {
@@ -1565,7 +1565,7 @@
    "tab": "recetas",
    "name": "Cocido madrileño",
    "group": "Salado",
-   "tag": "Madrid",
+   "tag": "España / Madrid",
    "yield": "6 pax",
    "parts": [
     {
@@ -1691,7 +1691,7 @@
    "tab": "recetas",
    "name": "Pote asturiano",
    "group": "Salado",
-   "tag": "Asturias",
+   "tag": "España / Asturias",
    "yield": "4 pax",
    "parts": [
     {
@@ -1762,7 +1762,7 @@
    "tab": "recetas",
    "name": "Judías del Barco",
    "group": "Salado",
-   "tag": "Castilla y León",
+   "tag": "España / Castilla y León",
    "yield": "4 pax",
    "parts": [
     {
@@ -1843,7 +1843,7 @@
    "tab": "recetas",
    "name": "Alubias de Tolosa",
    "group": "Salado",
-   "tag": "País Vasco",
+   "tag": "España / País Vasco",
    "yield": "4 pax",
    "parts": [
     {
@@ -1935,7 +1935,7 @@
    "tab": "recetas",
    "name": "Puchero andaluz",
    "group": "Salado",
-   "tag": "Andalucía",
+   "tag": "España / Andalucía",
    "yield": "6 pax",
    "parts": [
     {
@@ -2031,7 +2031,7 @@
    "tab": "recetas",
    "name": "Ropa vieja",
    "group": "Salado",
-   "tag": "Canarias",
+   "tag": "España / Canarias",
    "yield": "4 pax",
    "parts": [
     {
@@ -2118,7 +2118,7 @@
    "tab": "recetas",
    "name": "Pringá",
    "group": "Salado",
-   "tag": "Andalucía",
+   "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
     {
@@ -2173,7 +2173,7 @@
    "tab": "recetas",
    "name": "Arroz al horno",
    "group": "Salado",
-   "tag": "Comunidad Valenciana",
+   "tag": "España / Comunidad Valenciana",
    "yield": "4 pax",
    "parts": [
     {
@@ -2266,7 +2266,7 @@
    "tab": "recetas",
    "name": "Arròs amb fesols i naps",
    "group": "Salado",
-   "tag": "Comunidad Valenciana",
+   "tag": "España / Comunidad Valenciana",
    "yield": "4 pax",
    "parts": [
     {
@@ -2342,7 +2342,7 @@
    "tab": "recetas",
    "name": "Pisto manchego",
    "group": "Salado",
-   "tag": "Castilla-La Mancha",
+   "tag": "España / Castilla-La Mancha",
    "yield": "4 pax",
    "parts": [
     {
@@ -2419,7 +2419,7 @@
    "tab": "recetas",
    "name": "Escalivada",
    "group": "Salado",
-   "tag": "Cataluña",
+   "tag": "España / Cataluña",
    "yield": "4 pax",
    "parts": [
     {
@@ -2480,7 +2480,7 @@
    "tab": "recetas",
    "name": "Tumbet",
    "group": "Salado",
-   "tag": "Baleares",
+   "tag": "España / Baleares",
    "yield": "4 pax",
    "parts": [
     {
@@ -2547,7 +2547,7 @@
    "tab": "recetas",
    "name": "Alboronía",
    "group": "Salado",
-   "tag": "Andalucía",
+   "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
     {
@@ -2622,7 +2622,7 @@
    "tab": "recetas",
    "name": "Zarangollo",
    "group": "Salado",
-   "tag": "Murcia",
+   "tag": "España / Murcia",
    "yield": "4 pax",
    "parts": [
     {
@@ -2671,7 +2671,7 @@
    "tab": "recetas",
    "name": "Espinacas a la catalana",
    "group": "Salado",
-   "tag": "Cataluña",
+   "tag": "España / Cataluña",
    "yield": "4 pax",
    "parts": [
     {
@@ -2726,7 +2726,7 @@
    "tab": "recetas",
    "name": "Patatas a la importancia",
    "group": "Salado",
-   "tag": "Castilla y León",
+   "tag": "España / Castilla y León",
    "yield": "4 pax",
    "parts": [
     {
@@ -2808,7 +2808,7 @@
    "tab": "recetas",
    "name": "Patatas a lo pobre",
    "group": "Salado",
-   "tag": "Andalucía",
+   "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
     {
@@ -2868,7 +2868,7 @@
    "tab": "recetas",
    "name": "Patatas revolconas",
    "group": "Salado",
-   "tag": "Castilla y León",
+   "tag": "España / Castilla y León",
    "yield": "4 pax",
    "parts": [
     {
@@ -2934,7 +2934,7 @@
    "tab": "recetas",
    "name": "Patatas a la riojana",
    "group": "Salado",
-   "tag": "La Rioja",
+   "tag": "España / La Rioja",
    "yield": "4 pax",
    "parts": [
     {
@@ -3015,7 +3015,7 @@
    "tab": "recetas",
    "name": "Papas arrugadas con mojo",
    "group": "Salado",
-   "tag": "Canarias",
+   "tag": "España / Canarias",
    "yield": "4 pax",
    "parts": [
     {
@@ -3100,7 +3100,7 @@
    "tab": "recetas",
    "name": "Tortilla de patatas",
    "group": "Salado",
-   "tag": "",
+   "tag": "España",
    "yield": "4 pax",
    "parts": [
     {
@@ -3150,7 +3150,7 @@
    "tab": "recetas",
    "name": "Huevos a la flamenca",
    "group": "Salado",
-   "tag": "Andalucía",
+   "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
     {
@@ -3222,7 +3222,7 @@
    "tab": "recetas",
    "name": "Marmitako",
    "group": "Salado",
-   "tag": "País Vasco",
+   "tag": "España / País Vasco",
    "yield": "4 pax",
    "parts": [
     {
@@ -3299,7 +3299,7 @@
    "tab": "recetas",
    "name": "Arroz a banda",
    "group": "Salado",
-   "tag": "Comunidad Valenciana",
+   "tag": "España / Comunidad Valenciana",
    "yield": "4 pax",
    "parts": [
     {
@@ -3406,7 +3406,7 @@
    "tab": "recetas",
    "name": "Esgarraet",
    "group": "Salado",
-   "tag": "Comunidad Valenciana",
+   "tag": "España / Comunidad Valenciana",
    "yield": "4 pax",
    "parts": [
     {
@@ -3457,7 +3457,7 @@
    "tab": "recetas",
    "name": "Bacalao al ajoarriero",
    "group": "Salado",
-   "tag": "Navarra",
+   "tag": "España / Navarra",
    "yield": "4 pax",
    "parts": [
     {
@@ -3533,7 +3533,7 @@
    "tab": "recetas",
    "name": "Atascaburras",
    "group": "Salado",
-   "tag": "Castilla-La Mancha",
+   "tag": "España / Castilla-La Mancha",
    "yield": "4 pax",
    "parts": [
     {
@@ -3594,7 +3594,7 @@
    "tab": "recetas",
    "name": "Boquerones en vinagre",
    "group": "Salado",
-   "tag": "Andalucía",
+   "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
     {
@@ -3654,7 +3654,7 @@
    "tab": "recetas",
    "name": "Callos a la madrileña",
    "group": "Salado",
-   "tag": "Madrid",
+   "tag": "España / Madrid",
    "yield": "6 pax",
    "parts": [
     {
@@ -3762,7 +3762,7 @@
    "tab": "recetas",
    "name": "Morteruelo",
    "group": "Salado",
-   "tag": "Castilla-La Mancha",
+   "tag": "España / Castilla-La Mancha",
    "yield": "6 pax",
    "parts": [
     {
@@ -3848,7 +3848,7 @@
    "tab": "recetas",
    "name": "Arroz con leche",
    "group": "Dulce",
-   "tag": "Asturias",
+   "tag": "España / Asturias",
    "yield": "6 pax",
    "parts": [
     {
@@ -3915,7 +3915,7 @@
    "tab": "recetas",
    "name": "Natillas",
    "group": "Dulce",
-   "tag": "",
+   "tag": "España",
    "yield": "6 pax",
    "parts": [
     {
@@ -3981,7 +3981,7 @@
    "tab": "recetas",
    "name": "Flan de huevo",
    "group": "Dulce",
-   "tag": "",
+   "tag": "España",
    "yield": "6 pax",
    "parts": [
     {
@@ -4046,7 +4046,7 @@
    "tab": "recetas",
    "name": "Crema catalana",
    "group": "Dulce",
-   "tag": "Cataluña",
+   "tag": "España / Cataluña",
    "yield": "6 pax",
    "parts": [
     {
@@ -4107,7 +4107,7 @@
    "tab": "recetas",
    "name": "Leche frita",
    "group": "Dulce",
-   "tag": "Castilla y León",
+   "tag": "España / Castilla y León",
    "yield": "6 pax",
    "parts": [
     {
@@ -4197,7 +4197,7 @@
    "tab": "recetas",
    "name": "Torrijas",
    "group": "Dulce",
-   "tag": "",
+   "tag": "España",
    "yield": "8 ud.",
    "parts": [
     {
@@ -4268,7 +4268,7 @@
    "tab": "recetas",
    "name": "Tocino de cielo",
    "group": "Dulce",
-   "tag": "Andalucía",
+   "tag": "España / Andalucía",
    "yield": "6 pax",
    "parts": [
     {
@@ -4337,7 +4337,7 @@
    "tab": "recetas",
    "name": "Cuajada con miel",
    "group": "Dulce",
-   "tag": "Navarra",
+   "tag": "España / Navarra",
    "yield": "4 pax",
    "parts": [
     {
@@ -4382,7 +4382,7 @@
    "tab": "recetas",
    "name": "Leche merengada",
    "group": "Dulce",
-   "tag": "Comunidad Valenciana",
+   "tag": "España / Comunidad Valenciana",
    "yield": "6 pax",
    "parts": [
     {
@@ -4437,7 +4437,7 @@
    "tab": "recetas",
    "name": "Gachas dulces",
    "group": "Dulce",
-   "tag": "Andalucía",
+   "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
     {
@@ -4502,7 +4502,7 @@
    "tab": "recetas",
    "name": "Buñuelos de viento",
    "group": "Dulce",
-   "tag": "Madrid",
+   "tag": "España / Madrid",
    "yield": "30 ud.",
    "parts": [
     {
@@ -4572,7 +4572,7 @@
    "tab": "recetas",
    "name": "Pestiños",
    "group": "Dulce",
-   "tag": "Andalucía",
+   "tag": "España / Andalucía",
    "yield": "30 ud.",
    "parts": [
     {
@@ -4649,7 +4649,7 @@
    "tab": "recetas",
    "name": "Roscos fritos",
    "group": "Dulce",
-   "tag": "Andalucía",
+   "tag": "España / Andalucía",
    "yield": "30 ud.",
    "parts": [
     {
@@ -4720,7 +4720,7 @@
    "tab": "recetas",
    "name": "Churros",
    "group": "Dulce",
-   "tag": "Madrid",
+   "tag": "España / Madrid",
    "yield": "4 pax",
    "parts": [
     {
@@ -4770,7 +4770,7 @@
    "tab": "recetas",
    "name": "Flores de sartén",
    "group": "Dulce",
-   "tag": "Castilla-La Mancha",
+   "tag": "España / Castilla-La Mancha",
    "yield": "25 ud.",
    "parts": [
     {
@@ -4836,7 +4836,7 @@
    "tab": "recetas",
    "name": "Orejas de carnaval",
    "group": "Dulce",
-   "tag": "Galicia",
+   "tag": "España / Galicia",
    "yield": "25 ud.",
    "parts": [
     {
@@ -4906,7 +4906,7 @@
    "tab": "recetas",
    "name": "Filloas",
    "group": "Dulce",
-   "tag": "Galicia",
+   "tag": "España / Galicia",
    "yield": "15 ud.",
    "parts": [
     {
@@ -4966,7 +4966,7 @@
    "tab": "recetas",
    "name": "Frixuelos",
    "group": "Dulce",
-   "tag": "Asturias",
+   "tag": "España / Asturias",
    "yield": "15 ud.",
    "parts": [
     {
@@ -5031,7 +5031,7 @@
    "tab": "recetas",
    "name": "Buñuelos de calabaza",
    "group": "Dulce",
-   "tag": "Comunidad Valenciana",
+   "tag": "España / Comunidad Valenciana",
    "yield": "30 ud.",
    "parts": [
     {
@@ -5092,7 +5092,7 @@
    "tab": "recetas",
    "name": "Rosquillas de San Isidro",
    "group": "Dulce",
-   "tag": "Madrid",
+   "tag": "España / Madrid",
    "yield": "20 ud.",
    "parts": [
     {
@@ -5175,7 +5175,7 @@
    "tab": "recetas",
    "name": "Casadielles",
    "group": "Dulce",
-   "tag": "Asturias",
+   "tag": "España / Asturias",
    "yield": "12 ud.",
    "parts": [
     {
@@ -5259,7 +5259,7 @@
    "tab": "recetas",
    "name": "Tarta de Santiago",
    "group": "Dulce",
-   "tag": "Galicia",
+   "tag": "España / Galicia",
    "yield": "8 pax",
    "parts": [
     {
@@ -5319,7 +5319,7 @@
    "tab": "recetas",
    "name": "Bizcocho de yogur",
    "group": "Dulce",
-   "tag": "",
+   "tag": "España",
    "yield": "8 pax",
    "parts": [
     {
@@ -5380,7 +5380,7 @@
    "tab": "recetas",
    "name": "Magdalenas",
    "group": "Dulce",
-   "tag": "",
+   "tag": "España",
    "yield": "16 ud.",
    "parts": [
     {
@@ -5446,7 +5446,7 @@
    "tab": "recetas",
    "name": "Bizcocho borracho",
    "group": "Dulce",
-   "tag": "Castilla-La Mancha",
+   "tag": "España / Castilla-La Mancha",
    "yield": "8 pax",
    "parts": [
     {
@@ -5522,7 +5522,7 @@
    "tab": "recetas",
    "name": "Tarta de queso vasca",
    "group": "Dulce",
-   "tag": "País Vasco",
+   "tag": "España / País Vasco",
    "yield": "8 pax",
    "parts": [
     {
@@ -5573,7 +5573,7 @@
    "tab": "recetas",
    "name": "Quesada pasiega",
    "group": "Dulce",
-   "tag": "Cantabria",
+   "tag": "España / Cantabria",
    "yield": "8 pax",
    "parts": [
     {
@@ -5639,7 +5639,7 @@
    "tab": "recetas",
    "name": "Sobaos pasiegos",
    "group": "Dulce",
-   "tag": "Cantabria",
+   "tag": "España / Cantabria",
    "yield": "12 ud.",
    "parts": [
     {
@@ -5705,7 +5705,7 @@
    "tab": "recetas",
    "name": "Ensaimada",
    "group": "Dulce",
-   "tag": "Baleares",
+   "tag": "España / Baleares",
    "yield": "2 ud.",
    "parts": [
     {
@@ -5773,7 +5773,7 @@
    "tab": "recetas",
    "name": "Coca de llanda",
    "group": "Dulce",
-   "tag": "Comunidad Valenciana",
+   "tag": "España / Comunidad Valenciana",
    "yield": "8 pax",
    "parts": [
     {
@@ -5839,7 +5839,7 @@
    "tab": "recetas",
    "name": "Fartons",
    "group": "Dulce",
-   "tag": "Comunidad Valenciana",
+   "tag": "España / Comunidad Valenciana",
    "yield": "15 ud.",
    "parts": [
     {
@@ -5923,7 +5923,7 @@
    "tab": "recetas",
    "name": "Pan de Calatrava",
    "group": "Dulce",
-   "tag": "Murcia",
+   "tag": "España / Murcia",
    "yield": "8 pax",
    "parts": [
     {
@@ -5997,7 +5997,7 @@
    "tab": "recetas",
    "name": "Brazo de gitano",
    "group": "Dulce",
-   "tag": "",
+   "tag": "España",
    "yield": "8 pax",
    "parts": [
     {
@@ -6080,7 +6080,7 @@
    "tab": "recetas",
    "name": "Pastel vasco",
    "group": "Dulce",
-   "tag": "País Vasco",
+   "tag": "España / País Vasco",
    "yield": "8 pax",
    "parts": [
     {
@@ -6183,7 +6183,7 @@
    "tab": "recetas",
    "name": "Carquiñoles",
    "group": "Dulce",
-   "tag": "Cataluña",
+   "tag": "España / Cataluña",
    "yield": "30 ud.",
    "parts": [
     {
@@ -6245,7 +6245,7 @@
    "tab": "recetas",
    "name": "Perrunillas",
    "group": "Dulce",
-   "tag": "Extremadura",
+   "tag": "España / Extremadura",
    "yield": "25 ud.",
    "parts": [
     {
@@ -6316,7 +6316,7 @@
    "tab": "recetas",
    "name": "Mantecados",
    "group": "Dulce",
-   "tag": "Andalucía",
+   "tag": "España / Andalucía",
    "yield": "30 ud.",
    "parts": [
     {
@@ -6377,7 +6377,7 @@
    "tab": "recetas",
    "name": "Roscón de Reyes",
    "group": "Dulce",
-   "tag": "",
+   "tag": "España",
    "yield": "8 pax",
    "parts": [
     {
@@ -6489,7 +6489,7 @@
    "tab": "recetas",
    "name": "Panellets",
    "group": "Dulce",
-   "tag": "Cataluña",
+   "tag": "España / Cataluña",
    "yield": "30 ud.",
    "parts": [
     {
@@ -6545,7 +6545,7 @@
    "tab": "recetas",
    "name": "Mazapán de Toledo",
    "group": "Dulce",
-   "tag": "Castilla-La Mancha",
+   "tag": "España / Castilla-La Mancha",
    "yield": "30 ud.",
    "parts": [
     {
@@ -6595,7 +6595,7 @@
    "tab": "recetas",
    "name": "Yemas de Santa Teresa",
    "group": "Dulce",
-   "tag": "Castilla y León",
+   "tag": "España / Castilla y León",
    "yield": "20 ud.",
    "parts": [
     {
@@ -6651,7 +6651,7 @@
    "tab": "recetas",
    "name": "Peras al vino",
    "group": "Dulce",
-   "tag": "La Rioja",
+   "tag": "España / La Rioja",
    "yield": "4 pax",
    "parts": [
     {
@@ -6706,7 +6706,7 @@
    "tab": "recetas",
    "name": "Manzanas asadas",
    "group": "Dulce",
-   "tag": "",
+   "tag": "España",
    "yield": "4 pax",
    "parts": [
     {
@@ -6757,7 +6757,7 @@
    "tab": "recetas",
    "name": "Miguelitos de La Roda",
    "group": "Dulce",
-   "tag": "Castilla-La Mancha",
+   "tag": "España / Castilla-La Mancha",
    "yield": "12 ud.",
    "parts": [
     {
@@ -6827,7 +6827,7 @@
    "tab": "recetas",
    "name": "Tortas de aceite",
    "group": "Dulce",
-   "tag": "Andalucía",
+   "tag": "España / Andalucía",
    "yield": "10 ud.",
    "parts": [
     {
@@ -6898,7 +6898,7 @@
    "tab": "recetas",
    "name": "Bienmesabe canario",
    "group": "Dulce",
-   "tag": "Canarias",
+   "tag": "España / Canarias",
    "yield": "6 pax",
    "parts": [
     {
@@ -6953,7 +6953,7 @@
    "tab": "recetas",
    "name": "Frangollo",
    "group": "Dulce",
-   "tag": "Canarias",
+   "tag": "España / Canarias",
    "yield": "6 pax",
    "parts": [
     {
@@ -7024,7 +7024,7 @@
    "tab": "recetas",
    "name": "Mel i mató",
    "group": "Dulce",
-   "tag": "Cataluña",
+   "tag": "España / Cataluña",
    "yield": "4 pax",
    "parts": [
     {
@@ -7062,7 +7062,7 @@
    "tab": "recetas",
    "name": "Sopa de almendras",
    "group": "Dulce",
-   "tag": "",
+   "tag": "España",
    "yield": "6 pax",
    "parts": [
     {
@@ -7123,7 +7123,7 @@
    "tab": "recetas",
    "name": "Pan de higo",
    "group": "Dulce",
-   "tag": "Andalucía",
+   "tag": "España / Andalucía",
    "yield": "1 ud.",
    "parts": [
     {
