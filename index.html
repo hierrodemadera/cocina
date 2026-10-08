@@ -297,6 +297,9 @@ button.ghead{padding:20px 0 6px;}
       <button class="ib" id="search-btn" aria-label="Buscar">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
       </button>
+      <button class="ib" id="region-btn" aria-label="Regiones" title="Regiones">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg>
+      </button>
       <button class="ib" id="filter-btn" aria-label="Filtrar">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
         <i class="badge" style="display:none"></i>
@@ -753,10 +756,16 @@ $('#space-sw').addEventListener('click', e=>{
 
 function renderTabs(){
   const n = data.week.length;
-  $('#tabs').innerHTML = TABS.map(t=> `<button class="tab${ui.tab===t.id?' on':''}" data-tab="${t.id}">${t.label}</button>`).join('')
-    + `<button class="tab${ui.tab==='regiones'?' on':''}" data-tab="regiones">Regiones</button>`
-    + `<button class="tab${ui.tab==='semana'?' on':''}" data-tab="semana">Semana${n?`<span class="n">${n}</span>`:''}</button>`;
+  $('#tabs').innerHTML = TABS.map(t=> `<button class="tab${ui.tab===t.id?' on':''}" data-tab="${t.id}">${t.label}</button>`).join('');
 }
+$('#region-btn').addEventListener('click', ()=>{
+  if(ui.searching) closeSearch(true);
+  closePop();
+  if(ui.tab === 'regiones') ui.tab = ui.lastTab || 'recetas';
+  else { ui.lastTab = ui.tab; ui.tab = 'regiones'; }
+  saveUi(); render(); window.scrollTo(0,0);
+  const nb = $('#main .board'); if(nb) nb.scrollLeft = 0;
+});
 $('#tabs').addEventListener('click', e=>{
   const b = e.target.closest('.tab'); if(!b) return;
   if(b.dataset.ptab){
@@ -771,11 +780,12 @@ $('#tabs').addEventListener('click', e=>{
 });
 function updateHeaderIcons(){
   if(ui.space === 'despensa'){
-    $('#search-btn').style.display = 'none'; $('#filter-btn').style.display = 'none';
-    $('#fab').classList.toggle('hide', ui.ptab === 'compra');
+    $('#search-btn').style.display = 'none'; $('#filter-btn').style.display = 'none'; $('#region-btn').style.display = 'none';
+    $('#fab').classList.toggle('hide', ui.ptab === 'compra' || ui.ptab === 'semana');
     return;
   }
-  $('#search-btn').style.display = '';
+  $('#search-btn').style.display = ''; $('#region-btn').style.display = '';
+  $('#region-btn').classList.toggle('on', ui.tab === 'regiones');
   const isWeek = ui.tab === 'semana';
   $('#filter-btn').style.display = isWeek ? 'none' : '';
   $('#fab').classList.toggle('hide', isWeek || ui.tab === 'regiones' || ui.searching);
@@ -880,6 +890,7 @@ window.addEventListener('resize', closePop);
 
 /* ---------- lista ---------- */
 function renderMain(){
+  if(ui.space === 'despensa'){ renderPantry(); return; }
   const main = $('#main');
   document.body.classList.remove('boardmode');
   if(ui.searching){ renderSearch(main); return; }
@@ -1026,7 +1037,7 @@ function anyNumeric(r){ return allIngs(r).some(i=> isNumQ(i.q)); }
 function renderWeek(main){
   data.week = data.week.filter(w=> byId(w.recipeId));
   if(!data.week.length){
-    main.innerHTML = `<div class="empty">Nada para esta semana.<br>Abre una receta y pulsa <b>+ semana</b>.<br>Aquí te saldrá con su lista de la compra.</div>`;
+    main.innerHTML = `<div class="empty">Nada para esta semana.<br>En el Recetario, abre una receta y pulsa <b>+ semana</b>.<br>Sus ingredientes irán también a la Compra.</div>`;
     return;
   }
   let total = 0, struckN = 0;
@@ -1055,12 +1066,13 @@ function renderWeek(main){
             : `<div class="note">Sin ingredientes. Ábrela para añadirlos.</div>`}
     </div>`;
   }).join('');
-  main.innerHTML = `<div class="week-top"><span>${data.week.length} receta${data.week.length>1?'s':''}${total?` · ${struckN}/${total} en la cesta`:''}</span>
+  main.innerHTML = `<div class="list"><div class="week-top"><span>${data.week.length} receta${data.week.length>1?'s':''}${total?` · ${struckN}/${total} en la cesta`:''}</span>
     ${struckN?'<button class="link" data-act="unstrike">desmarcar todo</button>':''}</div>` + cards
-    + `<div style="text-align:center;padding:18px 0;"><button class="link" data-act="clear">vaciar semana</button></div>`;
+    + `<div style="text-align:center;padding:18px 0;"><button class="link" data-act="clear">vaciar semana</button></div></div>`;
 }
+function isWeekView(){ return ui.space === 'despensa' && ui.ptab === 'semana'; }
 function weekClick(e){
-  if(ui.tab !== 'semana' || ui.searching) return;
+  if(!isWeekView()) return;
   const act = e.target.closest('[data-act]');
   const card = e.target.closest('.card');
   const w = card ? data.week.find(x=> x.id === card.dataset.w) : null;
@@ -1090,7 +1102,7 @@ function weekClick(e){
   }
 }
 $('#main').addEventListener('change', e=>{
-  if(ui.tab !== 'semana') return;
+  if(!isWeekView()) return;
   const sc = e.target.closest('.scaler'), card = e.target.closest('.card');
   if(!sc || !card) return;
   const w = data.week.find(x=> x.id === card.dataset.w), r = w && byId(w.recipeId);
@@ -1435,13 +1447,14 @@ function weekShopCount(){
 }
 function renderPTabs(){
   const n = missingItems().filter(x=> !x.i.bought).length + weekShopCount();
-  const pt = ui.ptab === 'compra' ? 'compra' : 'lista';
-  $('#tabs').innerHTML = `<button class="tab${pt==='lista'?' on':''}" data-ptab="lista">Lo que hay</button>`
+  const pt = ui.ptab, nw = data.week.length;
+  $('#tabs').innerHTML = `<button class="tab${pt==='lista'?' on':''}" data-ptab="lista">Stock</button>`
+    + `<button class="tab${pt==='semana'?' on':''}" data-ptab="semana">Semana${nw?`<span class="n">${nw}</span>`:''}</button>`
     + `<button class="tab${pt==='compra'?' on':''}" data-ptab="compra">Compra${n?`<span class="n">${n}</span>`:''}</button>`;
 }
 function renderZones(){
   const el = $('#groups');
-  if(ui.ptab === 'compra'){ el.classList.add('hide'); el.innerHTML = ''; return; }
+  if(ui.ptab !== 'lista'){ el.classList.add('hide'); el.innerHTML = ''; return; }
   el.classList.remove('hide');
   const cur = curZone();
   el.innerHTML = `<button class="chip${!cur?' on':''}" data-z="">Todo</button>` +
@@ -1461,6 +1474,7 @@ function renderPantry(){
   const main = $('#main');
   document.body.classList.remove('boardmode');
   if(ui.ptab === 'compra'){ renderBuy(main); return; }
+  if(ui.ptab === 'semana'){ renderWeek(main); return; }
   const cur = curZone();
   if(cur){
     main.innerHTML = `<div class="list">
@@ -1485,7 +1499,7 @@ function renderBuy(main){
   const miss = missingItems();
   const weeks = data.week.map(w=> ({ w, r: byId(w.recipeId) })).filter(x=> x.r && x.r.parts.some(p=> p.ings.length));
   if(!miss.length && !weeks.length){
-    main.innerHTML = `<div class="empty">No falta nada.<br>En <b>Lo que hay</b>, toca lo que se acabe y aparecerá aquí.<br>Las recetas que metas en la Semana también traen aquí sus ingredientes.</div>`;
+    main.innerHTML = `<div class="empty">No falta nada.<br>En <b>Stock</b>, toca lo que se acabe y aparecerá aquí.<br>Las recetas que metas en la Semana también traen aquí sus ingredientes.</div>`;
     return;
   }
   let html = '';
@@ -1509,6 +1523,7 @@ function renderBuy(main){
   main.innerHTML = `<div class="list">${html}</div>`;
 }
 function pantryClick(e){
+  if(ui.ptab === 'semana'){ weekClick(e); renderPTabs(); return; }
   const t = e.target;
   if(t.closest('[data-addzone]')) return openZone(null);
   const ze = t.closest('[data-zedit]'); if(ze) return openZone(ze.dataset.zedit);
@@ -1662,6 +1677,8 @@ document.addEventListener('visibilitychange', ()=>{
 async function boot(){
   ui = Object.assign({ space:'recetario', tab:'recetas', ptab:'lista', zone:'', filter:{}, tagFilter:{}, group:{}, collapsed:{} }, loadJSON(UIKEY) || {});
   ui.q = ''; ui.searching = false;
+  if(ui.tab === 'semana') ui.tab = 'recetas';
+  if(!['lista','semana','compra'].includes(ui.ptab)) ui.ptab = 'lista';
   const stored = loadJSON(KEY);
   if(validData(stored)){
     data = cleanData(stored);
