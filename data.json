@@ -1,5 +1,3847 @@
 {
  "version": 2,
  "reset": "2026-10-08",
- "recipes": []
+ "recipes": [
+  {
+   "id": "r-recetas-sopa-de-ajo",
+   "tab": "recetas",
+   "name": "Sopa de ajo",
+   "group": "Salado",
+   "tag": "Castilla y León",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Pan duro de hogaza"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Jamón serrano"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Pimentón de la Vera"
+      },
+      {
+       "q": "1,5",
+       "u": "l",
+       "n": "Caldo de carne o agua"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Pelar y laminar los ajos. Cortar el pan en rebanadas finas y el jamón en taquitos.",
+      "Dorar los ajos en el AOVE en una cazuela de barro a fuego suave.",
+      "Añadir el jamón y rehogar 1 min.",
+      "Incorporar el pan y tostar ligeramente, removiendo.",
+      "Retirar del fuego, añadir el pimentón y remover sin dejar que se queme.",
+      "Mojar con el caldo caliente y cocer 15 min a fuego suave.",
+      "Rectificar de sal.",
+      "Cascar los huevos sobre la sopa y escalfar 3–4 min, o cuajar en el horno a 200 ºC."
+     ]
+    }
+   ],
+   "notes": "Plato de aprovechamiento del pan duro. Mejor en cazuela de barro y servido muy caliente.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-salmorejo",
+   "tab": "recetas",
+   "name": "Salmorejo",
+   "group": "Salado",
+   "tag": "Andalucía",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Tomate pera maduro"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Pan de telera del día anterior"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Jamón serrano"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar y trocear los tomates.",
+      "Triturar el tomate con el ajo y la sal, y pasar por el chino.",
+      "Remojar el pan troceado en el tomate durante 10 min.",
+      "Triturar de nuevo incorporando el AOVE a hilo fino hasta emulsionar.",
+      "Rectificar de sal y refrigerar un mínimo de 2 h.",
+      "Cocer los huevos 10 min, enfriar, pelar y picar.",
+      "Picar el jamón en brunoise.",
+      "Servir frío con el huevo y el jamón por encima y un hilo de AOVE."
+     ]
+    }
+   ],
+   "notes": "Debe quedar espeso, que aguante la guarnición encima.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-gazpacho",
+   "tab": "recetas",
+   "name": "Gazpacho",
+   "group": "Salado",
+   "tag": "Andalucía",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde italiano"
+      },
+      {
+       "q": "½",
+       "u": "ud.",
+       "n": "Pepino"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Pan duro"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Vinagre de Jerez"
+      },
+      {
+       "q": "200",
+       "u": "ml",
+       "n": "Agua fría"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar las verduras. Pelar el pepino y trocear todo.",
+      "Remojar el pan en el agua.",
+      "Triturar las verduras con el ajo, el pan y el vinagre.",
+      "Añadir el AOVE a hilo sin dejar de triturar hasta emulsionar.",
+      "Pasar por el chino.",
+      "Rectificar de sal y vinagre y refrigerar 2 h.",
+      "Servir muy frío, con guarnición de verduras en brunoise si se desea."
+     ]
+    }
+   ],
+   "notes": "Ajustar el agua según lo líquido que se quiera.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-porra-antequerana",
+   "tab": "recetas",
+   "name": "Porra antequerana",
+   "group": "Salado",
+   "tag": "Andalucía",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Pan de telera del día anterior"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde italiano"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "15",
+       "u": "ml",
+       "n": "Vinagre de vino"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Jamón serrano"
+      },
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Atún en aceite"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar y trocear los tomates y el pimiento.",
+      "Triturar con el ajo, la sal y el vinagre, y pasar por el chino.",
+      "Remojar el pan troceado en el tomate 10 min.",
+      "Triturar incorporando el AOVE a hilo hasta obtener una crema muy densa.",
+      "Refrigerar 2 h.",
+      "Cocer los huevos 10 min, enfriar y picar. Picar el jamón y desmigar el atún.",
+      "Servir con el huevo, el jamón y el atún por encima."
+     ]
+    }
+   ],
+   "notes": "Más espesa que el salmorejo: tradicionalmente se come casi a cucharadas.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-ajoblanco",
+   "tab": "recetas",
+   "name": "Ajoblanco",
+   "group": "Salado",
+   "tag": "Andalucía",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Almendra cruda pelada"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Pan duro"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Vinagre de Jerez"
+      },
+      {
+       "q": "750",
+       "u": "ml",
+       "n": "Agua muy fría"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Uva moscatel"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar el pan en parte del agua.",
+      "Triturar la almendra con el ajo hasta obtener una pasta fina.",
+      "Añadir el pan escurrido y triturar.",
+      "Incorporar el AOVE a hilo hasta emulsionar.",
+      "Añadir el vinagre, la sal y el resto del agua, y triturar hasta que quede fino.",
+      "Pasar por un colador fino y refrigerar 2 h.",
+      "Servir muy frío con las uvas peladas."
+     ]
+    }
+   ],
+   "notes": "Si se pasa por estameña queda más sedoso.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-sopa-de-picadillo",
+   "tab": "recetas",
+   "name": "Sopa de picadillo",
+   "group": "Salado",
+   "tag": "Andalucía",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1,5",
+       "u": "l",
+       "n": "Caldo de puchero"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Jamón serrano"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Fideo fino"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de hierbabuena"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cocer los huevos 10 min, enfriar, pelar y picar.",
+      "Picar el jamón en brunoise.",
+      "Llevar el caldo a ebullición y cocer los fideos 3–4 min.",
+      "Rectificar de sal.",
+      "Servir con el huevo y el jamón en el plato y unas hojas de hierbabuena."
+     ]
+    }
+   ],
+   "notes": "Aprovechamiento del caldo del puchero andaluz.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-caldo-gallego",
+   "tab": "recetas",
+   "name": "Caldo gallego",
+   "group": "Salado",
+   "tag": "Galicia",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Alubia blanca seca"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Grelos o berza"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Patata gallega"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Lacón"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Tocino"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hueso de jamón"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Unto (opcional)"
+      },
+      {
+       "q": "2,5",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar las alubias en agua fría 12 h.",
+      "Poner el agua con las alubias, el lacón, el tocino, el hueso y el unto, y llevar a ebullición.",
+      "Espumar y cocer a fuego suave 1 h 30 min.",
+      "Lavar y picar los grelos o la berza.",
+      "Pelar y cascar las patatas.",
+      "Añadir las patatas y la verdura y cocer 30 min más.",
+      "Retirar el hueso, trocear las carnes y devolverlas al caldo.",
+      "Rectificar de sal y reposar 10 min antes de servir."
+     ]
+    }
+   ],
+   "notes": "Mejor de un día para otro.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-sopa-de-tomate-extremena",
+   "tab": "recetas",
+   "name": "Sopa de tomate extremeña",
+   "group": "Salado",
+   "tag": "Extremadura",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde italiano"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Pimentón de la Vera"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Pan duro"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Escaldar, pelar y trocear los tomates.",
+      "Picar la cebolla, el pimiento y los ajos en brunoise.",
+      "Pochar la cebolla, el pimiento y el ajo en el AOVE a fuego suave 15 min.",
+      "Añadir el tomate y cocinar 15 min.",
+      "Retirar del fuego, añadir el pimentón y mojar con el agua.",
+      "Cocer 10 min y rectificar de sal.",
+      "Escalfar los huevos en la sopa 3–4 min.",
+      "Servir sobre rebanadas finas de pan."
+     ]
+    }
+   ],
+   "notes": "En muchos pueblos se acompaña de higos frescos o uvas.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-gazpacho-manchego",
+   "tab": "recetas",
+   "name": "Gazpacho manchego",
+   "group": "Salado",
+   "tag": "Castilla-La Mancha",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Conejo troceado"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento rojo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Torta cenceña"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de tomillo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "1,5",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Salpimentar y marcar el conejo en el AOVE en una sartén ancha. Reservar.",
+      "Picar la cebolla, el pimiento y el ajo y pochar en el mismo aceite 10 min.",
+      "Añadir el tomate rallado y sofreír 10 min.",
+      "Devolver el conejo, añadir el tomillo y el laurel y mojar con el agua.",
+      "Cocer a fuego suave 40 min.",
+      "Deshuesar el conejo y devolver la carne al caldo.",
+      "Añadir la torta troceada y cocer 5–8 min hasta que absorba el caldo.",
+      "Rectificar de sal y reposar 5 min antes de servir."
+     ]
+    }
+   ],
+   "notes": "Tradicionalmente se hace con caza (liebre, perdiz). La torta cenceña se vende ya hecha.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-migas",
+   "tab": "recetas",
+   "name": "Migas",
+   "group": "Salado",
+   "tag": "Extremadura",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Pan candeal de 2–3 días"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Panceta"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Chorizo"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde italiano"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Pimentón de la Vera"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar el pan en láminas finas, humedecerlo con el agua con sal, tapar con un paño y reposar toda la noche.",
+      "Freír los ajos enteros con piel en el AOVE y retirar.",
+      "Freír la panceta y el chorizo en dados y retirar.",
+      "Freír el pimiento en tiras y retirar.",
+      "Añadir el pan al aceite y remover con la espumadera, cortándolo, durante 20–30 min a fuego medio hasta que quede suelto y dorado.",
+      "Incorporar los ajos, las carnes y el pimiento.",
+      "Añadir el pimentón fuera del fuego y mezclar."
+     ]
+    }
+   ],
+   "notes": "Acompañar con uvas, melón o un huevo frito.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-gachas-manchegas",
+   "tab": "recetas",
+   "name": "Gachas manchegas",
+   "group": "Salado",
+   "tag": "Castilla-La Mancha",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "120",
+       "u": "g",
+       "n": "Harina de almortas"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Panceta"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Chorizo"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "½",
+       "u": "cdta.",
+       "n": "Pimentón picante"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar la panceta y el chorizo en dados y freír en el AOVE en una sartén honda. Retirar.",
+      "Freír los ajos enteros y retirar.",
+      "Añadir la harina al aceite y tostar 2–3 min removiendo.",
+      "Retirar del fuego y añadir los pimentones.",
+      "Incorporar el agua poco a poco, sin dejar de remover para evitar grumos.",
+      "Cocer a fuego suave 15–20 min, removiendo, hasta que espese.",
+      "Rectificar de sal y añadir las carnes por encima."
+     ]
+    }
+   ],
+   "notes": "Se comen tradicionalmente de la sartén, con cuchara o con pan.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-pa-amb-tomaquet",
+   "tab": "recetas",
+   "name": "Pa amb tomàquet",
+   "group": "Salado",
+   "tag": "Cataluña",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Rebanada de pan de payés"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Tomate de colgar"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Diente de ajo (opcional)"
+      },
+      {
+       "q": "40",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Tostar las rebanadas de pan.",
+      "Frotar con el ajo, si se usa.",
+      "Cortar los tomates por la mitad y restregarlos sobre el pan hasta que solo quede la piel.",
+      "Salar y regar con AOVE."
+     ]
+    }
+   ],
+   "notes": "Sirve de base para acompañar embutido, tortilla o anchoas.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-coca-de-trempo",
+   "tab": "recetas",
+   "name": "Coca de trempó",
+   "group": "Salado",
+   "tag": "Baleares",
+   "yield": "6 pax",
+   "parts": [
+    {
+     "name": "Masa",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Agua tibia"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Manteca de cerdo"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Levadura fresca"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Disolver la levadura en el agua tibia.",
+      "Mezclar la harina con la sal, la manteca y el AOVE.",
+      "Añadir el agua con levadura y amasar hasta obtener una masa lisa.",
+      "Reposar tapada 30 min."
+     ]
+    },
+    {
+     "name": "Trempó y montaje",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Tomate de ramallet"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Pimiento verde"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla tierna"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar el tomate, el pimiento y la cebolla en dados pequeños.",
+      "Aliñar con el AOVE y la sal.",
+      "Estirar la masa en una bandeja con papel sulfurizado, de 0,5 cm de grosor.",
+      "Repartir el trempó por encima.",
+      "Hornear a 200 ºC durante 30–35 min."
+     ]
+    }
+   ],
+   "notes": "Buena fría al día siguiente.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-empanada-gallega",
+   "tab": "recetas",
+   "name": "Empanada gallega",
+   "group": "Salado",
+   "tag": "Galicia",
+   "yield": "6 pax",
+   "parts": [
+    {
+     "name": "Masa",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Agua tibia"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Aceite del sofrito"
+      },
+      {
+       "q": "25",
+       "u": "g",
+       "n": "Levadura fresca"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Huevo (para pintar)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Disolver la levadura en el agua tibia.",
+      "Mezclar con la harina, la sal y el aceite colado del sofrito.",
+      "Amasar 10 min hasta obtener una masa lisa.",
+      "Reposar tapada 1 h."
+     ]
+    },
+    {
+     "name": "Relleno y montaje",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento rojo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Tomate"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Bonito en aceite"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo cocido"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar la cebolla y los pimientos en juliana fina.",
+      "Pochar en el AOVE a fuego suave 30 min.",
+      "Añadir el tomate rallado y cocinar 10 min. Retirar del fuego y añadir el pimentón.",
+      "Colar el sofrito y reservar el aceite para la masa.",
+      "Mezclar el sofrito con el bonito desmigado y el huevo picado.",
+      "Dividir la masa en dos, estirar una base fina, rellenar y cubrir con la otra.",
+      "Sellar los bordes, hacer un agujero en el centro y pintar con huevo batido.",
+      "Hornear a 190 ºC durante 35–40 min."
+     ]
+    }
+   ],
+   "notes": "El relleno admite sardinas, xoubas o carne según lo que haya.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-croquetas-de-aprovechamiento",
+   "tab": "recetas",
+   "name": "Croquetas de aprovechamiento",
+   "group": "Salado",
+   "tag": "",
+   "yield": "30 ud.",
+   "parts": [
+    {
+     "name": "Masa",
+     "ings": [
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Mantequilla"
+      },
+      {
+       "q": "90",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Leche entera"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Restos de carne (pollo del caldo, cocido, jamón)"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Cebolla"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Nuez moscada"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Picar la cebolla en brunoise y pochar en la mantequilla.",
+      "Añadir la harina y cocinar 3 min sin que tome color.",
+      "Incorporar la leche caliente poco a poco, removiendo con varillas.",
+      "Cocer 15 min a fuego suave hasta obtener una bechamel espesa.",
+      "Añadir la carne picada fina, la nuez moscada y la sal.",
+      "Extender en una bandeja, cubrir con film a piel y refrigerar 12 h."
+     ]
+    },
+    {
+     "name": "Empanado y fritura",
+     "ings": [
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Pan rallado"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite de girasol para freír"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Formar las croquetas con las manos o con dos cucharas.",
+      "Pasar por huevo batido y por pan rallado.",
+      "Freír en aceite abundante a 180 ºC hasta dorar.",
+      "Escurrir sobre papel absorbente."
+     ]
+    }
+   ],
+   "notes": "Se pueden congelar crudas, ya empanadas.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-lentejas-estofadas",
+   "tab": "recetas",
+   "name": "Lentejas estofadas",
+   "group": "Salado",
+   "tag": "",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Lenteja pardina"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde italiano"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Patata"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Chorizo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "1,5",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Picar la cebolla, la zanahoria, el pimiento y el ajo en brunoise.",
+      "Pochar las verduras en el AOVE a fuego suave 10 min.",
+      "Añadir el tomate rallado y sofreír 5 min.",
+      "Retirar del fuego y añadir el pimentón.",
+      "Incorporar las lentejas, el chorizo en rodajas y el laurel, y mojar con el agua.",
+      "Cocer a fuego suave 25 min.",
+      "Añadir la patata cascada y cocer 15 min más.",
+      "Rectificar de sal y reposar 10 min."
+     ]
+    }
+   ],
+   "notes": "La pardina no necesita remojo.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-potaje-de-vigilia",
+   "tab": "recetas",
+   "name": "Potaje de vigilia",
+   "group": "Salado",
+   "tag": "",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Garbanzo seco"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Bacalao desalado"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Espinaca fresca"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo cocido"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "1,5",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar los garbanzos en agua templada 12 h.",
+      "Llevar el agua a ebullición con el laurel y añadir los garbanzos.",
+      "Cocer a fuego suave 1 h 30 min (20 min en olla exprés).",
+      "Picar la cebolla y el ajo en brunoise y pochar en el AOVE.",
+      "Añadir el tomate rallado y sofreír. Retirar del fuego y añadir el pimentón.",
+      "Incorporar el sofrito y las espinacas a los garbanzos y cocer 10 min.",
+      "Añadir el bacalao desmigado y cocer 5 min más.",
+      "Rectificar de sal y servir con el huevo picado."
+     ]
+    }
+   ],
+   "notes": "Plato tradicional de Cuaresma.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-garbanzos-con-espinacas",
+   "tab": "recetas",
+   "name": "Garbanzos con espinacas",
+   "group": "Salado",
+   "tag": "Andalucía",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Garbanzo cocido"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Espinaca fresca"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Pan duro"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Comino molido"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "15",
+       "u": "ml",
+       "n": "Vinagre de Jerez"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "200",
+       "u": "ml",
+       "n": "Agua o caldo"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Freír el pan y los ajos laminados en el AOVE hasta dorar. Retirar.",
+      "Majar en el mortero el pan, los ajos, el comino, el pimentón y el vinagre hasta obtener una pasta.",
+      "Saltear las espinacas en el mismo aceite hasta que reduzcan.",
+      "Añadir los garbanzos y el majado.",
+      "Mojar con el agua o caldo y cocer 10 min a fuego suave.",
+      "Rectificar de sal."
+     ]
+    }
+   ],
+   "notes": "Clásico de las tabernas sevillanas. Con garbanzo de bote sale en media hora.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-olla-gitana",
+   "tab": "recetas",
+   "name": "Olla gitana",
+   "group": "Salado",
+   "tag": "Murcia",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Garbanzo seco"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Judía verde"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Calabaza"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Pera"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Patata"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azafrán en hebras"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Almendra tostada"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "1,5",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar los garbanzos 12 h y cocerlos en el agua 1 h 30 min.",
+      "Añadir la judía troceada, la calabaza y la patata en dados y cocer 15 min.",
+      "Picar la cebolla y pochar en el AOVE. Añadir el tomate rallado y sofreír.",
+      "Retirar del fuego, añadir el pimentón e incorporar el sofrito a la olla.",
+      "Majar la almendra con los ajos y el azafrán y añadir a la olla.",
+      "Incorporar la pera pelada en cuartos y cocer 10 min.",
+      "Rectificar de sal y reposar."
+     ]
+    }
+   ],
+   "notes": "Plato de cuchara de cuaresma, sin carne.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-michirones",
+   "tab": "recetas",
+   "name": "Michirones",
+   "group": "Salado",
+   "tag": "Murcia",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Haba seca"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Chorizo"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Panceta"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hueso de jamón"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Guindilla"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "1,5",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar las habas en agua fría 24–48 h, cambiando el agua.",
+      "Poner las habas en una olla con el agua, el hueso, la panceta, el chorizo, el laurel y la guindilla.",
+      "Dorar los ajos laminados en el AOVE, retirar del fuego, añadir el pimentón y verter en la olla.",
+      "Cocer a fuego suave 2 h 30 min (40 min en olla exprés), hasta que las habas estén tiernas.",
+      "Rectificar de sal y servir caldoso."
+     ]
+    }
+   ],
+   "notes": "Típico de bar murciano como tapa.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-cocido-madrileno",
+   "tab": "recetas",
+   "name": "Cocido madrileño",
+   "group": "Salado",
+   "tag": "Madrid",
+   "yield": "6 pax",
+   "parts": [
+    {
+     "name": "Cocido",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Garbanzo seco"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Morcillo de ternera"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Gallina"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Tocino"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hueso de rodilla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hueso de jamón"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Patata"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "3",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar los garbanzos en agua templada con sal 12 h.",
+      "Poner las carnes y los huesos en el agua fría y llevar a ebullición. Espumar.",
+      "Añadir los garbanzos en una red y cocer a fuego suave 3 h.",
+      "Añadir las zanahorias y las patatas en los últimos 30 min.",
+      "Rectificar de sal."
+     ]
+    },
+    {
+     "name": "Repollo y embutidos",
+     "ings": [
+      {
+       "q": "800",
+       "u": "g",
+       "n": "Repollo"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Chorizo"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Morcilla"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "AOVE"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cocer el repollo picado con el chorizo y la morcilla en agua aparte 30 min.",
+      "Escurrir el repollo y rehogarlo con los ajos laminados dorados en el AOVE."
+     ]
+    },
+    {
+     "name": "Sopa",
+     "ings": [
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Fideo fino"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Colar el caldo del cocido.",
+      "Cocer los fideos en el caldo 3–4 min.",
+      "Servir primero la sopa, y después garbanzos, verduras y carnes."
+     ]
+    }
+   ],
+   "notes": "Con lo que sobra: ropa vieja, croquetas o pringá.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-pote-asturiano",
+   "tab": "recetas",
+   "name": "Pote asturiano",
+   "group": "Salado",
+   "tag": "Asturias",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Alubia blanca seca"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Berza"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Patata"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Chorizo asturiano"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Morcilla asturiana"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Lacón"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "2,5",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar las alubias 12 h.",
+      "Cocer las alubias con el lacón en el agua 1 h a fuego suave, asustando con agua fría dos veces.",
+      "Escaldar la berza picada 5 min y escurrir.",
+      "Añadir la berza, el chorizo, la morcilla y el pimentón y cocer 30 min.",
+      "Añadir la patata cascada y cocer 20 min más.",
+      "Rectificar de sal y reposar 15 min."
+     ]
+    }
+   ],
+   "notes": "El compango (chorizo, morcilla, lacón) se sirve troceado aparte.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-judias-del-barco",
+   "tab": "recetas",
+   "name": "Judías del Barco",
+   "group": "Salado",
+   "tag": "Castilla y León",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Judía blanca del Barco"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Chorizo"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Panceta"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde italiano"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Agua"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar las judías 12 h.",
+      "Cubrir con agua fría, añadir media cebolla, el laurel, el chorizo y la panceta, y llevar a ebullición.",
+      "Cocer a fuego muy suave 1 h 30 min, asustando con agua fría tres veces.",
+      "Picar la otra media cebolla, el pimiento y el ajo y pochar en el AOVE.",
+      "Retirar del fuego, añadir el pimentón e incorporar a las judías.",
+      "Cocer 15 min más y rectificar de sal."
+     ]
+    }
+   ],
+   "notes": "Con IGP de El Barco de Ávila; vale cualquier judía blanca de calidad.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-alubias-de-tolosa",
+   "tab": "recetas",
+   "name": "Alubias de Tolosa",
+   "group": "Salado",
+   "tag": "País Vasco",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Alubias",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Alubia de Tolosa"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Cebolla"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Agua fría"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Poner las alubias sin remojo en una olla con agua fría que las cubra, la cebolla entera y el AOVE.",
+      "Llevar a ebullición y bajar a fuego mínimo.",
+      "Cocer 2 h 30 min, asustando con agua fría cada vez que dejen de estar cubiertas.",
+      "Retirar la cebolla, triturarla y devolverla para ligar el caldo.",
+      "Salar al final."
+     ]
+    },
+    {
+     "name": "Sacramentos",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Berza"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Morcilla de Beasain"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Chorizo"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Tocino"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "AOVE"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cocer el chorizo, la morcilla y el tocino en agua aparte 30 min.",
+      "Cocer la berza en agua con sal 15 min y escurrir.",
+      "Rehogar la berza con los ajos laminados dorados en el AOVE.",
+      "Servir los sacramentos aparte, junto a las alubias."
+     ]
+    }
+   ],
+   "notes": "Acompañar con guindillas de Ibarra.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-puchero-andaluz",
+   "tab": "recetas",
+   "name": "Puchero andaluz",
+   "group": "Salado",
+   "tag": "Andalucía",
+   "yield": "6 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Garbanzo seco"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Gallina"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Morcillo de ternera"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Tocino"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hueso de jamón"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hueso de espinazo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Puerro"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Nabo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de apio"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Patata"
+      },
+      {
+       "q": "3",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de hierbabuena"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar los garbanzos 12 h.",
+      "Poner las carnes y los huesos en el agua fría, llevar a ebullición y espumar.",
+      "Añadir los garbanzos y las verduras y cocer a fuego suave 2 h 30 min.",
+      "Añadir las patatas en los últimos 30 min.",
+      "Rectificar de sal.",
+      "Servir el caldo con hierbabuena y, aparte, los garbanzos, verduras y carnes."
+     ]
+    }
+   ],
+   "notes": "Del puchero salen la sopa de picadillo, la pringá y las croquetas.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-ropa-vieja",
+   "tab": "recetas",
+   "name": "Ropa vieja",
+   "group": "Salado",
+   "tag": "Canarias",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Garbanzo cocido"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Carne del puchero (ternera y pollo)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento rojo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de tomillo"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Patata"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Vino blanco"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Desmigar la carne en hebras.",
+      "Cortar la patata en dados y freír. Reservar.",
+      "Picar la cebolla, el pimiento y el ajo y pochar en el AOVE 10 min.",
+      "Añadir el tomate rallado, el tomillo y el pimentón y sofreír 10 min.",
+      "Añadir la carne y mojar con el vino. Reducir 5 min.",
+      "Incorporar los garbanzos y la patata y saltear hasta integrar.",
+      "Rectificar de sal."
+     ]
+    }
+   ],
+   "notes": "Aprovechamiento de las sobras del puchero.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-pringa",
+   "tab": "recetas",
+   "name": "Pringá",
+   "group": "Salado",
+   "tag": "Andalucía",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Carne del puchero (morcillo, gallina)"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Tocino del puchero"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Morcilla del puchero"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Chorizo del puchero"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Mollete o pan"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Grasa del puchero o AOVE"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Desmigar y picar finas todas las carnes.",
+      "Calentar la grasa en una sartén y añadir las carnes.",
+      "Mezclar aplastando con un tenedor hasta obtener una pasta.",
+      "Abrir y tostar los molletes.",
+      "Rellenar con la pringá caliente y marcar en la plancha."
+     ]
+    }
+   ],
+   "notes": "Aprovechamiento clásico del puchero en Sevilla.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-arroz-al-horno",
+   "tab": "recetas",
+   "name": "Arroz al horno",
+   "group": "Salado",
+   "tag": "Comunidad Valenciana",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Arroz redondo"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Garbanzo cocido"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Costilla de cerdo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Morcilla de cebolla"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Panceta"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Patata"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Tomate"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cabeza de ajos"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azafrán en hebras"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Caldo del cocido"
+      },
+      {
+       "q": "80",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Precalentar el horno a 220 ºC.",
+      "Cortar la patata en rodajas, el tomate por la mitad y la morcilla y la panceta en trozos.",
+      "Marcar en el AOVE la patata, el tomate, la cabeza de ajos, la costilla, la panceta y la morcilla en una cazuela de barro. Retirar.",
+      "Sofreír el arroz en el mismo aceite 1 min y añadir el pimentón.",
+      "Añadir los garbanzos y repartir el arroz por la cazuela.",
+      "Colocar encima las carnes, la patata, el tomate y la cabeza de ajos en el centro.",
+      "Mojar con el caldo hirviendo con el azafrán y rectificar de sal.",
+      "Hornear 20 min y reposar 5 min."
+     ]
+    }
+   ],
+   "notes": "Aprovechamiento del cocido del día anterior.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-arros-amb-fesols-i-naps",
+   "tab": "recetas",
+   "name": "Arròs amb fesols i naps",
+   "group": "Salado",
+   "tag": "Comunidad Valenciana",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Arroz redondo"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Alubia blanca seca"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Nabo"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Costilla de cerdo"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Oreja de cerdo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Morcilla de cebolla"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azafrán en hebras"
+      },
+      {
+       "q": "2,5",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar las alubias 12 h.",
+      "Cocer las alubias con la costilla y la oreja 1 h 30 min a fuego suave.",
+      "Añadir el nabo en trozos y la morcilla y cocer 20 min.",
+      "Añadir el pimentón y el azafrán y rectificar de sal.",
+      "Incorporar el arroz y cocer 17 min.",
+      "Reposar 3 min. Debe quedar caldoso."
+     ]
+    }
+   ],
+   "notes": "Típico del interior valenciano en invierno.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-pisto-manchego",
+   "tab": "recetas",
+   "name": "Pisto manchego",
+   "group": "Salado",
+   "tag": "Castilla-La Mancha",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Cebolla"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Pimiento verde italiano"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento rojo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Calabacín"
+      },
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Azúcar"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Huevo (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar la cebolla, los pimientos y el calabacín en dados regulares.",
+      "Escaldar, pelar y picar los tomates.",
+      "Pochar la cebolla y el ajo en el AOVE a fuego suave 10 min.",
+      "Añadir los pimientos y cocinar 10 min.",
+      "Añadir el calabacín y cocinar 10 min.",
+      "Incorporar el tomate, el azúcar y la sal y cocinar 30 min a fuego suave hasta que reduzca.",
+      "Servir con un huevo frito si se desea."
+     ]
+    }
+   ],
+   "notes": "Mejor de un día para otro.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-escalivada",
+   "tab": "recetas",
+   "name": "Escalivada",
+   "group": "Salado",
+   "tag": "Cataluña",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Berenjena"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Pimiento rojo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Tomate"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Precalentar el horno a 200 ºC.",
+      "Untar las verduras enteras con AOVE y colocarlas en una bandeja.",
+      "Asar 50–60 min, dándoles la vuelta a mitad.",
+      "Tapar con un paño o film y dejar sudar 15 min.",
+      "Pelar y cortar en tiras.",
+      "Aliñar con el ajo picado, el AOVE y la sal."
+     ]
+    }
+   ],
+   "notes": "Sobre pan de payés, con anchoas, es una cena completa.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-tumbet",
+   "tab": "recetas",
+   "name": "Tumbet",
+   "group": "Salado",
+   "tag": "Baleares",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Berenjena"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Patata"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Pimiento rojo"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Azúcar"
+      },
+      {
+       "q": "200",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar las berenjenas en rodajas, salar y dejar sudar 30 min. Secar.",
+      "Cortar las patatas en rodajas y freír en el AOVE. Reservar.",
+      "Freír la berenjena y reservar.",
+      "Freír el pimiento en tiras y reservar.",
+      "Hacer una salsa con el tomate picado, el ajo y el azúcar en un poco del aceite, 20 min.",
+      "Montar en una cazuela de barro por capas: patata, berenjena, pimiento y salsa.",
+      "Hornear a 180 ºC durante 15 min."
+     ]
+    }
+   ],
+   "notes": "Acompaña bien un huevo frito o carne o pescado a la plancha.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-alboronia",
+   "tab": "recetas",
+   "name": "Alboronía",
+   "group": "Salado",
+   "tag": "Andalucía",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Calabaza"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Berenjena"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Pimiento verde italiano"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Comino molido"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar todas las verduras en dados.",
+      "Pochar la cebolla y el ajo en el AOVE 10 min.",
+      "Añadir el pimiento y la berenjena y cocinar 10 min.",
+      "Añadir la calabaza y el tomate y cocinar a fuego suave 30 min, tapado.",
+      "Añadir el comino y el pimentón y rectificar de sal."
+     ]
+    }
+   ],
+   "notes": "Origen andalusí; antepasado del pisto.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-zarangollo",
+   "tab": "recetas",
+   "name": "Zarangollo",
+   "group": "Salado",
+   "tag": "Murcia",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "750",
+       "u": "g",
+       "n": "Calabacín"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Cebolla"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar el calabacín y la cebolla en láminas finas.",
+      "Pochar la cebolla en el AOVE a fuego suave 10 min.",
+      "Añadir el calabacín, salar y cocinar tapado 20 min hasta que esté muy tierno.",
+      "Añadir los huevos batidos y remover hasta que cuajen ligeramente."
+     ]
+    }
+   ],
+   "notes": "Debe quedar jugoso, no seco.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-espinacas-a-la-catalana",
+   "tab": "recetas",
+   "name": "Espinacas a la catalana",
+   "group": "Salado",
+   "tag": "Cataluña",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Espinaca fresca"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Pasa"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Piñón"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "40",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hidratar las pasas en agua templada 15 min.",
+      "Escaldar las espinacas 1 min, enfriar y escurrir bien.",
+      "Dorar los ajos laminados y los piñones en el AOVE.",
+      "Añadir las pasas escurridas y las espinacas.",
+      "Saltear 2 min y rectificar de sal."
+     ]
+    }
+   ],
+   "notes": "Admite acelgas en lugar de espinacas.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-patatas-a-la-importancia",
+   "tab": "recetas",
+   "name": "Patatas a la importancia",
+   "group": "Salado",
+   "tag": "Castilla y León",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "800",
+       "u": "g",
+       "n": "Patata"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de perejil"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azafrán en hebras"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Vino blanco"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Caldo o agua"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite de girasol para freír"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Pelar las patatas y cortarlas en rodajas de 1 cm. Salar.",
+      "Pasar por harina y huevo batido y freír hasta dorar. Reservar en una cazuela.",
+      "Picar la cebolla y pochar en un poco del aceite. Añadir una cucharada de harina y tostar.",
+      "Mojar con el vino y reducir 2 min. Añadir el caldo.",
+      "Majar el ajo, el perejil y el azafrán y añadir a la salsa.",
+      "Verter la salsa sobre las patatas y cocer a fuego suave 20 min.",
+      "Rectificar de sal."
+     ]
+    }
+   ],
+   "notes": "Plato humilde que imita el rebozado de la carne o el pescado.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-patatas-a-lo-pobre",
+   "tab": "recetas",
+   "name": "Patatas a lo pobre",
+   "group": "Salado",
+   "tag": "Andalucía",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Patata"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde italiano"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento rojo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Pelar las patatas y cortarlas en láminas de 0,5 cm. Salar.",
+      "Cortar la cebolla y los pimientos en juliana y laminar los ajos.",
+      "Confitar todo en el AOVE a fuego medio-bajo 25–30 min, removiendo con cuidado.",
+      "Subir el fuego al final para dorar ligeramente.",
+      "Escurrir el exceso de aceite y rectificar de sal."
+     ]
+    }
+   ],
+   "notes": "El aceite sobrante sirve para otra fritura.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-patatas-revolconas",
+   "tab": "recetas",
+   "name": "Patatas revolconas",
+   "group": "Salado",
+   "tag": "Castilla y León",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Patata"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Panceta"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "½",
+       "u": "cdta.",
+       "n": "Pimentón picante"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "80",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Pelar y trocear las patatas y cocerlas a la inglesa con el laurel 25 min. Reservar parte del agua.",
+      "Cortar la panceta en tiras y freír en el AOVE hasta que quede crujiente (torreznos). Reservar.",
+      "Dorar los ajos laminados en la misma grasa.",
+      "Retirar del fuego y añadir los pimentones.",
+      "Chafar las patatas escurridas con la grasa y un poco del agua de cocción hasta obtener un puré rústico.",
+      "Rectificar de sal y servir con los torreznos encima."
+     ]
+    }
+   ],
+   "notes": "Típico de Ávila y Salamanca.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-patatas-a-la-riojana",
+   "tab": "recetas",
+   "name": "Patatas a la riojana",
+   "group": "Salado",
+   "tag": "La Rioja",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Patata"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Chorizo riojano"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde italiano"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Carne de pimiento choricero"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "1,2",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Picar la cebolla, el pimiento y el ajo en brunoise y pochar en el AOVE 10 min.",
+      "Añadir el chorizo en rodajas y rehogar 2 min.",
+      "Añadir la carne de pimiento choricero y el pimentón fuera del fuego.",
+      "Incorporar la patata cascada y rehogar 2 min.",
+      "Mojar con el agua, añadir el laurel y cocer 25 min a fuego suave.",
+      "Rectificar de sal y reposar 10 min."
+     ]
+    }
+   ],
+   "notes": "Cascar la patata (no cortarla limpia) para que suelte almidón y espese el caldo.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-papas-arrugadas-con-mojo",
+   "tab": "recetas",
+   "name": "Papas arrugadas con mojo",
+   "group": "Salado",
+   "tag": "Canarias",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Papas",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Papa pequeña"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Sal gruesa"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar bien las papas sin pelar.",
+      "Cubrir apenas con agua, añadir la sal y cocer 20–25 min.",
+      "Escurrir el agua y dejar las papas en la olla al fuego suave, moviéndolas, hasta que se arruguen y se cubran de sal."
+     ]
+    },
+    {
+     "name": "Mojo picón",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Pimienta palmera o ñora"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Comino"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Pimentón picante"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Vinagre"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Sal gruesa"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hidratar las pimientas en agua caliente 20 min y retirar las semillas.",
+      "Majar en el mortero los ajos, la sal, el comino y la pimienta.",
+      "Añadir el pimentón y el vinagre.",
+      "Emulsionar con el AOVE a hilo."
+     ]
+    }
+   ],
+   "notes": "El mojo aguanta varios días en nevera.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-tortilla-de-patatas",
+   "tab": "recetas",
+   "name": "Tortilla de patatas",
+   "group": "Salado",
+   "tag": "",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "800",
+       "u": "g",
+       "n": "Patata"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Cebolla"
+      },
+      {
+       "q": "400",
+       "u": "ml",
+       "n": "AOVE para confitar"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Pelar las patatas y cortarlas en láminas finas. Cortar la cebolla en juliana.",
+      "Confitar la patata y la cebolla en el AOVE a fuego medio-bajo 25 min.",
+      "Escurrir bien y salar.",
+      "Batir los huevos con sal y mezclar con la patata. Reposar 5 min.",
+      "Cuajar en una sartén con un poco de aceite 2–3 min por cada lado."
+     ]
+    }
+   ],
+   "notes": "Reservar el aceite colado para cocinar otra vez.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-huevos-a-la-flamenca",
+   "tab": "recetas",
+   "name": "Huevos a la flamenca",
+   "group": "Salado",
+   "tag": "Andalucía",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Salsa de tomate casera"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Chorizo"
+      },
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Jamón serrano"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Guisante"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Patata"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Pimiento morrón asado"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Precalentar el horno a 200 ºC.",
+      "Cortar la patata en dados y freír. Reservar.",
+      "Saltear el chorizo y el jamón en dados en el AOVE.",
+      "Añadir la salsa de tomate y los guisantes y cocinar 5 min.",
+      "Repartir en cazuelitas de barro con la patata.",
+      "Cascar los huevos encima y decorar con tiras de pimiento.",
+      "Hornear 8–10 min hasta que cuaje la clara."
+     ]
+    }
+   ],
+   "notes": "Buen aprovechamiento de tomate frito y restos de embutido.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-marmitako",
+   "tab": "recetas",
+   "name": "Marmitako",
+   "group": "Salado",
+   "tag": "País Vasco",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Bonito o atún"
+      },
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Patata"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde italiano"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Carne de pimiento choricero"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Fumet o agua"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar el bonito en dados y salpimentar.",
+      "Picar la cebolla, el pimiento y el ajo en brunoise y pochar en el AOVE 10 min.",
+      "Añadir el tomate rallado y la carne de pimiento choricero y sofreír 5 min.",
+      "Incorporar la patata cascada y rehogar 2 min.",
+      "Mojar con el fumet y cocer 20 min.",
+      "Retirar del fuego, añadir el bonito y tapar. Dejar que se haga con el calor residual 5 min.",
+      "Rectificar de sal."
+     ]
+    }
+   ],
+   "notes": "El bonito no debe hervir: queda seco.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-arroz-a-banda",
+   "tab": "recetas",
+   "name": "Arroz a banda",
+   "group": "Salado",
+   "tag": "Comunidad Valenciana",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Fumet",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Pescado de roca (morralla)"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Tomate"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cabeza de ajos"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azafrán en hebras"
+      },
+      {
+       "q": "2",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "AOVE"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Dorar el pescado, los ajos y el tomate en el AOVE.",
+      "Mojar con el agua y cocer 30 min a fuego suave.",
+      "Colar, añadir el azafrán y reservar caliente."
+     ]
+    },
+    {
+     "name": "Arroz",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Arroz bomba"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Sepia"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Tomate rallado"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "1,2",
+       "u": "l",
+       "n": "Fumet"
+      },
+      {
+       "q": "80",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Saltear la sepia en dados en el AOVE en una paella.",
+      "Añadir el ajo picado y el tomate y sofreír 5 min.",
+      "Añadir el pimentón y el arroz y nacarar 1 min.",
+      "Mojar con el fumet hirviendo y rectificar de sal.",
+      "Cocer 10 min a fuego fuerte y 8 min a fuego medio, sin remover.",
+      "Reposar 3 min."
+     ]
+    }
+   ],
+   "notes": "Servir con alioli. Plato de pescadores: el pescado del caldo se comía aparte.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-esgarraet",
+   "tab": "recetas",
+   "name": "Esgarraet",
+   "group": "Salado",
+   "tag": "Comunidad Valenciana",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Pimiento rojo"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Bacalao desalado"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Asar los pimientos enteros a 200 ºC durante 45 min.",
+      "Tapar y dejar sudar 15 min. Pelar, retirar las semillas y cortar en tiras.",
+      "Desmigar el bacalao en crudo.",
+      "Laminar o picar los ajos.",
+      "Mezclar los pimientos, el bacalao y el ajo y cubrir con el AOVE.",
+      "Reposar un mínimo de 2 h antes de servir."
+     ]
+    }
+   ],
+   "notes": "Mejor al día siguiente. Sobre pan tostado.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-bacalao-al-ajoarriero",
+   "tab": "recetas",
+   "name": "Bacalao al ajoarriero",
+   "group": "Salado",
+   "tag": "Navarra",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Bacalao desalado"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento rojo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde italiano"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Tomate triturado"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Carne de pimiento choricero"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Guindilla"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Desmigar el bacalao.",
+      "Picar la cebolla, los pimientos y el ajo en brunoise.",
+      "Pochar en el AOVE con la guindilla a fuego suave 15 min.",
+      "Añadir el tomate y la carne de pimiento choricero y cocinar 15 min.",
+      "Incorporar el bacalao y cocinar 5 min.",
+      "Rectificar de sal."
+     ]
+    }
+   ],
+   "notes": "Admite unas patatas cocidas o huevo revuelto al final.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-atascaburras",
+   "tab": "recetas",
+   "name": "Atascaburras",
+   "group": "Salado",
+   "tag": "Castilla-La Mancha",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Bacalao desalado"
+      },
+      {
+       "q": "800",
+       "u": "g",
+       "n": "Patata"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo cocido"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Nuez"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cocer las patatas peladas 20 min. Añadir el bacalao en los últimos 5 min.",
+      "Escurrir, reservando un poco del agua.",
+      "Majar los ajos en el mortero.",
+      "Añadir la patata y el bacalao desmigado y majar incorporando el AOVE a hilo hasta obtener una pasta.",
+      "Ajustar la textura con el agua de cocción y rectificar de sal.",
+      "Decorar con el huevo en rodajas y las nueces."
+     ]
+    }
+   ],
+   "notes": "Típico de los días fríos en La Mancha.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-boquerones-en-vinagre",
+   "tab": "recetas",
+   "name": "Boquerones en vinagre",
+   "group": "Salado",
+   "tag": "Andalucía",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Boquerón fresco"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Vinagre de vino blanco"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de perejil"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "AOVE"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Limpiar los boquerones: retirar la cabeza, las vísceras y la espina, y abrir en lomos.",
+      "Lavar en agua fría con hielo para que blanqueen.",
+      "Congelar a -20 ºC un mínimo de 5 días.",
+      "Descongelar y cubrir con el vinagre, el agua y la sal. Marinar en nevera 6–8 h.",
+      "Escurrir y cubrir con el AOVE, el ajo y el perejil picados."
+     ]
+    }
+   ],
+   "notes": "La congelación previa es obligatoria por el anisakis.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-callos-a-la-madrilena",
+   "tab": "recetas",
+   "name": "Callos a la madrileña",
+   "group": "Salado",
+   "tag": "Madrid",
+   "yield": "6 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Callos de ternera limpios"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Pata de ternera"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Chorizo"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Morcilla"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Jamón serrano"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cabeza de ajos"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Guindilla"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "½",
+       "u": "cdta.",
+       "n": "Pimentón picante"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Vinagre"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Agua"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar los callos y la pata con agua y vinagre y cortar en trozos.",
+      "Blanquear en agua hirviendo 5 min y escurrir.",
+      "Cubrir con agua fría, añadir la cebolla, la cabeza de ajos y el laurel y cocer 3–4 h a fuego suave (1 h en olla exprés).",
+      "Cocer el chorizo y la morcilla en los últimos 30 min.",
+      "Deshuesar la pata y trocearla.",
+      "Hacer un sofrito con el jamón en dados, la harina, la guindilla y los pimentones en el AOVE.",
+      "Incorporar el sofrito, la pata y el embutido troceado a los callos con parte del caldo.",
+      "Cocer 20 min más hasta que la salsa quede melosa. Rectificar de sal."
+     ]
+    }
+   ],
+   "notes": "Mucho mejor reposados de un día para otro.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-morteruelo",
+   "tab": "recetas",
+   "name": "Morteruelo",
+   "group": "Salado",
+   "tag": "Castilla-La Mancha",
+   "yield": "6 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Hígado de cerdo"
+      },
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Gallina o conejo"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Tocino"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Pan rallado"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Comino molido"
+      },
+      {
+       "q": "½",
+       "u": "cdta.",
+       "n": "Canela molida"
+      },
+      {
+       "q": "½",
+       "u": "cdta.",
+       "n": "Pimienta negra molida"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Clavo"
+      },
+      {
+       "q": "1,5",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "AOVE"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cocer la gallina, el hígado y el tocino en el agua con sal 1 h. Reservar el caldo.",
+      "Deshuesar la carne y picar todo muy fino o triturar.",
+      "Dorar el pan rallado en el AOVE.",
+      "Añadir el pimentón y las especias.",
+      "Incorporar las carnes y el caldo poco a poco, removiendo, hasta obtener una pasta untuosa.",
+      "Cocinar 15 min a fuego suave y rectificar de sal."
+     ]
+    }
+   ],
+   "notes": "Típico de Cuenca; tradicionalmente con caza (liebre, perdiz). Se toma caliente untado en pan.",
+   "done": false
+  }
+ ]
 }

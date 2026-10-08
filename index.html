@@ -392,14 +392,17 @@ function fmtNum(v){
   return String(r);
 }
 /* escala el contenido de la casilla «cantidad»; si no es un número (C/S…), lo deja igual */
-function scaleQ(q, f){
+function scaleQ(q, f, u){
   q = (q||'').trim();
   if(f === 1 || !q) return q;
   const m = q.match(QONLY);
   if(!m) return q;
   const a = parseNum(m[1]), b = m[2] ? parseNum(m[2]) : null;
   if(!isFinite(a)) return q;
-  return fmtNum(a*f) + (b !== null && isFinite(b) ? '–' + fmtNum(b*f) : '');
+  // lo que va por unidades (huevos, dientes, hojas…) se redondea a piezas enteras, nunca menos de 1
+  const whole = /^ud/i.test((u||'').trim()) && Number.isInteger(a);
+  const sc = v => whole ? String(Math.max(1, Math.round(v*f))) : fmtNum(v*f);
+  return sc(a) + (b !== null && isFinite(b) ? '–' + sc(b) : '');
 }
 function isNumQ(q){ return QONLY.test((q||'').trim()); }
 function stripBullet(line){ return line.trim().replace(/^[-•·*−]\s*/,''); }
@@ -1052,7 +1055,7 @@ function renderWeek(main){
       p.ings.forEach((i,ii)=>{
         const k = pi + ':' + ii, s = w.struck.includes(k);
         total++; if(s) struckN++;
-        const q = scaleQ(i.q, f);
+        const q = scaleQ(i.q, f, i.u);
         lis += `<li data-k="${k}"${s?' class="struck"':''}><span>${q?`<b>${esc(q)}</b> `:''}${i.u && i.u !== 'C/S' ? esc(i.u) + ' ' : ''}${esc(i.n)}${i.u === 'C/S' ? ' <span class="muted">(C/S)</span>' : ''}</span></li>`;
       });
     });
@@ -1157,7 +1160,7 @@ function drawFicha(sh, keepScroll, focusSel){
 }
 function ingTable(p, f){
   return `<table class="ings">` + p.ings.map(i=>
-    `<tr><td class="q">${esc(scaleQ(i.q, f))}</td><td class="u">${esc(i.u)}</td><td>${esc(i.n)}</td></tr>`).join('') + `</table>`;
+    `<tr><td class="q">${esc(scaleQ(i.q, f, i.u))}</td><td class="u">${esc(i.u)}</td><td>${esc(i.n)}</td></tr>`).join('') + `</table>`;
 }
 function shownParts(r){ return r.parts.filter(p=> p.ings.length || p.steps.trim() || p.name); }
 function partsHTML(r){
@@ -1514,7 +1517,7 @@ function renderBuy(main){
       const f = factorFor(r, w.target);
       html += `<div class="ghead" style="padding-top:12px;"><span style="font-weight:600;">${esc(r.name)}</span></div><ul class="shop flat">`;
       r.parts.forEach((p,pi)=> p.ings.forEach((i,ii)=>{
-        const k = pi + ':' + ii, q = scaleQ(i.q, f);
+        const k = pi + ':' + ii, q = scaleQ(i.q, f, i.u);
         html += `<li data-wk="${w.id}" data-k="${k}"${w.struck.includes(k)?' class="struck"':''}><span>${q?`<b>${esc(q)}</b> `:''}${i.u && i.u !== 'C/S' ? esc(i.u) + ' ' : ''}${esc(i.n)}</span></li>`;
       }));
       html += `</ul>`;
