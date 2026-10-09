@@ -7182,6 +7182,1899 @@
    ],
    "notes": "Acompaña bien un queso curado.",
    "done": false
+  },
+  {
+   "id": "r-recetas-nigiri-sushi",
+   "tab": "recetas",
+   "name": "Nigiri sushi",
+   "group": "Salado",
+   "tag": "Japón / Kanto",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Arroz de sushi (shari)",
+     "ings": [
+      {
+       "q": "450",
+       "u": "g",
+       "n": "Arroz japonés de grano corto"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Trozo de konbu (10 × 10 cm)"
+      },
+      {
+       "q": "75",
+       "u": "ml",
+       "n": "Vinagre de arroz"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar el arroz frotándolo suavemente y cambiando el agua hasta que salga casi clara. Escurrir 30 min.",
+      "Cocer el arroz con el agua y el konbu (retirarlo al empezar a hervir): 12 min a fuego bajo tapado y 10 min de reposo sin destapar.",
+      "Disolver el azúcar y la sal en el vinagre en frío (awasezu).",
+      "Pasar el arroz caliente a un recipiente ancho de madera (hangiri), regar con el awasezu y mezclar con cortes, sin aplastar, mientras se abanica.",
+      "Cubrir con un paño húmedo y mantener a temperatura corporal hasta formar."
+     ]
+    },
+    {
+     "name": "Nigiri",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Pescado apto para sushi (atún, salmón, besugo)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Wasabi"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Salsa de soja"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Gari (jengibre encurtido)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Agua con un poco de vinagre (tezu)"
+      }
+     ],
+     "steps": [
+      "Cortar el pescado en láminas de 7 × 2,5 cm y unos 5 mm de grosor, contra la fibra.",
+      "Mojarse las manos en tezu.",
+      "Tomar unos 15–18 g de arroz y darle forma alargada sin apretar.",
+      "Poner un toque de wasabi en la lámina de pescado, colocar encima el arroz y presionar suavemente con dos dedos para dar forma.",
+      "Servir al momento con salsa de soja y gari."
+     ]
+    }
+   ],
+   "notes": "Estilo Edomae (Tokio). El pescado crudo debe congelarse previamente a -20 ºC un mínimo de 5 días (anisakis), salvo que se compre ya tratado. Unas 32 piezas.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-tempura",
+   "tab": "recetas",
+   "name": "Tempura",
+   "group": "Salado",
+   "tag": "Japón / Kanto",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Tentsuyu (salsa)",
+     "ings": [
+      {
+       "q": "200",
+       "u": "ml",
+       "n": "Dashi"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Mirin"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Salsa de soja"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Daikon"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Llevar a ebullición el dashi con el mirin y la soja. Retirar y templar.",
+      "Rallar el daikon y escurrirlo ligeramente."
+     ]
+    },
+    {
+     "name": "Tempura",
+     "ings": [
+      {
+       "q": "8",
+       "u": "ud.",
+       "n": "Langostino"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Berenjena japonesa"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Calabaza kabocha o batata"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Shiitake"
+      },
+      {
+       "q": "8",
+       "u": "ud.",
+       "n": "Hoja de shiso"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Harina floja (de repostería)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Agua helada"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite de girasol para freír"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Harina para enharinar"
+      }
+     ],
+     "steps": [
+      "Pelar los langostinos dejando la cola, retirar el intestino, hacer cortes en la parte interior y estirarlos para que no se curven.",
+      "Cortar la berenjena en abanico, la calabaza en láminas de 5 mm y quitar el pie a los shiitake.",
+      "Calentar el aceite a 170–180 ºC.",
+      "Batir el huevo con el agua helada y añadir la harina tamizada de golpe. Mezclar con palillos sin batir: deben quedar grumos.",
+      "Enharinar ligeramente los géneros, pasarlos por la masa y freír en tandas pequeñas: verduras a 170 ºC, langostinos a 180 ºC.",
+      "Escurrir en rejilla y servir al momento con el tentsuyu y el daikon rallado."
+     ]
+    }
+   ],
+   "notes": "La masa se hace justo antes de freír y siempre fría: el contraste de temperatura da la textura crujiente.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-ramen-de-shoyu",
+   "tab": "recetas",
+   "name": "Ramen de shoyu",
+   "group": "Salado",
+   "tag": "Japón / Kanto",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Caldo",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Carcasa de pollo"
+      },
+      {
+       "q": "3",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolleta (la parte verde)"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Jengibre"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Konbu"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Niboshi (sardinita seca)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Blanquear las carcasas 5 min, escurrir y lavar.",
+      "Cubrir con el agua, llevar a ebullición y espumar.",
+      "Añadir la cebolleta, el jengibre y el ajo y cocer 3 h a fuego muy suave, sin que borbotee.",
+      "Añadir el konbu y el niboshi en los últimos 30 min.",
+      "Colar por estameña. Deben quedar unos 1,4 l de caldo claro."
+     ]
+    },
+    {
+     "name": "Chashu y huevo",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Panceta de cerdo en rollo"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Salsa de soja"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Mirin"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Sake"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "300",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo"
+      }
+     ],
+     "steps": [
+      "Bridar la panceta y marcarla por todos los lados.",
+      "Cocerla con la soja, el mirin, el sake, el azúcar y el agua, tapada a fuego suave, 1 h 30 min, dándole la vuelta.",
+      "Cocer los huevos 6 min 30 s, enfriar en agua con hielo y pelar.",
+      "Marinar los huevos en el líquido de cocción del chashu, frío, un mínimo de 4 h.",
+      "Cortar el chashu en lonchas finas."
+     ]
+    },
+    {
+     "name": "Tare y montaje",
+     "ings": [
+      {
+       "q": "120",
+       "u": "ml",
+       "n": "Salsa de soja"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Mirin"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Sake"
+      },
+      {
+       "q": "480",
+       "u": "g",
+       "n": "Fideos de ramen frescos"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Menma (brotes de bambú fermentados)"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Hoja de nori"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Cebolleta"
+      }
+     ],
+     "steps": [
+      "Llevar a ebullición la soja, el mirin y el sake y reservar (tare).",
+      "Calentar los cuencos con agua caliente.",
+      "Poner 30–40 ml de tare en cada cuenco y añadir 350 ml de caldo hirviendo.",
+      "Cocer los fideos en abundante agua según el fabricante (1–2 min), escurrir bien y añadir al cuenco.",
+      "Colocar encima el chashu, medio huevo, el menma, el nori y la cebolleta picada."
+     ]
+    }
+   ],
+   "notes": "Estilo de Tokio: caldo claro de pollo con dashi y tare de soja. Se puede añadir un poco de grasa de pollo derretida al cuenco.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-oyakodon",
+   "tab": "recetas",
+   "name": "Oyakodon",
+   "group": "Salado",
+   "tag": "Japón / Kanto",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Muslo de pollo deshuesado"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "240",
+       "u": "ml",
+       "n": "Dashi"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Salsa de soja"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Mirin"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Azúcar"
+      },
+      {
+       "q": "800",
+       "u": "g",
+       "n": "Arroz japonés cocido"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Mitsuba o cebolleta"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar el pollo en dados de 2–3 cm y la cebolla en juliana de 5 mm.",
+      "Mezclar el dashi, la soja, el mirin y el azúcar.",
+      "Trabajar por raciones en una sartén pequeña: poner un cuarto del caldo, de la cebolla y del pollo y cocer 5 min a fuego medio.",
+      "Batir ligeramente 1 ½ huevos por ración, sin homogeneizar del todo.",
+      "Verter dos tercios del huevo, tapar 30 s, añadir el resto y retirar del fuego cuando esté medio cuajado.",
+      "Deslizar sobre un cuenco de arroz caliente y terminar con mitsuba."
+     ]
+    }
+   ],
+   "notes": "«Padre e hijo» en un cuenco (pollo y huevo). Se atribuye al restaurante Tamahide de Nihonbashi (Tokio), a finales del siglo XIX.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-sukiyaki",
+   "tab": "recetas",
+   "name": "Sukiyaki",
+   "group": "Salado",
+   "tag": "Japón / Kanto",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Warishita (salsa)",
+     "ings": [
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Salsa de soja"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Mirin"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Sake"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Llevar a ebullición todos los ingredientes hasta disolver el azúcar. Reservar."
+     ]
+    },
+    {
+     "name": "Sukiyaki",
+     "ings": [
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Vacuno en láminas muy finas (lomo alto o falda)"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Tofu firme a la plancha (yaki-dofu)"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Shirataki"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Puerro japonés (negi)"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Col china"
+      },
+      {
+       "q": "8",
+       "u": "ud.",
+       "n": "Shiitake"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Shungiku (hojas de crisantemo)"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Sebo de vacuno o aceite"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Huevo muy fresco"
+      }
+     ],
+     "steps": [
+      "Escaldar el shirataki 2 min y cortarlo.",
+      "Cortar el tofu en dados, el negi al bies, la col en trozos y hacer un corte en cruz a los shiitake.",
+      "Calentar la cazuela de hierro y engrasarla con el sebo.",
+      "Marcar unas láminas de carne y regar con un poco de warishita.",
+      "Añadir el resto de géneros por zonas, regar con warishita y cocer a fuego medio, añadiendo carne poco a poco.",
+      "Batir un huevo en cada cuenco y mojar cada bocado en el huevo crudo antes de comer."
+     ]
+    }
+   ],
+   "notes": "Estilo Kanto, con warishita. En Kansai se tuesta primero la carne con azúcar y soja directamente en la cazuela. Usar huevos muy frescos o pasteurizados.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-okonomiyaki",
+   "tab": "recetas",
+   "name": "Okonomiyaki",
+   "group": "Salado",
+   "tag": "Japón / Kansai",
+   "yield": "2 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Harina floja (de repostería)"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Dashi granulado"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Col"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Panceta de cerdo en láminas"
+      },
+      {
+       "q": "25",
+       "u": "g",
+       "n": "Beni shoga (jengibre rojo encurtido, opcional)"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Cebolleta"
+      },
+      {
+       "q": "2",
+       "u": "cda.",
+       "n": "Aceite"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Salsa okonomiyaki"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Mayonesa japonesa"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Katsuobushi"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aonori"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar la harina, el dashi granulado y los huevos.",
+      "Añadir el agua y batir hasta que no queden grumos.",
+      "Cortar la panceta en trozos, saltearla con un poco de sal y reservar.",
+      "Picar fina la col, cortar la cebolleta en rodajas y picar el beni shoga escurrido. Mezclarlo todo con la panceta en la masa.",
+      "Calentar 1 cda de aceite en una sartén de 20 cm y verter la mitad de la masa, alisando la superficie.",
+      "Cocinar a fuego medio 3–5 min hasta dorar por debajo.",
+      "Dar la vuelta, tapar y cocinar 3–5 min más, sin aplastar para que quede esponjoso.",
+      "Cubrir con salsa, mayonesa, katsuobushi y aonori. Repetir con el resto de la masa."
+     ]
+    }
+   ],
+   "notes": "Estilo de Osaka, todo mezclado. Ficha de la Embajada de Japón. Muchas casas añaden ñame rallado (yamaimo) para que quede más esponjoso.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-takoyaki",
+   "tab": "recetas",
+   "name": "Takoyaki",
+   "group": "Salado",
+   "tag": "Japón / Kansai",
+   "yield": "40 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Harina floja (de repostería)"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "800",
+       "u": "ml",
+       "n": "Dashi frío"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Salsa de soja"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Pulpo cocido"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Tenkasu (migas de tempura)"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Beni shoga (jengibre rojo encurtido)"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Cebolleta"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Salsa takoyaki"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Mayonesa japonesa"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aonori"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Katsuobushi"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Batir los huevos con el dashi, la soja y la sal. Añadir la harina y batir sin grumos.",
+      "Cortar el pulpo en dados de 1 cm, picar el beni shoga y la cebolleta.",
+      "Calentar la placa de takoyaki a fuego fuerte y engrasar bien cada hueco.",
+      "Llenar los huecos con la masa hasta rebosar.",
+      "Poner un dado de pulpo en cada hueco y repartir por encima el tenkasu, el beni shoga y la cebolleta.",
+      "Cuando el borde cuaje, girar las bolas 90º con un pincho, metiendo la masa sobrante dentro.",
+      "Seguir girándolas hasta que queden redondas y doradas, añadiendo un poco de aceite al final para que queden crujientes.",
+      "Servir con salsa, mayonesa, aonori y katsuobushi."
+     ]
+    }
+   ],
+   "notes": "Estilo de Osaka, con masa muy líquida (1 de harina por 4 de dashi) para que queden cremosas por dentro. Se atribuyen al vendedor Tomekichi Endo, en 1935. Hace falta una placa de takoyaki.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-mitarashi-dango",
+   "tab": "recetas",
+   "name": "Mitarashi dango",
+   "group": "Dulce",
+   "tag": "Japón / Kansai",
+   "yield": "8 ud.",
+   "parts": [
+    {
+     "name": "Dango",
+     "ings": [
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Harina para dango (dangoko)"
+      },
+      {
+       "q": "160",
+       "u": "ml",
+       "n": "Agua tibia"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Añadir el agua poco a poco a la harina y amasar hasta que tenga la textura del lóbulo de la oreja.",
+      "Formar 32 bolitas iguales.",
+      "Cocerlas en agua hirviendo hasta que floten y 2 min más.",
+      "Enfriar en agua con hielo y escurrir.",
+      "Ensartar 4 bolitas en cada brocheta de bambú.",
+      "Marcarlas en una plancha o con soplete hasta que tengan puntos tostados."
+     ]
+    },
+    {
+     "name": "Salsa mitarashi",
+     "ings": [
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "45",
+       "u": "ml",
+       "n": "Salsa de soja"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Katakuriko (fécula de patata)"
+      },
+      {
+       "q": "2",
+       "u": "cda.",
+       "n": "Agua (para disolver)"
+      }
+     ],
+     "steps": [
+      "Calentar el agua, la soja y el azúcar.",
+      "Añadir la fécula disuelta en agua y remover hasta que espese y brille.",
+      "Napar las brochetas con la salsa caliente."
+     ]
+    }
+   ],
+   "notes": "Origen en el santuario de Shimogamo (Kioto). Si no hay dangoko, mezclar a partes iguales joshinko y shiratamako (harinas de arroz).",
+   "done": false
+  },
+  {
+   "id": "r-recetas-sanuki-udon",
+   "tab": "recetas",
+   "name": "Sanuki udon",
+   "group": "Salado",
+   "tag": "Japón / Shikoku",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Udon",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina de trigo de fuerza media (chūrikiko)"
+      },
+      {
+       "q": "225",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "25",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Fécula de patata para espolvorear"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Disolver la sal en el agua. En verano se usa algo más de sal y en invierno algo menos.",
+      "Añadir el agua salada a la harina poco a poco y mezclar con las manos hasta formar migas y después una bola.",
+      "Meter la masa en una bolsa resistente y pisarla con los pies 5 min, plegar y repetir 3 veces.",
+      "Reposar en la bolsa 2 h a temperatura ambiente (más tiempo en invierno).",
+      "Pisar de nuevo brevemente y estirar con rodillo hasta 3 mm de grosor, espolvoreando fécula.",
+      "Plegar en acordeón y cortar en tiras de 3–4 mm.",
+      "Cocer en abundante agua hirviendo 10–12 min, removiendo al principio.",
+      "Lavar en agua fría frotando para quitar el almidón (shime)."
+     ]
+    },
+    {
+     "name": "Kakejiru y montaje",
+     "ings": [
+      {
+       "q": "1,2",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Iriko (sardinita seca)"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Konbu"
+      },
+      {
+       "q": "15",
+       "u": "g",
+       "n": "Katsuobushi"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Salsa de soja clara (usukuchi)"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Mirin"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Cebolleta"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Tenkasu"
+      }
+     ],
+     "steps": [
+      "Remojar el iriko sin cabeza ni tripa y el konbu en el agua 1 h.",
+      "Calentar y retirar el konbu justo antes de hervir. Cocer el iriko 10 min y espumar.",
+      "Añadir el katsuobushi, apagar el fuego, reposar 2 min y colar.",
+      "Añadir la soja, el mirin y la sal.",
+      "Calentar el udon en agua hirviendo unos segundos, escurrir y servir en cuencos con el caldo caliente.",
+      "Terminar con cebolleta picada y tenkasu."
+     ]
+    }
+   ],
+   "notes": "Kagawa (antigua Sanuki) es la prefectura que más udon consume por habitante. El pisado con los pies da la textura firme y elástica (koshi). Ésta es la versión kake; también se toma kamaage o bukkake.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-ishikari-nabe",
+   "tab": "recetas",
+   "name": "Ishikari nabe",
+   "group": "Salado",
+   "tag": "Japón / Hokkaido",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Salmón"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Lechaza de salmón (shirako, opcional)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Huevas de salmón (sujiko, opcional)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Bloque de tofu (300 g)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Konnyaku"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Daikon"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Shiitake"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Bardana (gobo)"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Cebolleta"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Espinaca"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Hoja de col china"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Judía verde"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Tira de konbu"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Dashi de konbu"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Miso awase"
+      },
+      {
+       "q": "2",
+       "u": "cda.",
+       "n": "Mirin"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azúcar"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sansho molido"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar el salmón en trozos y el shirako en bocados. Desgranar las huevas.",
+      "Cortar el tofu en dados y trocear el konnyaku con la mano.",
+      "Cortar el daikon, la zanahoria y los shiitake en medias lunas. Cortar la bardana en virutas y la cebolleta al bies.",
+      "Escaldar la col china y la espinaca. Enrollar la espinaca en las hojas de col, atar y cortar en trozos de 2–3 cm. Escaldar la judía verde.",
+      "Mezclar el miso con el mirin, el azúcar y la sal.",
+      "Forrar el fondo de una cazuela de barro con el konbu, poner el miso en el centro y colocar alrededor el salmón y los demás géneros.",
+      "Cubrir con el dashi y cocer a fuego medio, deshaciendo el miso poco a poco, hasta que esté todo hecho.",
+      "Terminar con sansho molido."
+     ]
+    }
+   ],
+   "notes": "Ficha del Ministerio de Agricultura de Japón (MAFF). Nace en la desembocadura del río Ishikari, zona de pesca de salmón.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-jingisukan",
+   "tab": "recetas",
+   "name": "Jingisukan",
+   "group": "Salado",
+   "tag": "Japón / Hokkaido",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Tare",
+     "ings": [
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Salsa de soja"
+      },
+      {
+       "q": "¼",
+       "u": "ud.",
+       "n": "Manzana"
+      },
+      {
+       "q": "¼",
+       "u": "ud.",
+       "n": "Pera"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Jengibre"
+      },
+      {
+       "q": "2",
+       "u": "cda.",
+       "n": "Azúcar"
+      },
+      {
+       "q": "2",
+       "u": "cda.",
+       "n": "Sake"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Mirin"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Rallar la manzana, la pera, el ajo y el jengibre.",
+      "Mezclar con la soja, el azúcar, el sake y el mirin. Reposar un mínimo de 1 h."
+     ]
+    },
+    {
+     "name": "Jingisukan",
+     "ings": [
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Cordero en láminas (paletilla o lomo)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Calabaza kabocha"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Patata"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Mazorca de maíz"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Brotes de soja"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Sebo de cordero o aceite"
+      }
+     ],
+     "steps": [
+      "Cortar la cebolla en aros, la calabaza y el pimiento en gajos y la patata en láminas finas. Cocer el maíz y cortarlo en trozos de 5 cm. Lavar y escurrir los brotes de soja.",
+      "Calentar la plancha de jingisukan (cúpula) y engrasarla con el sebo en la parte alta.",
+      "Asar el cordero en la cúpula y las verduras alrededor, en el borde, para que se hagan con el jugo que cae.",
+      "Mojar cada bocado en la tare."
+     ]
+    }
+   ],
+   "notes": "Plato de reunión al aire libre, típico del hanami en Hokkaido. Ingredientes según el MAFF de Hokkaido; las cantidades varían en cada casa. También se hace con cordero ya marinado.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-kiritanpo-nabe",
+   "tab": "recetas",
+   "name": "Kiritanpo nabe",
+   "group": "Salado",
+   "tag": "Japón / Tohoku",
+   "yield": "5 pax",
+   "parts": [
+    {
+     "name": "Kiritanpo",
+     "ings": [
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Arroz japonés recién cocido"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "10",
+       "u": "ud.",
+       "n": "Brocheta gruesa de madera"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Machacar el arroz caliente en un mortero dejando la mitad de los granos enteros (hangoroshi). Salar ligeramente.",
+      "Con las manos mojadas, envolver 60 g de arroz alrededor de cada brocheta formando un cilindro de 15 cm.",
+      "Asar a la brasa o en el horno a 250 ºC, girándolas, hasta que estén doradas.",
+      "Retirar la brocheta y cortar cada kiritanpo en dos, al bies."
+     ]
+    },
+    {
+     "name": "Nabe",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Carcasa de pollo"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Pollo (idealmente Hinai-jidori)"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Maitake"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Shirataki"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Cebolleta"
+      },
+      {
+       "q": "120",
+       "u": "g",
+       "n": "Bardana (gobo)"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Seri (perejil japonés) o berro"
+      },
+      {
+       "q": "90",
+       "u": "ml",
+       "n": "Salsa de soja"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Sake"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Hervir el agua con la carcasa para hacer el caldo, espumando.",
+      "Retirar la carcasa y añadir el pollo en trozos y la bardana en virutas. Hervir de nuevo y espumar.",
+      "Añadir el shirataki y el maitake. Cuando hierva, sazonar con la soja, el sake y la sal.",
+      "Colocar los kiritanpo en la cazuela y cubrir con la cebolleta al bies y el seri en trozos de 4–5 cm.",
+      "Cocer hasta que todo esté caliente y servir."
+     ]
+    }
+   ],
+   "notes": "Ficha del Ministerio de Agricultura de Japón (MAFF). De Odate y Kazuno, en el norte de Akita. Se puede comprar el kiritanpo ya hecho.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-hoto",
+   "tab": "recetas",
+   "name": "Hoto",
+   "group": "Salado",
+   "tag": "Japón / Chubu",
+   "yield": "5 pax",
+   "parts": [
+    {
+     "name": "Fideos",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "175",
+       "u": "ml",
+       "n": "Agua tibia"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Añadir el agua tibia a la harina poco a poco y amasar hasta que la masa quede algo más firme que el lóbulo de la oreja.",
+      "Tapar con un paño húmedo y reposar 30 min.",
+      "Estirar fino y cortar en tiras de 1 cm, más anchas que el udon. No lleva sal."
+     ]
+    },
+    {
+     "name": "Caldo y verduras",
+     "ings": [
+      {
+       "q": "75",
+       "u": "g",
+       "n": "Niboshi (sardinita seca)"
+      },
+      {
+       "q": "2,5",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Patata"
+      },
+      {
+       "q": "75",
+       "u": "g",
+       "n": "Calabaza kabocha"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Daikon"
+      },
+      {
+       "q": "25",
+       "u": "g",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Col china"
+      },
+      {
+       "q": "5",
+       "u": "ud.",
+       "n": "Shiitake"
+      },
+      {
+       "q": "25",
+       "u": "g",
+       "n": "Aburaage (tofu frito)"
+      },
+      {
+       "q": "35",
+       "u": "g",
+       "n": "Cebolleta"
+      },
+      {
+       "q": "190",
+       "u": "g",
+       "n": "Miso"
+      }
+     ],
+     "steps": [
+      "Cocer el niboshi en el agua para hacer el caldo y colar.",
+      "Cortar la patata, la calabaza, el daikon, la zanahoria y la col en trozos y los shiitake en tiras gruesas.",
+      "Cortar el aburaage en tiras y la cebolleta al bies.",
+      "Cocer primero las verduras más duras en el caldo hasta que se ablanden.",
+      "Añadir el aburaage, la mitad del miso y los fideos sin lavar. Cocer hasta que los fideos estén translúcidos.",
+      "Añadir el resto del miso y rectificar.",
+      "Añadir la cebolleta, apagar el fuego, tapar y dejar reposar unos minutos."
+     ]
+    }
+   ],
+   "notes": "Ficha del Ministerio de Agricultura de Japón (MAFF). Yamanashi: tierra de montaña y poco arroz, donde el trigo hizo de alimento base. Los fideos se cuecen en el propio caldo, sin lavar, para que espese.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-goya-champuru",
+   "tab": "recetas",
+   "name": "Goya champuru",
+   "group": "Salado",
+   "tag": "Japón / Kyushu y Okinawa",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Goya (melón amargo)"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Tofu de Okinawa (shima-dofu) o tofu firme"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Panceta de cerdo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "2",
+       "u": "cda.",
+       "n": "Aceite de girasol"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar la goya por la mitad a lo largo, vaciar las semillas y la parte blanca con una cuchara y cortar en medias lunas finas.",
+      "Si se usa tofu firme, envolverlo en papel absorbente y prensarlo 10 min.",
+      "Cocer la panceta en agua, espumando, 20–30 min a fuego medio. Cortar en tiras.",
+      "Calentar 1 cda de aceite, desmenuzar el tofu en trozos grandes con la mano y dorarlo 2–3 min. Reservar.",
+      "Calentar el resto del aceite y saltear la goya 1 min a fuego medio-bajo, sin quemarla.",
+      "Salar, añadir el huevo batido y mezclar.",
+      "Incorporar la panceta y el tofu y saltear todo junto."
+     ]
+    }
+   ],
+   "notes": "Ficha del Ministerio de Agricultura de Japón (MAFF). «Champuru» significa «mezclado» en okinawense.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-karaage",
+   "tab": "recetas",
+   "name": "Karaage",
+   "group": "Salado",
+   "tag": "Japón / Kyushu y Okinawa",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Muslo de pollo deshuesado con piel"
+      },
+      {
+       "q": "2",
+       "u": "cda.",
+       "n": "Salsa de soja"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Sake"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Jengibre rallado"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Diente de ajo rallado"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "4",
+       "u": "cda.",
+       "n": "Katakuriko (fécula de patata)"
+      },
+      {
+       "q": "2",
+       "u": "cda.",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite de girasol para freír"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Limón"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar el pollo en trozos de 40 g.",
+      "Marinar con la soja, el sake, el jengibre, el ajo y la sal un mínimo de 30 min.",
+      "Escurrir y rebozar en la mezcla de fécula y harina.",
+      "Freír a 170 ºC durante 3–4 min y dejar reposar 4 min en rejilla.",
+      "Freír de nuevo a 190 ºC durante 1 min para que quede crujiente (nidoage).",
+      "Servir con gajos de limón."
+     ]
+    }
+   ],
+   "notes": "Nakatsu (Oita) se considera la capital del karaage: cada tienda tiene su adobo. La doble fritura deja el interior jugoso.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-miso-shiru",
+   "tab": "recetas",
+   "name": "Miso shiru",
+   "group": "Salado",
+   "tag": "Japón",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Dashi",
+     "ings": [
+      {
+       "q": "800",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Konbu"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Katsuobushi"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar el konbu en el agua 30 min.",
+      "Calentar a fuego suave y retirar el konbu justo antes de que hierva.",
+      "Llevar a ebullición, añadir el katsuobushi y apagar el fuego.",
+      "Reposar 2 min hasta que se hunda y colar sin presionar."
+     ]
+    },
+    {
+     "name": "Sopa",
+     "ings": [
+      {
+       "q": "55",
+       "u": "g",
+       "n": "Miso"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Tofu sedoso"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Wakame seca"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolleta"
+      }
+     ],
+     "steps": [
+      "Hidratar la wakame en agua 5 min y escurrir.",
+      "Calentar el dashi y añadir el tofu en dados y la wakame.",
+      "Bajar el fuego, disolver el miso en un cazo con un poco de caldo y añadirlo.",
+      "Calentar sin que llegue a hervir y servir con la cebolleta picada."
+     ]
+    }
+   ],
+   "notes": "El miso no debe hervir: pierde aroma. Este dashi (awase dashi) es la base de muchos platos japoneses.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-onigiri",
+   "tab": "recetas",
+   "name": "Onigiri",
+   "group": "Salado",
+   "tag": "Japón",
+   "yield": "6 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "660",
+       "u": "g",
+       "n": "Arroz japonés recién cocido"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Umeboshi (ciruela encurtida)"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Salmón salado (shiozake) asado"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Katsuobushi"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Salsa de soja"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Hoja de nori"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Deshuesar y picar las umeboshi. Desmigar el salmón. Mezclar el katsuobushi con la soja (okaka).",
+      "Mojarse las manos en agua y frotarlas con un poco de sal.",
+      "Tomar 110 g de arroz caliente, hacer un hueco en el centro y poner el relleno.",
+      "Cerrar y dar forma triangular con presión firme pero suave, girando 3–4 veces.",
+      "Envolver con media hoja de nori justo antes de comer."
+     ]
+    }
+   ],
+   "notes": "Rellenos clásicos: umeboshi, salmón y okaka. El arroz debe estar caliente para que se una.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-nikujaga",
+   "tab": "recetas",
+   "name": "Nikujaga",
+   "group": "Salado",
+   "tag": "Japón",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Vacuno en láminas finas"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Patata"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Shirataki"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Tirabeque"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Aceite"
+      },
+      {
+       "q": "300",
+       "u": "ml",
+       "n": "Dashi"
+      },
+      {
+       "q": "2",
+       "u": "cda.",
+       "n": "Sake"
+      },
+      {
+       "q": "2",
+       "u": "cda.",
+       "n": "Azúcar"
+      },
+      {
+       "q": "3",
+       "u": "cda.",
+       "n": "Mirin"
+      },
+      {
+       "q": "3",
+       "u": "cda.",
+       "n": "Salsa de soja"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Pelar y cortar la patata en trozos grandes y dejar en agua 5 min. Cortar la cebolla en gajos y la zanahoria en rodajas al bies.",
+      "Escaldar el shirataki y cortarlo. Escaldar el tirabeque 1 min y reservar.",
+      "Saltear la carne en el aceite, añadir la cebolla, la patata y la zanahoria y rehogar.",
+      "Mojar con el dashi y el sake, llevar a ebullición y espumar.",
+      "Añadir el azúcar y el mirin, cubrir con un otoshibuta (tapa que toca el guiso) y cocer 10 min.",
+      "Añadir la soja y el shirataki y cocer 10–15 min más hasta que la patata esté tierna.",
+      "Reposar para que tome sabor y servir con el tirabeque."
+     ]
+    }
+   ],
+   "notes": "Guiso casero japonés por excelencia. En el oeste de Japón se hace con vacuno y en el este a menudo con cerdo. Su origen (Maizuru o Kure, cocina de la Armada) sigue en discusión.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-curry-japones",
+   "tab": "recetas",
+   "name": "Curry japonés",
+   "group": "Salado",
+   "tag": "Japón",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Carne de vacuno, cerdo o pollo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Patata"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Aceite"
+      },
+      {
+       "q": "800",
+       "u": "ml",
+       "n": "Agua o caldo"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Mantequilla"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "2",
+       "u": "cda.",
+       "n": "Curry en polvo"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Garam masala"
+      },
+      {
+       "q": "½",
+       "u": "ud.",
+       "n": "Manzana rallada"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Salsa Worcestershire"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Kétchup"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Miel"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "800",
+       "u": "g",
+       "n": "Arroz japonés cocido"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Fukujinzuke (encurtido)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar la carne en dados, la cebolla en gajos y la zanahoria y la patata en trozos.",
+      "Saltear la carne en el aceite y añadir la cebolla hasta que esté dorada.",
+      "Añadir la zanahoria y la patata, mojar con el agua, espumar y cocer 20 min.",
+      "Para el roux, fundir la mantequilla, añadir la harina y tostar a fuego suave hasta que tome color avellana.",
+      "Retirar del fuego y añadir el curry y el garam masala.",
+      "Disolver el roux en un poco de caldo y añadirlo al guiso.",
+      "Incorporar la manzana, la Worcestershire, el kétchup y la miel y cocer 10 min removiendo hasta que espese.",
+      "Rectificar de sal y servir con arroz y fukujinzuke."
+     ]
+    }
+   ],
+   "notes": "Llegó en la era Meiji a través de la Marina británica. En casa se suele usar roux en pastilla (medio paquete para esta cantidad) en lugar del roux casero.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-dorayaki",
+   "tab": "recetas",
+   "name": "Dorayaki",
+   "group": "Dulce",
+   "tag": "Japón",
+   "yield": "6 ud.",
+   "parts": [
+    {
+     "name": "Anko (pasta de judía roja)",
+     "ings": [
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Judía azuki"
+      },
+      {
+       "q": "180",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cubrir las azuki con agua, llevar a ebullición, escurrir y desechar el agua.",
+      "Cubrir de nuevo con agua y cocer a fuego suave 60–90 min hasta que se deshagan entre los dedos.",
+      "Escurrir casi todo el líquido, añadir el azúcar en dos veces y cocer removiendo hasta que espese.",
+      "Añadir una pizca de sal y enfriar (tsubuan)."
+     ]
+    },
+    {
+     "name": "Masa y montaje",
+     "ings": [
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "70",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Miel"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Harina floja (de repostería)"
+      },
+      {
+       "q": "½",
+       "u": "cdta.",
+       "n": "Bicarbonato"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite"
+      }
+     ],
+     "steps": [
+      "Batir los huevos con el azúcar y la miel hasta que blanqueen.",
+      "Disolver el bicarbonato en el agua y añadirlo.",
+      "Incorporar la harina tamizada y reposar la masa 15 min.",
+      "Untar una sartén antiadherente con aceite y retirar el exceso con papel.",
+      "Verter discos de 9 cm a fuego medio-bajo y dar la vuelta cuando salgan burbujas.",
+      "Rellenar dos discos con anko y cerrar."
+     ]
+    }
+   ],
+   "notes": "La miel da el color dorado característico. El anko también se vende ya hecho.",
+   "done": false
   }
  ]
 }
