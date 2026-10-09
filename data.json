@@ -13149,17 +13149,12 @@
       {
        "q": "100",
        "u": "g",
-       "n": "Tomate seco"
+       "n": "Tomate seco (bien seco, acartonado)"
       },
       {
-       "q": "200",
-       "u": "ml",
-       "n": "Vinagre de vino (5 % acidez)"
-      },
-      {
-       "q": "200",
-       "u": "ml",
-       "n": "Agua"
+       "q": "2",
+       "u": "cda",
+       "n": "Zumo de limón embotellado (opcional)"
       },
       {
        "q": "300",
@@ -13169,14 +13164,14 @@
      ],
      "steps": [
       "Mise en place de géneros y útiles.",
-      "Hervir el agua y el vinagre, apagar y remojar los tomates 5–10 min para hidratarlos y acidificarlos.",
-      "Escurrir y secar muy bien entre paños, al menos 1 h.",
+      "Comprobar que los tomates están completamente secos, acartonados o crujientes, sin nada de humedad.",
+      "Si se quieren más tiernos, pasarlos un momento por el zumo de limón embotellado y escurrir (es el único remojo que admite la guía).",
       "Colocar en tarros limpios y cubrir por completo con aceite.",
       "Guardar en nevera."
      ]
     }
    ],
-   "notes": "Fuente: Oregon State University Extension. Sin ajo ni hierbas frescas, en nevera hasta 6 meses (el aceite se enturbia con el frío; se aclara a temperatura ambiente). Las guías oficiales (Oregon State University) piden 4 días en nevera para aceites con ajo o hierbas frescas, o congelar. ",
+   "notes": "Fuente: Oregon State University Extension, «Herbs and vegetables in oil» (SP 50-701). No rehidratarlos en agua ni vinagre: la humedad es lo que los hace inseguros. Sin ajo ni hierbas, en nevera hasta 6 meses (el aceite se enturbia con el frío; se aclara a temperatura ambiente). Con ajo o hierbas, 4 días en nevera o congelar.",
    "done": false,
    "pesce": false
   },
@@ -13829,6 +13824,3716 @@
     }
    ],
    "notes": "Fuente: NCHFP (USDA), «Beans or peas – shelled, dried». Requiere olla a presión de conservas con manómetro (autoclave doméstico): el baño maría y las ollas exprés normales no están validados para alimentos poco ácidos (riesgo de botulismo). Tiempos para 0–300 m; a más altura, subir la presión según la fuente. Vale para alubias y otras legumbres secas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-mantequilla",
+   "tab": "productos",
+   "name": "Mantequilla",
+   "group": "Lácteos y derivados",
+   "tag": "",
+   "yield": "200 g de mantequilla y 250 ml de suero",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Nata para montar (35 % materia grasa o más), fría"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal (opcional)"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua con hielo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Batir la nata fría con varillas eléctricas: primero se monta y, a los 5–10 min, se corta en grumos amarillos y suelta un líquido.",
+      "Colar y reservar el líquido (suero de mantequilla, sirve para masas y rebozados).",
+      "Lavar la mantequilla amasándola en agua con hielo y cambiar el agua hasta que salga limpia.",
+      "Escurrir apretando con una espátula para sacar toda el agua.",
+      "Añadir la sal si se quiere, dar forma y envolver.",
+      "Guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Lavarla bien es lo que la hace durar: el suero que quede la enrancia. En nevera, 2–3 semanas; se congela bien.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-ghee",
+   "tab": "productos",
+   "name": "Ghee",
+   "group": "Lácteos y derivados",
+   "tag": "India",
+   "yield": "400 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Mantequilla sin sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Fundir la mantequilla en un cazo de fondo grueso a fuego bajo.",
+      "Dejarla hervir suave, sin remover, 15–20 min: primero hace espuma, luego se aclara y los sólidos bajan y se doran.",
+      "Retirar cuando el líquido esté dorado y transparente y huela a avellana.",
+      "Colar por un paño fino o papel de cocina.",
+      "Guardar en un tarro limpio y seco."
+     ]
+    }
+   ],
+   "notes": "Al quitarle agua y sólidos de leche aguanta unos 3 meses a temperatura ambiente, bien cerrado, y más en nevera. Usar siempre cuchara seca. A diferencia de la mantequilla clarificada francesa, los sólidos se tuestan.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-ricotta",
+   "tab": "productos",
+   "name": "Ricotta",
+   "group": "Lácteos y derivados",
+   "tag": "Italia",
+   "yield": "400 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "l",
+       "n": "Leche entera"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Nata"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "45",
+       "u": "ml",
+       "n": "Zumo de limón"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar la leche, la nata y la sal hasta 85–90 ºC, removiendo para que no se pegue.",
+      "Apagar, añadir el zumo de limón y remover suave una sola vez.",
+      "Dejar reposar 10 min: se separan cuajos blancos y suero amarillento.",
+      "Pasar con cuidado a un colador forrado con paño fino.",
+      "Escurrir 15–60 min, según se quiera más cremosa o más firme.",
+      "Guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "«Ricotta» significa «recocida»: la tradicional se hace recalentando el suero que sobra del queso. Esta es la versión casera con leche. En nevera, 4–5 días.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-mato",
+   "tab": "productos",
+   "name": "Mató",
+   "group": "Lácteos y derivados",
+   "tag": "España / Cataluña",
+   "yield": "500 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "l",
+       "n": "Leche de cabra (o de vaca) entera"
+      },
+      {
+       "q": "",
+       "u": "",
+       "n": "Cuajo líquido (dosis del fabricante)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar la leche a 35 ºC.",
+      "Añadir el cuajo diluido en un poco de agua fría, remover 30 s y dejar quieta, tapada, 45–60 min, hasta que cuaje.",
+      "Cortar la cuajada en trozos grandes con un cuchillo largo.",
+      "Pasar con un cazo, sin romperla, a moldes perforados o a un colador con paño.",
+      "Escurrir 2–3 h en nevera, sin prensar.",
+      "No se sala."
+     ]
+    }
+   ],
+   "notes": "Queso fresco catalán y sin sal, el del «mel i mató». Usar leche pasteurizada, no UHT (la UHT no cuaja bien con cuajo). Con leche de supermercado ayuda añadir ¼ cdta de cloruro cálcico por cada 4 l. En nevera, 3–4 días.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-paneer",
+   "tab": "productos",
+   "name": "Paneer",
+   "group": "Lácteos y derivados",
+   "tag": "India",
+   "yield": "350 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "l",
+       "n": "Leche entera"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Zumo de limón (o vinagre)"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Llevar la leche a ebullición removiendo.",
+      "Apagar, añadir el limón mezclado con el agua poco a poco y remover hasta que el suero salga verdoso y claro.",
+      "Colar en un paño y enjuagar bajo agua fría para quitar el sabor a limón.",
+      "Escurrir retorciendo el paño.",
+      "Dar forma de bloque, poner un peso encima (aprox. 2 kg) y prensar 1–2 h.",
+      "Cortar en dados y guardar en nevera, en agua o bien envuelto."
+     ]
+    }
+   ],
+   "notes": "No funde al calentarlo: se fríe o se cocina en salsa (palak paneer, paneer tikka). En nevera, 3–4 días; se congela.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-queso-fresco-de-burgos",
+   "tab": "productos",
+   "name": "Queso fresco de Burgos",
+   "group": "Lácteos y derivados",
+   "tag": "España / Castilla y León",
+   "yield": "2 quesos de 300 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "l",
+       "n": "Leche de vaca u oveja entera"
+      },
+      {
+       "q": "",
+       "u": "",
+       "n": "Cuajo líquido (dosis del fabricante)"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar la leche a 32–35 ºC y añadir el cuajo diluido en un poco de agua fría.",
+      "Remover 30 s y dejar quieta, tapada, 30–45 min, hasta que al cortarla con un cuchillo se abra limpia.",
+      "Cortar la cuajada en cubos de unos 2–3 cm y dejar reposar 5 min.",
+      "Pasar a moldes perforados con un cazo, sin prensar, y dejar escurrir 1 h.",
+      "Dar la vuelta, salar por arriba y escurrir 2–3 h más en nevera.",
+      "Guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Queso fresco sin madurar, tierno y con mucho suero. Usar leche pasteurizada, no UHT (la UHT no cuaja bien con cuajo). Con leche de supermercado ayuda añadir ¼ cdta de cloruro cálcico por cada 4 l. En nevera, 4–5 días.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-mozzarella",
+   "tab": "productos",
+   "name": "Mozzarella",
+   "group": "Lácteos y derivados",
+   "tag": "Italia / Campania",
+   "yield": "400 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "l",
+       "n": "Leche entera pasteurizada (no UHT)"
+      },
+      {
+       "q": "7",
+       "u": "g",
+       "n": "Ácido cítrico (1½ cdta), en 60 ml de agua"
+      },
+      {
+       "q": "",
+       "u": "",
+       "n": "Cuajo líquido (dosis del fabricante), en 60 ml de agua"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Añadir el ácido cítrico disuelto a la leche fría y remover.",
+      "Calentar a 32 ºC, añadir el cuajo disuelto y remover 30 s.",
+      "Dejar quieta 5 min y calentar despacio hasta 40 ºC: la cuajada se separa del suero.",
+      "Cortar la cuajada, apartar del fuego y reposar 5 min.",
+      "Sacar la cuajada con espumadera y escurrir.",
+      "Calentar el suero a 80 ºC con la sal y sumergir la cuajada por partes hasta que llegue a 57 ºC por dentro.",
+      "Estirar y doblar con guantes hasta que brille y se estire sin romperse.",
+      "Bolear y meter en agua con hielo para fijar la forma."
+     ]
+    }
+   ],
+   "notes": "Versión rápida con ácido cítrico (método de Ricki Carroll, New England Cheesemaking). La de búfala campana (DOP) se hace con fermento y maduración de la cuajada. En nevera, en su suero o en agua con sal, 2–3 días.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-burrata",
+   "tab": "productos",
+   "name": "Burrata",
+   "group": "Lácteos y derivados",
+   "tag": "Italia / Apulia",
+   "yield": "4 burratas",
+   "parts": [
+    {
+     "name": "Stracciatella",
+     "ings": [
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Mozzarella recién hecha (de la receta de mozzarella)"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Nata fresca"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Deshilachar con los dedos la mozzarella en hebras finas.",
+      "Mezclar con la nata y la sal."
+     ]
+    },
+    {
+     "name": "Bolsa",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Cuajada de mozzarella caliente (estirada)"
+      }
+     ],
+     "steps": [
+      "Estirar una porción de cuajada caliente en un disco fino.",
+      "Rellenar con la stracciatella, cerrar como un saquito y atar o pellizcar el cierre.",
+      "Meter en agua con hielo para que fije."
+     ]
+    }
+   ],
+   "notes": "Nació en Andria (Apulia) para aprovechar los recortes de mozzarella. Tomar en 24–48 h, en nevera.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-labneh",
+   "tab": "productos",
+   "name": "Labneh",
+   "group": "Lácteos y derivados",
+   "tag": "Líbano",
+   "yield": "500 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Yogur natural entero"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar el yogur con la sal.",
+      "Ponerlo en un paño fino sobre un colador y colocar todo sobre un cuenco.",
+      "Escurrir en nevera 24 h (para untar) o 48 h (para hacer bolitas).",
+      "Servir con aceite de oliva y za'atar."
+     ]
+    }
+   ],
+   "notes": "En nevera, 1 semana. Las bolitas en aceite deben guardarse también en nevera.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-skyr",
+   "tab": "productos",
+   "name": "Skyr",
+   "group": "Lácteos y derivados",
+   "tag": "Islandia",
+   "yield": "600 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "l",
+       "n": "Leche desnatada"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Skyr natural (como fermento)"
+      },
+      {
+       "q": "3",
+       "u": "gota",
+       "n": "Cuajo líquido"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar la leche a 90 ºC y enfriarla a 40 ºC.",
+      "Diluir el skyr en un poco de la leche templada e incorporarlo con el cuajo diluido en una cucharada de agua.",
+      "Tapar y mantener a 37–40 ºC (horno apagado con la luz o yogurtera) 5–6 h, hasta que cuaje.",
+      "Pasar a un paño fino y escurrir en nevera 12–24 h, hasta que quede muy espeso.",
+      "Batir para alisar."
+     ]
+    }
+   ],
+   "notes": "Lácteo tradicional islandés, más cercano al queso fresco que al yogur. Guardar 2 cucharadas para la siguiente tanda. En nevera, 1–2 semanas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-requeson-tipo-cottage",
+   "tab": "productos",
+   "name": "Requesón tipo cottage",
+   "group": "Lácteos y derivados",
+   "tag": "Estados Unidos",
+   "yield": "500 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "l",
+       "n": "Leche desnatada"
+      },
+      {
+       "q": "180",
+       "u": "ml",
+       "n": "Vinagre blanco"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "120",
+       "u": "ml",
+       "n": "Nata"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar la leche a 49 ºC.",
+      "Retirar del fuego, añadir el vinagre y remover 1–2 min: se forman grumos.",
+      "Tapar y reposar 30 min.",
+      "Colar con un paño y enjuagar bajo agua fría, deshaciendo los grumos.",
+      "Escurrir 5 min apretando.",
+      "Mezclar con la sal y la nata justo antes de guardar."
+     ]
+    }
+   ],
+   "notes": "Versión ácida casera; la industrial se cuaja con fermento y cuajo. En nevera, 1 semana.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-mascarpone",
+   "tab": "productos",
+   "name": "Mascarpone",
+   "group": "Lácteos y derivados",
+   "tag": "Italia / Lombardía",
+   "yield": "400 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Nata (35 % materia grasa o más)"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Zumo de limón"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar la nata al baño maría o a fuego muy suave hasta 85 ºC.",
+      "Añadir el zumo de limón y remover 5 min manteniendo la temperatura: espesa y cubre la cuchara.",
+      "Enfriar 20 min.",
+      "Pasar a un colador forrado con paño fino y escurrir en nevera 12 h."
+     ]
+    }
+   ],
+   "notes": "Tradicional de Lombardía; base del tiramisú. En nevera, 4–5 días.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-halloumi",
+   "tab": "productos",
+   "name": "Halloumi",
+   "group": "Lácteos y derivados",
+   "tag": "Chipre",
+   "yield": "2 bloques de 300 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "l",
+       "n": "Leche entera (mejor de oveja o cabra)"
+      },
+      {
+       "q": "",
+       "u": "",
+       "n": "Cuajo líquido (dosis del fabricante)"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Hierbabuena seca"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar la leche a 32 ºC, añadir el cuajo diluido y dejar quieta 40 min, hasta que cuaje.",
+      "Cortar en cubos de 1 cm y remover suave 10 min, subiendo a 38 ºC.",
+      "Sacar la cuajada a un molde forrado con paño, prensar 1 h y cortar en bloques. Reservar el suero.",
+      "Calentar el suero a 90 ºC y meter los bloques hasta que floten (20–30 min).",
+      "Escurrir, frotar con sal y espolvorear la hierbabuena.",
+      "Doblar cada bloque por la mitad y dejar enfriar."
+     ]
+    }
+   ],
+   "notes": "DOP de Chipre desde 2021. El escaldado en suero es lo que hace que no se funda a la plancha. Usar leche pasteurizada, no UHT (la UHT no cuaja bien con cuajo). Con leche de supermercado ayuda añadir ¼ cdta de cloruro cálcico por cada 4 l. En nevera, en salmuera al 10 %, 2–3 semanas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-feta",
+   "tab": "productos",
+   "name": "Feta",
+   "group": "Lácteos y derivados",
+   "tag": "Grecia",
+   "yield": "800 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "l",
+       "n": "Leche de oveja (o 70 % oveja y 30 % cabra)"
+      },
+      {
+       "q": "¼",
+       "u": "cdta",
+       "n": "Fermento mesófilo liofilizado"
+      },
+      {
+       "q": "",
+       "u": "",
+       "n": "Cuajo líquido (dosis del fabricante)"
+      },
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Sal (para la salmuera)"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua (para la salmuera)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar la leche a 30 ºC, añadir el fermento y madurar 1 h.",
+      "Añadir el cuajo diluido y dejar quieta 45–60 min, hasta que cuaje firme.",
+      "Cortar en cubos de 2 cm, reposar 10 min y remover suave 15 min.",
+      "Pasar a moldes y escurrir 24 h, dándoles la vuelta varias veces.",
+      "Cortar en bloques, salar por fuera y dejar 1 día.",
+      "Sumergir en salmuera al 8 % en nevera y madurar al menos 2 meses."
+     ]
+    }
+   ],
+   "notes": "DOP Grecia: solo leche de oveja, con hasta un 30 % de cabra, y 2 meses mínimo de maduración. Usar leche pasteurizada, no UHT (la UHT no cuaja bien con cuajo). Con leche de supermercado ayuda añadir ¼ cdta de cloruro cálcico por cada 4 l. ",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-queso-crema",
+   "tab": "productos",
+   "name": "Queso crema",
+   "group": "Lácteos y derivados",
+   "tag": "Estados Unidos",
+   "yield": "450 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Leche entera"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Nata"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar la leche y la nata a 80 ºC.",
+      "Añadir el limón y remover hasta que cuaje en grumos finos.",
+      "Reposar 10 min y colar con un paño fino.",
+      "Escurrir 1–2 h.",
+      "Triturar con la sal hasta que quede liso y cremoso."
+     ]
+    }
+   ],
+   "notes": "Tipo Philadelphia, versión casera ácida. En nevera, 1 semana.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-clotted-cream",
+   "tab": "productos",
+   "name": "Clotted cream",
+   "group": "Lácteos y derivados",
+   "tag": "Reino Unido / Cornualles",
+   "yield": "300 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Nata (la de más materia grasa que se encuentre)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Verter la nata en una fuente de horno de modo que tenga 4–5 cm de alto.",
+      "Hornear a 80 ºC, sin tapar, 12 h: se forma una costra amarilla.",
+      "Enfriar a temperatura ambiente y luego 8–12 h en nevera.",
+      "Retirar con cuidado la capa espesa de arriba y guardarla; el líquido de debajo sirve para scones."
+     ]
+    }
+   ],
+   "notes": "La Cornish clotted cream es DOP. Se toma con scones y mermelada. En nevera, 4–5 días.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-brunost",
+   "tab": "productos",
+   "name": "Brunost",
+   "group": "Lácteos y derivados",
+   "tag": "Noruega",
+   "yield": "300 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "l",
+       "n": "Suero de leche (de hacer queso)"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Nata"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Reducir el suero a fuego medio, sin tapar, removiendo de vez en cuando, varias horas, hasta que quede una cuarta parte.",
+      "Añadir la nata.",
+      "Seguir reduciendo a fuego bajo, removiendo sin parar al final, hasta que quede una pasta marrón espesa (como dulce de leche).",
+      "Retirar del fuego y batir mientras se enfría para que no quede granulosa.",
+      "Verter en un molde y enfriar en nevera."
+     ]
+    }
+   ],
+   "notes": "Queso «marrón» noruego: se carameliza el azúcar del suero. Aprovecha el suero del queso fresco, el halloumi o la mozzarella. Se corta en lonchas finas. En nevera, semanas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-quesillo-de-oaxaca",
+   "tab": "productos",
+   "name": "Quesillo de Oaxaca",
+   "group": "Lácteos y derivados",
+   "tag": "México / Oaxaca",
+   "yield": "400 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "l",
+       "n": "Leche entera pasteurizada (no UHT)"
+      },
+      {
+       "q": "7",
+       "u": "g",
+       "n": "Ácido cítrico, en 60 ml de agua"
+      },
+      {
+       "q": "",
+       "u": "",
+       "n": "Cuajo líquido (dosis del fabricante)"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua con 50 g de sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hacer la cuajada como la de la mozzarella hasta escaldarla en agua o suero a 80 ºC.",
+      "Estirarla en una cinta larga y fina, de 2 cm de ancho.",
+      "Meter la cinta en agua con sal 10 min.",
+      "Enrollarla en ovillo y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Pasta hilada como la mozzarella, pero en tiras largas enrolladas. Se deshebra para quesadillas. En nevera, 1 semana.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-leche-condensada",
+   "tab": "productos",
+   "name": "Leche condensada",
+   "group": "Lácteos y derivados",
+   "tag": "",
+   "yield": "400 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Leche entera"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "¼",
+       "u": "cdta",
+       "n": "Bicarbonato (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar la leche con el azúcar en un cazo ancho, removiendo hasta disolver.",
+      "Cocer a fuego muy suave, sin que llegue a hervir fuerte, 1 h 30 min–2 h, removiendo a menudo.",
+      "Retirar cuando haya reducido a algo menos de la mitad y nape la cuchara.",
+      "Si se cuaja, batir con la batidora.",
+      "Guardar en un tarro limpio en nevera: espesa al enfriar."
+     ]
+    }
+   ],
+   "notes": "El bicarbonato evita que se corte y que oscurezca demasiado. En nevera, 2–3 semanas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-ayran",
+   "tab": "productos",
+   "name": "Ayran",
+   "group": "Lácteos y derivados",
+   "tag": "Turquía",
+   "yield": "1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Yogur natural entero"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Agua muy fría"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Batir el yogur con la sal hasta que esté liso.",
+      "Añadir el agua poco a poco sin dejar de batir.",
+      "Batir fuerte (o con batidora) hasta que haga espuma.",
+      "Servir muy frío."
+     ]
+    }
+   ],
+   "notes": "Bebida nacional de Turquía. Acompaña kebabs y comidas especiadas. Se toma el mismo día.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-masa-de-pizza-napolitana",
+   "tab": "productos",
+   "name": "Masa de pizza napolitana",
+   "group": "Masas",
+   "tag": "Italia / Campania",
+   "yield": "6 bolas de 250 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Harina 00 de fuerza media (W 250–320)"
+      },
+      {
+       "q": "600",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "2",
+       "u": "g",
+       "n": "Levadura fresca"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Disolver la sal en el agua y añadir el 10 % de la harina.",
+      "Desmenuzar la levadura y seguir añadiendo harina mientras se amasa.",
+      "Amasar 10–20 min hasta que quede lisa y no se pegue.",
+      "Reposar la masa en bloque, tapada, 2 h a temperatura ambiente.",
+      "Dividir en bolas de 200–280 g y dejarlas 4–6 h más, tapadas.",
+      "Estirar a mano desde el centro hacia fuera, dejando el borde (cornicione) sin aplastar. Nunca con rodillo.",
+      "Cocer a la máxima temperatura posible: en horno de leña 430–480 ºC, 60–90 s; en casa, sobre piedra o acero bien caliente."
+     ]
+    }
+   ],
+   "notes": "Según el pliego de la Pizza Napoletana ETG y la AVPN: solo harina, agua, sal y levadura; diámetro máximo 35 cm.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-baguette",
+   "tab": "productos",
+   "name": "Baguette",
+   "group": "Masas",
+   "tag": "Francia",
+   "yield": "3 baguettes",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina panificable (T65)"
+      },
+      {
+       "q": "350",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "4",
+       "u": "g",
+       "n": "Levadura fresca"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar harina y agua y dejar reposar 30 min (autólisis).",
+      "Añadir la levadura y la sal y amasar hasta que quede lisa.",
+      "Fermentar 1 h 30 min en bloque, haciendo un pliegue a los 45 min.",
+      "Dividir en 3 piezas, bolear suave y reposar 20 min.",
+      "Formar barras de 35–40 cm sin desgasificar del todo.",
+      "Fermentar 45–60 min sobre un paño enharinado, con pliegues entre barras.",
+      "Hacer 4–5 cortes oblicuos con una cuchilla.",
+      "Hornear a 250 ºC con vapor 20–25 min, hasta que estén bien doradas."
+     ]
+    }
+   ],
+   "notes": "La «baguette de tradition française» (decreto de 1993) solo admite harina, agua, sal y levadura o masa madre, sin aditivos.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-chapata",
+   "tab": "productos",
+   "name": "Chapata",
+   "group": "Masas",
+   "tag": "Italia / Véneto",
+   "yield": "3 chapatas",
+   "parts": [
+    {
+     "name": "Biga",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Harina de fuerza"
+      },
+      {
+       "q": "125",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "2",
+       "u": "g",
+       "n": "Levadura fresca"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar sin amasar, solo hasta integrar.",
+      "Tapar y dejar 16–18 h a 16–18 ºC (o 1 h ambiente y el resto en nevera)."
+     ]
+    },
+    {
+     "name": "Masa",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Harina de fuerza"
+      },
+      {
+       "q": "275",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "2",
+       "u": "g",
+       "n": "Levadura fresca"
+      }
+     ],
+     "steps": [
+      "Mezclar la biga con la harina y casi toda el agua.",
+      "Añadir levadura, sal y el resto del agua poco a poco; amasar hasta que, siendo muy blanda, se despegue del bol.",
+      "Fermentar 2 h en un recipiente aceitado, con 3 pliegues en la primera hora.",
+      "Volcar sobre la mesa muy enharinada y cortar 3 rectángulos sin desgasificar.",
+      "Fermentar 30–45 min con el lado enharinado hacia abajo.",
+      "Dar la vuelta y hornear a 240 ºC con vapor 20–25 min."
+     ]
+    }
+   ],
+   "notes": "Creada en 1982 en Adria (Véneto) por Arnaldo Cavallari. Masa con mucha agua (80 %): manos mojadas o enharinadas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-focaccia-genovese",
+   "tab": "productos",
+   "name": "Focaccia genovese",
+   "group": "Masas",
+   "tag": "Italia / Liguria",
+   "yield": "1 bandeja de 30×40 cm",
+   "parts": [
+    {
+     "name": "Masa",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina de fuerza media"
+      },
+      {
+       "q": "300",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Levadura fresca"
+      },
+      {
+       "q": "25",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Amasar todo hasta tener una masa lisa y elástica.",
+      "Fermentar 1 h tapada.",
+      "Extender en la bandeja aceitada y dejar 30 min; volver a estirar hasta las esquinas.",
+      "Fermentar 1 h."
+     ]
+    },
+    {
+     "name": "Salmuera (salamoia)",
+     "ings": [
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Sal gorda"
+      }
+     ],
+     "steps": [
+      "Emulsionar el agua con el aceite.",
+      "Hacer hoyos en la masa con la yema de los dedos, hasta el fondo.",
+      "Cubrir con la salmuera, espolvorear la sal y fermentar 30–45 min más.",
+      "Hornear a 230 ºC 15–20 min: dorada arriba y blanca y tierna dentro."
+     ]
+    }
+   ],
+   "notes": "La salmuera en los hoyos es la firma ligur. Se come sola o mojada en capuchino al desayuno.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-pan-de-molde",
+   "tab": "productos",
+   "name": "Pan de molde",
+   "group": "Masas",
+   "tag": "",
+   "yield": "1 molde de 25 cm",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina de fuerza"
+      },
+      {
+       "q": "280",
+       "u": "ml",
+       "n": "Leche templada"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Mantequilla blanda"
+      },
+      {
+       "q": "25",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "9",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Levadura fresca"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Amasar harina, leche, azúcar, levadura y sal 10 min.",
+      "Añadir la mantequilla y amasar hasta que quede lisa y elástica.",
+      "Fermentar 1 h, hasta que doble.",
+      "Desgasificar, estirar en rectángulo y enrollar apretando, del ancho del molde.",
+      "Meter en el molde engrasado y fermentar hasta que asome 1 cm por encima del borde.",
+      "Hornear a 180 ºC 30–35 min.",
+      "Desmoldar enseguida y enfriar en rejilla antes de cortar."
+     ]
+    }
+   ],
+   "notes": "Con tapa (molde Pullman) sale cuadrado y de miga más cerrada. Se congela en rebanadas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-masa-de-coca",
+   "tab": "productos",
+   "name": "Masa de coca",
+   "group": "Masas",
+   "tag": "España / Comunidad Valenciana",
+   "yield": "2 cocas de 30×20 cm",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "125",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      },
+      {
+       "q": "125",
+       "u": "ml",
+       "n": "Agua templada (o vino blanco)"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "15",
+       "u": "g",
+       "n": "Levadura fresca"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Disolver la levadura en el agua templada.",
+      "Mezclar con la harina, la sal y el aceite y amasar solo hasta que esté lisa: queda suave y aceitosa.",
+      "Reposar 30–45 min tapada.",
+      "Estirar con las manos o rodillo, fina, sobre la bandeja con papel.",
+      "Cubrir con el relleno (trempó, verduras, sardinas…) y hornear a 200 ºC 25–30 min."
+     ]
+    }
+   ],
+   "notes": "Masa base de las cocas saladas valencianas, baleares y catalanas. Ver «Coca de trempó» en Recetas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-masa-quebrada-pate-brisee",
+   "tab": "productos",
+   "name": "Masa quebrada (pâte brisée)",
+   "group": "Masas",
+   "tag": "Francia",
+   "yield": "1 molde de 26 cm",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "125",
+       "u": "g",
+       "n": "Mantequilla fría en dados"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Agua fría (si hace falta)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Arenar la harina, la sal y la mantequilla con la yema de los dedos hasta que parezca arena gruesa.",
+      "Añadir el huevo y unir sin amasar; agua solo si no liga.",
+      "Aplanar en disco, envolver y enfriar 1 h.",
+      "Estirar a 3 mm, forrar el molde y pinchar el fondo.",
+      "Enfriar 20 min antes de hornear.",
+      "Para cocerla en blanco: cubrir con papel y peso y hornear a 180 ºC 15 min, retirar el peso y 10 min más."
+     ]
+    }
+   ],
+   "notes": "Salada: quiches, tartas de verdura. No amasar: si se trabaja mucho, encoge y queda dura.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-masa-sablee",
+   "tab": "productos",
+   "name": "Masa sablée",
+   "group": "Masas",
+   "tag": "Francia",
+   "yield": "1 molde de 26 cm",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "125",
+       "u": "g",
+       "n": "Mantequilla blanda"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Azúcar glas"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cremar la mantequilla con el azúcar glas y la sal.",
+      "Añadir el huevo.",
+      "Incorporar la harina sin amasar, solo hasta que se una.",
+      "Aplanar entre dos papeles, envolver y enfriar 2 h.",
+      "Estirar a 3 mm, forrar el molde y enfriar 20 min.",
+      "Hornear en blanco a 170 ºC 20–25 min, hasta dorar."
+     ]
+    }
+   ],
+   "notes": "Para tartas dulces de fruta, crema o limón. Se congela bien en crudo.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-hojaldre",
+   "tab": "productos",
+   "name": "Hojaldre",
+   "group": "Masas",
+   "tag": "Francia",
+   "yield": "1,2 kg",
+   "parts": [
+    {
+     "name": "Masa base (détrempe)",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Agua fría"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Mantequilla fundida"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar todo hasta tener una masa lisa, sin amasar en exceso.",
+      "Hacer un corte en cruz, envolver y enfriar 1 h."
+     ]
+    },
+    {
+     "name": "Empaste y vueltas",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Mantequilla fría (de hojaldre, mejor)"
+      }
+     ],
+     "steps": [
+      "Golpear la mantequilla entre papeles hasta dejarla en un cuadrado flexible, a la misma temperatura que la masa.",
+      "Estirar la masa en cruz, poner la mantequilla en el centro y cerrar como un sobre.",
+      "Estirar en un rectángulo 3 veces más largo que ancho y doblar en tres: es una vuelta sencilla.",
+      "Girar 90º y dar otra vuelta. Enfriar 30 min.",
+      "Repetir hasta completar 6 vueltas sencillas, enfriando cada dos.",
+      "Reposar en nevera al menos 1 h antes de estirar y cortar."
+     ]
+    }
+   ],
+   "notes": "Hojaldre clásico de 6 vueltas sencillas (729 capas de mantequilla). Si la mantequilla se rompe o sale, enfriar más. Se congela.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-masa-choux",
+   "tab": "productos",
+   "name": "Masa choux",
+   "group": "Masas",
+   "tag": "Francia",
+   "yield": "30 profiteroles",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "125",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "125",
+       "u": "ml",
+       "n": "Leche"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Mantequilla"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "4–5",
+       "u": "ud.",
+       "n": "Huevo (250 g aprox.)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Llevar a ebullición el agua, la leche, la mantequilla, la sal y el azúcar.",
+      "Fuera del fuego, añadir de golpe la harina y remover.",
+      "Volver al fuego y secar la panada 1–2 min, removiendo, hasta que se despegue y haga película en el fondo.",
+      "Pasar a un bol y enfriar un poco.",
+      "Añadir los huevos batidos de uno en uno, hasta que la masa caiga de la espátula en forma de «V».",
+      "Escudillar con manga sobre papel.",
+      "Hornear a 180 ºC 25–30 min sin abrir el horno."
+     ]
+    }
+   ],
+   "notes": "Profiteroles, éclairs, buñuelos de viento. Sin azúcar, para gougères con queso.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-brioche",
+   "tab": "productos",
+   "name": "Brioche",
+   "group": "Masas",
+   "tag": "Francia",
+   "yield": "2 moldes de pan",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina de fuerza"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Huevo (300 g)"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Levadura fresca"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Mantequilla blanda en dados"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Amasar la harina, los huevos, el azúcar, la sal y la levadura 10 min, hasta que se despegue del bol.",
+      "Añadir la mantequilla poco a poco sin dejar de amasar, hasta que la masa vuelva a despegarse, lisa y brillante.",
+      "Fermentar 1 h a temperatura ambiente.",
+      "Desgasificar, tapar y dejar en nevera 12 h.",
+      "Formar en frío (bolas, trenza…) y meter en los moldes.",
+      "Fermentar 2–3 h, hasta que doble.",
+      "Pintar con huevo y hornear a 180 ºC 25–30 min."
+     ]
+    }
+   ],
+   "notes": "La nevera es clave: la mantequilla fría hace la masa manejable.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-pasta-fresca-al-huevo",
+   "tab": "productos",
+   "name": "Pasta fresca al huevo",
+   "group": "Masas",
+   "tag": "Italia / Emilia-Romaña",
+   "yield": "4 raciones",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Harina 00"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Huevo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hacer un volcán con la harina y cascar los huevos en el centro.",
+      "Batir con un tenedor, integrando harina poco a poco desde el borde.",
+      "Amasar 10 min hasta que quede lisa y elástica.",
+      "Envolver y reposar 30 min.",
+      "Estirar con rodillo o máquina hasta 0,6–1 mm.",
+      "Cortar: tallarines, pappardelle, láminas para lasaña o rellenas.",
+      "Cocer en agua con sal 1–3 min."
+     ]
+    }
+   ],
+   "notes": "Proporción clásica de la «sfoglia» boloñesa: 100 g de harina por huevo. El tallarín de Bolonia mide 8 mm cocido (registro de la Accademia Italiana della Cucina, 1972).",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-masa-de-maiz-nixtamalizado",
+   "tab": "productos",
+   "name": "Masa de maíz nixtamalizado",
+   "group": "Masas",
+   "tag": "México",
+   "yield": "1,5 kg de masa (30 tortillas)",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Maíz seco"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Cal (hidróxido de calcio alimentario)"
+      },
+      {
+       "q": "3",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Disolver la cal en el agua, añadir el maíz lavado y cocer 30–40 min, hasta que la piel se desprenda al frotar.",
+      "Apagar y dejar reposar 12 h en el agua (nixtamal).",
+      "Lavar el maíz frotándolo entre las manos, cambiando el agua hasta quitar la piel suelta.",
+      "Moler en molino de maíz hasta una masa fina; añadir agua si hace falta.",
+      "Amasar con la sal hasta que no se agriete al aplastar una bola.",
+      "Para tortillas: bolas de 35–40 g, aplastar en prensa entre plásticos y cocer en comal caliente 30 s, 1 min y 30 s, hasta que se inflen."
+     ]
+    }
+   ],
+   "notes": "La nixtamalización libera la niacina del maíz y da elasticidad a la masa. La UNESCO incluye la cocina tradicional mexicana como patrimonio inmaterial.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-tortillas-de-harina",
+   "tab": "productos",
+   "name": "Tortillas de harina",
+   "group": "Masas",
+   "tag": "México",
+   "yield": "12 tortillas",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Manteca de cerdo (o mantequilla)"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Agua caliente"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Arenar la harina con la sal y la manteca.",
+      "Añadir el agua caliente y amasar 5 min hasta que quede suave.",
+      "Dividir en 12 bolas y reposar 30 min tapadas.",
+      "Estirar con rodillo muy finas.",
+      "Cocer en sartén o comal caliente, sin grasa, 30–40 s por lado, hasta que salgan burbujas y puntos dorados.",
+      "Guardar apiladas en un paño para que se mantengan blandas."
+     ]
+    }
+   ],
+   "notes": "Típicas del norte de México (Sonora, Chihuahua); base de burritos.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-obleas-para-empanadillas",
+   "tab": "productos",
+   "name": "Obleas para empanadillas",
+   "group": "Masas",
+   "tag": "España",
+   "yield": "30 obleas",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Vino blanco"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar el aceite, el vino, el agua y la sal sin que hierva.",
+      "Añadir la harina de golpe y mezclar.",
+      "Amasar hasta que quede lisa; reposar 30 min tapada.",
+      "Estirar muy fina (1–2 mm) y cortar círculos de 10 cm.",
+      "Rellenar, cerrar y sellar el borde con un tenedor.",
+      "Freír en aceite caliente o pintar con huevo y hornear a 200 ºC 15–20 min."
+     ]
+    }
+   ],
+   "notes": "Masa de empanadillas de atún, de pisto o de carne. Las obleas se congelan separadas con papel.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-pan-de-pita",
+   "tab": "productos",
+   "name": "Pan de pita",
+   "group": "Masas",
+   "tag": "Líbano",
+   "yield": "8 panes",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "325",
+       "u": "ml",
+       "n": "Agua templada"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Levadura fresca"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "15",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Amasar todo 10 min hasta que quede lisa.",
+      "Fermentar 1 h, hasta que doble.",
+      "Dividir en 8 bolas y reposar 15 min.",
+      "Estirar en discos de 5 mm, del mismo grosor de borde a centro.",
+      "Hornear sobre piedra o bandeja muy caliente a 250 ºC o más, 4–5 min, hasta que se inflen.",
+      "Envolver enseguida en un paño para que queden blandos."
+     ]
+    }
+   ],
+   "notes": "Si se infla, sale el bolsillo. También se cuece en sartén muy caliente, 1 min por lado.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-naan",
+   "tab": "productos",
+   "name": "Naan",
+   "group": "Masas",
+   "tag": "India / Punyab",
+   "yield": "8 naan",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "7",
+       "u": "g",
+       "n": "Levadura seca de panadería"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Azúcar"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Yogur natural"
+      },
+      {
+       "q": "200",
+       "u": "ml",
+       "n": "Leche templada"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Ghee (y más para pintar)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar todo y amasar 8–10 min hasta que quede suave y algo pegajosa.",
+      "Fermentar 1 h 30 min.",
+      "Dividir en 8 bolas y reposar 15 min.",
+      "Estirar en forma de lágrima, de 5 mm.",
+      "Cocer en sartén de hierro muy caliente: cuando salgan burbujas, dar la vuelta y dorar.",
+      "Pintar con ghee (y ajo picado si se quiere)."
+     ]
+    }
+   ],
+   "notes": "En el tandoor se pegan a la pared del horno de barro. En casa, la sartén de hierro o la parrilla del horno al máximo.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-masa-de-jiaozi",
+   "tab": "productos",
+   "name": "Masa de jiaozi",
+   "group": "Masas",
+   "tag": "China",
+   "yield": "40 obleas",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Agua (caliente para cocer al vapor o a la plancha, fría para hervir)"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Añadir el agua a la harina poco a poco, mezclando con palillos.",
+      "Amasar 5–10 min hasta que quede lisa y firme.",
+      "Reposar 30 min tapada.",
+      "Hacer un churro de 2,5 cm y cortar trozos de 8 g.",
+      "Aplastar cada trozo y estirar con un rodillo pequeño, dejando el centro más grueso que el borde (8 cm).",
+      "Rellenar y plisar."
+     ]
+    }
+   ],
+   "notes": "Con agua fría, más firmes para hervir; con agua caliente, más tiernas para guotie (a la plancha) y vapor. Sirve para gyozas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-masa-de-bao",
+   "tab": "productos",
+   "name": "Masa de bao",
+   "group": "Masas",
+   "tag": "China",
+   "yield": "16 bao",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina floja"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Leche templada"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Levadura seca de panadería"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Levadura química"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Manteca o aceite neutro"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Amasar todo 10 min hasta que esté lisa y muy fina al tacto.",
+      "Fermentar 1 h.",
+      "Desgasificar y dividir en 16 bolas.",
+      "Estirar en óvalos, pintar con aceite y doblar (gua bao) o rellenar y cerrar (baozi).",
+      "Colocar sobre cuadrados de papel en la vaporera y fermentar 20–30 min.",
+      "Cocer al vapor 12 min y dejar 5 min con la tapa antes de abrir (si no, se arrugan)."
+     ]
+    }
+   ],
+   "notes": "Harina floja = blancos y esponjosos.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-arepas",
+   "tab": "productos",
+   "name": "Arepas",
+   "group": "Masas",
+   "tag": "Venezuela",
+   "yield": "8 arepas",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Harina de maíz blanco precocida"
+      },
+      {
+       "q": "325",
+       "u": "ml",
+       "n": "Agua templada"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Disolver la sal en el agua.",
+      "Añadir la harina poco a poco amasando hasta que no se pegue a las manos.",
+      "Reposar 5 min.",
+      "Formar 8 bolas y aplastarlas a 1,5 cm.",
+      "Dorar en plancha o budare engrasado a fuego medio 5–7 min por lado.",
+      "Terminar 10–15 min en el horno a 180 ºC para que suenen huecas al golpearlas."
+     ]
+    }
+   ],
+   "notes": "Se abren y se rellenan (reina pepiada, pabellón, queso). Igual de propias de Colombia.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-leche-de-soja",
+   "tab": "productos",
+   "name": "Leche de soja",
+   "group": "Legumbres y semillas",
+   "tag": "China",
+   "yield": "1,5 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Soja amarilla seca"
+      },
+      {
+       "q": "1,5",
+       "u": "l",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar la soja 10–12 h en agua abundante.",
+      "Escurrir y triturar con el agua hasta que quede muy fino.",
+      "Colar por un paño, apretando; lo que queda es okara (se usa en tortitas o masas).",
+      "Hervir la leche 15–20 min a fuego suave, removiendo para que no se pegue ni se desborde.",
+      "Endulzar si se quiere y enfriar."
+     ]
+    }
+   ],
+   "notes": "Cocerla es obligatorio: la soja cruda tiene sustancias que dificultan la digestión de las proteínas. En nevera, 3–4 días.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-tofu",
+   "tab": "productos",
+   "name": "Tofu",
+   "group": "Legumbres y semillas",
+   "tag": "China",
+   "yield": "400 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "l",
+       "n": "Leche de soja casera, sin endulzar"
+      },
+      {
+       "q": "8",
+       "u": "g",
+       "n": "Nigari (cloruro de magnesio) o sulfato de calcio"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar la leche de soja a 75–80 ºC.",
+      "Apagar, añadir la mitad del coagulante disuelto en el agua, remover en ocho y parar la cuchara.",
+      "Echar el resto por encima, tapar y dejar 15 min, hasta que se separe en cuajos y suero claro.",
+      "Pasar la cuajada a un molde forrado con paño.",
+      "Cerrar el paño, poner peso (1 kg) y prensar 15–30 min, según se quiera más tierno o más firme.",
+      "Sumergir en agua fría y desmoldar."
+     ]
+    }
+   ],
+   "notes": "En nevera, cubierto de agua (cambiarla cada día), 4–5 días.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-tahini",
+   "tab": "productos",
+   "name": "Tahini",
+   "group": "Legumbres y semillas",
+   "tag": "Líbano",
+   "yield": "1 tarro de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Sésamo blanco pelado"
+      },
+      {
+       "q": "2–4",
+       "u": "cda",
+       "n": "Aceite neutro (si hace falta)"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Tostar el sésamo en el horno a 160 ºC 8–10 min o en sartén, removiendo, hasta que apenas tome color.",
+      "Enfriar.",
+      "Triturar en procesador 5–10 min, rebañando las paredes: primero queda arena, luego pasta.",
+      "Añadir el aceite poco a poco solo si no llega a hacerse fluido.",
+      "Salar y guardar en tarro."
+     ]
+    }
+   ],
+   "notes": "Poco tostado para que no amargue. Base de hummus, baba ganoush y salsas. Aguanta meses en lugar fresco; es normal que el aceite se separe.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-mantequilla-de-cacahuete",
+   "tab": "productos",
+   "name": "Mantequilla de cacahuete",
+   "group": "Legumbres y semillas",
+   "tag": "Estados Unidos",
+   "yield": "1 tarro de 400 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Cacahuete tostado pelado, sin sal"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Miel (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Si no vienen tostados, tostarlos a 170 ºC 10–12 min y enfriar.",
+      "Triturar en procesador 5–10 min, rebañando las paredes, hasta que suelte su aceite y quede cremosa.",
+      "Añadir la sal y la miel y triturar 1 min más.",
+      "Para versión «crunchy», añadir al final un puñado de cacahuetes picados."
+     ]
+    }
+   ],
+   "notes": "En un tarro cerrado, 1 mes en la despensa o 3 meses en nevera.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-horchata-de-chufa",
+   "tab": "productos",
+   "name": "Horchata de chufa",
+   "group": "Legumbres y semillas",
+   "tag": "España / Comunidad Valenciana",
+   "yield": "1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Chufa seca"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua muy fría"
+      },
+      {
+       "q": "120",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Canela molida (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar las chufas y remojarlas 24 h en agua, cambiándola cada 8 h.",
+      "Escurrir y triturar con 250 ml de agua y el azúcar hasta hacer una pasta.",
+      "Reposar 2 h en nevera.",
+      "Añadir el resto del agua y triturar otra vez.",
+      "Colar apretando bien por un paño o bolsa de tela, y después por un colador fino.",
+      "Enfriar y servir muy fría, con canela si se quiere."
+     ]
+    }
+   ],
+   "notes": "Con chufa de la DO Chufa de Valencia (l'Horta Nord). La horchata natural no lleva conservantes: en nevera, 24–48 h.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-leche-de-almendras",
+   "tab": "productos",
+   "name": "Leche de almendras",
+   "group": "Legumbres y semillas",
+   "tag": "",
+   "yield": "1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Almendra cruda"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar las almendras 8–12 h y escurrir.",
+      "Triturar con el agua y la sal 1–2 min.",
+      "Colar apretando por un paño o bolsa de tela."
+     ]
+    }
+   ],
+   "notes": "La pulpa sobrante, seca en el horno a baja temperatura, es harina de almendra. En nevera, 3–4 días.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-leche-de-avena",
+   "tab": "productos",
+   "name": "Leche de avena",
+   "group": "Legumbres y semillas",
+   "tag": "",
+   "yield": "1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Copos de avena"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua muy fría"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Triturar la avena con el agua muy fría solo 20–30 s.",
+      "Colar sin apretar por un colador fino o paño."
+     ]
+    }
+   ],
+   "notes": "Triturar más o apretar al colar la deja viscosa. En nevera, 3–4 días; agitar antes de usar.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-tramussos-altramuces",
+   "tab": "productos",
+   "name": "Tramussos (altramuces)",
+   "group": "Legumbres y semillas",
+   "tag": "España / Comunidad Valenciana",
+   "yield": "1 kg",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Altramuz seco"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Sal (para la salmuera)"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua (para la salmuera)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar los altramuces 24 h en agua abundante.",
+      "Cocerlos 1 h en agua nueva.",
+      "Desamargar en agua fría, cambiándola 2 veces al día, durante 5–10 días.",
+      "Probar uno cada día: no pasar a la salmuera hasta que no amargue nada.",
+      "Guardar en nevera en salmuera al 4 %."
+     ]
+    }
+   ],
+   "notes": "El amargor son alcaloides tóxicos: la AESAN avisa de intoxicaciones por altramuces mal desamargados. Si amargan, no comerlos y seguir cambiando el agua.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-garbanzos-tostados",
+   "tab": "productos",
+   "name": "Garbanzos tostados",
+   "group": "Legumbres y semillas",
+   "tag": "España",
+   "yield": "300 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Garbanzo cocido y escurrido"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Aceite de oliva"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimentón o comino (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Secar muy bien los garbanzos con un paño y quitar las pieles sueltas.",
+      "Mezclar con el aceite y la sal.",
+      "Hornear extendidos a 200 ºC 30–40 min, moviendo cada 10 min, hasta que estén crujientes.",
+      "Especiar al sacar y dejar enfriar en la bandeja."
+     ]
+    }
+   ],
+   "notes": "Versión casera de los «torraos». Tierno por dentro = falta horno. En tarro cerrado, 1 semana.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-anko-pasta-de-judia-roja",
+   "tab": "productos",
+   "name": "Anko (pasta de judía roja)",
+   "group": "Legumbres y semillas",
+   "tag": "Japón",
+   "yield": "600 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Judía azuki"
+      },
+      {
+       "q": "220",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar las azuki, cubrir con agua, hervir 5 min y desechar el agua (quita el amargor).",
+      "Cubrir con agua nueva y cocer a fuego suave 1–1 h 30 min, añadiendo agua si hace falta, hasta que se aplasten entre los dedos.",
+      "Escurrir casi toda el agua.",
+      "Añadir el azúcar en dos veces y la sal y cocer removiendo hasta que espese como un puré firme.",
+      "Enfriar extendida para que no siga cociéndose."
+     ]
+    }
+   ],
+   "notes": "Tsubuan (con grano). Para koshian (fina), pasar las judías por un colador antes del azúcar. Rellena dorayaki y mochi. En nevera, 1 semana; se congela.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-gomasio",
+   "tab": "productos",
+   "name": "Gomasio",
+   "group": "Legumbres y semillas",
+   "tag": "Japón",
+   "yield": "1 tarro de 150 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Sésamo"
+      },
+      {
+       "q": "12",
+       "u": "g",
+       "n": "Sal marina gorda"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Tostar la sal en sartén seca 2 min y molerla fina en mortero (suribachi).",
+      "Tostar el sésamo a fuego medio, removiendo, hasta que se infle y huela, sin oscurecer.",
+      "Añadirlo caliente al mortero y moler a medias: la mitad de los granos rotos.",
+      "Enfriar y guardar en tarro."
+     ]
+    }
+   ],
+   "notes": "Proporción tradicional entre 10:1 y 15:1 de sésamo y sal. Para arroz, verduras y sopas. En tarro cerrado, 1 mes.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-dukkah",
+   "tab": "productos",
+   "name": "Dukkah",
+   "group": "Legumbres y semillas",
+   "tag": "Egipto",
+   "yield": "1 tarro de 200 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Avellana"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Sésamo"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Cilantro en grano"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Comino en grano"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimienta negra en grano"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Tostar las avellanas a 180 ºC 8–10 min, frotarlas para quitar la piel y picarlas groseramente.",
+      "Tostar el sésamo en sartén hasta dorar.",
+      "Tostar cilantro, comino y pimienta 1 min y molerlos en mortero.",
+      "Mezclar todo con la sal: debe quedar granulado, no en polvo."
+     ]
+    }
+   ],
+   "notes": "Se come mojando pan en aceite y luego en el dukkah. En tarro cerrado, 1 mes.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-za-atar",
+   "tab": "productos",
+   "name": "Za'atar",
+   "group": "Legumbres y semillas",
+   "tag": "Líbano",
+   "yield": "1 tarro de 100 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "cda",
+       "n": "Tomillo seco (o hoja de za'atar, orégano sirio)"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Zumaque"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Sésamo tostado"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Desmenuzar el tomillo entre los dedos o en mortero.",
+      "Mezclar con el zumaque, el sésamo y la sal."
+     ]
+    }
+   ],
+   "notes": "Para manakish, labneh, huevos o pan con aceite. Las proporciones varían por casa y país (Palestina, Siria, Jordania).",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-granola",
+   "tab": "productos",
+   "name": "Granola",
+   "group": "Legumbres y semillas",
+   "tag": "Estados Unidos",
+   "yield": "600 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Copos de avena"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Frutos secos picados"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Pipas (girasol o calabaza)"
+      },
+      {
+       "q": "80",
+       "u": "ml",
+       "n": "Miel o sirope de arce"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite neutro"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Canela"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar los secos.",
+      "Calentar la miel con el aceite y verter sobre los secos, mezclando bien.",
+      "Extender en una bandeja con papel, apretando un poco.",
+      "Hornear a 160 ºC 25–30 min, removiendo a mitad, hasta que esté dorada.",
+      "Enfriar sin tocar en la bandeja para que forme grumos.",
+      "Añadir fruta seca, si se quiere, ya fría."
+     ]
+    }
+   ],
+   "notes": "En tarro cerrado, 2–3 semanas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-brotes-de-soja-judia-mungo",
+   "tab": "productos",
+   "name": "Brotes de soja (judía mungo)",
+   "group": "Legumbres y semillas",
+   "tag": "China",
+   "yield": "400 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Judía mungo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar y remojar las judías 8–12 h en agua fría.",
+      "Escurrir y ponerlas en un germinador o un tarro con gasa, inclinado, a oscuras.",
+      "Aclarar con agua fría 2–3 veces al día y escurrir bien cada vez.",
+      "Cosechar a los 3–5 días, cuando midan 3–5 cm.",
+      "Quitar las pieles flotando en agua y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Los germinados crecen en condiciones que también favorecen bacterias: la AESAN y la EFSA recomiendan cocinarlos antes de comerlos. Salteados 1–2 min bastan. En nevera, 2–3 días.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-almendras-fritas",
+   "tab": "productos",
+   "name": "Almendras fritas",
+   "group": "Legumbres y semillas",
+   "tag": "España",
+   "yield": "250 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Almendra marcona pelada"
+      },
+      {
+       "q": "200",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal fina"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar el aceite a 160 ºC.",
+      "Freír las almendras 3–5 min, removiendo, hasta que tomen color dorado claro.",
+      "Sacar a papel de cocina y salar enseguida.",
+      "Dejar enfriar: terminan de tostarse y quedan crujientes."
+     ]
+    }
+   ],
+   "notes": "Sacarlas un punto antes de lo que parece: se oscurecen al enfriar. En tarro cerrado, 2 semanas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-pipas-de-girasol-tostadas",
+   "tab": "productos",
+   "name": "Pipas de girasol tostadas",
+   "group": "Legumbres y semillas",
+   "tag": "España",
+   "yield": "250 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Pipa de girasol cruda, con cáscara"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Disolver la sal en el agua y remojar las pipas 6–8 h.",
+      "Escurrir y extender en una bandeja sin secar del todo.",
+      "Hornear a 160 ºC 30–40 min, removiendo cada 10 min, hasta que estén crujientes y la cáscara seca.",
+      "Enfriar en la bandeja."
+     ]
+    }
+   ],
+   "notes": "La salmuera mete la sal dentro de la cáscara, como las de bolsa. En tarro cerrado, 1 mes.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-crackers-de-semillas-froknacke",
+   "tab": "productos",
+   "name": "Crackers de semillas (fröknäcke)",
+   "group": "Legumbres y semillas",
+   "tag": "Suecia",
+   "yield": "1 bandeja",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Sésamo"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Pipas de girasol"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Pipas de calabaza"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Linaza"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Harina de maíz (o de almendra)"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Aceite neutro"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Agua hirviendo"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar las semillas, la harina y la sal.",
+      "Añadir el aceite y el agua hirviendo y mezclar: la linaza la espesa en unos minutos.",
+      "Extender muy fina entre dos papeles con rodillo.",
+      "Retirar el papel de arriba y marcar con cuchillo las porciones.",
+      "Hornear a 150 ºC 1 h, hasta que esté seca y dorada; dejar enfriar en el horno abierto.",
+      "Partir por las marcas."
+     ]
+    }
+   ],
+   "notes": "Clásico sueco sin gluten. En lata cerrada, 2–3 semanas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-bircher-muesli",
+   "tab": "productos",
+   "name": "Bircher muesli",
+   "group": "Legumbres y semillas",
+   "tag": "Suiza",
+   "yield": "2 raciones",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Copos de avena"
+      },
+      {
+       "q": "120",
+       "u": "ml",
+       "n": "Agua (o leche)"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Leche condensada (o yogur y miel)"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Manzana"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Avellana picada"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar la avena en el agua 12 h (o toda la noche) en nevera.",
+      "Mezclar el zumo de limón con la leche condensada.",
+      "Rallar las manzanas con piel justo antes de servir e incorporarlas al momento a la mezcla de limón para que no se oxiden.",
+      "Juntar con la avena y servir con las avellanas por encima."
+     ]
+    }
+   ],
+   "notes": "Lo creó el médico Maximilian Bircher-Benner hacia 1900 en su sanatorio de Zúrich. En su receta original, la manzana pesa mucho más que la avena.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-gofio",
+   "tab": "productos",
+   "name": "Gofio",
+   "group": "Legumbres y semillas",
+   "tag": "España / Canarias",
+   "yield": "450 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Maíz seco (millo)"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Tostar el millo en una sartén grande o tostador, a fuego medio, removiendo sin parar, 15–20 min, hasta que esté dorado y algunos granos revienten.",
+      "Enfriar por completo.",
+      "Moler en un molino de cereales hasta harina muy fina.",
+      "Tamizar y añadir la sal si se quiere."
+     ]
+    }
+   ],
+   "notes": "Tradicional de molino de piedra; protegido como «Gofio Canario» (IGP). También se hace de trigo, cebada o mezcla. Para escaldón, con leche o amasado con plátano. En tarro cerrado, 2–3 meses.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-aceite-de-ajo",
+   "tab": "productos",
+   "name": "Aceite de ajo",
+   "group": "Aceites, infusiones y derivados",
+   "tag": "",
+   "yield": "500 ml",
+   "parts": [
+    {
+     "name": "Acidificar el ajo",
+     "ings": [
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Ajo pelado, picado en trozos de 6 mm como máximo"
+      },
+      {
+       "q": "300",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "9",
+       "u": "g",
+       "n": "Ácido cítrico"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Disolver el ácido cítrico en el agua (solución al 3 %).",
+      "Cubrir el ajo con la solución (1 parte de ajo por 3 de solución, en peso) y ponerle un peso para que quede sumergido.",
+      "Dejar 24 h a temperatura ambiente.",
+      "Escurrir y desechar la solución."
+     ]
+    },
+    {
+     "name": "Aceite",
+     "ings": [
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      }
+     ],
+     "steps": [
+      "Poner el ajo acidificado en una botella limpia y cubrir con el aceite.",
+      "Infusionar 1 semana en nevera y colar."
+     ]
+    }
+   ],
+   "notes": "Método de acidificación con ácido cítrico de las extensiones universitarias de EE. UU. (Clemson, Penn State, Washington State/PNW664): es el único probado; no sirven limón ni vinagre, y no se puede acortar el remojo. Así aguanta mucho más: mejor en nevera por calidad. Sin acidificar (ajo crudo en aceite, sin más), solo 4 días en nevera o congelar: riesgo de botulismo.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-aceite-de-romero",
+   "tab": "productos",
+   "name": "Aceite de romero",
+   "group": "Aceites, infusiones y derivados",
+   "tag": "",
+   "yield": "500 ml",
+   "parts": [
+    {
+     "name": "Acidificar el romero",
+     "ings": [
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Romero fresco (ramas con hojas)"
+      },
+      {
+       "q": "300",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "9",
+       "u": "g",
+       "n": "Ácido cítrico"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Disolver el ácido cítrico en el agua (3 %).",
+      "Sumergir el romero (1 parte por 10 de solución, en peso) con un peso encima.",
+      "Dejar 24 h a temperatura ambiente.",
+      "Escurrir y secar con papel."
+     ]
+    },
+    {
+     "name": "Aceite",
+     "ings": [
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      }
+     ],
+     "steps": [
+      "Poner el romero en una botella limpia y cubrir con el aceite.",
+      "Infusionar 1–2 semanas en nevera y colar."
+     ]
+    }
+   ],
+   "notes": "Método de acidificación con ácido cítrico de las extensiones universitarias de EE. UU. (Clemson, Penn State, Washington State/PNW664): es el único probado; no sirven limón ni vinagre, y no se puede acortar el remojo. Vale igual para albahaca y orégano frescos; no para otras hierbas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-aceite-verde-de-albahaca",
+   "tab": "productos",
+   "name": "Aceite verde de albahaca",
+   "group": "Aceites, infusiones y derivados",
+   "tag": "Italia",
+   "yield": "200 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Hojas de albahaca"
+      },
+      {
+       "q": "200",
+       "u": "ml",
+       "n": "Aceite de oliva suave (o de girasol)"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua con hielo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Escaldar las hojas 10 s en agua hirviendo y pasar enseguida al agua con hielo.",
+      "Escurrir y secar muy bien apretando en un paño.",
+      "Triturar con el aceite 2 min, hasta que esté templado y muy verde.",
+      "Colar por un paño o filtro de café sin apretar, en nevera.",
+      "Guardar en un bote de plástico con dosificador."
+     ]
+    }
+   ],
+   "notes": "Aceite de acabado, para dar color y aroma. Hierba fresca en aceite: 4 días en nevera (Oregon State) o congelar en cubitos.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-aceite-de-guindilla",
+   "tab": "productos",
+   "name": "Aceite de guindilla",
+   "group": "Aceites, infusiones y derivados",
+   "tag": "",
+   "yield": "250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Aceite de oliva o girasol"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Guindilla seca en escamas"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimienta de Sichuan (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Poner las escamas en un bote resistente al calor.",
+      "Calentar el aceite (con la pimienta de Sichuan, si se usa) a 120 ºC.",
+      "Verterlo sobre la guindilla.",
+      "Enfriar y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Con guindilla seca, sin ajo. Las guías no coinciden: Oregon State pide 4 días en nevera también con ingredientes secos, mientras que Penn State da hasta 3 meses en nevera para hierbas secas. Lo prudente es hacer poco y guardarlo en nevera.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-vinagre-de-frambuesa",
+   "tab": "productos",
+   "name": "Vinagre de frambuesa",
+   "group": "Aceites, infusiones y derivados",
+   "tag": "Francia",
+   "yield": "750 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Frambuesa (2 tazas)"
+      },
+      {
+       "q": "700",
+       "u": "ml",
+       "n": "Vinagre de vino blanco o de sidra (5 % acidez)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar las frambuesas, escurrirlas y chafarlas un poco en un tarro esterilizado.",
+      "Calentar el vinagre a 88–90 ºC, sin que hierva.",
+      "Verterlo sobre la fruta dejando 6 mm libres y cerrar.",
+      "Macerar 3–4 semanas en lugar fresco y oscuro, probando de vez en cuando.",
+      "Colar por un filtro de café o una gasa húmeda y embotellar en botellas esterilizadas."
+     ]
+    }
+   ],
+   "notes": "Fuente: University of Maine Cooperative Extension, «Let's Preserve: Herbal Vinegar» (2 tazas de frambuesa por 3 de vinagre). En nevera, 3 meses; para guardar en despensa, esterilizar botes de 500 ml 10 min al baño maría.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-vinagre-de-estragon",
+   "tab": "productos",
+   "name": "Vinagre de estragón",
+   "group": "Aceites, infusiones y derivados",
+   "tag": "Francia",
+   "yield": "500 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Rama de estragón fresco"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Vinagre de vino blanco (5 % acidez)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar el estragón, secarlo y meter las ramas en una botella esterilizada.",
+      "Calentar el vinagre a 88–90 ºC, sin que hierva, y verterlo dejando 6 mm libres.",
+      "Cerrar y macerar 3–4 semanas en lugar fresco y oscuro.",
+      "Colar y embotellar de nuevo con una rama fresca si se quiere."
+     ]
+    }
+   ],
+   "notes": "Fuente: University of Maine Cooperative Extension: 2–3 ramas por cada 500 ml, o 3 cda de hierba seca. El de la salsa bearnesa. En nevera, 3 meses; o esterilizar 10 min al baño maría.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-extracto-de-vainilla",
+   "tab": "productos",
+   "name": "Extracto de vainilla",
+   "group": "Aceites, infusiones y derivados",
+   "tag": "",
+   "yield": "250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "25",
+       "u": "g",
+       "n": "Vaina de vainilla (5–6 vainas)"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Vodka o ron blanco (40 % alcohol)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Abrir las vainas a lo largo y cortarlas en trozos.",
+      "Meterlas en una botella de cristal y cubrir con el alcohol.",
+      "Cerrar y guardar en lugar oscuro, agitando una vez por semana.",
+      "Esperar al menos 2 meses (mejor 6) antes de usar.",
+      "Ir rellenando con alcohol a medida que se gasta."
+     ]
+    }
+   ],
+   "notes": "Proporción similar a la que fija la norma estadounidense (FDA) para el extracto «de un pliegue»: unos 100 g de vainilla por litro. Dura años.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-masala-chai",
+   "tab": "productos",
+   "name": "Masala chai",
+   "group": "Aceites, infusiones y derivados",
+   "tag": "India",
+   "yield": "4 tazas",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Leche entera"
+      },
+      {
+       "q": "4",
+       "u": "cdta",
+       "n": "Té negro en hebras (assam)"
+      },
+      {
+       "q": "3",
+       "u": "cm",
+       "n": "Jengibre fresco machacado"
+      },
+      {
+       "q": "5",
+       "u": "ud.",
+       "n": "Cardamomo verde abierto"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Clavo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Pimienta negra en grano"
+      },
+      {
+       "q": "3",
+       "u": "cda",
+       "n": "Azúcar"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Machacar ligeramente el cardamomo, el clavo y la pimienta.",
+      "Hervir el agua con las especias y el jengibre 5 min.",
+      "Añadir el té y hervir 2 min.",
+      "Añadir la leche y el azúcar y llevar a ebullición; dejar que suba dos veces.",
+      "Colar y servir."
+     ]
+    }
+   ],
+   "notes": "Cada casa y cada puesto de chaiwala tiene su mezcla.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-te-moruno",
+   "tab": "productos",
+   "name": "Té moruno",
+   "group": "Aceites, infusiones y derivados",
+   "tag": "Marruecos",
+   "yield": "1 tetera (6 vasos)",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Té verde gunpowder"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Manojo grande de hierbabuena"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "750",
+       "u": "ml",
+       "n": "Agua hirviendo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Poner el té en la tetera, añadir un vaso de agua hirviendo, mover y tirar el agua (lava el té y quita amargor).",
+      "Añadir la hierbabuena, el azúcar y el resto del agua.",
+      "Dejar 3–5 min al fuego mínimo sin que hierva.",
+      "Servir un vaso y devolverlo a la tetera dos o tres veces para mezclar.",
+      "Servir desde lo alto para que haga espuma."
+     ]
+    }
+   ],
+   "notes": "Ataï. Parte de su ceremonia de hospitalidad.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-agua-de-jamaica",
+   "tab": "productos",
+   "name": "Agua de jamaica",
+   "group": "Aceites, infusiones y derivados",
+   "tag": "México",
+   "yield": "2 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Flor de jamaica (hibisco) seca"
+      },
+      {
+       "q": "2",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "120",
+       "u": "g",
+       "n": "Azúcar"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Enjuagar la flor.",
+      "Hervir en 500 ml de agua 5 min y dejar reposar 15 min.",
+      "Colar apretando.",
+      "Añadir el azúcar, disolver y completar con el resto del agua fría.",
+      "Servir con hielo."
+     ]
+    }
+   ],
+   "notes": "Una de las «aguas frescas» mexicanas. La flor se puede hervir una segunda vez. En nevera, 3–4 días.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-cafe-de-olla",
+   "tab": "productos",
+   "name": "Café de olla",
+   "group": "Aceites, infusiones y derivados",
+   "tag": "México",
+   "yield": "4 tazas",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Piloncillo (o panela)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "4",
+       "u": "cda",
+       "n": "Café molido grueso"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Clavo (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hervir el agua con el piloncillo, la canela y el clavo hasta que se disuelva.",
+      "Apagar, añadir el café y remover.",
+      "Tapar y dejar reposar 5 min.",
+      "Colar y servir."
+     ]
+    }
+   ],
+   "notes": "Tradicionalmente en olla de barro, que le da sabor.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-mate",
+   "tab": "productos",
+   "name": "Mate",
+   "group": "Aceites, infusiones y derivados",
+   "tag": "Argentina",
+   "yield": "1 mate",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Yerba mate (hasta ⅔ del recipiente)"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Agua a 70–80 ºC (en termo)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Llenar el mate con yerba hasta ⅔.",
+      "Taparlo con la mano, invertirlo y agitar para que el polvo suba; volver a ponerlo inclinado para que la yerba quede en montaña a un lado.",
+      "Echar un chorrito de agua tibia en el hueco y dejar que la absorba.",
+      "Meter la bombilla en el hueco, tapando la boca con el dedo, hasta el fondo.",
+      "Cebar con agua a 70–80 ºC, siempre en el mismo sitio.",
+      "Ir cebando y pasando: quien ceba da el mate y lo recibe vacío."
+     ]
+    }
+   ],
+   "notes": "El agua hirviendo quema la yerba y amarga («lava» el mate). Igual de propio de Uruguay, Paraguay y el sur de Brasil.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-leche-dorada",
+   "tab": "productos",
+   "name": "Leche dorada",
+   "group": "Aceites, infusiones y derivados",
+   "tag": "India",
+   "yield": "2 tazas",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Leche (o bebida vegetal)"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Cúrcuma molida"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Canela molida"
+      },
+      {
+       "q": "1",
+       "u": "cm",
+       "n": "Jengibre fresco rallado"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Pimienta negra"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Miel"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar la leche con la cúrcuma, la canela, el jengibre y la pimienta, batiendo.",
+      "Cocer a fuego suave 5 min, sin que hierva fuerte.",
+      "Colar, endulzar con la miel fuera del fuego y servir."
+     ]
+    }
+   ],
+   "notes": "Haldi doodh, bebida casera tradicional de la India.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-mugicha-te-de-cebada",
+   "tab": "productos",
+   "name": "Mugicha (té de cebada)",
+   "group": "Aceites, infusiones y derivados",
+   "tag": "Japón",
+   "yield": "1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Cebada tostada en grano"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua fría"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Meter la cebada en una jarra con el agua fría (o en bolsita).",
+      "Dejar en nevera 2–3 h.",
+      "Colar y servir muy frío."
+     ]
+    }
+   ],
+   "notes": "El té frío del verano japonés; no lleva cafeína. También se hierve 5 min y se enfría. En nevera, 2 días.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-matcha",
+   "tab": "productos",
+   "name": "Matcha",
+   "group": "Aceites, infusiones y derivados",
+   "tag": "Japón",
+   "yield": "1 cuenco",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "g",
+       "n": "Matcha (2 cucharillas chashaku)"
+      },
+      {
+       "q": "70",
+       "u": "ml",
+       "n": "Agua a 80 ºC"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar el cuenco con agua caliente, tirarla y secarlo.",
+      "Tamizar el matcha en el cuenco.",
+      "Añadir un poco del agua y deshacer con el batidor (chasen) hasta tener una pasta.",
+      "Añadir el resto del agua y batir rápido en zigzag («M» o «W»), sin tocar el fondo, 15–20 s, hasta tener espuma fina.",
+      "Tomar enseguida."
+     ]
+    }
+   ],
+   "notes": "Usucha (ligero). El koicha (espeso) lleva el doble de matcha y la mitad de agua y se amasa sin espuma.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-cold-brew",
+   "tab": "productos",
+   "name": "Cold brew",
+   "group": "Aceites, infusiones y derivados",
+   "tag": "Estados Unidos",
+   "yield": "1 l de concentrado",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "125",
+       "u": "g",
+       "n": "Café molido grueso"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua fría"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar el café y el agua en una jarra, asegurando que todo el café se moja.",
+      "Tapar y dejar 12–18 h en nevera.",
+      "Colar por un colador fino y después por filtro de papel.",
+      "Servir mezclado a partes iguales con agua o leche y hielo."
+     ]
+    }
+   ],
+   "notes": "Proporción 1:8 para concentrado. Menos ácido que el café caliente. En nevera, 1 semana.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-cordial-de-flor-de-sauco",
+   "tab": "productos",
+   "name": "Cordial de flor de saúco",
+   "group": "Aceites, infusiones y derivados",
+   "tag": "Reino Unido",
+   "yield": "1,5 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "20",
+       "u": "ud.",
+       "n": "Umbela de flor de saúco"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Azúcar"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Limón (ralladura y rodajas)"
+      },
+      {
+       "q": "25",
+       "u": "g",
+       "n": "Ácido cítrico"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Sacudir las flores (no lavarlas) y quitar los tallos gruesos.",
+      "Hervir el agua con el azúcar hasta disolverlo.",
+      "Añadir el ácido cítrico, la ralladura, las rodajas de limón y las flores.",
+      "Tapar y dejar macerar 24–48 h en lugar fresco.",
+      "Colar por un paño y embotellar en botellas esterilizadas.",
+      "Diluir 1 parte por 5–10 de agua o agua con gas."
+     ]
+    }
+   ],
+   "notes": "Las flores se cogen en mayo-junio, recién abiertas y en día seco. Solo la flor y la baya madura cocida son comestibles; tallos y hojas son tóxicos. En nevera, 1 mes; se congela en cubitos.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-limoncello",
+   "tab": "productos",
+   "name": "Limoncello",
+   "group": "Aceites, infusiones y derivados",
+   "tag": "Italia / Campania",
+   "yield": "1,2 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "8",
+       "u": "ud.",
+       "n": "Limón sin tratar (solo la piel amarilla)"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Alcohol de uso alimentario (95–96 %)"
+      },
+      {
+       "q": "600",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Azúcar"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Pelar los limones solo la parte amarilla, sin nada de blanco.",
+      "Macerar las pieles en el alcohol 7–10 días, en lugar oscuro, agitando a diario.",
+      "Hervir el agua con el azúcar hasta disolverlo y enfriar.",
+      "Colar el alcohol y mezclarlo con el almíbar frío.",
+      "Embotellar y reposar 1–2 semanas antes de tomar.",
+      "Servir helado, del congelador."
+     ]
+    }
+   ],
+   "notes": "Típico de la costa amalfitana y Sorrento, con el limón de Sorrento (IGP). Usar alcohol etiquetado para uso alimentario, nunca el de farmacia.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-pacharan",
+   "tab": "productos",
+   "name": "Pacharán",
+   "group": "Aceites, infusiones y derivados",
+   "tag": "España / Navarra",
+   "yield": "1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Endrina madura"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Anís (40 % alcohol)"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Grano de café (opcional)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar y secar las endrinas y quitarles el rabito. Pincharlas o no, según se quiera más rápido.",
+      "Meterlas en una botella de boca ancha con el café y la canela.",
+      "Cubrir con el anís y cerrar.",
+      "Macerar 3–6 meses en lugar oscuro, agitando de vez en cuando, hasta que tome color rojo intenso.",
+      "Colar y embotellar."
+     ]
+    }
+   ],
+   "notes": "La IG Pacharán Navarro exige entre 125 y 250 g de endrinas por litro y maceración en anís. Las endrinas se recogen en otoño, tras las primeras heladas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-productos-herbero",
+   "tab": "productos",
+   "name": "Herbero",
+   "group": "Aceites, infusiones y derivados",
+   "tag": "España / Comunidad Valenciana",
+   "yield": "1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Anís seco (o mitad seco, mitad dulce)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de manzanilla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de té de roca"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de poleo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de hierbaluisa"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de salvia"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de tomillo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de rabo de gato"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de hinojo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de romero"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Recoger o comprar las hierbas secas y limpias.",
+      "Meterlas en una botella de boca ancha.",
+      "Cubrir con el anís y cerrar.",
+      "Macerar 1–2 meses en lugar oscuro, agitando de vez en cuando.",
+      "Colar si se quiere un sabor estable, o dejarlas dentro (se va haciendo más intenso)."
+     ]
+    }
+   ],
+   "notes": "Licor de hierbas de la Sierra de Mariola, con indicación geográfica «Herbero de la Sierra de Mariola». Cada familia tiene su mezcla (las tradicionales llevan hasta veinte hierbas). Recolectar solo hierbas que se conozcan bien.",
    "done": false,
    "pesce": false
   }
