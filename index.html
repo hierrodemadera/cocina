@@ -636,7 +636,7 @@ Reglas:
 - "ings": "q" solo el número (400, 2, ½, 1,5), "u" la unidad (g, kg, ml, l, ud., cda., cdta., pizca…), "n" el ingrediente con mayúscula inicial. Cantidad suficiente: "q": "", "u": "C/S". Unidades métricas siempre que se pueda.
 - "steps": pasos cortos, en infinitivo (pelar, cortar, saltear, marcar, reducir, rectificar…), con vocabulario técnico de cocina (brunoise, mirepoix, a la inglesa, napar…). El primero siempre "Mise en place de géneros y útiles.". Temperaturas y tiempos cuando importen. Sin numerar.
 - "notes": observaciones útiles; si no hay, "".
-- "pesce": true si la receta es pescetariana tal como está escrita: sin carne de ningún tipo (tampoco jamón, embutido, panceta, manteca de cerdo, sebo ni caldos de carne o pollo). Pescado, marisco, huevo y lácteos sí están permitidos. Si lleva algo de carne, false.
+- "pesce": siempre false en los dulces. En lo salado, true si la receta es pescetariana tal como está escrita: sin carne de ningún tipo (tampoco jamón, embutido, panceta, manteca de cerdo, sebo ni caldos de carne o pollo). Pescado, marisco, huevo y lácteos sí están permitidos. Si lleva algo de carne, false.
 - Nada de emplatado, boceto, alérgenos, costes ni calorías.
 - Español de España. Sin emojis.
 - El apartado "pantry" (mi despensa) déjalo exactamente como está, salvo que te pida cambiarlo.`;
@@ -842,7 +842,8 @@ function updateHeaderIcons(){
 /* grupos como segunda fila de navegación */
 function curGroup(){ const g = ui.group[ui.tab] || ''; return (GROUPS[ui.tab]||[]).includes(g) ? g : ''; }
 function isPesceView(){ return ui.tab === 'pesce'; }
-function recList(){ return data.recipes.filter(r=> r.tab === 'recetas' && (!isPesceView() || r.pesce)); }
+function isPesce(r){ return !!r.pesce && r.tab === 'recetas' && r.group !== 'Dulce'; }
+function recList(){ return data.recipes.filter(r=> r.tab === 'recetas' && (!isPesceView() || isPesce(r))); }
 /* si solo hay un país, se entra directamente en él */
 function curCountry(){
   const cs = countriesOf(recList()), r = ui.region || '';
@@ -1088,7 +1089,7 @@ function renderSearch(main){
 function cardInner(r, where){
   const sub = [where, inWeek(r.id) ? '<span class="wk">semana</span>' : ''].join('');
   return `<div class="rcard${r.done?' done':''}" data-id="${r.id}">
-    <button class="open"><span class="n">${esc(r.name)}${r.pesce && !isPesceView() ? `<span class="pz" title="Pescetariana"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19c0-8 5-14 15-14 0 10-6 15-14 15"/><path d="M5 19c3-4 6-7 10-9"/></svg></span>` : ''}</span><span class="sub">${sub}</span></button>
+    <button class="open"><span class="n">${esc(r.name)}${isPesce(r) && !isPesceView() ? `<span class="pz" title="Pescetariana"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19c0-8 5-14 15-14 0 10-6 15-14 15"/><path d="M5 19c3-4 6-7 10-9"/></svg></span>` : ''}</span><span class="sub">${sub}</span></button>
     ${hasContent(r) ? '<span class="dot" title="tiene receta"></span>' : ''}
     <button class="chk${r.done?' on':''}" aria-label="Hecha"><i></i></button>
   </div>`;
@@ -1299,7 +1300,7 @@ function partsHTML(r){
 }
 function readHTML(r){
   const shown = shownParts(r);
-  const meta = r.group || r.tag || r.pesce;
+  const meta = r.group || r.tag || isPesce(r);
   return `<div class="sh-head">
       <button class="x" data-act="close" aria-label="Cerrar">✕</button>
       <h2>${esc(r.name)}</h2>
@@ -1310,7 +1311,7 @@ function readHTML(r){
         <button class="pill${r.done?' on':''}" data-act="done">${r.done?'✓ hecha':'marcar hecha'}</button>
         <button class="pill wkp${inWeek(r.id)?' on':''}" data-act="week">${inWeek(r.id)?'✓ en la semana':'+ semana'}</button>
       </div>
-      ${meta?`<div class="meta-line">${r.group?`<span class="gp" style="--gc:${gc(r.group)}">${esc(r.group)}</span>`:''}${r.tag?` <span class="gp" style="--gc:${tc(leafTag(r.tag))};margin-left:6px;">${esc(tagLabel(r.tag))}</span>`:''}${r.pesce?` <span class="gp" style="--gc:#e6f6ea;color:#2f9e44;margin-left:6px;">Pescetariana</span>`:''}</div>`:''}
+      ${meta?`<div class="meta-line">${r.group?`<span class="gp" style="--gc:${gc(r.group)}">${esc(r.group)}</span>`:''}${r.tag?` <span class="gp" style="--gc:${tc(leafTag(r.tag))};margin-left:6px;">${esc(tagLabel(r.tag))}</span>`:''}${isPesce(r)?` <span class="gp" style="--gc:#e6f6ea;color:#2f9e44;margin-left:6px;">Pescetariana</span>`:''}</div>`:''}
       ${(r.yield || anyNumeric(r)) && hasContent(r) ? `<div class="ficha-top"><span class="lb">Raciones</span>${anyNumeric(r) ? scalerHTML(r, fichaTarget, 'data-fsc') : `<span>${esc(r.yield)}</span>`}</div>` : ''}
       ${shown.length > 1 ? `<div class="compo"><span class="lbl">Composición</span><ol>${shown.map((p,i)=> `<li><button data-goto="${i}">${esc(p.name || 'Elaboración ' + (i+1))}</button></li>`).join('')}</ol></div>` : ''}
       <div id="f-parts">${partsHTML(r)}</div>
@@ -1332,7 +1333,7 @@ function editHTML(r){
         <div class="seg">${TABS.map(t=> `<button data-tabset="${t.id}" class="${r.tab===t.id?'on':''}">${t.label}</button>`).join('')}</div></div>
       <div class="f"><span class="lb">Grupo</span>
         <div class="chips">${GROUPS[r.tab].map(g=> `<button class="chip${r.group===g?' on':''}" data-groupset="${esc(g)}"><span class="gdot" style="--gc:${gc(g)}"></span>${esc(g)}</button>`).join('')}</div></div>
-      ${r.tab === 'recetas' ? `<div class="f"><span class="lb">Pescetariana (sin carne)</span>
+      ${r.tab === 'recetas' && r.group !== 'Dulce' ? `<div class="f" id="pesce-f"><span class="lb">Pescetariana (sin carne)</span>
         <div class="pseg"><button data-pesce="1" class="${r.pesce?'on':''}">Sí</button><button data-pesce="0" class="${!r.pesce?'on':''}">No</button></div></div>` : ''}
       <div class="row2">
         <div class="f"><label>País</label><input class="in" data-tagc value="${esc(splitTag(r.tag).c)}" list="countries-dl" placeholder="España, Perú… (opcional)" autocomplete="off"></div>
@@ -1413,6 +1414,8 @@ function mountFicha(sh, r){
     const gs = e.target.closest('[data-groupset]');
     if(gs){
       r.group = r.group === gs.dataset.groupset ? '' : gs.dataset.groupset;
+      if(r.group === 'Dulce'){ r.pesce = false; save(); drawFicha(sh, true); return; }
+      if(r.tab === 'recetas' && !sh.querySelector('#pesce-f')){ save(); drawFicha(sh, true); return; }
       sh.querySelectorAll('[data-groupset]').forEach(b=> b.classList.toggle('on', b.dataset.groupset === r.group));
       save(); return;
     }
@@ -1515,7 +1518,7 @@ function openNew(group, tag, pesce){
       const add = (open)=>{
         const name = inp.value.trim();
         if(!name){ shake(inp); inp.focus(); return; }
-        const r = { id: uid(), tab, name, group: newGroup, tag, yield:'', parts:[{name:'', ings:[], steps:''}], notes:'', done:false, pesce: !!pesce };
+        const r = { id: uid(), tab, name, group: newGroup, tag, yield:'', parts:[{name:'', ings:[], steps:''}], notes:'', done:false, pesce: !!pesce && newGroup !== 'Dulce' };
         data.recipes.push(r); save();
         if(open){ render(); openFicha(r.id, true); return; }
         inp.value = ''; inp.focus(); renderGroups(); renderMain(); toast(`Añadida: ${name}`);

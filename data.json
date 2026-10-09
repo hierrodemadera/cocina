@@ -3959,7 +3959,7 @@
    ],
    "notes": "En Asturias se sirve con costra de azúcar quemado.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-natillas",
@@ -4026,7 +4026,7 @@
    ],
    "notes": "Con las claras sobrantes: merengue o leche merengada.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-flan-de-huevo",
@@ -4092,7 +4092,7 @@
    ],
    "notes": "Si salen agujeros, el horno estaba demasiado fuerte.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-crema-catalana",
@@ -4154,7 +4154,7 @@
    ],
    "notes": "Tradicional del día de San José (19 de marzo).",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-leche-frita",
@@ -4245,7 +4245,7 @@
    ],
    "notes": "Se toma templada o fría.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-torrijas",
@@ -4317,7 +4317,7 @@
    ],
    "notes": "Variante: bañarlas en almíbar o miel en lugar de azúcar.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-tocino-de-cielo",
@@ -4387,7 +4387,7 @@
    ],
    "notes": "Nació en Jerez, con las yemas que sobraban de clarificar el vino con claras.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-cuajada-con-miel",
@@ -4433,7 +4433,7 @@
    ],
    "notes": "La temperatura es clave: si la leche está muy caliente no cuaja.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-leche-merengada",
@@ -4489,7 +4489,7 @@
    ],
    "notes": "Con las claras que sobran de natillas o crema catalana.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-gachas-dulces",
@@ -4555,7 +4555,7 @@
    ],
    "notes": "Típicas de Todos los Santos.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-bunuelos-de-viento",
@@ -4626,7 +4626,7 @@
    ],
    "notes": "Se pueden rellenar de crema pastelera o nata. Típicos de Todos los Santos.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-pestinos",
@@ -4704,7 +4704,7 @@
    ],
    "notes": "Típicos de Semana Santa y Navidad.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-roscos-fritos",
@@ -4776,7 +4776,7 @@
    ],
    "notes": "Se pueden aromatizar con un chorrito de anís.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-churros",
@@ -4827,7 +4827,7 @@
    ],
    "notes": "Acompañar con chocolate a la taza.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-flores-de-sarten",
@@ -4894,7 +4894,7 @@
    ],
    "notes": "Hace falta el molde de flor de hierro.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-orejas-de-carnaval",
@@ -4965,7 +4965,7 @@
    ],
    "notes": "Típicas del Entroido (carnaval).",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-filloas",
@@ -5026,7 +5026,7 @@
    ],
    "notes": "Típicas del Entroido; también salen saladas con caldo de cocido. Tradicionalmente se engrasa la sartén con tocino.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-frixuelos",
@@ -5092,7 +5092,7 @@
    ],
    "notes": "Pariente asturiano de la filloa gallega.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-bunuelos-de-calabaza",
@@ -5154,7 +5154,7 @@
    ],
    "notes": "Típicos de Fallas, con chocolate.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-rosquillas-de-san-isidro",
@@ -5238,7 +5238,7 @@
    ],
    "notes": "Sin baño son las «tontas»; con glaseado, las «listas». Típicas de San Isidro (15 de mayo).",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-casadielles",
@@ -5323,7 +5323,7 @@
    ],
    "notes": "Típicas de Antroxu (carnaval).",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-tarta-de-santiago",
@@ -5384,7 +5384,7 @@
    ],
    "notes": "Sin harina: apta para celíacos si la almendra es apta.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-bizcocho-de-yogur",
@@ -5446,7 +5446,7 @@
    ],
    "notes": "El vaso del yogur sirve de medida para todo.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-magdalenas",
@@ -5513,7 +5513,7 @@
    ],
    "notes": "El contraste de masa fría y horno fuerte hace el copete.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-bizcocho-borracho",
@@ -5590,7 +5590,7 @@
    ],
    "notes": "Típico de Guadalajara.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-tarta-de-queso-vasca",
@@ -5642,7 +5642,7 @@
    ],
    "notes": "Debe quedar cremosa por dentro: mejor pasarse de tostado que de cocción.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-quesada-pasiega",
@@ -5709,7 +5709,7 @@
    ],
    "notes": "Tradicionalmente con cuajada fresca de los valles pasiegos.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-sobaos-pasiegos",
@@ -5776,7 +5776,7 @@
    ],
    "notes": "Mejor al día siguiente, bien envueltos.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-ensaimada",
@@ -5912,7 +5912,7 @@
    ],
    "notes": "La merienda valenciana de toda la vida.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-fartons",
@@ -5997,7 +5997,7 @@
    ],
    "notes": "De Alboraia, para mojar en horchata.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-pan-de-calatrava",
@@ -6072,7 +6072,7 @@
    ],
    "notes": "Aprovechamiento de bollería del día anterior.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-brazo-de-gitano",
@@ -6156,7 +6156,7 @@
    ],
    "notes": "Admite relleno de nata o trufa.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-pastel-vasco",
@@ -6260,7 +6260,7 @@
    ],
    "notes": "Gâteau basque; en Iparralde también se rellena de cereza negra.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-carquinoles",
@@ -6323,7 +6323,7 @@
    ],
    "notes": "Para mojar en vino dulce o café.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-perrunillas",
@@ -6570,7 +6570,7 @@
    ],
    "notes": "Esconder la figura y el haba antes de hornear.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-panellets",
@@ -6627,7 +6627,7 @@
    ],
    "notes": "Típicos de Todos los Santos, con moscatel.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-mazapan-de-toledo",
@@ -6678,7 +6678,7 @@
    ],
    "notes": "Con IGP en Toledo. Mejor tras unos días de reposo.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-yemas-de-santa-teresa",
@@ -6735,7 +6735,7 @@
    ],
    "notes": "De Ávila. Con las claras: merengues o leche merengada.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-peras-al-vino",
@@ -6791,7 +6791,7 @@
    ],
    "notes": "Mejor de un día para otro, reposadas en el vino.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-manzanas-asadas",
@@ -6843,7 +6843,7 @@
    ],
    "notes": "La reineta aguanta bien el horno sin deshacerse.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-miguelitos-de-la-roda",
@@ -6914,7 +6914,7 @@
    ],
    "notes": "Con hojaldre comprado salen en una hora.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-tortas-de-aceite",
@@ -6986,7 +6986,7 @@
    ],
    "notes": "Las de Castilleja de la Cuesta (Sevilla) son las más conocidas.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-bienmesabe-canario",
@@ -7042,7 +7042,7 @@
    ],
    "notes": "Se toma solo, con helado de vainilla o sobre bizcocho.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-frangollo",
@@ -7114,7 +7114,7 @@
    ],
    "notes": "Se sirve con miel de palma.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-mel-i-mato",
@@ -7153,7 +7153,7 @@
    ],
    "notes": "Postre de los monasterios de Montserrat.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-sopa-de-almendras",
@@ -7215,7 +7215,7 @@
    ],
    "notes": "Postre tradicional de Nochebuena en Castilla.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-pan-de-higo",
@@ -7281,7 +7281,7 @@
    ],
    "notes": "Acompaña bien un queso curado.",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-nigiri-sushi",
@@ -8077,7 +8077,7 @@
    ],
    "notes": "Origen en el santuario de Shimogamo (Kioto). Si no hay dangoko, mezclar a partes iguales joshinko y shiratamako (harinas de arroz).",
    "done": false,
-   "pesce": true
+   "pesce": false
   },
   {
    "id": "r-recetas-sanuki-udon",
@@ -9194,7 +9194,7 @@
    ],
    "notes": "La miel da el color dorado característico. El anko también se vende ya hecho.",
    "done": false,
-   "pesce": true
+   "pesce": false
   }
  ]
 }
