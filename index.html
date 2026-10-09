@@ -57,7 +57,8 @@ body.boardmode main{padding-bottom:0;}
   box-shadow:var(--card-shadow);margin-bottom:8px;padding:4px 4px 4px 12px;min-height:46px;}
 .rcard .open{flex:1;min-width:0;text-align:left;padding:7px 0;}
 .rcard .n{display:block;font-size:15.5px;line-height:1.3;}
-.rcard .sub{display:flex;align-items:center;gap:6px;margin-top:3px;font-size:12.5px;color:var(--muted);}
+.rcard .sub{display:flex;align-items:center;flex-wrap:wrap;column-gap:6px;row-gap:1px;margin-top:3px;font-size:12.5px;color:var(--muted);}
+.rcard .sub > span{white-space:nowrap;}
 .rcard .sub:empty{display:none;}
 .rcard .chk{width:38px;height:38px;justify-content:center;}
 .rcard .chk i{width:21px;height:21px;}
@@ -296,9 +297,6 @@ button.ghead{padding:20px 0 6px;}
       <div class="space-sw" id="space-sw"><div><button data-space="recetario">Recetario</button><button data-space="despensa">Despensa</button></div></div>
       <button class="ib" id="search-btn" aria-label="Buscar">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
-      </button>
-      <button class="ib" id="region-btn" aria-label="Regiones" title="Regiones">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg>
       </button>
       <button class="ib" id="filter-btn" aria-label="Filtrar">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
@@ -784,14 +782,6 @@ function renderTabs(){
   const n = data.week.length;
   $('#tabs').innerHTML = TABS.map(t=> `<button class="tab${ui.tab===t.id?' on':''}" data-tab="${t.id}">${t.label}</button>`).join('');
 }
-$('#region-btn').addEventListener('click', ()=>{
-  if(ui.searching) closeSearch(true);
-  closePop();
-  if(ui.tab === 'regiones') ui.tab = ui.lastTab || 'recetas';
-  else { ui.lastTab = ui.tab; ui.tab = 'regiones'; }
-  saveUi(); render(); window.scrollTo(0,0);
-  const nb = $('#main .board'); if(nb) nb.scrollLeft = 0;
-});
 $('#tabs').addEventListener('click', e=>{
   const b = e.target.closest('.tab'); if(!b) return;
   if(b.dataset.ptab){
@@ -806,38 +796,42 @@ $('#tabs').addEventListener('click', e=>{
 });
 function updateHeaderIcons(){
   if(ui.space === 'despensa'){
-    $('#search-btn').style.display = 'none'; $('#filter-btn').style.display = 'none'; $('#region-btn').style.display = 'none';
+    $('#search-btn').style.display = 'none'; $('#filter-btn').style.display = 'none';
     $('#fab').classList.toggle('hide', ui.ptab === 'compra' || ui.ptab === 'semana');
     return;
   }
-  $('#search-btn').style.display = ''; $('#region-btn').style.display = '';
-  $('#region-btn').classList.toggle('on', ui.tab === 'regiones');
+  $('#search-btn').style.display = '';
   const isWeek = ui.tab === 'semana';
   $('#filter-btn').style.display = isWeek ? 'none' : '';
   $('#fab').classList.toggle('hide', isWeek || ui.tab === 'regiones' || ui.searching);
-  const active = !isWeek && ((ui.filter[ui.tab] || 'all') !== 'all' || !!ui.tagFilter[ui.tab]);
+  const active = !isWeek && ((ui.filter[ui.tab] || 'all') !== 'all' || !!ui.tagFilter[ui.tab] || (ui.tab === 'recetas' && !!ui.kind));
   $('#filter-btn').classList.toggle('on', active);
   $('#filter-btn .badge').style.display = active ? '' : 'none';
 }
 
 /* grupos como segunda fila de navegación */
 function curGroup(){ const g = ui.group[ui.tab] || ''; return (GROUPS[ui.tab]||[]).includes(g) ? g : ''; }
-function curCountry(){ const r = ui.region || ''; return countriesOf(data.recipes).find(c=> norm(c) === norm(r)) || ''; }
-function curSub(){ const c = curCountry(); if(!c) return ''; const r = ui.subregion || ''; return subsOf(data.recipes, c).find(x=> norm(x) === norm(r)) || ''; }
+function recList(){ return data.recipes.filter(r=> r.tab === 'recetas'); }
+/* si solo hay un país, se entra directamente en él */
+function curCountry(){
+  const cs = countriesOf(recList()), r = ui.region || '';
+  return cs.find(c=> norm(c) === norm(r)) || (cs.length === 1 ? cs[0] : '');
+}
+function curSub(){ const c = curCountry(); if(!c) return ''; const r = ui.subregion || ''; return subsOf(recList(), c).find(x=> norm(x) === norm(r)) || ''; }
 function renderGroups(){
   const el = $('#groups');
   if(ui.tab === 'semana' || ui.searching){ el.classList.add('hide'); el.innerHTML = ''; return; }
   el.classList.remove('hide');
-  if(ui.tab === 'regiones'){
-    const cs = countriesOf(data.recipes), c = curCountry(), sb = curSub();
+  if(ui.tab === 'recetas'){
+    const list = recList(), cs = countriesOf(list), c = curCountry(), sb = curSub();
     if(!cs.length){ el.classList.add('hide'); el.innerHTML = ''; return; }
-    const cnt = f => data.recipes.filter(r=> matchTag(r.tag, f)).length;
+    const cnt = f => list.filter(r=> matchTag(r.tag, f)).length;
     if(!c){
       el.innerHTML = `<button class="chip on" data-r="">Todos los países</button>` +
         cs.map(x=> `<button class="chip" data-r="${esc(x)}"><span class="gdot" style="--gc:${tc(x)}"></span>${esc(x)}<span class="c">${cnt(x)}</span></button>`).join('');
     } else {
-      const subs = subsOf(data.recipes, c);
-      el.innerHTML = `<button class="chip" data-r="">← Países</button>`
+      const subs = subsOf(list, c);
+      el.innerHTML = (cs.length > 1 ? `<button class="chip" data-r="">← Países</button>` : '')
         + `<button class="chip${!sb?' on':''}" data-s=""><span class="gdot" style="--gc:${tc(c)}"></span>Toda ${esc(c)}<span class="c">${cnt(c)}</span></button>`
         + subs.map(x=> `<button class="chip${norm(x)===norm(sb)?' on':''}" data-s="${esc(x)}"><span class="gdot" style="--gc:${tc(x)}"></span>${esc(x)}<span class="c">${cnt(joinTag(c,x))}</span></button>`).join('');
     }
@@ -864,12 +858,12 @@ function renderActiveFilter(){
   const el = $('#active-f');
   if(ui.tab === 'semana' || ui.searching){ el.innerHTML = ''; return; }
   const st = ui.filter[ui.tab] || 'all', tg = ui.tagFilter[ui.tab] || '';
-  const parts = [st === 'todo' ? 'Por hacer' : st === 'done' ? 'Hechas' : '', tg ? tagLabel(tg) : ''].filter(Boolean);
+  const parts = [st === 'todo' ? 'Por hacer' : st === 'done' ? 'Hechas' : '', tg ? tagLabel(tg) : '', ui.tab === 'recetas' ? (ui.kind || '') : ''].filter(Boolean);
   el.innerHTML = parts.length ? `<div class="active-f"><span>Filtro: ${esc(parts.join(' · '))}</span><button data-clear>quitar</button></div>` : '';
 }
 $('#active-f').addEventListener('click', e=>{
   if(!e.target.closest('[data-clear]')) return;
-  ui.filter[ui.tab] = 'all'; ui.tagFilter[ui.tab] = ''; saveUi(); render();
+  ui.filter[ui.tab] = 'all'; ui.tagFilter[ui.tab] = ''; if(ui.tab === 'recetas') ui.kind = ''; saveUi(); render();
 });
 
 /* ---------- buscar ---------- */
@@ -916,16 +910,20 @@ $('#filter-btn').addEventListener('click', e=>{
 });
 function drawPop(){
   const st = ui.filter[ui.tab] || 'all', tg = ui.tagFilter[ui.tab] || '';
-  const inTab = ui.tab === 'regiones' ? [] : data.recipes.filter(r=> r.tab === ui.tab);
+  const isRec = ui.tab === 'recetas';
+  const inTab = isRec ? [] : data.recipes.filter(r=> r.tab === ui.tab);
   const tags = countriesOf(inTab).flatMap(c=> [c, ...subsOf(inTab, c).map(x=> joinTag(c, x))]);
   pop.innerHTML = `<div class="fp-h">Mostrar</div>` +
     [['all','Todas'],['todo','Por hacer'],['done','Hechas']].map(([k,l])=> `<button class="fp-o${st===k?' on':''}" data-st="${k}">${l}</button>`).join('') +
+    (isRec ? `<div class="fp-h" style="margin-top:6px;">Tipo</div><div class="fp-tags">` +
+      GROUPS.recetas.map(g=> `<button class="chip${ui.kind===g?' on':''}" data-kind="${esc(g)}"><span class="gdot" style="--gc:${gc(g)}"></span>${esc(g)}</button>`).join('') + `</div>` : '') +
     (tags.length ? `<div class="fp-h" style="margin-top:6px;">Región</div><div class="fp-tags">` +
       tags.map((t,i)=> (i && !splitTag(t).s ? '<div style="flex-basis:100%;height:4px"></div>' : '') + `<button class="chip${norm(t)===norm(tg)?' on':''}" data-tg="${esc(t)}">${splitTag(t).s ? esc(splitTag(t).s) : '<b>' + esc(t) + '</b>'}</button>`).join('') + `</div>` : '');
 }
 pop.addEventListener('click', e=>{
   e.stopPropagation();
-  const s = e.target.closest('[data-st]'), t = e.target.closest('[data-tg]');
+  const s = e.target.closest('[data-st]'), t = e.target.closest('[data-tg]'), k = e.target.closest('[data-kind]');
+  if(k){ ui.kind = ui.kind === k.dataset.kind ? '' : k.dataset.kind; saveUi(); drawPop(); renderActiveFilter(); keepBoard(renderMain); updateHeaderIcons(); return; }
   if(s) ui.filter[ui.tab] = s.dataset.st;
   if(t) ui.tagFilter[ui.tab] = norm(t.dataset.tg) === norm(ui.tagFilter[ui.tab]) ? '' : t.dataset.tg;
   if(s || t){ saveUi(); drawPop(); renderActiveFilter(); renderMain(); updateHeaderIcons(); }
@@ -941,7 +939,7 @@ function renderMain(){
   document.body.classList.remove('boardmode');
   if(ui.searching){ renderSearch(main); return; }
   if(ui.tab === 'semana'){ renderWeek(main); return; }
-  if(ui.tab === 'regiones'){ renderRegions(main); return; }
+  if(ui.tab === 'recetas'){ renderRegions(main); return; }
   const tab = ui.tab, g = curGroup();
   const all = data.recipes.filter(r=> r.tab === tab);
   const st = ui.filter[tab] || 'all', tg = ui.tagFilter[tab] || '';
@@ -982,38 +980,44 @@ function keepBoard(fn){
   nb.scrollLeft = x; nb.querySelectorAll('.col-body').forEach((c,i)=>{ if(ys[i]) c.scrollTop = ys[i]; });
 }
 function renderRegions(main){
-  const cs = countriesOf(data.recipes);
-  if(!cs.length){ main.innerHTML = `<div class="empty">Aún no hay regiones.<br>Ponle país (y si quieres, región) a cualquier receta<br>y aparecerá aquí.</div>`; return; }
-  const st = ui.filter.regiones || 'all', c = curCountry(), sb = curSub();
-  const ok = r => st === 'all' || (st === 'done' ? r.done : !r.done);
+  const base = recList();
+  if(!base.length){ main.innerHTML = `<div class="empty">Aún no hay recetas.<br>Pulsa <b>+</b> para añadir la primera.</div>`; return; }
+  const cs = countriesOf(base), c = curCountry(), sb = curSub();
+  const st = ui.filter.recetas || 'all', kind = ui.kind || '';
+  const list = base.filter(r=> (st === 'all' || (st === 'done' ? r.done : !r.done)) && (!kind || r.group === kind));
   const sort = arr => arr.sort((a,b)=> a.name.localeCompare(b.name,'es'));
-  const col = (label, color, items, ctx) => `<section class="col">
+  const filtering = st !== 'all' || !!kind;
+  const col = (label, color, items, ctx, tag) => `<section class="col">
       <div class="col-h"><span class="gp" style="--gc:${color}">${esc(label)}</span><span class="c">${items.length}</span></div>
-      <div class="col-body">${items.length ? items.map(r=> cardHTML(r, ctx)).join('') : '<div class="col-empty">Nada con este filtro</div>'}</div>
+      <div class="col-body">${items.length ? items.map(r=> cardHTML(r, ctx)).join('') : `<div class="col-empty">${filtering ? 'Nada con este filtro' : 'Vacío'}</div>`}
+        <button class="col-add" data-addtag="${esc(tag)}">+ Añadir</button></div>
     </section>`;
   const board = html => { main.innerHTML = `<div class="board">${html}</div>`; document.body.classList.add('boardmode'); fitBoard(); };
+  const noOrigin = sort(list.filter(r=> !splitTag(r.tag).c));
   if(sb){
-    // una región: sus recetas de las tres pestañas, cada una con su título
-    const f = joinTag(c, sb);
+    // una región: salado y dulce, cada uno con su título
+    const f = joinTag(c, sb), items = list.filter(r=> matchTag(r.tag, f));
     let html = '';
-    TABS.forEach(t=>{
-      const items = sort(data.recipes.filter(r=> r.tab === t.id && matchTag(r.tag, f) && ok(r)));
-      if(items.length) html += `<div class="ghead"><span class="t">${t.label}</span><span class="c">${items.length}</span></div>` + items.map(r=> cardHTML(r, 'regionList')).join('');
+    [...GROUPS.recetas, ''].forEach(g=>{
+      const its = sort(items.filter(r=> (GROUPS.recetas.includes(r.group) ? r.group : '') === g));
+      if(its.length) html += `<div class="ghead"><span class="t">${esc(g || 'Sin grupo')}</span><span class="c">${its.length}</span></div>` + its.map(r=> cardInner(r, '')).join('');
     });
-    main.innerHTML = html ? `<div class="list">${html}</div>` : `<div class="empty">Nada en ${esc(sb)} con este filtro.</div>`;
+    main.innerHTML = `<div class="list">${html || `<div class="muted" style="padding:6px 0 10px;">${filtering ? 'Nada con este filtro.' : 'Aún no hay recetas aquí.'}</div>`}<button class="col-add" data-addtag="${esc(f)}">+ Añadir</button></div>`;
     return;
   }
   if(c){
-    // un país: una columna por región; las recetas de todo el país, en «General»
-    const all = data.recipes.filter(r=> matchTag(r.tag, c) && ok(r));
+    // un país: una columna por región; las de todo el país, en «General»
+    const all = list.filter(r=> matchTag(r.tag, c));
     const gen = sort(all.filter(r=> !splitTag(r.tag).s));
-    const cols = (gen.length ? col('General', tc(c), gen, 'region') : '')
-      + subsOf(data.recipes, c).map(x=> col(x, tc(x), sort(all.filter(r=> norm(splitTag(r.tag).s) === norm(x))), 'region')).join('');
+    const cols = (gen.length ? col('General', tc(c), gen, 'kind', c) : '')
+      + subsOf(base, c).map(x=> col(x, tc(x), sort(all.filter(r=> norm(splitTag(r.tag).s) === norm(x))), 'kind', joinTag(c, x))).join('')
+      + (cs.length === 1 && noOrigin.length ? col('Sin origen', '#eeeeee', noOrigin, 'kind', '') : '');
     board(cols);
     return;
   }
-  // todos los países: una columna por país
-  board(cs.map(x=> col(x, tc(x), sort(data.recipes.filter(r=> matchTag(r.tag, x) && ok(r))), 'regionC')).join(''));
+  // varios países: una columna por país
+  board(cs.map(x=> col(x, tc(x), sort(list.filter(r=> matchTag(r.tag, x))), 'regionC', x)).join('')
+    + (noOrigin.length ? col('Sin origen', '#eeeeee', noOrigin, 'kind', '') : ''));
 }
 function renderSearch(main){
   const q = norm(ui.q);
@@ -1026,9 +1030,18 @@ function renderSearch(main){
   });
   main.innerHTML = html ? `<div class="list">${html}</div>` : `<div class="empty">Nada con «${esc(ui.q)}».</div>`;
 }
+function cardInner(r, where){
+  const sub = [where, inWeek(r.id) ? '<span class="wk">semana</span>' : ''].join('');
+  return `<div class="rcard${r.done?' done':''}" data-id="${r.id}">
+    <button class="open"><span class="n">${esc(r.name)}</span><span class="sub">${sub}</span></button>
+    ${hasContent(r) ? '<span class="dot" title="tiene receta"></span>' : ''}
+    <button class="chk${r.done?' on':''}" aria-label="Hecha"><i></i></button>
+  </div>`;
+}
 function cardHTML(r, ctx){
   const tabLabel = TABS.find(t=> t.id === r.tab).label;
-  if(ctx === 'regionC'){ const x = splitTag(r.tag); ctx = null; r = Object.assign({}, r, { _where: [x.s, tabLabel].filter(Boolean).join(' · ') }); }
+  if(ctx === 'regionC'){ const x = splitTag(r.tag); ctx = 'kind'; r = Object.assign({}, r, { _sub: x.s }); }
+  if(ctx === 'kind') return cardInner(r, (r.group ? `<span><span class="gdot" style="--gc:${gc(r.group)}"></span>${esc(r.group)}</span>` : '') + (r._sub ? `<span>${esc(r._sub)}</span>` : ''));
   const where = r._where ? `<span>${esc(r._where)}</span>` : ctx === 'regionList' ? (r.group ? `<span><span class="gdot" style="--gc:${gc(r.group)}"></span>${esc(r.group)}</span>` : '') : ctx === 'region' ? `<span>${esc([TABS.find(t=> t.id === r.tab).label, r.group].filter(Boolean).join(' · '))}</span>`
     : (r.tag ? `<span><span class="gdot" style="--gc:${tc(leafTag(r.tag))}"></span>${esc(leafTag(r.tag))}</span>` : '');
   const sub = [where, inWeek(r.id) ? '<span class="wk">semana</span>' : ''].join('');
@@ -1050,6 +1063,8 @@ $('#main').addEventListener('click', e=>{
   if(fold){ const k = fold.dataset.fold; ui.collapsed[k] = !ui.collapsed[k]; saveUi(); renderMain(); return; }
   const addg = e.target.closest('[data-addg]');
   if(addg){ openNew(addg.dataset.addg); return; }
+  const addt = e.target.closest('[data-addtag]');
+  if(addt){ openNew(null, addt.dataset.addtag); return; }
   const row = e.target.closest('.row, .rcard');
   if(row){
     const r = byId(row.dataset.id); if(!r) return;
@@ -1349,8 +1364,10 @@ function mountFicha(sh, r){
     const t = e.target;
     if(t.dataset.k){ r[t.dataset.k] = t.value; }
     else if(t.dataset.tagc != null || t.dataset.tags != null){
-      const sh2 = t.closest('.sheet');
-      r.tag = joinTag(sh2.querySelector('[data-tagc]').value, sh2.querySelector('[data-tags]').value);
+      const sh2 = t.closest('.sheet'), ci = sh2.querySelector('[data-tagc]'), si = sh2.querySelector('[data-tags]');
+      // si cambias a otro país, una comunidad española en «Región» ya no tiene sentido
+      if(t === ci && norm(ci.value) !== 'espana' && SPAIN.some(x=> norm(x) === norm(si.value))) si.value = '';
+      r.tag = joinTag(ci.value, si.value);
     }
     else if(t.dataset.pk){ partOf(t)[t.dataset.pk] = t.value; }
     else if(t.dataset.ik){ partOf(t).ings[+t.closest('.irow').dataset.i][t.dataset.ik] = t.value; }
@@ -1411,10 +1428,12 @@ function refreshTagsDatalist(){
 }
 
 /* ---------- añadir rápido ---------- */
-$('#fab').addEventListener('click', ()=> ui.space === 'despensa' ? openItem(null, curZone() ? curZone().id : null) : openNew());
-function openNew(group){
+$('#fab').addEventListener('click', ()=> ui.space === 'despensa' ? openItem(null, curZone() ? curZone().id : null)
+  : ui.tab === 'recetas' ? openNew(ui.kind || null, joinTag(curCountry(), curSub())) : openNew());
+function openNew(group, tag){
   const tab = ui.tab === 'semana' ? 'recetas' : ui.tab;
-  let newGroup = group != null ? group : curGroup();
+  let newGroup = group != null ? group : (tab === 'recetas' ? '' : curGroup());
+  tag = tag || '';
   const label = TABS.find(t=> t.id === tab).label;
   openSheet(`<div class="sh-head">
       <button class="x" data-act="close" aria-label="Cerrar">✕</button>
@@ -1423,6 +1442,7 @@ function openNew(group){
     <div class="sh-body">
       <div class="f"><input class="in" id="new-name" placeholder="Nombre" autocomplete="off" enterkeyhint="done"></div>
       <div class="f"><span class="lb">Grupo</span><div class="chips">${GROUPS[tab].map(g=> `<button class="chip${newGroup===g?' on':''}" data-g="${esc(g)}"><span class="gdot" style="--gc:${gc(g)}"></span>${esc(g)}</button>`).join('')}</div></div>
+      ${tag ? `<p class="muted" style="margin-top:12px;">Origen: <span class="gp" style="--gc:${tc(leafTag(tag))}">${esc(tagLabel(tag))}</span></p>` : ''}
       <div class="foot" style="margin-top:22px;">
         <button class="sh-btn primary" data-act="add" style="height:44px;">Añadir</button>
         <button data-act="addopen">Añadir y abrir ficha</button>
@@ -1434,7 +1454,7 @@ function openNew(group){
       const add = (open)=>{
         const name = inp.value.trim();
         if(!name){ shake(inp); inp.focus(); return; }
-        const r = { id: uid(), tab, name, group: newGroup, tag:'', yield:'', parts:[{name:'', ings:[], steps:''}], notes:'', done:false };
+        const r = { id: uid(), tab, name, group: newGroup, tag, yield:'', parts:[{name:'', ings:[], steps:''}], notes:'', done:false };
         data.recipes.push(r); save();
         if(open){ render(); openFicha(r.id, true); return; }
         inp.value = ''; inp.focus(); renderGroups(); renderMain(); toast(`Añadida: ${name}`);
@@ -1744,7 +1764,7 @@ document.addEventListener('visibilitychange', ()=>{
 async function boot(){
   ui = Object.assign({ space:'recetario', tab:'recetas', ptab:'lista', zone:'', filter:{}, tagFilter:{}, group:{}, collapsed:{} }, loadJSON(UIKEY) || {});
   ui.q = ''; ui.searching = false;
-  if(ui.tab === 'semana') ui.tab = 'recetas';
+  if(ui.tab === 'semana' || ui.tab === 'regiones') ui.tab = 'recetas';
   if(!['lista','semana','compra'].includes(ui.ptab)) ui.ptab = 'lista';
   const stored = loadJSON(KEY);
   if(validData(stored)){
