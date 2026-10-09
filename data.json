@@ -68,7 +68,8 @@
     }
    ],
    "notes": "Plato de aprovechamiento del pan duro. Mejor en cazuela de barro y servido muy caliente.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-salmorejo",
@@ -131,7 +132,8 @@
     }
    ],
    "notes": "Debe quedar espeso, que aguante la guarnición encima.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-gazpacho",
@@ -203,7 +205,8 @@
     }
    ],
    "notes": "Ajustar el agua según lo líquido que se quiera.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-porra-antequerana",
@@ -280,7 +283,8 @@
     }
    ],
    "notes": "Más espesa que el salmorejo: tradicionalmente se come casi a cucharadas.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-ajoblanco",
@@ -347,7 +351,8 @@
     }
    ],
    "notes": "Si se pasa por estameña queda más sedoso.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-sopa-de-picadillo",
@@ -402,7 +407,8 @@
     }
    ],
    "notes": "Aprovechamiento del caldo del puchero andaluz.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-caldo-gallego",
@@ -475,7 +481,8 @@
     }
    ],
    "notes": "Mejor de un día para otro.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-sopa-de-tomate-extremena",
@@ -553,7 +560,8 @@
     }
    ],
    "notes": "En muchos pueblos se acompaña de higos frescos o uvas.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-gazpacho-manchego",
@@ -636,7 +644,8 @@
     }
    ],
    "notes": "Tradicionalmente se hace con caza (liebre, perdiz). La torta cenceña se vende ya hecha.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-migas",
@@ -708,7 +717,8 @@
     }
    ],
    "notes": "Acompañar con uvas, melón o un huevo frito.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-gachas-manchegas",
@@ -780,7 +790,8 @@
     }
    ],
    "notes": "Se comen tradicionalmente de la sartén, con cuchara o con pan.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-pa-amb-tomaquet",
@@ -829,7 +840,8 @@
     }
    ],
    "notes": "Sirve de base para acompañar embutido, tortilla o anchoas.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-coca-de-trempo",
@@ -921,7 +933,8 @@
     }
    ],
    "notes": "Buena fría al día siguiente.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-empanada-gallega",
@@ -1036,7 +1049,8 @@
     }
    ],
    "notes": "El relleno admite sardinas, xoubas o carne según lo que haya.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-croquetas-de-aprovechamiento",
@@ -1124,7 +1138,8 @@
     }
    ],
    "notes": "Se pueden congelar crudas, ya empanadas.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-lentejas-estofadas",
@@ -1217,7 +1232,8 @@
     }
    ],
    "notes": "La pardina no necesita remojo.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-potaje-de-vigilia",
@@ -1305,7 +1321,8 @@
     }
    ],
    "notes": "Plato tradicional de Cuaresma.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-garbanzos-con-espinacas",
@@ -1381,7 +1398,8 @@
     }
    ],
    "notes": "Clásico de las tabernas sevillanas. Con garbanzo de bote sale en media hora.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-olla-gitana",
@@ -1478,7 +1496,8 @@
     }
    ],
    "notes": "Plato de cuchara de cuaresma, sin carne.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-michirones",
@@ -1558,7 +1577,8 @@
     }
    ],
    "notes": "Típico de bar murciano como tapa.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-cocido-madrileno",
@@ -1684,7 +1704,8 @@
     }
    ],
    "notes": "Con lo que sobra: ropa vieja, croquetas o pringá.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-pote-asturiano",
@@ -1755,7 +1776,8 @@
     }
    ],
    "notes": "El compango (chorizo, morcilla, lacón) se sirve troceado aparte.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-judias-del-barco",
@@ -1836,7 +1858,8 @@
     }
    ],
    "notes": "Con IGP de El Barco de Ávila; vale cualquier judía blanca de calidad.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-alubias-de-tolosa",
@@ -1928,7 +1951,8 @@
     }
    ],
    "notes": "Acompañar con guindillas de Ibarra.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-puchero-andaluz",
@@ -2024,7 +2048,8 @@
     }
    ],
    "notes": "Del puchero salen la sopa de picadillo, la pringá y las croquetas.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-ropa-vieja",
@@ -2111,7 +2136,8 @@
     }
    ],
    "notes": "Aprovechamiento de las sobras del puchero.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-pringa",
@@ -2166,7 +2192,8 @@
     }
    ],
    "notes": "Aprovechamiento clásico del puchero en Sevilla.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-arroz-al-horno",
@@ -2259,7 +2286,8 @@
     }
    ],
    "notes": "Aprovechamiento del cocido del día anterior.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-arros-amb-fesols-i-naps",
@@ -2335,7 +2363,8 @@
     }
    ],
    "notes": "Típico del interior valenciano en invierno.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-pisto-manchego",
@@ -2412,7 +2441,8 @@
     }
    ],
    "notes": "Mejor de un día para otro.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-escalivada",
@@ -2473,7 +2503,8 @@
     }
    ],
    "notes": "Sobre pan de payés, con anchoas, es una cena completa.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-tumbet",
@@ -2540,7 +2571,8 @@
     }
    ],
    "notes": "Acompaña bien un huevo frito o carne o pescado a la plancha.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-alboronia",
@@ -2615,7 +2647,8 @@
     }
    ],
    "notes": "Origen andalusí; antepasado del pisto.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-zarangollo",
@@ -2664,7 +2697,8 @@
     }
    ],
    "notes": "Debe quedar jugoso, no seco.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-espinacas-a-la-catalana",
@@ -2719,7 +2753,8 @@
     }
    ],
    "notes": "Admite acelgas en lugar de espinacas.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-patatas-a-la-importancia",
@@ -2801,7 +2836,8 @@
     }
    ],
    "notes": "Plato humilde que imita el rebozado de la carne o el pescado.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-patatas-a-lo-pobre",
@@ -2861,7 +2897,8 @@
     }
    ],
    "notes": "El aceite sobrante sirve para otra fritura.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-patatas-revolconas",
@@ -2927,7 +2964,8 @@
     }
    ],
    "notes": "Típico de Ávila y Salamanca.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-patatas-a-la-riojana",
@@ -3008,7 +3046,8 @@
     }
    ],
    "notes": "Cascar la patata (no cortarla limpia) para que suelte almidón y espese el caldo.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-papas-arrugadas-con-mojo",
@@ -3093,7 +3132,8 @@
     }
    ],
    "notes": "El mojo aguanta varios días en nevera.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-tortilla-de-patatas",
@@ -3143,7 +3183,8 @@
     }
    ],
    "notes": "Reservar el aceite colado para cocinar otra vez.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-huevos-a-la-flamenca",
@@ -3215,7 +3256,8 @@
     }
    ],
    "notes": "Buen aprovechamiento de tomate frito y restos de embutido.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-marmitako",
@@ -3292,7 +3334,8 @@
     }
    ],
    "notes": "El bonito no debe hervir: queda seco.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-arroz-a-banda",
@@ -3399,7 +3442,8 @@
     }
    ],
    "notes": "Servir con alioli. Plato de pescadores: el pescado del caldo se comía aparte.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-esgarraet",
@@ -3450,7 +3494,8 @@
     }
    ],
    "notes": "Mejor al día siguiente. Sobre pan tostado.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-bacalao-al-ajoarriero",
@@ -3526,7 +3571,8 @@
     }
    ],
    "notes": "Admite unas patatas cocidas o huevo revuelto al final.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-atascaburras",
@@ -3587,7 +3633,8 @@
     }
    ],
    "notes": "Típico de los días fríos en La Mancha.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-boquerones-en-vinagre",
@@ -3647,7 +3694,8 @@
     }
    ],
    "notes": "La congelación previa es obligatoria por el anisakis.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-callos-a-la-madrilena",
@@ -3755,7 +3803,8 @@
     }
    ],
    "notes": "Mucho mejor reposados de un día para otro.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-morteruelo",
@@ -3841,7 +3890,8 @@
     }
    ],
    "notes": "Típico de Cuenca; tradicionalmente con caza (liebre, perdiz). Se toma caliente untado en pan.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-arroz-con-leche",
@@ -3908,7 +3958,8 @@
     }
    ],
    "notes": "En Asturias se sirve con costra de azúcar quemado.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-natillas",
@@ -3974,7 +4025,8 @@
     }
    ],
    "notes": "Con las claras sobrantes: merengue o leche merengada.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-flan-de-huevo",
@@ -4039,7 +4091,8 @@
     }
    ],
    "notes": "Si salen agujeros, el horno estaba demasiado fuerte.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-crema-catalana",
@@ -4100,7 +4153,8 @@
     }
    ],
    "notes": "Tradicional del día de San José (19 de marzo).",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-leche-frita",
@@ -4190,7 +4244,8 @@
     }
    ],
    "notes": "Se toma templada o fría.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-torrijas",
@@ -4261,7 +4316,8 @@
     }
    ],
    "notes": "Variante: bañarlas en almíbar o miel en lugar de azúcar.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-tocino-de-cielo",
@@ -4330,7 +4386,8 @@
     }
    ],
    "notes": "Nació en Jerez, con las yemas que sobraban de clarificar el vino con claras.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-cuajada-con-miel",
@@ -4375,7 +4432,8 @@
     }
    ],
    "notes": "La temperatura es clave: si la leche está muy caliente no cuaja.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-leche-merengada",
@@ -4430,7 +4488,8 @@
     }
    ],
    "notes": "Con las claras que sobran de natillas o crema catalana.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-gachas-dulces",
@@ -4495,7 +4554,8 @@
     }
    ],
    "notes": "Típicas de Todos los Santos.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-bunuelos-de-viento",
@@ -4565,7 +4625,8 @@
     }
    ],
    "notes": "Se pueden rellenar de crema pastelera o nata. Típicos de Todos los Santos.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-pestinos",
@@ -4642,7 +4703,8 @@
     }
    ],
    "notes": "Típicos de Semana Santa y Navidad.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-roscos-fritos",
@@ -4713,7 +4775,8 @@
     }
    ],
    "notes": "Se pueden aromatizar con un chorrito de anís.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-churros",
@@ -4763,7 +4826,8 @@
     }
    ],
    "notes": "Acompañar con chocolate a la taza.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-flores-de-sarten",
@@ -4829,7 +4893,8 @@
     }
    ],
    "notes": "Hace falta el molde de flor de hierro.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-orejas-de-carnaval",
@@ -4899,7 +4964,8 @@
     }
    ],
    "notes": "Típicas del Entroido (carnaval).",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-filloas",
@@ -4940,7 +5006,7 @@
       {
        "q": "30",
        "u": "g",
-       "n": "Tocino o mantequilla (para engrasar)"
+       "n": "Mantequilla (para engrasar)"
       },
       {
        "q": "",
@@ -4958,8 +5024,9 @@
      ]
     }
    ],
-   "notes": "Típicas del Entroido; también salen saladas con caldo de cocido.",
-   "done": false
+   "notes": "Típicas del Entroido; también salen saladas con caldo de cocido. Tradicionalmente se engrasa la sartén con tocino.",
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-frixuelos",
@@ -5024,7 +5091,8 @@
     }
    ],
    "notes": "Pariente asturiano de la filloa gallega.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-bunuelos-de-calabaza",
@@ -5085,7 +5153,8 @@
     }
    ],
    "notes": "Típicos de Fallas, con chocolate.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-rosquillas-de-san-isidro",
@@ -5168,7 +5237,8 @@
     }
    ],
    "notes": "Sin baño son las «tontas»; con glaseado, las «listas». Típicas de San Isidro (15 de mayo).",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-casadielles",
@@ -5252,7 +5322,8 @@
     }
    ],
    "notes": "Típicas de Antroxu (carnaval).",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-tarta-de-santiago",
@@ -5312,7 +5383,8 @@
     }
    ],
    "notes": "Sin harina: apta para celíacos si la almendra es apta.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-bizcocho-de-yogur",
@@ -5373,7 +5445,8 @@
     }
    ],
    "notes": "El vaso del yogur sirve de medida para todo.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-magdalenas",
@@ -5439,7 +5512,8 @@
     }
    ],
    "notes": "El contraste de masa fría y horno fuerte hace el copete.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-bizcocho-borracho",
@@ -5515,7 +5589,8 @@
     }
    ],
    "notes": "Típico de Guadalajara.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-tarta-de-queso-vasca",
@@ -5566,7 +5641,8 @@
     }
    ],
    "notes": "Debe quedar cremosa por dentro: mejor pasarse de tostado que de cocción.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-quesada-pasiega",
@@ -5632,7 +5708,8 @@
     }
    ],
    "notes": "Tradicionalmente con cuajada fresca de los valles pasiegos.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-sobaos-pasiegos",
@@ -5698,7 +5775,8 @@
     }
    ],
    "notes": "Mejor al día siguiente, bien envueltos.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-ensaimada",
@@ -5766,7 +5844,8 @@
     }
    ],
    "notes": "Admite relleno de cabello de ángel o crema.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-coca-de-llanda",
@@ -5832,7 +5911,8 @@
     }
    ],
    "notes": "La merienda valenciana de toda la vida.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-fartons",
@@ -5916,7 +5996,8 @@
     }
    ],
    "notes": "De Alboraia, para mojar en horchata.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-pan-de-calatrava",
@@ -5990,7 +6071,8 @@
     }
    ],
    "notes": "Aprovechamiento de bollería del día anterior.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-brazo-de-gitano",
@@ -6073,7 +6155,8 @@
     }
    ],
    "notes": "Admite relleno de nata o trufa.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-pastel-vasco",
@@ -6176,7 +6259,8 @@
     }
    ],
    "notes": "Gâteau basque; en Iparralde también se rellena de cereza negra.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-carquinoles",
@@ -6238,7 +6322,8 @@
     }
    ],
    "notes": "Para mojar en vino dulce o café.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-perrunillas",
@@ -6309,7 +6394,8 @@
     }
    ],
    "notes": "Tostar la harina en el horno 15 min antes las hace más finas.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-mantecados",
@@ -6370,7 +6456,8 @@
     }
    ],
    "notes": "De Estepa. Muy frágiles en caliente.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-roscon-de-reyes",
@@ -6482,7 +6569,8 @@
     }
    ],
    "notes": "Esconder la figura y el haba antes de hornear.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-panellets",
@@ -6538,7 +6626,8 @@
     }
    ],
    "notes": "Típicos de Todos los Santos, con moscatel.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-mazapan-de-toledo",
@@ -6588,7 +6677,8 @@
     }
    ],
    "notes": "Con IGP en Toledo. Mejor tras unos días de reposo.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-yemas-de-santa-teresa",
@@ -6644,7 +6734,8 @@
     }
    ],
    "notes": "De Ávila. Con las claras: merengues o leche merengada.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-peras-al-vino",
@@ -6699,7 +6790,8 @@
     }
    ],
    "notes": "Mejor de un día para otro, reposadas en el vino.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-manzanas-asadas",
@@ -6750,7 +6842,8 @@
     }
    ],
    "notes": "La reineta aguanta bien el horno sin deshacerse.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-miguelitos-de-la-roda",
@@ -6820,7 +6913,8 @@
     }
    ],
    "notes": "Con hojaldre comprado salen en una hora.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-tortas-de-aceite",
@@ -6891,7 +6985,8 @@
     }
    ],
    "notes": "Las de Castilleja de la Cuesta (Sevilla) son las más conocidas.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-bienmesabe-canario",
@@ -6946,7 +7041,8 @@
     }
    ],
    "notes": "Se toma solo, con helado de vainilla o sobre bizcocho.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-frangollo",
@@ -7017,7 +7113,8 @@
     }
    ],
    "notes": "Se sirve con miel de palma.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-mel-i-mato",
@@ -7055,7 +7152,8 @@
     }
    ],
    "notes": "Postre de los monasterios de Montserrat.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-sopa-de-almendras",
@@ -7116,7 +7214,8 @@
     }
    ],
    "notes": "Postre tradicional de Nochebuena en Castilla.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-pan-de-higo",
@@ -7181,7 +7280,8 @@
     }
    ],
    "notes": "Acompaña bien un queso curado.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-nigiri-sushi",
@@ -7273,7 +7373,8 @@
     }
    ],
    "notes": "Estilo Edomae (Tokio). El pescado crudo debe congelarse previamente a -20 ºC un mínimo de 5 días (anisakis), salvo que se compre ya tratado. Unas 32 piezas.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-tempura",
@@ -7378,7 +7479,8 @@
     }
    ],
    "notes": "La masa se hace justo antes de freír y siempre fría: el contraste de temperatura da la textura crujiente.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-ramen-de-shoyu",
@@ -7532,7 +7634,8 @@
     }
    ],
    "notes": "Estilo de Tokio: caldo claro de pollo con dashi y tare de soja. Se puede añadir un poco de grasa de pollo derretida al cuenco.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-oyakodon",
@@ -7603,7 +7706,8 @@
     }
    ],
    "notes": "«Padre e hijo» en un cuenco (pollo y huevo). Se atribuye al restaurante Tamahide de Nihonbashi (Tokio), a finales del siglo XIX.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-sukiyaki",
@@ -7707,7 +7811,8 @@
     }
    ],
    "notes": "Estilo Kanto, con warishita. En Kansai se tuesta primero la carne con azúcar y soja directamente en la cazuela. Usar huevos muy frescos o pasteurizados.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-okonomiyaki",
@@ -7800,7 +7905,8 @@
     }
    ],
    "notes": "Estilo de Osaka, todo mezclado. Ficha de la Embajada de Japón. Muchas casas añaden ñame rallado (yamaimo) para que quede más esponjoso.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-takoyaki",
@@ -7898,7 +8004,8 @@
     }
    ],
    "notes": "Estilo de Osaka, con masa muy líquida (1 de harina por 4 de dashi) para que queden cremosas por dentro. Se atribuyen al vendedor Tomekichi Endo, en 1935. Hace falta una placa de takoyaki.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-mitarashi-dango",
@@ -7969,7 +8076,8 @@
     }
    ],
    "notes": "Origen en el santuario de Shimogamo (Kioto). Si no hay dangoko, mezclar a partes iguales joshinko y shiratamako (harinas de arroz).",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-sanuki-udon",
@@ -8075,7 +8183,8 @@
     }
    ],
    "notes": "Kagawa (antigua Sanuki) es la prefectura que más udon consume por habitante. El pisado con los pies da la textura firme y elástica (koshi). Ésta es la versión kake; también se toma kamaage o bukkake.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-ishikari-nabe",
@@ -8203,7 +8312,8 @@
     }
    ],
    "notes": "Ficha del Ministerio de Agricultura de Japón (MAFF). Nace en la desembocadura del río Ishikari, zona de pesca de salmón.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-jingisukan",
@@ -8316,7 +8426,8 @@
     }
    ],
    "notes": "Plato de reunión al aire libre, típico del hanami en Hokkaido. Ingredientes según el MAFF de Hokkaido; las cantidades varían en cada casa. También se hace con cordero ya marinado.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-kiritanpo-nabe",
@@ -8422,7 +8533,8 @@
     }
    ],
    "notes": "Ficha del Ministerio de Agricultura de Japón (MAFF). De Odate y Kazuno, en el norte de Akita. Se puede comprar el kiritanpo ya hecho.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-hoto",
@@ -8524,7 +8636,8 @@
     }
    ],
    "notes": "Ficha del Ministerio de Agricultura de Japón (MAFF). Yamanashi: tierra de montaña y poco arroz, donde el trigo hizo de alimento base. Los fideos se cuecen en el propio caldo, sin lavar, para que espese.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-goya-champuru",
@@ -8581,7 +8694,8 @@
     }
    ],
    "notes": "Ficha del Ministerio de Agricultura de Japón (MAFF). «Champuru» significa «mezclado» en okinawense.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-karaage",
@@ -8657,7 +8771,8 @@
     }
    ],
    "notes": "Nakatsu (Oita) se considera la capital del karaage: cada tienda tiene su adobo. La doble fritura deja el interior jugoso.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-miso-shiru",
@@ -8727,7 +8842,8 @@
     }
    ],
    "notes": "El miso no debe hervir: pierde aroma. Este dashi (awase dashi) es la base de muchos platos japoneses.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-onigiri",
@@ -8787,7 +8903,8 @@
     }
    ],
    "notes": "Rellenos clásicos: umeboshi, salmón y okaka. El arroz debe estar caliente para que se una.",
-   "done": false
+   "done": false,
+   "pesce": true
   },
   {
    "id": "r-recetas-nikujaga",
@@ -8874,7 +8991,8 @@
     }
    ],
    "notes": "Guiso casero japonés por excelencia. En el oeste de Japón se hace con vacuno y en el este a menudo con cerdo. Su origen (Maizuru o Kure, cocina de la Armada) sigue en discusión.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-curry-japones",
@@ -8987,7 +9105,8 @@
     }
    ],
    "notes": "Llegó en la era Meiji a través de la Marina británica. En casa se suele usar roux en pastilla (medio paquete para esta cantidad) en lugar del roux casero.",
-   "done": false
+   "done": false,
+   "pesce": false
   },
   {
    "id": "r-recetas-dorayaki",
@@ -9074,7 +9193,8 @@
     }
    ],
    "notes": "La miel da el color dorado característico. El anko también se vende ya hecho.",
-   "done": false
+   "done": false,
+   "pesce": true
   }
  ]
 }

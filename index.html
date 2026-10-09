@@ -99,6 +99,14 @@ html.despensa,html.despensa body,html.despensa .top{background:var(--bg);}
 .ib{width:42px;height:42px;display:flex;align-items:center;justify-content:center;color:var(--muted);border-radius:10px;position:relative;flex-shrink:0;}
 #menu-btn{margin-right:-10px;}
 .ib.on{color:var(--fg);}
+#pesce-btn.on{color:#2f9e44;background:#e6f6ea;}
+.pz{display:inline-flex;align-items:center;gap:3px;color:#2f9e44;}
+.rcard .n .pz{margin-left:6px;vertical-align:-1px;}
+.pesce-head{display:flex;align-items:center;gap:8px;padding:14px 0 0;color:#2f9e44;font-weight:650;font-size:15px;}
+.pesce-head small{color:var(--muted);font-weight:400;font-size:13px;}
+.pseg{display:inline-flex;background:var(--soft);border-radius:10px;padding:3px;}
+.pseg button{height:34px;padding:0 14px;border-radius:8px;font-size:14px;color:var(--muted);}
+.pseg button.on{background:var(--card);color:var(--fg);font-weight:600;box-shadow:0 1px 3px rgba(0,0,0,.1);}
 .ib .badge{position:absolute;top:9px;right:8px;width:7px;height:7px;border-radius:50%;background:var(--ok);}
 .searchbox{flex:1;display:none;align-items:center;gap:8px;}
 .bar.searching h1,.bar.searching .ib,.bar.searching .space-sw{display:none;}
@@ -307,6 +315,7 @@ button.ghead{padding:20px 0 6px;}
       <button class="ib" id="search-btn" aria-label="Buscar">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
       </button>
+      <button class="ib" id="pesce-btn" aria-label="Pescetariano" title="Pescetariano"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19c0-8 5-14 15-14 0 10-6 15-14 15"/><path d="M5 19c3-4 6-7 10-9"/></svg></button>
       <button class="ib" id="filter-btn" aria-label="Filtrar">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
         <i class="badge" style="display:none"></i>
@@ -612,7 +621,8 @@ Cada receta tiene esta forma:
     }
   ],
   "notes": "Observaciones: conservación, variantes o trucos útiles.",
-  "done": false
+  "done": false,
+  "pesce": false
 }
 
 Reglas:
@@ -626,6 +636,7 @@ Reglas:
 - "ings": "q" solo el número (400, 2, ½, 1,5), "u" la unidad (g, kg, ml, l, ud., cda., cdta., pizca…), "n" el ingrediente con mayúscula inicial. Cantidad suficiente: "q": "", "u": "C/S". Unidades métricas siempre que se pueda.
 - "steps": pasos cortos, en infinitivo (pelar, cortar, saltear, marcar, reducir, rectificar…), con vocabulario técnico de cocina (brunoise, mirepoix, a la inglesa, napar…). El primero siempre "Mise en place de géneros y útiles.". Temperaturas y tiempos cuando importen. Sin numerar.
 - "notes": observaciones útiles; si no hay, "".
+- "pesce": true si la receta es pescetariana tal como está escrita: sin carne de ningún tipo (tampoco jamón, embutido, panceta, manteca de cerdo, sebo ni caldos de carne o pollo). Pescado, marisco, huevo y lácteos sí están permitidos. Si lleva algo de carne, false.
 - Nada de emplatado, boceto, alérgenos, costes ni calorías.
 - Español de España. Sin emojis.
 - El apartado "pantry" (mi despensa) déjalo exactamente como está, salvo que te pida cambiarlo.`;
@@ -656,7 +667,7 @@ function cleanRecipe(r, fromFile){
   const tab = normTab(r.tab), name = String(r.name).trim();
   return { id: r.id ? String(r.id) : (fromFile ? 'r-' + tab + '-' + slug(name) : uid()), tab, name,
            group: matchGroup(tab, r.group) || '', tag: normTag(String(r.tag||'')), yield: String(r.yield||'').trim(),
-           parts, notes: asText(r.notes), done: !!r.done };
+           parts, notes: asText(r.notes), done: !!r.done, pesce: !!r.pesce };
 }
 function cleanData(d){
   const v2 = d.version >= 2;
@@ -687,11 +698,11 @@ function fileData(){
   return { version: 2, reset: data.reset || undefined, recipes: data.recipes.map(r=>({
     id: r.id, tab: r.tab, name: r.name, group: r.group, tag: r.tag, yield: r.yield,
     parts: r.parts.map(p=>({ name: p.name, ings: p.ings.map(i=>({q:i.q,u:i.u,n:i.n})), steps: stepLines(p.steps) })),
-    notes: r.notes, done: r.done })),
+    notes: r.notes, done: r.done, pesce: !!r.pesce })),
     pantry: { zones: data.pantry.zones.map(z=>({ id: z.id, name: z.name, items: z.items.map(i=>({ id: i.id, name: i.name, note: i.note, missing: i.missing })) })) } };
 }
 function hashRecipe(r){
-  const s = JSON.stringify([r.tab, r.name, r.group, r.tag, r.yield, r.parts, r.notes]);
+  const s = JSON.stringify([r.tab, r.name, r.group, r.tag, r.yield, r.parts, r.notes, !!r.pesce]);
   let h = 0; for(let i=0;i<s.length;i++){ h = (h*31 + s.charCodeAt(i)) | 0; }
   return String(h);
 }
@@ -711,7 +722,7 @@ function applyFile(obj){
     if(!l){ data.recipes.push(f); added++; return; }
     if(l.id !== f.id){ data.week.forEach(w=>{ if(w.recipeId === l.id) w.recipeId = f.id; }); l.id = f.id; }
     if(prev[f.id] !== h && hashRecipe(l) !== h){
-      Object.assign(l, { tab:f.tab, name:f.name, group:f.group, tag:f.tag, yield:f.yield, parts:f.parts, notes:f.notes });
+      Object.assign(l, { tab:f.tab, name:f.name, group:f.group, tag:f.tag, yield:f.yield, parts:f.parts, notes:f.notes, pesce:f.pesce });
       changed++;
     }
   });
@@ -792,6 +803,14 @@ function renderTabs(){
   const n = data.week.length;
   $('#tabs').innerHTML = TABS.map(t=> `<button class="tab${ui.tab===t.id?' on':''}" data-tab="${t.id}">${t.label}</button>`).join('');
 }
+$('#pesce-btn').addEventListener('click', ()=>{
+  if(ui.searching) closeSearch(true);
+  closePop();
+  if(ui.tab === 'pesce') ui.tab = ui.lastTab || 'recetas';
+  else { ui.lastTab = ui.tab; ui.tab = 'pesce'; }
+  saveUi(); render(); window.scrollTo(0,0);
+  const nb = $('#main .board'); if(nb) nb.scrollLeft = 0;
+});
 $('#tabs').addEventListener('click', e=>{
   const b = e.target.closest('.tab'); if(!b) return;
   if(b.dataset.ptab){
@@ -806,11 +825,12 @@ $('#tabs').addEventListener('click', e=>{
 });
 function updateHeaderIcons(){
   if(ui.space === 'despensa'){
-    $('#search-btn').style.display = 'none'; $('#filter-btn').style.display = 'none';
+    $('#search-btn').style.display = 'none'; $('#filter-btn').style.display = 'none'; $('#pesce-btn').style.display = 'none';
     $('#fab').classList.toggle('hide', ui.ptab === 'compra' || ui.ptab === 'semana');
     return;
   }
-  $('#search-btn').style.display = '';
+  $('#search-btn').style.display = ''; $('#pesce-btn').style.display = '';
+  $('#pesce-btn').classList.toggle('on', ui.tab === 'pesce');
   const isWeek = ui.tab === 'semana';
   $('#filter-btn').style.display = isWeek ? 'none' : '';
   $('#fab').classList.toggle('hide', isWeek || ui.tab === 'regiones' || ui.searching);
@@ -821,7 +841,8 @@ function updateHeaderIcons(){
 
 /* grupos como segunda fila de navegación */
 function curGroup(){ const g = ui.group[ui.tab] || ''; return (GROUPS[ui.tab]||[]).includes(g) ? g : ''; }
-function recList(){ return data.recipes.filter(r=> r.tab === 'recetas'); }
+function isPesceView(){ return ui.tab === 'pesce'; }
+function recList(){ return data.recipes.filter(r=> r.tab === 'recetas' && (!isPesceView() || r.pesce)); }
 /* si solo hay un país, se entra directamente en él */
 function curCountry(){
   const cs = countriesOf(recList()), r = ui.region || '';
@@ -844,10 +865,10 @@ function renderGroups(){
   const el = $('#groups');
   if(ui.tab === 'semana' || ui.searching){ el.classList.add('hide'); el.innerHTML = ''; return; }
   el.classList.remove('hide');
-  if(ui.tab === 'recetas'){
+  if(ui.tab === 'recetas' || isPesceView()){
     const list = recList(), cs = countriesOf(list), c = curCountry(), sb = curSub();
     if(!cs.length){ el.classList.add('hide'); el.innerHTML = ''; return; }
-    const cnt = f => list.filter(r=> matchTag(r.tag, f) && (!ui.kind || r.group === ui.kind)).length;
+    const cnt = f => list.filter(r=> matchTag(r.tag, f) && (isPesceView() || !ui.kind || r.group === ui.kind)).length;
     if(!c){
       el.innerHTML = `<button class="chip on" data-r="">Todos los países</button>` +
         cs.map(x=> `<button class="chip" data-r="${esc(x)}"><span class="gdot" style="--gc:${tc(x)}"></span>${esc(x)}<span class="c">${cnt(x)}</span></button>`).join('');
@@ -932,7 +953,7 @@ $('#filter-btn').addEventListener('click', e=>{
 });
 function drawPop(){
   const st = ui.filter[ui.tab] || 'all', tg = ui.tagFilter[ui.tab] || '';
-  const isRec = ui.tab === 'recetas';
+  const isRec = ui.tab === 'recetas' || isPesceView();
   const inTab = isRec ? [] : data.recipes.filter(r=> r.tab === ui.tab);
   const tags = countriesOf(inTab).flatMap(c=> [c, ...subsOf(inTab, c).map(x=> joinTag(c, x))]);
   pop.innerHTML = `<div class="fp-h">Mostrar</div>` +
@@ -960,7 +981,7 @@ function renderMain(){
   document.body.classList.remove('boardmode');
   if(ui.searching){ renderSearch(main); return; }
   if(ui.tab === 'semana'){ renderWeek(main); return; }
-  if(ui.tab === 'recetas'){ renderRegions(main); return; }
+  if(ui.tab === 'recetas' || isPesceView()){ renderRegions(main); return; }
   const tab = ui.tab, g = curGroup();
   const all = data.recipes.filter(r=> r.tab === tab);
   const st = ui.filter[tab] || 'all', tg = ui.tagFilter[tab] || '';
@@ -1002,16 +1023,19 @@ function keepBoard(fn){
 }
 function renderRegions(main){
   const base = recList();
-  if(!base.length){ main.innerHTML = `<div class="empty">Aún no hay recetas.<br>Pulsa <b>+</b> para añadir la primera.</div>`; return; }
+  const head = isPesceView() ? `<div class="pesce-head"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19c0-8 5-14 15-14 0 10-6 15-14 15"/><path d="M5 19c3-4 6-7 10-9"/></svg>Pescetariano <small>sin carne · con pescado, huevo y lácteos</small></div>` : '';
+  if(!base.length){ main.innerHTML = head + (isPesceView()
+    ? `<div class="empty">Aún no hay recetas pescetarianas.<br>Márcalas al editar una receta.</div>`
+    : `<div class="empty">Aún no hay recetas.<br>Pulsa <b>+</b> para añadir la primera.</div>`); return; }
   const cs = countriesOf(base), c = curCountry(), sb = curSub();
-  const st = ui.filter.recetas || 'all', kind = ui.kind || '';
+  const st = ui.filter[ui.tab] || 'all', kind = isPesceView() ? '' : (ui.kind || ''), split = !isPesceView();
   const list = base.filter(r=> (st === 'all' || (st === 'done' ? r.done : !r.done)) && (!kind || r.group === kind));
   const sort = arr => arr.sort((a,b)=> a.name.localeCompare(b.name,'es'));
   const filtering = st !== 'all';
   const card = (r, ctx) => cardInner(r, ctx === 'regionC' && splitTag(r.tag).s ? `<span>${esc(splitTag(r.tag).s)}</span>` : '');
   const body = (items, ctx) => {
     if(!items.length) return `<div class="col-empty">${filtering ? 'Nada con este filtro' : 'Vacío'}</div>`;
-    if(kind) return items.map(r=> card(r, ctx)).join('');
+    if(kind || !split) return items.map(r=> card(r, ctx)).join('');
     return [...GROUPS.recetas, ''].map(g=>{
       const its = items.filter(r=> (GROUPS.recetas.includes(r.group) ? r.group : '') === g);
       return its.length ? `<div class="col-sub">${g ? `<span class="gdot" style="--gc:${gc(g)};margin:0"></span>` : ''}${esc(g || 'Sin tipo')}<span class="c">${its.length}</span></div>` + its.map(r=> card(r, ctx)).join('') : '';
@@ -1022,17 +1046,18 @@ function renderRegions(main){
       <div class="col-body">${body(items, ctx)}
         <button class="col-add" data-addtag="${esc(tag)}">+ Añadir</button></div>
     </section>`;
-  const board = html => { main.innerHTML = `<div class="board">${html}</div>`; document.body.classList.add('boardmode'); fitBoard(); };
+  const board = html => { main.innerHTML = head + `<div class="board">${html}</div>`; document.body.classList.add('boardmode'); fitBoard(); };
   const noOrigin = sort(list.filter(r=> !splitTag(r.tag).c));
   if(sb){
     // una región: salado y dulce, cada uno con su título
     const f = joinTag(c, sb), items = list.filter(r=> matchTag(r.tag, f));
     let html = '';
-    [...GROUPS.recetas, ''].forEach(g=>{
+    if(!split) html = sort(items).map(r=> cardInner(r, '')).join('');
+    else [...GROUPS.recetas, ''].forEach(g=>{
       const its = sort(items.filter(r=> (GROUPS.recetas.includes(r.group) ? r.group : '') === g));
       if(its.length) html += `<div class="ghead"><span class="t">${esc(g || 'Sin grupo')}</span><span class="c">${its.length}</span></div>` + its.map(r=> cardInner(r, '')).join('');
     });
-    main.innerHTML = `<div class="list">${html || `<div class="muted" style="padding:6px 0 10px;">${filtering ? 'Nada con este filtro.' : 'Aún no hay recetas aquí.'}</div>`}<button class="col-add" data-addtag="${esc(f)}">+ Añadir</button></div>`;
+    main.innerHTML = head + `<div class="list">${html || `<div class="muted" style="padding:6px 0 10px;">${filtering ? 'Nada con este filtro.' : 'Aún no hay recetas aquí.'}</div>`}<button class="col-add" data-addtag="${esc(f)}">+ Añadir</button></div>`;
     return;
   }
   if(c){
@@ -1063,7 +1088,7 @@ function renderSearch(main){
 function cardInner(r, where){
   const sub = [where, inWeek(r.id) ? '<span class="wk">semana</span>' : ''].join('');
   return `<div class="rcard${r.done?' done':''}" data-id="${r.id}">
-    <button class="open"><span class="n">${esc(r.name)}</span><span class="sub">${sub}</span></button>
+    <button class="open"><span class="n">${esc(r.name)}${r.pesce && !isPesceView() ? `<span class="pz" title="Pescetariana"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19c0-8 5-14 15-14 0 10-6 15-14 15"/><path d="M5 19c3-4 6-7 10-9"/></svg></span>` : ''}</span><span class="sub">${sub}</span></button>
     ${hasContent(r) ? '<span class="dot" title="tiene receta"></span>' : ''}
     <button class="chk${r.done?' on':''}" aria-label="Hecha"><i></i></button>
   </div>`;
@@ -1274,7 +1299,7 @@ function partsHTML(r){
 }
 function readHTML(r){
   const shown = shownParts(r);
-  const meta = r.group || r.tag;
+  const meta = r.group || r.tag || r.pesce;
   return `<div class="sh-head">
       <button class="x" data-act="close" aria-label="Cerrar">✕</button>
       <h2>${esc(r.name)}</h2>
@@ -1285,7 +1310,7 @@ function readHTML(r){
         <button class="pill${r.done?' on':''}" data-act="done">${r.done?'✓ hecha':'marcar hecha'}</button>
         <button class="pill wkp${inWeek(r.id)?' on':''}" data-act="week">${inWeek(r.id)?'✓ en la semana':'+ semana'}</button>
       </div>
-      ${meta?`<div class="meta-line">${r.group?`<span class="gp" style="--gc:${gc(r.group)}">${esc(r.group)}</span>`:''}${r.tag?` <span class="gp" style="--gc:${tc(leafTag(r.tag))};margin-left:6px;">${esc(tagLabel(r.tag))}</span>`:''}</div>`:''}
+      ${meta?`<div class="meta-line">${r.group?`<span class="gp" style="--gc:${gc(r.group)}">${esc(r.group)}</span>`:''}${r.tag?` <span class="gp" style="--gc:${tc(leafTag(r.tag))};margin-left:6px;">${esc(tagLabel(r.tag))}</span>`:''}${r.pesce?` <span class="gp" style="--gc:#e6f6ea;color:#2f9e44;margin-left:6px;">Pescetariana</span>`:''}</div>`:''}
       ${(r.yield || anyNumeric(r)) && hasContent(r) ? `<div class="ficha-top"><span class="lb">Raciones</span>${anyNumeric(r) ? scalerHTML(r, fichaTarget, 'data-fsc') : `<span>${esc(r.yield)}</span>`}</div>` : ''}
       ${shown.length > 1 ? `<div class="compo"><span class="lbl">Composición</span><ol>${shown.map((p,i)=> `<li><button data-goto="${i}">${esc(p.name || 'Elaboración ' + (i+1))}</button></li>`).join('')}</ol></div>` : ''}
       <div id="f-parts">${partsHTML(r)}</div>
@@ -1307,6 +1332,8 @@ function editHTML(r){
         <div class="seg">${TABS.map(t=> `<button data-tabset="${t.id}" class="${r.tab===t.id?'on':''}">${t.label}</button>`).join('')}</div></div>
       <div class="f"><span class="lb">Grupo</span>
         <div class="chips">${GROUPS[r.tab].map(g=> `<button class="chip${r.group===g?' on':''}" data-groupset="${esc(g)}"><span class="gdot" style="--gc:${gc(g)}"></span>${esc(g)}</button>`).join('')}</div></div>
+      ${r.tab === 'recetas' ? `<div class="f"><span class="lb">Pescetariana (sin carne)</span>
+        <div class="pseg"><button data-pesce="1" class="${r.pesce?'on':''}">Sí</button><button data-pesce="0" class="${!r.pesce?'on':''}">No</button></div></div>` : ''}
       <div class="row2">
         <div class="f"><label>País</label><input class="in" data-tagc value="${esc(splitTag(r.tag).c)}" list="countries-dl" placeholder="España, Perú… (opcional)" autocomplete="off"></div>
         <div class="f"><label>Región</label><input class="in" data-tags value="${esc(splitTag(r.tag).s)}" list="subs-dl" placeholder="Navarra… (opcional)" autocomplete="off"></div>
@@ -1381,6 +1408,8 @@ function mountFicha(sh, r){
     }
     const ts = e.target.closest('[data-tabset]');
     if(ts){ flushFicha(); r.tab = ts.dataset.tabset; if(!GROUPS[r.tab].includes(r.group)) r.group = ''; save(); drawFicha(sh, true); return; }
+    const pz = e.target.closest('[data-pesce]');
+    if(pz){ r.pesce = pz.dataset.pesce === '1'; sh.querySelectorAll('[data-pesce]').forEach(b=> b.classList.toggle('on', b === pz)); save(); return; }
     const gs = e.target.closest('[data-groupset]');
     if(gs){
       r.group = r.group === gs.dataset.groupset ? '' : gs.dataset.groupset;
@@ -1459,9 +1488,10 @@ function refreshTagsDatalist(){
 
 /* ---------- añadir rápido ---------- */
 $('#fab').addEventListener('click', ()=> ui.space === 'despensa' ? openItem(null, curZone() ? curZone().id : null)
-  : ui.tab === 'recetas' ? openNew(ui.kind || null, joinTag(curCountry(), curSub())) : openNew());
-function openNew(group, tag){
-  const tab = ui.tab === 'semana' ? 'recetas' : ui.tab;
+  : (ui.tab === 'recetas' || isPesceView()) ? openNew(isPesceView() ? null : (ui.kind || null), joinTag(curCountry(), curSub()), isPesceView()) : openNew());
+function openNew(group, tag, pesce){
+  const tab = (ui.tab === 'semana' || ui.tab === 'pesce') ? 'recetas' : ui.tab;
+  if(pesce == null) pesce = isPesceView();
   let newGroup = group != null ? group : (tab === 'recetas' ? '' : curGroup());
   tag = tag || '';
   const label = TABS.find(t=> t.id === tab).label;
@@ -1472,6 +1502,7 @@ function openNew(group, tag){
     <div class="sh-body">
       <div class="f"><input class="in" id="new-name" placeholder="Nombre" autocomplete="off" enterkeyhint="done"></div>
       <div class="f"><span class="lb">Grupo</span><div class="chips">${GROUPS[tab].map(g=> `<button class="chip${newGroup===g?' on':''}" data-g="${esc(g)}"><span class="gdot" style="--gc:${gc(g)}"></span>${esc(g)}</button>`).join('')}</div></div>
+      ${pesce ? `<p class="muted" style="margin-top:12px;"><span class="gp" style="--gc:#e6f6ea;color:#2f9e44;">Pescetariana</span></p>` : ''}
       ${tag ? `<p class="muted" style="margin-top:12px;">Origen: <span class="gp" style="--gc:${tc(leafTag(tag))}">${esc(tagLabel(tag))}</span></p>` : ''}
       <div class="foot" style="margin-top:22px;">
         <button class="sh-btn primary" data-act="add" style="height:44px;">Añadir</button>
@@ -1484,7 +1515,7 @@ function openNew(group, tag){
       const add = (open)=>{
         const name = inp.value.trim();
         if(!name){ shake(inp); inp.focus(); return; }
-        const r = { id: uid(), tab, name, group: newGroup, tag, yield:'', parts:[{name:'', ings:[], steps:''}], notes:'', done:false };
+        const r = { id: uid(), tab, name, group: newGroup, tag, yield:'', parts:[{name:'', ings:[], steps:''}], notes:'', done:false, pesce: !!pesce };
         data.recipes.push(r); save();
         if(open){ render(); openFicha(r.id, true); return; }
         inp.value = ''; inp.focus(); renderGroups(); renderMain(); toast(`Añadida: ${name}`);
