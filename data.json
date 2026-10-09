@@ -9195,6 +9195,4642 @@
    "notes": "La miel da el color dorado característico. El anko también se vende ya hecho.",
    "done": false,
    "pesce": false
+  },
+  {
+   "id": "r-conservas-chucrut",
+   "tab": "conservas",
+   "name": "Chucrut",
+   "group": "Fermentos",
+   "tag": "Alemania",
+   "yield": "2 tarros de 1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2,25",
+       "u": "kg",
+       "n": "Col blanca firme"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Sal sin yodo (≈2,2 % del peso de la col)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Salmuera de reserva: 25 g de sal por litro de agua hervida y fría"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Retirar las hojas exteriores, lavar la col, cortarla en cuartos, quitar el troncho y cortarla en juliana de 5 mm.",
+      "Mezclar la col con la sal en un recipiente amplio y masajear hasta que suelte jugo.",
+      "Prensar la col con fuerza en un recipiente de fermentación de vidrio, barro o plástico alimentario, dejando 10 cm libres hasta el borde.",
+      "Comprobar que el jugo cubre la col; si no, añadir salmuera de reserva.",
+      "Cubrir con un plato y un peso (o una bolsa con salmuera) y tapar con un paño.",
+      "Fermentar a 21–24 ºC durante 3–4 semanas (a 15–18 ºC, 5–6 semanas).",
+      "Revisar 2–3 veces por semana y retirar la espuma o telilla que aparezca en superficie.",
+      "Cuando deje de burbujear y tenga el punto ácido deseado, pasar a tarros y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA). Por debajo de 15 ºC puede no fermentar y por encima de 24 ºC se ablanda. Si queda blando, viscoso o huele mal, desechar. En nevera dura varios meses.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-kimchi",
+   "tab": "conservas",
+   "name": "Kimchi",
+   "group": "Fermentos",
+   "tag": "Corea del Sur",
+   "yield": "1 tarro de 2 l",
+   "parts": [
+    {
+     "name": "Salado de la col",
+     "ings": [
+      {
+       "q": "2",
+       "u": "kg",
+       "n": "Col china (napa)"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Sal marina gruesa"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar la col en cuartos a lo largo y lavarla.",
+      "Espolvorear la sal entre las hojas, sobre todo en la parte blanca, y añadir un poco de agua.",
+      "Reposar 6–8 h, girándola cada 2 h, hasta que las hojas se doblen sin romperse.",
+      "Aclarar tres veces en agua fría y escurrir boca abajo 1 h."
+     ]
+    },
+    {
+     "name": "Pasta y fermentación",
+     "ings": [
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Harina de arroz glutinoso"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Gochugaru (chile coreano en copos)"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "15",
+       "u": "g",
+       "n": "Jengibre"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Salsa de pescado"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Saeujeot (gamba fermentada, opcional)"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Azúcar"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Rábano daikon"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Cebolleta"
+      }
+     ],
+     "steps": [
+      "Cocer la harina de arroz con el agua removiendo hasta que espese como una crema y enfriar.",
+      "Mezclar la pasta fría con el gochugaru, el ajo y el jengibre rallados, la salsa de pescado, el saeujeot picado y el azúcar.",
+      "Añadir el daikon en bastones finos y la cebolleta en trozos de 3 cm.",
+      "Untar la mezcla entre todas las hojas de la col, doblar cada cuarto sobre sí mismo y apretar en el tarro, sin aire, dejando 5 cm libres.",
+      "Fermentar a temperatura ambiente (18–20 ºC) 1–2 días, presionando cada día para que el jugo cubra.",
+      "Pasar a la nevera y dejar madurar al gusto."
+     ]
+    }
+   ],
+   "notes": "Fuente: Oregon State University Extension. La sal final debe quedar entre el 2 y el 5 % y conviene tenerlo siempre en nevera. Mantener las verduras sumergidas en su jugo. Para versión pescetariana sin pescado, sustituir la salsa de pescado por salsa de soja.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-kombucha",
+   "tab": "conservas",
+   "name": "Kombucha",
+   "group": "Fermentos",
+   "tag": "",
+   "yield": "3,8 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "3,8",
+       "u": "l",
+       "n": "Agua sin cloro"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Bolsita de té negro"
+      },
+      {
+       "q": "13",
+       "u": "ud.",
+       "n": "Bolsita de té verde"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Azúcar blanco"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "SCOBY (madre de kombucha)"
+      },
+      {
+       "q": "380",
+       "u": "ml",
+       "n": "Kombucha de una tanda anterior (líquido de arranque)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar y desinfectar todo el material con agua a más de 77 ºC durante 30 s.",
+      "Comprobar con tiras de pH que el líquido de arranque tiene pH 4,0 o menos; si no, no usarlo.",
+      "Calentar 1 l de agua a 71–77 ºC e infusionar el té 2 min. Retirar las bolsitas.",
+      "Disolver el azúcar en el té caliente y verterlo en el recipiente de fermentación.",
+      "Añadir los 2,8 l de agua fría y comprobar que la mezcla está por debajo de 35 ºC.",
+      "Añadir el SCOBY y el líquido de arranque y remover 10 s.",
+      "Tapar con un paño o filtro de café sujeto con goma (nunca hermético) y anotar la fecha.",
+      "Fermentar a 20–25 ºC durante 7–10 días.",
+      "Pasar a botellas limpias, refrigerar enseguida y consumir en 30 días. Reservar SCOBY y líquido para la siguiente tanda."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA). No cerrar herméticamente ni dejar botellas a temperatura ambiente: el CO₂ puede reventarlas. Si se aromatiza con fruta o jengibre tras fermentar, tomar enseguida o guardar en nevera un máximo de 2 días.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-kefir-de-leche",
+   "tab": "conservas",
+   "name": "Kéfir de leche",
+   "group": "Fermentos",
+   "tag": "Rusia / Cáucaso",
+   "yield": "1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Leche entera"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Nódulos de kéfir de leche"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Poner los nódulos en un tarro de vidrio limpio y añadir la leche, dejando espacio libre.",
+      "Tapar sin apretar o con un paño.",
+      "Fermentar a 20–25 ºC durante 24 h, hasta que espese y huela ácido.",
+      "Colar con un colador de plástico, sin presionar, y guardar el kéfir en nevera.",
+      "Volver a poner los nódulos con leche fresca para la siguiente tanda."
+     ]
+    }
+   ],
+   "notes": "Si se pasa de fermentación se separa el suero: remover y tomar igual. Los nódulos crecen; el sobrante se puede regalar o congelar.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-kefir-de-agua",
+   "tab": "conservas",
+   "name": "Kéfir de agua",
+   "group": "Fermentos",
+   "tag": "México",
+   "yield": "1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua sin cloro"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Azúcar moreno"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Nódulos de kéfir de agua (tibicos)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Higo seco"
+      },
+      {
+       "q": "½",
+       "u": "ud.",
+       "n": "Limón en rodajas"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Disolver el azúcar en el agua.",
+      "Añadir los nódulos, el higo y el limón.",
+      "Tapar con un paño y fermentar a 20–25 ºC durante 48 h.",
+      "Colar, retirar el higo y el limón y reservar los nódulos para otra tanda.",
+      "Para que tenga gas, embotellar y dejar 24 h más a temperatura ambiente, abriendo con cuidado.",
+      "Guardar en nevera y consumir en una semana."
+     ]
+    }
+   ],
+   "notes": "Los tibicos tienen tradición en México. En la segunda fermentación en botella cerrada, aliviar la presión cada 12 h para evitar que revienten.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-yogur-natural",
+   "tab": "conservas",
+   "name": "Yogur natural",
+   "group": "Fermentos",
+   "tag": "Bulgaria",
+   "yield": "1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Leche entera"
+      },
+      {
+       "q": "2",
+       "u": "cda.",
+       "n": "Yogur natural con fermentos vivos"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar la leche a 85–90 ºC y mantener 10 min, removiendo.",
+      "Enfriar a 43 ºC.",
+      "Disolver el yogur en un poco de leche y mezclarlo con el resto.",
+      "Repartir en tarros limpios y tapar.",
+      "Incubar a 42–44 ºC durante 5–8 h (yogurtera, horno con la luz encendida o nevera de camping con agua caliente).",
+      "Refrigerar en cuanto cuaje. Dura 1–2 semanas en nevera."
+     ]
+    }
+   ],
+   "notes": "Calentar a 85–90 ºC hace que quede más firme. Guardar 2 cucharadas para la siguiente tanda.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-masa-madre",
+   "tab": "conservas",
+   "name": "Masa madre",
+   "group": "Fermentos",
+   "tag": "",
+   "yield": "200 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "350",
+       "u": "g",
+       "n": "Harina integral de trigo o centeno"
+      },
+      {
+       "q": "350",
+       "u": "ml",
+       "n": "Agua sin cloro"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Día 1: mezclar 50 g de harina con 50 ml de agua en un tarro, tapar sin apretar y dejar a 24–26 ºC.",
+      "Días 2 a 7: cada 24 h, desechar la mitad y añadir 50 g de harina y 50 ml de agua.",
+      "Estará lista cuando doble su volumen 4–8 h después de alimentarla y huela a yogur o fruta ácida.",
+      "Para mantenerla, guardar en nevera y alimentarla una vez por semana (1 parte de masa, 1 de harina, 1 de agua)."
+     ]
+    }
+   ],
+   "notes": "Al principio puede haber burbujas y olores raros que luego se estabilizan. Desechar si aparece moho de colores.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-miso",
+   "tab": "conservas",
+   "name": "Miso",
+   "group": "Fermentos",
+   "tag": "Japón",
+   "yield": "3,5 kg",
+   "parts": [
+    {
+     "name": "Preparación",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Soja amarilla seca"
+      },
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Koji de arroz"
+      },
+      {
+       "q": "350",
+       "u": "g",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar la soja en abundante agua 18 h.",
+      "Cocerla en agua nueva a fuego suave 4–5 h, hasta que se aplaste fácilmente entre los dedos (o 30 min en olla a presión).",
+      "Mezclar el koji desmenuzado con los 350 g de sal.",
+      "Escurrir la soja, reservando un poco del agua de cocción, y aplastarla hasta hacer un puré.",
+      "Mezclar el puré templado con el koji salado; si queda seco, añadir agua de cocción hasta textura de plastilina."
+     ]
+    },
+    {
+     "name": "Envasado y maduración",
+     "ings": [
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Sal (para la superficie)"
+      }
+     ],
+     "steps": [
+      "Hacer bolas con la mezcla y lanzarlas con fuerza al fondo de un recipiente limpio para no dejar aire.",
+      "Alisar la superficie y cubrir con los 50 g de sal.",
+      "Cubrir con film a piel, un plato y un peso de unos 500 g. Tapar.",
+      "Guardar en un lugar fresco y oscuro.",
+      "A los 2 meses, remover, dar la vuelta y volver a prensar; retirar el moho de la superficie si aparece.",
+      "Madurar de 3 meses a 1 año."
+     ]
+    }
+   ],
+   "notes": "Fuente: All About (Japón), receta de miso casero. El moho blanco superficial es normal y se retira. Una vez a punto, guardar en nevera.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-tepache",
+   "tab": "conservas",
+   "name": "Tepache",
+   "group": "Fermentos",
+   "tag": "México",
+   "yield": "2 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Piña madura (la cáscara y el corazón)"
+      },
+      {
+       "q": "2",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Piloncillo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Clavo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar bien la piña y cortar la cáscara y el corazón en trozos. La pulpa se puede comer aparte.",
+      "Disolver el piloncillo en 500 ml de agua caliente con la canela y el clavo y dejar enfriar.",
+      "Poner la piña en un recipiente de vidrio o barro con el resto del agua y el almíbar frío.",
+      "Tapar con un paño y fermentar a 20–25 ºC durante 2–3 días, retirando la espuma.",
+      "Colar, embotellar y refrigerar. Tomar frío en una semana."
+     ]
+    }
+   ],
+   "notes": "La receta de 1947 de la Enciclopedia del Hogar añadía cebada cocida en la segunda fase. Si se deja más días se vuelve alcohólico y después avinagra.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-kvas-de-pan",
+   "tab": "conservas",
+   "name": "Kvas de pan",
+   "group": "Fermentos",
+   "tag": "Rusia",
+   "yield": "3 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Pan de centeno negro"
+      },
+      {
+       "q": "3",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Levadura seca de panadería"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Pasas"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Tostar el pan en rebanadas en el horno a 180 ºC hasta que esté bien seco y oscuro.",
+      "Verter el agua hirviendo sobre el pan, tapar y dejar reposar 4–6 h.",
+      "Colar presionando ligeramente.",
+      "Disolver el azúcar en el líquido tibio y añadir la levadura.",
+      "Fermentar tapado con un paño a 20–25 ºC durante 12–24 h.",
+      "Embotellar con unas pasas en cada botella y dejar 6–12 h más para que coja gas.",
+      "Refrigerar y consumir en 3–4 días."
+     ]
+    }
+   ],
+   "notes": "Bebida tradicional del este de Europa, con muy poco alcohol. Abrir con cuidado por la presión.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-pepinillos-fermentados-ogorki-kiszone",
+   "tab": "conservas",
+   "name": "Pepinillos fermentados (ogórki kiszone)",
+   "group": "Fermentos",
+   "tag": "Polonia",
+   "yield": "1 tarro de 3 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "kg",
+       "n": "Pepinillos pequeños y firmes"
+      },
+      {
+       "q": "1,5",
+       "u": "l",
+       "n": "Agua sin cloro"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Sal sin yodo"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Rama de eneldo con flor"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Trozo de raíz de rábano picante"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Hoja de vid, grosella o rábano picante"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar los pepinillos y dejarlos 2 h en agua muy fría.",
+      "Cortar 2 mm del extremo de la flor.",
+      "Poner en el tarro la mitad del eneldo, el ajo, el rábano picante y las hojas.",
+      "Colocar los pepinillos de pie y apretados y cubrir con el resto de aromáticos.",
+      "Disolver la sal en el agua y verter hasta cubrir.",
+      "Mantener sumergidos con un peso y tapar sin cerrar herméticamente.",
+      "Fermentar a 18–22 ºC: a los 2–3 días son «małosolne» (poco fermentados); a los 7–10 días, totalmente fermentados.",
+      "Guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Las hojas aportan taninos que los mantienen crujientes. Evitar temperaturas por encima de 27 ºC. Desechar si se ponen blandos o viscosos (NCHFP).",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-salsa-picante-fermentada",
+   "tab": "conservas",
+   "name": "Salsa picante fermentada",
+   "group": "Fermentos",
+   "tag": "Estados Unidos / Luisiana",
+   "yield": "500 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Chile fresco (jalapeño, fresno o mezcla)"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Agua sin cloro"
+      },
+      {
+       "q": "15",
+       "u": "g",
+       "n": "Sal sin yodo"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Vinagre de vino blanco"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Quitar el rabito a los chiles y cortarlos por la mitad (usar guantes).",
+      "Meter los chiles y el ajo en un tarro.",
+      "Disolver la sal en el agua (salmuera al 3 %) y cubrir.",
+      "Mantener sumergidos con un peso, tapar sin cerrar y fermentar a 20–24 ºC entre 1 y 3 semanas.",
+      "Escurrir, reservando la salmuera.",
+      "Triturar con el vinagre y un poco de salmuera hasta la textura deseada. Colar si se quiere fina.",
+      "Embotellar y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "El vinagre final la estabiliza. En nevera aguanta varios meses.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-ginger-beer",
+   "tab": "conservas",
+   "name": "Ginger beer",
+   "group": "Fermentos",
+   "tag": "Reino Unido",
+   "yield": "2 l",
+   "parts": [
+    {
+     "name": "Ginger bug (fermento)",
+     "ings": [
+      {
+       "q": "70",
+       "u": "g",
+       "n": "Jengibre fresco"
+      },
+      {
+       "q": "70",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Agua sin cloro"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar 2 cucharadas de jengibre rallado con piel, 2 de azúcar y el agua en un tarro.",
+      "Tapar con un paño y dejar a 20–25 ºC.",
+      "Cada día durante 5 días, añadir 1 cucharada de jengibre rallado y 1 de azúcar.",
+      "Estará listo cuando burbujee y huela a levadura."
+     ]
+    },
+    {
+     "name": "Ginger beer",
+     "ings": [
+      {
+       "q": "2",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Jengibre fresco rallado"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Limón (el zumo)"
+      }
+     ],
+     "steps": [
+      "Hervir el jengibre con el agua 10 min y disolver el azúcar. Enfriar.",
+      "Colar y añadir el zumo de limón y 250 ml de líquido colado del ginger bug.",
+      "Embotellar en botellas resistentes a la presión, dejando 3 cm libres.",
+      "Fermentar 1–3 días a temperatura ambiente, aliviando la presión cada día.",
+      "Refrigerar y consumir en una semana."
+     ]
+    }
+   ],
+   "notes": "Bebida carbonatada tradicional inglesa con muy poco alcohol. Mucho cuidado con la presión: usar botellas de cierre mecánico o de plástico para controlar cuándo están duras.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-natto",
+   "tab": "conservas",
+   "name": "Natto",
+   "group": "Fermentos",
+   "tag": "Japón / Kanto",
+   "yield": "600 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Soja pequeña (para natto)"
+      },
+      {
+       "q": "1",
+       "u": "g",
+       "n": "Esporas de Bacillus subtilis natto (o 1 cda de natto comprado)"
+      },
+      {
+       "q": "2",
+       "u": "cda.",
+       "n": "Agua hervida"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar la soja 12–18 h en abundante agua.",
+      "Cocer al vapor 4–6 h o 45 min en olla a presión, hasta que se aplaste fácilmente.",
+      "Disolver las esporas en el agua hervida tibia y mezclar con la soja todavía caliente.",
+      "Extender en capas de 2–3 cm en recipientes limpios, tapar con papel de aluminio con agujeros.",
+      "Fermentar a 40 ºC durante 22–24 h (horno con la luz, deshidratador o yogurtera).",
+      "Enfriar y madurar en nevera 24 h antes de comer."
+     ]
+    }
+   ],
+   "notes": "Típico de Mito (Ibaraki). Debe formar hilos al remover. Se congela bien en raciones.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-tempeh",
+   "tab": "conservas",
+   "name": "Tempeh",
+   "group": "Fermentos",
+   "tag": "Indonesia / Java",
+   "yield": "500 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Soja descascarillada"
+      },
+      {
+       "q": "15",
+       "u": "ml",
+       "n": "Vinagre de vino blanco"
+      },
+      {
+       "q": "2",
+       "u": "g",
+       "n": "Esporas de Rhizopus (iniciador de tempeh)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar la soja 12 h y frotar para soltar la piel. Retirar las cáscaras.",
+      "Cocer 30 min en agua con el vinagre.",
+      "Escurrir y secar muy bien con un paño hasta que no quede humedad.",
+      "Esperar a que esté a temperatura ambiente y mezclar con las esporas.",
+      "Repartir en bolsas de plástico con agujeros cada 2 cm, aplanando a 2–3 cm.",
+      "Fermentar a 30–32 ºC durante 24–36 h, hasta que un micelio blanco una todos los granos.",
+      "Refrigerar. Unas manchas grises o negras junto a los agujeros son normales."
+     ]
+    }
+   ],
+   "notes": "Desechar si huele a amoníaco fuerte o aparece moho de otros colores. Cocinar siempre antes de comer.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-creme-fraiche",
+   "tab": "conservas",
+   "name": "Crème fraîche",
+   "group": "Fermentos",
+   "tag": "Francia / Normandía",
+   "yield": "500 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Nata 35 % MG pasteurizada (mejor no UHT)"
+      },
+      {
+       "q": "2",
+       "u": "cda.",
+       "n": "Suero de mantequilla o yogur natural"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Templar la nata a 25 ºC.",
+      "Mezclar con el suero de mantequilla.",
+      "Pasar a un tarro limpio y tapar sin apretar.",
+      "Dejar a 22–25 ºC entre 12 y 24 h, hasta que espese.",
+      "Refrigerar: espesa más en frío. Dura 1–2 semanas."
+     ]
+    }
+   ],
+   "notes": "Típica de Normandía. Aguanta la cocción sin cortarse, a diferencia de la nata agria.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-limones-encurtidos-en-sal",
+   "tab": "conservas",
+   "name": "Limones encurtidos en sal",
+   "group": "Fermentos",
+   "tag": "Marruecos",
+   "yield": "1 tarro de 1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Limón (mejor de piel fina, sin tratar)"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Sal marina gruesa"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Limón (el zumo)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar los limones y cortarlos en cruz desde la punta, sin llegar a separar la base.",
+      "Rellenar cada uno con una cucharada colmada de sal.",
+      "Apretarlos en el tarro para que suelten jugo, con sal entre capas.",
+      "Cubrir con el zumo de limón hasta que queden sumergidos.",
+      "Cerrar y dejar a temperatura ambiente 3–4 semanas, girando el tarro cada día los primeros días.",
+      "Usar solo la piel, aclarada. Guardar en nevera una vez abiertos."
+     ]
+    }
+   ],
+   "notes": "Básicos en tajines y ensaladas marroquíes. Duran meses en nevera, siempre cubiertos de jugo.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-curtido-salvadoreno",
+   "tab": "conservas",
+   "name": "Curtido salvadoreño",
+   "group": "Fermentos",
+   "tag": "El Salvador",
+   "yield": "1 tarro de 1,5 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Repollo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Chile jalapeño (opcional)"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Orégano seco"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Sal sin yodo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar el repollo en juliana fina, rallar la zanahoria y cortar la cebolla en juliana.",
+      "Mezclar con el chile picado, el orégano y la sal y masajear hasta que suelte jugo.",
+      "Apretar en un tarro hasta que el jugo cubra las verduras y poner un peso.",
+      "Fermentar a 20–24 ºC entre 3 y 5 días.",
+      "Guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Acompañamiento clásico de las pupusas. La versión rápida no fermenta: se escalda el repollo y se aliña con vinagre.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-masa-de-idli",
+   "tab": "conservas",
+   "name": "Masa de idli",
+   "group": "Fermentos",
+   "tag": "India / Tamil Nadu",
+   "yield": "24 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Arroz para idli (vaporizado)"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Urad dal pelado"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Semillas de fenogreco"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar el arroz y, por separado, el urad dal con el fenogreco, 6 h.",
+      "Triturar el urad dal con poca agua fría hasta obtener una crema esponjosa.",
+      "Triturar el arroz hasta una textura de sémola fina.",
+      "Mezclar las dos masas con la sal, removiendo con la mano.",
+      "Tapar y fermentar a 25–30 ºC entre 8 y 12 h, hasta que doble su volumen.",
+      "Cocer al vapor en moldes de idli engrasados 10–12 min."
+     ]
+    }
+   ],
+   "notes": "La masa fermentada aguanta 3–4 días en nevera. Con más agua sirve para dosas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-vinagre-casero",
+   "tab": "conservas",
+   "name": "Vinagre casero",
+   "group": "Fermentos",
+   "tag": "Francia",
+   "yield": "750 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "750",
+       "u": "ml",
+       "n": "Vino tinto o blanco (máximo 10–12 % vol.)"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Vinagre sin pasteurizar con madre"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar el vino y el vinagre con madre en un tarro de boca ancha.",
+      "Cubrir con una gasa sujeta con goma para que entre aire y no insectos.",
+      "Dejar en un lugar oscuro a 20–28 ºC durante 2–3 meses, sin mover.",
+      "Se formará una película (la madre). Probar: cuando no quede sabor a alcohol, está hecho.",
+      "Colar, embotellar y guardar. Reservar la madre y un poco de vinagre para otra tanda."
+     ]
+    }
+   ],
+   "notes": "Método tradicional de Orleans. Si el vino tiene más de 12 % vol., rebajarlo con agua. El vinagre casero no tiene acidez garantizada: no usarlo para conservas que dependan del vinagre.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-pepinillos-en-vinagre-al-eneldo",
+   "tab": "conservas",
+   "name": "Pepinillos en vinagre al eneldo",
+   "group": "Encurtidos",
+   "tag": "",
+   "yield": "4 tarros de 500 ml",
+   "parts": [
+    {
+     "name": "Remojo",
+     "ings": [
+      {
+       "q": "1,8",
+       "u": "kg",
+       "n": "Pepinillos de 8–12 cm"
+      },
+      {
+       "q": "3,8",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "110",
+       "u": "g",
+       "n": "Sal sin yodo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar los pepinillos y cortar 2 mm del extremo de la flor, dejando 5 mm de rabito.",
+      "Disolver la sal en el agua, cubrir los pepinillos y dejar 12 h. Escurrir."
+     ]
+    },
+    {
+     "name": "Encurtido y esterilizado",
+     "ings": [
+      {
+       "q": "700",
+       "u": "ml",
+       "n": "Vinagre de vino blanco 5 % de acidez"
+      },
+      {
+       "q": "950",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "70",
+       "u": "g",
+       "n": "Sal sin yodo"
+      },
+      {
+       "q": "25",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Especias para encurtir"
+      },
+      {
+       "q": "4",
+       "u": "cdta.",
+       "n": "Semillas de mostaza"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Rama de eneldo con flor"
+      }
+     ],
+     "steps": [
+      "Hervir el vinagre, el agua, la sal y el azúcar con las especias atadas en una gasa.",
+      "Llenar los tarros con los pepinillos y poner en cada uno 1 cdta de mostaza y 1 ½ ramas de eneldo.",
+      "Cubrir con el líquido hirviendo, dejando 1 cm libre. Cerrar.",
+      "Esterilizar al baño maría 10 min (tarros de 500 ml) o 15 min (1 l).",
+      "Dejar enfriar 12–24 h y comprobar el vacío."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA), «Quick fresh-pack dill pickles». Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-berenjenas-de-almagro",
+   "tab": "conservas",
+   "name": "Berenjenas de Almagro",
+   "group": "Encurtidos",
+   "tag": "España / Castilla-La Mancha",
+   "yield": "2 tarros de 1 l",
+   "parts": [
+    {
+     "name": "Cocción",
+     "ings": [
+      {
+       "q": "2",
+       "u": "kg",
+       "n": "Berenjena pequeña de Almagro"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar las berenjenas sin quitar el cáliz ni el rabito.",
+      "Cocerlas en agua hirviendo entre 5 y 20 min según el tamaño: deben quedar tiernas pero enteras.",
+      "Escurrir y enfriar."
+     ]
+    },
+    {
+     "name": "Aliño y fermentación",
+     "ings": [
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Vinagre de vino"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Comino molido"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento rojo asado (para las embuchadas)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Ramas de hinojo"
+      }
+     ],
+     "steps": [
+      "Majar el ajo con el comino y la sal y mezclar con el pimentón, el agua, el vinagre y el aceite.",
+      "Para las embuchadas: abrir cada berenjena por arriba, meter una tira de pimiento y atravesar con un trozo de hinojo.",
+      "Colocar las berenjenas en un recipiente y cubrir con el aliño.",
+      "Fermentar a temperatura ambiente entre 4 y 15 días, removiendo con cuidado cada día.",
+      "Pasar a tarros cubiertas de aliño y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Proceso según el pliego de la IGP Berenjena de Almagro: cocción de 5–20 min y fermentación de 4–15 días en el aliño (vinagre, aceite, sal, comino, ajo, pimentón y agua). Las cantidades son orientativas de uso casero. Tipos: aliñadas, embuchadas y troceadas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-guindillas-de-ibarra-en-vinagre",
+   "tab": "conservas",
+   "name": "Guindillas de Ibarra en vinagre",
+   "group": "Encurtidos",
+   "tag": "España / País Vasco",
+   "yield": "3 tarros de 500 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Guindilla verde fresca (de Ibarra)"
+      },
+      {
+       "q": "750",
+       "u": "ml",
+       "n": "Vinagre de vino blanco 5–6 %"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Sal sin yodo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar las guindillas y cortar el rabito dejando 1 cm.",
+      "Pinchar cada una con un palillo para que entre el vinagre.",
+      "Colocarlas de pie y apretadas en los tarros.",
+      "Hervir el vinagre con el agua y la sal y cubrir las guindillas, dejando 1 cm libre.",
+      "Cerrar y esterilizar al baño maría 10 min.",
+      "Esperar 3–4 semanas antes de consumir."
+     ]
+    }
+   ],
+   "notes": "Proporción de 3 partes de vinagre por 1 de agua, que da acidez suficiente. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas. Imprescindibles en la gilda.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-aceitunas-partidas-alinadas",
+   "tab": "conservas",
+   "name": "Aceitunas partidas aliñadas",
+   "group": "Encurtidos",
+   "tag": "España / Andalucía",
+   "yield": "2 tarros de 1 l",
+   "parts": [
+    {
+     "name": "Endulzado",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Aceituna verde fresca (manzanilla o aloreña)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Partir cada aceituna con un golpe seco o hacerle un corte, sin romper el hueso.",
+      "Cubrir con agua y cambiarla cada día durante 10–15 días, hasta que no amarguen.",
+      "Escurrir."
+     ]
+    },
+    {
+     "name": "Salmuera y aliño",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Sal sin yodo"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento rojo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Rama de tomillo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Rama de hinojo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Tira de piel de limón"
+      }
+     ],
+     "steps": [
+      "Hervir el agua con la sal y dejar enfriar (salmuera al 10 %).",
+      "Colocar las aceitunas en tarros alternando con el ajo machacado, el pimiento en tiras y las hierbas.",
+      "Cubrir con la salmuera y cerrar.",
+      "Esperar 1–2 semanas antes de consumir. Guardar en lugar fresco y, una vez abiertas, en nevera."
+     ]
+    }
+   ],
+   "notes": "Estilo de la DOP Aceituna Aloreña de Málaga, que se toma tierna y verde. Mantener siempre cubiertas de salmuera.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-cebolletas-en-vinagre",
+   "tab": "conservas",
+   "name": "Cebolletas en vinagre",
+   "group": "Encurtidos",
+   "tag": "Reino Unido",
+   "yield": "2 tarros de 500 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Cebolletas pequeñas (para encurtir)"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Sal sin yodo"
+      },
+      {
+       "q": "600",
+       "u": "ml",
+       "n": "Vinagre de malta 5 %"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Especias para encurtir"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Escaldar las cebolletas 30 s, enfriar y pelarlas.",
+      "Cubrirlas con la sal y dejarlas 12 h para que suelten agua. Aclarar y secar.",
+      "Hervir el vinagre con el azúcar y las especias 5 min.",
+      "Llenar los tarros con las cebolletas y el laurel y cubrir con el vinagre caliente, dejando 1 cm libre.",
+      "Cerrar y esterilizar al baño maría 10 min.",
+      "Esperar 4 semanas antes de consumir."
+     ]
+    }
+   ],
+   "notes": "Clásico de los pubs ingleses con el ploughman's lunch. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-piccalilli",
+   "tab": "conservas",
+   "name": "Piccalilli",
+   "group": "Encurtidos",
+   "tag": "Reino Unido",
+   "yield": "3 tarros de 500 ml",
+   "parts": [
+    {
+     "name": "Verduras",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Verduras mixtas (coliflor, judía verde, cebolleta, pepino, calabacín)"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Sal sin yodo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar las verduras en trozos pequeños.",
+      "Mezclar con la sal y dejar 12 h. Aclarar bien y escurrir."
+     ]
+    },
+    {
+     "name": "Salsa",
+     "ings": [
+      {
+       "q": "600",
+       "u": "ml",
+       "n": "Vinagre de sidra 5 %"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "2",
+       "u": "cda.",
+       "n": "Mostaza en polvo"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Cúrcuma"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Jengibre molido"
+      },
+      {
+       "q": "2",
+       "u": "cda.",
+       "n": "Maicena"
+      }
+     ],
+     "steps": [
+      "Hervir 500 ml de vinagre con el azúcar.",
+      "Disolver la mostaza, la cúrcuma, el jengibre y la maicena en el resto del vinagre y añadirlo, removiendo hasta que espese.",
+      "Añadir las verduras y cocer 3–4 min: deben quedar crujientes.",
+      "Envasar en tarros limpios y calientes y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Al ser una salsa espesada con maicena, no hay tiempos de esterilización validados: guardar en nevera y consumir en 2 meses.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-remolacha-encurtida",
+   "tab": "conservas",
+   "name": "Remolacha encurtida",
+   "group": "Encurtidos",
+   "tag": "Reino Unido",
+   "yield": "8 tarros de 500 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "3,2",
+       "u": "kg",
+       "n": "Remolacha de 5–6 cm"
+      },
+      {
+       "q": "950",
+       "u": "ml",
+       "n": "Vinagre 5 %"
+      },
+      {
+       "q": "475",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "8",
+       "u": "g",
+       "n": "Sal sin yodo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "12",
+       "u": "ud.",
+       "n": "Clavo"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Cebolla pequeña (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar las hojas dejando 2 cm de tallo y la raíz, para que no sangren.",
+      "Cocer las remolachas en agua hirviendo 25–30 min. Desechar el agua de cocción.",
+      "Enfriar, pelar y cortar en rodajas de 6 mm. Cortar la cebolla en rodajas finas.",
+      "Hervir el vinagre, el agua, el azúcar y la sal con las especias en una gasa.",
+      "Añadir la remolacha y la cebolla y cocer 5 min. Retirar las especias.",
+      "Llenar los tarros dejando 1 cm libre, cubrir con el líquido caliente y cerrar.",
+      "Esterilizar al baño maría 30 min."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA), «Pickled beets». Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-huevos-encurtidos",
+   "tab": "conservas",
+   "name": "Huevos encurtidos",
+   "group": "Encurtidos",
+   "tag": "Reino Unido",
+   "yield": "12 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "12",
+       "u": "ud.",
+       "n": "Huevo pequeño o mediano"
+      },
+      {
+       "q": "350",
+       "u": "ml",
+       "n": "Vinagre blanco"
+      },
+      {
+       "q": "240",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "15",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Eneldo seco"
+      },
+      {
+       "q": "¼",
+       "u": "cdta.",
+       "n": "Pimienta blanca"
+      },
+      {
+       "q": "¼",
+       "u": "cdta.",
+       "n": "Semillas de mostaza"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cocer los huevos 10–12 min, enfriar y pelar.",
+      "Hervir el vinagre, el agua, la sal y las especias 5 min.",
+      "Colocar los huevos en un tarro de 1 l esterilizado y caliente.",
+      "Cubrir con la salmuera caliente, cerrar y refrigerar enseguida.",
+      "Esperar 1–2 semanas antes de comer."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA), versión «dilled eggs». No existe método seguro para conservarlos fuera de la nevera: siempre refrigerados (se han dado casos de botulismo). Consumir en 3–4 meses y no tenerlos más de 2 h fuera de la nevera.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-bread-and-butter-pickles",
+   "tab": "conservas",
+   "name": "Bread and butter pickles",
+   "group": "Encurtidos",
+   "tag": "Estados Unidos",
+   "yield": "8 tarros de 500 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2,7",
+       "u": "kg",
+       "n": "Pepinillos de 10–12 cm"
+      },
+      {
+       "q": "1,4",
+       "u": "kg",
+       "n": "Cebolla en rodajas finas"
+      },
+      {
+       "q": "145",
+       "u": "g",
+       "n": "Sal sin yodo"
+      },
+      {
+       "q": "950",
+       "u": "ml",
+       "n": "Vinagre 5 %"
+      },
+      {
+       "q": "900",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "2",
+       "u": "cda.",
+       "n": "Semillas de mostaza"
+      },
+      {
+       "q": "1 ½",
+       "u": "cda.",
+       "n": "Semillas de apio"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Cúrcuma molida"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Hielo picado"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar 2 mm del extremo de la flor y laminar los pepinillos a 5 mm.",
+      "Mezclar con la cebolla y la sal, cubrir con 5 cm de hielo y dejar 3–4 h en nevera, reponiendo hielo. Escurrir bien.",
+      "Hervir el vinagre, el azúcar y las especias 10 min.",
+      "Añadir los pepinillos y la cebolla y llevar de nuevo a ebullición lentamente.",
+      "Llenar los tarros dejando 1 cm libre y cerrar.",
+      "Esterilizar al baño maría 10 min.",
+      "Dejar reposar 4–5 semanas antes de consumir."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA). Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-giardiniera",
+   "tab": "conservas",
+   "name": "Giardiniera",
+   "group": "Encurtidos",
+   "tag": "Italia",
+   "yield": "3 tarros de 500 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Coliflor en ramilletes"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Zanahoria en rodajas"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Apio en trozos"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Pimiento rojo en tiras"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Cebolletas pequeñas"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Vinagre de vino blanco 6 %"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Pimienta en grano"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hervir el vinagre con el agua, la sal, el azúcar y las especias.",
+      "Escaldar cada verdura por separado en este líquido hasta que esté al dente: 2–3 min la coliflor y la zanahoria, 1 min el resto.",
+      "Escurrir y llenar los tarros, mezclando colores.",
+      "Cubrir con el líquido hirviendo, dejando 1 cm libre.",
+      "Cerrar y esterilizar al baño maría 15 min."
+     ]
+    }
+   ],
+   "notes": "Escaldado en agua y vinagre a partes iguales, como recomienda el Istituto Superiore di Sanità italiano. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-inlagd-sill-arenque-en-vinagre",
+   "tab": "conservas",
+   "name": "Inlagd sill (arenque en vinagre)",
+   "group": "Encurtidos",
+   "tag": "Suecia",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Filete de arenque salado"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Vinagre de alcohol 12 % (ättika)"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "300",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla morada"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Zanahoria pequeña"
+      },
+      {
+       "q": "10",
+       "u": "ud.",
+       "n": "Pimienta de Jamaica en grano"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Desalar los filetes en agua fría en nevera 12 h, cambiando el agua 2 veces.",
+      "Hervir el vinagre, el azúcar y el agua (proporción 1-2-3) y enfriar.",
+      "Cortar el arenque en trozos de 2 cm, la cebolla en aros y la zanahoria en rodajas finas.",
+      "Colocar por capas en un tarro con las especias y cubrir con el líquido frío.",
+      "Marinar en nevera un mínimo de 24 h. Consumir en una semana."
+     ]
+    }
+   ],
+   "notes": "Imprescindible en el smörgåsbord de Navidad y Midsommar. El arenque salado ya viene curado; si se parte de arenque fresco, congelarlo antes por los parásitos.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-chiles-jalapenos-en-escabeche",
+   "tab": "conservas",
+   "name": "Chiles jalapeños en escabeche",
+   "group": "Encurtidos",
+   "tag": "México",
+   "yield": "4 tarros de 500 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Chile jalapeño"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla blanca"
+      },
+      {
+       "q": "10",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite"
+      },
+      {
+       "q": "750",
+       "u": "ml",
+       "n": "Vinagre blanco 5 %"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "15",
+       "u": "g",
+       "n": "Sal sin yodo"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Azúcar"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Orégano mexicano"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Tomillo seco"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar los chiles (con guantes) y hacerles un corte o cortarlos en rodajas. Cortar la zanahoria en rodajas y la cebolla en gajos.",
+      "Sofreír ligeramente los ajos, la cebolla y la zanahoria en el aceite 3 min.",
+      "Añadir el vinagre, el agua, la sal, el azúcar y las hierbas y llevar a ebullición.",
+      "Añadir los chiles y cocer 3–4 min, hasta que cambien a verde oliva.",
+      "Llenar los tarros con las verduras y cubrir con el líquido hirviendo, dejando 1 cm libre.",
+      "Cerrar y esterilizar al baño maría 10 min."
+     ]
+    }
+   ],
+   "notes": "Proporción de 3 partes de vinagre por 1 de agua. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-cebolla-morada-encurtida",
+   "tab": "conservas",
+   "name": "Cebolla morada encurtida",
+   "group": "Encurtidos",
+   "tag": "México / Yucatán",
+   "yield": "1 tarro de 500 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Cebolla morada"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Chile habanero"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Jugo de naranja agria (o mitad naranja, mitad lima)"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Sal"
+      },
+      {
+       "q": "½",
+       "u": "cdta.",
+       "n": "Orégano"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar la cebolla en juliana fina y el habanero en tiras sin semillas (con guantes).",
+      "Escaldar la cebolla 10 s en agua hirviendo y escurrir (opcional, suaviza).",
+      "Mezclar con el habanero, la sal, el orégano y el jugo.",
+      "Guardar en nevera al menos 2 h antes de usar. Dura una semana."
+     ]
+    }
+   ],
+   "notes": "Acompañamiento de la cochinita pibil y los panuchos. Es un encurtido rápido: siempre en nevera.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-achar-de-mango",
+   "tab": "conservas",
+   "name": "Achar de mango",
+   "group": "Encurtidos",
+   "tag": "India",
+   "yield": "1 tarro de 1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Mango verde"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Cúrcuma"
+      },
+      {
+       "q": "2",
+       "u": "cda.",
+       "n": "Semillas de mostaza partidas"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Semillas de fenogreco"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Semillas de hinojo"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Kalonji (comino negro)"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Chile rojo en polvo"
+      },
+      {
+       "q": "½",
+       "u": "cdta.",
+       "n": "Asafétida"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Aceite de mostaza"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar los mangos y secarlos por completo: el agua estropea el achar.",
+      "Cortarlos en trozos con hueso o sin él y mezclar con la sal y la cúrcuma. Dejar 24 h y escurrir el líquido.",
+      "Secar los trozos al sol o al aire 4–6 h sobre un paño.",
+      "Tostar ligeramente el fenogreco y el hinojo y molerlos groseramente.",
+      "Calentar el aceite hasta que humee y dejar templar.",
+      "Mezclar el mango con todas las especias y la mitad del aceite.",
+      "Envasar en un tarro de vidrio seco, cubrir con el resto del aceite y dejar al sol (o en lugar cálido) 5–7 días, removiendo cada día con cuchara seca.",
+      "Mantener siempre cubierto de aceite."
+     ]
+    }
+   ],
+   "notes": "Estilo del norte de la India (aam ka achar). Los trozos deben estar siempre cubiertos de aceite y manipularse con utensilios secos.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-lift-nabos-encurtidos-rosas",
+   "tab": "conservas",
+   "name": "Lift (nabos encurtidos rosas)",
+   "group": "Encurtidos",
+   "tag": "Líbano",
+   "yield": "1 tarro de 1,5 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Nabo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Remolacha pequeña cruda"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Vinagre blanco 5 %"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Sal sin yodo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Pelar los nabos y cortarlos en bastones. Cortar la remolacha en rodajas.",
+      "Colocar los nabos en el tarro intercalando la remolacha y el ajo.",
+      "Hervir el agua con la sal, retirar y añadir el vinagre. Dejar templar.",
+      "Cubrir las verduras con el líquido y cerrar.",
+      "Dejar a temperatura ambiente 5–7 días, hasta que se pongan rosas, y pasar a la nevera."
+     ]
+    }
+   ],
+   "notes": "La remolacha da el color rosa. Imprescindible en el shawarma y los mezze.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-gari-jengibre-encurtido",
+   "tab": "conservas",
+   "name": "Gari (jengibre encurtido)",
+   "group": "Encurtidos",
+   "tag": "Japón",
+   "yield": "1 tarro de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Jengibre tierno"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Sal"
+      },
+      {
+       "q": "120",
+       "u": "ml",
+       "n": "Vinagre de arroz"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Azúcar"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Pelar el jengibre con una cuchara y laminarlo muy fino a favor de la fibra.",
+      "Mezclar con la sal y dejar 30 min.",
+      "Escaldar 1 min en agua hirviendo y escurrir bien.",
+      "Hervir el vinagre con el azúcar y verterlo sobre el jengibre en un tarro.",
+      "Guardar en nevera; está listo al día siguiente."
+     ]
+    }
+   ],
+   "notes": "El jengibre tierno se vuelve rosado con el vinagre. Acompañamiento del sushi.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-umeboshi",
+   "tab": "conservas",
+   "name": "Umeboshi",
+   "group": "Encurtidos",
+   "tag": "Japón / Kansai",
+   "yield": "1 kg",
+   "parts": [
+    {
+     "name": "Salado",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Ume (ciruela japonesa) amarilla y madura"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Sal (15 %)"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Shochu o aguardiente (para desinfectar)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar las ume, quitar el pedúnculo con un palillo y secarlas.",
+      "Pasarlas por el aguardiente y rebozarlas en la sal.",
+      "Colocarlas en un recipiente esterilizado con el resto de la sal y un peso del doble de su peso.",
+      "Dejar 2–3 semanas, hasta que el líquido (umezu) las cubra."
+     ]
+    },
+    {
+     "name": "Shiso y secado",
+     "ings": [
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Hojas de shiso rojo"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Frotar el shiso con la mitad de la sal, escurrir y desechar el jugo oscuro. Repetir con el resto de la sal.",
+      "Mezclar el shiso con un poco de umezu hasta que se ponga rojo brillante y añadirlo a las ume.",
+      "Dejar hasta finales de julio.",
+      "Secar las ume al sol sobre una rejilla 3 días y 3 noches, dándoles la vuelta.",
+      "Guardar en tarros, solas o de nuevo en el umezu. Madurar un mínimo de 3 meses."
+     ]
+    }
+   ],
+   "notes": "Ume de Wakayama (Kishu), la zona más famosa. El MAFF indica 15 % de sal para conservar a temperatura ambiente y 10 % solo si se guarda en nevera. El umezu sobrante se usa como condimento.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-jangajji-de-ajo",
+   "tab": "conservas",
+   "name": "Jangajji de ajo",
+   "group": "Encurtidos",
+   "tag": "Corea del Sur",
+   "yield": "1 tarro de 1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Ajo tierno pelado"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Vinagre (para el remojo)"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Salsa de soja"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Vinagre de arroz"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cubrir los ajos con el vinagre del remojo en un tarro y dejar 1 semana en nevera para quitar el picor.",
+      "Escurrir y desechar el vinagre.",
+      "Hervir la soja, el agua, el azúcar y el vinagre de arroz, enfriar y cubrir los ajos.",
+      "A los 3 días, escurrir el líquido, volver a hervirlo, enfriar y verter de nuevo. Repetir una vez más.",
+      "Madurar en nevera un mínimo de 1 mes."
+     ]
+    }
+   ],
+   "notes": "Banchan clásico. Hervir la salmuera varias veces ayuda a que se conserve. Siempre en nevera.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-o-chua-zanahoria-y-daikon",
+   "tab": "conservas",
+   "name": "Đồ chua (zanahoria y daikon)",
+   "group": "Encurtidos",
+   "tag": "Vietnam",
+   "yield": "1 tarro de 1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Rábano daikon"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Sal"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Agua tibia"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Vinagre blanco 5 %"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Azúcar"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar la zanahoria y el daikon en bastones finos.",
+      "Masajear con la sal 2–3 min, aclarar y escurrir bien.",
+      "Disolver el azúcar en el agua tibia y añadir el vinagre.",
+      "Meter las verduras en el tarro y cubrir con el líquido.",
+      "Guardar en nevera; están listas en un día y duran unas 4 semanas."
+     ]
+    }
+   ],
+   "notes": "Imprescindible en el bánh mì y el bún.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-pikliz",
+   "tab": "conservas",
+   "name": "Pikliz",
+   "group": "Encurtidos",
+   "tag": "Haití",
+   "yield": "1 tarro de 1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Repollo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Chile scotch bonnet (piment bouc)"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Pimienta negra en grano"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Clavo"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Vinagre blanco 5 %"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Lima (el zumo)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar el repollo en juliana fina, la zanahoria rallada y la cebolla y el pimiento en tiras.",
+      "Cortar los chiles en rodajas finas (con guantes).",
+      "Mezclar las verduras con el ajo, la sal y las especias y apretar en el tarro.",
+      "Cubrir con el vinagre y el zumo de lima.",
+      "Reposar en nevera 3 días antes de consumir. Dura semanas en nevera."
+     ]
+    }
+   ],
+   "notes": "Muy picante. Acompaña el griot (cerdo frito) y los plátanos fritos.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-mermelada-de-fresa",
+   "tab": "conservas",
+   "name": "Mermelada de fresa",
+   "group": "Conservas dulces",
+   "tag": "",
+   "yield": "4 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Fresa triturada"
+      },
+      {
+       "q": "650",
+       "u": "g",
+       "n": "Azúcar"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar las fresas antes de quitarles el rabito y triturarlas groseramente.",
+      "Mezclar con el azúcar y calentar despacio, removiendo, hasta que se disuelva.",
+      "Cocer a fuego fuerte, removiendo a menudo, hasta el punto de gelificación.",
+      "Llenar tarros calientes y esterilizados, dejando 6 mm libres.",
+      "Cerrar y esterilizar al baño maría 5 min."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA), «Berry jams without pectin». Punto de gelificación: 104–105 ºC, o cuando una gota en un plato frío se arruga al empujarla. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-mermelada-de-frambuesa-sin-pepitas",
+   "tab": "conservas",
+   "name": "Mermelada de frambuesa sin pepitas",
+   "group": "Conservas dulces",
+   "tag": "",
+   "yield": "4 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Frambuesa"
+      },
+      {
+       "q": "650",
+       "u": "g",
+       "n": "Azúcar"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar las frambuesas trituradas hasta que se ablanden y pasarlas por un pasapurés o colador fino.",
+      "Mezclar el puré con el azúcar y calentar despacio hasta disolverlo.",
+      "Cocer a fuego fuerte, removiendo, hasta el punto de gelificación.",
+      "Llenar tarros calientes y esterilizados, dejando 6 mm libres.",
+      "Cerrar y esterilizar al baño maría 5 min."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA), variante sin pepitas de «Berry jams without pectin». Punto de gelificación: 104–105 ºC, o cuando una gota en un plato frío se arruga al empujarla. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-mermelada-de-naranja-amarga",
+   "tab": "conservas",
+   "name": "Mermelada de naranja amarga",
+   "group": "Conservas dulces",
+   "tag": "Reino Unido",
+   "yield": "6 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Naranja amarga (de Sevilla)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Limón"
+      },
+      {
+       "q": "2",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "2",
+       "u": "kg",
+       "n": "Azúcar"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar la fruta y cocerla entera en el agua, tapada, 1 h 30 min a 2 h, hasta que la piel se atraviese fácilmente.",
+      "Sacar la fruta y reservar el agua.",
+      "Partir la fruta por la mitad, sacar la pulpa y las pepitas y hervirlas 10 min en 300 ml del agua reservada. Colar este líquido presionando (aporta pectina).",
+      "Cortar la piel en tiras finas.",
+      "Juntar la piel, el líquido colado y el resto del agua de cocción y añadir el azúcar.",
+      "Calentar despacio hasta disolver el azúcar y hervir a fuego fuerte 15–25 min hasta el punto de gelificación.",
+      "Reposar 10 min para que la piel no suba, llenar tarros calientes y esterilizar al baño maría 5 min."
+     ]
+    }
+   ],
+   "notes": "Las naranjas amargas de Sevilla se exportan casi todas a Reino Unido para esta mermelada. Punto de gelificación: 104–105 ºC, o cuando una gota en un plato frío se arruga al empujarla. Método de baño maría según NCHFP (USDA) para mermeladas de cítricos. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-dulce-de-membrillo",
+   "tab": "conservas",
+   "name": "Dulce de membrillo",
+   "group": "Conservas dulces",
+   "tag": "España",
+   "yield": "1,5 kg",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1,5",
+       "u": "kg",
+       "n": "Membrillo"
+      },
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Azúcar (aprox. el mismo peso que la pulpa)"
+      },
+      {
+       "q": "½",
+       "u": "ud.",
+       "n": "Limón (el zumo)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar los membrillos frotando la pelusa.",
+      "Cocerlos enteros o en cuartos en agua 20–30 min, hasta que estén tiernos.",
+      "Pelar, quitar el corazón y triturar la pulpa. Pesarla.",
+      "Cocer la pulpa con el mismo peso de azúcar y el zumo de limón a fuego medio-bajo, removiendo sin parar, 40–60 min, hasta que esté rojiza y se despegue del fondo.",
+      "Verter en moldes forrados con papel sulfurizado y alisar.",
+      "Dejar secar 2–3 días a temperatura ambiente, tapado con un paño.",
+      "Envolver y guardar en lugar fresco; dura meses."
+     ]
+    }
+   ],
+   "notes": "Salpica mucho al final: usar cuchara de mango largo. Acompaña el queso manchego.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-confitura-de-albaricoque",
+   "tab": "conservas",
+   "name": "Confitura de albaricoque",
+   "group": "Conservas dulces",
+   "tag": "Francia",
+   "yield": "5 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "900",
+       "u": "g",
+       "n": "Albaricoque pelado y troceado"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Azúcar"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Escaldar los albaricoques 30 s, enfriar, pelar, deshuesar y triturar groseramente.",
+      "Mezclar con el zumo de limón y el azúcar y calentar despacio hasta disolverlo.",
+      "Cocer a fuego fuerte unos 25 min, removiendo a menudo, hasta que espese.",
+      "Llenar tarros calientes y esterilizados, dejando 6 mm libres.",
+      "Cerrar y esterilizar al baño maría 5 min."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA), «Apricot jam without pectin». Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-mermelada-de-higos",
+   "tab": "conservas",
+   "name": "Mermelada de higos",
+   "group": "Conservas dulces",
+   "tag": "España",
+   "yield": "5 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1,1",
+       "u": "kg",
+       "n": "Higo fresco"
+      },
+      {
+       "q": "90",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Zumo de limón"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Escaldar los higos 10 min en agua hirviendo, escurrir, quitar el rabito y picarlos.",
+      "Mezclar con el agua y el azúcar y calentar despacio hasta disolverlo.",
+      "Cocer a fuego fuerte, removiendo a menudo, hasta que espese.",
+      "Añadir el zumo de limón y cocer 1 min más.",
+      "Llenar tarros calientes, dejando 6 mm libres, cerrar y esterilizar al baño maría 5 min."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA), «Fig jam without pectin». El limón es necesario: el higo es poco ácido. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-mermelada-de-tomate",
+   "tab": "conservas",
+   "name": "Mermelada de tomate",
+   "group": "Conservas dulces",
+   "tag": "",
+   "yield": "5 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1,4",
+       "u": "kg",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Naranja"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Limón"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Pimienta de Jamaica en grano"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Clavo"
+      },
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "½",
+       "u": "cdta.",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Escaldar, pelar y picar los tomates y escurrir el exceso de jugo.",
+      "Cortar las naranjas y el limón en rodajas muy finas y en cuartos.",
+      "Atar las especias en una gasa.",
+      "Mezclar el tomate con el azúcar y la sal hasta disolver.",
+      "Añadir los cítricos y las especias y llevar a ebullición removiendo.",
+      "Hervir a fuego fuerte, removiendo, unos 50 min, hasta que esté espesa y brillante.",
+      "Retirar las especias, llenar tarros calientes dejando 6 mm libres y esterilizar al baño maría 5 min."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA), «Tomato marmalade» (a mitad de cantidad). Los cítricos aseguran la acidez. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-jalea-de-grosella",
+   "tab": "conservas",
+   "name": "Jalea de grosella",
+   "group": "Conservas dulces",
+   "tag": "Francia / Lorena",
+   "yield": "4 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1,5",
+       "u": "kg",
+       "n": "Grosella roja"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azúcar (750 g por litro de zumo)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Desgranar las grosellas y cocerlas con el agua 10 min, aplastándolas.",
+      "Colgar en una bolsa de tela o colador con gasa y dejar escurrir sin presionar 4 h (así la jalea queda transparente).",
+      "Medir el zumo y añadir 750 g de azúcar por litro.",
+      "Hervir a fuego fuerte, espumando, hasta el punto de gelificación (104–105 ºC), unos 5–10 min.",
+      "Llenar tarros calientes, dejando 6 mm libres, cerrar y esterilizar al baño maría 5 min."
+     ]
+    }
+   ],
+   "notes": "La grosella es muy rica en pectina y cuaja sin añadirla. En Bar-le-Duc (Lorena) se hace con las semillas extraídas una a una. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-lemon-curd",
+   "tab": "conservas",
+   "name": "Lemon curd",
+   "group": "Conservas dulces",
+   "tag": "Reino Unido",
+   "yield": "4 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Azúcar extrafino"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Ralladura de limón (opcional)"
+      },
+      {
+       "q": "240",
+       "u": "ml",
+       "n": "Zumo de limón embotellado"
+      },
+      {
+       "q": "170",
+       "u": "g",
+       "n": "Mantequilla sin sal fría"
+      },
+      {
+       "q": "7",
+       "u": "ud.",
+       "n": "Yema de huevo"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Huevo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar el azúcar con la ralladura y dejar 30 min.",
+      "Batir las yemas y los huevos, añadir el azúcar, el zumo de limón y la mantequilla en dados.",
+      "Cocer al baño maría sin que el agua toque el bol, removiendo sin parar, hasta 77 ºC.",
+      "Retirar y remover 5 min hasta que espese. Colar.",
+      "Llenar tarros calientes dejando 1 cm libre y cerrar.",
+      "Poner los tarros en agua a 82 ºC, llevar a ebullición y esterilizar 15 min.",
+      "Enfriar 12–24 h sin mover."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA). Usar zumo embotellado: el del limón fresco varía de acidez. Consumir en 3–4 meses y desechar si se oscurece o se separa. Alternativa: congelar hasta 1 año.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-compota-de-manzana",
+   "tab": "conservas",
+   "name": "Compota de manzana",
+   "group": "Conservas dulces",
+   "tag": "Francia",
+   "yield": "4 tarros de 500 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2,5",
+       "u": "kg",
+       "n": "Manzana (reineta o golden)"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Azúcar (opcional)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Pelar, descorazonar y trocear las manzanas, dejándolas en agua con un poco de limón mientras se trabaja.",
+      "Escurrir y cocerlas con el agua y la canela, tapadas, hasta que estén tiernas (5–20 min).",
+      "Retirar la canela y triturar o pasar por el pasapurés. Añadir el azúcar si se quiere.",
+      "Llevar de nuevo a ebullición y llenar tarros calientes dejando 1 cm libre.",
+      "Cerrar y esterilizar al baño maría 15 min (tarros de 500 ml) o 20 min (1 l)."
+     ]
+    }
+   ],
+   "notes": "Método de la compota de manzana del NCHFP (USDA). Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-chutney-de-mango",
+   "tab": "conservas",
+   "name": "Chutney de mango",
+   "group": "Conservas dulces",
+   "tag": "India",
+   "yield": "6 tarros de 500 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1,8",
+       "u": "kg",
+       "n": "Mango verde troceado"
+      },
+      {
+       "q": "340",
+       "u": "g",
+       "n": "Cebolla picada fina"
+      },
+      {
+       "q": "2 ½",
+       "u": "cda.",
+       "n": "Jengibre fresco rallado"
+      },
+      {
+       "q": "1 ½",
+       "u": "cda.",
+       "n": "Ajo picado"
+      },
+      {
+       "q": "900",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "700",
+       "u": "ml",
+       "n": "Vinagre blanco 5 %"
+      },
+      {
+       "q": "375",
+       "u": "g",
+       "n": "Pasas sultanas"
+      },
+      {
+       "q": "1 ½",
+       "u": "cdta.",
+       "n": "Sal"
+      },
+      {
+       "q": "4",
+       "u": "cdta.",
+       "n": "Chile en polvo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Pelar los mangos (con guantes: el mango verde irrita la piel) y cortar en dados de 2 cm. Picarlos un poco en el robot, sin hacer puré.",
+      "Hervir el azúcar con el vinagre 5 min.",
+      "Añadir el resto de ingredientes, llevar a ebullición y cocer a fuego suave 25 min, removiendo de vez en cuando.",
+      "Llenar tarros calientes dejando 1 cm libre, cerrar y esterilizar al baño maría 10 min."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA), «Mango chutney». Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-melocoton-en-almibar",
+   "tab": "conservas",
+   "name": "Melocotón en almíbar",
+   "group": "Conservas dulces",
+   "tag": "España / Aragón",
+   "yield": "4 tarros de 1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "3",
+       "u": "kg",
+       "n": "Melocotón de carne amarilla"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Agua con zumo de limón (antioxidante)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Escaldar los melocotones 30–60 s, enfriar y pelar.",
+      "Partirlos por la mitad, deshuesarlos y dejarlos en agua con limón.",
+      "Preparar un almíbar medio hirviendo el agua con el azúcar.",
+      "Escurrir los melocotones, ponerlos en el almíbar y llevar a ebullición.",
+      "Llenar los tarros con las mitades boca abajo y cubrir con el almíbar hirviendo, dejando 1 cm libre.",
+      "Cerrar y esterilizar al baño maría 25 min (1 l) o 20 min (500 ml)."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA), «Peaches – hot pack». No usar melocotones de carne blanca: pueden no ser lo bastante ácidos. El melocotón de Calanda (Aragón) es el más famoso. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-cabello-de-angel",
+   "tab": "conservas",
+   "name": "Cabello de ángel",
+   "group": "Conservas dulces",
+   "tag": "España",
+   "yield": "1,5 kg",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cidra cayote (unos 2,5 kg)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azúcar (el mismo peso que la pulpa escurrida)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Piel de limón"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Partir la cidra con un golpe, retirar las pepitas y cocerla en trozos con piel en agua 30–40 min, hasta que la pulpa se deshaga en hebras.",
+      "Enfriar en agua fría, separar la pulpa de la piel y deshilacharla con un tenedor.",
+      "Lavarla en varias aguas y escurrirla muy bien, apretando. Pesarla.",
+      "Cocer la pulpa con el mismo peso de azúcar, la canela y la piel de limón a fuego suave 40–60 min, removiendo, hasta que esté brillante y casi sin líquido.",
+      "Retirar la canela y la piel, llenar tarros calientes y cerrar. Esterilizar al baño maría 10 min."
+     ]
+    }
+   ],
+   "notes": "La cidra cayote (Cucurbita ficifolia) se encuentra en otoño. Relleno de ensaimadas, tortas y empanadillas. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-guindas-en-aguardiente",
+   "tab": "conservas",
+   "name": "Guindas en aguardiente",
+   "group": "Conservas dulces",
+   "tag": "España",
+   "yield": "1 tarro de 1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Guinda o cereza ácida"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Aguardiente de orujo o anís seco (mínimo 40 % vol.)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar y secar las guindas, dejando la mitad del rabito.",
+      "Pincharlas con una aguja.",
+      "Colocarlas en el tarro alternando con el azúcar y la canela.",
+      "Cubrir con el aguardiente y cerrar.",
+      "Agitar el tarro cada día la primera semana.",
+      "Dejar macerar en lugar oscuro un mínimo de 2 meses."
+     ]
+    }
+   ],
+   "notes": "El alcohol a 40 % las conserva sin esterilizar. Es una conserva alcohólica: no apta para niños.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-arrope",
+   "tab": "conservas",
+   "name": "Arrope",
+   "group": "Conservas dulces",
+   "tag": "España",
+   "yield": "500 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "3",
+       "u": "l",
+       "n": "Mosto de uva recién prensado"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Calabaza o membrillo en dados (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Colar el mosto y cocerlo a fuego suave en una olla ancha, espumando.",
+      "Reducirlo durante 3–4 h, hasta que quede una sexta parte y tenga textura de jarabe.",
+      "Si se usa fruta, añadirla cuando quede un tercio y cocer hasta que esté confitada.",
+      "Envasar en caliente en tarros esterilizados y cerrar."
+     ]
+    }
+   ],
+   "notes": "Endulzante tradicional de La Mancha y Andalucía anterior al azúcar. Muy concentrado, se conserva meses en lugar fresco.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-crema-de-castanas",
+   "tab": "conservas",
+   "name": "Crema de castañas",
+   "group": "Conservas dulces",
+   "tag": "Francia / Ardèche",
+   "yield": "3 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Castaña"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "200",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Vaina de vainilla"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hacer un corte a las castañas, hervirlas 15 min y pelarlas en caliente, quitando también la piel interior.",
+      "Cocerlas en agua nueva 20 min más, hasta que estén muy tiernas, y triturarlas finas.",
+      "Hervir el agua con el azúcar y la vainilla abierta 5 min.",
+      "Añadir el puré y cocer a fuego suave 10–15 min, removiendo, hasta que esté espeso y brillante.",
+      "Retirar la vainilla, envasar en tarros limpios y calientes y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "La castaña es poco ácida y no hay tiempos de esterilización validados para hacerla en casa: guardar en nevera y consumir en 3 semanas, o congelar.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-piel-de-naranja-confitada",
+   "tab": "conservas",
+   "name": "Piel de naranja confitada",
+   "group": "Conservas dulces",
+   "tag": "",
+   "yield": "300 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Naranja de piel gruesa"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Azúcar (para rebozar)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar la piel de las naranjas en tiras de 1 cm, con parte de la albedo blanca.",
+      "Hervirla 5 min en agua, escurrir y repetir 3 veces con agua nueva para quitar el amargor.",
+      "Hacer un almíbar con el agua y el azúcar y cocer la piel a fuego muy suave 1 h, hasta que esté translúcida.",
+      "Dejarla en el almíbar toda la noche.",
+      "Escurrirla y secarla en una rejilla 24 h.",
+      "Rebozarla en azúcar y guardar en un bote hermético."
+     ]
+    }
+   ],
+   "notes": "Se puede bañar en chocolate. Bien seca, dura meses.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-powid-a-crema-de-ciruela",
+   "tab": "conservas",
+   "name": "Powidła (crema de ciruela)",
+   "group": "Conservas dulces",
+   "tag": "Polonia",
+   "yield": "4 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "3",
+       "u": "kg",
+       "n": "Ciruela madura (mejor damascena o węgierka)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar, deshuesar y trocear las ciruelas.",
+      "Cocerlas en una olla de fondo grueso a fuego bajo 2 h, removiendo, hasta que se deshagan.",
+      "Pasar por el pasapurés si se quiere fina.",
+      "Seguir cociendo a fuego muy bajo (o en el horno a 150 ºC, removiendo cada 30 min) en sesiones de 2–3 h durante 2–3 días, hasta que esté oscura y muy espesa.",
+      "Envasar en caliente, dejando 6 mm libres, y esterilizar al baño maría 10 min."
+     ]
+    }
+   ],
+   "notes": "Sin azúcar añadido: se concentra solo por la cocción larga. Relleno típico de pączki y pierogi.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-dulce-de-leche",
+   "tab": "conservas",
+   "name": "Dulce de leche",
+   "group": "Conservas dulces",
+   "tag": "Argentina",
+   "yield": "2 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Leche entera"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "½",
+       "u": "cdta.",
+       "n": "Bicarbonato"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Vaina de vainilla"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Poner la leche con el azúcar y la vainilla abierta en una olla de fondo grueso.",
+      "Llevar a ebullición, retirar del fuego y añadir el bicarbonato disuelto en una cucharada de leche: subirá la espuma.",
+      "Cocer a fuego bajo 2–3 h, removiendo cada vez más a menudo al final, hasta que tome color caramelo y nape la cuchara.",
+      "Retirar la vainilla, envasar en tarros limpios y calientes y cerrar.",
+      "Guardar en nevera; dura 1 mes."
+     ]
+    }
+   ],
+   "notes": "No hervir latas de leche condensada cerradas: pueden explotar.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-goiabada",
+   "tab": "conservas",
+   "name": "Goiabada",
+   "group": "Conservas dulces",
+   "tag": "Brasil",
+   "yield": "1 kg",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Guayaba roja"
+      },
+      {
+       "q": "700",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar las guayabas, cortarlas en cuartos y cocerlas con el agua 10 min.",
+      "Triturar y pasar por un colador para quitar las semillas.",
+      "Cocer el puré con el azúcar a fuego medio-bajo, removiendo sin parar, 40–60 min, hasta que se despegue del fondo.",
+      "Verter en un molde forrado y dejar secar 2–3 días.",
+      "Cortar en bloques, envolver y guardar en lugar fresco."
+     ]
+    }
+   ],
+   "notes": "Con queso fresco es el «romeu e julieta». Como el membrillo, muy concentrada se conserva meses.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-tomate-triturado-en-conserva",
+   "tab": "conservas",
+   "name": "Tomate triturado en conserva",
+   "group": "Conservas saladas",
+   "tag": "",
+   "yield": "4 tarros de 1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "5",
+       "u": "kg",
+       "n": "Tomate maduro y firme"
+      },
+      {
+       "q": "8",
+       "u": "cda",
+       "n": "Zumo de limón embotellado (2 por tarro de 1 l)"
+      },
+      {
+       "q": "4",
+       "u": "cdta",
+       "n": "Sal (opcional, 1 por tarro)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Escaldar los tomates 30–60 s, enfriar en agua fría, pelar, quitar el corazón y cortar en cuartos.",
+      "Poner al fuego una sexta parte de los tomates aplastándolos y, cuando hierva, ir añadiendo el resto sin dejar de hervir.",
+      "Hervir suave 5 min.",
+      "Poner en cada tarro caliente 2 cda de zumo de limón (o ½ cdta de ácido cítrico) y la sal.",
+      "Llenar con el tomate caliente dejando 1 cm libre, quitar burbujas, limpiar bordes y cerrar.",
+      "Esterilizar al baño maría 45 min (tarros de 1 l) o 35 min (tarros de 500 ml)."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA), «Crushed tomatoes». El limón embotellado es obligatorio: el tomate no siempre es lo bastante ácido por sí solo. En tarros de 500 ml, 1 cda de limón o ¼ cdta de ácido cítrico. Calcular unos 1,25 kg de tomate por litro. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-pimientos-asados-marinados",
+   "tab": "conservas",
+   "name": "Pimientos asados marinados",
+   "group": "Conservas saladas",
+   "tag": "",
+   "yield": "9 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1,8",
+       "u": "kg",
+       "n": "Pimiento rojo carnoso"
+      },
+      {
+       "q": "240",
+       "u": "ml",
+       "n": "Zumo de limón embotellado"
+      },
+      {
+       "q": "475",
+       "u": "ml",
+       "n": "Vinagre de vino blanco (5 % acidez)"
+      },
+      {
+       "q": "240",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      },
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Cebolla picada"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo en cuartos"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Orégano seco"
+      },
+      {
+       "q": "2",
+       "u": "cdta",
+       "n": "Sal (¼ por tarro)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Asar los pimientos al horno a 200 ºC o en la llama hasta que la piel se ampolle.",
+      "Dejarlos reposar tapados 10 min, pelar, quitar semillas y abrir en tiras.",
+      "Hervir el zumo de limón, el vinagre, el aceite, la cebolla, el ajo y el orégano.",
+      "Repartir la sal en tarros calientes y llenar con los pimientos sin apretar.",
+      "Cubrir con el líquido hirviendo dejando 1 cm libre, quitar burbujas y cerrar.",
+      "Esterilizar al baño maría 15 min."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA), «Marinated peppers». No reducir el limón ni el vinagre: son los que hacen segura la conserva. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-bonito-en-aceite",
+   "tab": "conservas",
+   "name": "Bonito en aceite",
+   "group": "Conservas saladas",
+   "tag": "España / Cantabria",
+   "yield": "6 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1,5",
+       "u": "kg",
+       "n": "Bonito del norte limpio (lomos)"
+      },
+      {
+       "q": "3",
+       "u": "cdta",
+       "n": "Sal (½ por tarro)"
+      },
+      {
+       "q": "6",
+       "u": "cda",
+       "n": "Aceite de oliva (1 por tarro, opcional más)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cocer los lomos al vapor o al horno hasta que el centro llegue a 74–79 ºC.",
+      "Enfriar en nevera toda la noche para que la carne se asiente.",
+      "Quitar piel, espinas y la carne oscura y cortar en tacos del alto del tarro.",
+      "Llenar tarros de 250 o 500 ml apretando, añadir la sal y el aceite, dejando 2,5 cm libres.",
+      "Limpiar bordes con un paño con vinagre y cerrar.",
+      "Procesar en olla a presión de conservas 100 min a 10 psi (manómetro de peso) u 11 psi (manómetro de aguja).",
+      "Dejar bajar la presión sola antes de abrir la olla."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA), «Canning tuna» (solo tarros de 250 o 500 ml). Requiere olla a presión de conservas con manómetro (autoclave doméstico): el baño maría y las ollas exprés normales no están validados para alimentos poco ácidos (riesgo de botulismo). Tiempos para 0–300 m; a más altura, subir la presión según la fuente. El bonito del norte de costera (junio–octubre) es el clásico de las conserveras cántabras y vascas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-anchoas-en-salazon-y-aceite",
+   "tab": "conservas",
+   "name": "Anchoas en salazón y aceite",
+   "group": "Conservas saladas",
+   "tag": "España / Cantabria",
+   "yield": "500 g de filetes",
+   "parts": [
+    {
+     "name": "Salazón",
+     "ings": [
+      {
+       "q": "2",
+       "u": "kg",
+       "n": "Anchoa del Cantábrico muy fresca"
+      },
+      {
+       "q": "2",
+       "u": "kg",
+       "n": "Sal gorda marina"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Congelar las anchoas a –20 ºC al menos 5 días y descongelar en nevera (anisakis).",
+      "Quitar la cabeza tirando hacia abajo para sacar la tripa con ella. No lavar.",
+      "Cubrir con sal 12–24 h en nevera para que suelten sangre.",
+      "Colocar en un recipiente capas alternas de sal y anchoas en abanico, colas al centro, terminando con sal.",
+      "Poner un peso encima (aprox. el mismo peso que las anchoas) y guardar en sitio fresco (15–18 ºC).",
+      "Retirar la salmuera que sube y mantenerlas siempre cubiertas de líquido.",
+      "Madurar 4–6 meses, hasta que la carne esté rosada y huela a anchoa curada."
+     ]
+    },
+    {
+     "name": "Filetes en aceite",
+     "ings": [
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Aceite de oliva suave"
+      }
+     ],
+     "steps": [
+      "Lavar las anchoas en agua fría y quitar la piel frotando con los dedos.",
+      "Abrir en dos filetes, retirar la espina y las aletas.",
+      "Secar muy bien entre paños durante 1 h.",
+      "Colocar en tarros y cubrir con aceite."
+     ]
+    }
+   ],
+   "notes": "Es el método de la anchoa de Santoña. Los filetes en aceite son semiconserva: siempre en nevera, consumir en 2–3 semanas. Congelar antes es la recomendación de AESAN para pescado que no se cocina.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-caballa-en-escabeche",
+   "tab": "conservas",
+   "name": "Caballa en escabeche",
+   "group": "Conservas saladas",
+   "tag": "España",
+   "yield": "4 raciones",
+   "parts": [
+    {
+     "name": "Pescado",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Caballa en lomos"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "200",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Salar los lomos, pasarlos por harina y freírlos en el aceite 1–2 min por lado.",
+      "Colocar en un recipiente de cristal o barro. Reservar el aceite."
+     ]
+    },
+    {
+     "name": "Escabeche",
+     "ings": [
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Aceite de oliva (el de freír, colado)"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Diente de ajo con piel, chafado"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimienta negra en grano"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Vinagre de vino"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Vino blanco"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Dorar los ajos en el aceite con el laurel y la pimienta.",
+      "Retirar del fuego, añadir el pimentón y, al momento, el vinagre, el vino y el agua.",
+      "Hervir 5 min y salar.",
+      "Verter caliente sobre el pescado hasta cubrirlo.",
+      "Enfriar, tapar y dejar reposar 24 h en nevera antes de comer."
+     ]
+    }
+   ],
+   "notes": "En nevera, siempre cubierta, unos 5–7 días. El escabeche es un método de conservación, no esterilización: no guardar fuera de la nevera.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-lomo-de-orza",
+   "tab": "conservas",
+   "name": "Lomo de orza",
+   "group": "Conservas saladas",
+   "tag": "España / Castilla-La Mancha",
+   "yield": "1,5 kg",
+   "parts": [
+    {
+     "name": "Adobo",
+     "ings": [
+      {
+       "q": "1,5",
+       "u": "kg",
+       "n": "Lomo de cerdo en una pieza"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Orégano seco"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Machacar ajo, pimentón, orégano, sal y aceite hasta hacer una pasta.",
+      "Untar el lomo y dejarlo adobar 24–48 h en nevera, tapado."
+     ]
+    },
+    {
+     "name": "Fritura y orza",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Aceite de oliva (o manteca de cerdo)"
+      }
+     ],
+     "steps": [
+      "Cortar el lomo en filetes gruesos (2 cm) o en trozos.",
+      "Freír a fuego lento en abundante aceite hasta que estén hechos por dentro, sin tostarse.",
+      "Colocar en la orza o en tarros limpios.",
+      "Cubrir por completo con el aceite de freír colado y templado (o con la manteca).",
+      "Dejar enfriar sin tapar del todo y cerrar."
+     ]
+    }
+   ],
+   "notes": "Receta tradicional manchega (Turespaña, spain.info). La orza antigua se guardaba en la despensa; hoy se recomienda nevera, la carne siempre cubierta, sacar con utensilio limpio y consumir en 2–3 semanas. Se come templado o frío.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-confit-de-pato",
+   "tab": "conservas",
+   "name": "Confit de pato",
+   "group": "Conservas saladas",
+   "tag": "Francia / Gascuña",
+   "yield": "4 muslos",
+   "parts": [
+    {
+     "name": "Salado",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Muslo de pato"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Sal gorda"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Diente de ajo laminado"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Rama de tomillo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimienta negra molida"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar sal, ajo, tomillo, laurel desmenuzado y pimienta.",
+      "Frotar los muslos con la mezcla y dejarlos 24 h en nevera, tapados."
+     ]
+    },
+    {
+     "name": "Confitado",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Grasa de pato"
+      }
+     ],
+     "steps": [
+      "Limpiar la sal de los muslos y secarlos bien.",
+      "Fundir la grasa y sumergir los muslos por completo.",
+      "Cocer a 85–90 ºC (fuego mínimo u horno a 120 ºC) 2 h 30 min–3 h, hasta que el hueso del muslo gire suelto.",
+      "Colocar los muslos en un recipiente limpio y cubrir con la grasa colada, sin el jugo del fondo.",
+      "Enfriar y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Siempre cubierto de grasa y en nevera, hasta 1 mes; retirar los muslos con utensilio limpio y volver a cubrir. Para servir, dorar con la piel hacia abajo en sartén.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-rillettes-de-cerdo",
+   "tab": "conservas",
+   "name": "Rillettes de cerdo",
+   "group": "Conservas saladas",
+   "tag": "Francia / Valle del Loira",
+   "yield": "4 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Paleta o panceta de cerdo sin piel, en dados"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Manteca de cerdo"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "15",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimienta negra"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Rama de tomillo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Poner todo en una olla de fondo grueso, tapada.",
+      "Cocer a fuego mínimo 4–5 h, removiendo de vez en cuando, hasta que la carne se deshaga.",
+      "Retirar laurel, tomillo y ajo.",
+      "Escurrir la carne reservando la grasa y deshilachar con dos tenedores.",
+      "Mezclar con un poco de la grasa y rectificar de sal y pimienta.",
+      "Apretar en tarros y cubrir con una capa de grasa fundida.",
+      "Enfriar y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Las de Tours y Le Mans son las más conocidas (las de Le Mans, del Sarthe). En nevera, con la capa de grasa intacta, 1–2 semanas; abierta, 3–4 días.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-tapenade",
+   "tab": "conservas",
+   "name": "Tapenade",
+   "group": "Conservas saladas",
+   "tag": "Francia / Provenza",
+   "yield": "1 tarro de 300 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Aceituna negra deshuesada (tipo Nyons)"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Alcaparra escurrida"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Filete de anchoa en aceite"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "½",
+       "u": "ud.",
+       "n": "Limón (el zumo)"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Tomillo fresco"
+      },
+      {
+       "q": "80",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Triturar aceitunas, alcaparras, anchoas, ajo y tomillo hasta una pasta rústica.",
+      "Añadir el zumo de limón y emulsionar con el aceite en hilo.",
+      "Llenar un tarro y cubrir con una capa fina de aceite."
+     ]
+    }
+   ],
+   "notes": "El nombre viene de «tapeno», alcaparra en provenzal. Lleva ajo crudo en aceite: guardar en nevera y consumir en una semana; para más tiempo, congelar.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-mostaza-a-la-antigua",
+   "tab": "conservas",
+   "name": "Mostaza a la antigua",
+   "group": "Conservas saladas",
+   "tag": "Francia",
+   "yield": "2 tarros de 200 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Semilla de mostaza parda"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Semilla de mostaza amarilla"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Vino blanco seco"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Vinagre de vino blanco"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Miel (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar las semillas en el vino y el vinagre 24–48 h, tapadas, hasta que absorban el líquido.",
+      "Añadir sal y miel y triturar solo la mitad de la mezcla, para que quede granulada.",
+      "Juntar, ajustar con un poco de agua si está seca y llenar tarros.",
+      "Reposar 2–3 días en nevera antes de usar: pica mucho al principio y se suaviza."
+     ]
+    }
+   ],
+   "notes": "Estilo «à l'ancienne» (grano entero, como la de Meaux). Por su acidez aguanta meses en nevera.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-tomates-secos-en-aceite",
+   "tab": "conservas",
+   "name": "Tomates secos en aceite",
+   "group": "Conservas saladas",
+   "tag": "Italia",
+   "yield": "2 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Tomate seco"
+      },
+      {
+       "q": "200",
+       "u": "ml",
+       "n": "Vinagre de vino (5 % acidez)"
+      },
+      {
+       "q": "200",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "300",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hervir el agua y el vinagre, apagar y remojar los tomates 5–10 min para hidratarlos y acidificarlos.",
+      "Escurrir y secar muy bien entre paños, al menos 1 h.",
+      "Colocar en tarros limpios y cubrir por completo con aceite.",
+      "Guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Fuente: Oregon State University Extension. Sin ajo ni hierbas frescas, en nevera hasta 6 meses (el aceite se enturbia con el frío; se aclara a temperatura ambiente). Las guías oficiales (Oregon State University) piden 4 días en nevera para aceites con ajo o hierbas frescas, o congelar. ",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-alcachofas-en-aceite-carciofini-sott-olio",
+   "tab": "conservas",
+   "name": "Alcachofas en aceite (carciofini sott'olio)",
+   "group": "Conservas saladas",
+   "tag": "Italia",
+   "yield": "4 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "kg",
+       "n": "Alcachofa pequeña"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Vinagre de vino blanco (6 % acidez)"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Limón"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimienta negra en grano"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Aceite de oliva (aprox.)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Limpiar las alcachofas dejando solo el corazón tierno, cortar en cuartos y frotar con limón.",
+      "Hervir el agua con el vinagre y la sal, añadir las alcachofas y cocerlas al dente (8–10 min).",
+      "Escurrir y dejar secar sobre un paño limpio, boca abajo, varias horas.",
+      "Colocar en tarros esterilizados con el laurel y la pimienta, apretando sin aplastar.",
+      "Cubrir de aceite dejando 1 cm libre, esperar 1 h, eliminar burbujas y rellenar.",
+      "Cerrar y pasteurizar en agua hirviendo, cubiertos con 10 cm de agua.",
+      "Esperar 1–2 meses antes de consumir; abiertas, en nevera."
+     ]
+    }
+   ],
+   "notes": "Fuente: Istituto Superiore di Sanità (ISS), Linee guida per la corretta preparazione delle conserve alimentari in ambito domestico: la seguridad está en cocer en agua y vinagre a partes iguales. La guía no fija un tiempo único de pasteurización (depende del tarro); para 250 ml se suele usar unos 20 min desde que rompe a hervir. Desechar si hay burbujas o el aceite se enturbia en los primeros 10–15 días.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-caponata",
+   "tab": "conservas",
+   "name": "Caponata",
+   "group": "Conservas saladas",
+   "tag": "Italia / Sicilia",
+   "yield": "4 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Berenjena en dados"
+      },
+      {
+       "q": "200",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla en dados"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Rama de apio en dados"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Tomate triturado"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Aceituna verde deshuesada"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Alcaparra"
+      },
+      {
+       "q": "80",
+       "u": "ml",
+       "n": "Vinagre de vino"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Manojo de albahaca"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Salar la berenjena 30 min, secarla y freírla en el aceite hasta dorar. Escurrir.",
+      "En 3 cda del aceite, pochar la cebolla y el apio 10 min.",
+      "Añadir el tomate y cocer 10 min.",
+      "Incorporar aceitunas, alcaparras y la berenjena.",
+      "Añadir el vinagre y el azúcar, cocer 5 min y rectificar de sal.",
+      "Terminar con albahaca y dejar reposar al menos unas horas antes de servir."
+     ]
+    }
+   ],
+   "notes": "Agridulce («agrodolce»). Mejor al día siguiente. En nevera, en tarros, 1 semana; también se congela.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-ajvar",
+   "tab": "conservas",
+   "name": "Ajvar",
+   "group": "Conservas saladas",
+   "tag": "Serbia",
+   "yield": "3 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "kg",
+       "n": "Pimiento rojo carnoso"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Berenjena"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "120",
+       "u": "ml",
+       "n": "Aceite de girasol"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Vinagre de vino"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Azúcar"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Asar pimientos y berenjenas enteros al horno a 220 ºC o en la brasa hasta que la piel se queme.",
+      "Dejar reposar tapados, pelar y quitar semillas. Escurrir bien el líquido.",
+      "Picar finos o pasar por la picadora con el ajo.",
+      "Cocer en una cazuela a fuego bajo, añadiendo el aceite poco a poco y removiendo, 30–45 min, hasta que espese.",
+      "Añadir vinagre, sal y azúcar y cocer 5 min más.",
+      "Llenar tarros, cubrir con una capa de aceite y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Típico del otoño en Serbia y Macedonia del Norte, cuando hay pimiento rojo barato. Sin método casero validado para baño maría: en nevera, 2 semanas, o congelar.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-harissa",
+   "tab": "conservas",
+   "name": "Harissa",
+   "group": "Conservas saladas",
+   "tag": "Túnez",
+   "yield": "1 tarro de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Guindilla roja seca suave"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Comino en grano"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Alcaravea en grano"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Cilantro en grano"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "4",
+       "u": "cda",
+       "n": "Aceite de oliva (más para cubrir)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Quitar rabos y semillas a las guindillas y remojarlas en agua caliente 30 min.",
+      "Tostar las especias en seco 1 min y molerlas.",
+      "Escurrir las guindillas y triturarlas con el ajo, las especias, la sal y el limón.",
+      "Añadir el aceite hasta tener una pasta.",
+      "Llenar el tarro y cubrir con una capa de aceite."
+     ]
+    }
+   ],
+   "notes": "Inscrita por la UNESCO (2022) como patrimonio inmaterial de Túnez. Lleva ajo crudo: en nevera una semana, o congelar en porciones. Las guías oficiales (Oregon State University) piden 4 días en nevera para aceites con ajo o hierbas frescas, o congelar. ",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-ketchup",
+   "tab": "conservas",
+   "name": "Ketchup",
+   "group": "Conservas saladas",
+   "tag": "Estados Unidos",
+   "yield": "3 tarros de 500 ml",
+   "parts": [
+    {
+     "name": "Especias",
+     "ings": [
+      {
+       "q": "350",
+       "u": "ml",
+       "n": "Vinagre de manzana (5 % acidez)"
+      },
+      {
+       "q": "2",
+       "u": "cdta",
+       "n": "Clavo entero"
+      },
+      {
+       "q": "1½",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "¾",
+       "u": "cdta",
+       "n": "Pimienta de Jamaica"
+      },
+      {
+       "q": "1½",
+       "u": "cda",
+       "n": "Semilla de apio"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hervir el vinagre con las especias atadas en una gasa, apagar y dejar infusionar 20 min. Retirar las especias."
+     ]
+    },
+    {
+     "name": "Ketchup",
+     "ings": [
+      {
+       "q": "5,4",
+       "u": "kg",
+       "n": "Tomate"
+      },
+      {
+       "q": "350",
+       "u": "ml",
+       "n": "Cebolla picada"
+      },
+      {
+       "q": "⅜",
+       "u": "cdta",
+       "n": "Cayena"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Lavar, quitar el corazón y cuartear los tomates.",
+      "Cocerlos con la cebolla y la cayena 20 min, destapados.",
+      "Añadir el vinagre especiado y cocer 30 min más.",
+      "Pasar por el pasapurés o colador.",
+      "Reducir a fuego fuerte con el azúcar y la sal, removiendo, hasta que quede a la mitad y espese.",
+      "Llenar tarros calientes dejando 3 mm libres y cerrar.",
+      "Esterilizar al baño maría 15 min."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA), «Tomato ketchup», a mitad de cantidad. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-aceite-de-chile-crujiente",
+   "tab": "conservas",
+   "name": "Aceite de chile crujiente",
+   "group": "Conservas saladas",
+   "tag": "China / Guizhou",
+   "yield": "1 tarro de 500 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Guindilla seca en escamas"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Pimienta de Sichuan molida"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sésamo"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Azúcar"
+      },
+      {
+       "q": "400",
+       "u": "ml",
+       "n": "Aceite de girasol o cacahuete"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Chalota en láminas finas"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cabeza de ajo picada"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Soja negra fermentada (douchi) picada"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Anís estrellado"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar en un cuenco resistente al calor la guindilla, la pimienta de Sichuan, el sésamo, la sal y el azúcar.",
+      "Calentar el aceite con el anís y la canela y freír la chalota a fuego medio hasta que esté dorada y crujiente. Sacar.",
+      "Freír el ajo hasta dorar y sacar. Freír la soja 1 min y sacar.",
+      "Retirar las especias y dejar el aceite a unos 120 ºC.",
+      "Verter el aceite sobre el cuenco de guindilla en dos veces, removiendo.",
+      "Al enfriar, añadir chalota, ajo y soja.",
+      "Llenar el tarro y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Estilo Lao Gan Ma, la marca de Guizhou que lo hizo famoso. Las guías oficiales (Oregon State University) piden 4 días en nevera para aceites con ajo o hierbas frescas, o congelar. Con el ajo y la chalota fritos hasta quedar secos el riesgo baja, pero no hay tiempo validado: nevera y, para más tiempo, congelar en porciones.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-salsa-xo",
+   "tab": "conservas",
+   "name": "Salsa XO",
+   "group": "Conservas saladas",
+   "tag": "China / Hong Kong",
+   "yield": "2 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Vieira seca"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Gamba seca"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Jamón curado graso en dados finos"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Chalota picada"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Ajo picado"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Guindilla roja fresca picada"
+      },
+      {
+       "q": "300",
+       "u": "ml",
+       "n": "Aceite de cacahuete"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Salsa de ostras"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Azúcar moreno"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Vino de Shaoxing"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar vieiras y gambas en agua caliente 1 h (o una noche). Escurrir, reservar el agua y desmigar.",
+      "Freír en el aceite a fuego medio la chalota y el ajo hasta dorar.",
+      "Añadir el jamón, las vieiras, las gambas y la guindilla y freír 10–15 min, removiendo, hasta que se tuesten.",
+      "Añadir el vino, la salsa de ostras, el azúcar y 3 cda del agua de remojo.",
+      "Cocer a fuego bajo hasta que el líquido desaparezca y el aceite quede limpio.",
+      "Llenar tarros y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Creada en Hong Kong en los años 80 (se atribuye al restaurante del hotel Peninsula). Las guías oficiales (Oregon State University) piden 4 días en nevera para aceites con ajo o hierbas frescas, o congelar. No hay método casero validado de larga duración: nevera y, para más tiempo, congelar.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-pasta-de-curry-rojo",
+   "tab": "conservas",
+   "name": "Pasta de curry rojo",
+   "group": "Conservas saladas",
+   "tag": "Tailandia",
+   "yield": "1 tarro de 200 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "15",
+       "u": "ud.",
+       "n": "Guindilla roja seca larga"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Semilla de cilantro"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Comino en grano"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Pimienta blanca en grano"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Tallo de hierba limón (la parte tierna)"
+      },
+      {
+       "q": "2",
+       "u": "cm",
+       "n": "Galanga"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Piel de lima kaffir rallada"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Raíz de cilantro"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Chalota"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pasta de gambas (kapi)"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Quitar semillas a las guindillas y remojarlas 15 min en agua caliente.",
+      "Tostar cilantro, comino y pimienta en seco y molerlos.",
+      "Picar finos la hierba limón, la galanga, la raíz de cilantro, las chalotas y el ajo.",
+      "Machacar en mortero empezando por lo más duro (guindilla con sal, hierba limón, galanga) y terminando por lo más blando, hasta una pasta lisa. O triturar con un poco de agua.",
+      "Incorporar la pasta de gambas y las especias molidas."
+     ]
+    }
+   ],
+   "notes": "Nam prik gaeng phet. En nevera, en tarro cubierto de una capa de aceite, 1–2 semanas; congelada en cubitos, 3 meses.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-conservas-garbanzos-en-conserva",
+   "tab": "conservas",
+   "name": "Garbanzos en conserva",
+   "group": "Conservas saladas",
+   "tag": "",
+   "yield": "4 tarros de 1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1,3",
+       "u": "kg",
+       "n": "Garbanzo seco"
+      },
+      {
+       "q": "4",
+       "u": "cdta",
+       "n": "Sal (opcional, 1 por tarro)"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua de cocción (aprox.)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar los garbanzos y remojarlos 12–18 h en agua fría abundante. Escurrir.",
+      "Cubrirlos con agua nueva, hervir 30 min y salar los tarros si se quiere.",
+      "Llenar tarros calientes con los garbanzos y cubrir con el agua de cocción hirviendo, dejando 2,5 cm libres.",
+      "Quitar burbujas, limpiar bordes y cerrar.",
+      "Procesar en olla a presión de conservas 90 min (tarros de 1 l) o 75 min (500 ml) a 10 psi (manómetro de peso) u 11 psi (aguja).",
+      "Dejar bajar la presión sola antes de abrir."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA), «Beans or peas – shelled, dried». Requiere olla a presión de conservas con manómetro (autoclave doméstico): el baño maría y las ollas exprés normales no están validados para alimentos poco ácidos (riesgo de botulismo). Tiempos para 0–300 m; a más altura, subir la presión según la fuente. Vale para alubias y otras legumbres secas.",
+   "done": false,
+   "pesce": false
   }
  ]
 }
