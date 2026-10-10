@@ -17536,6 +17536,5067 @@
    "notes": "Licor de hierbas de la Sierra de Mariola, con indicación geográfica «Herbero de la Sierra de Mariola». Cada familia tiene su mezcla (las tradicionales llevan hasta veinte hierbas). Recolectar solo hierbas que se conozcan bien.",
    "done": false,
    "pesce": false
+  },
+  {
+   "id": "r-recetas-cebiche-de-pescado",
+   "tab": "recetas",
+   "name": "Cebiche de pescado",
+   "group": "Salado",
+   "tag": "Perú / Lima",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Cebiche",
+     "ings": [
+      {
+       "q": "700",
+       "u": "g",
+       "n": "Pescado blanco firme (lenguado, corvina) en dados de 2 cm"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Zumo de limón (unos 20 limones)"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo picado muy fino"
+      },
+      {
+       "q": "1–2",
+       "u": "ud.",
+       "n": "Ají limo picado, sin venas"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Culantro picado"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla roja en pluma, lavada y escurrida"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Cubito de hielo"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal y pimienta blanca"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Salpimentar el pescado y dejar 1 min.",
+      "Añadir el ajo y el ají limo y mezclar.",
+      "Añadir el zumo de limón, el culantro y el hielo y remover 1–3 min.",
+      "Incorporar la cebolla, retirar el hielo y rectificar de sal."
+     ]
+    },
+    {
+     "name": "Guarnición",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Camote sancochado en rodajas"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Choclo sancochado en rodajas"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Hoja de lechuga"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Cancha"
+      }
+     ],
+     "steps": [
+      "Servir el cebiche al momento en plato hondo con el camote y el choclo alrededor."
+     ]
+    }
+   ],
+   "notes": "Patrimonio Cultural de la Nación (RDN 241/INC-2004) y, desde 2023, Patrimonio Cultural Inmaterial de la UNESCO. Día Nacional del Cebiche: 28 de junio. Estilo limeño «al momento» según Gastón Acurio. El jugo que queda es la leche de tigre: también se sirve sola en vaso.",
+   "done": false,
+   "pesce": true
+  },
+  {
+   "id": "r-recetas-tiradito",
+   "tab": "recetas",
+   "name": "Tiradito",
+   "group": "Salado",
+   "tag": "Perú / Lima",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Pescado blanco muy fresco (lenguado, corvina) en láminas finas"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Ají amarillo molido"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Kion rallado"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Fumet frío o agua"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Recorte de pescado"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Culantro picado"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Ají limo en aros finos"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Laminar el pescado como para sashimi y mantenerlo en un plato frío.",
+      "Licuar el limón, el ají amarillo, el ajo, el kion, el recorte de pescado, el fumet y la sal. Rectificar.",
+      "Disponer las láminas, salar, napar con la salsa y decorar con culantro y ají limo.",
+      "Servir al instante."
+     ]
+    }
+   ],
+   "notes": "Cocina nikkei limeña: corte de sashimi con aliño de cebiche, sin cebolla. Fuentes: Andina; receta de Virgilio Martínez. Variantes de salsa: de rocoto o solo de limón.",
+   "done": false,
+   "pesce": true
+  },
+  {
+   "id": "r-recetas-causa-limena",
+   "tab": "recetas",
+   "name": "Causa limeña",
+   "group": "Salado",
+   "tag": "Perú / Lima",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Masa",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Papa amarilla"
+      },
+      {
+       "q": "4",
+       "u": "cda",
+       "n": "Ají amarillo molido"
+      },
+      {
+       "q": "40",
+       "u": "ml",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite vegetal"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal y pimienta"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Sancochar las papas, pelarlas y pasarlas en caliente por el prensapapas. Enfriar.",
+      "Amasar con el ají, el limón, el aceite, la sal y la pimienta hasta que quede lisa."
+     ]
+    },
+    {
+     "name": "Relleno y montaje",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Atún en conserva escurrido"
+      },
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Cebolla roja picada muy fina"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Mayonesa"
+      },
+      {
+       "q": "½",
+       "u": "ud.",
+       "n": "Limón (el zumo)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Palta (aguacate) en láminas"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo duro"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Aceituna de botija"
+      }
+     ],
+     "steps": [
+      "Mezclar el atún con la cebolla, la mayonesa y el limón.",
+      "Montar en aro: masa, palta salpimentada, masa, atún y masa.",
+      "Enfriar, desmoldar y decorar con huevo y aceituna."
+     ]
+    }
+   ],
+   "notes": "Kausay es «sustento» en quechua. La papa amarilla es imprescindible para la textura. El relleno también se hace de pollo.",
+   "done": false,
+   "pesce": true
+  },
+  {
+   "id": "r-recetas-aji-de-gallina",
+   "tab": "recetas",
+   "name": "Ají de gallina",
+   "group": "Salado",
+   "tag": "Perú / Lima",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Caldo",
+     "ings": [
+      {
+       "q": "700",
+       "u": "g",
+       "n": "Pechuga de gallina o pollo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla en trozos"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de apio"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "1,5",
+       "u": "l",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cocer la pechuga con las verduras 15–20 min. Deshilachar y reservar el caldo."
+     ]
+    },
+    {
+     "name": "Crema",
+     "ings": [
+      {
+       "q": "3",
+       "u": "cda",
+       "n": "Aceite vegetal"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla roja picada fina"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "5",
+       "u": "cda",
+       "n": "Ají amarillo molido"
+      },
+      {
+       "q": "120",
+       "u": "g",
+       "n": "Pan de molde sin corteza"
+      },
+      {
+       "q": "200",
+       "u": "ml",
+       "n": "Leche evaporada"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Pecana picada"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Parmesano rallado"
+      },
+      {
+       "q": "300",
+       "u": "ml",
+       "n": "Caldo reservado (aprox.)"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal, pimienta y comino"
+      }
+     ],
+     "steps": [
+      "Remojar el pan en la leche.",
+      "Sofreír la cebolla con el ajo hasta que esté transparente; salpimentar y añadir comino.",
+      "Añadir el ají y cocinar unos minutos.",
+      "Licuar con el pan remojado y las pecanas hasta que quede liso.",
+      "Volver a la olla con el pollo y el parmesano y aligerar con caldo hasta que quede cremoso."
+     ]
+    },
+    {
+     "name": "Para servir",
+     "ings": [
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Papa amarilla sancochada"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Arroz blanco"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo duro"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Aceituna de botija"
+      }
+     ],
+     "steps": [
+      "Servir sobre la papa, con arroz, huevo y aceituna."
+     ]
+    }
+   ],
+   "notes": "Cocina criolla limeña. Fuentes: El Comercio Provecho (Nelly Rossinelli) y Buenazo, que añade ají mirasol. Provecho usa hasta 150 g de parmesano.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-lomo-saltado",
+   "tab": "recetas",
+   "name": "Lomo saltado",
+   "group": "Salado",
+   "tag": "Perú / Lima",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Lomo fino en tiras gruesas"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Cebolla roja en gajos gruesos"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Tomate en gajos, sin pepitas"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Ají amarillo en tiras"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "45",
+       "u": "ml",
+       "n": "Vinagre tinto"
+      },
+      {
+       "q": "45",
+       "u": "ml",
+       "n": "Sillao (salsa de soja)"
+      },
+      {
+       "q": "3",
+       "u": "cda",
+       "n": "Aceite vegetal"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Culantro picado"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Tallo de cebolla china"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal y pimienta"
+      },
+      {
+       "q": "800",
+       "u": "g",
+       "n": "Papa en bastones, frita"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Arroz blanco"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar el vinagre con el sillao.",
+      "Calentar el wok a fuego máximo hasta que humee.",
+      "Saltear la carne salpimentada en tandas pequeñas con un chorro de la mezcla. Reservar.",
+      "Saltear la cebolla en tandas 1 min y el tomate 1–2 min.",
+      "Añadir aceite y ajo, devolver la carne con sus jugos, la cebolla, el tomate, el ají y el resto de la mezcla y saltear 1–2 min.",
+      "Terminar con cebolla china y culantro.",
+      "Mezclar la mitad de las papas con el saltado y poner el resto encima. Servir con arroz."
+     ]
+    }
+   ],
+   "notes": "Plato criollo-chifa: el wok y el sillao vienen de la inmigración china. Truco de Gastón Acurio: la mitad de las papas mezcladas y la otra mitad encima, para que unas queden jugosas y otras crujientes.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-anticuchos-de-corazon",
+   "tab": "recetas",
+   "name": "Anticuchos de corazón",
+   "group": "Salado",
+   "tag": "Perú / Lima",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Anticuchos",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Corazón de res limpio, en trozos de 1 cm de grosor"
+      },
+      {
+       "q": "110",
+       "u": "g",
+       "n": "Ají panca molido"
+      },
+      {
+       "q": "2½",
+       "u": "cda",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Comino molido"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Orégano seco"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Pimienta negra"
+      },
+      {
+       "q": "1½",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "110",
+       "u": "ml",
+       "n": "Vinagre de vino tinto"
+      },
+      {
+       "q": "120",
+       "u": "ml",
+       "n": "Aceite vegetal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar el ají, el ajo, las especias, la sal, el vinagre y la mitad del aceite.",
+      "Marinar el corazón al menos 3 h en nevera (mejor toda la noche).",
+      "Ensartar 3 trozos por palito de caña.",
+      "Asar a la brasa o en plancha muy caliente 2 min por lado, pincelando con la marinada mezclada con el resto del aceite."
+     ]
+    },
+    {
+     "name": "Para servir",
+     "ings": [
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Papa blanca sancochada, en rodajas"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Choclo"
+      },
+      {
+       "q": "130",
+       "u": "g",
+       "n": "Rocoto"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Tallo de cebolla china"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Dorar las rodajas de papa en la parrilla.",
+      "Licuar el rocoto con un poco de aceite, la cebolla china y sal.",
+      "Servir con la papa, el choclo y el ají de rocoto."
+     ]
+    }
+   ],
+   "notes": "Proporciones de Gastón Acurio (Peru: The Cookbook). De raíz colonial afroperuana; el aderezo antiguo llevaba chicha de jora en vez de vinagre. Se asocia al mes del Señor de los Milagros (octubre).",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-arroz-chaufa",
+   "tab": "recetas",
+   "name": "Arroz chaufa",
+   "group": "Salado",
+   "tag": "Perú / Lima",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "800",
+       "u": "g",
+       "n": "Arroz cocido del día anterior"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Pollo o cerdo en dados"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Huevo, en tortilla fina picada"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Cebolla china, parte blanca picada"
+      },
+      {
+       "q": "120",
+       "u": "g",
+       "n": "Cebolla china, tallo verde picado"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Kion rallado"
+      },
+      {
+       "q": "½",
+       "u": "ud.",
+       "n": "Pimiento rojo en dados"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Aceite vegetal"
+      },
+      {
+       "q": "90",
+       "u": "ml",
+       "n": "Sillao"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Aceite de ajonjolí"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Salsa de ostión"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Azúcar, sal y pimienta"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Saltear la parte blanca de la cebolla china, el ajo y el kion 2 min.",
+      "Añadir el pimiento y la carne y dorar a fuego vivo 2 min.",
+      "Añadir el arroz a fuego máximo y dejarlo tostar sin tocar; raspar, aplastar y voltear, tres veces.",
+      "Añadir el sillao, el ajonjolí, el ostión, el azúcar, la sal, la pimienta y el tallo verde.",
+      "Incorporar la tortilla y dar un último salteado."
+     ]
+    }
+   ],
+   "notes": "Cocina chifa limeña (mediados del s. XIX). «Chifa» viene del cantonés chi fan, «comer arroz». Receta casera de Gastón Acurio (RPP), con menos sillao y ajonjolí.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-tacu-tacu",
+   "tab": "recetas",
+   "name": "Tacu tacu",
+   "group": "Salado",
+   "tag": "Perú / Lima",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "800",
+       "u": "g",
+       "n": "Arroz cocido"
+      },
+      {
+       "q": "800",
+       "u": "g",
+       "n": "Frejol canario cocido"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Cebolla roja picada fina"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Ají amarillo molido"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal, pimienta y comino"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite vegetal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Licuar la mitad del frejol y machacar groseramente la otra mitad.",
+      "Hacer un aderezo a fuego muy bajo con la cebolla, el ajo y el ají; sazonar.",
+      "Mezclar el aderezo con el arroz y los dos frejoles.",
+      "Dividir en 4 porciones.",
+      "Dorar cada porción en sartén con aceite a fuego bajo, dándole forma de tortilla alargada sin compactar: crujiente fuera y cremoso dentro."
+     ]
+    }
+   ],
+   "notes": "Cocina criolla de aprovechamiento: arroz y menestra del día anterior (Gastón Acurio, RPP). Se sirve con huevo frito, plátano frito y salsa criolla, o con bistec o lomo saltado encima (tacu lomo).",
+   "done": false,
+   "pesce": true
+  },
+  {
+   "id": "r-recetas-papa-rellena",
+   "tab": "recetas",
+   "name": "Papa rellena",
+   "group": "Salado",
+   "tag": "Perú / Lima",
+   "yield": "8 ud.",
+   "parts": [
+    {
+     "name": "Masa",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Papa blanca"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal y pimienta"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Sancochar las papas, pelarlas y prensarlas en caliente.",
+      "Amasar con el huevo y salpimentar. Enfriar."
+     ]
+    },
+    {
+     "name": "Relleno",
+     "ings": [
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Aceite"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla roja picada"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "450",
+       "u": "g",
+       "n": "Carne de res picada a cuchillo"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ají panca molido"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Comino"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Orégano"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo duro picado"
+      },
+      {
+       "q": "8",
+       "u": "ud.",
+       "n": "Aceituna de botija"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Pasas"
+      }
+     ],
+     "steps": [
+      "Sofreír la cebolla y el ajo, añadir la carne y dorar.",
+      "Añadir el ají y las especias, reducir y enfriar."
+     ]
+    },
+    {
+     "name": "Formado y fritura",
+     "ings": [
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Huevo batido"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite para freír"
+      }
+     ],
+     "steps": [
+      "Aplanar una porción de masa en la mano enharinada, poner relleno, huevo, aceituna y pasa y cerrar en forma ovalada.",
+      "Pasar por harina y huevo batido y dejar reposar.",
+      "Freír a fuego medio-bajo hasta dorar.",
+      "Servir con salsa criolla."
+     ]
+    }
+   ],
+   "notes": "Receta de Gastón Acurio (RPP): solo harina y huevo para el empanado.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-pollo-a-la-brasa",
+   "tab": "recetas",
+   "name": "Pollo a la brasa",
+   "group": "Salado",
+   "tag": "Perú / Lima",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Pollo",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pollo entero de 1,6–1,8 kg"
+      },
+      {
+       "q": "3",
+       "u": "cda",
+       "n": "Ají panca molido"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Sillao"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Vinagre blanco"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Comino"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimienta negra"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Orégano seco"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Romero seco"
+      },
+      {
+       "q": "2",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Azúcar"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Aceite vegetal"
+      },
+      {
+       "q": "125",
+       "u": "ml",
+       "n": "Cerveza negra"
+      },
+      {
+       "q": "½",
+       "u": "ud.",
+       "n": "Limón (el zumo)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar todos los ingredientes de la marinada.",
+      "Secar el pollo, hacer cortes en las partes gruesas y untarlo, también bajo la piel.",
+      "Marinar al menos 4–5 h en nevera (mejor toda la noche).",
+      "Hornear sobre rejilla a 200 ºC 75–90 min, pincelando con sus jugos.",
+      "Subir a 220 ºC los últimos 10 min; el centro debe llegar a 74 ºC.",
+      "Reposar 10 min antes de trocear."
+     ]
+    },
+    {
+     "name": "Para servir",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Papa frita"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Ensalada de lechuga y tomate"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Crema de ají amarillo"
+      }
+     ],
+     "steps": [
+      "Servir con papas, ensalada y cremas."
+     ]
+    }
+   ],
+   "notes": "Nació en la Granja Azul (Santa Clara, Lima) en 1950, en el horno giratorio «rotombo». Día del Pollo a la Brasa: tercer domingo de julio (RM 0441-2010-AG). La cerveza negra es el ingrediente que más repiten las fuentes (Andina).",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-tallarines-verdes",
+   "tab": "recetas",
+   "name": "Tallarines verdes",
+   "group": "Salado",
+   "tag": "Perú / Lima",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Tallarín o espagueti"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Hojas de albahaca"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Hojas de espinaca"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Queso fresco"
+      },
+      {
+       "q": "125",
+       "u": "ml",
+       "n": "Leche evaporada"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite vegetal"
+      },
+      {
+       "q": "½",
+       "u": "ud.",
+       "n": "Cebolla roja"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Parmesano rallado"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Nuez o pecana (opcional)"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal y pimienta"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Blanquear la albahaca y la espinaca 30 s y cortar la cocción en agua con hielo.",
+      "Sudar la cebolla y el ajo en el aceite hasta que estén transparentes.",
+      "Licuar las hojas con el sofrito, el queso, la leche, el parmesano y las nueces.",
+      "Cocer la pasta al dente y reservar un poco del agua.",
+      "Calentar la salsa 5 min a fuego bajo sin que hierva fuerte y terminar la pasta en ella."
+     ]
+    }
+   ],
+   "notes": "Pesto genovés adaptado por los inmigrantes italianos: queso fresco, espinaca y leche. El plato clásico es con bistec apanado o huevo frito, y a menudo con papa a la huancaína.",
+   "done": false,
+   "pesce": true
+  },
+  {
+   "id": "r-recetas-cau-cau",
+   "tab": "recetas",
+   "name": "Cau cau",
+   "group": "Salado",
+   "tag": "Perú / Lima",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Mondongo (panza de res) limpio"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla roja picada fina"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "160",
+       "u": "ml",
+       "n": "Ají amarillo licuado"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Palillo (cúrcuma)"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Comino"
+      },
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Papa blanca en dados de 1,5 cm"
+      },
+      {
+       "q": "450",
+       "u": "ml",
+       "n": "Caldo de cocción del mondongo"
+      },
+      {
+       "q": "15",
+       "u": "g",
+       "n": "Hierbabuena picada"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal y pimienta blanca"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hervir el mondongo 30 min y desechar el agua.",
+      "Cocerlo en agua nueva con ramas de hierbabuena a fuego lento hasta que esté muy tierno. Reservar el caldo y cortar en dados pequeños.",
+      "Hacer el aderezo con la cebolla, el ajo, el ají, el palillo, el comino y la pimienta, 15 min.",
+      "Añadir el mondongo y un chorro de caldo y cocer unos minutos.",
+      "Añadir la papa, el resto del caldo y la mitad de la hierbabuena y cocer hasta que la papa esté hecha.",
+      "Rectificar y terminar con el resto de la hierbabuena. Servir con arroz blanco."
+     ]
+    }
+   ],
+   "notes": "Guiso criollo de origen discutido (afroperuano, andino). Gastón Acurio: el mondongo poco cocido queda «chicloso». Variantes con arvejas, de pollo o de mariscos.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-seco-de-res-con-frejoles",
+   "tab": "recetas",
+   "name": "Seco de res con frejoles",
+   "group": "Salado",
+   "tag": "Perú / Lima",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Seco",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Carne de res para guisar (punta de pecho, asado de tira)"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Aceite"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Cebolla roja picada fina"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "125",
+       "u": "ml",
+       "n": "Ají amarillo licuado"
+      },
+      {
+       "q": "125",
+       "u": "ml",
+       "n": "Ají mirasol licuado"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Chicha de jora (o cerveza rubia)"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Culantro licuado con 200 ml de agua"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Arveja"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Zanahoria en rodajas"
+      },
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Papa amarilla en mitades"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal, pimienta y comino"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Dorar la carne en trozos grandes y retirar.",
+      "Sofreír la cebolla 5 min, el ajo 2 min y los ajíes 5 min.",
+      "Mojar con la chicha y añadir el culantro; llevar a hervor.",
+      "Devolver la carne, cubrir con agua, tapar y cocer a fuego lento hasta que esté tierna.",
+      "Añadir las arvejas, la zanahoria y la papa y cocer hasta que la papa esté hecha."
+     ]
+    },
+    {
+     "name": "Frejoles",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Frejol canario remojado"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Tocino o papada"
+      },
+      {
+       "q": "½",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ají panca molido"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Aceite o manteca"
+      }
+     ],
+     "steps": [
+      "Cocer el frejol con el tocino y la cebolla hasta que esté suave.",
+      "Hacer un aderezo con el ajo y el ají panca, mezclar y aplastar un poco para espesar.",
+      "Servir el seco con frejoles, arroz y salsa criolla."
+     ]
+    }
+   ],
+   "notes": "«Seco de res a la limeña» de Gastón Acurio (RPP): el jugo debe quedar abundante. Los frejoles son una adaptación de su frejolada.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-sopa-criolla",
+   "tab": "recetas",
+   "name": "Sopa criolla",
+   "group": "Salado",
+   "tag": "Perú / Lima",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite"
+      },
+      {
+       "q": "350",
+       "u": "g",
+       "n": "Carne de res en dados pequeños"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla roja picada"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo picado"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ají panca molido"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Tomate pelado y picado"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Pasta de tomate"
+      },
+      {
+       "q": "2",
+       "u": "cdta",
+       "n": "Orégano seco"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Comino"
+      },
+      {
+       "q": "1,5",
+       "u": "l",
+       "n": "Caldo de res"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Fideo cabello de ángel"
+      },
+      {
+       "q": "125",
+       "u": "ml",
+       "n": "Leche evaporada"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pan tostado"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Dorar la carne en el aceite a fuego alto.",
+      "Añadir la cebolla y el ajo, luego el ají, el tomate y la pasta, 2 min.",
+      "Añadir el orégano, el laurel, el comino y el caldo y hervir 5 min.",
+      "Añadir el fideo y cocerlo.",
+      "Bajar el fuego y añadir la leche sin que hierva fuerte.",
+      "Escalfar los huevos en la sopa y servir con pan tostado y orégano por encima."
+     ]
+    }
+   ],
+   "notes": "Fuentes: El Comercio Provecho, Buenazo. El huevo varía: escalfado en la sopa o frito encima.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-tamales-criollos",
+   "tab": "recetas",
+   "name": "Tamales criollos",
+   "group": "Salado",
+   "tag": "Perú / Lima",
+   "yield": "8 ud.",
+   "parts": [
+    {
+     "name": "Relleno",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Cerdo o pollo en trozos"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ají panca molido"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Comino y sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Marinar la carne con ajo, ají, comino y sal.",
+      "Dorarla en un poco de manteca y cocerla en agua 30 min. Reservar el caldo."
+     ]
+    },
+    {
+     "name": "Masa",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Maíz blanco pelado (mote) seco, remojado"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Manteca de cerdo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla roja picada fina"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "3",
+       "u": "cda",
+       "n": "Ají panca molido"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Ají mirasol molido"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Comino"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Caldo del relleno (aprox.)"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Cocer el mote hasta que esté blando y molerlo hasta una masa fina.",
+      "Hacer un aderezo en la manteca con la cebolla, el ajo y los ajíes.",
+      "Añadir la masa y el caldo poco a poco y cocer 20–25 min removiendo hasta que se despegue de la olla. Entibiar."
+     ]
+    },
+    {
+     "name": "Armado",
+     "ings": [
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo duro en cuartos"
+      },
+      {
+       "q": "8",
+       "u": "ud.",
+       "n": "Aceituna de botija"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Maní tostado"
+      },
+      {
+       "q": "8",
+       "u": "ud.",
+       "n": "Hoja de plátano grande, soasada"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pabilo (hilo de cocina)"
+      }
+     ],
+     "steps": [
+      "Poner masa sobre la hoja, encima carne, huevo, aceituna y maní, y cubrir con más masa.",
+      "Cerrar y atar con pabilo.",
+      "Cocer parados en olla tapada con poca agua y fondo de hojas 1 h–1 h 20 min.",
+      "Servir con salsa criolla."
+     ]
+    }
+   ],
+   "notes": "Desayuno de domingo y de Fiestas Patrias, con salsa criolla y café pasado. Algunas versiones usan choclo licuado en vez de maíz blanco.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-pan-con-chicharron",
+   "tab": "recetas",
+   "name": "Pan con chicharrón",
+   "group": "Salado",
+   "tag": "Perú / Lima",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Chicharrón y camote",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Panceta de cerdo con piel, en trozos de 4–5 cm"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "15",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Comino"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Pimienta negra"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo machacado"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Camote en rodajas de 1 cm"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cocer la panceta con el agua, la sal, las especias y el ajo a fuego medio-bajo, tapada, 45–60 min, hasta que el agua se evapore.",
+      "Subir el fuego y freír en su propia grasa 8–12 min hasta que esté dorada y crocante. Escurrir.",
+      "Freír el camote en la misma grasa 3–5 min por lado y salar."
+     ]
+    },
+    {
+     "name": "Salsa criolla",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla roja en pluma muy fina"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Ají limo o amarillo en tiras finas"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Limón (el zumo)"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Culantro picado"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Lavar la cebolla en agua fría y escurrir.",
+      "Aliñar con el limón, el ají, el culantro y la sal y dejar reposar 10 min."
+     ]
+    },
+    {
+     "name": "Montaje",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Pan francés"
+      }
+     ],
+     "steps": [
+      "Abrir el pan y montar camote, chicharrón y abundante salsa criolla."
+     ]
+    }
+   ],
+   "notes": "Clave limeña: cocer en agua y freír en su propia grasa. Día Nacional del Pan con Chicharrón: segundo domingo de septiembre (RM 0368-2025-MIDAGRI).",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-jalea-mixta",
+   "tab": "recetas",
+   "name": "Jalea mixta",
+   "group": "Salado",
+   "tag": "Perú / Lima",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Jalea",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Filete de pescado en trozos de 2×3 cm"
+      },
+      {
+       "q": "12",
+       "u": "ud.",
+       "n": "Langostino limpio"
+      },
+      {
+       "q": "12",
+       "u": "ud.",
+       "n": "Concha de abanico"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Pulpo cocido en trozos"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Calamar en aros"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo picado muy fino"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Limón (el zumo)"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo batido"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "65",
+       "u": "g",
+       "n": "Chuño (fécula de papa)"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Aceite para freír"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal y pimienta"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Sazonar el pescado y los mariscos con el ajo, el limón, la sal y la pimienta.",
+      "Pasarlos por huevo y por la mezcla de harina y chuño.",
+      "Freír a 180 ºC 6–8 min hasta dorar. Escurrir."
+     ]
+    },
+    {
+     "name": "Salsa criolla",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla roja en pluma muy fina"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Ají limo o amarillo en tiras finas"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Limón (el zumo)"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Culantro picado"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Lavar la cebolla en agua fría y escurrir.",
+      "Aliñar con el limón, el ají, el culantro y la sal y dejar reposar 10 min."
+     ]
+    },
+    {
+     "name": "Guarnición",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Yuca"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Choclo"
+      },
+      {
+       "q": "1½",
+       "u": "ud.",
+       "n": "Tomate en tiras"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ají limo en tiras"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Cancha"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Culantro"
+      }
+     ],
+     "steps": [
+      "Sancochar la yuca, cortarla en bastones y freírla 8 min.",
+      "Sancochar y desgranar el choclo.",
+      "Montar la fritura al centro con la yuca alrededor y cubrir con la salsa criolla mezclada con el choclo, el tomate y el limo.",
+      "Terminar con cancha y culantro."
+     ]
+    }
+   ],
+   "notes": "Receta de Gastón Acurio (Peru: The Cookbook). Según Marca Perú (peru.info), de raíz norteña (Piura, Lambayeque); hoy clásico de las cebicherías de Lima y Callao. La harina con chuño da el crujiente.",
+   "done": false,
+   "pesce": true
+  },
+  {
+   "id": "r-recetas-parihuela",
+   "tab": "recetas",
+   "name": "Parihuela",
+   "group": "Salado",
+   "tag": "Perú / Lima",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Pescado de roca (tramboyo, cabrilla, chita) en trozos"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Cangrejo en mitades"
+      },
+      {
+       "q": "8",
+       "u": "ud.",
+       "n": "Choro (mejillón)"
+      },
+      {
+       "q": "8",
+       "u": "ud.",
+       "n": "Concha de abanico"
+      },
+      {
+       "q": "8",
+       "u": "ud.",
+       "n": "Langostino"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Calamar en aros"
+      },
+      {
+       "q": "45",
+       "u": "ml",
+       "n": "Aceite"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla roja picada"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "3",
+       "u": "cda",
+       "n": "Ají panca molido"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Ají amarillo molido"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Tomate picado"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Pasta de tomate"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Orégano"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "125",
+       "u": "ml",
+       "n": "Chicha de jora (o cerveza negra)"
+      },
+      {
+       "q": "125",
+       "u": "ml",
+       "n": "Vino blanco"
+      },
+      {
+       "q": "1,5",
+       "u": "l",
+       "n": "Fumet de pescado caliente"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Yuyo (alga)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Ají amarillo en tiras"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rocoto entero"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Culantro picado"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal y comino"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Sofreír la cebolla, el ajo, los ajíes, el tomate, la pasta, el orégano y el laurel hasta que el aderezo esté bien cocido.",
+      "Desglasar con la chicha y el vino.",
+      "Añadir el pescado sazonado, el cangrejo y los choros, cubrir con el fumet, tapar y cocer 15 min a fuego vivo.",
+      "Añadir el resto de mariscos y el yuyo, 5 min.",
+      "Terminar con el ají en tiras, el culantro y el rocoto entero."
+     ]
+    }
+   ],
+   "notes": "Versión de Don Cucho La Rosa (Perú21): sin espesar con chuño ni maicena. Sopa de todo el litoral, muy popular en Lima, Callao y el norte. Se sirve en perol.",
+   "done": false,
+   "pesce": true
+  },
+  {
+   "id": "r-recetas-pescado-a-lo-macho",
+   "tab": "recetas",
+   "name": "Pescado a lo macho",
+   "group": "Salado",
+   "tag": "Perú / Lima",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Salsa",
+     "ings": [
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Mantequilla"
+      },
+      {
+       "q": "15",
+       "u": "ml",
+       "n": "Aceite"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Langostino"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Calamar"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Pulpo precocido"
+      },
+      {
+       "q": "8",
+       "u": "ud.",
+       "n": "Concha de abanico"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Choro"
+      },
+      {
+       "q": "15",
+       "u": "ml",
+       "n": "Pisco"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla roja picada pequeña"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "3",
+       "u": "cda",
+       "n": "Ají amarillo molido"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Ají panca molido"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Pasta de tomate"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Vino blanco"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Fumet de pescado"
+      },
+      {
+       "q": "125",
+       "u": "ml",
+       "n": "Crema de leche"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rodaja de rocoto"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Culantro picado"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Saltear los mariscos en la mantequilla, flambear con el pisco y reservar.",
+      "Hacer el aderezo con la cebolla, el ajo, los ajíes y la pasta.",
+      "Añadir el vino y evaporar el alcohol.",
+      "Añadir el fumet, los mariscos y el rocoto y terminar con la crema y el culantro."
+     ]
+    },
+    {
+     "name": "Pescado",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Filete de corvina o cabrilla de 180 g"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Limón"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Ajo, sal y pimienta"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite para freír"
+      },
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Yuca"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Arroz blanco"
+      }
+     ],
+     "steps": [
+      "Sazonar el pescado con ajo, sal, pimienta y limón, enharinar y freír.",
+      "Napar con la salsa y servir con yuca sancochada o frita y arroz."
+     ]
+    }
+   ],
+   "notes": "Limeño de los años 50 (Buenazo); el nombre se atribuye al comandante «Macho» Frías o a lo picante. La crema es opcional según la versión.",
+   "done": false,
+   "pesce": true
+  },
+  {
+   "id": "r-recetas-escabeche-de-pescado",
+   "tab": "recetas",
+   "name": "Escabeche de pescado",
+   "group": "Salado",
+   "tag": "Perú / Lima",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Pescado",
+     "ings": [
+      {
+       "q": "700",
+       "u": "g",
+       "n": "Pescado (bonito, jurel, corvina) en trozos gruesos"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite para freír"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal, pimienta, comino y ajo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Sazonar el pescado, enharinarlo y freírlo hasta que forme costra. Enfriar."
+     ]
+    },
+    {
+     "name": "Escabeche",
+     "ings": [
+      {
+       "q": "750",
+       "u": "g",
+       "n": "Cebolla roja en pluma gruesa"
+      },
+      {
+       "q": "125",
+       "u": "ml",
+       "n": "Vinagre tinto"
+      },
+      {
+       "q": "125",
+       "u": "ml",
+       "n": "Ají mirasol molido"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Ají amarillo en tiras"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Orégano"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Azúcar"
+      },
+      {
+       "q": "125",
+       "u": "ml",
+       "n": "Caldo de pescado"
+      }
+     ],
+     "steps": [
+      "Escaldar la cebolla unos minutos en agua hirviendo con sal, escurrir y cubrir con el vinagre.",
+      "Sofreír el ajo y el mirasol 10 min en parte del aceite de freír.",
+      "Añadir el caldo, el laurel, el orégano y el azúcar y sazonar.",
+      "Añadir la cebolla con su vinagre y el ají en tiras y cocer solo 3–5 min.",
+      "Cubrir el pescado con la salsa y reposar al menos 30 min (mejor varias horas)."
+     ]
+    },
+    {
+     "name": "Guarnición",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Camote sancochado"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo duro"
+      },
+      {
+       "q": "8",
+       "u": "ud.",
+       "n": "Aceituna de botija"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Queso fresco"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Hoja de lechuga"
+      }
+     ],
+     "steps": [
+      "Servir a temperatura ambiente o frío con la guarnición."
+     ]
+    }
+   ],
+   "notes": "Técnica de origen hispano adaptada a la cocina criolla. Don Cucho La Rosa (Perú21) recoge una receta de 1921 con ají mirasol, hierbabuena y apio.",
+   "done": false,
+   "pesce": true
+  },
+  {
+   "id": "r-recetas-arroz-con-mariscos",
+   "tab": "recetas",
+   "name": "Arroz con mariscos",
+   "group": "Salado",
+   "tag": "Perú / Lima",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Calamar en aros"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Langostino pelado"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Concha de abanico"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Pulpo cocido"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Vino blanco"
+      },
+      {
+       "q": "3",
+       "u": "cda",
+       "n": "Aceite vegetal"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Mantequilla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla roja en cuadritos"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Tomate picado"
+      },
+      {
+       "q": "3",
+       "u": "cda",
+       "n": "Ají amarillo molido"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ají panca molido"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimentón"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Comino"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Orégano seco"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Arroz cocido en caldo de pescado"
+      },
+      {
+       "q": "120",
+       "u": "ml",
+       "n": "Caldo de pescado"
+      },
+      {
+       "q": "½",
+       "u": "ud.",
+       "n": "Pimiento rojo en tiras"
+      },
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Arveja cocida"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Culantro picado"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal y pimienta"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Saltear los mariscos a fuego muy fuerte, por tandas, solo hasta sellar. Desglasar con el vino y reservar con su jugo.",
+      "Sofreír la cebolla, añadir el ajo, los ajíes y las especias y cocinar 3–5 min.",
+      "Añadir el tomate y reducir 5–7 min.",
+      "Añadir el caldo, el jugo de los mariscos, el arroz, el pimiento y las arvejas y mezclar 3 min.",
+      "Incorporar los mariscos, calentar 2 min y terminar con culantro.",
+      "Servir con limón y salsa criolla."
+     ]
+    }
+   ],
+   "notes": "Clásico de cebichería. Debe quedar húmedo y graneado, nunca caldoso. Las versiones modernas añaden crema y parmesano; aquí la tradicional sin lácteos.",
+   "done": false,
+   "pesce": true
+  },
+  {
+   "id": "r-recetas-olluquito-con-charqui",
+   "tab": "recetas",
+   "name": "Olluquito con charqui",
+   "group": "Salado",
+   "tag": "Perú",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "800",
+       "u": "g",
+       "n": "Olluco"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Charqui (de llama, alpaca o res)"
+      },
+      {
+       "q": "3",
+       "u": "cda",
+       "n": "Aceite (o manteca)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla roja en cuadritos"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ají panca molido"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ají amarillo molido"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Comino"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Caldo o agua"
+      },
+      {
+       "q": "3",
+       "u": "cda",
+       "n": "Perejil picado"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal y pimienta"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar el charqui varias horas cambiando el agua, sancocharlo o tostarlo, golpearlo y deshilacharlo.",
+      "Cortar el olluco en juliana fina y no lavarlo después de cortado.",
+      "Hacer el aderezo con la cebolla, el ajo, los ajíes, el comino y la pimienta.",
+      "Añadir el charqui y luego el olluco.",
+      "Rehogar tapado con poco líquido 15–20 min, hasta que el olluco esté tierno.",
+      "Salar solo al final y terminar con perejil. Servir con arroz blanco."
+     ]
+    }
+   ],
+   "notes": "De origen andino prehispánico (Cusco, Pasco); aparece en el auto sacramental quechua El hijo pródigo (s. XVII). El charqui da la sal.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-papa-a-la-huancaina",
+   "tab": "recetas",
+   "name": "Papa a la huancaína",
+   "group": "Salado",
+   "tag": "Perú / Junín",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Papa amarilla o blanca"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Ají amarillo fresco, sin venas ni pepitas"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Queso fresco"
+      },
+      {
+       "q": "120",
+       "u": "ml",
+       "n": "Leche evaporada"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Galleta de soda"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite vegetal"
+      },
+      {
+       "q": "½",
+       "u": "ud.",
+       "n": "Cebolla pequeña"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Hoja de lechuga"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo duro"
+      },
+      {
+       "q": "8",
+       "u": "ud.",
+       "n": "Aceituna de botija"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Sancochar las papas con piel en agua con sal, pelarlas y cortarlas en rodajas gruesas.",
+      "Blanquear los ajíes 1–3 veces si se quieren menos picantes.",
+      "Sofreír la cebolla, el ajo y los ajíes.",
+      "Licuar con el queso, la leche, las galletas y el aceite hasta tener una crema que nape.",
+      "Montar sobre lechuga, napar las papas y decorar con huevo y aceituna."
+     ]
+    }
+   ],
+   "notes": "Especialidad Tradicional Garantizada de Indecopi (2025): «según la tradición de la provincia de Huancayo». Tradicionalmente se muele en batán. Entrada fría o a temperatura ambiente.",
+   "done": false,
+   "pesce": true
+  },
+  {
+   "id": "r-recetas-pachamanca-a-la-olla",
+   "tab": "recetas",
+   "name": "Pachamanca a la olla",
+   "group": "Salado",
+   "tag": "Perú / Junín",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Marinada",
+     "ings": [
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Huacatay (hojas)"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Chincho (hojas)"
+      },
+      {
+       "q": "120",
+       "u": "ml",
+       "n": "Chicha de jora"
+      },
+      {
+       "q": "120",
+       "u": "ml",
+       "n": "Cerveza negra"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Ají panca molido"
+      },
+      {
+       "q": "½",
+       "u": "cda",
+       "n": "Ají amarillo molido"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "½",
+       "u": "cda",
+       "n": "Comino"
+      },
+      {
+       "q": "½",
+       "u": "cda",
+       "n": "Pimienta"
+      },
+      {
+       "q": "½",
+       "u": "cda",
+       "n": "Orégano"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Vinagre"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Licuar la mitad de las hierbas con el resto de ingredientes."
+     ]
+    },
+    {
+     "name": "Pachamanca",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Presa de pollo"
+      },
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Panceta de cerdo"
+      },
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Asado de tira"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Papa huayro"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Camote"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Oca"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Choclo"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Haba verde"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pancas (hojas) de choclo"
+      }
+     ],
+     "steps": [
+      "Macerar cada carne por separado en la marinada toda la noche.",
+      "Forrar la olla con pancas y ramas de las hierbas restantes.",
+      "Dorar las carnes y ponerlas en la olla con la marinada.",
+      "Cubrir con pancas y poner encima tubérculos, habas y choclo con más marinada.",
+      "Tapar con pancas y con la tapa bien cerrada y cocinar a fuego bajo 1 h."
+     ]
+    }
+   ],
+   "notes": "La pachamanca (pacha, tierra; manka, olla) es Patrimonio Cultural de la Nación desde 2003 (INC). Día Nacional: primer domingo de febrero (RM 0577-2015-MINAGRI). La original se cuece en hoyo con piedras calientes (huatia) 1–3 h; esta es la versión casera del chef Héctor Lizárraga (RPP). Se acompaña de humitas y ají de huacatay.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-rocoto-relleno",
+   "tab": "recetas",
+   "name": "Rocoto relleno",
+   "group": "Salado",
+   "tag": "Perú / Arequipa",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Rocotos",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Rocoto grande"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Azúcar"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Vinagre"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar una tapa a cada rocoto y desvenarlo sin romperlo (con guantes).",
+      "Blanquear en agua con sal, azúcar y vinagre, cambiando el agua 2–3 veces (9–10 min en total). Cortar en agua fría."
+     ]
+    },
+    {
+     "name": "Relleno",
+     "ings": [
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Aceite"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla roja picada"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Tomate picado"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ají panca molido"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Carne de res picada a cuchillo"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Comino"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Orégano"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Maní tostado molido"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Pasas (opcional)"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Perejil picado"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo duro"
+      },
+      {
+       "q": "8",
+       "u": "ud.",
+       "n": "Aceituna de botija"
+      }
+     ],
+     "steps": [
+      "Hacer el aderezo y cocinar la carne hasta que quede seca.",
+      "Añadir el maní, las pasas y el perejil."
+     ]
+    },
+    {
+     "name": "Horneado",
+     "ings": [
+      {
+       "q": "120",
+       "u": "g",
+       "n": "Queso paria en 4 láminas"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "120",
+       "u": "ml",
+       "n": "Leche evaporada"
+      }
+     ],
+     "steps": [
+      "Rellenar cada rocoto con picadillo, huevo, aceituna y una lámina de queso y tapar.",
+      "Bañar con el huevo batido con la leche y sal.",
+      "Hornear a 180 ºC 25–30 min. Servir con pastel de papa."
+     ]
+    }
+   ],
+   "notes": "Arequipa: la picantería arequipeña es Patrimonio Cultural de la Nación (RVM 033-2014-VMPCIC-MC). PromPerú lo llama el plato más icónico de Arequipa. Receta de la picantera Aída Martínez: el queso es paria, no mozzarella.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-chupe-de-camarones",
+   "tab": "recetas",
+   "name": "Chupe de camarones",
+   "group": "Salado",
+   "tag": "Perú / Arequipa",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Caldo",
+     "ings": [
+      {
+       "q": "700",
+       "u": "g",
+       "n": "Camarón de río mediano"
+      },
+      {
+       "q": "1,2",
+       "u": "l",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Separar cabezas y colas. Hervir cabezas y cáscaras en el agua 15–20 min y colar."
+     ]
+    },
+    {
+     "name": "Chupe",
+     "ings": [
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Aceite"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla roja picada"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Ají panca o colorado molido"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ají amarillo molido"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Comino"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Orégano"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Arroz"
+      },
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Haba verde"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Choclo en rodajas"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Zapallo en trozos"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Papa amarilla"
+      },
+      {
+       "q": "240",
+       "u": "ml",
+       "n": "Leche evaporada"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Queso fresco en dados"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de huacatay"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal y pimienta"
+      }
+     ],
+     "steps": [
+      "Hacer el aderezo de cebolla, ajo y ajíes 5–7 min.",
+      "Añadir el caldo, el arroz, las habas, el choclo y el zapallo y cocer 15 min; añadir las papas.",
+      "Saltear un momento las colas en ají colorado con ajo e incorporarlas 3–5 min.",
+      "Bajar el fuego y añadir la leche, el queso y el huacatay sin que hierva fuerte.",
+      "Escalfar los huevos en el caldo, retirar el huacatay y servir."
+     ]
+    }
+   ],
+   "notes": "Arequipa: la picantería arequipeña es Patrimonio Cultural de la Nación (RVM 033-2014-VMPCIC-MC). Es el caldo de los viernes. Debe quedar más espeso que una sopa sin llegar a guiso. Técnica de la picantería La Capitana (Correo).",
+   "done": false,
+   "pesce": true
+  },
+  {
+   "id": "r-recetas-ocopa-arequipena",
+   "tab": "recetas",
+   "name": "Ocopa arequipeña",
+   "group": "Salado",
+   "tag": "Perú / Arequipa",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Ají mirasol seco"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Huacatay (hojas)"
+      },
+      {
+       "q": "½",
+       "u": "ud.",
+       "n": "Cebolla roja"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "75",
+       "u": "g",
+       "n": "Maní tostado"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Queso fresco"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Galleta de soda"
+      },
+      {
+       "q": "240",
+       "u": "ml",
+       "n": "Leche evaporada"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Aceite"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      },
+      {
+       "q": "800",
+       "u": "g",
+       "n": "Papa blanca sancochada"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo duro"
+      },
+      {
+       "q": "8",
+       "u": "ud.",
+       "n": "Aceituna de botija"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Hoja de lechuga"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hidratar y desvenar los mirasoles.",
+      "Tostar o dorar los mirasoles, la cebolla y el ajo 5 min.",
+      "Añadir el huacatay unos segundos.",
+      "Moler en batán o licuadora con el maní, el queso, las galletas y la leche hasta una crema espesa.",
+      "Napar las papas en rodajas y decorar con huevo y aceituna."
+     ]
+    }
+   ],
+   "notes": "Arequipa: la picantería arequipeña es Patrimonio Cultural de la Nación (RVM 033-2014-VMPCIC-MC). Especialidad Tradicional Garantizada de Indecopi (2025), pedida por la Sociedad Picantera de Arequipa. Se distingue por el mirasol tostado y el huacatay.",
+   "done": false,
+   "pesce": true
+  },
+  {
+   "id": "r-recetas-adobo-arequipeno",
+   "tab": "recetas",
+   "name": "Adobo arequipeño",
+   "group": "Salado",
+   "tag": "Perú / Arequipa",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Cerdo (lomo o pierna) en trozos grandes con algo de grasa"
+      },
+      {
+       "q": "4",
+       "u": "cda",
+       "n": "Ají colorado o panca molido"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Comino"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Orégano seco"
+      },
+      {
+       "q": "450",
+       "u": "ml",
+       "n": "Chicha de jora (o de güiñapo)"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Cebolla roja (2 en rodajas, 1 en tiras)"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal y pimienta"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Macerar la carne toda la noche con el ají, el ajo, el comino, el orégano, la sal, la pimienta, la chicha y 2 cebollas en rodajas.",
+      "Cocer en olla de barro con todo el macerado, tapado y a fuego lento, 1 h 30 min–2 h.",
+      "A media cocción añadir la cebolla en tiras.",
+      "Retirar cuando la carne esté tierna y el caldo algo espeso.",
+      "Servir con pan de tres puntas para mojar."
+     ]
+    }
+   ],
+   "notes": "Arequipa: la picantería arequipeña es Patrimonio Cultural de la Nación (RVM 033-2014-VMPCIC-MC). Desayuno del domingo, y después un té piteado. Día Nacional del Adobo de Cerdo: primer domingo de agosto (MIDAGRI).",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-solterito-arequipeno",
+   "tab": "recetas",
+   "name": "Solterito arequipeño",
+   "group": "Salado",
+   "tag": "Perú / Arequipa",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Haba verde pelada y cocida"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Choclo cocido y desgranado"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Queso paria o fresco en dados"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla roja en dados, blanqueada"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Tomate en dados, sin pepitas"
+      },
+      {
+       "q": "12",
+       "u": "ud.",
+       "n": "Aceituna de botija en rodajas"
+      },
+      {
+       "q": "½",
+       "u": "ud.",
+       "n": "Rocoto en tiras finas"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Perejil picado"
+      },
+      {
+       "q": "3",
+       "u": "cda",
+       "n": "Aceite de oliva"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Vinagre de chicha o tinto"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal y pimienta"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Papa sancochada en rodajas"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar todo en dados del mismo tamaño.",
+      "Aliñar con el aceite, el vinagre, la sal y la pimienta.",
+      "Mezclar y terminar con perejil y rocoto.",
+      "Servir con rodajas de papa."
+     ]
+    }
+   ],
+   "notes": "Arequipa: la picantería arequipeña es Patrimonio Cultural de la Nación (RVM 033-2014-VMPCIC-MC). «Soltero de queso». Entrada fresca de picantería; lo tradicional es queso paria y vinagre de chicha.",
+   "done": false,
+   "pesce": true
+  },
+  {
+   "id": "r-recetas-cuy-chactado",
+   "tab": "recetas",
+   "name": "Cuy chactado",
+   "group": "Salado",
+   "tag": "Perú / Arequipa",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Cuy entero, abierto y limpio (unos 900 g)"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Comino molido"
+      },
+      {
+       "q": "15",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Pimienta"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Harina de maíz (opcional)"
+      },
+      {
+       "q": "1,5",
+       "u": "l",
+       "n": "Aceite para freír"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Secar muy bien los cuyes y abrirlos en mariposa.",
+      "Macerar por dentro y por fuera con ajo, comino, sal y pimienta, de 2 h a una noche en frío.",
+      "Escurrir y, si se quiere, pasar por harina.",
+      "Calentar el aceite a 170–175 ºC en una sartén ancha.",
+      "Freír con la piel hacia abajo, con una tapa plana y una piedra lisa encima (chactar), 10–12 min por lado, hasta que la piel esté crujiente.",
+      "Escurrir y servir entero con papas, choclo y salsa criolla."
+     ]
+    }
+   ],
+   "notes": "Arequipa: la picantería arequipeña es Patrimonio Cultural de la Nación (RVM 033-2014-VMPCIC-MC). «Chactado» es freírlo aplastado bajo una piedra. Andina lo llama plato bandera arequipeño. El chef H. Purizaga (La Olla Arequipeña, en El Comercio) insiste en un macerado sencillo.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-carapulcra-con-sopa-seca",
+   "tab": "recetas",
+   "name": "Carapulcra con sopa seca",
+   "group": "Salado",
+   "tag": "Perú / Ica",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Carapulcra",
+     "ings": [
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Cerdo (pierna o panceta) en trozos"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Manteca de cerdo"
+      },
+      {
+       "q": "½",
+       "u": "ud.",
+       "n": "Cebolla roja picada"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "3",
+       "u": "cda",
+       "n": "Ají panca molido"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Comino"
+      },
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Papa blanca sancochada, pelada y en cubitos"
+      },
+      {
+       "q": "600",
+       "u": "ml",
+       "n": "Caldo de cocción del cerdo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Clavo de olor"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Maní tostado molido"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal y pimienta"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Sancochar el cerdo con ajo y sal y reservar el caldo.",
+      "Hacer el aderezo en la manteca con cebolla, ajo, ají, comino y pimienta 15–20 min, hasta que la grasa se separe.",
+      "Añadir el cerdo, la papa, el caldo, el clavo y la canela y cocinar a fuego lento removiendo.",
+      "Añadir el maní y cocinar hasta que espese y la papa se deshaga en parte."
+     ]
+    },
+    {
+     "name": "Sopa seca",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Presa de pollo"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Caldo de pollo (aprox.)"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Aceite de achiote"
+      },
+      {
+       "q": "½",
+       "u": "ud.",
+       "n": "Cebolla roja"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Tomate picado"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ají panca molido"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Albahaca (hojas) licuada con un poco de agua"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Perejil picado"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Tallarín partido"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Comino"
+      }
+     ],
+     "steps": [
+      "Sancochar el pollo y reservar el caldo.",
+      "Hacer el aderezo en el aceite de achiote con cebolla, ajo, ají y tomate.",
+      "Añadir el pollo, el caldo y la albahaca.",
+      "Echar los fideos y el perejil y cocinar tapado a fuego bajo hasta que se absorba el caldo: graneada, no aguada.",
+      "Servir juntas en el mismo plato."
+     ]
+    }
+   ],
+   "notes": "Plato bandera de Ica (Ordenanza Regional 016-2021-GORE-ICA); su día es el cuarto domingo de octubre. La chinchana lleva papa fresca, no papa seca (Esther Cartagena «Mamainé», Correo).",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-chiriuchu",
+   "tab": "recetas",
+   "name": "Chiriuchu",
+   "group": "Salado",
+   "tag": "Perú / Cusco",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Carnes",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cuy (unos 900 g)"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Huacatay picado"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Comino"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo molido"
+      },
+      {
+       "q": "½",
+       "u": "ud.",
+       "n": "Gallina (unos 800 g)"
+      },
+      {
+       "q": "2",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Charqui o cecina de cordero"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Chorizo artesanal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cocer la gallina en el agua con sal hasta que esté tierna (1 h 30 min). Reservar el caldo.",
+      "Untar el cuy con huacatay, comino, ajo y sal y hornear a 200 ºC 45 min.",
+      "Hervir el charqui hasta ablandar y dorarlo.",
+      "Cocer o freír el chorizo."
+     ]
+    },
+    {
+     "name": "Torrejas",
+     "ings": [
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "70",
+       "u": "g",
+       "n": "Harina de maíz"
+      },
+      {
+       "q": "70",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Polvo de hornear"
+      },
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Puré de zapallo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Tallo de cebolla china picado"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Caldo de gallina"
+      }
+     ],
+     "steps": [
+      "Batir todo con sal y caldo hasta una masa espesa y freír por cucharadas."
+     ]
+    },
+    {
+     "name": "Montaje",
+     "ings": [
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Hueveras de pescado"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Cochayuyo (alga)"
+      },
+      {
+       "q": "160",
+       "u": "g",
+       "n": "Cancha"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Queso fresco en 4 tajadas"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rocoto en tiras"
+      }
+     ],
+     "steps": [
+      "Remojar, hervir y dorar las hueveras. Enjuagar el cochayuyo en agua hervida.",
+      "Montar en frío: gallina y cuy en presas, charqui y torreja; encima chorizo y cancha; terminar con queso, cochayuyo, hueveras y rocoto."
+     ]
+    }
+   ],
+   "notes": "«Ají frío» en quechua: el plato del Corpus Christi cusqueño. Reúne costa (alga, hueveras), sierra (cuy, charqui, cancha, queso) y selva. Declarado patrimonio por el Parlamento Andino (2024). Se come frío, un poco de todo en cada bocado. Versión casera reducida; la tradicional lleva también tullán y chalona.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-kapchi-de-habas",
+   "tab": "recetas",
+   "name": "Kapchi de habas",
+   "group": "Salado",
+   "tag": "Perú / Cusco",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Aceite"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Cebolla roja en cuadritos"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Ají amarillo molido"
+      },
+      {
+       "q": "400",
+       "u": "ml",
+       "n": "Caldo o agua"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Rama de huacatay"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Papa amarilla en trozos"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Haba verde pelada y sancochada"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Leche evaporada"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Queso fresco en dados"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal, pimienta y comino"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Sofreír la cebolla con sal hasta que esté transparente.",
+      "Añadir el ajo, el comino, la pimienta y el ají y cocinar 5 min.",
+      "Añadir el caldo y el huacatay y llevar a hervor.",
+      "Cocer la papa hasta que esté tierna y añadir las habas.",
+      "Agregar los huevos batidos removiendo para que queden en hebras.",
+      "Incorporar la leche y el queso y apagar sin que hierva.",
+      "Retirar el huacatay y servir con arroz blanco."
+     ]
+    }
+   ],
+   "notes": "Guiso cusqueño. No confundir con el qapchi ayacuchano, que es una salsa fría de queso. El queso entra al final para que no se vuelva elástico.",
+   "done": false,
+   "pesce": true
+  },
+  {
+   "id": "r-recetas-choclo-con-queso",
+   "tab": "recetas",
+   "name": "Choclo con queso",
+   "group": "Salado",
+   "tag": "Perú / Cusco",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Choclo blanco gigante del Cusco, con algunas pancas"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Queso paria o fresco en tajadas gruesas"
+      },
+      {
+       "q": "3",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Anís estrellado"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Azúcar"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hervir el agua con el anís y el azúcar, sin sal.",
+      "Añadir los choclos con unas pancas.",
+      "Cocer a fuego medio-bajo 20–45 min, según lo maduro que esté.",
+      "Escurrir y servir caliente con la tajada de queso y un ají de huacatay o rocoto."
+     ]
+    }
+   ],
+   "notes": "El maíz blanco gigante del Cusco (Calca y Urubamba) tiene Denominación de Origen de Indecopi (2005). El anís y el azúcar en el agua son el toque tradicional (Rely Alencastre).",
+   "done": false,
+   "pesce": true
+  },
+  {
+   "id": "r-recetas-chairo",
+   "tab": "recetas",
+   "name": "Chairo",
+   "group": "Salado",
+   "tag": "Perú / Puno",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Cordero (pecho o costilla)"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Chalona (cordero seco salado)"
+      },
+      {
+       "q": "2,5",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Chuño negro, remojado 12–24 h"
+      },
+      {
+       "q": "20",
+       "u": "ml",
+       "n": "Aceite"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla en juliana"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Papa blanca en tiras gruesas"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Zanahoria en juliana gruesa"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Haba verde pelada"
+      },
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Trigo pelado (opcional)"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Orégano seco"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Desalar la chalona 1 h y hervirla con el cordero en el agua 1–1 h 30 min, espumando (con el trigo si se usa).",
+      "Retirar las carnes y deshilachar la chalona.",
+      "Sofreír la cebolla y el ajo e incorporarlos al caldo.",
+      "Pelar y partir el chuño, añadirlo y cocer 20 min.",
+      "Añadir la papa y la zanahoria, 15 min, y las habas, 8 min.",
+      "Devolver las carnes, rectificar de sal y servir muy caliente con orégano."
+     ]
+    }
+   ],
+   "notes": "Sopa aimara del altiplano, compartida con La Paz (Bolivia). Ingredientes según Marca Perú (peru.info). Cuidado con la sal: la chalona ya la lleva.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-trucha-frita",
+   "tab": "recetas",
+   "name": "Trucha frita",
+   "group": "Salado",
+   "tag": "Perú / Puno",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Trucha entera de 300–350 g, eviscerada"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Comino"
+      },
+      {
+       "q": "2",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Pimienta"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "400",
+       "u": "ml",
+       "n": "Aceite"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Limón en gajos"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar y secar las truchas y hacer 2–3 cortes por lado.",
+      "Sazonar con ajo, comino, sal, pimienta y limón y dejar 15 min.",
+      "Secar, enharinar y sacudir el exceso.",
+      "Freír a 175 ºC 4–5 min por lado, hasta que la piel esté dorada y crujiente.",
+      "Servir con papas, choclo, chuño, arroz y salsa criolla."
+     ]
+    }
+   ],
+   "notes": "Trucha del lago Titicaca, criada en jaulas (especie introducida en el s. XX). Guarnición según Marca Perú (peru.info).",
+   "done": false,
+   "pesce": true
+  },
+  {
+   "id": "r-recetas-puca-picante",
+   "tab": "recetas",
+   "name": "Puca picante",
+   "group": "Salado",
+   "tag": "Perú / Ayacucho",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Cerdo (panceta o costilla) en trozos"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Aceite"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla roja en cuadritos"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "3",
+       "u": "cda",
+       "n": "Ají panca molido"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Comino"
+      },
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Papa blanca en cubos"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Caldo o agua"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Maní tostado molido"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Betarraga (remolacha) sancochada y licuada"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal y pimienta"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Dorar el cerdo en su propia grasa y retirarlo.",
+      "En esa grasa, hacer el aderezo con cebolla, ajo, ají, comino, sal y pimienta 5–8 min.",
+      "Añadir la papa y el caldo y cocer tapado hasta que la papa empiece a deshacerse.",
+      "Añadir el maní y la betarraga y devolver el cerdo; cocinar 5 min.",
+      "Debe quedar espeso y rojo intenso. Servir con arroz blanco y chicharrón."
+     ]
+    }
+   ],
+   "notes": "«Picante rojo» de Huamanga, comida de las faenas comunales. Día del Puka Picante: 2 de febrero (ordenanza municipal de Huamanga, 2018). Las versiones con leche o queso son modernas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-mondongo-ayacuchano",
+   "tab": "recetas",
+   "name": "Mondongo ayacuchano",
+   "group": "Salado",
+   "tag": "Perú / Ayacucho",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Mondongo",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Maíz pelado (mote) seco, remojado una noche"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Mondongo (panza de res) limpio, en tiras"
+      },
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Pata de res en trozos"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Carnero"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Cerdo (costilla)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "4",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Limpiar y blanquear el mondongo y la pata.",
+      "Cocer a fuego lento el maíz con la pata, el mondongo, la cebolla y el ajo 3–4 h, hasta que el maíz se abra.",
+      "Añadir el carnero y el cerdo y cocer 1–1 h 30 min más, hasta que todo esté tierno y el caldo espese.",
+      "Salar al final."
+     ]
+    },
+    {
+     "name": "Para la mesa",
+     "ings": [
+      {
+       "q": "4",
+       "u": "cda",
+       "n": "Ají panca molido"
+      },
+      {
+       "q": "4",
+       "u": "cda",
+       "n": "Hierbabuena picada"
+      }
+     ],
+     "steps": [
+      "Servir con el ají y la hierbabuena aparte, para que cada uno se los ponga."
+     ]
+    }
+   ],
+   "notes": "Sopa espesa de cocción larga, que puede empezar la víspera. Es la ficha con menos fuentes de referencia: cantidades orientativas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-picante-a-la-tacnena",
+   "tab": "recetas",
+   "name": "Picante a la tacneña",
+   "group": "Salado",
+   "tag": "Perú / Tacna",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Guata (panza) y librillo de res"
+      },
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Pata de res"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Charqui"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Chalona"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Ají panca seco, sin venas ni pepitas"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Comino molido"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite"
+      },
+      {
+       "q": "800",
+       "u": "g",
+       "n": "Papa blanca sancochada, pelada y en trozos"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Orégano seco"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cocer la guata, el librillo y la pata 3–4 h, hasta que estén muy tiernos. Reservar el caldo y picar en tiras.",
+      "Desalar, cocer y deshilachar el charqui y la chalona.",
+      "Remojar y hervir los ajíes 30 min y licuarlos con el ajo y el comino.",
+      "Cocer la pasta de ají a fuego bajo, removiendo, hasta que esté concentrada y rojo oscuro.",
+      "Freírla en el aceite, añadir las carnes y 500–750 ml de caldo.",
+      "Añadir la papa aplastándola en parte para espesar y cocinar 15 min.",
+      "Añadir el orégano y reposar 30 min. Servir con pan marraqueta."
+     ]
+    }
+   ],
+   "notes": "Nació en los valles de Locumba y Sama. Día del Picante a la Tacneña: tercer domingo de agosto (Consejo Regional de Tacna, 2014). El orégano de Tacna tiene Denominación de Origen (Indecopi, 2024).",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-arroz-con-pato",
+   "tab": "recetas",
+   "name": "Arroz con pato",
+   "group": "Salado",
+   "tag": "Perú / Lambayeque",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pato criollo en 4 presas (unos 2 kg)"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Vinagre"
+      },
+      {
+       "q": "3",
+       "u": "cda",
+       "n": "Ají amarillo molido"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "40",
+       "u": "ml",
+       "n": "Aceite"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla roja picada"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Zapallo loche rallado"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Culantro (hojas) licuado con 100 ml de agua"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Chicha de jora (o cerveza negra)"
+      },
+      {
+       "q": "800",
+       "u": "ml",
+       "n": "Caldo de pato o agua (aprox.)"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Arroz"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Arveja"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento rojo en tiras"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal, pimienta y comino"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Macerar el pato con la mitad del ajo, el vinagre, 1 cda de ají, sal y pimienta (2 h a una noche).",
+      "Sellar las presas en el aceite hasta dorarlas y retirarlas.",
+      "Sofreír la cebolla, el resto del ajo y del ají y el comino; añadir el loche y el culantro y cocinar 5 min.",
+      "Devolver el pato, mojar con la chicha y parte del caldo y cocer tapado 1 h. Retirar las presas.",
+      "Completar el líquido con caldo, añadir el arroz y las arvejas y cocer tapado a fuego bajo 20 min.",
+      "A mitad de cocción poner el pimiento y las presas encima.",
+      "Reposar 5 min y servir con salsa criolla."
+     ]
+    }
+   ],
+   "notes": "Plato bandera de Chiclayo, documentado en el s. XIX (Andina). RPP: sin loche no es arroz con pato; el zapallo loche tiene Denominación de Origen (Indecopi, 2010). En España, sustituir por calabaza violín (se pierde el aroma).",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-seco-de-cabrito",
+   "tab": "recetas",
+   "name": "Seco de cabrito",
+   "group": "Salado",
+   "tag": "Perú / Lambayeque",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Seco",
+     "ings": [
+      {
+       "q": "1,2",
+       "u": "kg",
+       "n": "Cabrito en presas (pierna y paleta)"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Chicha de jora"
+      },
+      {
+       "q": "5",
+       "u": "ud.",
+       "n": "Diente de ajo molido"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Comino"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Pimienta"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla roja picada"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Ají panca molido"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Ají amarillo molido"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Ají amarillo en tiras"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Zapallo loche rallado"
+      },
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Culantro licuado con 50 ml de agua"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Macerar el cabrito con la chicha, la mitad del ajo, sal, pimienta y comino 12 h.",
+      "Hacer el aderezo con el aceite, la cebolla, el resto del ajo y los ajíes.",
+      "Escurrir el cabrito y dorarlo en el aderezo.",
+      "Añadir el líquido de maceración y cocer tapado a fuego bajo 1 h 30 min–2 h.",
+      "Añadir el loche, 5 min, y al final el culantro con un último hervor."
+     ]
+    },
+    {
+     "name": "Acompañamiento",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Frejol canario seco"
+      },
+      {
+       "q": "800",
+       "u": "g",
+       "n": "Yuca"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Arroz"
+      }
+     ],
+     "steps": [
+      "Sancochar el frejol y la yuca y hacer arroz graneado.",
+      "Servir con salsa criolla."
+     ]
+    }
+   ],
+   "notes": "Plato bandera de la costa norte (Lambayeque y La Libertad). Según la receta del INIA (RPP), siempre más comino que pimienta.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-chinguirito",
+   "tab": "recetas",
+   "name": "Chinguirito",
+   "group": "Salado",
+   "tag": "Perú / Lambayeque",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Guitarra seca (pescado salado y secado al sol)"
+      },
+      {
+       "q": "200",
+       "u": "ml",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla roja en pluma"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Ají limo picado"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal y pimienta"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Hoja de lechuga"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Yuca sancochada"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Camote sancochado"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Choclo sancochado"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar la guitarra y remojarla en agua para suavizar el sabor y la textura.",
+      "Escurrir, prensar y deshilachar fino.",
+      "Aliñar con limón, ajo, sal y pimienta y reposar unos minutos.",
+      "Servir con la cebolla y el ají limo encima y las guarniciones alrededor."
+     ]
+    }
+   ],
+   "notes": "Cebiche de pescado seco, herencia de los pescadores de Santa Rosa y San José (Andina). Cantidades orientativas: las fuentes no las dan. En España, lo más parecido es bacalao salado desalado y desmigado. La guitarra es especie en proyectos de conservación.",
+   "done": false,
+   "pesce": true
+  },
+  {
+   "id": "r-recetas-shambar",
+   "tab": "recetas",
+   "name": "Shambar",
+   "group": "Salado",
+   "tag": "Perú / La Libertad",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Trigo shambar (pelado y partido)"
+      },
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Frejol canario"
+      },
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Garbanzo"
+      },
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Arveja seca partida"
+      },
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Haba seca pelada"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Pellejo de cerdo"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Costilla o panceta de cerdo ahumada"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Jamón"
+      },
+      {
+       "q": "3",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Aceite"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla picada"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Ají panca molido"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ají amarillo molido"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Comino"
+      },
+      {
+       "q": "15",
+       "u": "g",
+       "n": "Hierbabuena picada"
+      },
+      {
+       "q": "15",
+       "u": "g",
+       "n": "Culantro picado"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar el trigo y las menestras 12 h.",
+      "Cocerlos con las carnes 60–90 min, hasta que estén muy blandos.",
+      "Hacer un aderezo con la cebolla, el ajo, los ajíes y el comino y dorarlo.",
+      "Incorporarlo a la olla y cocer 15–20 min a fuego bajo hasta que espese.",
+      "Salar y servir con hierbabuena y culantro por encima, con cancha y ají."
+     ]
+    }
+   ],
+   "notes": "La sopa de los lunes en Trujillo. En España, el jamón serrano da la sal.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-seco-de-chabelo",
+   "tab": "recetas",
+   "name": "Seco de chabelo",
+   "group": "Salado",
+   "tag": "Perú / Piura",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Carne seca de res"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Plátano verde grande"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Manteca de cerdo o aceite"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla roja picada"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Tomate picado"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Ají amarillo molido"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ají panca molido"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Comino"
+      },
+      {
+       "q": "120",
+       "u": "ml",
+       "n": "Chicha de jora"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Culantro picado"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal y pimienta"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Desalar la carne seca, asarla o freírla y trocearla.",
+      "Asar los plátanos a la brasa.",
+      "Machacarlos con mazo, gruesos, sin hacer puré.",
+      "Hacer el aderezo en la paila con la manteca.",
+      "Añadir la carne, el plátano y la chicha y remover hasta que quede «seco»: sin jugo, pero húmedo.",
+      "Terminar con culantro y servir con cancha y salsa criolla."
+     ]
+    }
+   ],
+   "notes": "Especialidad Tradicional Garantizada de Indecopi (2026). Día del Seco de Chavelo por acuerdo municipal de Piura (2022). En España: cecina de León y plátano macho verde.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-cebiche-de-conchas-negras",
+   "tab": "recetas",
+   "name": "Cebiche de conchas negras",
+   "group": "Salado",
+   "tag": "Perú / Tumbes",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "40",
+       "u": "ud.",
+       "n": "Concha negra muy fresca"
+      },
+      {
+       "q": "300",
+       "u": "ml",
+       "n": "Zumo de limón (unos 20 limones)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla roja picada fina"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Ají limo picado"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Culantro picado"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal y pimienta blanca"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Cancha"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Choclo desgranado"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Abrir las conchas una a una conservando su jugo negro.",
+      "Juntarlas en un bol con el ají, la cebolla, el culantro, la sal y la pimienta.",
+      "Exprimir los limones encima, uno a uno.",
+      "Rectificar, mezclar y servir al momento con cancha y choclo."
+     ]
+    }
+   ],
+   "notes": "Del manglar de Tumbes. Receta de Gastón Acurio (RPP). Bivalvo crudo: solo de procedencia autorizada. En España se encuentra congelada de Ecuador; si no, usar mejillón o berberecho grande.",
+   "done": false,
+   "pesce": true
+  },
+  {
+   "id": "r-recetas-caldo-verde",
+   "tab": "recetas",
+   "name": "Caldo verde",
+   "group": "Salado",
+   "tag": "Perú / Cajamarca",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Verde",
+     "ings": [
+      {
+       "q": "15",
+       "u": "g",
+       "n": "Paico"
+      },
+      {
+       "q": "15",
+       "u": "g",
+       "n": "Huacatay"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Perejil"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Culantro"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Hierbabuena"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Moler las hierbas en batán o licuarlas con el agua."
+     ]
+    },
+    {
+     "name": "Caldo",
+     "ings": [
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Aceite"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1,5",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Papa en trozos"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Queso fresco (quesillo)"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Sofreír el ajo en el aceite con sal.",
+      "Añadir el agua y la papa y hervir 20–25 min, hasta que esté tierna.",
+      "Echar el huevo en hilo con movimiento ondulado.",
+      "Añadir el queso.",
+      "Servir con el verde, que cada uno añade a su gusto."
+     ]
+    }
+   ],
+   "notes": "Desayuno cajamarquino (RPP). Se acompaña de pan de agua. En España: paico = epazote; huacatay en pasta.",
+   "done": false,
+   "pesce": true
+  },
+  {
+   "id": "r-recetas-juane-de-gallina",
+   "tab": "recetas",
+   "name": "Juane de gallina",
+   "group": "Salado",
+   "tag": "Perú / San Martín",
+   "yield": "8 ud.",
+   "parts": [
+    {
+     "name": "Gallina y arroz",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Gallina en 8 presas"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "2",
+       "u": "cdta",
+       "n": "Palillo (cúrcuma)"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Comino"
+      },
+      {
+       "q": "1,4",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla roja picada"
+      },
+      {
+       "q": "10",
+       "u": "ud.",
+       "n": "Hoja de sacha culantro picada"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Arroz"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo crudo batido"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cocer la gallina en el agua con ajo, palillo, comino y sal hasta obtener un caldo concentrado. Reservar.",
+      "Hacer un aderezo con la cebolla y el sacha culantro y cocer el arroz en el caldo. Enfriar.",
+      "Mezclar el arroz con el huevo crudo."
+     ]
+    },
+    {
+     "name": "Armado",
+     "ings": [
+      {
+       "q": "16",
+       "u": "ud.",
+       "n": "Hoja de bijao (u hoja de plátano)"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Huevo duro en mitades"
+      },
+      {
+       "q": "8",
+       "u": "ud.",
+       "n": "Aceituna de botija"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pabilo (hilo de cocina)"
+      }
+     ],
+     "steps": [
+      "Sobre hojas soasadas, poner arroz, una presa, medio huevo y una aceituna y cubrir con más arroz.",
+      "Cerrar en forma de bola y atar firme con pabilo.",
+      "Hervir sumergidos 40–50 min.",
+      "Servir tibios con yuca y ají de cocona."
+     ]
+    }
+   ],
+   "notes": "Plato de la Fiesta de San Juan (24 de junio, feriado regional en Loreto); su forma recuerda la cabeza del santo. Cocción según Caretas. En España: hoja de plátano y culantro (recao).",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-tacacho-con-cecina",
+   "tab": "recetas",
+   "name": "Tacacho con cecina",
+   "group": "Salado",
+   "tag": "Perú / San Martín",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Tacacho",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Plátano verde (bellaco)"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Panceta en dados"
+      },
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Manteca de cerdo"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Freír la panceta en la manteca hasta tener chicharrón crujiente. Reservar la grasa.",
+      "Asar los plátanos pelados a la brasa.",
+      "Machacarlos en caliente con sal.",
+      "Incorporar el chicharrón y la grasa y formar bolas del tamaño de un puño."
+     ]
+    },
+    {
+     "name": "Cecina y ají",
+     "ings": [
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Cecina de cerdo ahumada"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Cocona"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla roja picada"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Ají charapita"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Limón (el zumo)"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Aceite"
+      }
+     ],
+     "steps": [
+      "Freír o asar la cecina.",
+      "Picar la cocona, la cebolla y el ají y aliñar con limón, aceite y sal.",
+      "Servir el tacacho con la cecina y el ají de cocona."
+     ]
+    }
+   ],
+   "notes": "Desayuno de Tarapoto. La cecina amazónica es cerdo salado y ahumado (no la de León): en España, aguja o panceta ahumadas.",
+   "done": false,
+   "pesce": false
+  },
+  {
+   "id": "r-recetas-patarashca",
+   "tab": "recetas",
+   "name": "Patarashca",
+   "group": "Salado",
+   "tag": "Perú / Loreto",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Pescado de río entero de 350–400 g (o dorada, lubina)"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Ajo molido"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Cebolla roja picada"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Ají dulce picado"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Tomate picado"
+      },
+      {
+       "q": "10",
+       "u": "ud.",
+       "n": "Hoja de sacha culantro picada"
+      },
+      {
+       "q": "4",
+       "u": "cda",
+       "n": "Aceite"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal, pimienta y comino"
+      },
+      {
+       "q": "8",
+       "u": "ud.",
+       "n": "Hoja de bijao (u hoja de plátano)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Limpiar el pescado y sazonarlo por dentro y por fuera.",
+      "Mezclar el resto de ingredientes y rellenar el pescado.",
+      "Envolver en doble hoja soasada y atar.",
+      "Asar a la brasa 20–30 min, dándole la vuelta.",
+      "Servir en la hoja abierta con plátano o yuca y ají de cocona."
+     ]
+    }
+   ],
+   "notes": "Técnica amazónica de asar envuelto en hoja (Loreto, Ucayali, San Martín). Sacha culantro = culantro o recao de tiendas latinas y asiáticas.",
+   "done": false,
+   "pesce": true
+  },
+  {
+   "id": "r-recetas-inchicapi",
+   "tab": "recetas",
+   "name": "Inchicapi",
+   "group": "Salado",
+   "tag": "Perú / Loreto",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1,2",
+       "u": "kg",
+       "n": "Gallina en presas"
+      },
+      {
+       "q": "2,5",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Maní tostado"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla roja"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Ají dulce"
+      },
+      {
+       "q": "15",
+       "u": "ud.",
+       "n": "Hoja de sacha culantro"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Harina de maíz amarillo"
+      },
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Yuca en trozos"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hervir la gallina hasta tener un caldo concentrado; enfriar una parte.",
+      "Licuar el maní, la cebolla, el ajo, el ají dulce y el sacha culantro con caldo frío.",
+      "Añadirlo a la olla y cocer 10 min.",
+      "Disolver la harina en caldo frío, añadirla y remover 5 min para que no se pegue.",
+      "Añadir la yuca cocida y salar."
+     ]
+    }
+   ],
+   "notes": "Del quechua inchik (maní) y api (sopa). Sopa amazónica de Loreto y San Martín (Andina).",
+   "done": false,
+   "pesce": false
   }
  ]
 }
