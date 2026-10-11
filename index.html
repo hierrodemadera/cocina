@@ -153,6 +153,8 @@ html.despensa,html.despensa body,html.despensa .top{background:var(--bg);}
 .col-sub.open .chev{transform:none;}
 .col-sub.tog:not(.open) + .col-sub{margin-top:2px;}
 .col-empty.sm{padding:6px 2px 8px;font-size:13px;}
+.col-sub.l1{font-size:12.5px;color:var(--fg);letter-spacing:.04em;}
+.lvl2{padding-left:12px;border-left:2px solid var(--soft);margin:2px 0 6px 3px;}
 .chip{flex-shrink:0;height:32px;padding:0 13px;border-radius:16px;border:1px solid var(--field);font-size:14px;color:var(--muted);white-space:nowrap;}
 .chip.on{background:var(--accent);color:var(--on-accent);border-color:var(--accent);}
 .chip .c{opacity:.6;margin-left:4px;font-size:12.5px;}
@@ -380,7 +382,7 @@ const TABS = [
 ];
 const GROUPS = {
   recetas:   ['Salado','Dulce'],
-  productos: ['Lácteos y derivados','Masas','Legumbres y semillas','Aceites, infusiones y derivados','Salsas'],
+  productos: ['Fondos','Salsas','Guarniciones','Elaboraciones complementarias','Masas','Lácteos y derivados','Legumbres, cereales, frutos secos y semillas','Aceites, vinagres, extractos y bebidas'],
   conservas: ['Fermentos','Encurtidos','Conservas dulces','Conservas saladas']
 };
 
@@ -411,11 +413,91 @@ const CATS = {
     ['Carne, pescado y huevos', []]
   ]
 };
-function catApplies(r){ return (r.tab === 'recetas' && r.group !== 'Dulce') || (r.tab === 'conservas' && r.group === 'Fermentos'); }
+
+/* clasificación dentro de cada grupo de Productos (y de Fermentos): [categoría, subcategorías] */
+const LEG_SUBS = ['Cocidos y encurtidos','Tostados y fritos','Pastas, cremas y untables','Bebidas vegetales','Cuajados y fermentados','Germinados','Harinas y sémolas','Mezclas condimentarias','Copos y mezclas de desayuno','Horneados'];
+const GCATS = {
+  'Fondos': [
+    ['Fondos blancos', ['De ave','De ternera o vacuno','De cerdo o mixtos']],
+    ['Fondos oscuros', ['De ternera','De ave','De caza']],
+    ['Fondos de pescado y marisco', ['Fumet blanco','Fumet oscuro','De marisco']],
+    ['Fondos vegetales', ['Claros','Tostados']],
+    ['Infusiones y esencias', ['Dashi y caldos de infusión','Esencias']],
+    ['Consomés', ['Simple','Clarificado']],
+    ['Glaces', ['De carne','De ave','De pescado o caza']],
+    ['Gelatinas', ['Naturales','Preparadas']],
+    ['Caldos de cocción', ['Court-bouillon','Blancos']]
+  ],
+  'Salsas': [
+    ['Ligadas clásicas', ['Bechamel','Velouté','Española y demi-glace','Tomate','Americana']],
+    ['Jugos y reducciones', ['Jugos','Reducciones']],
+    ['Emulsionadas', ['De yema y mantequilla','De mantequilla','De aceite','Vinagretas']],
+    ['Mantequillas compuestas', []],
+    ['De hortalizas, hierbas y frutos secos', ['Majados de frutos secos','Mojos','De hierbas','Coulis y purés','Picadas crudas']],
+    ['Lácteas frías', ['De yogur','De queso o nata']],
+    ['De chile', ['Pastas de chile','Salsas cocidas de chile','Fermentadas']],
+    ['De base fermentada', ['De soja','De pescado','De pastas fermentadas']],
+    ['Agridulces y de fruta', ['Chutneys y relishes','Agridulces']],
+    ['Dulces', ['Cremas','Coulis de fruta','Caramelo y chocolate']]
+  ],
+  'Guarniciones': [
+    ['De patata', ['Fritas','Hervidas o al vapor','Purés y masas de patata','Salteadas','Risoladas o asadas','Confitadas','Al horno o gratinadas']],
+    ['De hortalizas', ['Glaseadas','Hervidas','Braseadas','Fritas','Salteadas','Asadas','Crudas']],
+    ['De setas', ['Salteadas','Confitadas o asadas']],
+    ['Arroces y cereales', ['Arroz blanco','Pilaf','Cremosos','Otros cereales']],
+    ['Legumbres', ['Estofadas','Purés','Salteadas']],
+    ['Pastas y ñoquis', ['Pastas frescas','Ñoquis']],
+    ['Compuestas y clásicas', ['Con nombre propio','Panachés']]
+  ],
+  'Elaboraciones complementarias': [
+    ['Farsas y rellenos', []],
+    ['Ligazones', []],
+    ['Bases aromáticas', []],
+    ['Marinadas, adobos y salmueras', []],
+    ['Crujientes y decorativos', []]
+  ],
+  'Masas': [
+    ['Fermentadas', ['Magras','Enriquecidas','Hojaldradas fermentadas']],
+    ['Hojaldradas', []],
+    ['Quebradas', ['Brisa','Sablée','Sucrée']],
+    ['Escaldadas', []],
+    ['Batidas', ['Espumadas','Cremadas']],
+    ['Líquidas', ['Sin leudante','Con impulsor químico','Fermentadas']],
+    ['Sin levar de trigo', ['Pastas frescas','Envolturas y láminas','Panes planos sin levar']],
+    ['De maíz y otros almidones', ['Nixtamalizadas','Precocidas','Otros almidones']]
+  ],
+  'Lácteos y derivados': [
+    ['Grasas lácteas', ['Mantequillas','Mantequilla clarificada y ghee']],
+    ['Natas', ['Frescas y montadas','Fermentadas o acidificadas','Tratadas por calor']],
+    ['Leches fermentadas', ['Sin concentrar','Concentradas (coladas)','Bebidas de leche fermentada']],
+    ['Quesos frescos', ['De coagulación ácida','De cuajo','De calor y ácido']],
+    ['Quesos de pasta hilada', ['Frescos','Madurados o ahumados']],
+    ['Quesos en salmuera', []],
+    ['Quesos madurados', ['De pasta prensada','Con mohos','De corteza lavada']],
+    ['Quesos de suero', ['Por coagulación térmica','Por concentración']],
+    ['Leches concentradas', ['Sin azúcar','Con azúcar']],
+    ['Leches y sueros no fermentados', ['Leches tratadas o infusionadas','Sueros y mazadas']]
+  ],
+  'Legumbres, cereales, frutos secos y semillas': [
+    ['Legumbres', LEG_SUBS], ['Cereales', LEG_SUBS], ['Frutos secos', LEG_SUBS], ['Semillas', LEG_SUBS], ['Otras materias primas', LEG_SUBS]
+  ],
+  'Aceites, vinagres, extractos y bebidas': [
+    ['Aceites aromatizados', []],
+    ['Vinagres aromatizados', []],
+    ['Preparaciones en alcohol', ['Extractos','Licores y macerados']],
+    ['Bebidas a base de agua', ['Té','Café','Otras infusiones']],
+    ['Bebidas a base de leche', []],
+    ['Jarabes y cordiales', []]
+  ]
+};
+GCATS['Fermentos'] = CATS.conservas;
+function catListFor(tab, group){ return tab === 'recetas' ? (group !== 'Dulce' ? CATS.recetas : null) : (GCATS[group] || null); }
+function catList(r){ return catListFor(r.tab, r.group); }
+function catApplies(r){ return !!catList(r); }
 function splitCat(v){ const p = (v||'').split(/\s*\/\s*/).filter(Boolean); return { c: p[0] || '', s: p.slice(1).join(' ') }; }
 function joinCat(c, s){ return c ? (s ? c + ' / ' + s : c) : ''; }
-function matchCat(tab, v){
-  const x = splitCat(v), list = CATS[tab] || [];
+function matchCat(tab, v, group){
+  const x = splitCat(v), list = (tab === 'recetas' ? CATS.recetas : GCATS[group]) || [];
   const ch = list.find(([c])=> norm(c) === norm(x.c)) || (x.c ? list.find(([c])=> norm(c).startsWith(norm(x.c))) : null);
   if(!ch) return '';
   const sub = ch[1].find(s=> norm(s) === norm(x.s)) || '';
@@ -479,8 +561,8 @@ function catText(v){ const x = splitCat(v); return x.s ? x.c + ' · ' + x.s : x.
 /* colores de los grupos (paleta suave, como las etiquetas de Airtable) */
 const GCOLOR = {
   'Salado':'#fee2d5', 'Dulce':'#ffdaf6',
-  'Lácteos y derivados':'#cfdfff', 'Masas':'#d0f0fd', 'Legumbres y semillas':'#c2f5e9',
-  'Aceites, infusiones y derivados':'#d1f7c4', 'Salsas':'#ffeab6',
+  'Lácteos y derivados':'#cfdfff', 'Masas':'#d0f0fd', 'Legumbres, cereales, frutos secos y semillas':'#c2f5e9',
+  'Aceites, vinagres, extractos y bebidas':'#d1f7c4', 'Salsas':'#ffeab6', 'Fondos':'#fee2d5', 'Guarniciones':'#ffdce5', 'Elaboraciones complementarias':'#ede2fe',
   'Fermentos':'#ede2fe', 'Encurtidos':'#d1f7c4', 'Conservas dulces':'#ffdaf6', 'Conservas saladas':'#ffeab6'
 };
 function gc(g){ return GCOLOR[g] || '#eeeeee'; }
@@ -666,7 +748,7 @@ function parseTemplate(text, fallbackTab){
     const tab = normTab(r.tab, fallbackTab);
     const parts = r.parts.map(p=> ({ name: p.name, ings: p.ings, steps: stepLines(p.steps.join('\n')).join('\n') }))
                          .filter(p=> p.name || p.ings.length || p.steps);
-    return { name: r.name, tab, group: matchGroup(tab, r.group), cat: matchCat(tab, r.cat), local: matchLocal(r.tag, r.local), tag: r.tag.trim(), yield: r.yield.trim(),
+    return { name: r.name, tab, group: matchGroup(tab, r.group), cat: matchCat(tab, r.cat, matchGroup(tab, r.group)), local: matchLocal(r.tag, r.local), tag: r.tag.trim(), yield: r.yield.trim(),
              parts: parts.length ? parts : [{ name:'', ings:[], steps:'' }], notes: trimBlock(r.notes) };
   });
 }
@@ -743,10 +825,19 @@ Reglas:
 - No cambies el "id" de las recetas que ya existen. Para una receta nueva, crea un id único con el formato "r-" + pestaña + "-" + nombre en minúsculas y con guiones.
 - Para modificar una receta, edítala dentro del archivo; no la dupliques. Respeta el "done" que tenga.
 - "tab": "recetas" (platos con nombre propio), "productos" (elaboraciones base: masas, salsas, lácteos, bebidas…) o "conservas".
-- "group": en recetas, "Salado" o "Dulce". En productos: "Lácteos y derivados", "Masas", "Legumbres y semillas", "Aceites, infusiones y derivados" o "Salsas". En conservas: "Fermentos", "Encurtidos", "Conservas dulces" o "Conservas saladas".
-- "cat": tipo de plato, «Capítulo / Subcapítulo» (o solo el capítulo si no tiene subcapítulos). Solo en recetas saladas y en conservas del grupo Fermentos; en lo demás, "".
+- "group": en recetas, "Salado" o "Dulce". En productos: "Fondos", "Salsas", "Guarniciones", "Elaboraciones complementarias", "Masas", "Lácteos y derivados", "Legumbres, cereales, frutos secos y semillas" o "Aceites, vinagres, extractos y bebidas". En conservas: "Fermentos", "Encurtidos", "Conservas dulces" o "Conservas saladas".
+- "cat": tipo de plato, «Capítulo / Subcapítulo» (o solo el capítulo si no tiene subcapítulos). En recetas saladas, en todos los grupos de productos y en conservas del grupo Fermentos; en lo demás, "".
   Recetas saladas: "Entremeses y aperitivos / Fríos", "Entremeses y aperitivos / Calientes", "Ensaladas", "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés", "Sopas, consomés, cremas, potajes y cocidos / Cremas frías", "Sopas, consomés, cremas, potajes y cocidos / Cremas calientes", "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos", "Hortalizas", "Arroces", "Pastas alimenticias", "Huevos", "Pescados", "Mariscos", "Carnes / Aves y conejo", "Carnes / Bovino", "Carnes / Porcino", "Carnes / Ovino", "Carnes / Caza".
   Desempate: manda primero el formato (si la base es arroz → Arroces; pasta o fideos → Pastas alimenticias; sopa, crema, potaje, cocido o guiso de cuchara → Sopas…; ensalada → Ensaladas; tapa, mezze, masa rellena o bocado → Entremeses), y si no, el ingrediente principal.
+  Productos, según el grupo:
+  Fondos: Fondos blancos (De ave, De ternera o vacuno, De cerdo o mixtos), Fondos oscuros (De ternera, De ave, De caza), Fondos de pescado y marisco (Fumet blanco, Fumet oscuro, De marisco), Fondos vegetales (Claros, Tostados), Infusiones y esencias (Dashi y caldos de infusión, Esencias), Consomés (Simple, Clarificado), Glaces (De carne, De ave, De pescado o caza), Gelatinas (Naturales, Preparadas), Caldos de cocción (Court-bouillon, Blancos). La demi-glace y los fondos ligados van a Salsas.
+  Salsas: Ligadas clásicas (Bechamel, Velouté, Española y demi-glace, Tomate, Americana), Jugos y reducciones (Jugos, Reducciones), Emulsionadas (De yema y mantequilla, De mantequilla, De aceite, Vinagretas), Mantequillas compuestas, De hortalizas, hierbas y frutos secos (Majados de frutos secos, Mojos, De hierbas, Coulis y purés, Picadas crudas), Lácteas frías (De yogur, De queso o nata), De chile (Pastas de chile, Salsas cocidas de chile, Fermentadas), De base fermentada (De soja, De pescado, De pastas fermentadas), Agridulces y de fruta (Chutneys y relishes, Agridulces), Dulces (Cremas, Coulis de fruta, Caramelo y chocolate). Desempate: derivada → su familia; emulsión → Emulsionadas (fría o caliente); majado → De hortalizas…; chile como ingrediente principal → De chile.
+  Guarniciones: De patata (Fritas, Hervidas o al vapor, Purés y masas de patata, Salteadas, Risoladas o asadas, Confitadas, Al horno o gratinadas), De hortalizas (Glaseadas, Hervidas, Braseadas, Fritas, Salteadas, Asadas, Crudas), De setas (Salteadas, Confitadas o asadas), Arroces y cereales (Arroz blanco, Pilaf, Cremosos, Otros cereales), Legumbres (Estofadas, Purés, Salteadas), Pastas y ñoquis (Pastas frescas, Ñoquis), Compuestas y clásicas (Con nombre propio, Panachés). Manda la técnica final.
+  Elaboraciones complementarias: Farsas y rellenos, Ligazones, Bases aromáticas, Marinadas, adobos y salmueras, Crujientes y decorativos.
+  Masas: Fermentadas (Magras, Enriquecidas, Hojaldradas fermentadas), Hojaldradas, Quebradas (Brisa, Sablée, Sucrée), Escaldadas, Batidas (Espumadas, Cremadas), Líquidas (Sin leudante, Con impulsor químico, Fermentadas), Sin levar de trigo (Pastas frescas, Envolturas y láminas, Panes planos sin levar), De maíz y otros almidones (Nixtamalizadas, Precocidas, Otros almidones). Desempate en orden: batida → líquida → escaldada → fermentada (aunque sea laminada, frita o al vapor) → hojaldrada → quebrada → maíz/almidones → sin levar de trigo. Enriquecida: lleva huevo o grasa + azúcar ≥ 10 % del peso de la harina.
+  Lácteos y derivados: Grasas lácteas (Mantequillas, Mantequilla clarificada y ghee), Natas (Frescas y montadas, Fermentadas o acidificadas, Tratadas por calor), Leches fermentadas (Sin concentrar, Concentradas (coladas), Bebidas de leche fermentada), Quesos frescos (De coagulación ácida, De cuajo, De calor y ácido), Quesos de pasta hilada (Frescos, Madurados o ahumados), Quesos en salmuera, Quesos madurados (De pasta prensada, Con mohos, De corteza lavada), Quesos de suero (Por coagulación térmica, Por concentración), Leches concentradas (Sin azúcar, Con azúcar), Leches y sueros no fermentados (Leches tratadas o infusionadas, Sueros y mazadas). Manda el proceso de la receta, no el nombre. Entre quesos: suero > pasta hilada > salmuera > madurado > fresco.
+  Legumbres, cereales, frutos secos y semillas: Categoría por materia prima: Legumbres (también soja, cacahuete, altramuz), Cereales, Frutos secos, Semillas, Otras materias primas (chufa, coco). Subcategoría por elaboración: Cocidos y encurtidos, Tostados y fritos, Pastas, cremas y untables, Bebidas vegetales, Cuajados y fermentados, Germinados, Harinas y sémolas, Mezclas condimentarias, Copos y mezclas de desayuno, Horneados. Manda el ingrediente que da nombre al producto.
+  Aceites, vinagres, extractos y bebidas: Por el líquido que extrae y conserva: Aceites aromatizados, Vinagres aromatizados, Preparaciones en alcohol (Extractos, Licores y macerados), Bebidas a base de agua (Té, Café, Otras infusiones), Bebidas a base de leche, Jarabes y cordiales. Solo es «Té» lo que viene de Camellia sinensis.
   Fermentos (según «El arte de la fermentación», de Sandor Katz): "Alcohólicos", "Hortalizas y frutas", "Bebidas ácidas", "Leche", "Cereales y tubérculos", "Cervezas", "Mohos", "Legumbres, semillas y frutos secos", "Carne, pescado y huevos".
 - "local": solo en recetas de Japón, Perú o Líbano: la clasificación propia de esa cocina, «Categoría / Subcategoría» o solo la categoría. En el resto, "".
   Japón (washoku): Gohanmono (Sushi, Donburi y kare raisu, Onigiri, Takikomi y mazegohan, Kayu y zosui), Menrui (Udon, Soba, Somen y hiyamugi, Ramen, Otros fideos), Shirumono (Suimono, Misoshiru, Sopas con tropezones), Nabemono, Konamono, Sashimi, Yakimono, Nimono, Mushimono, Agemono (Karaage, Tempura y koromoage, Furai y katsu, Suage), Itamemono, Aemono y sunomono, Tsukemono, Wagashi (Mochimono (de mochi y dango), Yakimono (horneados), Mushimono (al vapor), Nagashimono (en molde), Nerimono (pastas), Higashi (secos)), Kanmi. Desempate: dulce → arroz como base → fideos → cazuela en la mesa → masa de harina → sopa → conserva → método de cocción.
@@ -788,7 +879,7 @@ function cleanRecipe(r, fromFile){
   if(!parts.length) parts = [{ name:'', ings:[], steps:'' }];
   const tab = normTab(r.tab), name = String(r.name).trim();
   return { id: r.id ? String(r.id) : (fromFile ? 'r-' + tab + '-' + slug(name) : uid()), tab, name,
-           group: matchGroup(tab, r.group) || '', cat: matchCat(tab, r.cat), local: matchLocal(normTag(String(r.tag||'')), r.local), tag: normTag(String(r.tag||'')), yield: String(r.yield||'').trim(),
+           group: matchGroup(tab, r.group) || '', cat: matchCat(tab, r.cat, matchGroup(tab, r.group)), local: matchLocal(normTag(String(r.tag||'')), r.local), tag: normTag(String(r.tag||'')), yield: String(r.yield||'').trim(),
            parts, notes: asText(r.notes), done: !!r.done, pesce: !!r.pesce };
 }
 function cleanData(d){
@@ -1115,10 +1206,7 @@ function renderMain(){
   if(!list.length && g){ main.innerHTML = `<div class="empty">Nada en ${esc(g)}${st!=='all'||tg?' con este filtro':''}.</div>`; return; }
   const sort = arr => arr.sort((a,b)=> a.name.localeCompare(b.name,'es'));
   if(g){
-    if(tab === 'conservas' && g === 'Fermentos'){
-      main.innerHTML = `<div class="list">${fermBody(sort(list), st !== 'all' || !!tg)}</div>`;
-      return;
-    }
+    if(GCATS[g]){ renderGroupBoard(main, tab, g, sort(list), st !== 'all' || !!tg); return; }
     main.innerHTML = `<div class="list">${sort(list).map(cardHTML).join('')}</div>`; return;
   }
   // «Todo»: tablero con una columna por grupo, todas iguales, que se desliza en horizontal
@@ -1129,7 +1217,7 @@ function renderMain(){
     return `<section class="col">
       <div class="col-h">${gg ? `<span class="gp" style="--gc:${gc(gg)}">${esc(gg)}</span>` : `<span class="gp">Sin grupo</span>`}<span class="c">${items.length}</span></div>
       <div class="col-body">
-        ${tab === 'conservas' && gg === 'Fermentos' ? fermBody(items, filtering) : items.length ? items.map(cardHTML).join('') : `<div class="col-empty">${filtering ? 'Nada con este filtro' : 'Vacío'}</div>`}
+        ${GCATS[gg] ? groupIndex(gg, items, filtering) : items.length ? items.map(cardHTML).join('') : `<div class="col-empty">${filtering ? 'Nada con este filtro' : 'Vacío'}</div>`}
         <button class="col-add" data-addg="${esc(gg)}">+ Añadir</button>
       </div>
     </section>`;
@@ -1138,10 +1226,33 @@ function renderMain(){
   document.body.classList.add('boardmode');
   fitBoard();
 }
-function fermBody(items, filtering){
-  const none = items.filter(r=> !CATS.conservas.some(y=> y[0] === r.cat));
-  return CATS.conservas.map(([ch])=> subSection('ferm:' + ch, ch, items.filter(r=> r.cat === ch), cardHTML, filtering)).join('')
-    + (none.length ? subSection('ferm:', 'Sin tipo', none, cardHTML, filtering) : '');
+/* índice de un grupo dentro de su columna: categorías plegables y, dentro, subcategorías plegables */
+function groupIndex(group, items, filtering){
+  const cats = GCATS[group], pre = 'g:' + group;
+  const none = items.filter(r=> !cats.some(([c])=> c === splitCat(r.cat).c));
+  return cats.map(([ch, subs])=>{
+    const its = items.filter(r=> splitCat(r.cat).c === ch);
+    if(!subs.length) return subSection(pre + ':' + ch, ch, its, cardHTML, filtering, 'l1');
+    const k = pre + ':' + ch, open = subOpen(k);
+    return `<div class="col-sub tog l1${open?' open':''}" data-sub="${esc(k)}"><span class="chev"></span>${esc(ch)}<span class="c">${its.length}</span></div>`
+      + (open ? `<div class="lvl2">${catBody(its, pre, ch, subs, cardHTML, filtering)}</div>` : '');
+  }).join('') + (none.length ? subSection(pre + ':', 'Sin tipo', none, cardHTML, filtering) : '');
+}
+/* un grupo elegido: una columna por categoría */
+function renderGroupBoard(main, tab, group, items, filtering){
+  const cats = GCATS[group], pre = 'g:' + group;
+  const none = items.filter(r=> !cats.some(([c])=> c === splitCat(r.cat).c));
+  const cols = cats.map(([ch, subs])=>{
+    const its = items.filter(r=> splitCat(r.cat).c === ch);
+    return `<section class="col">
+      <div class="col-h"><span class="gp" style="--gc:${tc(ch)}">${esc(ch)}</span><span class="c">${its.length}</span></div>
+      <div class="col-body">${catBody(its, pre, ch, subs, cardHTML, filtering)}
+        <button class="col-add" data-addg="${esc(group)}" data-addgcat="${esc(ch)}">+ Añadir</button></div>
+    </section>`;
+  }).join('') + (none.length ? `<section class="col"><div class="col-h"><span class="gp" style="--gc:#eeeeee">Sin tipo</span><span class="c">${none.length}</span></div><div class="col-body">${subSection(pre + ':', 'Recetas', none, cardHTML, filtering)}</div></section>` : '');
+  main.innerHTML = `<div class="board">${cols}</div>`;
+  document.body.classList.add('boardmode');
+  fitBoard();
 }
 /* el tablero ocupa justo hasta abajo de la ventana: así la barra de deslizar (si hace falta) queda abajo del todo */
 function fitBoard(){
@@ -1217,9 +1328,9 @@ function renderRegions(main){
 /* subcategoría desplegable: siempre se muestra y empieza plegada; lo abierto solo dura mientras la app está abierta */
 const openSubs = new Set();
 function subOpen(key){ return openSubs.has(key); }
-function subSection(key, label, its, card, filtering){
+function subSection(key, label, its, card, filtering, cls){
   const open = subOpen(key, its.length);
-  return `<div class="col-sub tog${open?' open':''}" data-sub="${esc(key)}" data-n="${its.length}"><span class="chev"></span>${esc(label)}<span class="c">${its.length}</span></div>`
+  return `<div class="col-sub tog${cls ? ' ' + cls : ''}${open?' open':''}" data-sub="${esc(key)}" data-n="${its.length}"><span class="chev"></span>${esc(label)}<span class="c">${its.length}</span></div>`
     + (open ? (its.length ? its.map(card).join('') : `<div class="col-empty sm">${filtering ? 'Nada con este filtro' : 'Vacío'}</div>`) : '');
 }
 function catBody(items, tab, chapter, subs, card, filtering){
@@ -1323,7 +1434,7 @@ $('#main').addEventListener('click', e=>{
   const addc = e.target.closest('[data-addcat]');
   if(addc){ openNew('Salado', addc.dataset.addtag || '', null, addc.dataset.addcat); return; }
   const addg = e.target.closest('[data-addg]');
-  if(addg){ openNew(addg.dataset.addg, addg.dataset.addtag || ''); return; }
+  if(addg){ openNew(addg.dataset.addg, addg.dataset.addtag || '', null, addg.dataset.addgcat || null); return; }
   const addt = e.target.closest('[data-addtag]');
   if(addt){ openNew(null, addt.dataset.addtag); return; }
   const row = e.target.closest('.row, .rcard');
@@ -1573,7 +1684,7 @@ function editHTML(r){
     </div>`;
 }
 function catEditHTML(r){
-  const x = splitCat(r.cat), list = CATS[r.tab] || [], ch = list.find(y=> y[0] === x.c);
+  const x = splitCat(r.cat), list = catList(r) || [], ch = list.find(y=> y[0] === x.c);
   return `<div class="f"><span class="lb">Tipo</span>
       <div class="chips">${list.map(([c])=> `<button class="chip${x.c===c?' on':''}" data-catset="${esc(c)}"><span class="gdot" style="--gc:${tc(c)}"></span>${esc(c)}</button>`).join('')}</div>
       ${ch && ch[1].length ? `<div class="chips" style="margin-top:8px;">${ch[1].map(s=> `<button class="chip${x.s===s?' on':''}" data-subset="${esc(s)}">${esc(s)}</button>`).join('')}</div>` : ''}
@@ -1631,7 +1742,7 @@ function mountFicha(sh, r){
       }
     }
     const ts = e.target.closest('[data-tabset]');
-    if(ts){ flushFicha(); r.tab = ts.dataset.tabset; if(!GROUPS[r.tab].includes(r.group)) r.group = ''; r.cat = matchCat(r.tab, r.cat); save(); drawFicha(sh, true); return; }
+    if(ts){ flushFicha(); r.tab = ts.dataset.tabset; if(!GROUPS[r.tab].includes(r.group)) r.group = ''; r.cat = matchCat(r.tab, r.cat, r.group); save(); drawFicha(sh, true); return; }
     const lsb = e.target.closest('[data-locset]');
     if(lsb){ flushFicha(); r.local = splitCat(r.local).c === lsb.dataset.locset ? '' : lsb.dataset.locset; save(); drawFicha(sh, true); return; }
     const lss = e.target.closest('[data-locsub]');
@@ -1647,7 +1758,7 @@ function mountFicha(sh, r){
       r.group = r.group === gs.dataset.groupset ? '' : gs.dataset.groupset;
       if(r.group === 'Dulce'){ r.pesce = false; save(); drawFicha(sh, true); return; }
       if(r.tab === 'recetas' && !sh.querySelector('#pesce-f')){ save(); drawFicha(sh, true); return; }
-      if(r.tab === 'conservas'){ save(); drawFicha(sh, true); return; }
+      if(r.tab !== 'recetas'){ r.cat = matchCat(r.tab, r.cat, r.group); save(); drawFicha(sh, true); return; }
       sh.querySelectorAll('[data-groupset]').forEach(b=> b.classList.toggle('on', b.dataset.groupset === r.group));
       save(); return;
     }
