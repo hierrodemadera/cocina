@@ -55,6 +55,8 @@ body.boardmode main{padding-bottom:0;}
 .col-h .c{font-size:13px;color:var(--muted);flex-shrink:0;}
 .meta-line{display:flex;flex-wrap:wrap;gap:6px;}
 .meta-line .gp{white-space:normal;margin-left:0 !important;}
+.col-h.lh{flex-wrap:wrap;row-gap:3px;cursor:pointer;}
+.col-h .gl{flex-basis:100%;font-size:12.5px;color:var(--muted);padding-left:2px;}
 .col-h .gp{white-space:normal;line-height:1.3;padding-top:3px;padding-bottom:3px;}
 @media (max-width:420px){ .kseg button{padding:0 10px;font-size:13.5px;} .kseg .gdot{display:none;} #kindbar{gap:6px;} }
 .col-empty{font-size:12.5px;color:var(--muted);text-align:center;padding:8px 0 4px;}
@@ -413,6 +415,59 @@ function matchCat(tab, v){
   const sub = ch[1].find(s=> norm(s) === norm(x.s)) || '';
   return joinCat(ch[0], sub);
 }
+
+/* clasificación propia de cada cocina (solo en los países que la tienen). Cada categoría: [nombre, glosa, definición, subcategorías] */
+const LOCAL = {
+  'Japón': { name: 'Washoku', cats: [
+    ['Gohanmono','platos de arroz','ご飯物. El arroz cocido es la base del plato, aunque lleve encima un guiso o un frito.',['Sushi','Donburi y kare raisu','Onigiri','Takikomi y mazegohan','Kayu y zosui']],
+    ['Menrui','fideos','麺類. Los fideos son el cuerpo del plato, aunque vayan en caldo.',['Udon','Soba','Somen y hiyamugi','Ramen','Otros fideos']],
+    ['Shirumono','sopas','汁物. Sopa de cuenco que acompaña al arroz.',['Suimono','Misoshiru','Sopas con tropezones']],
+    ['Nabemono','cazuelas en la mesa','鍋物. Se cuece en caldo o salsa en una olla en la mesa y se come de ella.',[]],
+    ['Konamono','masas de harina','粉もの. Masa salada de harina a la plancha o en molde, típica de Osaka.',[]],
+    ['Sashimi','crudos cortados','刺身・造り. Pescado o carne cruda donde manda el corte.',[]],
+    ['Yakimono','asados','焼物. Al calor directo, a la parrilla o a la plancha, sin caldo.',[]],
+    ['Nimono','cocidos en caldo','煮物. Cocidos a fuego lento en dashi o líquido sazonado.',[]],
+    ['Mushimono','al vapor','蒸物. Cocinados con vapor.',[]],
+    ['Agemono','fritos','揚物. Fritos en aceite.',['Karaage','Tempura y koromoage','Furai y katsu','Suage']],
+    ['Itamemono','salteados','炒め物. Salteados con poco aceite y casi sin líquido.',[]],
+    ['Aemono y sunomono','aliñados y avinagrados','和え物・酢の物. Ingredientes aliñados o en vinagre, a menudo fríos.',[]],
+    ['Tsukemono','encurtidos y conservas','漬物・保存食. Hechos para guardar; acompañan al arroz o al sake.',[]],
+    ['Wagashi','dulces tradicionales','和菓子. Dulces japoneses, agrupados por técnica.',['Mochimono (de mochi y dango)','Yakimono (horneados)','Mushimono (al vapor)','Nagashimono (en molde)','Nerimono (pastas)','Higashi (secos)']],
+    ['Kanmi','postres de cuchara','甘味. Postres para servir más que piezas de confitería: anmitsu, zenzai, kakigori.',[]]
+  ]},
+  'Perú': { name: 'Cocinas del Perú', cats: [
+    ['Marina','de cebichería','El repertorio de pescado y marisco de la cebichería.',['Cebiches y tiraditos','Frituras y jaleas','Calientes']],
+    ['Criolla','Lima y costa central','Cocina mestiza de Lima y la costa central: raíces española, africana, andina, china e italiana.',['Limeña','Afroperuana','Anticuchos y brasas','Desayuno y sánguches']],
+    ['Chifa','chino-peruana','Cocina chino-peruana, la de los chifas.',[]],
+    ['Nikkei','peruano-japonesa','Cocina peruano-japonesa.',[]],
+    ['Norteña','costa norte','Tumbes, Piura, Lambayeque y La Libertad.',[]],
+    ['Sureña','Arequipa, Moquegua y Tacna','La picantería arequipeña y la cocina del sur costero.',['Picantería arequipeña','Tacna y Moquegua']],
+    ['Andina','sierra','Cocina de la sierra, del norte al altiplano.',[]],
+    ['Amazónica','selva','Cocina de la selva.',[]],
+    ['Dulcería','dulces','El oficio dulcero peruano.',['Mazamorras y postres de cuchara','Turrones, alfajores y dulces de convento','Frituras y masas dulces','Helados y fríos']]
+  ]},
+  'Líbano': { name: 'Cocina libanesa', cats: [
+    ['Mazza','mezze','مازة. Platos pequeños para compartir.',['Fríos (bārde)','Calientes (sukhne)']],
+    ['Kebbeh','familia del kibbeh','كبّة. Masas de bulgur con carne, pescado o verdura, en todas sus formas.',['Cruda (nayye)','Frita o a la brasa','Al horno (bil sanieh)','Guisada en salsa']],
+    ['Mahashi','rellenos','محاشي. Verduras u hojas rellenas de arroz y carne, como plato principal.',[]],
+    ['Bi zeit','guisos en aceite','بالزيت. Verduras o legumbres en aceite de oliva, sin carne, servidas templadas.',[]],
+    ['Tabkhat','platos de olla','طبخات. El plato casero del día, con arroz o pan.',['Yakhneh (guisos)','En yogur','Arroces y cereales','Sopas (shorba)']],
+    ['Mashawi','parrilla','مشاوي. Carne a la brasa, en pincho o en pieza.',[]],
+    ['Samak','pescado','سمك. Pescado o marisco como ingrediente principal.',[]],
+    ["Mu'ajjanat",'masas horneadas','معجنات. Masa de pan horneada o frita que se come con la mano.',['Manaqish (panes abiertos)','Fatayer y sfiha (empanadillas)']],
+    ['Comida callejera','bocadillos y puestos','Lo que se vende enrollado en pan en puestos especializados.',[]],
+    ['Halawiyat','dulces','حلويات. Todo lo dulce.',['Con almíbar o ashta','Horneados sin almíbar','De cuchara']],
+    ['Mouneh','conservas','مونة. Lo que se elabora para guardar: encurtidos, mermeladas, kishk.',[]]
+  ]}
+};
+function localOf(country){ const k = Object.keys(LOCAL).find(x=> norm(x) === norm(country||'')); return k ? LOCAL[k] : null; }
+function localCat(country, name){ const L = localOf(country); return L ? L.cats.find(c=> c[0] === name) : null; }
+function matchLocal(tag, v){
+  const L = localOf(splitTag(tag).c); if(!L || !v) return '';
+  const x = splitCat(v), ch = L.cats.find(c=> norm(c[0]) === norm(x.c)); if(!ch) return '';
+  return joinCat(ch[0], ch[3].find(s=> norm(s) === norm(x.s)) || '');
+}
+function localText(tag, v){ const x = splitCat(v), ch = localCat(splitTag(tag).c, x.c); return ch ? (x.s ? ch[0] + ' · ' + x.s : ch[0] + ' · ' + ch[1]) : ''; }
 function catText(v){ const x = splitCat(v); return x.s ? x.c + ' · ' + x.s : x.c; }
 
 /* colores de los grupos (paleta suave, como las etiquetas de Airtable) */
@@ -568,7 +623,7 @@ function parseTemplate(text, fallbackTab){
   for(const raw of lines){
     const line = raw.replace(/\s+$/,'');
     if(/^#\s+\S/.test(line)){
-      cur = { name: line.replace(/^#\s+/,'').replace(/\*\*/g,'').trim(), tab:'', group:'', cat:'', tag:'', yield:'', parts:[], notes:[] };
+      cur = { name: line.replace(/^#\s+/,'').replace(/\*\*/g,'').trim(), tab:'', group:'', cat:'', local:'', tag:'', yield:'', parts:[], notes:[] };
       out.push(cur); part = null; sec = null; continue;
     }
     if(!cur) continue;
@@ -590,6 +645,7 @@ function parseTemplate(text, fallbackTab){
         if(k.startsWith('pesta') || k === 'tab' || k === 'seccion') cur.tab = v;
         else if(k.startsWith('grupo')) cur.group = v;
         else if(k.startsWith('clasif') || k.startsWith('categ') || k === 'tipo' || k.startsWith('capit')) cur.cat = v;
+        else if(k === 'local' || k.startsWith('propi')) cur.local = v;
         else if(k.startsWith('etiq') || k.startsWith('origen') || k === 'cocina') cur.tag = v;
         else if(k.startsWith('racion') || k === 'para' || k.startsWith('rinde')) cur.yield = v;
       }
@@ -604,7 +660,7 @@ function parseTemplate(text, fallbackTab){
     const tab = normTab(r.tab, fallbackTab);
     const parts = r.parts.map(p=> ({ name: p.name, ings: p.ings, steps: stepLines(p.steps.join('\n')).join('\n') }))
                          .filter(p=> p.name || p.ings.length || p.steps);
-    return { name: r.name, tab, group: matchGroup(tab, r.group), cat: matchCat(tab, r.cat), tag: r.tag.trim(), yield: r.yield.trim(),
+    return { name: r.name, tab, group: matchGroup(tab, r.group), cat: matchCat(tab, r.cat), local: matchLocal(r.tag, r.local), tag: r.tag.trim(), yield: r.yield.trim(),
              parts: parts.length ? parts : [{ name:'', ings:[], steps:'' }], notes: trimBlock(r.notes) };
   });
 }
@@ -612,6 +668,7 @@ function recipeToText(r){
   let s = `# ${r.name}\npestaña: ${r.tab}\n`;
   if(r.group) s += `grupo: ${r.group.toLowerCase()}\n`;
   if(r.cat) s += `tipo: ${r.cat}\n`;
+  if(r.local) s += `tipo propio: ${r.local}\n`;
   if(r.tag) s += `etiqueta: ${r.tag}\n`;
   if(r.yield) s += `raciones: ${r.yield}\n`;
   const single = r.parts.length === 1 && !r.parts[0].name;
@@ -653,6 +710,7 @@ Cada receta tiene esta forma:
   "name": "Panceta con all i oli negro",
   "group": "Salado",
   "cat": "Carnes / Porcino",
+  "local": "",
   "tag": "España / Cataluña",
   "yield": "4 pax",
   "parts": [
@@ -684,6 +742,10 @@ Reglas:
   Recetas saladas: "Entremeses y aperitivos / Fríos", "Entremeses y aperitivos / Calientes", "Ensaladas", "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés", "Sopas, consomés, cremas, potajes y cocidos / Cremas frías", "Sopas, consomés, cremas, potajes y cocidos / Cremas calientes", "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos", "Hortalizas", "Arroces", "Pastas alimenticias", "Huevos", "Pescados", "Mariscos", "Carnes / Aves y conejo", "Carnes / Bovino", "Carnes / Porcino", "Carnes / Ovino", "Carnes / Caza".
   Desempate: manda primero el formato (si la base es arroz → Arroces; pasta o fideos → Pastas alimenticias; sopa, crema, potaje, cocido o guiso de cuchara → Sopas…; ensalada → Ensaladas; tapa, mezze, masa rellena o bocado → Entremeses), y si no, el ingrediente principal.
   Fermentos (según «El arte de la fermentación», de Sandor Katz): "Alcohólicos", "Hortalizas y frutas", "Bebidas ácidas", "Leche", "Cereales y tubérculos", "Cervezas", "Mohos", "Legumbres, semillas y frutos secos", "Carne, pescado y huevos".
+- "local": solo en recetas de Japón, Perú o Líbano: la clasificación propia de esa cocina, «Categoría / Subcategoría» o solo la categoría. En el resto, "".
+  Japón (washoku): Gohanmono (Sushi, Donburi y kare raisu, Onigiri, Takikomi y mazegohan, Kayu y zosui), Menrui (Udon, Soba, Somen y hiyamugi, Ramen, Otros fideos), Shirumono (Suimono, Misoshiru, Sopas con tropezones), Nabemono, Konamono, Sashimi, Yakimono, Nimono, Mushimono, Agemono (Karaage, Tempura y koromoage, Furai y katsu, Suage), Itamemono, Aemono y sunomono, Tsukemono, Wagashi (Mochimono (de mochi y dango), Yakimono (horneados), Mushimono (al vapor), Nagashimono (en molde), Nerimono (pastas), Higashi (secos)), Kanmi. Desempate: dulce → arroz como base → fideos → cazuela en la mesa → masa de harina → sopa → conserva → método de cocción.
+  Perú: Marina (Cebiches y tiraditos, Frituras y jaleas, Calientes), Criolla (Limeña, Afroperuana, Anticuchos y brasas, Desayuno y sánguches), Chifa, Nikkei, Norteña, Sureña (Picantería arequipeña, Tacna y Moquegua), Andina, Amazónica, Dulcería (Mazamorras y postres de cuchara, Turrones, alfajores y dulces de convento, Frituras y masas dulces, Helados y fríos). Desempate: dulce → tipo de local (chifa, nikkei, cebichería, anticuchos y brasas) → afroperuana → macrorregión de origen → criolla.
+  Líbano: Mazza (Fríos (bārde), Calientes (sukhne)), Kebbeh (Cruda (nayye), Frita o a la brasa, Al horno (bil sanieh), Guisada en salsa), Mahashi, Bi zeit, Tabkhat (Yakhneh (guisos), En yogur, Arroces y cereales, Sopas (shorba)), Mashawi, Samak, Mu'ajjanat (Manaqish (panes abiertos), Fatayer y sfiha (empanadillas)), Comida callejera, Halawiyat (Con almíbar o ashta, Horneados sin almíbar, De cuchara), Mouneh. Desempate: dulce → conserva → kebbeh → masa que se come con la mano → bi zeit → relleno → pescado → parrilla → comida callejera → plato de olla → mezze.
 - "tag": origen con el formato "País / Región": "España / Navarra", "España / Comunidad Valenciana", "Perú / Lima". Si es de todo el país o no tiene una región clara, solo el país: "España", "Perú". Para España usa las comunidades autónomas (Andalucía, Aragón, Asturias, Baleares, Canarias, Cantabria, Castilla y León, Castilla-La Mancha, Cataluña, Comunidad Valenciana, Extremadura, Galicia, La Rioja, Madrid, Murcia, Navarra, País Vasco). Usa exactamente los mismos nombres que ya tengan otras recetas. Si no se sabe el origen, "".
 - "yield": número y unidad (4 pax, 1 l, 2 tarros…).
 - "parts": una por elaboración del plato (cada componente: la carne, la salsa, el crujiente…). Si la receta es sencilla, una sola, con "name": "".
@@ -720,7 +782,7 @@ function cleanRecipe(r, fromFile){
   if(!parts.length) parts = [{ name:'', ings:[], steps:'' }];
   const tab = normTab(r.tab), name = String(r.name).trim();
   return { id: r.id ? String(r.id) : (fromFile ? 'r-' + tab + '-' + slug(name) : uid()), tab, name,
-           group: matchGroup(tab, r.group) || '', cat: matchCat(tab, r.cat), tag: normTag(String(r.tag||'')), yield: String(r.yield||'').trim(),
+           group: matchGroup(tab, r.group) || '', cat: matchCat(tab, r.cat), local: matchLocal(normTag(String(r.tag||'')), r.local), tag: normTag(String(r.tag||'')), yield: String(r.yield||'').trim(),
            parts, notes: asText(r.notes), done: !!r.done, pesce: !!r.pesce };
 }
 function cleanData(d){
@@ -750,13 +812,13 @@ function pantryCount(){ return data.pantry.zones.reduce((n,z)=> n + z.items.leng
 /* lo que va en data.json (lo que sube a GitHub y lo que lee la IA) */
 function fileData(){
   return { version: 2, reset: data.reset || undefined, recipes: data.recipes.map(r=>({
-    id: r.id, tab: r.tab, name: r.name, group: r.group, cat: r.cat || '', tag: r.tag, yield: r.yield,
+    id: r.id, tab: r.tab, name: r.name, group: r.group, cat: r.cat || '', local: r.local || '', tag: r.tag, yield: r.yield,
     parts: r.parts.map(p=>({ name: p.name, ings: p.ings.map(i=>({q:i.q,u:i.u,n:i.n})), steps: stepLines(p.steps) })),
     notes: r.notes, done: r.done, pesce: !!r.pesce })),
     pantry: { zones: data.pantry.zones.map(z=>({ id: z.id, name: z.name, items: z.items.map(i=>({ id: i.id, name: i.name, note: i.note, missing: i.missing })) })) } };
 }
 function hashRecipe(r){
-  const s = JSON.stringify([r.tab, r.name, r.group, r.cat || '', r.tag, r.yield, r.parts, r.notes, !!r.pesce]);
+  const s = JSON.stringify([r.tab, r.name, r.group, r.cat || '', r.local || '', r.tag, r.yield, r.parts, r.notes, !!r.pesce]);
   let h = 0; for(let i=0;i<s.length;i++){ h = (h*31 + s.charCodeAt(i)) | 0; }
   return String(h);
 }
@@ -776,7 +838,7 @@ function applyFile(obj){
     if(!l){ data.recipes.push(f); added++; return; }
     if(l.id !== f.id){ data.week.forEach(w=>{ if(w.recipeId === l.id) w.recipeId = f.id; }); l.id = f.id; }
     if(prev[f.id] !== h && hashRecipe(l) !== h){
-      Object.assign(l, { tab:f.tab, name:f.name, group:f.group, cat:f.cat, tag:f.tag, yield:f.yield, parts:f.parts, notes:f.notes, pesce:f.pesce });
+      Object.assign(l, { tab:f.tab, name:f.name, group:f.group, cat:f.cat, local:f.local, tag:f.tag, yield:f.yield, parts:f.parts, notes:f.notes, pesce:f.pesce });
       changed++;
     }
   });
@@ -799,7 +861,7 @@ function syncMsg(res){
 function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 const $ = (s, el) => (el || document).querySelector(s);
 let toastT;
-function toast(msg){ const t = $('#toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(toastT); toastT = setTimeout(()=> t.classList.remove('show'), 1900); }
+function toast(msg, ms){ const t = $('#toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(toastT); toastT = setTimeout(()=> t.classList.remove('show'), ms || 1900); }
 function shake(el){ el.classList.remove('shake'); void el.offsetWidth; el.classList.add('shake'); }
 function byId(id){ return data.recipes.find(r=> r.id === id); }
 function inWeek(id){ return data.week.some(w=> w.recipeId === id); }
@@ -1121,6 +1183,7 @@ function renderRegions(main){
         <button class="col-add" data-addtag="${esc(tag)}">+ Añadir</button></div>
     </section>`;
   const board = html => { main.innerHTML = head + `<div class="board">${html}</div>`; document.body.classList.add('boardmode'); fitBoard(); };
+  if(ui.view === 'tipo' && c && localOf(c)){ renderLocal(list, c, sb, filtering, sort, board, main, head); return; }
   if(ui.view === 'tipo'){ renderTypes(list, c, sb, kind, filtering, sort, board, main, head); return; }
   const noOrigin = sort(list.filter(r=> !splitTag(r.tag).c));
   if(sb){
@@ -1153,12 +1216,33 @@ function renderRegions(main){
 function catBody(items, tab, chapter, subs, card, filtering){
   if(!items.length) return `<div class="col-empty">${filtering ? 'Nada con este filtro' : 'Vacío'}</div>`;
   if(!subs.length) return items.map(card).join('');
-  const sub = r => splitCat(r.cat).s;
+  const sub = r => splitCat(tab ? r.cat : r.local).s;
   return ['', ...subs].map(x=>{
     const its = items.filter(r=> sub(r) === x || (!x && !subs.includes(sub(r))));
     if(!its.length) return '';
     return (x ? `<div class="col-sub">${esc(x)}<span class="c">${its.length}</span></div>` : '') + its.map(card).join('');
   }).join('');
+}
+/* vista «Tipo» dentro de un país con clasificación propia */
+function renderLocal(list, c, sb, filtering, sort, board, main, head){
+  const L = localOf(c), f = sb ? joinTag(c, sb) : c;
+  const items = list.filter(r=> matchTag(r.tag, f));
+  const card = r => cardInner(r, splitTag(r.tag).s ? `<span><span class="gdot" style="--gc:${tc(splitTag(r.tag).s)}"></span>${esc(splitTag(r.tag).s)}</span>` : '');
+  const showEmpty = !sb && !filtering;
+  let html = '';
+  L.cats.forEach(([ch, gl, def, subs])=>{
+    const its = sort(items.filter(r=> splitCat(r.local).c === ch));
+    if(!its.length && !showEmpty) return;
+    html += `<section class="col">
+      <div class="col-h lh" data-ldef="${esc(ch + ' (' + gl + '). ' + def)}"><span class="gp" style="--gc:${tc(ch)}">${esc(ch)}</span><span class="c">${its.length}</span><span class="gl">${esc(gl)}</span></div>
+      <div class="col-body">${its.length ? catBody(its, '', ch, subs, card, filtering).replace(/class="col-empty"/,'class="col-empty"') : `<div class="col-empty">${filtering ? 'Nada con este filtro' : 'Vacío'}</div>`}
+        <button class="col-add" data-addlocal="${esc(ch)}" data-addtag="${esc(f)}">+ Añadir</button></div>
+    </section>`;
+  });
+  const none = sort(items.filter(r=> !L.cats.some(x=> x[0] === splitCat(r.local).c)));
+  if(none.length) html += `<section class="col"><div class="col-h"><span class="gp" style="--gc:#eeeeee">Sin clasificar</span><span class="c">${none.length}</span></div><div class="col-body">${none.map(card).join('')}</div></section>`;
+  if(!html){ main.innerHTML = head + `<div class="empty">${filtering ? 'Nada con este filtro.' : 'Aún no hay recetas aquí.'}</div>`; return; }
+  board(html);
 }
 function renderTypes(list, c, sb, kind, filtering, sort, board, main, head){
   const f = sb ? joinTag(c, sb) : c;
@@ -1228,6 +1312,10 @@ $('#main').addEventListener('click', e=>{
   if(ui.space === 'despensa'){ pantryClick(e); return; }
   const fold = e.target.closest('[data-fold]');
   if(fold){ const k = fold.dataset.fold; ui.collapsed[k] = !ui.collapsed[k]; saveUi(); renderMain(); return; }
+  const ld = e.target.closest('[data-ldef]');
+  if(ld){ toast(ld.dataset.ldef, 4500); return; }
+  const addl = e.target.closest('[data-addlocal]');
+  if(addl){ openNew(null, addl.dataset.addtag || '', null, null, addl.dataset.addlocal); return; }
   const addc = e.target.closest('[data-addcat]');
   if(addc){ openNew('Salado', addc.dataset.addtag || '', null, addc.dataset.addcat); return; }
   const addg = e.target.closest('[data-addg]');
@@ -1413,8 +1501,8 @@ function partsHTML(r){
 }
 function readHTML(r){
   const shown = shownParts(r);
-  const cat = catApplies(r) ? r.cat || '' : '';
-  const meta = r.group || r.tag || isPesce(r) || cat;
+  const cat = catApplies(r) ? r.cat || '' : '', loc = r.local ? localText(r.tag, r.local) : '';
+  const meta = r.group || r.tag || isPesce(r) || cat || loc;
   return `<div class="sh-head">
       <button class="x" data-act="close" aria-label="Cerrar">✕</button>
       <h2>${esc(r.name)}</h2>
@@ -1425,7 +1513,7 @@ function readHTML(r){
         <button class="pill${r.done?' on':''}" data-act="done">${r.done?'✓ hecha':'marcar hecha'}</button>
         <button class="pill wkp${inWeek(r.id)?' on':''}" data-act="week">${inWeek(r.id)?'✓ en la semana':'+ semana'}</button>
       </div>
-      ${meta?`<div class="meta-line">${r.group?`<span class="gp" style="--gc:${gc(r.group)}">${esc(r.group)}</span>`:''}${cat?` <span class="gp" style="--gc:${tc(splitCat(cat).c)};margin-left:6px;">${esc(catText(cat))}</span>`:''}${r.tag?` <span class="gp" style="--gc:${tc(leafTag(r.tag))};margin-left:6px;">${esc(tagLabel(r.tag))}</span>`:''}${isPesce(r)?` <span class="gp" style="--gc:#e6f6ea;color:#2f9e44;margin-left:6px;">Pescetariana</span>`:''}</div>`:''}
+      ${meta?`<div class="meta-line">${r.group?`<span class="gp" style="--gc:${gc(r.group)}">${esc(r.group)}</span>`:''}${cat?` <span class="gp" style="--gc:${tc(splitCat(cat).c)};margin-left:6px;">${esc(catText(cat))}</span>`:''}${loc?` <span class="gp" style="--gc:${tc(splitCat(r.local).c)};margin-left:6px;" title="Clasificación propia de ${esc(splitTag(r.tag).c)}">${esc(loc)}</span>`:''}${r.tag?` <span class="gp" style="--gc:${tc(leafTag(r.tag))};margin-left:6px;">${esc(tagLabel(r.tag))}</span>`:''}${isPesce(r)?` <span class="gp" style="--gc:#e6f6ea;color:#2f9e44;margin-left:6px;">Pescetariana</span>`:''}</div>`:''}
       ${(r.yield || anyNumeric(r)) && hasContent(r) ? `<div class="ficha-top"><span class="lb">Raciones</span>${anyNumeric(r) ? scalerHTML(r, fichaTarget, 'data-fsc') : `<span>${esc(r.yield)}</span>`}</div>` : ''}
       ${shown.length > 1 ? `<div class="compo"><span class="lbl">Composición</span><ol>${shown.map((p,i)=> `<li><button data-goto="${i}">${esc(p.name || 'Elaboración ' + (i+1))}</button></li>`).join('')}</ol></div>` : ''}
       <div id="f-parts">${partsHTML(r)}</div>
@@ -1448,6 +1536,7 @@ function editHTML(r){
       <div class="f"><span class="lb">Grupo</span>
         <div class="chips">${GROUPS[r.tab].map(g=> `<button class="chip${r.group===g?' on':''}" data-groupset="${esc(g)}"><span class="gdot" style="--gc:${gc(g)}"></span>${esc(g)}</button>`).join('')}</div></div>
       ${catApplies(r) ? catEditHTML(r) : ''}
+      ${r.tab === 'recetas' && localOf(splitTag(r.tag).c) ? localEditHTML(r) : ''}
       ${r.tab === 'recetas' && r.group !== 'Dulce' ? `<div class="f" id="pesce-f"><span class="lb">Pescetariana (sin carne)</span>
         <div class="pseg"><button data-pesce="1" class="${r.pesce?'on':''}">Sí</button><button data-pesce="0" class="${!r.pesce?'on':''}">No</button></div></div>` : ''}
       <div class="row2">
@@ -1484,6 +1573,14 @@ function catEditHTML(r){
   return `<div class="f"><span class="lb">Tipo</span>
       <div class="chips">${list.map(([c])=> `<button class="chip${x.c===c?' on':''}" data-catset="${esc(c)}"><span class="gdot" style="--gc:${tc(c)}"></span>${esc(c)}</button>`).join('')}</div>
       ${ch && ch[1].length ? `<div class="chips" style="margin-top:8px;">${ch[1].map(s=> `<button class="chip${x.s===s?' on':''}" data-subset="${esc(s)}">${esc(s)}</button>`).join('')}</div>` : ''}
+    </div>`;
+}
+function localEditHTML(r){
+  const c = splitTag(r.tag).c, L = localOf(c), x = splitCat(r.local), ch = L.cats.find(y=> y[0] === x.c);
+  return `<div class="f"><span class="lb">Tipo propio · ${esc(L.name)}</span>
+      <div class="chips">${L.cats.map(([n, gl])=> `<button class="chip${x.c===n?' on':''}" data-locset="${esc(n)}" title="${esc(gl)}"><span class="gdot" style="--gc:${tc(n)}"></span>${esc(n)}</button>`).join('')}</div>
+      ${ch && ch[3].length ? `<div class="chips" style="margin-top:8px;">${ch[3].map(s=> `<button class="chip${x.s===s?' on':''}" data-locsub="${esc(s)}">${esc(s)}</button>`).join('')}</div>` : ''}
+      ${ch ? `<div class="hint">${esc(ch[2])}</div>` : ''}
     </div>`;
 }
 function mountFicha(sh, r){
@@ -1531,6 +1628,10 @@ function mountFicha(sh, r){
     }
     const ts = e.target.closest('[data-tabset]');
     if(ts){ flushFicha(); r.tab = ts.dataset.tabset; if(!GROUPS[r.tab].includes(r.group)) r.group = ''; r.cat = matchCat(r.tab, r.cat); save(); drawFicha(sh, true); return; }
+    const lsb = e.target.closest('[data-locset]');
+    if(lsb){ flushFicha(); r.local = splitCat(r.local).c === lsb.dataset.locset ? '' : lsb.dataset.locset; save(); drawFicha(sh, true); return; }
+    const lss = e.target.closest('[data-locsub]');
+    if(lss){ flushFicha(); const x = splitCat(r.local); r.local = joinCat(x.c, x.s === lss.dataset.locsub ? '' : lss.dataset.locsub); save(); drawFicha(sh, true); return; }
     const cs = e.target.closest('[data-catset]');
     if(cs){ flushFicha(); r.cat = splitCat(r.cat).c === cs.dataset.catset ? '' : cs.dataset.catset; save(); drawFicha(sh, true); return; }
     const ss = e.target.closest('[data-subset]');
@@ -1619,7 +1720,7 @@ function refreshTagsDatalist(){
 /* ---------- añadir rápido ---------- */
 $('#fab').addEventListener('click', ()=> ui.space === 'despensa' ? openItem(null, curZone() ? curZone().id : null)
   : (ui.tab === 'recetas' || isPesceView()) ? openNew(isPesceView() ? null : (ui.kind || null), joinTag(curCountry(), curSub()), isPesceView()) : openNew());
-function openNew(group, tag, pesce, cat){
+function openNew(group, tag, pesce, cat, local){
   const tab = (ui.tab === 'semana' || ui.tab === 'pesce') ? 'recetas' : ui.tab;
   if(pesce == null) pesce = isPesceView();
   let newGroup = group != null ? group : (tab === 'recetas' ? '' : curGroup());
@@ -1633,6 +1734,7 @@ function openNew(group, tag, pesce, cat){
       <div class="f"><input class="in" id="new-name" placeholder="Nombre" autocomplete="off" enterkeyhint="done"></div>
       <div class="f"><span class="lb">Grupo</span><div class="chips">${GROUPS[tab].map(g=> `<button class="chip${newGroup===g?' on':''}" data-g="${esc(g)}"><span class="gdot" style="--gc:${gc(g)}"></span>${esc(g)}</button>`).join('')}</div></div>
       ${pesce ? `<p class="muted" style="margin-top:12px;"><span class="gp" style="--gc:#e6f6ea;color:#2f9e44;">Pescetariana</span></p>` : ''}
+      ${local ? `<p class="muted" style="margin-top:12px;">Tipo propio: <span class="gp" style="--gc:${tc(local)}">${esc(local)}</span></p>` : ''}
       ${cat ? `<p class="muted" style="margin-top:12px;">Tipo: <span class="gp" style="--gc:${tc(splitCat(cat).c)}">${esc(catText(cat))}</span></p>` : ''}
       ${tag ? `<p class="muted" style="margin-top:12px;">Origen: <span class="gp" style="--gc:${tc(leafTag(tag))}">${esc(tagLabel(tag))}</span></p>` : ''}
       <div class="foot" style="margin-top:22px;">
@@ -1646,7 +1748,7 @@ function openNew(group, tag, pesce, cat){
       const add = (open)=>{
         const name = inp.value.trim();
         if(!name){ shake(inp); inp.focus(); return; }
-        const r = { id: uid(), tab, name, group: newGroup, cat: cat && newGroup !== 'Dulce' ? cat : '', tag, yield:'', parts:[{name:'', ings:[], steps:''}], notes:'', done:false, pesce: !!pesce && newGroup !== 'Dulce' };
+        const r = { id: uid(), tab, name, group: newGroup, cat: cat && newGroup !== 'Dulce' ? cat : '', local: local || '', tag, yield:'', parts:[{name:'', ings:[], steps:''}], notes:'', done:false, pesce: !!pesce && newGroup !== 'Dulce' };
         data.recipes.push(r); save();
         if(open){ render(); openFicha(r.id, true); return; }
         inp.value = ''; inp.focus(); renderGroups(); renderMain(); toast(`Añadida: ${name}`);

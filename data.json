@@ -8,6 +8,7 @@
    "name": "Sopa de ajo",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
+   "local": "",
    "tag": "España / Castilla y León",
    "yield": "4 pax",
    "parts": [
@@ -78,6 +79,7 @@
    "name": "Salmorejo",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Cremas frías",
+   "local": "",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -143,6 +145,7 @@
    "name": "Gazpacho",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Cremas frías",
+   "local": "",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -217,6 +220,7 @@
    "name": "Porra antequerana",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Cremas frías",
+   "local": "",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -296,6 +300,7 @@
    "name": "Ajoblanco",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Cremas frías",
+   "local": "",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -365,6 +370,7 @@
    "name": "Sopa de picadillo",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
+   "local": "",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -422,6 +428,7 @@
    "name": "Caldo gallego",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "",
    "tag": "España / Galicia",
    "yield": "4 pax",
    "parts": [
@@ -497,6 +504,7 @@
    "name": "Sopa de tomate extremeña",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
+   "local": "",
    "tag": "España / Extremadura",
    "yield": "4 pax",
    "parts": [
@@ -577,6 +585,7 @@
    "name": "Gazpacho manchego",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "",
    "tag": "España / Castilla-La Mancha",
    "yield": "4 pax",
    "parts": [
@@ -662,6 +671,7 @@
    "name": "Migas",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
+   "local": "",
    "tag": "España / Extremadura",
    "yield": "4 pax",
    "parts": [
@@ -736,6 +746,7 @@
    "name": "Gachas manchegas",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "",
    "tag": "España / Castilla-La Mancha",
    "yield": "4 pax",
    "parts": [
@@ -810,6 +821,7 @@
    "name": "Pa amb tomàquet",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Fríos",
+   "local": "",
    "tag": "España / Cataluña",
    "yield": "4 pax",
    "parts": [
@@ -861,6 +873,7 @@
    "name": "Coca de trempó",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Fríos",
+   "local": "",
    "tag": "España / Baleares",
    "yield": "6 pax",
    "parts": [
@@ -955,6 +968,7 @@
    "name": "Empanada gallega",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Fríos",
+   "local": "",
    "tag": "España / Galicia",
    "yield": "6 pax",
    "parts": [
@@ -1072,6 +1086,7 @@
    "name": "Croquetas de aprovechamiento",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
+   "local": "",
    "tag": "España",
    "yield": "30 ud.",
    "parts": [
@@ -1162,6 +1177,7 @@
    "name": "Lentejas estofadas",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "",
    "tag": "España",
    "yield": "4 pax",
    "parts": [
@@ -1257,6 +1273,7 @@
    "name": "Potaje de vigilia",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "",
    "tag": "España",
    "yield": "4 pax",
    "parts": [
@@ -1347,6 +1364,7 @@
    "name": "Garbanzos con espinacas",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -1425,6 +1443,7 @@
    "name": "Olla gitana",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "",
    "tag": "España / Murcia",
    "yield": "4 pax",
    "parts": [
@@ -1524,6 +1543,7 @@
    "name": "Michirones",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "",
    "tag": "España / Murcia",
    "yield": "4 pax",
    "parts": [
@@ -1606,6 +1626,7 @@
    "name": "Cocido madrileño",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "",
    "tag": "España / Madrid",
    "yield": "6 pax",
    "parts": [
@@ -1734,6 +1755,7 @@
    "name": "Pote asturiano",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "",
    "tag": "España / Asturias",
    "yield": "4 pax",
    "parts": [
@@ -1807,6 +1829,7 @@
    "name": "Judías del Barco",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "",
    "tag": "España / Castilla y León",
    "yield": "4 pax",
    "parts": [
@@ -1890,6 +1913,7 @@
    "name": "Alubias de Tolosa",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "",
    "tag": "España / País Vasco",
    "yield": "4 pax",
    "parts": [
@@ -1984,6 +2008,7 @@
    "name": "Puchero andaluz",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "",
    "tag": "España / Andalucía",
    "yield": "6 pax",
    "parts": [
@@ -2082,6 +2107,7 @@
    "name": "Ropa vieja",
    "group": "Salado",
    "cat": "Carnes / Bovino",
+   "local": "",
    "tag": "España / Canarias",
    "yield": "4 pax",
    "parts": [
@@ -2171,6 +2197,7 @@
    "name": "Pringá",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
+   "local": "",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -2228,6 +2255,7 @@
    "name": "Arroz al horno",
    "group": "Salado",
    "cat": "Arroces",
+   "local": "",
    "tag": "España / Comunidad Valenciana",
    "yield": "4 pax",
    "parts": [
@@ -2323,6 +2351,7 @@
    "name": "Arròs amb fesols i naps",
    "group": "Salado",
    "cat": "Arroces",
+   "local": "",
    "tag": "España / Comunidad Valenciana",
    "yield": "4 pax",
    "parts": [
@@ -2401,6 +2430,7 @@
    "name": "Pisto manchego",
    "group": "Salado",
    "cat": "Hortalizas",
+   "local": "",
    "tag": "España / Castilla-La Mancha",
    "yield": "4 pax",
    "parts": [
@@ -2480,6 +2510,7 @@
    "name": "Escalivada",
    "group": "Salado",
    "cat": "Hortalizas",
+   "local": "",
    "tag": "España / Cataluña",
    "yield": "4 pax",
    "parts": [
@@ -2543,6 +2574,7 @@
    "name": "Tumbet",
    "group": "Salado",
    "cat": "Hortalizas",
+   "local": "",
    "tag": "España / Baleares",
    "yield": "4 pax",
    "parts": [
@@ -2612,6 +2644,7 @@
    "name": "Alboronía",
    "group": "Salado",
    "cat": "Hortalizas",
+   "local": "",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -2689,6 +2722,7 @@
    "name": "Zarangollo",
    "group": "Salado",
    "cat": "Hortalizas",
+   "local": "",
    "tag": "España / Murcia",
    "yield": "4 pax",
    "parts": [
@@ -2740,6 +2774,7 @@
    "name": "Espinacas a la catalana",
    "group": "Salado",
    "cat": "Hortalizas",
+   "local": "",
    "tag": "España / Cataluña",
    "yield": "4 pax",
    "parts": [
@@ -2797,6 +2832,7 @@
    "name": "Patatas a la importancia",
    "group": "Salado",
    "cat": "Hortalizas",
+   "local": "",
    "tag": "España / Castilla y León",
    "yield": "4 pax",
    "parts": [
@@ -2881,6 +2917,7 @@
    "name": "Patatas a lo pobre",
    "group": "Salado",
    "cat": "Hortalizas",
+   "local": "",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -2943,6 +2980,7 @@
    "name": "Patatas revolconas",
    "group": "Salado",
    "cat": "Hortalizas",
+   "local": "",
    "tag": "España / Castilla y León",
    "yield": "4 pax",
    "parts": [
@@ -3011,6 +3049,7 @@
    "name": "Patatas a la riojana",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "",
    "tag": "España / La Rioja",
    "yield": "4 pax",
    "parts": [
@@ -3094,6 +3133,7 @@
    "name": "Papas arrugadas con mojo",
    "group": "Salado",
    "cat": "Hortalizas",
+   "local": "",
    "tag": "España / Canarias",
    "yield": "4 pax",
    "parts": [
@@ -3181,6 +3221,7 @@
    "name": "Tortilla de patatas",
    "group": "Salado",
    "cat": "Huevos",
+   "local": "",
    "tag": "España",
    "yield": "4 pax",
    "parts": [
@@ -3233,6 +3274,7 @@
    "name": "Huevos a la flamenca",
    "group": "Salado",
    "cat": "Huevos",
+   "local": "",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -3307,6 +3349,7 @@
    "name": "Marmitako",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "",
    "tag": "España / País Vasco",
    "yield": "4 pax",
    "parts": [
@@ -3386,6 +3429,7 @@
    "name": "Arroz a banda",
    "group": "Salado",
    "cat": "Arroces",
+   "local": "",
    "tag": "España / Comunidad Valenciana",
    "yield": "4 pax",
    "parts": [
@@ -3495,6 +3539,7 @@
    "name": "Esgarraet",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Fríos",
+   "local": "",
    "tag": "España / Comunidad Valenciana",
    "yield": "4 pax",
    "parts": [
@@ -3548,6 +3593,7 @@
    "name": "Bacalao al ajoarriero",
    "group": "Salado",
    "cat": "Pescados",
+   "local": "",
    "tag": "España / Navarra",
    "yield": "4 pax",
    "parts": [
@@ -3626,6 +3672,7 @@
    "name": "Atascaburras",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
+   "local": "",
    "tag": "España / Castilla-La Mancha",
    "yield": "4 pax",
    "parts": [
@@ -3689,6 +3736,7 @@
    "name": "Boquerones en vinagre",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Fríos",
+   "local": "",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -3751,6 +3799,7 @@
    "name": "Callos a la madrileña",
    "group": "Salado",
    "cat": "Carnes / Bovino",
+   "local": "",
    "tag": "España / Madrid",
    "yield": "6 pax",
    "parts": [
@@ -3861,6 +3910,7 @@
    "name": "Morteruelo",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
+   "local": "",
    "tag": "España / Castilla-La Mancha",
    "yield": "6 pax",
    "parts": [
@@ -3949,6 +3999,7 @@
    "name": "Arroz con leche",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Asturias",
    "yield": "6 pax",
    "parts": [
@@ -4018,6 +4069,7 @@
    "name": "Natillas",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España",
    "yield": "6 pax",
    "parts": [
@@ -4086,6 +4138,7 @@
    "name": "Flan de huevo",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España",
    "yield": "6 pax",
    "parts": [
@@ -4153,6 +4206,7 @@
    "name": "Crema catalana",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Cataluña",
    "yield": "6 pax",
    "parts": [
@@ -4216,6 +4270,7 @@
    "name": "Leche frita",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Castilla y León",
    "yield": "6 pax",
    "parts": [
@@ -4308,6 +4363,7 @@
    "name": "Torrijas",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España",
    "yield": "8 ud.",
    "parts": [
@@ -4381,6 +4437,7 @@
    "name": "Tocino de cielo",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Andalucía",
    "yield": "6 pax",
    "parts": [
@@ -4452,6 +4509,7 @@
    "name": "Cuajada con miel",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Navarra",
    "yield": "4 pax",
    "parts": [
@@ -4499,6 +4557,7 @@
    "name": "Leche merengada",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Comunidad Valenciana",
    "yield": "6 pax",
    "parts": [
@@ -4556,6 +4615,7 @@
    "name": "Gachas dulces",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -4623,6 +4683,7 @@
    "name": "Buñuelos de viento",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Madrid",
    "yield": "30 ud.",
    "parts": [
@@ -4695,6 +4756,7 @@
    "name": "Pestiños",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Andalucía",
    "yield": "30 ud.",
    "parts": [
@@ -4774,6 +4836,7 @@
    "name": "Roscos fritos",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Andalucía",
    "yield": "30 ud.",
    "parts": [
@@ -4847,6 +4910,7 @@
    "name": "Churros",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Madrid",
    "yield": "4 pax",
    "parts": [
@@ -4899,6 +4963,7 @@
    "name": "Flores de sartén",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Castilla-La Mancha",
    "yield": "25 ud.",
    "parts": [
@@ -4967,6 +5032,7 @@
    "name": "Orejas de carnaval",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Galicia",
    "yield": "25 ud.",
    "parts": [
@@ -5039,6 +5105,7 @@
    "name": "Filloas",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Galicia",
    "yield": "15 ud.",
    "parts": [
@@ -5101,6 +5168,7 @@
    "name": "Frixuelos",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Asturias",
    "yield": "15 ud.",
    "parts": [
@@ -5168,6 +5236,7 @@
    "name": "Buñuelos de calabaza",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Comunidad Valenciana",
    "yield": "30 ud.",
    "parts": [
@@ -5231,6 +5300,7 @@
    "name": "Rosquillas de San Isidro",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Madrid",
    "yield": "20 ud.",
    "parts": [
@@ -5316,6 +5386,7 @@
    "name": "Casadielles",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Asturias",
    "yield": "12 ud.",
    "parts": [
@@ -5402,6 +5473,7 @@
    "name": "Tarta de Santiago",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Galicia",
    "yield": "8 pax",
    "parts": [
@@ -5464,6 +5536,7 @@
    "name": "Bizcocho de yogur",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España",
    "yield": "8 pax",
    "parts": [
@@ -5527,6 +5600,7 @@
    "name": "Magdalenas",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España",
    "yield": "16 ud.",
    "parts": [
@@ -5595,6 +5669,7 @@
    "name": "Bizcocho borracho",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Castilla-La Mancha",
    "yield": "8 pax",
    "parts": [
@@ -5673,6 +5748,7 @@
    "name": "Tarta de queso vasca",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / País Vasco",
    "yield": "8 pax",
    "parts": [
@@ -5726,6 +5802,7 @@
    "name": "Quesada pasiega",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Cantabria",
    "yield": "8 pax",
    "parts": [
@@ -5794,6 +5871,7 @@
    "name": "Sobaos pasiegos",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Cantabria",
    "yield": "12 ud.",
    "parts": [
@@ -5862,6 +5940,7 @@
    "name": "Ensaimada",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Baleares",
    "yield": "2 ud.",
    "parts": [
@@ -5932,6 +6011,7 @@
    "name": "Coca de llanda",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Comunidad Valenciana",
    "yield": "8 pax",
    "parts": [
@@ -6000,6 +6080,7 @@
    "name": "Fartons",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Comunidad Valenciana",
    "yield": "15 ud.",
    "parts": [
@@ -6086,6 +6167,7 @@
    "name": "Pan de Calatrava",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Murcia",
    "yield": "8 pax",
    "parts": [
@@ -6162,6 +6244,7 @@
    "name": "Brazo de gitano",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España",
    "yield": "8 pax",
    "parts": [
@@ -6247,6 +6330,7 @@
    "name": "Pastel vasco",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / País Vasco",
    "yield": "8 pax",
    "parts": [
@@ -6352,6 +6436,7 @@
    "name": "Carquiñoles",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Cataluña",
    "yield": "30 ud.",
    "parts": [
@@ -6416,6 +6501,7 @@
    "name": "Perrunillas",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Extremadura",
    "yield": "25 ud.",
    "parts": [
@@ -6489,6 +6575,7 @@
    "name": "Mantecados",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Andalucía",
    "yield": "30 ud.",
    "parts": [
@@ -6552,6 +6639,7 @@
    "name": "Roscón de Reyes",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España",
    "yield": "8 pax",
    "parts": [
@@ -6666,6 +6754,7 @@
    "name": "Panellets",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Cataluña",
    "yield": "30 ud.",
    "parts": [
@@ -6724,6 +6813,7 @@
    "name": "Mazapán de Toledo",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Castilla-La Mancha",
    "yield": "30 ud.",
    "parts": [
@@ -6776,6 +6866,7 @@
    "name": "Yemas de Santa Teresa",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Castilla y León",
    "yield": "20 ud.",
    "parts": [
@@ -6834,6 +6925,7 @@
    "name": "Peras al vino",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / La Rioja",
    "yield": "4 pax",
    "parts": [
@@ -6891,6 +6983,7 @@
    "name": "Manzanas asadas",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España",
    "yield": "4 pax",
    "parts": [
@@ -6944,6 +7037,7 @@
    "name": "Miguelitos de La Roda",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Castilla-La Mancha",
    "yield": "12 ud.",
    "parts": [
@@ -7016,6 +7110,7 @@
    "name": "Tortas de aceite",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Andalucía",
    "yield": "10 ud.",
    "parts": [
@@ -7089,6 +7184,7 @@
    "name": "Bienmesabe canario",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Canarias",
    "yield": "6 pax",
    "parts": [
@@ -7146,6 +7242,7 @@
    "name": "Frangollo",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Canarias",
    "yield": "6 pax",
    "parts": [
@@ -7219,6 +7316,7 @@
    "name": "Mel i mató",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Cataluña",
    "yield": "4 pax",
    "parts": [
@@ -7259,6 +7357,7 @@
    "name": "Sopa de almendras",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España",
    "yield": "6 pax",
    "parts": [
@@ -7322,6 +7421,7 @@
    "name": "Pan de higo",
    "group": "Dulce",
    "cat": "",
+   "local": "",
    "tag": "España / Andalucía",
    "yield": "1 ud.",
    "parts": [
@@ -7389,6 +7489,7 @@
    "name": "Nigiri sushi",
    "group": "Salado",
    "cat": "Arroces",
+   "local": "Gohanmono / Sushi",
    "tag": "Japón / Kanto",
    "yield": "4 pax",
    "parts": [
@@ -7483,6 +7584,7 @@
    "name": "Tempura",
    "group": "Salado",
    "cat": "Mariscos",
+   "local": "Agemono / Tempura y koromoage",
    "tag": "Japón / Kanto",
    "yield": "4 pax",
    "parts": [
@@ -7590,6 +7692,7 @@
    "name": "Ramen de shoyu",
    "group": "Salado",
    "cat": "Pastas alimenticias",
+   "local": "Menrui / Ramen",
    "tag": "Japón / Kanto",
    "yield": "4 pax",
    "parts": [
@@ -7746,6 +7849,7 @@
    "name": "Oyakodon",
    "group": "Salado",
    "cat": "Arroces",
+   "local": "Gohanmono / Donburi y kare raisu",
    "tag": "Japón / Kanto",
    "yield": "4 pax",
    "parts": [
@@ -7819,6 +7923,7 @@
    "name": "Sukiyaki",
    "group": "Salado",
    "cat": "Carnes / Bovino",
+   "local": "Nabemono",
    "tag": "Japón / Kanto",
    "yield": "4 pax",
    "parts": [
@@ -7925,6 +8030,7 @@
    "name": "Okonomiyaki",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Konamono",
    "tag": "Japón / Kansai",
    "yield": "2 ud.",
    "parts": [
@@ -8020,6 +8126,7 @@
    "name": "Takoyaki",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Konamono",
    "tag": "Japón / Kansai",
    "yield": "40 ud.",
    "parts": [
@@ -8120,6 +8227,7 @@
    "name": "Mitarashi dango",
    "group": "Dulce",
    "cat": "",
+   "local": "Wagashi / Mochimono (de mochi y dango)",
    "tag": "Japón / Kansai",
    "yield": "8 ud.",
    "parts": [
@@ -8193,6 +8301,7 @@
    "name": "Sanuki udon",
    "group": "Salado",
    "cat": "Pastas alimenticias",
+   "local": "Menrui / Udon",
    "tag": "Japón / Shikoku",
    "yield": "4 pax",
    "parts": [
@@ -8301,6 +8410,7 @@
    "name": "Ishikari nabe",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "Nabemono",
    "tag": "Japón / Hokkaido",
    "yield": "4 pax",
    "parts": [
@@ -8431,6 +8541,7 @@
    "name": "Jingisukan",
    "group": "Salado",
    "cat": "Carnes / Ovino",
+   "local": "Yakimono",
    "tag": "Japón / Hokkaido",
    "yield": "4 pax",
    "parts": [
@@ -8546,6 +8657,7 @@
    "name": "Kiritanpo nabe",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "Nabemono",
    "tag": "Japón / Tohoku",
    "yield": "5 pax",
    "parts": [
@@ -8654,6 +8766,7 @@
    "name": "Hoto",
    "group": "Salado",
    "cat": "Pastas alimenticias",
+   "local": "Menrui / Otros fideos",
    "tag": "Japón / Chubu",
    "yield": "5 pax",
    "parts": [
@@ -8758,6 +8871,7 @@
    "name": "Goya champuru",
    "group": "Salado",
    "cat": "Hortalizas",
+   "local": "Itamemono",
    "tag": "Japón / Kyushu y Okinawa",
    "yield": "4 pax",
    "parts": [
@@ -8817,6 +8931,7 @@
    "name": "Karaage",
    "group": "Salado",
    "cat": "Carnes / Aves y conejo",
+   "local": "Agemono / Karaage",
    "tag": "Japón / Kyushu y Okinawa",
    "yield": "4 pax",
    "parts": [
@@ -8895,6 +9010,7 @@
    "name": "Miso shiru",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
+   "local": "Shirumono / Misoshiru",
    "tag": "Japón",
    "yield": "4 pax",
    "parts": [
@@ -8967,6 +9083,7 @@
    "name": "Onigiri",
    "group": "Salado",
    "cat": "Arroces",
+   "local": "Gohanmono / Onigiri",
    "tag": "Japón",
    "yield": "6 ud.",
    "parts": [
@@ -9029,6 +9146,7 @@
    "name": "Nikujaga",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "Nimono",
    "tag": "Japón",
    "yield": "4 pax",
    "parts": [
@@ -9118,6 +9236,7 @@
    "name": "Curry japonés",
    "group": "Salado",
    "cat": "Arroces",
+   "local": "Gohanmono / Donburi y kare raisu",
    "tag": "Japón",
    "yield": "4 pax",
    "parts": [
@@ -9233,6 +9352,7 @@
    "name": "Dorayaki",
    "group": "Dulce",
    "cat": "",
+   "local": "Wagashi / Yakimono (horneados)",
    "tag": "Japón",
    "yield": "6 ud.",
    "parts": [
@@ -9322,6 +9442,7 @@
    "name": "Cebiche de pescado",
    "group": "Salado",
    "cat": "Pescados",
+   "local": "Marina / Cebiches y tiraditos",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -9416,6 +9537,7 @@
    "name": "Tiradito",
    "group": "Salado",
    "cat": "Pescados",
+   "local": "Marina / Cebiches y tiraditos",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -9492,6 +9614,7 @@
    "name": "Causa limeña",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Fríos",
+   "local": "Criolla / Limeña",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -9586,6 +9709,7 @@
    "name": "Ají de gallina",
    "group": "Salado",
    "cat": "Carnes / Aves y conejo",
+   "local": "Criolla / Limeña",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -9724,6 +9848,7 @@
    "name": "Lomo saltado",
    "group": "Salado",
    "cat": "Carnes / Bovino",
+   "local": "Criolla / Limeña",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -9818,6 +9943,7 @@
    "name": "Anticuchos de corazón",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Criolla / Anticuchos y brasas",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -9924,6 +10050,7 @@
    "name": "Arroz chaufa",
    "group": "Salado",
    "cat": "Arroces",
+   "local": "Chifa",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -10016,6 +10143,7 @@
    "name": "Tacu tacu",
    "group": "Salado",
    "cat": "Arroces",
+   "local": "Criolla / Limeña",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -10078,6 +10206,7 @@
    "name": "Papa rellena",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Criolla / Limeña",
    "tag": "Perú / Lima",
    "yield": "8 ud.",
    "parts": [
@@ -10202,6 +10331,7 @@
    "name": "Pollo a la brasa",
    "group": "Salado",
    "cat": "Carnes / Aves y conejo",
+   "local": "Criolla / Anticuchos y brasas",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -10323,6 +10453,7 @@
    "name": "Tallarines verdes",
    "group": "Salado",
    "cat": "Pastas alimenticias",
+   "local": "Criolla / Limeña",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -10405,6 +10536,7 @@
    "name": "Cau cau",
    "group": "Salado",
    "cat": "Carnes / Bovino",
+   "local": "Criolla / Limeña",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -10488,6 +10620,7 @@
    "name": "Seco de res con frejoles",
    "group": "Salado",
    "cat": "Carnes / Bovino",
+   "local": "Criolla / Limeña",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -10615,6 +10748,7 @@
    "name": "Sopa criolla",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
+   "local": "Criolla / Limeña",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -10718,6 +10852,7 @@
    "name": "Tamales criollos",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Criolla / Desayuno y sánguches",
    "tag": "Perú / Lima",
    "yield": "8 ud.",
    "parts": [
@@ -10853,6 +10988,7 @@
    "name": "Pan con chicharrón",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Criolla / Desayuno y sánguches",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -10960,6 +11096,7 @@
    "name": "Jalea mixta",
    "group": "Salado",
    "cat": "Mariscos",
+   "local": "Marina / Frituras y jaleas",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -11120,6 +11257,7 @@
    "name": "Parihuela",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
+   "local": "Marina / Calientes",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -11262,6 +11400,7 @@
    "name": "Pescado a lo macho",
    "group": "Salado",
    "cat": "Pescados",
+   "local": "Marina / Calientes",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -11422,6 +11561,7 @@
    "name": "Escabeche de pescado",
    "group": "Salado",
    "cat": "Pescados",
+   "local": "Criolla / Limeña",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -11555,6 +11695,7 @@
    "name": "Arroz con mariscos",
    "group": "Salado",
    "cat": "Arroces",
+   "local": "Marina / Calientes",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -11688,6 +11829,7 @@
    "name": "Olluquito con charqui",
    "group": "Salado",
    "cat": "Hortalizas",
+   "local": "Andina",
    "tag": "Perú",
    "yield": "4 pax",
    "parts": [
@@ -11771,6 +11913,7 @@
    "name": "Papa a la huancaína",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Fríos",
+   "local": "Criolla / Limeña",
    "tag": "Perú / Junín",
    "yield": "4 pax",
    "parts": [
@@ -11858,6 +12001,7 @@
    "name": "Pachamanca a la olla",
    "group": "Salado",
    "cat": "Carnes",
+   "local": "Andina",
    "tag": "Perú / Junín",
    "yield": "4 pax",
    "parts": [
@@ -11998,6 +12142,7 @@
    "name": "Rocoto relleno",
    "group": "Salado",
    "cat": "Hortalizas",
+   "local": "Sureña / Picantería arequipeña",
    "tag": "Perú / Arequipa",
    "yield": "4 pax",
    "parts": [
@@ -12141,6 +12286,7 @@
    "name": "Chupe de camarones",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
+   "local": "Sureña / Picantería arequipeña",
    "tag": "Perú / Arequipa",
    "yield": "4 pax",
    "parts": [
@@ -12271,6 +12417,7 @@
    "name": "Ocopa arequipeña",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Fríos",
+   "local": "Sureña / Picantería arequipeña",
    "tag": "Perú / Arequipa",
    "yield": "4 pax",
    "parts": [
@@ -12368,6 +12515,7 @@
    "name": "Adobo arequipeño",
    "group": "Salado",
    "cat": "Carnes / Porcino",
+   "local": "Sureña / Picantería arequipeña",
    "tag": "Perú / Arequipa",
    "yield": "4 pax",
    "parts": [
@@ -12435,6 +12583,7 @@
    "name": "Solterito arequipeño",
    "group": "Salado",
    "cat": "Ensaladas",
+   "local": "Sureña / Picantería arequipeña",
    "tag": "Perú / Arequipa",
    "yield": "4 pax",
    "parts": [
@@ -12521,6 +12670,7 @@
    "name": "Cuy chactado",
    "group": "Salado",
    "cat": "Carnes / Aves y conejo",
+   "local": "Sureña / Picantería arequipeña",
    "tag": "Perú / Arequipa",
    "yield": "4 pax",
    "parts": [
@@ -12584,6 +12734,7 @@
    "name": "Carapulcra con sopa seca",
    "group": "Salado",
    "cat": "Carnes / Porcino",
+   "local": "Criolla / Afroperuana",
    "tag": "Perú / Ica",
    "yield": "4 pax",
    "parts": [
@@ -12737,6 +12888,7 @@
    "name": "Chiriuchu",
    "group": "Salado",
    "cat": "Carnes",
+   "local": "Andina",
    "tag": "Perú / Cusco",
    "yield": "4 pax",
    "parts": [
@@ -12880,6 +13032,7 @@
    "name": "Kapchi de habas",
    "group": "Salado",
    "cat": "Hortalizas",
+   "local": "Andina",
    "tag": "Perú / Cusco",
    "yield": "4 pax",
    "parts": [
@@ -12969,6 +13122,7 @@
    "name": "Choclo con queso",
    "group": "Salado",
    "cat": "Hortalizas",
+   "local": "Andina",
    "tag": "Perú / Cusco",
    "yield": "4 pax",
    "parts": [
@@ -13020,6 +13174,7 @@
    "name": "Chairo",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
+   "local": "Andina",
    "tag": "Perú / Puno",
    "yield": "4 pax",
    "parts": [
@@ -13108,6 +13263,7 @@
    "name": "Trucha frita",
    "group": "Salado",
    "cat": "Pescados",
+   "local": "Andina",
    "tag": "Perú / Puno",
    "yield": "4 pax",
    "parts": [
@@ -13180,6 +13336,7 @@
    "name": "Puca picante",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "Andina",
    "tag": "Perú / Ayacucho",
    "yield": "4 pax",
    "parts": [
@@ -13262,6 +13419,7 @@
    "name": "Mondongo ayacuchano",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
+   "local": "Andina",
    "tag": "Perú / Ayacucho",
    "yield": "4 pax",
    "parts": [
@@ -13351,6 +13509,7 @@
    "name": "Picante a la tacneña",
    "group": "Salado",
    "cat": "Carnes / Bovino",
+   "local": "Sureña / Tacna y Moquegua",
    "tag": "Perú / Tacna",
    "yield": "4 pax",
    "parts": [
@@ -13435,6 +13594,7 @@
    "name": "Arroz con pato",
    "group": "Salado",
    "cat": "Arroces",
+   "local": "Norteña",
    "tag": "Perú / Lambayeque",
    "yield": "4 pax",
    "parts": [
@@ -13534,6 +13694,7 @@
    "name": "Seco de cabrito",
    "group": "Salado",
    "cat": "Carnes / Ovino",
+   "local": "Norteña",
    "tag": "Perú / Lambayeque",
    "yield": "4 pax",
    "parts": [
@@ -13650,6 +13811,7 @@
    "name": "Chinguirito",
    "group": "Salado",
    "cat": "Pescados",
+   "local": "Marina / Cebiches y tiraditos",
    "tag": "Perú / Lambayeque",
    "yield": "4 pax",
    "parts": [
@@ -13726,6 +13888,7 @@
    "name": "Shambar",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "Norteña",
    "tag": "Perú / La Libertad",
    "yield": "4 pax",
    "parts": [
@@ -13838,6 +14001,7 @@
    "name": "Seco de chabelo",
    "group": "Salado",
    "cat": "Carnes / Bovino",
+   "local": "Norteña",
    "tag": "Perú / Piura",
    "yield": "4 pax",
    "parts": [
@@ -13926,6 +14090,7 @@
    "name": "Cebiche de conchas negras",
    "group": "Salado",
    "cat": "Mariscos",
+   "local": "Marina / Cebiches y tiraditos",
    "tag": "Perú / Tumbes",
    "yield": "4 pax",
    "parts": [
@@ -13992,6 +14157,7 @@
    "name": "Caldo verde",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
+   "local": "Andina",
    "tag": "Perú / Cajamarca",
    "yield": "4 pax",
    "parts": [
@@ -14092,6 +14258,7 @@
    "name": "Juane de gallina",
    "group": "Salado",
    "cat": "Arroces",
+   "local": "Amazónica",
    "tag": "Perú / San Martín",
    "yield": "8 ud.",
    "parts": [
@@ -14198,6 +14365,7 @@
    "name": "Tacacho con cecina",
    "group": "Salado",
    "cat": "Carnes / Porcino",
+   "local": "Amazónica",
    "tag": "Perú / San Martín",
    "yield": "4 pax",
    "parts": [
@@ -14284,6 +14452,7 @@
    "name": "Patarashca",
    "group": "Salado",
    "cat": "Pescados",
+   "local": "Amazónica",
    "tag": "Perú / Loreto",
    "yield": "4 pax",
    "parts": [
@@ -14356,6 +14525,7 @@
    "name": "Inchicapi",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
+   "local": "Amazónica",
    "tag": "Perú / Loreto",
    "yield": "4 pax",
    "parts": [
@@ -14433,6 +14603,7 @@
    "name": "Hummus bi tahini",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Fríos",
+   "local": "Mazza / Fríos (bārde)",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -14512,6 +14683,7 @@
    "name": "Moutabal",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Fríos",
+   "local": "Mazza / Fríos (bārde)",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -14574,6 +14746,7 @@
    "name": "Baba ghannouj",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Fríos",
+   "local": "Mazza / Fríos (bārde)",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -14660,6 +14833,7 @@
    "name": "Tabbouleh",
    "group": "Salado",
    "cat": "Ensaladas",
+   "local": "Mazza / Fríos (bārde)",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -14743,6 +14917,7 @@
    "name": "Fattoush",
    "group": "Salado",
    "cat": "Ensaladas",
+   "local": "Mazza / Fríos (bārde)",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -14868,6 +15043,7 @@
    "name": "Warak enab bi zeit",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Fríos",
+   "local": "Bi zeit",
    "tag": "Líbano",
    "yield": "40 ud.",
    "parts": [
@@ -14967,6 +15143,7 @@
    "name": "Loubieh bi zeit",
    "group": "Salado",
    "cat": "Hortalizas",
+   "local": "Bi zeit",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -15040,6 +15217,7 @@
    "name": "Hindbeh bi zeit",
    "group": "Salado",
    "cat": "Hortalizas",
+   "local": "Bi zeit",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -15108,6 +15286,7 @@
    "name": "Balila",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Mazza / Calientes (sukhne)",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -15169,6 +15348,7 @@
    "name": "Foul moudammas",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Mazza / Calientes (sukhne)",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -15237,6 +15417,7 @@
    "name": "Falafel",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Comida callejera",
    "tag": "Líbano",
    "yield": "20 ud.",
    "parts": [
@@ -15359,6 +15540,7 @@
    "name": "Batata harra",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Mazza / Calientes (sukhne)",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -15430,6 +15612,7 @@
    "name": "Kibbeh krass",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Kebbeh / Frita o a la brasa",
    "tag": "Líbano",
    "yield": "20 ud.",
    "parts": [
@@ -15550,6 +15733,7 @@
    "name": "Sambousek bi lahmeh",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Mu'ajjanat / Fatayer y sfiha (empanadillas)",
    "tag": "Líbano",
    "yield": "20 ud.",
    "parts": [
@@ -15641,6 +15825,7 @@
    "name": "Fatayer bi sabanekh",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Mu'ajjanat / Fatayer y sfiha (empanadillas)",
    "tag": "Líbano",
    "yield": "20 ud.",
    "parts": [
@@ -15742,6 +15927,7 @@
    "name": "Man'oushé bi za'atar",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Mu'ajjanat / Manaqish (panes abiertos)",
    "tag": "Líbano",
    "yield": "4 ud.",
    "parts": [
@@ -15824,6 +16010,7 @@
    "name": "Lahm bi ajin",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Mu'ajjanat / Manaqish (panes abiertos)",
    "tag": "Líbano",
    "yield": "8 ud.",
    "parts": [
@@ -15934,6 +16121,7 @@
    "name": "Sfiha baalbakiyeh",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Mu'ajjanat / Fatayer y sfiha (empanadillas)",
    "tag": "Líbano / Bekaa",
    "yield": "20 ud.",
    "parts": [
@@ -16035,6 +16223,7 @@
    "name": "Makanek",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Mazza / Calientes (sukhne)",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -16133,6 +16322,7 @@
    "name": "Arayes",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Mashawi",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -16210,6 +16400,7 @@
    "name": "Kibbeh bil sanieh",
    "group": "Salado",
    "cat": "Carnes / Ovino",
+   "local": "Kebbeh / Al horno (bil sanieh)",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -16330,6 +16521,7 @@
    "name": "Kibbeh nayeh",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Fríos",
+   "local": "Kebbeh / Cruda (nayye)",
    "tag": "Líbano / Norte",
    "yield": "4 pax",
    "parts": [
@@ -16409,6 +16601,7 @@
    "name": "Kibbeh labanieh",
    "group": "Salado",
    "cat": "Carnes / Ovino",
+   "local": "Kebbeh / Guisada en salsa",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -16526,6 +16719,7 @@
    "name": "Shish barak",
    "group": "Salado",
    "cat": "Pastas alimenticias",
+   "local": "Tabkhat / En yogur",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -16648,6 +16842,7 @@
    "name": "Kafta mashwiyeh",
    "group": "Salado",
    "cat": "Carnes / Bovino",
+   "local": "Mashawi",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -16714,6 +16909,7 @@
    "name": "Shish taouk",
    "group": "Salado",
    "cat": "Carnes / Aves y conejo",
+   "local": "Mashawi",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -16823,6 +17019,7 @@
    "name": "Shawarma de pollo",
    "group": "Salado",
    "cat": "Carnes / Aves y conejo",
+   "local": "Comida callejera",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -16974,6 +17171,7 @@
    "name": "Riz a djej",
    "group": "Salado",
    "cat": "Arroces",
+   "local": "Tabkhat / Arroces y cereales",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17089,6 +17287,7 @@
    "name": "Kousa mahshi",
    "group": "Salado",
    "cat": "Hortalizas",
+   "local": "Mahashi",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17177,6 +17376,7 @@
    "name": "Malfouf mahshi",
    "group": "Salado",
    "cat": "Hortalizas",
+   "local": "Mahashi",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17261,6 +17461,7 @@
    "name": "Mujaddara",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "Tabkhat / Arroces y cereales",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17334,6 +17535,7 @@
    "name": "Moghrabieh",
    "group": "Salado",
    "cat": "Pastas alimenticias",
+   "local": "Tabkhat / Arroces y cereales",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17450,6 +17652,7 @@
    "name": "Mloukhieh",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "Tabkhat / Yakhneh (guisos)",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17548,6 +17751,7 @@
    "name": "Sayadieh",
    "group": "Salado",
    "cat": "Arroces",
+   "local": "Samak",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17642,6 +17846,7 @@
    "name": "Samkeh harra",
    "group": "Salado",
    "cat": "Pescados",
+   "local": "Samak",
    "tag": "Líbano / Norte",
    "yield": "4 pax",
    "parts": [
@@ -17734,6 +17939,7 @@
    "name": "Shorbat adas",
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Cremas calientes",
+   "local": "Tabkhat / Sopas (shorba)",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17815,6 +18021,7 @@
    "name": "Fatteh hummus",
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Mazza / Calientes (sukhne)",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17898,6 +18105,7 @@
    "name": "Moussaka'a batinjan",
    "group": "Salado",
    "cat": "Hortalizas",
+   "local": "Bi zeit",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17970,6 +18178,7 @@
    "name": "Kebbeh arnabieh",
    "group": "Salado",
    "cat": "Carnes / Ovino",
+   "local": "Kebbeh / Guisada en salsa",
    "tag": "Líbano / Beirut",
    "yield": "4 pax",
    "parts": [
@@ -18047,6 +18256,7 @@
    "name": "Yakhnet bamieh",
    "group": "Salado",
    "cat": "Carnes / Ovino",
+   "local": "Tabkhat / Yakhneh (guisos)",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -18139,6 +18349,7 @@
    "name": "Knefeh",
    "group": "Dulce",
    "cat": "",
+   "local": "Halawiyat / Con almíbar o ashta",
    "tag": "Líbano",
    "yield": "8 raciones",
    "parts": [
@@ -18236,6 +18447,7 @@
    "name": "Halawet el jibn",
    "group": "Dulce",
    "cat": "",
+   "local": "Halawiyat / Con almíbar o ashta",
    "tag": "Líbano / Norte",
    "yield": "30 ud.",
    "parts": [
@@ -18361,6 +18573,7 @@
    "name": "Ma'amoul",
    "group": "Dulce",
    "cat": "",
+   "local": "Halawiyat / Horneados sin almíbar",
    "tag": "Líbano",
    "yield": "30 ud.",
    "parts": [
@@ -18462,6 +18675,7 @@
    "name": "Mouhalabieh",
    "group": "Dulce",
    "cat": "",
+   "local": "Halawiyat / De cuchara",
    "tag": "Líbano",
    "yield": "6 ud.",
    "parts": [
@@ -18520,6 +18734,7 @@
    "name": "Sfouf",
    "group": "Dulce",
    "cat": "",
+   "local": "Halawiyat / Horneados sin almíbar",
    "tag": "Líbano",
    "yield": "24 ud.",
    "parts": [
@@ -18598,6 +18813,7 @@
    "name": "Namoura",
    "group": "Dulce",
    "cat": "",
+   "local": "Halawiyat / Con almíbar o ashta",
    "tag": "Líbano",
    "yield": "16 ud.",
    "parts": [
@@ -18711,6 +18927,7 @@
    "name": "Atayef bi ashta",
    "group": "Dulce",
    "cat": "",
+   "local": "Halawiyat / Con almíbar o ashta",
    "tag": "Líbano",
    "yield": "20 ud.",
    "parts": [
@@ -18861,6 +19078,7 @@
    "name": "Meghli",
    "group": "Dulce",
    "cat": "",
+   "local": "Halawiyat / De cuchara",
    "tag": "Líbano",
    "yield": "4 ud.",
    "parts": [
@@ -18923,6 +19141,7 @@
    "name": "Riz bi halib",
    "group": "Dulce",
    "cat": "",
+   "local": "Halawiyat / De cuchara",
    "tag": "Líbano",
    "yield": "5 ud.",
    "parts": [
@@ -18990,6 +19209,7 @@
    "name": "Znoud el sit",
    "group": "Dulce",
    "cat": "",
+   "local": "Halawiyat / Con almíbar o ashta",
    "tag": "Líbano",
    "yield": "12 ud.",
    "parts": [
@@ -19110,6 +19330,7 @@
    "name": "Chucrut",
    "group": "Fermentos",
    "cat": "Hortalizas y frutas",
+   "local": "",
    "tag": "Alemania",
    "yield": "2 tarros de 1 l",
    "parts": [
@@ -19155,6 +19376,7 @@
    "name": "Kimchi",
    "group": "Fermentos",
    "cat": "Hortalizas y frutas",
+   "local": "",
    "tag": "Corea del Sur",
    "yield": "1 tarro de 2 l",
    "parts": [
@@ -19259,6 +19481,7 @@
    "name": "Kombucha",
    "group": "Fermentos",
    "cat": "Bebidas ácidas",
+   "local": "",
    "tag": "",
    "yield": "3,8 l",
    "parts": [
@@ -19320,6 +19543,7 @@
    "name": "Kéfir de leche",
    "group": "Fermentos",
    "cat": "Leche",
+   "local": "",
    "tag": "Rusia / Cáucaso",
    "yield": "1 l",
    "parts": [
@@ -19357,6 +19581,7 @@
    "name": "Kéfir de agua",
    "group": "Fermentos",
    "cat": "Bebidas ácidas",
+   "local": "",
    "tag": "México",
    "yield": "1 l",
    "parts": [
@@ -19410,6 +19635,7 @@
    "name": "Yogur natural",
    "group": "Fermentos",
    "cat": "Leche",
+   "local": "",
    "tag": "Bulgaria",
    "yield": "1 l",
    "parts": [
@@ -19448,6 +19674,7 @@
    "name": "Masa madre",
    "group": "Fermentos",
    "cat": "Cereales y tubérculos",
+   "local": "",
    "tag": "",
    "yield": "200 g",
    "parts": [
@@ -19484,6 +19711,7 @@
    "name": "Miso",
    "group": "Fermentos",
    "cat": "Mohos",
+   "local": "",
    "tag": "Japón",
    "yield": "3,5 kg",
    "parts": [
@@ -19544,6 +19772,7 @@
    "name": "Tepache",
    "group": "Fermentos",
    "cat": "Bebidas ácidas",
+   "local": "",
    "tag": "México",
    "yield": "2 l",
    "parts": [
@@ -19596,6 +19825,7 @@
    "name": "Kvas de pan",
    "group": "Fermentos",
    "cat": "Bebidas ácidas",
+   "local": "",
    "tag": "Rusia",
    "yield": "3 l",
    "parts": [
@@ -19650,6 +19880,7 @@
    "name": "Pepinillos fermentados (ogórki kiszone)",
    "group": "Fermentos",
    "cat": "Hortalizas y frutas",
+   "local": "",
    "tag": "Polonia",
    "yield": "1 tarro de 3 l",
    "parts": [
@@ -19715,6 +19946,7 @@
    "name": "Salsa picante fermentada",
    "group": "Fermentos",
    "cat": "Hortalizas y frutas",
+   "local": "",
    "tag": "Estados Unidos / Luisiana",
    "yield": "500 ml",
    "parts": [
@@ -19769,6 +20001,7 @@
    "name": "Ginger beer",
    "group": "Fermentos",
    "cat": "Bebidas ácidas",
+   "local": "",
    "tag": "Reino Unido",
    "yield": "2 l",
    "parts": [
@@ -19842,6 +20075,7 @@
    "name": "Natto",
    "group": "Fermentos",
    "cat": "Legumbres, semillas y frutos secos",
+   "local": "",
    "tag": "Japón / Kanto",
    "yield": "600 g",
    "parts": [
@@ -19885,6 +20119,7 @@
    "name": "Tempeh",
    "group": "Fermentos",
    "cat": "Mohos",
+   "local": "",
    "tag": "Indonesia / Java",
    "yield": "500 g",
    "parts": [
@@ -19929,6 +20164,7 @@
    "name": "Crème fraîche",
    "group": "Fermentos",
    "cat": "Leche",
+   "local": "",
    "tag": "Francia / Normandía",
    "yield": "500 ml",
    "parts": [
@@ -19966,6 +20202,7 @@
    "name": "Limones encurtidos en sal",
    "group": "Fermentos",
    "cat": "Hortalizas y frutas",
+   "local": "",
    "tag": "Marruecos",
    "yield": "1 tarro de 1 l",
    "parts": [
@@ -20009,6 +20246,7 @@
    "name": "Curtido salvadoreño",
    "group": "Fermentos",
    "cat": "Hortalizas y frutas",
+   "local": "",
    "tag": "El Salvador",
    "yield": "1 tarro de 1,5 l",
    "parts": [
@@ -20066,6 +20304,7 @@
    "name": "Masa de idli",
    "group": "Fermentos",
    "cat": "Cereales y tubérculos",
+   "local": "",
    "tag": "India / Tamil Nadu",
    "yield": "24 ud.",
    "parts": [
@@ -20119,6 +20358,7 @@
    "name": "Vinagre casero",
    "group": "Fermentos",
    "cat": "Bebidas ácidas",
+   "local": "",
    "tag": "Francia",
    "yield": "750 ml",
    "parts": [
@@ -20156,6 +20396,7 @@
    "name": "Pepinillos en vinagre al eneldo",
    "group": "Encurtidos",
    "cat": "",
+   "local": "",
    "tag": "",
    "yield": "4 tarros de 500 ml",
    "parts": [
@@ -20242,6 +20483,7 @@
    "name": "Berenjenas de Almagro",
    "group": "Encurtidos",
    "cat": "",
+   "local": "",
    "tag": "España / Castilla-La Mancha",
    "yield": "2 tarros de 1 l",
    "parts": [
@@ -20334,6 +20576,7 @@
    "name": "Guindillas de Ibarra en vinagre",
    "group": "Encurtidos",
    "cat": "",
+   "local": "",
    "tag": "España / País Vasco",
    "yield": "3 tarros de 500 ml",
    "parts": [
@@ -20382,6 +20625,7 @@
    "name": "Aceitunas partidas aliñadas",
    "group": "Encurtidos",
    "cat": "",
+   "local": "",
    "tag": "España / Andalucía",
    "yield": "2 tarros de 1 l",
    "parts": [
@@ -20468,6 +20712,7 @@
    "name": "Cebolletas en vinagre",
    "group": "Encurtidos",
    "cat": "",
+   "local": "",
    "tag": "Reino Unido",
    "yield": "2 tarros de 500 ml",
    "parts": [
@@ -20526,6 +20771,7 @@
    "name": "Piccalilli",
    "group": "Encurtidos",
    "cat": "",
+   "local": "",
    "tag": "Reino Unido",
    "yield": "3 tarros de 500 ml",
    "parts": [
@@ -20601,6 +20847,7 @@
    "name": "Remolacha encurtida",
    "group": "Encurtidos",
    "cat": "",
+   "local": "",
    "tag": "Reino Unido",
    "yield": "8 tarros de 500 ml",
    "parts": [
@@ -20670,6 +20917,7 @@
    "name": "Huevos encurtidos",
    "group": "Encurtidos",
    "cat": "",
+   "local": "",
    "tag": "Reino Unido",
    "yield": "12 ud.",
    "parts": [
@@ -20737,6 +20985,7 @@
    "name": "Bread and butter pickles",
    "group": "Encurtidos",
    "cat": "",
+   "local": "",
    "tag": "Estados Unidos",
    "yield": "8 tarros de 500 ml",
    "parts": [
@@ -20811,6 +21060,7 @@
    "name": "Giardiniera",
    "group": "Encurtidos",
    "cat": "",
+   "local": "",
    "tag": "Italia",
    "yield": "3 tarros de 500 ml",
    "parts": [
@@ -20893,6 +21143,7 @@
    "name": "Inlagd sill (arenque en vinagre)",
    "group": "Encurtidos",
    "cat": "",
+   "local": "",
    "tag": "Suecia",
    "yield": "4 pax",
    "parts": [
@@ -20960,6 +21211,7 @@
    "name": "Chiles jalapeños en escabeche",
    "group": "Encurtidos",
    "cat": "",
+   "local": "",
    "tag": "México",
    "yield": "4 tarros de 500 ml",
    "parts": [
@@ -21048,6 +21300,7 @@
    "name": "Cebolla morada encurtida",
    "group": "Encurtidos",
    "cat": "",
+   "local": "",
    "tag": "México / Yucatán",
    "yield": "1 tarro de 500 ml",
    "parts": [
@@ -21099,6 +21352,7 @@
    "name": "Achar de mango",
    "group": "Encurtidos",
    "cat": "",
+   "local": "",
    "tag": "India",
    "yield": "1 tarro de 1 l",
    "parts": [
@@ -21179,6 +21433,7 @@
    "name": "Lift (nabos encurtidos rosas)",
    "group": "Encurtidos",
    "cat": "",
+   "local": "",
    "tag": "Líbano",
    "yield": "1 tarro de 1,5 l",
    "parts": [
@@ -21236,6 +21491,7 @@
    "name": "Gari (jengibre encurtido)",
    "group": "Encurtidos",
    "cat": "",
+   "local": "",
    "tag": "Japón",
    "yield": "1 tarro de 250 ml",
    "parts": [
@@ -21283,6 +21539,7 @@
    "name": "Umeboshi",
    "group": "Encurtidos",
    "cat": "",
+   "local": "",
    "tag": "Japón / Kansai",
    "yield": "1 kg",
    "parts": [
@@ -21346,6 +21603,7 @@
    "name": "Jangajji de ajo",
    "group": "Encurtidos",
    "cat": "",
+   "local": "",
    "tag": "Corea del Sur",
    "yield": "1 tarro de 1 l",
    "parts": [
@@ -21403,6 +21661,7 @@
    "name": "Đồ chua (zanahoria y daikon)",
    "group": "Encurtidos",
    "cat": "",
+   "local": "",
    "tag": "Vietnam",
    "yield": "1 tarro de 1 l",
    "parts": [
@@ -21460,6 +21719,7 @@
    "name": "Pikliz",
    "group": "Encurtidos",
    "cat": "",
+   "local": "",
    "tag": "Haití",
    "yield": "1 tarro de 1 l",
    "parts": [
@@ -21542,6 +21802,7 @@
    "name": "Mermelada de fresa",
    "group": "Conservas dulces",
    "cat": "",
+   "local": "",
    "tag": "",
    "yield": "4 tarros de 250 ml",
    "parts": [
@@ -21579,6 +21840,7 @@
    "name": "Mermelada de frambuesa sin pepitas",
    "group": "Conservas dulces",
    "cat": "",
+   "local": "",
    "tag": "",
    "yield": "4 tarros de 250 ml",
    "parts": [
@@ -21616,6 +21878,7 @@
    "name": "Mermelada de naranja amarga",
    "group": "Conservas dulces",
    "cat": "",
+   "local": "",
    "tag": "Reino Unido",
    "yield": "6 tarros de 250 ml",
    "parts": [
@@ -21665,6 +21928,7 @@
    "name": "Dulce de membrillo",
    "group": "Conservas dulces",
    "cat": "",
+   "local": "",
    "tag": "España",
    "yield": "1,5 kg",
    "parts": [
@@ -21709,6 +21973,7 @@
    "name": "Confitura de albaricoque",
    "group": "Conservas dulces",
    "cat": "",
+   "local": "",
    "tag": "Francia",
    "yield": "5 tarros de 250 ml",
    "parts": [
@@ -21751,6 +22016,7 @@
    "name": "Mermelada de higos",
    "group": "Conservas dulces",
    "cat": "",
+   "local": "",
    "tag": "España",
    "yield": "5 tarros de 250 ml",
    "parts": [
@@ -21798,6 +22064,7 @@
    "name": "Mermelada de tomate",
    "group": "Conservas dulces",
    "cat": "",
+   "local": "",
    "tag": "",
    "yield": "5 tarros de 250 ml",
    "parts": [
@@ -21867,6 +22134,7 @@
    "name": "Jalea de grosella",
    "group": "Conservas dulces",
    "cat": "",
+   "local": "",
    "tag": "Francia / Lorena",
    "yield": "4 tarros de 250 ml",
    "parts": [
@@ -21909,6 +22177,7 @@
    "name": "Lemon curd",
    "group": "Conservas dulces",
    "cat": "",
+   "local": "",
    "tag": "Reino Unido",
    "yield": "4 tarros de 250 ml",
    "parts": [
@@ -21968,6 +22237,7 @@
    "name": "Compota de manzana",
    "group": "Conservas dulces",
    "cat": "",
+   "local": "",
    "tag": "Francia",
    "yield": "4 tarros de 500 ml",
    "parts": [
@@ -22015,6 +22285,7 @@
    "name": "Chutney de mango",
    "group": "Conservas dulces",
    "cat": "",
+   "local": "",
    "tag": "India",
    "yield": "6 tarros de 500 ml",
    "parts": [
@@ -22086,6 +22357,7 @@
    "name": "Melocotón en almíbar",
    "group": "Conservas dulces",
    "cat": "",
+   "local": "",
    "tag": "España / Aragón",
    "yield": "4 tarros de 1 l",
    "parts": [
@@ -22134,6 +22406,7 @@
    "name": "Cabello de ángel",
    "group": "Conservas dulces",
    "cat": "",
+   "local": "",
    "tag": "España",
    "yield": "1,5 kg",
    "parts": [
@@ -22181,6 +22454,7 @@
    "name": "Guindas en aguardiente",
    "group": "Conservas dulces",
    "cat": "",
+   "local": "",
    "tag": "España",
    "yield": "1 tarro de 1 l",
    "parts": [
@@ -22229,6 +22503,7 @@
    "name": "Arrope",
    "group": "Conservas dulces",
    "cat": "",
+   "local": "",
    "tag": "España",
    "yield": "500 ml",
    "parts": [
@@ -22265,6 +22540,7 @@
    "name": "Crema de castañas",
    "group": "Conservas dulces",
    "cat": "",
+   "local": "",
    "tag": "Francia / Ardèche",
    "yield": "3 tarros de 250 ml",
    "parts": [
@@ -22312,6 +22588,7 @@
    "name": "Piel de naranja confitada",
    "group": "Conservas dulces",
    "cat": "",
+   "local": "",
    "tag": "",
    "yield": "300 g",
    "parts": [
@@ -22360,6 +22637,7 @@
    "name": "Powidła (crema de ciruela)",
    "group": "Conservas dulces",
    "cat": "",
+   "local": "",
    "tag": "Polonia",
    "yield": "4 tarros de 250 ml",
    "parts": [
@@ -22392,6 +22670,7 @@
    "name": "Dulce de leche",
    "group": "Conservas dulces",
    "cat": "",
+   "local": "",
    "tag": "Argentina",
    "yield": "2 tarros de 250 ml",
    "parts": [
@@ -22439,6 +22718,7 @@
    "name": "Goiabada",
    "group": "Conservas dulces",
    "cat": "",
+   "local": "",
    "tag": "Brasil",
    "yield": "1 kg",
    "parts": [
@@ -22481,6 +22761,7 @@
    "name": "Tomate triturado en conserva",
    "group": "Conservas saladas",
    "cat": "",
+   "local": "",
    "tag": "",
    "yield": "4 tarros de 1 l",
    "parts": [
@@ -22524,6 +22805,7 @@
    "name": "Pimientos asados marinados",
    "group": "Conservas saladas",
    "cat": "",
+   "local": "",
    "tag": "",
    "yield": "9 tarros de 250 ml",
    "parts": [
@@ -22592,6 +22874,7 @@
    "name": "Bonito en aceite",
    "group": "Conservas saladas",
    "cat": "",
+   "local": "",
    "tag": "España / Cantabria",
    "yield": "6 tarros de 250 ml",
    "parts": [
@@ -22636,6 +22919,7 @@
    "name": "Anchoas en salazón y aceite",
    "group": "Conservas saladas",
    "cat": "",
+   "local": "",
    "tag": "España / Cantabria",
    "yield": "500 g de filetes",
    "parts": [
@@ -22691,6 +22975,7 @@
    "name": "Caballa en escabeche",
    "group": "Conservas saladas",
    "cat": "",
+   "local": "",
    "tag": "España",
    "yield": "4 raciones",
    "parts": [
@@ -22792,6 +23077,7 @@
    "name": "Lomo de orza",
    "group": "Conservas saladas",
    "cat": "",
+   "local": "",
    "tag": "España / Castilla-La Mancha",
    "yield": "1,5 kg",
    "parts": [
@@ -22863,6 +23149,7 @@
    "name": "Confit de pato",
    "group": "Conservas saladas",
    "cat": "",
+   "local": "",
    "tag": "Francia / Gascuña",
    "yield": "4 muslos",
    "parts": [
@@ -22934,6 +23221,7 @@
    "name": "Rillettes de cerdo",
    "group": "Conservas saladas",
    "cat": "",
+   "local": "",
    "tag": "Francia / Valle del Loira",
    "yield": "4 tarros de 250 ml",
    "parts": [
@@ -23003,6 +23291,7 @@
    "name": "Tapenade",
    "group": "Conservas saladas",
    "cat": "",
+   "local": "",
    "tag": "Francia / Provenza",
    "yield": "1 tarro de 300 ml",
    "parts": [
@@ -23063,6 +23352,7 @@
    "name": "Mostaza a la antigua",
    "group": "Conservas saladas",
    "cat": "",
+   "local": "",
    "tag": "Francia",
    "yield": "2 tarros de 200 ml",
    "parts": [
@@ -23119,6 +23409,7 @@
    "name": "Tomates secos en aceite",
    "group": "Conservas saladas",
    "cat": "",
+   "local": "",
    "tag": "Italia",
    "yield": "2 tarros de 250 ml",
    "parts": [
@@ -23160,6 +23451,7 @@
    "name": "Alcachofas en aceite (carciofini sott'olio)",
    "group": "Conservas saladas",
    "cat": "",
+   "local": "",
    "tag": "Italia",
    "yield": "4 tarros de 250 ml",
    "parts": [
@@ -23229,6 +23521,7 @@
    "name": "Caponata",
    "group": "Conservas saladas",
    "cat": "",
+   "local": "",
    "tag": "Italia / Sicilia",
    "yield": "4 tarros de 250 ml",
    "parts": [
@@ -23312,6 +23605,7 @@
    "name": "Ajvar",
    "group": "Conservas saladas",
    "cat": "",
+   "local": "",
    "tag": "Serbia",
    "yield": "3 tarros de 250 ml",
    "parts": [
@@ -23375,6 +23669,7 @@
    "name": "Harissa",
    "group": "Conservas saladas",
    "cat": "",
+   "local": "",
    "tag": "Túnez",
    "yield": "1 tarro de 250 ml",
    "parts": [
@@ -23442,6 +23737,7 @@
    "name": "Ketchup",
    "group": "Conservas saladas",
    "cat": "",
+   "local": "",
    "tag": "Estados Unidos",
    "yield": "3 tarros de 500 ml",
    "parts": [
@@ -23529,6 +23825,7 @@
    "name": "Aceite de chile crujiente",
    "group": "Conservas saladas",
    "cat": "",
+   "local": "",
    "tag": "China / Guizhou",
    "yield": "1 tarro de 500 ml",
    "parts": [
@@ -23613,6 +23910,7 @@
    "name": "Salsa XO",
    "group": "Conservas saladas",
    "cat": "",
+   "local": "",
    "tag": "China / Hong Kong",
    "yield": "2 tarros de 250 ml",
    "parts": [
@@ -23691,6 +23989,7 @@
    "name": "Pasta de curry rojo",
    "group": "Conservas saladas",
    "cat": "",
+   "local": "",
    "tag": "Tailandia",
    "yield": "1 tarro de 200 ml",
    "parts": [
@@ -23778,6 +24077,7 @@
    "name": "Garbanzos en conserva",
    "group": "Conservas saladas",
    "cat": "",
+   "local": "",
    "tag": "",
    "yield": "4 tarros de 1 l",
    "parts": [
@@ -23821,6 +24121,7 @@
    "name": "Mantequilla",
    "group": "Lácteos y derivados",
    "cat": "",
+   "local": "",
    "tag": "",
    "yield": "200 g de mantequilla y 250 ml de suero",
    "parts": [
@@ -23864,6 +24165,7 @@
    "name": "Ghee",
    "group": "Lácteos y derivados",
    "cat": "",
+   "local": "",
    "tag": "India",
    "yield": "400 ml",
    "parts": [
@@ -23896,6 +24198,7 @@
    "name": "Ricotta",
    "group": "Lácteos y derivados",
    "cat": "",
+   "local": "",
    "tag": "Italia",
    "yield": "400 g",
    "parts": [
@@ -23944,6 +24247,7 @@
    "name": "Mató",
    "group": "Lácteos y derivados",
    "cat": "",
+   "local": "",
    "tag": "España / Cataluña",
    "yield": "500 g",
    "parts": [
@@ -23982,6 +24286,7 @@
    "name": "Paneer",
    "group": "Lácteos y derivados",
    "cat": "",
+   "local": "",
    "tag": "India",
    "yield": "350 g",
    "parts": [
@@ -24025,6 +24330,7 @@
    "name": "Queso fresco de Burgos",
    "group": "Lácteos y derivados",
    "cat": "",
+   "local": "",
    "tag": "España / Castilla y León",
    "yield": "2 quesos de 300 g",
    "parts": [
@@ -24068,6 +24374,7 @@
    "name": "Mozzarella",
    "group": "Lácteos y derivados",
    "cat": "",
+   "local": "",
    "tag": "Italia / Campania",
    "yield": "400 g",
    "parts": [
@@ -24118,6 +24425,7 @@
    "name": "Burrata",
    "group": "Lácteos y derivados",
    "cat": "",
+   "local": "",
    "tag": "Italia / Apulia",
    "yield": "4 burratas",
    "parts": [
@@ -24172,6 +24480,7 @@
    "name": "Labneh",
    "group": "Lácteos y derivados",
    "cat": "",
+   "local": "",
    "tag": "Líbano",
    "yield": "500 g",
    "parts": [
@@ -24208,6 +24517,7 @@
    "name": "Skyr",
    "group": "Lácteos y derivados",
    "cat": "",
+   "local": "",
    "tag": "Islandia",
    "yield": "600 g",
    "parts": [
@@ -24250,6 +24560,7 @@
    "name": "Requesón tipo cottage",
    "group": "Lácteos y derivados",
    "cat": "",
+   "local": "",
    "tag": "Estados Unidos",
    "yield": "500 g",
    "parts": [
@@ -24298,6 +24609,7 @@
    "name": "Mascarpone",
    "group": "Lácteos y derivados",
    "cat": "",
+   "local": "",
    "tag": "Italia / Lombardía",
    "yield": "400 g",
    "parts": [
@@ -24334,6 +24646,7 @@
    "name": "Halloumi",
    "group": "Lácteos y derivados",
    "cat": "",
+   "local": "",
    "tag": "Chipre",
    "yield": "2 bloques de 300 g",
    "parts": [
@@ -24382,6 +24695,7 @@
    "name": "Feta",
    "group": "Lácteos y derivados",
    "cat": "",
+   "local": "",
    "tag": "Grecia",
    "yield": "800 g",
    "parts": [
@@ -24435,6 +24749,7 @@
    "name": "Queso crema",
    "group": "Lácteos y derivados",
    "cat": "",
+   "local": "",
    "tag": "Estados Unidos",
    "yield": "450 g",
    "parts": [
@@ -24482,6 +24797,7 @@
    "name": "Clotted cream",
    "group": "Lácteos y derivados",
    "cat": "",
+   "local": "",
    "tag": "Reino Unido / Cornualles",
    "yield": "300 g",
    "parts": [
@@ -24513,6 +24829,7 @@
    "name": "Brunost",
    "group": "Lácteos y derivados",
    "cat": "",
+   "local": "",
    "tag": "Noruega",
    "yield": "300 g",
    "parts": [
@@ -24550,6 +24867,7 @@
    "name": "Quesillo de Oaxaca",
    "group": "Lácteos y derivados",
    "cat": "",
+   "local": "",
    "tag": "México / Oaxaca",
    "yield": "400 g",
    "parts": [
@@ -24596,6 +24914,7 @@
    "name": "Leche condensada",
    "group": "Lácteos y derivados",
    "cat": "",
+   "local": "",
    "tag": "",
    "yield": "400 g",
    "parts": [
@@ -24638,6 +24957,7 @@
    "name": "Ayran",
    "group": "Lácteos y derivados",
    "cat": "",
+   "local": "",
    "tag": "Turquía",
    "yield": "1 l",
    "parts": [
@@ -24679,6 +24999,7 @@
    "name": "Masa de pizza napolitana",
    "group": "Masas",
    "cat": "",
+   "local": "",
    "tag": "Italia / Campania",
    "yield": "6 bolas de 250 g",
    "parts": [
@@ -24728,6 +25049,7 @@
    "name": "Baguette",
    "group": "Masas",
    "cat": "",
+   "local": "",
    "tag": "Francia",
    "yield": "3 baguettes",
    "parts": [
@@ -24778,6 +25100,7 @@
    "name": "Chapata",
    "group": "Masas",
    "cat": "",
+   "local": "",
    "tag": "Italia / Véneto",
    "yield": "3 chapatas",
    "parts": [
@@ -24850,6 +25173,7 @@
    "name": "Focaccia genovese",
    "group": "Masas",
    "cat": "",
+   "local": "",
    "tag": "Italia / Liguria",
    "yield": "1 bandeja de 30×40 cm",
    "parts": [
@@ -24927,6 +25251,7 @@
    "name": "Pan de molde",
    "group": "Masas",
    "cat": "",
+   "local": "",
    "tag": "",
    "yield": "1 molde de 25 cm",
    "parts": [
@@ -24986,6 +25311,7 @@
    "name": "Masa de coca",
    "group": "Masas",
    "cat": "",
+   "local": "",
    "tag": "España / Comunidad Valenciana",
    "yield": "2 cocas de 30×20 cm",
    "parts": [
@@ -25038,6 +25364,7 @@
    "name": "Masa quebrada (pâte brisée)",
    "group": "Masas",
    "cat": "",
+   "local": "",
    "tag": "Francia",
    "yield": "1 molde de 26 cm",
    "parts": [
@@ -25091,6 +25418,7 @@
    "name": "Masa sablée",
    "group": "Masas",
    "cat": "",
+   "local": "",
    "tag": "Francia",
    "yield": "1 molde de 26 cm",
    "parts": [
@@ -25144,6 +25472,7 @@
    "name": "Hojaldre",
    "group": "Masas",
    "cat": "",
+   "local": "",
    "tag": "Francia",
    "yield": "1,2 kg",
    "parts": [
@@ -25206,6 +25535,7 @@
    "name": "Masa choux",
    "group": "Masas",
    "cat": "",
+   "local": "",
    "tag": "Francia",
    "yield": "30 profiteroles",
    "parts": [
@@ -25270,6 +25600,7 @@
    "name": "Brioche",
    "group": "Masas",
    "cat": "",
+   "local": "",
    "tag": "Francia",
    "yield": "2 moldes de pan",
    "parts": [
@@ -25329,6 +25660,7 @@
    "name": "Pasta fresca al huevo",
    "group": "Masas",
    "cat": "",
+   "local": "",
    "tag": "Italia / Emilia-Romaña",
    "yield": "4 raciones",
    "parts": [
@@ -25368,6 +25700,7 @@
    "name": "Masa de maíz nixtamalizado",
    "group": "Masas",
    "cat": "",
+   "local": "",
    "tag": "México",
    "yield": "1,5 kg de masa (30 tortillas)",
    "parts": [
@@ -25416,6 +25749,7 @@
    "name": "Tortillas de harina",
    "group": "Masas",
    "cat": "",
+   "local": "",
    "tag": "México",
    "yield": "12 tortillas",
    "parts": [
@@ -25464,6 +25798,7 @@
    "name": "Obleas para empanadillas",
    "group": "Masas",
    "cat": "",
+   "local": "",
    "tag": "España",
    "yield": "30 obleas",
    "parts": [
@@ -25517,6 +25852,7 @@
    "name": "Pan de pita",
    "group": "Masas",
    "cat": "",
+   "local": "",
    "tag": "Líbano",
    "yield": "8 panes",
    "parts": [
@@ -25570,6 +25906,7 @@
    "name": "Naan",
    "group": "Masas",
    "cat": "",
+   "local": "",
    "tag": "India / Punyab",
    "yield": "8 naan",
    "parts": [
@@ -25633,6 +25970,7 @@
    "name": "Masa de jiaozi",
    "group": "Masas",
    "cat": "",
+   "local": "",
    "tag": "China",
    "yield": "40 obleas",
    "parts": [
@@ -25676,6 +26014,7 @@
    "name": "Masa de bao",
    "group": "Masas",
    "cat": "",
+   "local": "",
    "tag": "China",
    "yield": "16 bao",
    "parts": [
@@ -25734,6 +26073,7 @@
    "name": "Arepas",
    "group": "Masas",
    "cat": "",
+   "local": "",
    "tag": "Venezuela",
    "yield": "8 arepas",
    "parts": [
@@ -25777,6 +26117,7 @@
    "name": "Leche de soja",
    "group": "Legumbres y semillas",
    "cat": "",
+   "local": "",
    "tag": "China",
    "yield": "1,5 l",
    "parts": [
@@ -25814,6 +26155,7 @@
    "name": "Tofu",
    "group": "Legumbres y semillas",
    "cat": "",
+   "local": "",
    "tag": "China",
    "yield": "400 g",
    "parts": [
@@ -25857,6 +26199,7 @@
    "name": "Tahini",
    "group": "Legumbres y semillas",
    "cat": "",
+   "local": "",
    "tag": "Líbano",
    "yield": "1 tarro de 250 ml",
    "parts": [
@@ -25899,6 +26242,7 @@
    "name": "Mantequilla de cacahuete",
    "group": "Legumbres y semillas",
    "cat": "",
+   "local": "",
    "tag": "Estados Unidos",
    "yield": "1 tarro de 400 g",
    "parts": [
@@ -25940,6 +26284,7 @@
    "name": "Horchata de chufa",
    "group": "Legumbres y semillas",
    "cat": "",
+   "local": "",
    "tag": "España / Comunidad Valenciana",
    "yield": "1 l",
    "parts": [
@@ -25988,6 +26333,7 @@
    "name": "Leche de almendras",
    "group": "Legumbres y semillas",
    "cat": "",
+   "local": "",
    "tag": "",
    "yield": "1 l",
    "parts": [
@@ -26028,6 +26374,7 @@
    "name": "Leche de avena",
    "group": "Legumbres y semillas",
    "cat": "",
+   "local": "",
    "tag": "",
    "yield": "1 l",
    "parts": [
@@ -26067,6 +26414,7 @@
    "name": "Tramussos (altramuces)",
    "group": "Legumbres y semillas",
    "cat": "",
+   "local": "",
    "tag": "España / Comunidad Valenciana",
    "yield": "1 kg",
    "parts": [
@@ -26109,6 +26457,7 @@
    "name": "Garbanzos tostados",
    "group": "Legumbres y semillas",
    "cat": "",
+   "local": "",
    "tag": "España",
    "yield": "300 g",
    "parts": [
@@ -26155,6 +26504,7 @@
    "name": "Anko (pasta de judía roja)",
    "group": "Legumbres y semillas",
    "cat": "",
+   "local": "",
    "tag": "Japón",
    "yield": "600 g",
    "parts": [
@@ -26197,6 +26547,7 @@
    "name": "Gomasio",
    "group": "Legumbres y semillas",
    "cat": "",
+   "local": "",
    "tag": "Japón",
    "yield": "1 tarro de 150 g",
    "parts": [
@@ -26233,6 +26584,7 @@
    "name": "Dukkah",
    "group": "Legumbres y semillas",
    "cat": "",
+   "local": "",
    "tag": "Egipto",
    "yield": "1 tarro de 200 g",
    "parts": [
@@ -26289,6 +26641,7 @@
    "name": "Za'atar",
    "group": "Legumbres y semillas",
    "cat": "",
+   "local": "",
    "tag": "Líbano",
    "yield": "1 tarro de 100 g",
    "parts": [
@@ -26333,6 +26686,7 @@
    "name": "Granola",
    "group": "Legumbres y semillas",
    "cat": "",
+   "local": "",
    "tag": "Estados Unidos",
    "yield": "600 g",
    "parts": [
@@ -26396,6 +26750,7 @@
    "name": "Brotes de soja (judía mungo)",
    "group": "Legumbres y semillas",
    "cat": "",
+   "local": "",
    "tag": "China",
    "yield": "400 g",
    "parts": [
@@ -26428,6 +26783,7 @@
    "name": "Almendras fritas",
    "group": "Legumbres y semillas",
    "cat": "",
+   "local": "",
    "tag": "España",
    "yield": "250 g",
    "parts": [
@@ -26469,6 +26825,7 @@
    "name": "Pipas de girasol tostadas",
    "group": "Legumbres y semillas",
    "cat": "",
+   "local": "",
    "tag": "España",
    "yield": "250 g",
    "parts": [
@@ -26510,6 +26867,7 @@
    "name": "Crackers de semillas (fröknäcke)",
    "group": "Legumbres y semillas",
    "cat": "",
+   "local": "",
    "tag": "Suecia",
    "yield": "1 bandeja",
    "parts": [
@@ -26578,6 +26936,7 @@
    "name": "Bircher muesli",
    "group": "Legumbres y semillas",
    "cat": "",
+   "local": "",
    "tag": "Suiza",
    "yield": "2 raciones",
    "parts": [
@@ -26634,6 +26993,7 @@
    "name": "Gofio",
    "group": "Legumbres y semillas",
    "cat": "",
+   "local": "",
    "tag": "España / Canarias",
    "yield": "450 g",
    "parts": [
@@ -26670,6 +27030,7 @@
    "name": "Aceite de ajo",
    "group": "Aceites, infusiones y derivados",
    "cat": "",
+   "local": "",
    "tag": "",
    "yield": "500 ml",
    "parts": [
@@ -26725,6 +27086,7 @@
    "name": "Aceite de romero",
    "group": "Aceites, infusiones y derivados",
    "cat": "",
+   "local": "",
    "tag": "",
    "yield": "500 ml",
    "parts": [
@@ -26780,6 +27142,7 @@
    "name": "Aceite verde de albahaca",
    "group": "Aceites, infusiones y derivados",
    "cat": "",
+   "local": "",
    "tag": "Italia",
    "yield": "200 ml",
    "parts": [
@@ -26822,6 +27185,7 @@
    "name": "Aceite de guindilla",
    "group": "Aceites, infusiones y derivados",
    "cat": "",
+   "local": "",
    "tag": "",
    "yield": "250 ml",
    "parts": [
@@ -26863,6 +27227,7 @@
    "name": "Vinagre de frambuesa",
    "group": "Aceites, infusiones y derivados",
    "cat": "",
+   "local": "",
    "tag": "Francia",
    "yield": "750 ml",
    "parts": [
@@ -26900,6 +27265,7 @@
    "name": "Vinagre de estragón",
    "group": "Aceites, infusiones y derivados",
    "cat": "",
+   "local": "",
    "tag": "Francia",
    "yield": "500 ml",
    "parts": [
@@ -26936,6 +27302,7 @@
    "name": "Extracto de vainilla",
    "group": "Aceites, infusiones y derivados",
    "cat": "",
+   "local": "",
    "tag": "",
    "yield": "250 ml",
    "parts": [
@@ -26973,6 +27340,7 @@
    "name": "Masala chai",
    "group": "Aceites, infusiones y derivados",
    "cat": "",
+   "local": "",
    "tag": "India",
    "yield": "4 tazas",
    "parts": [
@@ -27045,6 +27413,7 @@
    "name": "Té moruno",
    "group": "Aceites, infusiones y derivados",
    "cat": "",
+   "local": "",
    "tag": "Marruecos",
    "yield": "1 tetera (6 vasos)",
    "parts": [
@@ -27092,6 +27461,7 @@
    "name": "Agua de jamaica",
    "group": "Aceites, infusiones y derivados",
    "cat": "",
+   "local": "",
    "tag": "México",
    "yield": "2 l",
    "parts": [
@@ -27134,6 +27504,7 @@
    "name": "Café de olla",
    "group": "Aceites, infusiones y derivados",
    "cat": "",
+   "local": "",
    "tag": "México",
    "yield": "4 tazas",
    "parts": [
@@ -27185,6 +27556,7 @@
    "name": "Mate",
    "group": "Aceites, infusiones y derivados",
    "cat": "",
+   "local": "",
    "tag": "Argentina",
    "yield": "1 mate",
    "parts": [
@@ -27223,6 +27595,7 @@
    "name": "Leche dorada",
    "group": "Aceites, infusiones y derivados",
    "cat": "",
+   "local": "",
    "tag": "India",
    "yield": "2 tazas",
    "parts": [
@@ -27278,6 +27651,7 @@
    "name": "Mugicha (té de cebada)",
    "group": "Aceites, infusiones y derivados",
    "cat": "",
+   "local": "",
    "tag": "Japón",
    "yield": "1 l",
    "parts": [
@@ -27313,6 +27687,7 @@
    "name": "Matcha",
    "group": "Aceites, infusiones y derivados",
    "cat": "",
+   "local": "",
    "tag": "Japón",
    "yield": "1 cuenco",
    "parts": [
@@ -27350,6 +27725,7 @@
    "name": "Cold brew",
    "group": "Aceites, infusiones y derivados",
    "cat": "",
+   "local": "",
    "tag": "Estados Unidos",
    "yield": "1 l de concentrado",
    "parts": [
@@ -27386,6 +27762,7 @@
    "name": "Cordial de flor de saúco",
    "group": "Aceites, infusiones y derivados",
    "cat": "",
+   "local": "",
    "tag": "Reino Unido",
    "yield": "1,5 l",
    "parts": [
@@ -27439,6 +27816,7 @@
    "name": "Limoncello",
    "group": "Aceites, infusiones y derivados",
    "cat": "",
+   "local": "",
    "tag": "Italia / Campania",
    "yield": "1,2 l",
    "parts": [
@@ -27487,6 +27865,7 @@
    "name": "Pacharán",
    "group": "Aceites, infusiones y derivados",
    "cat": "",
+   "local": "",
    "tag": "España / Navarra",
    "yield": "1 l",
    "parts": [
@@ -27534,6 +27913,7 @@
    "name": "Herbero",
    "group": "Aceites, infusiones y derivados",
    "cat": "",
+   "local": "",
    "tag": "España / Comunidad Valenciana",
    "yield": "1 l",
    "parts": [
