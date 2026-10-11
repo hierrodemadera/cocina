@@ -1214,18 +1214,20 @@ function renderRegions(main){
     + (noOrigin.length ? col('Sin origen', '#eeeeee', noOrigin, 'kind', '') : ''));
 }
 /* vista «Tipo»: una columna por capítulo; dentro, sus subcapítulos. País y región siguen filtrando */
-/* subcategoría desplegable: siempre se muestra; las vacías empiezan plegadas */
-function subOpen(key, n){ const v = ui.collapsed['s:' + key]; return v === undefined ? n > 0 : !v; }
+/* subcategoría desplegable: siempre se muestra y empieza plegada; lo abierto solo dura mientras la app está abierta */
+const openSubs = new Set();
+function subOpen(key){ return openSubs.has(key); }
 function subSection(key, label, its, card, filtering){
   const open = subOpen(key, its.length);
   return `<div class="col-sub tog${open?' open':''}" data-sub="${esc(key)}" data-n="${its.length}"><span class="chev"></span>${esc(label)}<span class="c">${its.length}</span></div>`
     + (open ? (its.length ? its.map(card).join('') : `<div class="col-empty sm">${filtering ? 'Nada con este filtro' : 'Vacío'}</div>`) : '');
 }
 function catBody(items, tab, chapter, subs, card, filtering){
-  if(!subs.length) return items.length ? items.map(card).join('') : `<div class="col-empty">${filtering ? 'Nada con este filtro' : 'Vacío'}</div>`;
+  if(!subs.length) return subSection((tab || 'local') + ':' + chapter + ':*', 'Recetas', items, card, filtering);
   const sub = r => splitCat(tab ? r.cat : r.local).s;
   const loose = items.filter(r=> !subs.includes(sub(r)));
-  return loose.map(card).join('') + subs.map(x=> subSection((tab || 'local') + ':' + chapter + ':' + x, x, items.filter(r=> sub(r) === x), card, filtering)).join('');
+  return (loose.length ? subSection((tab || 'local') + ':' + chapter + ':', 'Sin subcategoría', loose, card, filtering) : '')
+    + subs.map(x=> subSection((tab || 'local') + ':' + chapter + ':' + x, x, items.filter(r=> sub(r) === x), card, filtering)).join('');
 }
 /* vista «Tipo» dentro de un país con clasificación propia */
 function renderLocal(list, c, sb, filtering, sort, board, main, head){
@@ -1242,7 +1244,7 @@ function renderLocal(list, c, sb, filtering, sort, board, main, head){
     </section>`;
   });
   const none = sort(items.filter(r=> !L.cats.some(x=> x[0] === splitCat(r.local).c)));
-  if(none.length) html += `<section class="col"><div class="col-h"><span class="gp" style="--gc:#eeeeee">Sin clasificar</span><span class="c">${none.length}</span></div><div class="col-body">${none.map(card).join('')}</div></section>`;
+  if(none.length) html += `<section class="col"><div class="col-h"><span class="gp" style="--gc:#eeeeee">Sin clasificar</span><span class="c">${none.length}</span></div><div class="col-body">${subSection('local:none', 'Recetas', none, card, filtering)}</div></section>`;
   if(!html){ main.innerHTML = head + `<div class="empty">${filtering ? 'Nada con este filtro.' : 'Aún no hay recetas aquí.'}</div>`; return; }
   board(html);
 }
@@ -1263,10 +1265,10 @@ function renderTypes(list, c, sb, kind, filtering, sort, board, main, head){
       html += col(ch, tc(ch), its, catBody(its, 'recetas', ch, subs, card, filtering), `data-addcat="${esc(ch)}" data-addtag="${esc(f)}"`);
     });
     const none = sort(sal.filter(r=> !CATS.recetas.some(([ch])=> ch === splitCat(r.cat).c)));
-    if(none.length) html += col('Sin clasificar', '#eeeeee', none, none.map(card).join(''), `data-addtag="${esc(f)}"`);
+    if(none.length) html += col('Sin clasificar', '#eeeeee', none, subSection('recetas:none', 'Recetas', none, card, filtering), `data-addtag="${esc(f)}"`);
   }
   if(kind !== 'Salado' && !isPesceView() && (dul.length || kind === 'Dulce'))
-    html += col('Dulce', gc('Dulce'), dul, dul.length ? dul.map(card).join('') : `<div class="col-empty">Vacío</div>`, `data-addg="Dulce" data-addtag="${esc(f)}"`);
+    html += col('Dulce', gc('Dulce'), dul, subSection('recetas:Dulce:*', 'Recetas', dul, card, filtering), `data-addg="Dulce" data-addtag="${esc(f)}"`);
   if(!html){ main.innerHTML = head + `<div class="empty">${filtering ? 'Nada con este filtro.' : 'Aún no hay recetas aquí.'}</div>`; return; }
   board(html);
 }
@@ -1311,7 +1313,7 @@ function rowHTML(r){
 $('#main').addEventListener('click', e=>{
   if(ui.space === 'despensa'){ pantryClick(e); return; }
   const sb = e.target.closest('[data-sub]');
-  if(sb){ const k = 's:' + sb.dataset.sub; ui.collapsed[k] = subOpen(sb.dataset.sub, +sb.dataset.n); saveUi(); keepBoard(renderMain); return; }
+  if(sb){ const k = sb.dataset.sub; openSubs.has(k) ? openSubs.delete(k) : openSubs.add(k); keepBoard(renderMain); return; }
   const fold = e.target.closest('[data-fold]');
   if(fold){ const k = fold.dataset.fold; ui.collapsed[k] = !ui.collapsed[k]; saveUi(); renderMain(); return; }
   const ld = e.target.closest('[data-ldef]');
