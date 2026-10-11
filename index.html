@@ -53,6 +53,10 @@ svg{display:block;}
 body.boardmode main{padding-bottom:0;}
 .col-h{display:flex;align-items:center;gap:8px;padding:2px 0 12px;flex-shrink:0;}
 .col-h .c{font-size:13px;color:var(--muted);flex-shrink:0;}
+.meta-line{display:flex;flex-wrap:wrap;gap:6px;}
+.meta-line .gp{white-space:normal;margin-left:0 !important;}
+.col-h .gp{white-space:normal;line-height:1.3;padding-top:3px;padding-bottom:3px;}
+@media (max-width:420px){ .kseg button{padding:0 10px;font-size:13.5px;} .kseg .gdot{display:none;} #kindbar{gap:6px;} }
 .col-empty{font-size:12.5px;color:var(--muted);text-align:center;padding:8px 0 4px;}
 .col-add{display:flex;align-items:center;gap:6px;color:var(--muted);font-size:14px;padding:8px 4px;}
 .col-add:hover{color:var(--fg);}
@@ -131,7 +135,8 @@ html.despensa,html.despensa body,html.despensa .top{background:var(--bg);}
 .groups{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:12px 0 2px;}
 .groups::-webkit-scrollbar{display:none;}
 .groups.hide{display:none;}
-#kindbar{padding-top:12px;}
+#kindbar{padding-top:12px;display:flex;flex-wrap:wrap;gap:8px;}
+.kseg.vseg button{padding:0 12px;}
 #kindbar:empty{display:none;}
 #kindbar + .groups{padding-top:10px;}
 .kseg{display:inline-flex;background:var(--soft);border-radius:10px;padding:3px;}
@@ -371,6 +376,45 @@ const GROUPS = {
   conservas: ['Fermentos','Encurtidos','Conservas dulces','Conservas saladas']
 };
 
+/* clasificación por tipo: capítulo y, si lo tiene, subcapítulo («Carnes / Bovino»).
+   En recetas se aplica a lo salado; en conservas, a los fermentos (capítulos de «El arte de la fermentación», S. E. Katz) */
+const CATS = {
+  recetas: [
+    ['Entremeses y aperitivos', ['Fríos','Calientes']],
+    ['Ensaladas', []],
+    ['Sopas, consomés, cremas, potajes y cocidos', ['Sopas y consomés','Cremas frías','Cremas calientes','Potajes y cocidos']],
+    ['Hortalizas', []],
+    ['Arroces', []],
+    ['Pastas alimenticias', []],
+    ['Huevos', []],
+    ['Pescados', []],
+    ['Mariscos', []],
+    ['Carnes', ['Aves y conejo','Bovino','Porcino','Ovino','Caza']]
+  ],
+  conservas: [
+    ['Alcohólicos', []],
+    ['Hortalizas y frutas', []],
+    ['Bebidas ácidas', []],
+    ['Leche', []],
+    ['Cereales y tubérculos', []],
+    ['Cervezas', []],
+    ['Mohos', []],
+    ['Legumbres, semillas y frutos secos', []],
+    ['Carne, pescado y huevos', []]
+  ]
+};
+function catApplies(r){ return (r.tab === 'recetas' && r.group !== 'Dulce') || (r.tab === 'conservas' && r.group === 'Fermentos'); }
+function splitCat(v){ const p = (v||'').split(/\s*\/\s*/).filter(Boolean); return { c: p[0] || '', s: p.slice(1).join(' ') }; }
+function joinCat(c, s){ return c ? (s ? c + ' / ' + s : c) : ''; }
+function matchCat(tab, v){
+  const x = splitCat(v), list = CATS[tab] || [];
+  const ch = list.find(([c])=> norm(c) === norm(x.c)) || (x.c ? list.find(([c])=> norm(c).startsWith(norm(x.c))) : null);
+  if(!ch) return '';
+  const sub = ch[1].find(s=> norm(s) === norm(x.s)) || '';
+  return joinCat(ch[0], sub);
+}
+function catText(v){ const x = splitCat(v); return x.s ? x.c + ' · ' + x.s : x.c; }
+
 /* colores de los grupos (paleta suave, como las etiquetas de Airtable) */
 const GCOLOR = {
   'Salado':'#fee2d5', 'Dulce':'#ffdaf6',
@@ -524,7 +568,7 @@ function parseTemplate(text, fallbackTab){
   for(const raw of lines){
     const line = raw.replace(/\s+$/,'');
     if(/^#\s+\S/.test(line)){
-      cur = { name: line.replace(/^#\s+/,'').replace(/\*\*/g,'').trim(), tab:'', group:'', tag:'', yield:'', parts:[], notes:[] };
+      cur = { name: line.replace(/^#\s+/,'').replace(/\*\*/g,'').trim(), tab:'', group:'', cat:'', tag:'', yield:'', parts:[], notes:[] };
       out.push(cur); part = null; sec = null; continue;
     }
     if(!cur) continue;
@@ -544,7 +588,8 @@ function parseTemplate(text, fallbackTab){
       if(kv){
         const k = norm(kv[1]), v = kv[2].replace(/\*\*/g,'').trim();
         if(k.startsWith('pesta') || k === 'tab' || k === 'seccion') cur.tab = v;
-        else if(k.startsWith('grupo') || k.startsWith('categ') || k === 'tipo') cur.group = v;
+        else if(k.startsWith('grupo')) cur.group = v;
+        else if(k.startsWith('clasif') || k.startsWith('categ') || k === 'tipo' || k.startsWith('capit')) cur.cat = v;
         else if(k.startsWith('etiq') || k.startsWith('origen') || k === 'cocina') cur.tag = v;
         else if(k.startsWith('racion') || k === 'para' || k.startsWith('rinde')) cur.yield = v;
       }
@@ -559,13 +604,14 @@ function parseTemplate(text, fallbackTab){
     const tab = normTab(r.tab, fallbackTab);
     const parts = r.parts.map(p=> ({ name: p.name, ings: p.ings, steps: stepLines(p.steps.join('\n')).join('\n') }))
                          .filter(p=> p.name || p.ings.length || p.steps);
-    return { name: r.name, tab, group: matchGroup(tab, r.group), tag: r.tag.trim(), yield: r.yield.trim(),
+    return { name: r.name, tab, group: matchGroup(tab, r.group), cat: matchCat(tab, r.cat), tag: r.tag.trim(), yield: r.yield.trim(),
              parts: parts.length ? parts : [{ name:'', ings:[], steps:'' }], notes: trimBlock(r.notes) };
   });
 }
 function recipeToText(r){
   let s = `# ${r.name}\npestaña: ${r.tab}\n`;
   if(r.group) s += `grupo: ${r.group.toLowerCase()}\n`;
+  if(r.cat) s += `tipo: ${r.cat}\n`;
   if(r.tag) s += `etiqueta: ${r.tag}\n`;
   if(r.yield) s += `raciones: ${r.yield}\n`;
   const single = r.parts.length === 1 && !r.parts[0].name;
@@ -606,6 +652,7 @@ Cada receta tiene esta forma:
   "tab": "recetas",
   "name": "Panceta con all i oli negro",
   "group": "Salado",
+  "cat": "Carnes / Porcino",
   "tag": "España / Cataluña",
   "yield": "4 pax",
   "parts": [
@@ -633,6 +680,10 @@ Reglas:
 - Para modificar una receta, edítala dentro del archivo; no la dupliques. Respeta el "done" que tenga.
 - "tab": "recetas" (platos con nombre propio), "productos" (elaboraciones base: masas, salsas, lácteos, bebidas…) o "conservas".
 - "group": en recetas, "Salado" o "Dulce". En productos: "Lácteos y derivados", "Masas", "Legumbres y semillas", "Aceites, infusiones y derivados" o "Salsas". En conservas: "Fermentos", "Encurtidos", "Conservas dulces" o "Conservas saladas".
+- "cat": tipo de plato, «Capítulo / Subcapítulo» (o solo el capítulo si no tiene subcapítulos). Solo en recetas saladas y en conservas del grupo Fermentos; en lo demás, "".
+  Recetas saladas: "Entremeses y aperitivos / Fríos", "Entremeses y aperitivos / Calientes", "Ensaladas", "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés", "Sopas, consomés, cremas, potajes y cocidos / Cremas frías", "Sopas, consomés, cremas, potajes y cocidos / Cremas calientes", "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos", "Hortalizas", "Arroces", "Pastas alimenticias", "Huevos", "Pescados", "Mariscos", "Carnes / Aves y conejo", "Carnes / Bovino", "Carnes / Porcino", "Carnes / Ovino", "Carnes / Caza".
+  Desempate: manda primero el formato (si la base es arroz → Arroces; pasta o fideos → Pastas alimenticias; sopa, crema, potaje, cocido o guiso de cuchara → Sopas…; ensalada → Ensaladas; tapa, mezze, masa rellena o bocado → Entremeses), y si no, el ingrediente principal.
+  Fermentos (según «El arte de la fermentación», de Sandor Katz): "Alcohólicos", "Hortalizas y frutas", "Bebidas ácidas", "Leche", "Cereales y tubérculos", "Cervezas", "Mohos", "Legumbres, semillas y frutos secos", "Carne, pescado y huevos".
 - "tag": origen con el formato "País / Región": "España / Navarra", "España / Comunidad Valenciana", "Perú / Lima". Si es de todo el país o no tiene una región clara, solo el país: "España", "Perú". Para España usa las comunidades autónomas (Andalucía, Aragón, Asturias, Baleares, Canarias, Cantabria, Castilla y León, Castilla-La Mancha, Cataluña, Comunidad Valenciana, Extremadura, Galicia, La Rioja, Madrid, Murcia, Navarra, País Vasco). Usa exactamente los mismos nombres que ya tengan otras recetas. Si no se sabe el origen, "".
 - "yield": número y unidad (4 pax, 1 l, 2 tarros…).
 - "parts": una por elaboración del plato (cada componente: la carne, la salsa, el crujiente…). Si la receta es sencilla, una sola, con "name": "".
@@ -669,7 +720,7 @@ function cleanRecipe(r, fromFile){
   if(!parts.length) parts = [{ name:'', ings:[], steps:'' }];
   const tab = normTab(r.tab), name = String(r.name).trim();
   return { id: r.id ? String(r.id) : (fromFile ? 'r-' + tab + '-' + slug(name) : uid()), tab, name,
-           group: matchGroup(tab, r.group) || '', tag: normTag(String(r.tag||'')), yield: String(r.yield||'').trim(),
+           group: matchGroup(tab, r.group) || '', cat: matchCat(tab, r.cat), tag: normTag(String(r.tag||'')), yield: String(r.yield||'').trim(),
            parts, notes: asText(r.notes), done: !!r.done, pesce: !!r.pesce };
 }
 function cleanData(d){
@@ -699,13 +750,13 @@ function pantryCount(){ return data.pantry.zones.reduce((n,z)=> n + z.items.leng
 /* lo que va en data.json (lo que sube a GitHub y lo que lee la IA) */
 function fileData(){
   return { version: 2, reset: data.reset || undefined, recipes: data.recipes.map(r=>({
-    id: r.id, tab: r.tab, name: r.name, group: r.group, tag: r.tag, yield: r.yield,
+    id: r.id, tab: r.tab, name: r.name, group: r.group, cat: r.cat || '', tag: r.tag, yield: r.yield,
     parts: r.parts.map(p=>({ name: p.name, ings: p.ings.map(i=>({q:i.q,u:i.u,n:i.n})), steps: stepLines(p.steps) })),
     notes: r.notes, done: r.done, pesce: !!r.pesce })),
     pantry: { zones: data.pantry.zones.map(z=>({ id: z.id, name: z.name, items: z.items.map(i=>({ id: i.id, name: i.name, note: i.note, missing: i.missing })) })) } };
 }
 function hashRecipe(r){
-  const s = JSON.stringify([r.tab, r.name, r.group, r.tag, r.yield, r.parts, r.notes, !!r.pesce]);
+  const s = JSON.stringify([r.tab, r.name, r.group, r.cat || '', r.tag, r.yield, r.parts, r.notes, !!r.pesce]);
   let h = 0; for(let i=0;i<s.length;i++){ h = (h*31 + s.charCodeAt(i)) | 0; }
   return String(h);
 }
@@ -725,7 +776,7 @@ function applyFile(obj){
     if(!l){ data.recipes.push(f); added++; return; }
     if(l.id !== f.id){ data.week.forEach(w=>{ if(w.recipeId === l.id) w.recipeId = f.id; }); l.id = f.id; }
     if(prev[f.id] !== h && hashRecipe(l) !== h){
-      Object.assign(l, { tab:f.tab, name:f.name, group:f.group, tag:f.tag, yield:f.yield, parts:f.parts, notes:f.notes, pesce:f.pesce });
+      Object.assign(l, { tab:f.tab, name:f.name, group:f.group, cat:f.cat, tag:f.tag, yield:f.yield, parts:f.parts, notes:f.notes, pesce:f.pesce });
       changed++;
     }
   });
@@ -855,12 +906,15 @@ function curCountry(){
 function curSub(){ const c = curCountry(); if(!c) return ''; const r = ui.subregion || ''; return subsOf(recList(), c).find(x=> norm(x) === norm(r)) || ''; }
 function renderKindbar(){
   const el = $('#kindbar');
-  if(ui.space === 'despensa' || ui.tab !== 'recetas' || ui.searching){ el.innerHTML = ''; return; }
-  const k = ui.kind || '';
-  el.innerHTML = `<div class="kseg">` + [['','Todo'], ...GROUPS.recetas.map(g=> [g,g])].map(([v,l])=>
-    `<button class="${k===v?'on':''}" data-kind="${esc(v)}">${v?`<span class="gdot" style="--gc:${gc(v)};margin:0"></span>`:''}${esc(l)}</button>`).join('') + `</div>`;
+  if(ui.space === 'despensa' || (ui.tab !== 'recetas' && !isPesceView()) || ui.searching){ el.innerHTML = ''; return; }
+  const k = ui.kind || '', v = ui.view === 'tipo' ? 'tipo' : 'origen';
+  el.innerHTML = (isPesceView() ? '' : `<div class="kseg">` + [['','Todo'], ...GROUPS.recetas.map(g=> [g,g])].map(([v,l])=>
+    `<button class="${k===v?'on':''}" data-kind="${esc(v)}">${v?`<span class="gdot" style="--gc:${gc(v)};margin:0"></span>`:''}${esc(l)}</button>`).join('') + `</div>`)
+    + `<div class="kseg vseg">` + [['origen','Origen'],['tipo','Tipo']].map(([x,l])=> `<button class="${v===x?'on':''}" data-view="${x}">${l}</button>`).join('') + `</div>`;
 }
 $('#kindbar').addEventListener('click', e=>{
+  const vb = e.target.closest('[data-view]');
+  if(vb){ ui.view = vb.dataset.view; saveUi(); renderKindbar(); renderMain(); const nb = $('#main .board'); if(nb) nb.scrollLeft = 0; return; }
   const b = e.target.closest('[data-kind]'); if(!b) return;
   ui.kind = b.dataset.kind; saveUi(); renderGroups(); keepBoard(renderMain);
 });
@@ -992,7 +1046,17 @@ function renderMain(){
   const list = all.filter(r=> (st === 'all' || (st === 'done' ? r.done : !r.done)) && (!tg || matchTag(r.tag, tg)) && (!g || r.group === g));
   if(!list.length && g){ main.innerHTML = `<div class="empty">Nada en ${esc(g)}${st!=='all'||tg?' con este filtro':''}.</div>`; return; }
   const sort = arr => arr.sort((a,b)=> a.name.localeCompare(b.name,'es'));
-  if(g){ main.innerHTML = `<div class="list">${sort(list).map(cardHTML).join('')}</div>`; return; }
+  if(g){
+    if(tab === 'conservas' && g === 'Fermentos'){
+      const its = sort(list);
+      main.innerHTML = `<div class="list">` + [...CATS.conservas.map(x=> x[0]), ''].map(ch=>{
+        const xs = its.filter(r=> (CATS.conservas.some(y=> y[0] === r.cat) ? r.cat : '') === ch);
+        return xs.length ? `<div class="ghead"><span class="t">${esc(ch || 'Sin tipo')}</span><span class="c">${xs.length}</span></div>` + xs.map(cardHTML).join('') : '';
+      }).join('') + `</div>`;
+      return;
+    }
+    main.innerHTML = `<div class="list">${sort(list).map(cardHTML).join('')}</div>`; return;
+  }
   // «Todo»: tablero con una columna por grupo, todas iguales, que se desliza en horizontal
   const filtering = st !== 'all' || !!tg;
   const cols = [...GROUPS[tab], ''].map(gg=>{
@@ -1001,7 +1065,7 @@ function renderMain(){
     return `<section class="col">
       <div class="col-h">${gg ? `<span class="gp" style="--gc:${gc(gg)}">${esc(gg)}</span>` : `<span class="gp">Sin grupo</span>`}<span class="c">${items.length}</span></div>
       <div class="col-body">
-        ${items.length ? items.map(cardHTML).join('') : `<div class="col-empty">${filtering ? 'Nada con este filtro' : 'Vacío'}</div>`}
+        ${items.length ? (tab === 'conservas' && gg === 'Fermentos' ? fermBody(items) : items.map(cardHTML).join('')) : `<div class="col-empty">${filtering ? 'Nada con este filtro' : 'Vacío'}</div>`}
         <button class="col-add" data-addg="${esc(gg)}">+ Añadir</button>
       </div>
     </section>`;
@@ -1009,6 +1073,12 @@ function renderMain(){
   main.innerHTML = `<div class="board">${cols}</div>`;
   document.body.classList.add('boardmode');
   fitBoard();
+}
+function fermBody(items){
+  return [...CATS.conservas.map(x=> x[0]), ''].map(ch=>{
+    const xs = items.filter(r=> (CATS.conservas.some(y=> y[0] === r.cat) ? r.cat : '') === ch);
+    return xs.length ? `<div class="col-sub">${esc(ch || 'Sin tipo')}<span class="c">${xs.length}</span></div>` + xs.map(cardHTML).join('') : '';
+  }).join('');
 }
 /* el tablero ocupa justo hasta abajo de la ventana: así la barra de deslizar (si hace falta) queda abajo del todo */
 function fitBoard(){
@@ -1051,6 +1121,7 @@ function renderRegions(main){
         <button class="col-add" data-addtag="${esc(tag)}">+ Añadir</button></div>
     </section>`;
   const board = html => { main.innerHTML = head + `<div class="board">${html}</div>`; document.body.classList.add('boardmode'); fitBoard(); };
+  if(ui.view === 'tipo'){ renderTypes(list, c, sb, kind, filtering, sort, board, main, head); return; }
   const noOrigin = sort(list.filter(r=> !splitTag(r.tag).c));
   if(sb){
     // una región: salado y dulce, cada uno con su título
@@ -1077,6 +1148,43 @@ function renderRegions(main){
   // varios países: una columna por país
   board(cs.map(x=> col(x, tc(x), sort(list.filter(r=> matchTag(r.tag, x))), 'regionC', x)).join('')
     + (noOrigin.length ? col('Sin origen', '#eeeeee', noOrigin, 'kind', '') : ''));
+}
+/* vista «Tipo»: una columna por capítulo; dentro, sus subcapítulos. País y región siguen filtrando */
+function catBody(items, tab, chapter, subs, card, filtering){
+  if(!items.length) return `<div class="col-empty">${filtering ? 'Nada con este filtro' : 'Vacío'}</div>`;
+  if(!subs.length) return items.map(card).join('');
+  const sub = r => splitCat(r.cat).s;
+  return ['', ...subs].map(x=>{
+    const its = items.filter(r=> sub(r) === x || (!x && !subs.includes(sub(r))));
+    if(!its.length) return '';
+    return (x ? `<div class="col-sub">${esc(x)}<span class="c">${its.length}</span></div>` : '') + its.map(card).join('');
+  }).join('');
+}
+function renderTypes(list, c, sb, kind, filtering, sort, board, main, head){
+  const f = sb ? joinTag(c, sb) : c;
+  const items = f ? list.filter(r=> matchTag(r.tag, f)) : list;
+  const card = r => cardInner(r, r.tag ? `<span><span class="gdot" style="--gc:${tc(leafTag(r.tag))}"></span>${esc(leafTag(r.tag))}</span>` : '');
+  const sal = items.filter(r=> r.group !== 'Dulce'), dul = sort(items.filter(r=> r.group === 'Dulce'));
+  const showEmpty = !f && !filtering;
+  const col = (label, color, its, inner, add) => `<section class="col">
+      <div class="col-h"><span class="gp" style="--gc:${color}">${esc(label)}</span><span class="c">${its.length}</span></div>
+      <div class="col-body">${inner}
+        <button class="col-add" ${add}>+ Añadir</button></div>
+    </section>`;
+  let html = '';
+  if(kind !== 'Dulce'){
+    CATS.recetas.forEach(([ch, subs])=>{
+      const its = sort(sal.filter(r=> splitCat(r.cat).c === ch));
+      if(!its.length && !showEmpty) return;
+      html += col(ch, tc(ch), its, catBody(its, 'recetas', ch, subs, card, filtering), `data-addcat="${esc(ch)}" data-addtag="${esc(f)}"`);
+    });
+    const none = sort(sal.filter(r=> !CATS.recetas.some(([ch])=> ch === splitCat(r.cat).c)));
+    if(none.length) html += col('Sin clasificar', '#eeeeee', none, none.map(card).join(''), `data-addtag="${esc(f)}"`);
+  }
+  if(kind !== 'Salado' && !isPesceView() && (dul.length || kind === 'Dulce'))
+    html += col('Dulce', gc('Dulce'), dul, dul.length ? dul.map(card).join('') : `<div class="col-empty">Vacío</div>`, `data-addg="Dulce" data-addtag="${esc(f)}"`);
+  if(!html){ main.innerHTML = head + `<div class="empty">${filtering ? 'Nada con este filtro.' : 'Aún no hay recetas aquí.'}</div>`; return; }
+  board(html);
 }
 function renderSearch(main){
   const q = norm(ui.q);
@@ -1120,8 +1228,10 @@ $('#main').addEventListener('click', e=>{
   if(ui.space === 'despensa'){ pantryClick(e); return; }
   const fold = e.target.closest('[data-fold]');
   if(fold){ const k = fold.dataset.fold; ui.collapsed[k] = !ui.collapsed[k]; saveUi(); renderMain(); return; }
+  const addc = e.target.closest('[data-addcat]');
+  if(addc){ openNew('Salado', addc.dataset.addtag || '', null, addc.dataset.addcat); return; }
   const addg = e.target.closest('[data-addg]');
-  if(addg){ openNew(addg.dataset.addg); return; }
+  if(addg){ openNew(addg.dataset.addg, addg.dataset.addtag || ''); return; }
   const addt = e.target.closest('[data-addtag]');
   if(addt){ openNew(null, addt.dataset.addtag); return; }
   const row = e.target.closest('.row, .rcard');
@@ -1303,7 +1413,8 @@ function partsHTML(r){
 }
 function readHTML(r){
   const shown = shownParts(r);
-  const meta = r.group || r.tag || isPesce(r);
+  const cat = catApplies(r) ? r.cat || '' : '';
+  const meta = r.group || r.tag || isPesce(r) || cat;
   return `<div class="sh-head">
       <button class="x" data-act="close" aria-label="Cerrar">✕</button>
       <h2>${esc(r.name)}</h2>
@@ -1314,7 +1425,7 @@ function readHTML(r){
         <button class="pill${r.done?' on':''}" data-act="done">${r.done?'✓ hecha':'marcar hecha'}</button>
         <button class="pill wkp${inWeek(r.id)?' on':''}" data-act="week">${inWeek(r.id)?'✓ en la semana':'+ semana'}</button>
       </div>
-      ${meta?`<div class="meta-line">${r.group?`<span class="gp" style="--gc:${gc(r.group)}">${esc(r.group)}</span>`:''}${r.tag?` <span class="gp" style="--gc:${tc(leafTag(r.tag))};margin-left:6px;">${esc(tagLabel(r.tag))}</span>`:''}${isPesce(r)?` <span class="gp" style="--gc:#e6f6ea;color:#2f9e44;margin-left:6px;">Pescetariana</span>`:''}</div>`:''}
+      ${meta?`<div class="meta-line">${r.group?`<span class="gp" style="--gc:${gc(r.group)}">${esc(r.group)}</span>`:''}${cat?` <span class="gp" style="--gc:${tc(splitCat(cat).c)};margin-left:6px;">${esc(catText(cat))}</span>`:''}${r.tag?` <span class="gp" style="--gc:${tc(leafTag(r.tag))};margin-left:6px;">${esc(tagLabel(r.tag))}</span>`:''}${isPesce(r)?` <span class="gp" style="--gc:#e6f6ea;color:#2f9e44;margin-left:6px;">Pescetariana</span>`:''}</div>`:''}
       ${(r.yield || anyNumeric(r)) && hasContent(r) ? `<div class="ficha-top"><span class="lb">Raciones</span>${anyNumeric(r) ? scalerHTML(r, fichaTarget, 'data-fsc') : `<span>${esc(r.yield)}</span>`}</div>` : ''}
       ${shown.length > 1 ? `<div class="compo"><span class="lbl">Composición</span><ol>${shown.map((p,i)=> `<li><button data-goto="${i}">${esc(p.name || 'Elaboración ' + (i+1))}</button></li>`).join('')}</ol></div>` : ''}
       <div id="f-parts">${partsHTML(r)}</div>
@@ -1336,6 +1447,7 @@ function editHTML(r){
         <div class="seg">${TABS.map(t=> `<button data-tabset="${t.id}" class="${r.tab===t.id?'on':''}">${t.label}</button>`).join('')}</div></div>
       <div class="f"><span class="lb">Grupo</span>
         <div class="chips">${GROUPS[r.tab].map(g=> `<button class="chip${r.group===g?' on':''}" data-groupset="${esc(g)}"><span class="gdot" style="--gc:${gc(g)}"></span>${esc(g)}</button>`).join('')}</div></div>
+      ${catApplies(r) ? catEditHTML(r) : ''}
       ${r.tab === 'recetas' && r.group !== 'Dulce' ? `<div class="f" id="pesce-f"><span class="lb">Pescetariana (sin carne)</span>
         <div class="pseg"><button data-pesce="1" class="${r.pesce?'on':''}">Sí</button><button data-pesce="0" class="${!r.pesce?'on':''}">No</button></div></div>` : ''}
       <div class="row2">
@@ -1365,6 +1477,13 @@ function editHTML(r){
       <button class="addpart" data-act="addpart">+ otra elaboración</button>
       <div class="f" style="margin-top:22px;"><label>Observaciones</label><textarea class="ta" data-k="notes" placeholder="Conservación, variantes, qué cambiarías…">${esc(r.notes)}</textarea></div>
       <div class="foot"><button class="danger" data-act="delete">Eliminar receta</button></div>
+    </div>`;
+}
+function catEditHTML(r){
+  const x = splitCat(r.cat), list = CATS[r.tab] || [], ch = list.find(y=> y[0] === x.c);
+  return `<div class="f"><span class="lb">Tipo</span>
+      <div class="chips">${list.map(([c])=> `<button class="chip${x.c===c?' on':''}" data-catset="${esc(c)}"><span class="gdot" style="--gc:${tc(c)}"></span>${esc(c)}</button>`).join('')}</div>
+      ${ch && ch[1].length ? `<div class="chips" style="margin-top:8px;">${ch[1].map(s=> `<button class="chip${x.s===s?' on':''}" data-subset="${esc(s)}">${esc(s)}</button>`).join('')}</div>` : ''}
     </div>`;
 }
 function mountFicha(sh, r){
@@ -1411,7 +1530,11 @@ function mountFicha(sh, r){
       }
     }
     const ts = e.target.closest('[data-tabset]');
-    if(ts){ flushFicha(); r.tab = ts.dataset.tabset; if(!GROUPS[r.tab].includes(r.group)) r.group = ''; save(); drawFicha(sh, true); return; }
+    if(ts){ flushFicha(); r.tab = ts.dataset.tabset; if(!GROUPS[r.tab].includes(r.group)) r.group = ''; r.cat = matchCat(r.tab, r.cat); save(); drawFicha(sh, true); return; }
+    const cs = e.target.closest('[data-catset]');
+    if(cs){ flushFicha(); r.cat = splitCat(r.cat).c === cs.dataset.catset ? '' : cs.dataset.catset; save(); drawFicha(sh, true); return; }
+    const ss = e.target.closest('[data-subset]');
+    if(ss){ flushFicha(); const x = splitCat(r.cat); r.cat = joinCat(x.c, x.s === ss.dataset.subset ? '' : ss.dataset.subset); save(); drawFicha(sh, true); return; }
     const pz = e.target.closest('[data-pesce]');
     if(pz){ r.pesce = pz.dataset.pesce === '1'; sh.querySelectorAll('[data-pesce]').forEach(b=> b.classList.toggle('on', b === pz)); save(); return; }
     const gs = e.target.closest('[data-groupset]');
@@ -1419,6 +1542,7 @@ function mountFicha(sh, r){
       r.group = r.group === gs.dataset.groupset ? '' : gs.dataset.groupset;
       if(r.group === 'Dulce'){ r.pesce = false; save(); drawFicha(sh, true); return; }
       if(r.tab === 'recetas' && !sh.querySelector('#pesce-f')){ save(); drawFicha(sh, true); return; }
+      if(r.tab === 'conservas'){ save(); drawFicha(sh, true); return; }
       sh.querySelectorAll('[data-groupset]').forEach(b=> b.classList.toggle('on', b.dataset.groupset === r.group));
       save(); return;
     }
@@ -1495,7 +1619,7 @@ function refreshTagsDatalist(){
 /* ---------- añadir rápido ---------- */
 $('#fab').addEventListener('click', ()=> ui.space === 'despensa' ? openItem(null, curZone() ? curZone().id : null)
   : (ui.tab === 'recetas' || isPesceView()) ? openNew(isPesceView() ? null : (ui.kind || null), joinTag(curCountry(), curSub()), isPesceView()) : openNew());
-function openNew(group, tag, pesce){
+function openNew(group, tag, pesce, cat){
   const tab = (ui.tab === 'semana' || ui.tab === 'pesce') ? 'recetas' : ui.tab;
   if(pesce == null) pesce = isPesceView();
   let newGroup = group != null ? group : (tab === 'recetas' ? '' : curGroup());
@@ -1509,6 +1633,7 @@ function openNew(group, tag, pesce){
       <div class="f"><input class="in" id="new-name" placeholder="Nombre" autocomplete="off" enterkeyhint="done"></div>
       <div class="f"><span class="lb">Grupo</span><div class="chips">${GROUPS[tab].map(g=> `<button class="chip${newGroup===g?' on':''}" data-g="${esc(g)}"><span class="gdot" style="--gc:${gc(g)}"></span>${esc(g)}</button>`).join('')}</div></div>
       ${pesce ? `<p class="muted" style="margin-top:12px;"><span class="gp" style="--gc:#e6f6ea;color:#2f9e44;">Pescetariana</span></p>` : ''}
+      ${cat ? `<p class="muted" style="margin-top:12px;">Tipo: <span class="gp" style="--gc:${tc(splitCat(cat).c)}">${esc(catText(cat))}</span></p>` : ''}
       ${tag ? `<p class="muted" style="margin-top:12px;">Origen: <span class="gp" style="--gc:${tc(leafTag(tag))}">${esc(tagLabel(tag))}</span></p>` : ''}
       <div class="foot" style="margin-top:22px;">
         <button class="sh-btn primary" data-act="add" style="height:44px;">Añadir</button>
@@ -1521,7 +1646,7 @@ function openNew(group, tag, pesce){
       const add = (open)=>{
         const name = inp.value.trim();
         if(!name){ shake(inp); inp.focus(); return; }
-        const r = { id: uid(), tab, name, group: newGroup, tag, yield:'', parts:[{name:'', ings:[], steps:''}], notes:'', done:false, pesce: !!pesce && newGroup !== 'Dulce' };
+        const r = { id: uid(), tab, name, group: newGroup, cat: cat && newGroup !== 'Dulce' ? cat : '', tag, yield:'', parts:[{name:'', ings:[], steps:''}], notes:'', done:false, pesce: !!pesce && newGroup !== 'Dulce' };
         data.recipes.push(r); save();
         if(open){ render(); openFicha(r.id, true); return; }
         inp.value = ''; inp.focus(); renderGroups(); renderMain(); toast(`Añadida: ${name}`);
