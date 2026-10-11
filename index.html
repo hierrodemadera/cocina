@@ -147,6 +147,12 @@ html.despensa,html.despensa body,html.despensa .top{background:var(--bg);}
 .col-sub{display:flex;align-items:center;gap:6px;font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding:6px 2px 6px;}
 .col-sub .c{font-weight:500;}
 .col-body .col-sub:not(:first-child){margin-top:10px;}
+.col-sub.tog{cursor:pointer;user-select:none;border-radius:6px;}
+.col-sub.tog:hover{color:var(--fg);}
+.col-sub .chev{width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:5px solid currentColor;transform:rotate(-90deg);transition:transform .15s;margin:0 2px;}
+.col-sub.open .chev{transform:none;}
+.col-sub.tog:not(.open) + .col-sub{margin-top:2px;}
+.col-empty.sm{padding:6px 2px 8px;font-size:13px;}
 .chip{flex-shrink:0;height:32px;padding:0 13px;border-radius:16px;border:1px solid var(--field);font-size:14px;color:var(--muted);white-space:nowrap;}
 .chip.on{background:var(--accent);color:var(--on-accent);border-color:var(--accent);}
 .chip .c{opacity:.6;margin-left:4px;font-size:12.5px;}
@@ -1110,11 +1116,7 @@ function renderMain(){
   const sort = arr => arr.sort((a,b)=> a.name.localeCompare(b.name,'es'));
   if(g){
     if(tab === 'conservas' && g === 'Fermentos'){
-      const its = sort(list);
-      main.innerHTML = `<div class="list">` + [...CATS.conservas.map(x=> x[0]), ''].map(ch=>{
-        const xs = its.filter(r=> (CATS.conservas.some(y=> y[0] === r.cat) ? r.cat : '') === ch);
-        return xs.length ? `<div class="ghead"><span class="t">${esc(ch || 'Sin tipo')}</span><span class="c">${xs.length}</span></div>` + xs.map(cardHTML).join('') : '';
-      }).join('') + `</div>`;
+      main.innerHTML = `<div class="list">${fermBody(sort(list), st !== 'all' || !!tg)}</div>`;
       return;
     }
     main.innerHTML = `<div class="list">${sort(list).map(cardHTML).join('')}</div>`; return;
@@ -1127,7 +1129,7 @@ function renderMain(){
     return `<section class="col">
       <div class="col-h">${gg ? `<span class="gp" style="--gc:${gc(gg)}">${esc(gg)}</span>` : `<span class="gp">Sin grupo</span>`}<span class="c">${items.length}</span></div>
       <div class="col-body">
-        ${items.length ? (tab === 'conservas' && gg === 'Fermentos' ? fermBody(items) : items.map(cardHTML).join('')) : `<div class="col-empty">${filtering ? 'Nada con este filtro' : 'Vacío'}</div>`}
+        ${tab === 'conservas' && gg === 'Fermentos' ? fermBody(items, filtering) : items.length ? items.map(cardHTML).join('') : `<div class="col-empty">${filtering ? 'Nada con este filtro' : 'Vacío'}</div>`}
         <button class="col-add" data-addg="${esc(gg)}">+ Añadir</button>
       </div>
     </section>`;
@@ -1136,11 +1138,10 @@ function renderMain(){
   document.body.classList.add('boardmode');
   fitBoard();
 }
-function fermBody(items){
-  return [...CATS.conservas.map(x=> x[0]), ''].map(ch=>{
-    const xs = items.filter(r=> (CATS.conservas.some(y=> y[0] === r.cat) ? r.cat : '') === ch);
-    return xs.length ? `<div class="col-sub">${esc(ch || 'Sin tipo')}<span class="c">${xs.length}</span></div>` + xs.map(cardHTML).join('') : '';
-  }).join('');
+function fermBody(items, filtering){
+  const none = items.filter(r=> !CATS.conservas.some(y=> y[0] === r.cat));
+  return CATS.conservas.map(([ch])=> subSection('ferm:' + ch, ch, items.filter(r=> r.cat === ch), cardHTML, filtering)).join('')
+    + (none.length ? subSection('ferm:', 'Sin tipo', none, cardHTML, filtering) : '');
 }
 /* el tablero ocupa justo hasta abajo de la ventana: así la barra de deslizar (si hace falta) queda abajo del todo */
 function fitBoard(){
@@ -1213,29 +1214,30 @@ function renderRegions(main){
     + (noOrigin.length ? col('Sin origen', '#eeeeee', noOrigin, 'kind', '') : ''));
 }
 /* vista «Tipo»: una columna por capítulo; dentro, sus subcapítulos. País y región siguen filtrando */
+/* subcategoría desplegable: siempre se muestra; las vacías empiezan plegadas */
+function subOpen(key, n){ const v = ui.collapsed['s:' + key]; return v === undefined ? n > 0 : !v; }
+function subSection(key, label, its, card, filtering){
+  const open = subOpen(key, its.length);
+  return `<div class="col-sub tog${open?' open':''}" data-sub="${esc(key)}" data-n="${its.length}"><span class="chev"></span>${esc(label)}<span class="c">${its.length}</span></div>`
+    + (open ? (its.length ? its.map(card).join('') : `<div class="col-empty sm">${filtering ? 'Nada con este filtro' : 'Vacío'}</div>`) : '');
+}
 function catBody(items, tab, chapter, subs, card, filtering){
-  if(!items.length) return `<div class="col-empty">${filtering ? 'Nada con este filtro' : 'Vacío'}</div>`;
-  if(!subs.length) return items.map(card).join('');
+  if(!subs.length) return items.length ? items.map(card).join('') : `<div class="col-empty">${filtering ? 'Nada con este filtro' : 'Vacío'}</div>`;
   const sub = r => splitCat(tab ? r.cat : r.local).s;
-  return ['', ...subs].map(x=>{
-    const its = items.filter(r=> sub(r) === x || (!x && !subs.includes(sub(r))));
-    if(!its.length) return '';
-    return (x ? `<div class="col-sub">${esc(x)}<span class="c">${its.length}</span></div>` : '') + its.map(card).join('');
-  }).join('');
+  const loose = items.filter(r=> !subs.includes(sub(r)));
+  return loose.map(card).join('') + subs.map(x=> subSection((tab || 'local') + ':' + chapter + ':' + x, x, items.filter(r=> sub(r) === x), card, filtering)).join('');
 }
 /* vista «Tipo» dentro de un país con clasificación propia */
 function renderLocal(list, c, sb, filtering, sort, board, main, head){
   const L = localOf(c), f = sb ? joinTag(c, sb) : c;
   const items = list.filter(r=> matchTag(r.tag, f));
   const card = r => cardInner(r, splitTag(r.tag).s ? `<span><span class="gdot" style="--gc:${tc(splitTag(r.tag).s)}"></span>${esc(splitTag(r.tag).s)}</span>` : '');
-  const showEmpty = !sb && !filtering;
   let html = '';
   L.cats.forEach(([ch, gl, def, subs])=>{
     const its = sort(items.filter(r=> splitCat(r.local).c === ch));
-    if(!its.length && !showEmpty) return;
     html += `<section class="col">
       <div class="col-h lh" data-ldef="${esc(ch + ' (' + gl + '). ' + def)}"><span class="gp" style="--gc:${tc(ch)}">${esc(ch)}</span><span class="c">${its.length}</span><span class="gl">${esc(gl)}</span></div>
-      <div class="col-body">${its.length ? catBody(its, '', ch, subs, card, filtering).replace(/class="col-empty"/,'class="col-empty"') : `<div class="col-empty">${filtering ? 'Nada con este filtro' : 'Vacío'}</div>`}
+      <div class="col-body">${catBody(its, '', ch, subs, card, filtering)}
         <button class="col-add" data-addlocal="${esc(ch)}" data-addtag="${esc(f)}">+ Añadir</button></div>
     </section>`;
   });
@@ -1249,7 +1251,6 @@ function renderTypes(list, c, sb, kind, filtering, sort, board, main, head){
   const items = f ? list.filter(r=> matchTag(r.tag, f)) : list;
   const card = r => cardInner(r, r.tag ? `<span><span class="gdot" style="--gc:${tc(leafTag(r.tag))}"></span>${esc(leafTag(r.tag))}</span>` : '');
   const sal = items.filter(r=> r.group !== 'Dulce'), dul = sort(items.filter(r=> r.group === 'Dulce'));
-  const showEmpty = !f && !filtering;
   const col = (label, color, its, inner, add) => `<section class="col">
       <div class="col-h"><span class="gp" style="--gc:${color}">${esc(label)}</span><span class="c">${its.length}</span></div>
       <div class="col-body">${inner}
@@ -1259,7 +1260,6 @@ function renderTypes(list, c, sb, kind, filtering, sort, board, main, head){
   if(kind !== 'Dulce'){
     CATS.recetas.forEach(([ch, subs])=>{
       const its = sort(sal.filter(r=> splitCat(r.cat).c === ch));
-      if(!its.length && !showEmpty) return;
       html += col(ch, tc(ch), its, catBody(its, 'recetas', ch, subs, card, filtering), `data-addcat="${esc(ch)}" data-addtag="${esc(f)}"`);
     });
     const none = sort(sal.filter(r=> !CATS.recetas.some(([ch])=> ch === splitCat(r.cat).c)));
@@ -1310,6 +1310,8 @@ function rowHTML(r){
 }
 $('#main').addEventListener('click', e=>{
   if(ui.space === 'despensa'){ pantryClick(e); return; }
+  const sb = e.target.closest('[data-sub]');
+  if(sb){ const k = 's:' + sb.dataset.sub; ui.collapsed[k] = subOpen(sb.dataset.sub, +sb.dataset.n); saveUi(); keepBoard(renderMain); return; }
   const fold = e.target.closest('[data-fold]');
   if(fold){ const k = fold.dataset.fold; ui.collapsed[k] = !ui.collapsed[k]; saveUi(); renderMain(); return; }
   const ld = e.target.closest('[data-ldef]');
