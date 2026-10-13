@@ -108,11 +108,16 @@ html.despensa,html.despensa body,html.despensa .top{background:var(--bg);}
 .ib{width:42px;height:42px;display:flex;align-items:center;justify-content:center;color:var(--muted);border-radius:10px;position:relative;flex-shrink:0;}
 #menu-btn{margin-right:-10px;}
 .ib.on{color:var(--fg);}
-#pesce-btn.on{color:#2f9e44;background:#e6f6ea;}
-.pz{display:inline-flex;align-items:center;gap:3px;color:#2f9e44;}
-.rcard .n .pz{margin-left:6px;vertical-align:-1px;}
-.pesce-head{display:flex;align-items:center;gap:8px;padding:14px 0 0;color:#2f9e44;font-weight:650;font-size:15px;}
-.pesce-head small{color:var(--muted);font-weight:400;font-size:13px;}
+#diet-btn.on{color:var(--dc,var(--fg));background:var(--db,var(--soft));}
+.dz{display:inline-flex;align-items:center;color:var(--dc);vertical-align:-2px;}
+.rcard .n .dz{margin-left:6px;}
+.dpill{display:inline-flex;align-items:center;gap:5px;background:var(--db);color:var(--dc);}
+.fp-o .dl{display:inline-flex;align-items:center;gap:10px;}
+.fp-o .dl .c{color:var(--muted);font-size:13px;}
+.fp-o .dl .dz{width:26px;height:26px;border-radius:7px;background:var(--db);justify-content:center;}
+.fp-x{display:block;width:100%;padding:10px 8px 6px;color:var(--muted);font-size:14px;text-align:left;}
+.dchips .chip{display:inline-flex;align-items:center;gap:6px;}
+.dchips .chip.on{background:var(--db);color:var(--dc);border-color:var(--dc);}
 .pseg{display:inline-flex;background:var(--soft);border-radius:10px;padding:3px;}
 .pseg button{height:34px;padding:0 14px;border-radius:8px;font-size:14px;color:var(--muted);}
 .pseg button.on{background:var(--card);color:var(--fg);font-weight:600;box-shadow:0 1px 3px rgba(0,0,0,.1);}
@@ -333,7 +338,7 @@ button.ghead{padding:20px 0 6px;}
       <button class="ib" id="search-btn" aria-label="Buscar">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
       </button>
-      <button class="ib" id="pesce-btn" aria-label="Pescetariano" title="Pescetariano"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19c0-8 5-14 15-14 0 10-6 15-14 15"/><path d="M5 19c3-4 6-7 10-9"/></svg></button>
+      <button class="ib" id="diet-btn" aria-label="Dieta" title="Dieta"></button>
       <button class="ib" id="filter-btn" aria-label="Filtrar">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
         <i class="badge" style="display:none"></i>
@@ -822,6 +827,7 @@ Cada receta tiene esta forma:
   "group": "Salado",
   "cat": "Carnes / Porcino",
   "local": "",
+  "diet": "carne",
   "tag": "España / Cataluña",
   "yield": "4 pax",
   "parts": [
@@ -840,8 +846,7 @@ Cada receta tiene esta forma:
     }
   ],
   "notes": "Observaciones: conservación, variantes o trucos útiles.",
-  "done": false,
-  "pesce": false
+  "done": false
 }
 
 Reglas:
@@ -876,7 +881,7 @@ Reglas:
 - "ings": "q" solo el número (400, 2, ½, 1,5), "u" la unidad (g, kg, ml, l, ud., cda., cdta., pizca…), "n" el ingrediente con mayúscula inicial. Cantidad suficiente: "q": "", "u": "C/S". Unidades métricas siempre que se pueda.
 - "steps": pasos cortos, en infinitivo (pelar, cortar, saltear, marcar, reducir, rectificar…), con vocabulario técnico de cocina (brunoise, mirepoix, a la inglesa, napar…). El primero siempre "Mise en place de géneros y útiles.". Temperaturas y tiempos cuando importen. Sin numerar.
 - "notes": observaciones útiles; si no hay, "".
-- "pesce": siempre false en los dulces. En lo salado, true si la receta es pescetariana tal como está escrita: sin carne de ningún tipo (tampoco jamón, embutido, panceta, manteca de cerdo, sebo ni caldos de carne o pollo). Pescado, marisco, huevo y lácteos sí están permitidos. Si lleva algo de carne, false.
+- "diet": la dieta a la que se ajusta tal como está escrita, en todas las pestañas: "carne" (lleva carne o derivados: jamón, embutido, panceta, manteca de cerdo, sebo, gelatina animal, caldos de carne o ave; también si lleva carne y pescado), "pescado" (pescado o marisco o derivados como dashi de bonito, salsa de pescado o anchoa, sin carne), "vegetariano" (sin carne ni pescado, con huevo, lácteos o miel) o "vegano" (nada de origen animal). Un ingrediente opcional o con alternativa («miel o azúcar», «huevo (opcional)») no cuenta.
 - Nada de emplatado, boceto, alérgenos, costes ni calorías.
 - Español de España. Sin emojis.
 - El apartado "pantry" (mi despensa) déjalo exactamente como está, salvo que te pida cambiarlo.`;
@@ -907,7 +912,7 @@ function cleanRecipe(r, fromFile){
   const tab = normTab(r.tab), name = String(r.name).trim();
   return { id: r.id ? String(r.id) : (fromFile ? 'r-' + tab + '-' + slug(name) : uid()), tab, name,
            group: matchGroup(tab, r.group) || '', cat: matchCat(tab, r.cat, matchGroup(tab, r.group)), local: matchLocal(normTag(String(r.tag||'')), r.local), tag: normTag(String(r.tag||'')), yield: String(r.yield||'').trim(),
-           parts, notes: asText(r.notes), done: !!r.done, pesce: !!r.pesce };
+           parts, notes: asText(r.notes), done: !!r.done, diet: DIET_KEYS.includes(r.diet) ? r.diet : '' };
 }
 function cleanData(d){
   const v2 = d.version >= 2;
@@ -936,13 +941,13 @@ function pantryCount(){ return data.pantry.zones.reduce((n,z)=> n + z.items.leng
 /* lo que va en data.json (lo que sube a GitHub y lo que lee la IA) */
 function fileData(){
   return { version: 2, reset: data.reset || undefined, recipes: data.recipes.map(r=>({
-    id: r.id, tab: r.tab, name: r.name, group: r.group, cat: r.cat || '', local: r.local || '', tag: r.tag, yield: r.yield,
+    id: r.id, tab: r.tab, name: r.name, group: r.group, cat: r.cat || '', local: r.local || '', diet: r.diet || '', tag: r.tag, yield: r.yield,
     parts: r.parts.map(p=>({ name: p.name, ings: p.ings.map(i=>({q:i.q,u:i.u,n:i.n})), steps: stepLines(p.steps) })),
-    notes: r.notes, done: r.done, pesce: !!r.pesce })),
+    notes: r.notes, done: r.done })),
     pantry: { zones: data.pantry.zones.map(z=>({ id: z.id, name: z.name, items: z.items.map(i=>({ id: i.id, name: i.name, note: i.note, missing: i.missing })) })) } };
 }
 function hashRecipe(r){
-  const s = JSON.stringify([r.tab, r.name, r.group, r.cat || '', r.local || '', r.tag, r.yield, r.parts, r.notes, !!r.pesce]);
+  const s = JSON.stringify([r.tab, r.name, r.group, r.cat || '', r.local || '', r.tag, r.yield, r.parts, r.notes, r.diet || '']);
   let h = 0; for(let i=0;i<s.length;i++){ h = (h*31 + s.charCodeAt(i)) | 0; }
   return String(h);
 }
@@ -962,7 +967,7 @@ function applyFile(obj){
     if(!l){ data.recipes.push(f); added++; return; }
     if(l.id !== f.id){ data.week.forEach(w=>{ if(w.recipeId === l.id) w.recipeId = f.id; }); l.id = f.id; }
     if(prev[f.id] !== h && hashRecipe(l) !== h){
-      Object.assign(l, { tab:f.tab, name:f.name, group:f.group, cat:f.cat, local:f.local, tag:f.tag, yield:f.yield, parts:f.parts, notes:f.notes, pesce:f.pesce });
+      Object.assign(l, { tab:f.tab, name:f.name, group:f.group, cat:f.cat, local:f.local, tag:f.tag, yield:f.yield, parts:f.parts, notes:f.notes, diet:f.diet });
       changed++;
     }
   });
@@ -1043,13 +1048,14 @@ function renderTabs(){
   const n = data.week.length;
   $('#tabs').innerHTML = TABS.map(t=> `<button class="tab${ui.tab===t.id?' on':''}" data-tab="${t.id}">${t.label}</button>`).join('');
 }
-$('#pesce-btn').addEventListener('click', ()=>{
+$('#diet-btn').addEventListener('click', e=>{
+  e.stopPropagation();
+  if(pop.classList.contains('open') && pop.dataset.mode === 'diet'){ closePop(); return; }
   if(ui.searching) closeSearch(true);
-  closePop();
-  if(ui.tab === 'pesce') ui.tab = ui.lastTab || 'recetas';
-  else { ui.lastTab = ui.tab; ui.tab = 'pesce'; }
-  saveUi(); render(); window.scrollTo(0,0);
-  const nb = $('#main .board'); if(nb) nb.scrollLeft = 0;
+  pop.dataset.mode = 'diet'; drawDietPop(); pop.classList.add('open');
+  const r = $('#diet-btn').getBoundingClientRect();
+  pop.style.top = (r.bottom + 6) + 'px';
+  pop.style.left = Math.max(12, Math.min(window.innerWidth - pop.offsetWidth - 12, r.right - pop.offsetWidth + 8)) + 'px';
 });
 $('#tabs').addEventListener('click', e=>{
   const b = e.target.closest('.tab'); if(!b) return;
@@ -1065,13 +1071,14 @@ $('#tabs').addEventListener('click', e=>{
 });
 function updateHeaderIcons(){
   if(ui.space === 'despensa'){
-    $('#search-btn').style.display = 'none'; $('#filter-btn').style.display = 'none'; $('#pesce-btn').style.display = 'none';
+    $('#search-btn').style.display = 'none'; $('#filter-btn').style.display = 'none'; $('#diet-btn').style.display = 'none';
     $('#fab').classList.toggle('hide', ui.ptab === 'compra' || ui.ptab === 'semana');
     return;
   }
-  $('#search-btn').style.display = ''; $('#pesce-btn').style.display = '';
-  $('#pesce-btn').classList.toggle('on', ui.tab === 'pesce');
+  $('#search-btn').style.display = '';
   const isWeek = ui.tab === 'semana';
+  $('#diet-btn').style.display = isWeek ? 'none' : '';
+  drawDietBtn();
   $('#filter-btn').style.display = isWeek ? 'none' : '';
   $('#fab').classList.toggle('hide', isWeek || ui.tab === 'regiones' || ui.searching);
   const active = !isWeek && ((ui.filter[ui.tab] || 'all') !== 'all' || !!ui.tagFilter[ui.tab]);
@@ -1081,9 +1088,40 @@ function updateHeaderIcons(){
 
 /* grupos como segunda fila de navegación */
 function curGroup(){ const g = ui.group[ui.tab] || ''; return (GROUPS[ui.tab]||[]).includes(g) ? g : ''; }
-function isPesceView(){ return ui.tab === 'pesce'; }
-function isPesce(r){ return !!r.pesce && r.tab === 'recetas' && r.group !== 'Dulce'; }
-function recList(){ return data.recipes.filter(r=> r.tab === 'recetas' && (!isPesceView() || isPesce(r))); }
+/* ---------- dieta ---------- */
+const DIETS = [
+  { k:'carne', label:'Carne', c:'#e03131', b:'#ffe3e3', svg:'<path d="M15.4 15.63a7.875 6 135 1 1 6.23-6.23 4.3 3.43 135 0 0-6.23 6.23"/><path d="m8.29 12.71-2.6 2.6a2.5 2.5 0 1 0-1.65 4.65A2.5 2.5 0 1 0 8.7 18.3l2.59-2.59"/>' },
+  { k:'pescado', label:'Pescado', c:'#1971c2', b:'#e7f5ff', svg:'<path d="M2 16s9-15 20-4C11 23 2 8 2 8"/><circle cx="17" cy="11.5" r=".6" fill="currentColor"/>' },
+  { k:'vegetariano', label:'Vegetariano', c:'#2f9e44', b:'#e6f6ea', svg:'<path d="M5 19c0-8 5-14 15-14 0 10-6 15-14 15"/><path d="M5 19c3-4 6-7 10-9"/>' },
+  { k:'vegano', label:'Vegano', c:'#5c940d', b:'#f0f9d8', svg:'<path d="M7 20h10"/><path d="M10 20c5.5-2.5.8-6.4 3-10"/><path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/><path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/>' }
+];
+const DIET = Object.fromEntries(DIETS.map(d=> [d.k, d])), DIET_KEYS = DIETS.map(d=> d.k);
+const DIET_HINT = { carne:'lleva carne o derivados', pescado:'pescado o marisco, sin carne', vegetariano:'sin carne ni pescado; con huevo, lácteos o miel', vegano:'sin nada de origen animal' };
+const UTENSILS = '<path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/>';
+function svgIcon(inner, size){ return `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">${inner}</svg>`; }
+function dietIcon(k, size){ return DIET[k] ? svgIcon(DIET[k].svg, size || 14) : ''; }
+function dietVars(k){ return DIET[k] ? `--dc:${DIET[k].c};--db:${DIET[k].b};` : ''; }
+function dietMark(r){ return r.diet && DIET[r.diet] ? `<span class="dz" style="${dietVars(r.diet)}" title="${DIET[r.diet].label}">${dietIcon(r.diet, 13)}</span>` : ''; }
+function dietOn(){ return !!(ui.diets && ui.diets.length); }
+function dietOk(r){ return !dietOn() || ui.diets.includes(r.diet); }
+function drawDietBtn(){
+  const b = $('#diet-btn'), ds = ui.diets || [];
+  b.innerHTML = ds.length === 1 ? dietIcon(ds[0], 20) : svgIcon(UTENSILS, 20);
+  b.style.cssText = ds.length === 1 ? dietVars(ds[0]) : '';
+  b.classList.toggle('on', ds.length > 0);
+  b.title = ds.length ? 'Dieta: ' + ds.map(k=> DIET[k].label).join(' + ') : 'Dieta';
+}
+function drawDietPop(){
+  const inTab = data.recipes.filter(r=> r.tab === (ui.tab === 'semana' ? 'recetas' : ui.tab));
+  const ds = ui.diets || [], sinCarne = 'pescado,vegetariano,vegano', veg = 'vegetariano,vegano';
+  pop.innerHTML = `<div class="fp-h">Dieta</div>` +
+    DIETS.map(d=> `<button class="fp-o${ds.includes(d.k)?' on':''}" data-diet="${d.k}"><span class="dl"><span class="dz" style="${dietVars(d.k)}">${dietIcon(d.k, 16)}</span><span>${d.label}<br><span class="c">${DIET_HINT[d.k]}</span></span></span></button>`).join('') +
+    `<div class="fp-h" style="margin-top:6px;">Atajos</div><div class="fp-tags">` +
+    [[sinCarne,'Sin carne'],[veg,'Vegetariano + vegano']].map(([v,l])=> `<button class="chip${ds.join(',') === v ? ' on' : ''}" data-dpre="${v}">${l}</button>`).join('') + `</div>` +
+    (ds.length ? `<button class="fp-x" data-dclear>Ver todo</button>` : '') +
+    `<div class="fp-h" style="text-transform:none;letter-spacing:0;font-weight:400;padding-top:2px;">${inTab.filter(dietOk).length} de ${inTab.length} en esta pestaña</div>`;
+}
+function recList(){ return data.recipes.filter(r=> r.tab === 'recetas' && dietOk(r)); }
 /* si solo hay un país, se entra directamente en él */
 function curCountry(){
   const cs = countriesOf(recList()), r = ui.region || '';
@@ -1092,9 +1130,9 @@ function curCountry(){
 function curSub(){ const c = curCountry(); if(!c) return ''; const r = ui.subregion || ''; return subsOf(recList(), c).find(x=> norm(x) === norm(r)) || ''; }
 function renderKindbar(){
   const el = $('#kindbar');
-  if(ui.space === 'despensa' || (ui.tab !== 'recetas' && !isPesceView()) || ui.searching){ el.innerHTML = ''; return; }
+  if(ui.space === 'despensa' || ui.tab !== 'recetas' || ui.searching){ el.innerHTML = ''; return; }
   const k = ui.kind || '', v = ui.view === 'tipo' ? 'tipo' : 'origen';
-  el.innerHTML = (isPesceView() ? '' : `<div class="kseg">` + [['','Todo'], ...GROUPS.recetas.map(g=> [g,g])].map(([v,l])=>
+  el.innerHTML = (`<div class="kseg">` + [['','Todo'], ...GROUPS.recetas.map(g=> [g,g])].map(([v,l])=>
     `<button class="${k===v?'on':''}" data-kind="${esc(v)}">${v?`<span class="gdot" style="--gc:${gc(v)};margin:0"></span>`:''}${esc(l)}</button>`).join('') + `</div>`)
     + `<div class="kseg vseg">` + [['origen','Origen'],['tipo','Tipo']].map(([x,l])=> `<button class="${v===x?'on':''}" data-view="${x}">${l}</button>`).join('') + `</div>`;
 }
@@ -1109,10 +1147,10 @@ function renderGroups(){
   const el = $('#groups');
   if(ui.tab === 'semana' || ui.searching){ el.classList.add('hide'); el.innerHTML = ''; return; }
   el.classList.remove('hide');
-  if(ui.tab === 'recetas' || isPesceView()){
+  if(ui.tab === 'recetas'){
     const list = recList(), cs = countriesOf(list), c = curCountry(), sb = curSub();
     if(!cs.length){ el.classList.add('hide'); el.innerHTML = ''; return; }
-    const cnt = f => list.filter(r=> matchTag(r.tag, f) && (isPesceView() || !ui.kind || r.group === ui.kind)).length;
+    const cnt = f => list.filter(r=> matchTag(r.tag, f) && (!ui.kind || r.group === ui.kind)).length;
     if(!c){
       el.innerHTML = `<button class="chip on" data-r="">Todos los países</button>` +
         cs.map(x=> `<button class="chip" data-r="${esc(x)}"><span class="gdot" style="--gc:${tc(x)}"></span>${esc(x)}<span class="c">${cnt(x)}</span></button>`).join('');
@@ -1127,7 +1165,7 @@ function renderGroups(){
     return;
   }
   const g = curGroup();
-  const base = data.recipes.filter(r=> r.tab === ui.tab);
+  const base = data.recipes.filter(r=> r.tab === ui.tab && dietOk(r));
   const cnt = gg => base.filter(r=> r.group === gg).length;
   el.innerHTML = `<button class="chip${!g?' on':''}" data-g="">Todo</button>` +
     GROUPS[ui.tab].map(x=> `<button class="chip${g===x?' on':''}" data-g="${esc(x)}"><span class="gdot" style="--gc:${gc(x)}"></span>${esc(x)}${cnt(x)?`<span class="c">${cnt(x)}</span>`:''}</button>`).join('');
@@ -1145,12 +1183,12 @@ function renderActiveFilter(){
   const el = $('#active-f');
   if(ui.tab === 'semana' || ui.searching){ el.innerHTML = ''; return; }
   const st = ui.filter[ui.tab] || 'all', tg = ui.tagFilter[ui.tab] || '';
-  const parts = [st === 'todo' ? 'Por hacer' : st === 'done' ? 'Hechas' : '', tg ? tagLabel(tg) : ''].filter(Boolean);
+  const parts = [st === 'todo' ? 'Por hacer' : st === 'done' ? 'Hechas' : '', tg ? tagLabel(tg) : '', dietOn() ? ui.diets.map(k=> DIET[k].label).join(' + ') : ''].filter(Boolean);
   el.innerHTML = parts.length ? `<div class="active-f"><span>Filtro: ${esc(parts.join(' · '))}</span><button data-clear>quitar</button></div>` : '';
 }
 $('#active-f').addEventListener('click', e=>{
   if(!e.target.closest('[data-clear]')) return;
-  ui.filter[ui.tab] = 'all'; ui.tagFilter[ui.tab] = ''; saveUi(); render();
+  ui.filter[ui.tab] = 'all'; ui.tagFilter[ui.tab] = ''; ui.diets = []; saveUi(); render();
 });
 
 /* ---------- buscar ---------- */
@@ -1189,15 +1227,15 @@ function tagsOf(tab){
 }
 $('#filter-btn').addEventListener('click', e=>{
   e.stopPropagation();
-  if(pop.classList.contains('open')){ closePop(); return; }
-  drawPop(); pop.classList.add('open');
+  if(pop.classList.contains('open') && pop.dataset.mode !== 'diet'){ closePop(); return; }
+  pop.dataset.mode = 'filter'; drawPop(); pop.classList.add('open');
   const r = $('#filter-btn').getBoundingClientRect();
   pop.style.top = (r.bottom + 6) + 'px';
   pop.style.left = Math.max(12, Math.min(window.innerWidth - pop.offsetWidth - 12, r.right - pop.offsetWidth + 8)) + 'px';
 });
 function drawPop(){
   const st = ui.filter[ui.tab] || 'all', tg = ui.tagFilter[ui.tab] || '';
-  const isRec = ui.tab === 'recetas' || isPesceView();
+  const isRec = ui.tab === 'recetas';
   const inTab = isRec ? [] : data.recipes.filter(r=> r.tab === ui.tab);
   const tags = countriesOf(inTab).flatMap(c=> [c, ...subsOf(inTab, c).map(x=> joinTag(c, x))]);
   pop.innerHTML = `<div class="fp-h">Mostrar</div>` +
@@ -1208,6 +1246,15 @@ function drawPop(){
 }
 pop.addEventListener('click', e=>{
   e.stopPropagation();
+  if(pop.dataset.mode === 'diet'){
+    const d = e.target.closest('[data-diet]'), pre = e.target.closest('[data-dpre]'), x = e.target.closest('[data-dclear]');
+    if(d){ const k = d.dataset.diet; ui.diets = ui.diets.includes(k) ? ui.diets.filter(v=> v !== k) : DIET_KEYS.filter(v=> v === k || ui.diets.includes(v)); }
+    else if(pre) ui.diets = pre.dataset.dpre.split(',');
+    else if(x) ui.diets = [];
+    else return;
+    saveUi(); drawDietPop(); renderGroups(); renderActiveFilter(); keepBoard(renderMain); updateHeaderIcons();
+    return;
+  }
   const s = e.target.closest('[data-st]'), t = e.target.closest('[data-tg]'), k = e.target.closest('[data-kind]');
   if(k){ ui.kind = ui.kind === k.dataset.kind ? '' : k.dataset.kind; saveUi(); drawPop(); renderActiveFilter(); keepBoard(renderMain); updateHeaderIcons(); return; }
   if(s) ui.filter[ui.tab] = s.dataset.st;
@@ -1225,19 +1272,19 @@ function renderMain(){
   document.body.classList.remove('boardmode');
   if(ui.searching){ renderSearch(main); return; }
   if(ui.tab === 'semana'){ renderWeek(main); return; }
-  if(ui.tab === 'recetas' || isPesceView()){ renderRegions(main); return; }
+  if(ui.tab === 'recetas'){ renderRegions(main); return; }
   const tab = ui.tab, g = curGroup();
-  const all = data.recipes.filter(r=> r.tab === tab);
+  const all = data.recipes.filter(r=> r.tab === tab && dietOk(r));
   const st = ui.filter[tab] || 'all', tg = ui.tagFilter[tab] || '';
   const list = all.filter(r=> (st === 'all' || (st === 'done' ? r.done : !r.done)) && (!tg || matchTag(r.tag, tg)) && (!g || r.group === g));
-  if(!list.length && g){ main.innerHTML = `<div class="empty">Nada en ${esc(g)}${st!=='all'||tg?' con este filtro':''}.</div>`; return; }
+  if(!list.length && g){ main.innerHTML = `<div class="empty">Nada en ${esc(g)}${st!=='all'||tg||dietOn()?' con este filtro':''}.</div>`; return; }
   const sort = arr => arr.sort((a,b)=> a.name.localeCompare(b.name,'es'));
   if(g){
-    if(GCATS[g]){ renderGroupBoard(main, tab, g, sort(list), st !== 'all' || !!tg); return; }
+    if(GCATS[g]){ renderGroupBoard(main, tab, g, sort(list), st !== 'all' || !!tg || dietOn()); return; }
     main.innerHTML = `<div class="list">${sort(list).map(cardHTML).join('')}</div>`; return;
   }
   // «Todo»: tablero con una columna por grupo, todas iguales, que se desliza en horizontal
-  const filtering = st !== 'all' || !!tg;
+  const filtering = st !== 'all' || !!tg || dietOn();
   const cols = [...GROUPS[tab], ''].map(gg=>{
     const items = sort(list.filter(r=> (GROUPS[tab].includes(r.group) ? r.group : '') === gg));
     if(gg === '' && !items.length) return '';
@@ -1298,15 +1345,15 @@ function keepBoard(fn){
 }
 function renderRegions(main){
   const base = recList();
-  const head = isPesceView() ? `<div class="pesce-head"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19c0-8 5-14 15-14 0 10-6 15-14 15"/><path d="M5 19c3-4 6-7 10-9"/></svg>Pescetariano <small>sin carne · con pescado, huevo y lácteos</small></div>` : '';
-  if(!base.length){ main.innerHTML = head + (isPesceView()
-    ? `<div class="empty">Aún no hay recetas pescetarianas.<br>Márcalas al editar una receta.</div>`
-    : `<div class="empty">Aún no hay recetas.<br>Pulsa <b>+</b> para añadir la primera.</div>`); return; }
+  const head = '';
+  if(!base.length){ main.innerHTML = dietOn()
+    ? `<div class="empty">Nada con este filtro de dieta.</div>`
+    : `<div class="empty">Aún no hay recetas.<br>Pulsa <b>+</b> para añadir la primera.</div>`; return; }
   const cs = countriesOf(base), c = curCountry(), sb = curSub();
-  const st = ui.filter[ui.tab] || 'all', kind = isPesceView() ? '' : (ui.kind || ''), split = !isPesceView();
+  const st = ui.filter[ui.tab] || 'all', kind = ui.kind || '', split = true;
   const list = base.filter(r=> (st === 'all' || (st === 'done' ? r.done : !r.done)) && (!kind || r.group === kind));
   const sort = arr => arr.sort((a,b)=> a.name.localeCompare(b.name,'es'));
-  const filtering = st !== 'all';
+  const filtering = st !== 'all' || dietOn();
   const card = (r, ctx) => cardInner(r, ctx === 'regionC' && splitTag(r.tag).s ? `<span>${esc(splitTag(r.tag).s)}</span>` : '');
   const body = (items, ctx) => {
     if(!items.length) return `<div class="col-empty">${filtering ? 'Nada con este filtro' : 'Vacío'}</div>`;
@@ -1405,7 +1452,7 @@ function renderTypes(list, c, sb, kind, filtering, sort, board, main, head){
     const none = sort(sal.filter(r=> !CATS.recetas.some(([ch])=> ch === splitCat(r.cat).c)));
     if(none.length) html += col('Sin clasificar', '#eeeeee', none, subSection('recetas:none', 'Recetas', none, card, filtering), `data-addtag="${esc(f)}"`);
   }
-  if(kind !== 'Salado' && !isPesceView() && (dul.length || kind === 'Dulce'))
+  if(kind !== 'Salado' && (dul.length || kind === 'Dulce'))
     html += col('Dulce', gc('Dulce'), dul, subSection('recetas:Dulce:*', 'Recetas', dul, card, filtering), `data-addg="Dulce" data-addtag="${esc(f)}"`);
   if(!html){ main.innerHTML = head + `<div class="empty">${filtering ? 'Nada con este filtro.' : 'Aún no hay recetas aquí.'}</div>`; return; }
   board(html);
@@ -1416,7 +1463,7 @@ function renderSearch(main){
   const hit = r => norm(r.name).includes(q) || norm(r.tag).includes(q) || allIngs(r).some(i=> norm(i.n).includes(q));
   let html = '';
   TABS.forEach(t=>{
-    const items = data.recipes.filter(r=> r.tab === t.id && hit(r)).sort((a,b)=> a.name.localeCompare(b.name,'es'));
+    const items = data.recipes.filter(r=> r.tab === t.id && dietOk(r) && hit(r)).sort((a,b)=> a.name.localeCompare(b.name,'es'));
     if(items.length) html += `<div class="ghead"><span class="t">${t.label}</span><span class="c">${items.length}</span></div>` + items.map(cardHTML).join('');
   });
   main.innerHTML = html ? `<div class="list">${html}</div>` : `<div class="empty">Nada con «${esc(ui.q)}».</div>`;
@@ -1424,7 +1471,7 @@ function renderSearch(main){
 function cardInner(r, where){
   const sub = [where, inWeek(r.id) ? '<span class="wk">semana</span>' : ''].join('');
   return `<div class="rcard${r.done?' done':''}" data-id="${r.id}">
-    <button class="open"><span class="n">${esc(r.name)}${isPesce(r) && !isPesceView() ? `<span class="pz" title="Pescetariana"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19c0-8 5-14 15-14 0 10-6 15-14 15"/><path d="M5 19c3-4 6-7 10-9"/></svg></span>` : ''}</span><span class="sub">${sub}</span></button>
+    <button class="open"><span class="n">${esc(r.name)}${dietMark(r)}</span><span class="sub">${sub}</span></button>
     ${hasContent(r) ? '<span class="dot" title="tiene receta"></span>' : ''}
     <button class="chk${r.done?' on':''}" aria-label="Hecha"><i></i></button>
   </div>`;
@@ -1437,7 +1484,7 @@ function cardHTML(r, ctx){
     : (r.tag ? `<span><span class="gdot" style="--gc:${tc(leafTag(r.tag))}"></span>${esc(leafTag(r.tag))}</span>` : '');
   const sub = [where, inWeek(r.id) ? '<span class="wk">semana</span>' : ''].join('');
   return `<div class="rcard${r.done?' done':''}" data-id="${r.id}">
-    <button class="open"><span class="n">${esc(r.name)}</span><span class="sub">${sub}</span></button>
+    <button class="open"><span class="n">${esc(r.name)}${dietMark(r)}</span><span class="sub">${sub}</span></button>
     ${hasContent(r) ? '<span class="dot" title="tiene receta"></span>' : ''}
     <button class="chk${r.done?' on':''}" aria-label="Hecha"><i></i></button>
   </div>`;
@@ -1644,7 +1691,7 @@ function partsHTML(r){
 function readHTML(r){
   const shown = shownParts(r);
   const cat = catApplies(r) ? r.cat || '' : '', loc = r.local ? localText(r.tag, r.local) : '';
-  const meta = r.group || r.tag || isPesce(r) || cat || loc;
+  const meta = r.group || r.tag || r.diet || cat || loc;
   return `<div class="sh-head">
       <button class="x" data-act="close" aria-label="Cerrar">✕</button>
       <h2>${esc(r.name)}</h2>
@@ -1655,7 +1702,7 @@ function readHTML(r){
         <button class="pill${r.done?' on':''}" data-act="done">${r.done?'✓ hecha':'marcar hecha'}</button>
         <button class="pill wkp${inWeek(r.id)?' on':''}" data-act="week">${inWeek(r.id)?'✓ en la semana':'+ semana'}</button>
       </div>
-      ${meta?`<div class="meta-line">${r.group?`<span class="gp" style="--gc:${gc(r.group)}">${esc(r.group)}</span>`:''}${cat?` <span class="gp" style="--gc:${tc(splitCat(cat).c)};margin-left:6px;">${esc(catText(cat))}</span>`:''}${loc?` <span class="gp" style="--gc:${tc(splitCat(r.local).c)};margin-left:6px;" title="Clasificación propia de ${esc(splitTag(r.tag).c)}">${esc(loc)}</span>`:''}${r.tag?` <span class="gp" style="--gc:${tc(leafTag(r.tag))};margin-left:6px;">${esc(tagLabel(r.tag))}</span>`:''}${isPesce(r)?` <span class="gp" style="--gc:#e6f6ea;color:#2f9e44;margin-left:6px;">Pescetariana</span>`:''}</div>`:''}
+      ${meta?`<div class="meta-line">${r.group?`<span class="gp" style="--gc:${gc(r.group)}">${esc(r.group)}</span>`:''}${cat?` <span class="gp" style="--gc:${tc(splitCat(cat).c)};margin-left:6px;">${esc(catText(cat))}</span>`:''}${loc?` <span class="gp" style="--gc:${tc(splitCat(r.local).c)};margin-left:6px;" title="Clasificación propia de ${esc(splitTag(r.tag).c)}">${esc(loc)}</span>`:''}${r.tag?` <span class="gp" style="--gc:${tc(leafTag(r.tag))};margin-left:6px;">${esc(tagLabel(r.tag))}</span>`:''}${r.diet?` <span class="gp dpill" style="${dietVars(r.diet)}margin-left:6px;">${dietIcon(r.diet, 13)}${esc(DIET[r.diet].label)}</span>`:''}</div>`:''}
       ${(r.yield || anyNumeric(r)) && hasContent(r) ? `<div class="ficha-top"><span class="lb">Raciones</span>${anyNumeric(r) ? scalerHTML(r, fichaTarget, 'data-fsc') : `<span>${esc(r.yield)}</span>`}</div>` : ''}
       ${shown.length > 1 ? `<div class="compo"><span class="lbl">Composición</span><ol>${shown.map((p,i)=> `<li><button data-goto="${i}">${esc(p.name || 'Elaboración ' + (i+1))}</button></li>`).join('')}</ol></div>` : ''}
       <div id="f-parts">${partsHTML(r)}</div>
@@ -1679,8 +1726,8 @@ function editHTML(r){
         <div class="chips">${GROUPS[r.tab].map(g=> `<button class="chip${r.group===g?' on':''}" data-groupset="${esc(g)}"><span class="gdot" style="--gc:${gc(g)}"></span>${esc(g)}</button>`).join('')}</div></div>
       ${catApplies(r) ? catEditHTML(r) : ''}
       ${r.tab === 'recetas' && localOf(splitTag(r.tag).c) ? localEditHTML(r) : ''}
-      ${r.tab === 'recetas' && r.group !== 'Dulce' ? `<div class="f" id="pesce-f"><span class="lb">Pescetariana (sin carne)</span>
-        <div class="pseg"><button data-pesce="1" class="${r.pesce?'on':''}">Sí</button><button data-pesce="0" class="${!r.pesce?'on':''}">No</button></div></div>` : ''}
+      <div class="f"><span class="lb">Dieta</span>
+        <div class="chips dchips">${DIETS.map(d=> `<button class="chip${r.diet===d.k?' on':''}" data-dietset="${d.k}" style="${dietVars(d.k)}">${dietIcon(d.k, 15)}${d.label}</button>`).join('')}</div></div>
       <div class="row2">
         <div class="f"><label>País</label><input class="in" data-tagc value="${esc(splitTag(r.tag).c)}" list="countries-dl" placeholder="España, Perú… (opcional)" autocomplete="off"></div>
         <div class="f"><label>Región</label><input class="in" data-tags value="${esc(splitTag(r.tag).s)}" list="subs-dl" placeholder="Navarra… (opcional)" autocomplete="off"></div>
@@ -1778,13 +1825,12 @@ function mountFicha(sh, r){
     if(cs){ flushFicha(); r.cat = splitCat(r.cat).c === cs.dataset.catset ? '' : cs.dataset.catset; save(); drawFicha(sh, true); return; }
     const ss = e.target.closest('[data-subset]');
     if(ss){ flushFicha(); const x = splitCat(r.cat); r.cat = joinCat(x.c, x.s === ss.dataset.subset ? '' : ss.dataset.subset); save(); drawFicha(sh, true); return; }
-    const pz = e.target.closest('[data-pesce]');
-    if(pz){ r.pesce = pz.dataset.pesce === '1'; sh.querySelectorAll('[data-pesce]').forEach(b=> b.classList.toggle('on', b === pz)); save(); return; }
+    const dz = e.target.closest('[data-dietset]');
+    if(dz){ r.diet = r.diet === dz.dataset.dietset ? '' : dz.dataset.dietset; sh.querySelectorAll('[data-dietset]').forEach(b=> b.classList.toggle('on', b.dataset.dietset === r.diet)); save(); return; }
     const gs = e.target.closest('[data-groupset]');
     if(gs){
       r.group = r.group === gs.dataset.groupset ? '' : gs.dataset.groupset;
-      if(r.group === 'Dulce'){ r.pesce = false; save(); drawFicha(sh, true); return; }
-      if(r.tab === 'recetas' && !sh.querySelector('#pesce-f')){ save(); drawFicha(sh, true); return; }
+      if(r.tab === 'recetas'){ save(); drawFicha(sh, true); return; }
       if(r.tab !== 'recetas'){ r.cat = matchCat(r.tab, r.cat, r.group); save(); drawFicha(sh, true); return; }
       sh.querySelectorAll('[data-groupset]').forEach(b=> b.classList.toggle('on', b.dataset.groupset === r.group));
       save(); return;
@@ -1861,10 +1907,10 @@ function refreshTagsDatalist(){
 
 /* ---------- añadir rápido ---------- */
 $('#fab').addEventListener('click', ()=> ui.space === 'despensa' ? openItem(null, curZone() ? curZone().id : null)
-  : (ui.tab === 'recetas' || isPesceView()) ? openNew(isPesceView() ? null : (ui.kind || null), joinTag(curCountry(), curSub()), isPesceView()) : openNew());
-function openNew(group, tag, pesce, cat, local){
-  const tab = (ui.tab === 'semana' || ui.tab === 'pesce') ? 'recetas' : ui.tab;
-  if(pesce == null) pesce = isPesceView();
+  : ui.tab === 'recetas' ? openNew(ui.kind || null, joinTag(curCountry(), curSub())) : openNew());
+function openNew(group, tag, diet, cat, local){
+  const tab = ui.tab === 'semana' ? 'recetas' : ui.tab;
+  if(diet == null) diet = (ui.diets || []).length === 1 ? ui.diets[0] : '';
   let newGroup = group != null ? group : (tab === 'recetas' ? '' : curGroup());
   tag = tag || '';
   const label = TABS.find(t=> t.id === tab).label;
@@ -1875,7 +1921,7 @@ function openNew(group, tag, pesce, cat, local){
     <div class="sh-body">
       <div class="f"><input class="in" id="new-name" placeholder="Nombre" autocomplete="off" enterkeyhint="done"></div>
       <div class="f"><span class="lb">Grupo</span><div class="chips">${GROUPS[tab].map(g=> `<button class="chip${newGroup===g?' on':''}" data-g="${esc(g)}"><span class="gdot" style="--gc:${gc(g)}"></span>${esc(g)}</button>`).join('')}</div></div>
-      ${pesce ? `<p class="muted" style="margin-top:12px;"><span class="gp" style="--gc:#e6f6ea;color:#2f9e44;">Pescetariana</span></p>` : ''}
+      ${diet ? `<p class="muted" style="margin-top:12px;">Dieta: <span class="gp dpill" style="${dietVars(diet)}">${dietIcon(diet, 13)}${esc(DIET[diet].label)}</span></p>` : ''}
       ${local ? `<p class="muted" style="margin-top:12px;">Tipo propio: <span class="gp" style="--gc:${tc(local)}">${esc(local)}</span></p>` : ''}
       ${cat ? `<p class="muted" style="margin-top:12px;">Tipo: <span class="gp" style="--gc:${tc(splitCat(cat).c)}">${esc(catText(cat))}</span></p>` : ''}
       ${tag ? `<p class="muted" style="margin-top:12px;">Origen: <span class="gp" style="--gc:${tc(leafTag(tag))}">${esc(tagLabel(tag))}</span></p>` : ''}
@@ -1890,7 +1936,7 @@ function openNew(group, tag, pesce, cat, local){
       const add = (open)=>{
         const name = inp.value.trim();
         if(!name){ shake(inp); inp.focus(); return; }
-        const r = { id: uid(), tab, name, group: newGroup, cat: cat && newGroup !== 'Dulce' ? cat : '', local: local || '', tag, yield:'', parts:[{name:'', ings:[], steps:''}], notes:'', done:false, pesce: !!pesce && newGroup !== 'Dulce' };
+        const r = { id: uid(), tab, name, group: newGroup, cat: cat && newGroup !== 'Dulce' ? cat : '', local: local || '', tag, yield:'', parts:[{name:'', ings:[], steps:''}], notes:'', done:false, diet: diet || '' };
         data.recipes.push(r); save();
         if(open){ render(); openFicha(r.id, true); return; }
         inp.value = ''; inp.focus(); renderGroups(); renderMain(); toast(`Añadida: ${name}`);
@@ -2200,7 +2246,9 @@ document.addEventListener('visibilitychange', ()=>{
 async function boot(){
   ui = Object.assign({ space:'recetario', tab:'recetas', ptab:'lista', zone:'', filter:{}, tagFilter:{}, group:{}, collapsed:{} }, loadJSON(UIKEY) || {});
   ui.q = ''; ui.searching = false;
-  if(ui.tab === 'semana' || ui.tab === 'regiones') ui.tab = 'recetas';
+  if(ui.tab === 'semana' || ui.tab === 'regiones' || ui.tab === 'pesce') ui.tab = 'recetas';
+  if(!Array.isArray(ui.diets)) ui.diets = [];
+  ui.diets = ui.diets.filter(k=> DIET_KEYS.includes(k));
   if(!['lista','semana','compra'].includes(ui.ptab)) ui.ptab = 'lista';
   const stored = loadJSON(KEY);
   if(validData(stored)){

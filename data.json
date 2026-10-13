@@ -9,6 +9,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
    "local": "",
+   "diet": "carne",
    "tag": "España / Castilla y León",
    "yield": "4 pax",
    "parts": [
@@ -70,8 +71,7 @@
     }
    ],
    "notes": "Plato de aprovechamiento del pan duro. Mejor en cazuela de barro y servido muy caliente.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-salmorejo",
@@ -80,6 +80,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Cremas frías",
    "local": "",
+   "diet": "carne",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -136,8 +137,7 @@
     }
    ],
    "notes": "Debe quedar espeso, que aguante la guarnición encima.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-gazpacho",
@@ -146,6 +146,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Cremas frías",
    "local": "",
+   "diet": "vegano",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -211,8 +212,7 @@
     }
    ],
    "notes": "Ajustar el agua según lo líquido que se quiera.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-porra-antequerana",
@@ -221,6 +221,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Cremas frías",
    "local": "",
+   "diet": "carne",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -291,8 +292,7 @@
     }
    ],
    "notes": "Más espesa que el salmorejo: tradicionalmente se come casi a cucharadas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-ajoblanco",
@@ -301,6 +301,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Cremas frías",
    "local": "",
+   "diet": "vegano",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -361,8 +362,7 @@
     }
    ],
    "notes": "Si se pasa por estameña queda más sedoso.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-sopa-de-picadillo",
@@ -371,6 +371,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
    "local": "",
+   "diet": "carne",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -419,8 +420,7 @@
     }
    ],
    "notes": "Aprovechamiento del caldo del puchero andaluz.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-caldo-gallego",
@@ -429,6 +429,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
+   "diet": "carne",
    "tag": "España / Galicia",
    "yield": "4 pax",
    "parts": [
@@ -495,8 +496,7 @@
     }
    ],
    "notes": "Mejor de un día para otro.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-sopa-de-tomate-extremena",
@@ -505,6 +505,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Extremadura",
    "yield": "4 pax",
    "parts": [
@@ -576,8 +577,7 @@
     }
    ],
    "notes": "En muchos pueblos se acompaña de higos frescos o uvas.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-gazpacho-manchego",
@@ -586,6 +586,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
+   "diet": "carne",
    "tag": "España / Castilla-La Mancha",
    "yield": "4 pax",
    "parts": [
@@ -662,8 +663,7 @@
     }
    ],
    "notes": "Tradicionalmente se hace con caza (liebre, perdiz). La torta cenceña se vende ya hecha.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-migas",
@@ -672,6 +672,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "",
+   "diet": "carne",
    "tag": "España / Extremadura",
    "yield": "4 pax",
    "parts": [
@@ -737,8 +738,7 @@
     }
    ],
    "notes": "Acompañar con uvas, melón o un huevo frito.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-gachas-manchegas",
@@ -747,6 +747,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
+   "diet": "carne",
    "tag": "España / Castilla-La Mancha",
    "yield": "4 pax",
    "parts": [
@@ -812,8 +813,7 @@
     }
    ],
    "notes": "Se comen tradicionalmente de la sartén, con cuchara o con pan.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-pa-amb-tomaquet",
@@ -822,6 +822,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Fríos",
    "local": "",
+   "diet": "vegano",
    "tag": "España / Cataluña",
    "yield": "4 pax",
    "parts": [
@@ -864,8 +865,7 @@
     }
    ],
    "notes": "Sirve de base para acompañar embutido, tortilla o anchoas.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-coca-de-trempo",
@@ -874,6 +874,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Fríos",
    "local": "",
+   "diet": "carne",
    "tag": "España / Baleares",
    "yield": "6 pax",
    "parts": [
@@ -959,8 +960,7 @@
     }
    ],
    "notes": "Buena fría al día siguiente.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-empanada-gallega",
@@ -969,6 +969,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Fríos",
    "local": "",
+   "diet": "pescado",
    "tag": "España / Galicia",
    "yield": "6 pax",
    "parts": [
@@ -1077,8 +1078,7 @@
     }
    ],
    "notes": "El relleno admite sardinas, xoubas o carne según lo que haya.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-croquetas-de-aprovechamiento",
@@ -1087,6 +1087,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "",
+   "diet": "carne",
    "tag": "España",
    "yield": "30 ud.",
    "parts": [
@@ -1168,8 +1169,7 @@
     }
    ],
    "notes": "Se pueden congelar crudas, ya empanadas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-lentejas-estofadas",
@@ -1178,6 +1178,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
+   "diet": "carne",
    "tag": "España",
    "yield": "4 pax",
    "parts": [
@@ -1264,8 +1265,7 @@
     }
    ],
    "notes": "La pardina no necesita remojo.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-potaje-de-vigilia",
@@ -1274,6 +1274,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
+   "diet": "pescado",
    "tag": "España",
    "yield": "4 pax",
    "parts": [
@@ -1355,8 +1356,7 @@
     }
    ],
    "notes": "Plato tradicional de Cuaresma.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-garbanzos-con-espinacas",
@@ -1365,6 +1365,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
+   "diet": "vegano",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -1434,8 +1435,7 @@
     }
    ],
    "notes": "Clásico de las tabernas sevillanas. Con garbanzo de bote sale en media hora.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-olla-gitana",
@@ -1444,6 +1444,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
+   "diet": "vegano",
    "tag": "España / Murcia",
    "yield": "4 pax",
    "parts": [
@@ -1534,8 +1535,7 @@
     }
    ],
    "notes": "Plato de cuchara de cuaresma, sin carne.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-michirones",
@@ -1544,6 +1544,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
+   "diet": "carne",
    "tag": "España / Murcia",
    "yield": "4 pax",
    "parts": [
@@ -1617,8 +1618,7 @@
     }
    ],
    "notes": "Típico de bar murciano como tapa.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-cocido-madrileno",
@@ -1627,6 +1627,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
+   "diet": "carne",
    "tag": "España / Madrid",
    "yield": "6 pax",
    "parts": [
@@ -1746,8 +1747,7 @@
     }
    ],
    "notes": "Con lo que sobra: ropa vieja, croquetas o pringá.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-pote-asturiano",
@@ -1756,6 +1756,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
+   "diet": "carne",
    "tag": "España / Asturias",
    "yield": "4 pax",
    "parts": [
@@ -1820,8 +1821,7 @@
     }
    ],
    "notes": "El compango (chorizo, morcilla, lacón) se sirve troceado aparte.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-judias-del-barco",
@@ -1830,6 +1830,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
+   "diet": "carne",
    "tag": "España / Castilla y León",
    "yield": "4 pax",
    "parts": [
@@ -1904,8 +1905,7 @@
     }
    ],
    "notes": "Con IGP de El Barco de Ávila; vale cualquier judía blanca de calidad.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-alubias-de-tolosa",
@@ -1914,6 +1914,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
+   "diet": "carne",
    "tag": "España / País Vasco",
    "yield": "4 pax",
    "parts": [
@@ -1999,8 +2000,7 @@
     }
    ],
    "notes": "Acompañar con guindillas de Ibarra.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-puchero-andaluz",
@@ -2009,6 +2009,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
+   "diet": "carne",
    "tag": "España / Andalucía",
    "yield": "6 pax",
    "parts": [
@@ -2098,8 +2099,7 @@
     }
    ],
    "notes": "Del puchero salen la sopa de picadillo, la pringá y las croquetas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-ropa-vieja",
@@ -2108,6 +2108,7 @@
    "group": "Salado",
    "cat": "Carnes / Bovino",
    "local": "",
+   "diet": "carne",
    "tag": "España / Canarias",
    "yield": "4 pax",
    "parts": [
@@ -2188,8 +2189,7 @@
     }
    ],
    "notes": "Aprovechamiento de las sobras del puchero.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-pringa",
@@ -2198,6 +2198,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "",
+   "diet": "carne",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -2246,8 +2247,7 @@
     }
    ],
    "notes": "Aprovechamiento clásico del puchero en Sevilla.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-arroz-al-horno",
@@ -2256,6 +2256,7 @@
    "group": "Salado",
    "cat": "Arroces",
    "local": "",
+   "diet": "carne",
    "tag": "España / Comunidad Valenciana",
    "yield": "4 pax",
    "parts": [
@@ -2342,8 +2343,7 @@
     }
    ],
    "notes": "Aprovechamiento del cocido del día anterior.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-arros-amb-fesols-i-naps",
@@ -2352,6 +2352,7 @@
    "group": "Salado",
    "cat": "Arroces",
    "local": "",
+   "diet": "carne",
    "tag": "España / Comunidad Valenciana",
    "yield": "4 pax",
    "parts": [
@@ -2421,8 +2422,7 @@
     }
    ],
    "notes": "Típico del interior valenciano en invierno.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-pisto-manchego",
@@ -2431,6 +2431,7 @@
    "group": "Salado",
    "cat": "Hortalizas",
    "local": "",
+   "diet": "vegano",
    "tag": "España / Castilla-La Mancha",
    "yield": "4 pax",
    "parts": [
@@ -2501,8 +2502,7 @@
     }
    ],
    "notes": "Mejor de un día para otro.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-escalivada",
@@ -2511,6 +2511,7 @@
    "group": "Salado",
    "cat": "Hortalizas",
    "local": "",
+   "diet": "vegano",
    "tag": "España / Cataluña",
    "yield": "4 pax",
    "parts": [
@@ -2565,8 +2566,7 @@
     }
    ],
    "notes": "Sobre pan de payés, con anchoas, es una cena completa.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-tumbet",
@@ -2575,6 +2575,7 @@
    "group": "Salado",
    "cat": "Hortalizas",
    "local": "",
+   "diet": "vegano",
    "tag": "España / Baleares",
    "yield": "4 pax",
    "parts": [
@@ -2635,8 +2636,7 @@
     }
    ],
    "notes": "Acompaña bien un huevo frito o carne o pescado a la plancha.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-alboronia",
@@ -2645,6 +2645,7 @@
    "group": "Salado",
    "cat": "Hortalizas",
    "local": "",
+   "diet": "vegano",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -2713,8 +2714,7 @@
     }
    ],
    "notes": "Origen andalusí; antepasado del pisto.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-zarangollo",
@@ -2723,6 +2723,7 @@
    "group": "Salado",
    "cat": "Hortalizas",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Murcia",
    "yield": "4 pax",
    "parts": [
@@ -2765,8 +2766,7 @@
     }
    ],
    "notes": "Debe quedar jugoso, no seco.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-espinacas-a-la-catalana",
@@ -2775,6 +2775,7 @@
    "group": "Salado",
    "cat": "Hortalizas",
    "local": "",
+   "diet": "vegano",
    "tag": "España / Cataluña",
    "yield": "4 pax",
    "parts": [
@@ -2823,8 +2824,7 @@
     }
    ],
    "notes": "Admite acelgas en lugar de espinacas.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-patatas-a-la-importancia",
@@ -2833,6 +2833,7 @@
    "group": "Salado",
    "cat": "Hortalizas",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Castilla y León",
    "yield": "4 pax",
    "parts": [
@@ -2908,8 +2909,7 @@
     }
    ],
    "notes": "Plato humilde que imita el rebozado de la carne o el pescado.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-patatas-a-lo-pobre",
@@ -2918,6 +2918,7 @@
    "group": "Salado",
    "cat": "Hortalizas",
    "local": "",
+   "diet": "vegano",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -2971,8 +2972,7 @@
     }
    ],
    "notes": "El aceite sobrante sirve para otra fritura.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-patatas-revolconas",
@@ -2981,6 +2981,7 @@
    "group": "Salado",
    "cat": "Hortalizas",
    "local": "",
+   "diet": "carne",
    "tag": "España / Castilla y León",
    "yield": "4 pax",
    "parts": [
@@ -3040,8 +3041,7 @@
     }
    ],
    "notes": "Típico de Ávila y Salamanca.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-patatas-a-la-riojana",
@@ -3050,6 +3050,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
+   "diet": "carne",
    "tag": "España / La Rioja",
    "yield": "4 pax",
    "parts": [
@@ -3124,8 +3125,7 @@
     }
    ],
    "notes": "Cascar la patata (no cortarla limpia) para que suelte almidón y espese el caldo.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-papas-arrugadas-con-mojo",
@@ -3134,6 +3134,7 @@
    "group": "Salado",
    "cat": "Hortalizas",
    "local": "",
+   "diet": "vegano",
    "tag": "España / Canarias",
    "yield": "4 pax",
    "parts": [
@@ -3212,8 +3213,7 @@
     }
    ],
    "notes": "El mojo aguanta varios días en nevera.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-tortilla-de-patatas",
@@ -3222,6 +3222,7 @@
    "group": "Salado",
    "cat": "Huevos",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España",
    "yield": "4 pax",
    "parts": [
@@ -3265,8 +3266,7 @@
     }
    ],
    "notes": "Reservar el aceite colado para cocinar otra vez.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-huevos-a-la-flamenca",
@@ -3275,6 +3275,7 @@
    "group": "Salado",
    "cat": "Huevos",
    "local": "",
+   "diet": "carne",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -3340,8 +3341,7 @@
     }
    ],
    "notes": "Buen aprovechamiento de tomate frito y restos de embutido.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-marmitako",
@@ -3350,6 +3350,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
+   "diet": "pescado",
    "tag": "España / País Vasco",
    "yield": "4 pax",
    "parts": [
@@ -3420,8 +3421,7 @@
     }
    ],
    "notes": "El bonito no debe hervir: queda seco.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-arroz-a-banda",
@@ -3430,6 +3430,7 @@
    "group": "Salado",
    "cat": "Arroces",
    "local": "",
+   "diet": "pescado",
    "tag": "España / Comunidad Valenciana",
    "yield": "4 pax",
    "parts": [
@@ -3530,8 +3531,7 @@
     }
    ],
    "notes": "Servir con alioli. Plato de pescadores: el pescado del caldo se comía aparte.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-esgarraet",
@@ -3540,6 +3540,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Fríos",
    "local": "",
+   "diet": "pescado",
    "tag": "España / Comunidad Valenciana",
    "yield": "4 pax",
    "parts": [
@@ -3584,8 +3585,7 @@
     }
    ],
    "notes": "Mejor al día siguiente. Sobre pan tostado.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-bacalao-al-ajoarriero",
@@ -3594,6 +3594,7 @@
    "group": "Salado",
    "cat": "Pescados",
    "local": "",
+   "diet": "pescado",
    "tag": "España / Navarra",
    "yield": "4 pax",
    "parts": [
@@ -3663,8 +3664,7 @@
     }
    ],
    "notes": "Admite unas patatas cocidas o huevo revuelto al final.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-atascaburras",
@@ -3673,6 +3673,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "",
+   "diet": "pescado",
    "tag": "España / Castilla-La Mancha",
    "yield": "4 pax",
    "parts": [
@@ -3727,8 +3728,7 @@
     }
    ],
    "notes": "Típico de los días fríos en La Mancha.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-boquerones-en-vinagre",
@@ -3737,6 +3737,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Fríos",
    "local": "",
+   "diet": "pescado",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -3790,8 +3791,7 @@
     }
    ],
    "notes": "La congelación previa es obligatoria por el anisakis.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-callos-a-la-madrilena",
@@ -3800,6 +3800,7 @@
    "group": "Salado",
    "cat": "Carnes / Bovino",
    "local": "",
+   "diet": "carne",
    "tag": "España / Madrid",
    "yield": "6 pax",
    "parts": [
@@ -3901,8 +3902,7 @@
     }
    ],
    "notes": "Mucho mejor reposados de un día para otro.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-morteruelo",
@@ -3911,6 +3911,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "",
+   "diet": "carne",
    "tag": "España / Castilla-La Mancha",
    "yield": "6 pax",
    "parts": [
@@ -3990,8 +3991,7 @@
     }
    ],
    "notes": "Típico de Cuenca; tradicionalmente con caza (liebre, perdiz). Se toma caliente untado en pan.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-arroz-con-leche",
@@ -4000,6 +4000,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Asturias",
    "yield": "6 pax",
    "parts": [
@@ -4060,8 +4061,7 @@
     }
    ],
    "notes": "En Asturias se sirve con costra de azúcar quemado.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-natillas",
@@ -4070,6 +4070,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España",
    "yield": "6 pax",
    "parts": [
@@ -4129,8 +4130,7 @@
     }
    ],
    "notes": "Con las claras sobrantes: merengue o leche merengada.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-flan-de-huevo",
@@ -4139,6 +4139,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España",
    "yield": "6 pax",
    "parts": [
@@ -4197,8 +4198,7 @@
     }
    ],
    "notes": "Si salen agujeros, el horno estaba demasiado fuerte.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-crema-catalana",
@@ -4207,6 +4207,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Cataluña",
    "yield": "6 pax",
    "parts": [
@@ -4261,8 +4262,7 @@
     }
    ],
    "notes": "Tradicional del día de San José (19 de marzo).",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-leche-frita",
@@ -4271,6 +4271,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Castilla y León",
    "yield": "6 pax",
    "parts": [
@@ -4354,8 +4355,7 @@
     }
    ],
    "notes": "Se toma templada o fría.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-torrijas",
@@ -4364,6 +4364,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España",
    "yield": "8 ud.",
    "parts": [
@@ -4428,8 +4429,7 @@
     }
    ],
    "notes": "Variante: bañarlas en almíbar o miel en lugar de azúcar.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-tocino-de-cielo",
@@ -4438,6 +4438,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Andalucía",
    "yield": "6 pax",
    "parts": [
@@ -4500,8 +4501,7 @@
     }
    ],
    "notes": "Nació en Jerez, con las yemas que sobraban de clarificar el vino con claras.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-cuajada-con-miel",
@@ -4510,6 +4510,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Navarra",
    "yield": "4 pax",
    "parts": [
@@ -4548,8 +4549,7 @@
     }
    ],
    "notes": "La temperatura es clave: si la leche está muy caliente no cuaja.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-leche-merengada",
@@ -4558,6 +4558,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Comunidad Valenciana",
    "yield": "6 pax",
    "parts": [
@@ -4606,8 +4607,7 @@
     }
    ],
    "notes": "Con las claras que sobran de natillas o crema catalana.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-gachas-dulces",
@@ -4616,6 +4616,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -4674,8 +4675,7 @@
     }
    ],
    "notes": "Típicas de Todos los Santos.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-bunuelos-de-viento",
@@ -4684,6 +4684,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Madrid",
    "yield": "30 ud.",
    "parts": [
@@ -4747,8 +4748,7 @@
     }
    ],
    "notes": "Se pueden rellenar de crema pastelera o nata. Típicos de Todos los Santos.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-pestinos",
@@ -4757,6 +4757,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Andalucía",
    "yield": "30 ud.",
    "parts": [
@@ -4827,8 +4828,7 @@
     }
    ],
    "notes": "Típicos de Semana Santa y Navidad.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-roscos-fritos",
@@ -4837,6 +4837,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Andalucía",
    "yield": "30 ud.",
    "parts": [
@@ -4901,8 +4902,7 @@
     }
    ],
    "notes": "Se pueden aromatizar con un chorrito de anís.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-churros",
@@ -4911,6 +4911,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegano",
    "tag": "España / Madrid",
    "yield": "4 pax",
    "parts": [
@@ -4954,8 +4955,7 @@
     }
    ],
    "notes": "Acompañar con chocolate a la taza.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-flores-de-sarten",
@@ -4964,6 +4964,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Castilla-La Mancha",
    "yield": "25 ud.",
    "parts": [
@@ -5023,8 +5024,7 @@
     }
    ],
    "notes": "Hace falta el molde de flor de hierro.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-orejas-de-carnaval",
@@ -5033,6 +5033,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Galicia",
    "yield": "25 ud.",
    "parts": [
@@ -5096,8 +5097,7 @@
     }
    ],
    "notes": "Típicas del Entroido (carnaval).",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-filloas",
@@ -5106,6 +5106,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Galicia",
    "yield": "15 ud.",
    "parts": [
@@ -5159,8 +5160,7 @@
     }
    ],
    "notes": "Típicas del Entroido; también salen saladas con caldo de cocido. Tradicionalmente se engrasa la sartén con tocino.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-frixuelos",
@@ -5169,6 +5169,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Asturias",
    "yield": "15 ud.",
    "parts": [
@@ -5227,8 +5228,7 @@
     }
    ],
    "notes": "Pariente asturiano de la filloa gallega.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-bunuelos-de-calabaza",
@@ -5237,6 +5237,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegano",
    "tag": "España / Comunidad Valenciana",
    "yield": "30 ud.",
    "parts": [
@@ -5291,8 +5292,7 @@
     }
    ],
    "notes": "Típicos de Fallas, con chocolate.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-rosquillas-de-san-isidro",
@@ -5301,6 +5301,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Madrid",
    "yield": "20 ud.",
    "parts": [
@@ -5377,8 +5378,7 @@
     }
    ],
    "notes": "Sin baño son las «tontas»; con glaseado, las «listas». Típicas de San Isidro (15 de mayo).",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-casadielles",
@@ -5387,6 +5387,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Asturias",
    "yield": "12 ud.",
    "parts": [
@@ -5464,8 +5465,7 @@
     }
    ],
    "notes": "Típicas de Antroxu (carnaval).",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-tarta-de-santiago",
@@ -5474,6 +5474,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Galicia",
    "yield": "8 pax",
    "parts": [
@@ -5527,8 +5528,7 @@
     }
    ],
    "notes": "Sin harina: apta para celíacos si la almendra es apta.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-bizcocho-de-yogur",
@@ -5537,6 +5537,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España",
    "yield": "8 pax",
    "parts": [
@@ -5591,8 +5592,7 @@
     }
    ],
    "notes": "El vaso del yogur sirve de medida para todo.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-magdalenas",
@@ -5601,6 +5601,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España",
    "yield": "16 ud.",
    "parts": [
@@ -5660,8 +5661,7 @@
     }
    ],
    "notes": "El contraste de masa fría y horno fuerte hace el copete.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-bizcocho-borracho",
@@ -5670,6 +5670,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Castilla-La Mancha",
    "yield": "8 pax",
    "parts": [
@@ -5739,8 +5740,7 @@
     }
    ],
    "notes": "Típico de Guadalajara.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-tarta-de-queso-vasca",
@@ -5749,6 +5749,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / País Vasco",
    "yield": "8 pax",
    "parts": [
@@ -5793,8 +5794,7 @@
     }
    ],
    "notes": "Debe quedar cremosa por dentro: mejor pasarse de tostado que de cocción.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-quesada-pasiega",
@@ -5803,6 +5803,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Cantabria",
    "yield": "8 pax",
    "parts": [
@@ -5862,8 +5863,7 @@
     }
    ],
    "notes": "Tradicionalmente con cuajada fresca de los valles pasiegos.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-sobaos-pasiegos",
@@ -5872,6 +5872,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Cantabria",
    "yield": "12 ud.",
    "parts": [
@@ -5931,8 +5932,7 @@
     }
    ],
    "notes": "Mejor al día siguiente, bien envueltos.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-ensaimada",
@@ -5941,6 +5941,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "carne",
    "tag": "España / Baleares",
    "yield": "2 ud.",
    "parts": [
@@ -6002,8 +6003,7 @@
     }
    ],
    "notes": "Admite relleno de cabello de ángel o crema.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-coca-de-llanda",
@@ -6012,6 +6012,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Comunidad Valenciana",
    "yield": "8 pax",
    "parts": [
@@ -6071,8 +6072,7 @@
     }
    ],
    "notes": "La merienda valenciana de toda la vida.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-fartons",
@@ -6081,6 +6081,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Comunidad Valenciana",
    "yield": "15 ud.",
    "parts": [
@@ -6158,8 +6159,7 @@
     }
    ],
    "notes": "De Alboraia, para mojar en horchata.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-pan-de-calatrava",
@@ -6168,6 +6168,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Murcia",
    "yield": "8 pax",
    "parts": [
@@ -6235,8 +6236,7 @@
     }
    ],
    "notes": "Aprovechamiento de bollería del día anterior.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-brazo-de-gitano",
@@ -6245,6 +6245,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España",
    "yield": "8 pax",
    "parts": [
@@ -6321,8 +6322,7 @@
     }
    ],
    "notes": "Admite relleno de nata o trufa.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-pastel-vasco",
@@ -6331,6 +6331,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / País Vasco",
    "yield": "8 pax",
    "parts": [
@@ -6427,8 +6428,7 @@
     }
    ],
    "notes": "Gâteau basque; en Iparralde también se rellena de cereza negra.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-carquinoles",
@@ -6437,6 +6437,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Cataluña",
    "yield": "30 ud.",
    "parts": [
@@ -6492,8 +6493,7 @@
     }
    ],
    "notes": "Para mojar en vino dulce o café.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-perrunillas",
@@ -6502,6 +6502,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "carne",
    "tag": "España / Extremadura",
    "yield": "25 ud.",
    "parts": [
@@ -6566,8 +6567,7 @@
     }
    ],
    "notes": "Tostar la harina en el horno 15 min antes las hace más finas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-mantecados",
@@ -6576,6 +6576,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "carne",
    "tag": "España / Andalucía",
    "yield": "30 ud.",
    "parts": [
@@ -6630,8 +6631,7 @@
     }
    ],
    "notes": "De Estepa. Muy frágiles en caliente.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-roscon-de-reyes",
@@ -6640,6 +6640,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España",
    "yield": "8 pax",
    "parts": [
@@ -6745,8 +6746,7 @@
     }
    ],
    "notes": "Esconder la figura y el haba antes de hornear.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-panellets",
@@ -6755,6 +6755,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Cataluña",
    "yield": "30 ud.",
    "parts": [
@@ -6804,8 +6805,7 @@
     }
    ],
    "notes": "Típicos de Todos los Santos, con moscatel.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-mazapan-de-toledo",
@@ -6814,6 +6814,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Castilla-La Mancha",
    "yield": "30 ud.",
    "parts": [
@@ -6857,8 +6858,7 @@
     }
    ],
    "notes": "Con IGP en Toledo. Mejor tras unos días de reposo.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-yemas-de-santa-teresa",
@@ -6867,6 +6867,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Castilla y León",
    "yield": "20 ud.",
    "parts": [
@@ -6916,8 +6917,7 @@
     }
    ],
    "notes": "De Ávila. Con las claras: merengues o leche merengada.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-peras-al-vino",
@@ -6926,6 +6926,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegano",
    "tag": "España / La Rioja",
    "yield": "4 pax",
    "parts": [
@@ -6974,8 +6975,7 @@
     }
    ],
    "notes": "Mejor de un día para otro, reposadas en el vino.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-manzanas-asadas",
@@ -6984,6 +6984,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España",
    "yield": "4 pax",
    "parts": [
@@ -7028,8 +7029,7 @@
     }
    ],
    "notes": "La reineta aguanta bien el horno sin deshacerse.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-miguelitos-de-la-roda",
@@ -7038,6 +7038,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Castilla-La Mancha",
    "yield": "12 ud.",
    "parts": [
@@ -7101,8 +7102,7 @@
     }
    ],
    "notes": "Con hojaldre comprado salen en una hora.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-tortas-de-aceite",
@@ -7111,6 +7111,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Andalucía",
    "yield": "10 ud.",
    "parts": [
@@ -7175,8 +7176,7 @@
     }
    ],
    "notes": "Las de Castilleja de la Cuesta (Sevilla) son las más conocidas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-bienmesabe-canario",
@@ -7185,6 +7185,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Canarias",
    "yield": "6 pax",
    "parts": [
@@ -7233,8 +7234,7 @@
     }
    ],
    "notes": "Se toma solo, con helado de vainilla o sobre bizcocho.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-frangollo",
@@ -7243,6 +7243,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Canarias",
    "yield": "6 pax",
    "parts": [
@@ -7307,8 +7308,7 @@
     }
    ],
    "notes": "Se sirve con miel de palma.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-mel-i-mato",
@@ -7317,6 +7317,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Cataluña",
    "yield": "4 pax",
    "parts": [
@@ -7348,8 +7349,7 @@
     }
    ],
    "notes": "Postre de los monasterios de Montserrat.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-sopa-de-almendras",
@@ -7358,6 +7358,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España",
    "yield": "6 pax",
    "parts": [
@@ -7412,8 +7413,7 @@
     }
    ],
    "notes": "Postre tradicional de Nochebuena en Castilla.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-pan-de-higo",
@@ -7422,6 +7422,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "",
+   "diet": "vegano",
    "tag": "España / Andalucía",
    "yield": "1 ud.",
    "parts": [
@@ -7480,8 +7481,7 @@
     }
    ],
    "notes": "Acompaña bien un queso curado.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-nigiri-sushi",
@@ -7490,6 +7490,7 @@
    "group": "Salado",
    "cat": "Arroces",
    "local": "Gohanmono / Sushi",
+   "diet": "pescado",
    "tag": "Japón / Kanto",
    "yield": "4 pax",
    "parts": [
@@ -7575,8 +7576,7 @@
     }
    ],
    "notes": "Estilo Edomae (Tokio). El pescado crudo debe congelarse previamente a -20 ºC un mínimo de 5 días (anisakis), salvo que se compre ya tratado. Unas 32 piezas.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-tempura",
@@ -7585,6 +7585,7 @@
    "group": "Salado",
    "cat": "Mariscos",
    "local": "Agemono / Tempura y koromoage",
+   "diet": "pescado",
    "tag": "Japón / Kanto",
    "yield": "4 pax",
    "parts": [
@@ -7683,8 +7684,7 @@
     }
    ],
    "notes": "La masa se hace justo antes de freír y siempre fría: el contraste de temperatura da la textura crujiente.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-ramen-de-shoyu",
@@ -7693,6 +7693,7 @@
    "group": "Salado",
    "cat": "Pastas alimenticias",
    "local": "Menrui / Ramen",
+   "diet": "carne",
    "tag": "Japón / Kanto",
    "yield": "4 pax",
    "parts": [
@@ -7840,8 +7841,7 @@
     }
    ],
    "notes": "Estilo de Tokio: caldo claro de pollo con dashi y tare de soja. Se puede añadir un poco de grasa de pollo derretida al cuenco.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-oyakodon",
@@ -7850,6 +7850,7 @@
    "group": "Salado",
    "cat": "Arroces",
    "local": "Gohanmono / Donburi y kare raisu",
+   "diet": "carne",
    "tag": "Japón / Kanto",
    "yield": "4 pax",
    "parts": [
@@ -7914,8 +7915,7 @@
     }
    ],
    "notes": "«Padre e hijo» en un cuenco (pollo y huevo). Se atribuye al restaurante Tamahide de Nihonbashi (Tokio), a finales del siglo XIX.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-sukiyaki",
@@ -7924,6 +7924,7 @@
    "group": "Salado",
    "cat": "Carnes / Bovino",
    "local": "Nabemono",
+   "diet": "carne",
    "tag": "Japón / Kanto",
    "yield": "4 pax",
    "parts": [
@@ -8021,8 +8022,7 @@
     }
    ],
    "notes": "Estilo Kanto, con warishita. En Kansai se tuesta primero la carne con azúcar y soja directamente en la cazuela. Usar huevos muy frescos o pasteurizados.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-okonomiyaki",
@@ -8031,6 +8031,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Konamono",
+   "diet": "carne",
    "tag": "Japón / Kansai",
    "yield": "2 ud.",
    "parts": [
@@ -8117,8 +8118,7 @@
     }
    ],
    "notes": "Estilo de Osaka, todo mezclado. Ficha de la Embajada de Japón. Muchas casas añaden ñame rallado (yamaimo) para que quede más esponjoso.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-takoyaki",
@@ -8127,6 +8127,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Konamono",
+   "diet": "pescado",
    "tag": "Japón / Kansai",
    "yield": "40 ud.",
    "parts": [
@@ -8218,8 +8219,7 @@
     }
    ],
    "notes": "Estilo de Osaka, con masa muy líquida (1 de harina por 4 de dashi) para que queden cremosas por dentro. Se atribuyen al vendedor Tomekichi Endo, en 1935. Hace falta una placa de takoyaki.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-mitarashi-dango",
@@ -8228,6 +8228,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "Wagashi / Mochimono (de mochi y dango)",
+   "diet": "vegano",
    "tag": "Japón / Kansai",
    "yield": "8 ud.",
    "parts": [
@@ -8292,8 +8293,7 @@
     }
    ],
    "notes": "Origen en el santuario de Shimogamo (Kioto). Si no hay dangoko, mezclar a partes iguales joshinko y shiratamako (harinas de arroz).",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-sanuki-udon",
@@ -8302,6 +8302,7 @@
    "group": "Salado",
    "cat": "Pastas alimenticias",
    "local": "Menrui / Udon",
+   "diet": "pescado",
    "tag": "Japón / Shikoku",
    "yield": "4 pax",
    "parts": [
@@ -8401,8 +8402,7 @@
     }
    ],
    "notes": "Kagawa (antigua Sanuki) es la prefectura que más udon consume por habitante. El pisado con los pies da la textura firme y elástica (koshi). Ésta es la versión kake; también se toma kamaage o bukkake.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-ishikari-nabe",
@@ -8411,6 +8411,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "Nabemono",
+   "diet": "pescado",
    "tag": "Japón / Hokkaido",
    "yield": "4 pax",
    "parts": [
@@ -8532,8 +8533,7 @@
     }
    ],
    "notes": "Ficha del Ministerio de Agricultura de Japón (MAFF). Nace en la desembocadura del río Ishikari, zona de pesca de salmón.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-jingisukan",
@@ -8542,6 +8542,7 @@
    "group": "Salado",
    "cat": "Carnes / Ovino",
    "local": "Yakimono",
+   "diet": "carne",
    "tag": "Japón / Hokkaido",
    "yield": "4 pax",
    "parts": [
@@ -8648,8 +8649,7 @@
     }
    ],
    "notes": "Plato de reunión al aire libre, típico del hanami en Hokkaido. Ingredientes según el MAFF de Hokkaido; las cantidades varían en cada casa. También se hace con cordero ya marinado.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-kiritanpo-nabe",
@@ -8658,6 +8658,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "Nabemono",
+   "diet": "carne",
    "tag": "Japón / Tohoku",
    "yield": "5 pax",
    "parts": [
@@ -8757,8 +8758,7 @@
     }
    ],
    "notes": "Ficha del Ministerio de Agricultura de Japón (MAFF). De Odate y Kazuno, en el norte de Akita. Se puede comprar el kiritanpo ya hecho.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-hoto",
@@ -8767,6 +8767,7 @@
    "group": "Salado",
    "cat": "Pastas alimenticias",
    "local": "Menrui / Otros fideos",
+   "diet": "pescado",
    "tag": "Japón / Chubu",
    "yield": "5 pax",
    "parts": [
@@ -8862,8 +8863,7 @@
     }
    ],
    "notes": "Ficha del Ministerio de Agricultura de Japón (MAFF). Yamanashi: tierra de montaña y poco arroz, donde el trigo hizo de alimento base. Los fideos se cuecen en el propio caldo, sin lavar, para que espese.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-goya-champuru",
@@ -8872,6 +8872,7 @@
    "group": "Salado",
    "cat": "Hortalizas",
    "local": "Itamemono",
+   "diet": "carne",
    "tag": "Japón / Kyushu y Okinawa",
    "yield": "4 pax",
    "parts": [
@@ -8922,8 +8923,7 @@
     }
    ],
    "notes": "Ficha del Ministerio de Agricultura de Japón (MAFF). «Champuru» significa «mezclado» en okinawense.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-karaage",
@@ -8932,6 +8932,7 @@
    "group": "Salado",
    "cat": "Carnes / Aves y conejo",
    "local": "Agemono / Karaage",
+   "diet": "carne",
    "tag": "Japón / Kyushu y Okinawa",
    "yield": "4 pax",
    "parts": [
@@ -9001,8 +9002,7 @@
     }
    ],
    "notes": "Nakatsu (Oita) se considera la capital del karaage: cada tienda tiene su adobo. La doble fritura deja el interior jugoso.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-miso-shiru",
@@ -9011,6 +9011,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
    "local": "Shirumono / Misoshiru",
+   "diet": "pescado",
    "tag": "Japón",
    "yield": "4 pax",
    "parts": [
@@ -9074,8 +9075,7 @@
     }
    ],
    "notes": "El miso no debe hervir: pierde aroma. Este dashi (awase dashi) es la base de muchos platos japoneses.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-onigiri",
@@ -9084,6 +9084,7 @@
    "group": "Salado",
    "cat": "Arroces",
    "local": "Gohanmono / Onigiri",
+   "diet": "pescado",
    "tag": "Japón",
    "yield": "6 ud.",
    "parts": [
@@ -9137,8 +9138,7 @@
     }
    ],
    "notes": "Rellenos clásicos: umeboshi, salmón y okaka. El arroz debe estar caliente para que se una.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-nikujaga",
@@ -9147,6 +9147,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "Nimono",
+   "diet": "carne",
    "tag": "Japón",
    "yield": "4 pax",
    "parts": [
@@ -9227,8 +9228,7 @@
     }
    ],
    "notes": "Guiso casero japonés por excelencia. En el oeste de Japón se hace con vacuno y en el este a menudo con cerdo. Su origen (Maizuru o Kure, cocina de la Armada) sigue en discusión.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-curry-japones",
@@ -9237,6 +9237,7 @@
    "group": "Salado",
    "cat": "Arroces",
    "local": "Gohanmono / Donburi y kare raisu",
+   "diet": "carne",
    "tag": "Japón",
    "yield": "4 pax",
    "parts": [
@@ -9343,8 +9344,7 @@
     }
    ],
    "notes": "Llegó en la era Meiji a través de la Marina británica. En casa se suele usar roux en pastilla (medio paquete para esta cantidad) en lugar del roux casero.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-dorayaki",
@@ -9353,6 +9353,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "Wagashi / Yakimono (horneados)",
+   "diet": "vegetariano",
    "tag": "Japón",
    "yield": "6 ud.",
    "parts": [
@@ -9433,8 +9434,7 @@
     }
    ],
    "notes": "La miel da el color dorado característico. El anko también se vende ya hecho.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-cebiche-de-pescado",
@@ -9443,6 +9443,7 @@
    "group": "Salado",
    "cat": "Pescados",
    "local": "Marina / Cebiches y tiraditos",
+   "diet": "pescado",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -9528,8 +9529,7 @@
     }
    ],
    "notes": "Patrimonio Cultural de la Nación (RDN 241/INC-2004) y, desde 2023, Patrimonio Cultural Inmaterial de la UNESCO. Día Nacional del Cebiche: 28 de junio. Estilo limeño «al momento» según Gastón Acurio. El jugo que queda es la leche de tigre: también se sirve sola en vaso.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-tiradito",
@@ -9538,6 +9538,7 @@
    "group": "Salado",
    "cat": "Pescados",
    "local": "Marina / Cebiches y tiraditos",
+   "diet": "pescado",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -9605,8 +9606,7 @@
     }
    ],
    "notes": "Cocina nikkei limeña: corte de sashimi con aliño de cebiche, sin cebolla. Fuentes: Andina; receta de Virgilio Martínez. Variantes de salsa: de rocoto o solo de limón.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-causa-limena",
@@ -9615,6 +9615,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Fríos",
    "local": "Criolla / Limeña",
+   "diet": "pescado",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -9700,8 +9701,7 @@
     }
    ],
    "notes": "Kausay es «sustento» en quechua. La papa amarilla es imprescindible para la textura. El relleno también se hace de pollo.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-aji-de-gallina",
@@ -9710,6 +9710,7 @@
    "group": "Salado",
    "cat": "Carnes / Aves y conejo",
    "local": "Criolla / Limeña",
+   "diet": "carne",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -9839,8 +9840,7 @@
     }
    ],
    "notes": "Cocina criolla limeña. Fuentes: El Comercio Provecho (Nelly Rossinelli) y Buenazo, que añade ají mirasol. Provecho usa hasta 150 g de parmesano.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-lomo-saltado",
@@ -9849,6 +9849,7 @@
    "group": "Salado",
    "cat": "Carnes / Bovino",
    "local": "Criolla / Limeña",
+   "diet": "carne",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -9934,8 +9935,7 @@
     }
    ],
    "notes": "Plato criollo-chifa: el wok y el sillao vienen de la inmigración china. Truco de Gastón Acurio: la mitad de las papas mezcladas y la otra mitad encima, para que unas queden jugosas y otras crujientes.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-anticuchos-de-corazon",
@@ -9944,6 +9944,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Criolla / Anticuchos y brasas",
+   "diet": "carne",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -10041,8 +10042,7 @@
     }
    ],
    "notes": "Proporciones de Gastón Acurio (Peru: The Cookbook). De raíz colonial afroperuana; el aderezo antiguo llevaba chicha de jora en vez de vinagre. Se asocia al mes del Señor de los Milagros (octubre).",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-arroz-chaufa",
@@ -10051,6 +10051,7 @@
    "group": "Salado",
    "cat": "Arroces",
    "local": "Chifa",
+   "diet": "carne",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -10134,8 +10135,7 @@
     }
    ],
    "notes": "Cocina chifa limeña (mediados del s. XIX). «Chifa» viene del cantonés chi fan, «comer arroz». Receta casera de Gastón Acurio (RPP), con menos sillao y ajonjolí.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-tacu-tacu",
@@ -10144,6 +10144,7 @@
    "group": "Salado",
    "cat": "Arroces",
    "local": "Criolla / Limeña",
+   "diet": "vegano",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -10197,8 +10198,7 @@
     }
    ],
    "notes": "Cocina criolla de aprovechamiento: arroz y menestra del día anterior (Gastón Acurio, RPP). Se sirve con huevo frito, plátano frito y salsa criolla, o con bistec o lomo saltado encima (tacu lomo).",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-papa-rellena",
@@ -10207,6 +10207,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Criolla / Limeña",
+   "diet": "carne",
    "tag": "Perú / Lima",
    "yield": "8 ud.",
    "parts": [
@@ -10322,8 +10323,7 @@
     }
    ],
    "notes": "Receta de Gastón Acurio (RPP): solo harina y huevo para el empanado.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-pollo-a-la-brasa",
@@ -10332,6 +10332,7 @@
    "group": "Salado",
    "cat": "Carnes / Aves y conejo",
    "local": "Criolla / Anticuchos y brasas",
+   "diet": "carne",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -10444,8 +10445,7 @@
     }
    ],
    "notes": "Nació en la Granja Azul (Santa Clara, Lima) en 1950, en el horno giratorio «rotombo». Día del Pollo a la Brasa: tercer domingo de julio (RM 0441-2010-AG). La cerveza negra es el ingrediente que más repiten las fuentes (Andina).",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-tallarines-verdes",
@@ -10454,6 +10454,7 @@
    "group": "Salado",
    "cat": "Pastas alimenticias",
    "local": "Criolla / Limeña",
+   "diet": "vegetariano",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -10527,8 +10528,7 @@
     }
    ],
    "notes": "Pesto genovés adaptado por los inmigrantes italianos: queso fresco, espinaca y leche. El plato clásico es con bistec apanado o huevo frito, y a menudo con papa a la huancaína.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-cau-cau",
@@ -10537,6 +10537,7 @@
    "group": "Salado",
    "cat": "Carnes / Bovino",
    "local": "Criolla / Limeña",
+   "diet": "carne",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -10611,8 +10612,7 @@
     }
    ],
    "notes": "Guiso criollo de origen discutido (afroperuano, andino). Gastón Acurio: el mondongo poco cocido queda «chicloso». Variantes con arvejas, de pollo o de mariscos.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-seco-de-res-con-frejoles",
@@ -10621,6 +10621,7 @@
    "group": "Salado",
    "cat": "Carnes / Bovino",
    "local": "Criolla / Limeña",
+   "diet": "carne",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -10739,8 +10740,7 @@
     }
    ],
    "notes": "«Seco de res a la limeña» de Gastón Acurio (RPP): el jugo debe quedar abundante. Los frejoles son una adaptación de su frejolada.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-sopa-criolla",
@@ -10749,6 +10749,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
    "local": "Criolla / Limeña",
+   "diet": "carne",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -10843,8 +10844,7 @@
     }
    ],
    "notes": "Fuentes: El Comercio Provecho, Buenazo. El huevo varía: escalfado en la sopa o frito encima.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-tamales-criollos",
@@ -10853,6 +10853,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Criolla / Desayuno y sánguches",
+   "diet": "carne",
    "tag": "Perú / Lima",
    "yield": "8 ud.",
    "parts": [
@@ -10979,8 +10980,7 @@
     }
    ],
    "notes": "Desayuno de domingo y de Fiestas Patrias, con salsa criolla y café pasado. Algunas versiones usan choclo licuado en vez de maíz blanco.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-pan-con-chicharron",
@@ -10989,6 +10989,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Criolla / Desayuno y sánguches",
+   "diet": "carne",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -11087,8 +11088,7 @@
     }
    ],
    "notes": "Clave limeña: cocer en agua y freír en su propia grasa. Día Nacional del Pan con Chicharrón: segundo domingo de septiembre (RM 0368-2025-MIDAGRI).",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-jalea-mixta",
@@ -11097,6 +11097,7 @@
    "group": "Salado",
    "cat": "Mariscos",
    "local": "Marina / Frituras y jaleas",
+   "diet": "pescado",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -11248,8 +11249,7 @@
     }
    ],
    "notes": "Receta de Gastón Acurio (Peru: The Cookbook). Según Marca Perú (peru.info), de raíz norteña (Piura, Lambayeque); hoy clásico de las cebicherías de Lima y Callao. La harina con chuño da el crujiente.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-parihuela",
@@ -11258,6 +11258,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
    "local": "Marina / Calientes",
+   "diet": "pescado",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -11391,8 +11392,7 @@
     }
    ],
    "notes": "Versión de Don Cucho La Rosa (Perú21): sin espesar con chuño ni maicena. Sopa de todo el litoral, muy popular en Lima, Callao y el norte. Se sirve en perol.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-pescado-a-lo-macho",
@@ -11401,6 +11401,7 @@
    "group": "Salado",
    "cat": "Pescados",
    "local": "Marina / Calientes",
+   "diet": "pescado",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -11552,8 +11553,7 @@
     }
    ],
    "notes": "Limeño de los años 50 (Buenazo); el nombre se atribuye al comandante «Macho» Frías o a lo picante. La crema es opcional según la versión.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-escabeche-de-pescado",
@@ -11562,6 +11562,7 @@
    "group": "Salado",
    "cat": "Pescados",
    "local": "Criolla / Limeña",
+   "diet": "pescado",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -11686,8 +11687,7 @@
     }
    ],
    "notes": "Técnica de origen hispano adaptada a la cocina criolla. Don Cucho La Rosa (Perú21) recoge una receta de 1921 con ají mirasol, hierbabuena y apio.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-arroz-con-mariscos",
@@ -11696,6 +11696,7 @@
    "group": "Salado",
    "cat": "Arroces",
    "local": "Marina / Calientes",
+   "diet": "pescado",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -11820,8 +11821,7 @@
     }
    ],
    "notes": "Clásico de cebichería. Debe quedar húmedo y graneado, nunca caldoso. Las versiones modernas añaden crema y parmesano; aquí la tradicional sin lácteos.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-olluquito-con-charqui",
@@ -11830,6 +11830,7 @@
    "group": "Salado",
    "cat": "Hortalizas",
    "local": "Andina",
+   "diet": "carne",
    "tag": "Perú",
    "yield": "4 pax",
    "parts": [
@@ -11904,8 +11905,7 @@
     }
    ],
    "notes": "De origen andino prehispánico (Cusco, Pasco); aparece en el auto sacramental quechua El hijo pródigo (s. XVII). El charqui da la sal.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-papa-a-la-huancaina",
@@ -11914,6 +11914,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Fríos",
    "local": "Criolla / Limeña",
+   "diet": "vegetariano",
    "tag": "Perú / Junín",
    "yield": "4 pax",
    "parts": [
@@ -11992,8 +11993,7 @@
     }
    ],
    "notes": "Especialidad Tradicional Garantizada de Indecopi (2025): «según la tradición de la provincia de Huancayo». Tradicionalmente se muele en batán. Entrada fría o a temperatura ambiente.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-pachamanca-a-la-olla",
@@ -12002,6 +12002,7 @@
    "group": "Salado",
    "cat": "Carnes",
    "local": "Andina",
+   "diet": "carne",
    "tag": "Perú / Junín",
    "yield": "4 pax",
    "parts": [
@@ -12133,8 +12134,7 @@
     }
    ],
    "notes": "La pachamanca (pacha, tierra; manka, olla) es Patrimonio Cultural de la Nación desde 2003 (INC). Día Nacional: primer domingo de febrero (RM 0577-2015-MINAGRI). La original se cuece en hoyo con piedras calientes (huatia) 1–3 h; esta es la versión casera del chef Héctor Lizárraga (RPP). Se acompaña de humitas y ají de huacatay.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-rocoto-relleno",
@@ -12143,6 +12143,7 @@
    "group": "Salado",
    "cat": "Hortalizas",
    "local": "Sureña / Picantería arequipeña",
+   "diet": "carne",
    "tag": "Perú / Arequipa",
    "yield": "4 pax",
    "parts": [
@@ -12277,8 +12278,7 @@
     }
    ],
    "notes": "Arequipa: la picantería arequipeña es Patrimonio Cultural de la Nación (RVM 033-2014-VMPCIC-MC). PromPerú lo llama el plato más icónico de Arequipa. Receta de la picantera Aída Martínez: el queso es paria, no mozzarella.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-chupe-de-camarones",
@@ -12287,6 +12287,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
    "local": "Sureña / Picantería arequipeña",
+   "diet": "pescado",
    "tag": "Perú / Arequipa",
    "yield": "4 pax",
    "parts": [
@@ -12408,8 +12409,7 @@
     }
    ],
    "notes": "Arequipa: la picantería arequipeña es Patrimonio Cultural de la Nación (RVM 033-2014-VMPCIC-MC). Es el caldo de los viernes. Debe quedar más espeso que una sopa sin llegar a guiso. Técnica de la picantería La Capitana (Correo).",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-ocopa-arequipena",
@@ -12418,6 +12418,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Fríos",
    "local": "Sureña / Picantería arequipeña",
+   "diet": "vegetariano",
    "tag": "Perú / Arequipa",
    "yield": "4 pax",
    "parts": [
@@ -12506,8 +12507,7 @@
     }
    ],
    "notes": "Arequipa: la picantería arequipeña es Patrimonio Cultural de la Nación (RVM 033-2014-VMPCIC-MC). Especialidad Tradicional Garantizada de Indecopi (2025), pedida por la Sociedad Picantera de Arequipa. Se distingue por el mirasol tostado y el huacatay.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-adobo-arequipeno",
@@ -12516,6 +12516,7 @@
    "group": "Salado",
    "cat": "Carnes / Porcino",
    "local": "Sureña / Picantería arequipeña",
+   "diet": "carne",
    "tag": "Perú / Arequipa",
    "yield": "4 pax",
    "parts": [
@@ -12574,8 +12575,7 @@
     }
    ],
    "notes": "Arequipa: la picantería arequipeña es Patrimonio Cultural de la Nación (RVM 033-2014-VMPCIC-MC). Desayuno del domingo, y después un té piteado. Día Nacional del Adobo de Cerdo: primer domingo de agosto (MIDAGRI).",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-solterito-arequipeno",
@@ -12584,6 +12584,7 @@
    "group": "Salado",
    "cat": "Ensaladas",
    "local": "Sureña / Picantería arequipeña",
+   "diet": "vegetariano",
    "tag": "Perú / Arequipa",
    "yield": "4 pax",
    "parts": [
@@ -12661,8 +12662,7 @@
     }
    ],
    "notes": "Arequipa: la picantería arequipeña es Patrimonio Cultural de la Nación (RVM 033-2014-VMPCIC-MC). «Soltero de queso». Entrada fresca de picantería; lo tradicional es queso paria y vinagre de chicha.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-cuy-chactado",
@@ -12671,6 +12671,7 @@
    "group": "Salado",
    "cat": "Carnes / Aves y conejo",
    "local": "Sureña / Picantería arequipeña",
+   "diet": "carne",
    "tag": "Perú / Arequipa",
    "yield": "4 pax",
    "parts": [
@@ -12725,8 +12726,7 @@
     }
    ],
    "notes": "Arequipa: la picantería arequipeña es Patrimonio Cultural de la Nación (RVM 033-2014-VMPCIC-MC). «Chactado» es freírlo aplastado bajo una piedra. Andina lo llama plato bandera arequipeño. El chef H. Purizaga (La Olla Arequipeña, en El Comercio) insiste en un macerado sencillo.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-carapulcra-con-sopa-seca",
@@ -12735,6 +12735,7 @@
    "group": "Salado",
    "cat": "Carnes / Porcino",
    "local": "Criolla / Afroperuana",
+   "diet": "carne",
    "tag": "Perú / Ica",
    "yield": "4 pax",
    "parts": [
@@ -12879,8 +12880,7 @@
     }
    ],
    "notes": "Plato bandera de Ica (Ordenanza Regional 016-2021-GORE-ICA); su día es el cuarto domingo de octubre. La chinchana lleva papa fresca, no papa seca (Esther Cartagena «Mamainé», Correo).",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-chiriuchu",
@@ -12889,6 +12889,7 @@
    "group": "Salado",
    "cat": "Carnes",
    "local": "Andina",
+   "diet": "carne",
    "tag": "Perú / Cusco",
    "yield": "4 pax",
    "parts": [
@@ -13023,8 +13024,7 @@
     }
    ],
    "notes": "«Ají frío» en quechua: el plato del Corpus Christi cusqueño. Reúne costa (alga, hueveras), sierra (cuy, charqui, cancha, queso) y selva. Declarado patrimonio por el Parlamento Andino (2024). Se come frío, un poco de todo en cada bocado. Versión casera reducida; la tradicional lleva también tullán y chalona.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-kapchi-de-habas",
@@ -13033,6 +13033,7 @@
    "group": "Salado",
    "cat": "Hortalizas",
    "local": "Andina",
+   "diet": "vegetariano",
    "tag": "Perú / Cusco",
    "yield": "4 pax",
    "parts": [
@@ -13113,8 +13114,7 @@
     }
    ],
    "notes": "Guiso cusqueño. No confundir con el qapchi ayacuchano, que es una salsa fría de queso. El queso entra al final para que no se vuelva elástico.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-choclo-con-queso",
@@ -13123,6 +13123,7 @@
    "group": "Salado",
    "cat": "Hortalizas",
    "local": "Andina",
+   "diet": "vegetariano",
    "tag": "Perú / Cusco",
    "yield": "4 pax",
    "parts": [
@@ -13165,8 +13166,7 @@
     }
    ],
    "notes": "El maíz blanco gigante del Cusco (Calca y Urubamba) tiene Denominación de Origen de Indecopi (2005). El anís y el azúcar en el agua son el toque tradicional (Rely Alencastre).",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-chairo",
@@ -13175,6 +13175,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
    "local": "Andina",
+   "diet": "carne",
    "tag": "Perú / Puno",
    "yield": "4 pax",
    "parts": [
@@ -13254,8 +13255,7 @@
     }
    ],
    "notes": "Sopa aimara del altiplano, compartida con La Paz (Bolivia). Ingredientes según Marca Perú (peru.info). Cuidado con la sal: la chalona ya la lleva.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-trucha-frita",
@@ -13264,6 +13264,7 @@
    "group": "Salado",
    "cat": "Pescados",
    "local": "Andina",
+   "diet": "pescado",
    "tag": "Perú / Puno",
    "yield": "4 pax",
    "parts": [
@@ -13327,8 +13328,7 @@
     }
    ],
    "notes": "Trucha del lago Titicaca, criada en jaulas (especie introducida en el s. XX). Guarnición según Marca Perú (peru.info).",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-puca-picante",
@@ -13337,6 +13337,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "Andina",
+   "diet": "carne",
    "tag": "Perú / Ayacucho",
    "yield": "4 pax",
    "parts": [
@@ -13410,8 +13411,7 @@
     }
    ],
    "notes": "«Picante rojo» de Huamanga, comida de las faenas comunales. Día del Puka Picante: 2 de febrero (ordenanza municipal de Huamanga, 2018). Las versiones con leche o queso son modernas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-mondongo-ayacuchano",
@@ -13420,6 +13420,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
    "local": "Andina",
+   "diet": "carne",
    "tag": "Perú / Ayacucho",
    "yield": "4 pax",
    "parts": [
@@ -13500,8 +13501,7 @@
     }
    ],
    "notes": "Sopa espesa de cocción larga, que puede empezar la víspera. Es la ficha con menos fuentes de referencia: cantidades orientativas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-picante-a-la-tacnena",
@@ -13510,6 +13510,7 @@
    "group": "Salado",
    "cat": "Carnes / Bovino",
    "local": "Sureña / Tacna y Moquegua",
+   "diet": "carne",
    "tag": "Perú / Tacna",
    "yield": "4 pax",
    "parts": [
@@ -13585,8 +13586,7 @@
     }
    ],
    "notes": "Nació en los valles de Locumba y Sama. Día del Picante a la Tacneña: tercer domingo de agosto (Consejo Regional de Tacna, 2014). El orégano de Tacna tiene Denominación de Origen (Indecopi, 2024).",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-arroz-con-pato",
@@ -13595,6 +13595,7 @@
    "group": "Salado",
    "cat": "Arroces",
    "local": "Norteña",
+   "diet": "carne",
    "tag": "Perú / Lambayeque",
    "yield": "4 pax",
    "parts": [
@@ -13685,8 +13686,7 @@
     }
    ],
    "notes": "Plato bandera de Chiclayo, documentado en el s. XIX (Andina). RPP: sin loche no es arroz con pato; el zapallo loche tiene Denominación de Origen (Indecopi, 2010). En España, sustituir por calabaza violín (se pierde el aroma).",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-seco-de-cabrito",
@@ -13695,6 +13695,7 @@
    "group": "Salado",
    "cat": "Carnes / Ovino",
    "local": "Norteña",
+   "diet": "carne",
    "tag": "Perú / Lambayeque",
    "yield": "4 pax",
    "parts": [
@@ -13802,8 +13803,7 @@
     }
    ],
    "notes": "Plato bandera de la costa norte (Lambayeque y La Libertad). Según la receta del INIA (RPP), siempre más comino que pimienta.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-chinguirito",
@@ -13812,6 +13812,7 @@
    "group": "Salado",
    "cat": "Pescados",
    "local": "Marina / Cebiches y tiraditos",
+   "diet": "pescado",
    "tag": "Perú / Lambayeque",
    "yield": "4 pax",
    "parts": [
@@ -13879,8 +13880,7 @@
     }
    ],
    "notes": "Cebiche de pescado seco, herencia de los pescadores de Santa Rosa y San José (Andina). Cantidades orientativas: las fuentes no las dan. En España, lo más parecido es bacalao salado desalado y desmigado. La guitarra es especie en proyectos de conservación.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-shambar",
@@ -13889,6 +13889,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "Norteña",
+   "diet": "carne",
    "tag": "Perú / La Libertad",
    "yield": "4 pax",
    "parts": [
@@ -13992,8 +13993,7 @@
     }
    ],
    "notes": "La sopa de los lunes en Trujillo. En España, el jamón serrano da la sal.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-seco-de-chabelo",
@@ -14002,6 +14002,7 @@
    "group": "Salado",
    "cat": "Carnes / Bovino",
    "local": "Norteña",
+   "diet": "carne",
    "tag": "Perú / Piura",
    "yield": "4 pax",
    "parts": [
@@ -14081,8 +14082,7 @@
     }
    ],
    "notes": "Especialidad Tradicional Garantizada de Indecopi (2026). Día del Seco de Chavelo por acuerdo municipal de Piura (2022). En España: cecina de León y plátano macho verde.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-cebiche-de-conchas-negras",
@@ -14091,6 +14091,7 @@
    "group": "Salado",
    "cat": "Mariscos",
    "local": "Marina / Cebiches y tiraditos",
+   "diet": "pescado",
    "tag": "Perú / Tumbes",
    "yield": "4 pax",
    "parts": [
@@ -14148,8 +14149,7 @@
     }
    ],
    "notes": "Del manglar de Tumbes. Receta de Gastón Acurio (RPP). Bivalvo crudo: solo de procedencia autorizada. En España se encuentra congelada de Ecuador; si no, usar mejillón o berberecho grande.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-caldo-verde",
@@ -14158,6 +14158,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
    "local": "Andina",
+   "diet": "vegetariano",
    "tag": "Perú / Cajamarca",
    "yield": "4 pax",
    "parts": [
@@ -14249,8 +14250,7 @@
     }
    ],
    "notes": "Desayuno cajamarquino (RPP). Se acompaña de pan de agua. En España: paico = epazote; huacatay en pasta.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-juane-de-gallina",
@@ -14259,6 +14259,7 @@
    "group": "Salado",
    "cat": "Arroces",
    "local": "Amazónica",
+   "diet": "carne",
    "tag": "Perú / San Martín",
    "yield": "8 ud.",
    "parts": [
@@ -14356,8 +14357,7 @@
     }
    ],
    "notes": "Plato de la Fiesta de San Juan (24 de junio, feriado regional en Loreto); su forma recuerda la cabeza del santo. Cocción según Caretas. En España: hoja de plátano y culantro (recao).",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-tacacho-con-cecina",
@@ -14366,6 +14366,7 @@
    "group": "Salado",
    "cat": "Carnes / Porcino",
    "local": "Amazónica",
+   "diet": "carne",
    "tag": "Perú / San Martín",
    "yield": "4 pax",
    "parts": [
@@ -14443,8 +14444,7 @@
     }
    ],
    "notes": "Desayuno de Tarapoto. La cecina amazónica es cerdo salado y ahumado (no la de León): en España, aguja o panceta ahumadas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-patarashca",
@@ -14453,6 +14453,7 @@
    "group": "Salado",
    "cat": "Pescados",
    "local": "Amazónica",
+   "diet": "pescado",
    "tag": "Perú / Loreto",
    "yield": "4 pax",
    "parts": [
@@ -14516,8 +14517,7 @@
     }
    ],
    "notes": "Técnica amazónica de asar envuelto en hoja (Loreto, Ucayali, San Martín). Sacha culantro = culantro o recao de tiendas latinas y asiáticas.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-inchicapi",
@@ -14526,6 +14526,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
    "local": "Amazónica",
+   "diet": "carne",
    "tag": "Perú / Loreto",
    "yield": "4 pax",
    "parts": [
@@ -14594,8 +14595,7 @@
     }
    ],
    "notes": "Del quechua inchik (maní) y api (sopa). Sopa amazónica de Loreto y San Martín (Andina).",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-hummus-bi-tahini",
@@ -14604,6 +14604,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Fríos",
    "local": "Mazza / Fríos (bārde)",
+   "diet": "vegano",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -14674,8 +14675,7 @@
     }
    ],
    "notes": "Récord Guinness de la mayor ración de hummus (Beirut, 2010, 10.452 kg; chef Ramzi Choueiri). Pelar los garbanzos es lo que da la textura libanesa. Fuentes: Anissa Helou, Maureen Abood.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-moutabal",
@@ -14684,6 +14684,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Fríos",
    "local": "Mazza / Fríos (bārde)",
+   "diet": "vegano",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -14737,8 +14738,7 @@
     }
    ],
    "notes": "«Mtabbal» significa «sazonado». El ahumado a la llama es la clave. En el Líbano a menudo se le llama también baba ghannouj. Fuentes: Taste of Beirut (Joumana Accad), Maureen Abood.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-baba-ghannouj",
@@ -14747,6 +14747,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Fríos",
    "local": "Mazza / Fríos (bārde)",
+   "diet": "vegano",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -14824,8 +14825,7 @@
     }
    ],
    "notes": "Versión en ensalada, sin tahini, frecuente en la mesa libanesa y siria. No hay una fuente libanesa de autoridad que la fije: es la ficha con menos respaldo de las mezze.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-tabbouleh",
@@ -14834,6 +14834,7 @@
    "group": "Salado",
    "cat": "Ensaladas",
    "local": "Mazza / Fríos (bārde)",
+   "diet": "vegano",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -14908,8 +14909,7 @@
     }
    ],
    "notes": "Es una ensalada de perejil, no de bulgur (Anissa Helou). Récord Guinness en Beirut (2009, 3.557 kg). Día Nacional del Tabbouleh en julio. Se toma el mismo día.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-fattoush",
@@ -14918,6 +14918,7 @@
    "group": "Salado",
    "cat": "Ensaladas",
    "local": "Mazza / Fríos (bārde)",
+   "diet": "vegano",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -15034,8 +15035,7 @@
     }
    ],
    "notes": "La verdolaga es esencial en el Líbano (Maureen Abood). Récord en Kab Elias (Bekaa, 2010), según la prensa libanesa. Fuentes: Taste of Beirut, Maureen Abood.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-warak-enab-bi-zeit",
@@ -15044,6 +15044,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Fríos",
    "local": "Bi zeit",
+   "diet": "vegano",
    "tag": "Líbano",
    "yield": "40 ud.",
    "parts": [
@@ -15134,8 +15135,7 @@
     }
    ],
    "notes": "Versión vegetal «en aceite», para tomar fría. La Food Heritage Foundation documenta una variante con bulgur.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-loubieh-bi-zeit",
@@ -15144,6 +15144,7 @@
    "group": "Salado",
    "cat": "Hortalizas",
    "local": "Bi zeit",
+   "diet": "vegano",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -15208,8 +15209,7 @@
     }
    ],
    "notes": "Plato «bi zeit» (en aceite): se come frío, nunca caliente. Aguanta una semana en nevera.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-hindbeh-bi-zeit",
@@ -15218,6 +15218,7 @@
    "group": "Salado",
    "cat": "Hortalizas",
    "local": "Bi zeit",
+   "diet": "vegano",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -15277,8 +15278,7 @@
     }
    ],
    "notes": "Hierba silvestre de primavera. Se sirve templado con limón y pan árabe.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-balila",
@@ -15287,6 +15287,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Mazza / Calientes (sukhne)",
+   "diet": "vegano",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -15339,8 +15340,7 @@
     }
    ],
    "notes": "Desayuno o mezze caliente. Receta de Joumana Accad (Taste of Beirut).",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-foul-moudammas",
@@ -15349,6 +15349,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Mazza / Calientes (sukhne)",
+   "diet": "vegano",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -15408,8 +15409,7 @@
     }
    ],
    "notes": "De origen probablemente egipcio (Food Heritage Foundation); en el Líbano es desayuno y lleva garbanzos.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-falafel",
@@ -15418,6 +15418,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Comida callejera",
+   "diet": "vegano",
    "tag": "Líbano",
    "yield": "20 ud.",
    "parts": [
@@ -15531,8 +15532,7 @@
     }
    ],
    "notes": "En el Líbano se mezcla garbanzo y haba. Récord Guinness de falafel (Beirut, 2010, 5.173 kg). El bicarbonato al final lo hace esponjoso (Anissa Helou). Falafel Sahyoun, en Beirut, abrió en 1933.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-batata-harra",
@@ -15541,6 +15541,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Mazza / Calientes (sukhne)",
+   "diet": "vegano",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -15603,8 +15604,7 @@
     }
    ],
    "notes": "«Patatas picantes». La versión tradicional es frita; las hay asadas. Fuentes: Arab News, The Matbakh.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-kibbeh-krass",
@@ -15613,6 +15613,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Kebbeh / Frita o a la brasa",
+   "diet": "carne",
    "tag": "Líbano",
    "yield": "20 ud.",
    "parts": [
@@ -15724,8 +15725,7 @@
     }
    ],
    "notes": "Siete especias (sabaa baharat): mezcla libanesa con la pimienta de Jamaica como especia principal, más pimienta negra, canela, clavo, nuez moscada, jengibre y cilantro o fenogreco; sirve la comercial. Repertorio de kibbeh de Zgharta-Ehden (L'Orient-Le Jour). Fuentes: Maureen Abood, Hadia's Lebanese Cuisine.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-sambousek-bi-lahmeh",
@@ -15734,6 +15734,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Mu'ajjanat / Fatayer y sfiha (empanadillas)",
+   "diet": "carne",
    "tag": "Líbano",
    "yield": "20 ud.",
    "parts": [
@@ -15816,8 +15817,7 @@
     }
    ],
    "notes": "Empanadillas de mezze. También se hornean a 200 ºC. Fuentes: Za'atar & Zaytoun, Hilda's Kitchen.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-fatayer-bi-sabanekh",
@@ -15826,6 +15826,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Mu'ajjanat / Fatayer y sfiha (empanadillas)",
+   "diet": "vegano",
    "tag": "Líbano",
    "yield": "20 ud.",
    "parts": [
@@ -15918,8 +15919,7 @@
     }
    ],
    "notes": "El relleno debe ser muy ácido y estar bien escurrido para que no se abran. Fuentes: Anissa Helou (Middle East Eye), Maureen Abood.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-man-oushe-bi-za-atar",
@@ -15928,6 +15928,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Mu'ajjanat / Manaqish (panes abiertos)",
+   "diet": "vegano",
    "tag": "Líbano",
    "yield": "4 ud.",
    "parts": [
@@ -16001,8 +16002,7 @@
     }
    ],
    "notes": "Patrimonio Cultural Inmaterial de la UNESCO (2023): «Al-Man'ouché, práctica culinaria emblemática del Líbano». Masa de Barbara Abdeni Massaad («Man'oushé», 2020). Ver «Za'atar» en Productos.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-lahm-bi-ajin",
@@ -16011,6 +16011,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Mu'ajjanat / Manaqish (panes abiertos)",
+   "diet": "carne",
    "tag": "Líbano",
    "yield": "8 ud.",
    "parts": [
@@ -16112,8 +16113,7 @@
     }
    ],
    "notes": "Pan plano con carne cruda que se cuece en el horno. Fuente principal: «Sofra» (vía SBS).",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-sfiha-baalbakiyeh",
@@ -16122,6 +16122,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Mu'ajjanat / Fatayer y sfiha (empanadillas)",
+   "diet": "carne",
    "tag": "Líbano / Bekaa",
    "yield": "20 ud.",
    "parts": [
@@ -16214,8 +16215,7 @@
     }
    ],
    "notes": "Especialidad de Baalbek (L'Orient-Le Jour). Masa de Ramzi Choueiri («The Arabian Cookbook»). Las versiones modernas añaden tahini, melaza de granada o pasta de pimiento.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-makanek",
@@ -16224,6 +16224,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Mazza / Calientes (sukhne)",
+   "diet": "carne",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -16313,8 +16314,7 @@
     }
    ],
    "notes": "Salchichitas de mezze; el nombre viene del latín lucanica. Sin tripa: formar cilindros con film.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-arayes",
@@ -16323,6 +16323,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Mashawi",
+   "diet": "carne",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -16391,8 +16392,7 @@
     }
    ],
    "notes": "«Novias». Claudia Roden ya lo recoge en restaurantes libaneses en 1968. También al horno a 200–220 ºC 15–20 min.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-kibbeh-bil-sanieh",
@@ -16401,6 +16401,7 @@
    "group": "Salado",
    "cat": "Carnes / Ovino",
    "local": "Kebbeh / Al horno (bil sanieh)",
+   "diet": "carne",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -16512,8 +16513,7 @@
     }
    ],
    "notes": "Siete especias (sabaa baharat): mezcla libanesa con la pimienta de Jamaica como especia principal, más pimienta negra, canela, clavo, nuez moscada, jengibre y cilantro o fenogreco; sirve la comercial. El kibbeh es el plato nacional. Récord Guinness del mayor kibbeh: Ehden (Zgharta), 2009, 233 kg. Fuentes: Maureen Abood, Alan Geaam (L'Orient-Le Jour).",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-kibbeh-nayeh",
@@ -16522,6 +16522,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Fríos",
    "local": "Kebbeh / Cruda (nayye)",
+   "diet": "carne",
    "tag": "Líbano / Norte",
    "yield": "4 pax",
    "parts": [
@@ -16592,8 +16593,7 @@
     }
    ],
    "notes": "Emblema de Zgharta-Ehden, donde se machaca en mortero de piedra (jurn). Kamal Mouzawak lo llama «la comida festiva libanesa por excelencia». SEGURIDAD: nunca con carne picada de bandeja; todo por debajo de 4 ºC; congelar antes contra parásitos (no elimina bacterias); lo que sobre, cocinarlo. Desaconsejado en embarazo, niños, mayores e inmunodeprimidos.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-kibbeh-labanieh",
@@ -16602,6 +16602,7 @@
    "group": "Salado",
    "cat": "Carnes / Ovino",
    "local": "Kebbeh / Guisada en salsa",
+   "diet": "carne",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -16710,8 +16711,7 @@
     }
    ],
    "notes": "«Plato blanco» de principio de año, para atraer la buena suerte (Tara Khattar, L'Orient-Le Jour). Fuentes: Maureen Abood, Hadia's Lebanese Cuisine.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-shish-barak",
@@ -16720,6 +16720,7 @@
    "group": "Salado",
    "cat": "Pastas alimenticias",
    "local": "Tabkhat / En yogur",
+   "diet": "carne",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -16833,8 +16834,7 @@
     }
    ],
    "notes": "Empanadillas en yogur, compartidas con Siria y Palestina. Fuentes: DiscoverLebanon, chef Rober Salloum (Gulf News).",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-kafta-mashwiyeh",
@@ -16843,6 +16843,7 @@
    "group": "Salado",
    "cat": "Carnes / Bovino",
    "local": "Mashawi",
+   "diet": "carne",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -16900,8 +16901,7 @@
     }
    ],
    "notes": "Siete especias (sabaa baharat): mezcla libanesa con la pimienta de Jamaica como especia principal, más pimienta negra, canela, clavo, nuez moscada, jengibre y cilantro o fenogreco; sirve la comercial. Fuentes: Maureen Abood, Simply Lebanese.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-shish-taouk",
@@ -16910,6 +16910,7 @@
    "group": "Salado",
    "cat": "Carnes / Aves y conejo",
    "local": "Mashawi",
+   "diet": "carne",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17010,8 +17011,7 @@
     }
    ],
    "notes": "Del turco tavuk şiş. Se sirve con toum, patatas fritas, pepinillos encurtidos y pan árabe. Fuente: Maureen Abood.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-shawarma-de-pollo",
@@ -17020,6 +17020,7 @@
    "group": "Salado",
    "cat": "Carnes / Aves y conejo",
    "local": "Comida callejera",
+   "diet": "carne",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17162,8 +17163,7 @@
     }
    ],
    "notes": "Versión casera del icono callejero de Beirut, heredero del döner otomano. Fuentes: Hadia's Lebanese Cuisine, L'Orient-Le Jour.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-riz-a-djej",
@@ -17172,6 +17172,7 @@
    "group": "Salado",
    "cat": "Arroces",
    "local": "Tabkhat / Arroces y cereales",
+   "diet": "carne",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17278,8 +17279,7 @@
     }
    ],
    "notes": "Arroz de fiesta. Anissa Helou («Lebanon», 2026) asa el pollo entero relleno de este arroz.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-kousa-mahshi",
@@ -17288,6 +17288,7 @@
    "group": "Salado",
    "cat": "Hortalizas",
    "local": "Mahashi",
+   "diet": "carne",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17367,8 +17368,7 @@
     }
    ],
    "notes": "Versión en tomate (bi banadoura); la otra se hace en yogur (bi laban). Mejora de un día para otro (Maureen Abood).",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-malfouf-mahshi",
@@ -17377,6 +17377,7 @@
    "group": "Salado",
    "cat": "Hortalizas",
    "local": "Mahashi",
+   "diet": "carne",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17452,8 +17453,7 @@
     }
    ],
    "notes": "Plato de invierno. Kamal Mouzawak («Manger libanais») añade perejil, menta y cebolla al relleno.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-mujaddara",
@@ -17462,6 +17462,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "Tabkhat / Arroces y cereales",
+   "diet": "vegano",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17526,8 +17527,7 @@
     }
    ],
    "notes": "Plato de Cuaresma. La mujaddara es la versión en puré; la moudardara, la de grano suelto con cebolla crujiente encima (Anissa Helou, Food Heritage Foundation).",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-moghrabieh",
@@ -17536,6 +17536,7 @@
    "group": "Salado",
    "cat": "Pastas alimenticias",
    "local": "Tabkhat / Arroces y cereales",
+   "diet": "carne",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17643,8 +17644,7 @@
     }
    ],
    "notes": "Plato de domingo de las ciudades, según Kamal Mouzawak («Manger libanais»). La alcaravea es la especia clave.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-mloukhieh",
@@ -17653,6 +17653,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "Tabkhat / Yakhneh (guisos)",
+   "diet": "carne",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17742,8 +17743,7 @@
     }
    ],
    "notes": "Estilo libanés: hojas enteras (en Egipto se pican). Receta de Tara Khattar (L'Orient-Le Jour).",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-sayadieh",
@@ -17752,6 +17752,7 @@
    "group": "Salado",
    "cat": "Arroces",
    "local": "Samak",
+   "diet": "pescado",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17837,8 +17838,7 @@
     }
    ],
    "notes": "«La del pescador»: plato de los pueblos pesqueros de la costa. El color viene solo de la cebolla (la cúrcuma es moderna).",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-samkeh-harra",
@@ -17847,6 +17847,7 @@
    "group": "Salado",
    "cat": "Pescados",
    "local": "Samak",
+   "diet": "pescado",
    "tag": "Líbano / Norte",
    "yield": "4 pax",
    "parts": [
@@ -17930,8 +17931,7 @@
     }
    ],
    "notes": "«Pescado picante» de Trípoli (barrio de El Mina). Receta de Hana el-Zeini para la Food Heritage Foundation; para ocasiones y reuniones familiares.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-shorbat-adas",
@@ -17940,6 +17940,7 @@
    "group": "Salado",
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Cremas calientes",
    "local": "Tabkhat / Sopas (shorba)",
+   "diet": "vegano",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -18012,8 +18013,7 @@
     }
    ],
    "notes": "Crema de lentejas rojas. La otra sopa clásica es el adas bi hamod, de lenteja pardina, acelga y mucho limón (Food Heritage Foundation).",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-fatteh-hummus",
@@ -18022,6 +18022,7 @@
    "group": "Salado",
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Mazza / Calientes (sukhne)",
+   "diet": "vegetariano",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -18096,8 +18097,7 @@
     }
    ],
    "notes": "Desayuno de fin de semana en Beirut y forma de aprovechar el pan duro. Ramzi Choueiri también logró un récord con la fatteh.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-moussaka-a-batinjan",
@@ -18106,6 +18106,7 @@
    "group": "Salado",
    "cat": "Hortalizas",
    "local": "Bi zeit",
+   "diet": "vegano",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -18169,8 +18170,7 @@
     }
    ],
    "notes": "Guiso vegano sin carne, de mezze o principal (Salma Hage, «The Lebanese Kitchen»). No es la musaca griega.",
-   "done": false,
-   "pesce": true
+   "done": false
   },
   {
    "id": "r-recetas-kebbeh-arnabieh",
@@ -18179,6 +18179,7 @@
    "group": "Salado",
    "cat": "Carnes / Ovino",
    "local": "Kebbeh / Guisada en salsa",
+   "diet": "carne",
    "tag": "Líbano / Beirut",
    "yield": "4 pax",
    "parts": [
@@ -18247,8 +18248,7 @@
     }
    ],
    "notes": "«Una de las recetas célebres de Beirut» (Food Heritage Foundation). Plato de invierno y de Año Nuevo, en temporada de naranja amarga: en Valencia, de enero a marzo. Variante rápida con dados de cordero.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-yakhnet-bamieh",
@@ -18257,6 +18257,7 @@
    "group": "Salado",
    "cat": "Carnes / Ovino",
    "local": "Tabkhat / Yakhneh (guisos)",
+   "diet": "carne",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -18340,8 +18341,7 @@
     }
    ],
    "notes": "La versión vegetal en aceite (bamieh bi zeit) se sirve fría. Fuentes: Gulf News, Za'atar & Zaytoun.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-knefeh",
@@ -18350,6 +18350,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "Halawiyat / Con almíbar o ashta",
+   "diet": "vegetariano",
    "tag": "Líbano",
    "yield": "8 raciones",
    "parts": [
@@ -18438,8 +18439,7 @@
     }
    ],
    "notes": "Desayuno callejero de Beirut y especialidad de las pastelerías de Trípoli (Hallab, desde 1881). Receta de Maureen Abood. Lo más tradicional: base solo de kataifi con ghee, cocida sobre el fuego.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-halawet-el-jibn",
@@ -18448,6 +18448,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "Halawiyat / Con almíbar o ashta",
+   "diet": "vegetariano",
    "tag": "Líbano / Norte",
    "yield": "30 ud.",
    "parts": [
@@ -18564,8 +18565,7 @@
     }
    ],
    "notes": "«Dulce de queso». Origen sirio (Hama u Homs, s. XIX); en el Líbano, Trípoli es su gran plaza. Se toma el mismo día; en nevera, hasta 4 días.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-ma-amoul",
@@ -18574,6 +18574,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "Halawiyat / Horneados sin almíbar",
+   "diet": "vegetariano",
    "tag": "Líbano",
    "yield": "30 ud.",
    "parts": [
@@ -18666,8 +18667,7 @@
     }
    ],
    "notes": "Pastas de Pascua y de Eid, símbolo de reunión familiar. Receta de la chef Amani (L'Orient-Le Jour), a mitad de cantidad. Cada relleno tiene su molde.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-mouhalabieh",
@@ -18676,6 +18676,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "Halawiyat / De cuchara",
+   "diet": "vegetariano",
    "tag": "Líbano",
    "yield": "6 ud.",
    "parts": [
@@ -18725,8 +18726,7 @@
     }
    ],
    "notes": "Flan de leche, postre o merienda. Receta de Orange Blossom Water.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-sfouf",
@@ -18735,6 +18735,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "Halawiyat / Horneados sin almíbar",
+   "diet": "vegetariano",
    "tag": "Líbano",
    "yield": "24 ud.",
    "parts": [
@@ -18804,8 +18805,7 @@
     }
    ],
    "notes": "«Filas», por cómo se corta. Bizcocho sin huevo, para reuniones y cumpleaños; mejor al día siguiente. El anís y el molde con tahini son lo tradicional (Taste of Beirut).",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-namoura",
@@ -18814,6 +18814,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "Halawiyat / Con almíbar o ashta",
+   "diet": "vegetariano",
    "tag": "Líbano",
    "yield": "16 ud.",
    "parts": [
@@ -18918,8 +18919,7 @@
     }
    ],
    "notes": "Bizcocho de sémola en almíbar (en Egipto, basbousa). Regla: almíbar frío sobre bizcocho caliente. Receta de Simply Lebanese.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-atayef-bi-ashta",
@@ -18928,6 +18928,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "Halawiyat / Con almíbar o ashta",
+   "diet": "vegetariano",
    "tag": "Líbano",
    "yield": "20 ud.",
    "parts": [
@@ -19069,8 +19070,7 @@
     }
    ],
    "notes": "El dulce del Ramadán en el Levante (Saveur). La versión con nuez se cierra del todo y se fríe. Masa de Rym Akkad (L'Orient-Le Jour).",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-meghli",
@@ -19079,6 +19079,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "Halawiyat / De cuchara",
+   "diet": "vegano",
    "tag": "Líbano",
    "yield": "4 ud.",
    "parts": [
@@ -19132,8 +19133,7 @@
     }
    ],
    "notes": "Se ofrece a las visitas para celebrar un nacimiento, y en Navidad. Se dice que la alcaravea favorece la leche materna. Receta de Simply Lebanese.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-riz-bi-halib",
@@ -19142,6 +19142,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "Halawiyat / De cuchara",
+   "diet": "vegetariano",
    "tag": "Líbano",
    "yield": "5 ud.",
    "parts": [
@@ -19200,8 +19201,7 @@
     }
    ],
    "notes": "Arroz con leche perfumado con aguas de flores. Solo hay fuentes de recetarios caseros (Simply Lebanese, Alphafoodie).",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-recetas-znoud-el-sit",
@@ -19210,6 +19210,7 @@
    "group": "Dulce",
    "cat": "",
    "local": "Halawiyat / Con almíbar o ashta",
+   "diet": "vegetariano",
    "tag": "Líbano",
    "yield": "12 ud.",
    "parts": [
@@ -19321,8 +19322,7 @@
     }
    ],
    "notes": "«Brazos de la señora», por su forma. Dulce de Ramadán, con café o té. Se congelan crudos y se fríen directamente.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-chucrut",
@@ -19331,6 +19331,7 @@
    "group": "Fermentos",
    "cat": "Hortalizas y frutas",
    "local": "",
+   "diet": "vegano",
    "tag": "Alemania",
    "yield": "2 tarros de 1 l",
    "parts": [
@@ -19367,8 +19368,7 @@
     }
    ],
    "notes": "Fuente: NCHFP (USDA). Por debajo de 15 ºC puede no fermentar y por encima de 24 ºC se ablanda. Si queda blando, viscoso o huele mal, desechar. En nevera dura varios meses.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-kimchi",
@@ -19377,6 +19377,7 @@
    "group": "Fermentos",
    "cat": "Hortalizas y frutas",
    "local": "",
+   "diet": "pescado",
    "tag": "Corea del Sur",
    "yield": "1 tarro de 2 l",
    "parts": [
@@ -19472,8 +19473,7 @@
     }
    ],
    "notes": "Fuente: Oregon State University Extension. La sal final debe quedar entre el 2 y el 5 % y conviene tenerlo siempre en nevera. Mantener las verduras sumergidas en su jugo. Para versión pescetariana sin pescado, sustituir la salsa de pescado por salsa de soja.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-kombucha",
@@ -19482,6 +19482,7 @@
    "group": "Fermentos",
    "cat": "Bebidas ácidas",
    "local": "",
+   "diet": "vegano",
    "tag": "",
    "yield": "3,8 l",
    "parts": [
@@ -19534,8 +19535,7 @@
     }
    ],
    "notes": "Fuente: NCHFP (USDA). No cerrar herméticamente ni dejar botellas a temperatura ambiente: el CO₂ puede reventarlas. Si se aromatiza con fruta o jengibre tras fermentar, tomar enseguida o guardar en nevera un máximo de 2 días.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-kefir-de-leche",
@@ -19544,6 +19544,7 @@
    "group": "Fermentos",
    "cat": "Leche",
    "local": "",
+   "diet": "vegetariano",
    "tag": "Rusia / Cáucaso",
    "yield": "1 l",
    "parts": [
@@ -19572,8 +19573,7 @@
     }
    ],
    "notes": "Si se pasa de fermentación se separa el suero: remover y tomar igual. Los nódulos crecen; el sobrante se puede regalar o congelar.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-kefir-de-agua",
@@ -19582,6 +19582,7 @@
    "group": "Fermentos",
    "cat": "Bebidas ácidas",
    "local": "",
+   "diet": "vegano",
    "tag": "México",
    "yield": "1 l",
    "parts": [
@@ -19626,8 +19627,7 @@
     }
    ],
    "notes": "Los tibicos tienen tradición en México. En la segunda fermentación en botella cerrada, aliviar la presión cada 12 h para evitar que revienten.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-yogur-natural",
@@ -19636,6 +19636,7 @@
    "group": "Fermentos",
    "cat": "Leche",
    "local": "",
+   "diet": "vegetariano",
    "tag": "Bulgaria",
    "yield": "1 l",
    "parts": [
@@ -19665,8 +19666,7 @@
     }
    ],
    "notes": "Calentar a 85–90 ºC hace que quede más firme. Guardar 2 cucharadas para la siguiente tanda.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-masa-madre",
@@ -19675,6 +19675,7 @@
    "group": "Fermentos",
    "cat": "Cereales y tubérculos",
    "local": "",
+   "diet": "vegano",
    "tag": "",
    "yield": "200 g",
    "parts": [
@@ -19702,8 +19703,7 @@
     }
    ],
    "notes": "Al principio puede haber burbujas y olores raros que luego se estabilizan. Desechar si aparece moho de colores.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-miso",
@@ -19712,6 +19712,7 @@
    "group": "Fermentos",
    "cat": "Mohos",
    "local": "",
+   "diet": "vegano",
    "tag": "Japón",
    "yield": "3,5 kg",
    "parts": [
@@ -19763,8 +19764,7 @@
     }
    ],
    "notes": "Fuente: All About (Japón), receta de miso casero. El moho blanco superficial es normal y se retira. Una vez a punto, guardar en nevera.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-tepache",
@@ -19773,6 +19773,7 @@
    "group": "Fermentos",
    "cat": "Bebidas ácidas",
    "local": "",
+   "diet": "vegano",
    "tag": "México",
    "yield": "2 l",
    "parts": [
@@ -19816,8 +19817,7 @@
     }
    ],
    "notes": "La receta de 1947 de la Enciclopedia del Hogar añadía cebada cocida en la segunda fase. Si se deja más días se vuelve alcohólico y después avinagra.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-kvas-de-pan",
@@ -19826,6 +19826,7 @@
    "group": "Fermentos",
    "cat": "Bebidas ácidas",
    "local": "",
+   "diet": "vegano",
    "tag": "Rusia",
    "yield": "3 l",
    "parts": [
@@ -19871,8 +19872,7 @@
     }
    ],
    "notes": "Bebida tradicional del este de Europa, con muy poco alcohol. Abrir con cuidado por la presión.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-pepinillos-fermentados-ogorki-kiszone",
@@ -19881,6 +19881,7 @@
    "group": "Fermentos",
    "cat": "Hortalizas y frutas",
    "local": "",
+   "diet": "vegano",
    "tag": "Polonia",
    "yield": "1 tarro de 3 l",
    "parts": [
@@ -19937,8 +19938,7 @@
     }
    ],
    "notes": "Las hojas aportan taninos que los mantienen crujientes. Evitar temperaturas por encima de 27 ºC. Desechar si se ponen blandos o viscosos (NCHFP).",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-salsa-picante-fermentada",
@@ -19947,6 +19947,7 @@
    "group": "Fermentos",
    "cat": "Hortalizas y frutas",
    "local": "",
+   "diet": "vegano",
    "tag": "Estados Unidos / Luisiana",
    "yield": "500 ml",
    "parts": [
@@ -19992,8 +19993,7 @@
     }
    ],
    "notes": "El vinagre final la estabiliza. En nevera aguanta varios meses.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-ginger-beer",
@@ -20002,6 +20002,7 @@
    "group": "Fermentos",
    "cat": "Bebidas ácidas",
    "local": "",
+   "diet": "vegano",
    "tag": "Reino Unido",
    "yield": "2 l",
    "parts": [
@@ -20066,8 +20067,7 @@
     }
    ],
    "notes": "Bebida carbonatada tradicional inglesa con muy poco alcohol. Mucho cuidado con la presión: usar botellas de cierre mecánico o de plástico para controlar cuándo están duras.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-natto",
@@ -20076,6 +20076,7 @@
    "group": "Fermentos",
    "cat": "Legumbres, semillas y frutos secos",
    "local": "",
+   "diet": "vegano",
    "tag": "Japón / Kanto",
    "yield": "600 g",
    "parts": [
@@ -20110,8 +20111,7 @@
     }
    ],
    "notes": "Típico de Mito (Ibaraki). Debe formar hilos al remover. Se congela bien en raciones.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-tempeh",
@@ -20120,6 +20120,7 @@
    "group": "Fermentos",
    "cat": "Mohos",
    "local": "",
+   "diet": "vegano",
    "tag": "Indonesia / Java",
    "yield": "500 g",
    "parts": [
@@ -20155,8 +20156,7 @@
     }
    ],
    "notes": "Desechar si huele a amoníaco fuerte o aparece moho de otros colores. Cocinar siempre antes de comer.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-creme-fraiche",
@@ -20165,6 +20165,7 @@
    "group": "Fermentos",
    "cat": "Leche",
    "local": "",
+   "diet": "vegetariano",
    "tag": "Francia / Normandía",
    "yield": "500 ml",
    "parts": [
@@ -20193,8 +20194,7 @@
     }
    ],
    "notes": "Típica de Normandía. Aguanta la cocción sin cortarse, a diferencia de la nata agria.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-limones-encurtidos-en-sal",
@@ -20203,6 +20203,7 @@
    "group": "Fermentos",
    "cat": "Hortalizas y frutas",
    "local": "",
+   "diet": "vegano",
    "tag": "Marruecos",
    "yield": "1 tarro de 1 l",
    "parts": [
@@ -20237,8 +20238,7 @@
     }
    ],
    "notes": "Básicos en tajines y ensaladas marroquíes. Duran meses en nevera, siempre cubiertos de jugo.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-curtido-salvadoreno",
@@ -20247,6 +20247,7 @@
    "group": "Fermentos",
    "cat": "Hortalizas y frutas",
    "local": "",
+   "diet": "vegano",
    "tag": "El Salvador",
    "yield": "1 tarro de 1,5 l",
    "parts": [
@@ -20295,8 +20296,7 @@
     }
    ],
    "notes": "Acompañamiento clásico de las pupusas. La versión rápida no fermenta: se escalda el repollo y se aliña con vinagre.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-masa-de-idli",
@@ -20305,6 +20305,7 @@
    "group": "Fermentos",
    "cat": "Cereales y tubérculos",
    "local": "",
+   "diet": "vegano",
    "tag": "India / Tamil Nadu",
    "yield": "24 ud.",
    "parts": [
@@ -20349,8 +20350,7 @@
     }
    ],
    "notes": "La masa fermentada aguanta 3–4 días en nevera. Con más agua sirve para dosas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-vinagre-casero",
@@ -20359,6 +20359,7 @@
    "group": "Fermentos",
    "cat": "Bebidas ácidas",
    "local": "",
+   "diet": "vegano",
    "tag": "Francia",
    "yield": "750 ml",
    "parts": [
@@ -20387,8 +20388,7 @@
     }
    ],
    "notes": "Método tradicional de Orleans. Si el vino tiene más de 12 % vol., rebajarlo con agua. El vinagre casero no tiene acidez garantizada: no usarlo para conservas que dependan del vinagre.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-pepinillos-en-vinagre-al-eneldo",
@@ -20397,6 +20397,7 @@
    "group": "Encurtidos",
    "cat": "En vinagre o ácido / Ácidos",
    "local": "",
+   "diet": "vegano",
    "tag": "",
    "yield": "4 tarros de 500 ml",
    "parts": [
@@ -20474,8 +20475,7 @@
     }
    ],
    "notes": "Fuente: NCHFP (USDA), «Quick fresh-pack dill pickles». Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-berenjenas-de-almagro",
@@ -20484,6 +20484,7 @@
    "group": "Encurtidos",
    "cat": "En vinagre o ácido / Ácidos",
    "local": "",
+   "diet": "vegano",
    "tag": "España / Castilla-La Mancha",
    "yield": "2 tarros de 1 l",
    "parts": [
@@ -20567,8 +20568,7 @@
     }
    ],
    "notes": "Proceso según el pliego de la IGP Berenjena de Almagro: cocción de 5–20 min y fermentación de 4–15 días en el aliño (vinagre, aceite, sal, comino, ajo, pimentón y agua). Las cantidades son orientativas de uso casero. Tipos: aliñadas, embuchadas y troceadas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-guindillas-de-ibarra-en-vinagre",
@@ -20577,6 +20577,7 @@
    "group": "Encurtidos",
    "cat": "En vinagre o ácido / Ácidos",
    "local": "",
+   "diet": "vegano",
    "tag": "España / País Vasco",
    "yield": "3 tarros de 500 ml",
    "parts": [
@@ -20616,8 +20617,7 @@
     }
    ],
    "notes": "Proporción de 3 partes de vinagre por 1 de agua, que da acidez suficiente. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas. Imprescindibles en la gilda.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-aceitunas-partidas-alinadas",
@@ -20626,6 +20626,7 @@
    "group": "Encurtidos",
    "cat": "Curados en sal o sazonador / Aceitunas de mesa aliñadas",
    "local": "",
+   "diet": "vegano",
    "tag": "España / Andalucía",
    "yield": "2 tarros de 1 l",
    "parts": [
@@ -20703,8 +20704,7 @@
     }
    ],
    "notes": "Estilo de la DOP Aceituna Aloreña de Málaga, que se toma tierna y verde. Mantener siempre cubiertas de salmuera.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-cebolletas-en-vinagre",
@@ -20713,6 +20713,7 @@
    "group": "Encurtidos",
    "cat": "En vinagre o ácido / Ácidos",
    "local": "",
+   "diet": "vegano",
    "tag": "Reino Unido",
    "yield": "2 tarros de 500 ml",
    "parts": [
@@ -20762,8 +20763,7 @@
     }
    ],
    "notes": "Clásico de los pubs ingleses con el ploughman's lunch. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-piccalilli",
@@ -20772,6 +20772,7 @@
    "group": "Encurtidos",
    "cat": "En vinagre o ácido / Picados, chutneys y relishes",
    "local": "",
+   "diet": "vegano",
    "tag": "Reino Unido",
    "yield": "3 tarros de 500 ml",
    "parts": [
@@ -20838,8 +20839,7 @@
     }
    ],
    "notes": "Al ser una salsa espesada con maicena, no hay tiempos de esterilización validados: guardar en nevera y consumir en 2 meses.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-remolacha-encurtida",
@@ -20848,6 +20848,7 @@
    "group": "Encurtidos",
    "cat": "En vinagre o ácido / Agridulces y dulces",
    "local": "",
+   "diet": "vegano",
    "tag": "Reino Unido",
    "yield": "8 tarros de 500 ml",
    "parts": [
@@ -20908,8 +20909,7 @@
     }
    ],
    "notes": "Fuente: NCHFP (USDA), «Pickled beets». Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-huevos-encurtidos",
@@ -20918,6 +20918,7 @@
    "group": "Encurtidos",
    "cat": "En vinagre o ácido / Ácidos",
    "local": "",
+   "diet": "vegetariano",
    "tag": "Reino Unido",
    "yield": "12 ud.",
    "parts": [
@@ -20976,8 +20977,7 @@
     }
    ],
    "notes": "Fuente: NCHFP (USDA), versión «dilled eggs». No existe método seguro para conservarlos fuera de la nevera: siempre refrigerados (se han dado casos de botulismo). Consumir en 3–4 meses y no tenerlos más de 2 h fuera de la nevera.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-bread-and-butter-pickles",
@@ -20986,6 +20986,7 @@
    "group": "Encurtidos",
    "cat": "En vinagre o ácido / Agridulces y dulces",
    "local": "",
+   "diet": "vegano",
    "tag": "Estados Unidos",
    "yield": "8 tarros de 500 ml",
    "parts": [
@@ -21051,8 +21052,7 @@
     }
    ],
    "notes": "Fuente: NCHFP (USDA). Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-giardiniera",
@@ -21061,6 +21061,7 @@
    "group": "Encurtidos",
    "cat": "En vinagre o ácido / Ácidos",
    "local": "",
+   "diet": "vegano",
    "tag": "Italia",
    "yield": "3 tarros de 500 ml",
    "parts": [
@@ -21134,8 +21135,7 @@
     }
    ],
    "notes": "Escaldado en agua y vinagre a partes iguales, como recomienda el Istituto Superiore di Sanità italiano. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-inlagd-sill-arenque-en-vinagre",
@@ -21144,6 +21144,7 @@
    "group": "Encurtidos",
    "cat": "En vinagre o ácido / Agridulces y dulces",
    "local": "",
+   "diet": "pescado",
    "tag": "Suecia",
    "yield": "4 pax",
    "parts": [
@@ -21202,8 +21203,7 @@
     }
    ],
    "notes": "Imprescindible en el smörgåsbord de Navidad y Midsommar. El arenque salado ya viene curado; si se parte de arenque fresco, congelarlo antes por los parásitos.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-chiles-jalapenos-en-escabeche",
@@ -21212,6 +21212,7 @@
    "group": "Encurtidos",
    "cat": "En vinagre o ácido / Ácidos",
    "local": "",
+   "diet": "vegano",
    "tag": "México",
    "yield": "4 tarros de 500 ml",
    "parts": [
@@ -21291,8 +21292,7 @@
     }
    ],
    "notes": "Proporción de 3 partes de vinagre por 1 de agua. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-cebolla-morada-encurtida",
@@ -21301,6 +21301,7 @@
    "group": "Encurtidos",
    "cat": "En vinagre o ácido / Ácidos",
    "local": "",
+   "diet": "vegano",
    "tag": "México / Yucatán",
    "yield": "1 tarro de 500 ml",
    "parts": [
@@ -21343,8 +21344,7 @@
     }
    ],
    "notes": "Acompañamiento de la cochinita pibil y los panuchos. Es un encurtido rápido: siempre en nevera.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-achar-de-mango",
@@ -21353,6 +21353,7 @@
    "group": "Encurtidos",
    "cat": "En aceite y especias",
    "local": "",
+   "diet": "vegano",
    "tag": "India",
    "yield": "1 tarro de 1 l",
    "parts": [
@@ -21424,8 +21425,7 @@
     }
    ],
    "notes": "Estilo del norte de la India (aam ka achar). Los trozos deben estar siempre cubiertos de aceite y manipularse con utensilios secos.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-lift-nabos-encurtidos-rosas",
@@ -21434,6 +21434,7 @@
    "group": "Encurtidos",
    "cat": "En vinagre o ácido / Ácidos",
    "local": "",
+   "diet": "vegano",
    "tag": "Líbano",
    "yield": "1 tarro de 1,5 l",
    "parts": [
@@ -21482,8 +21483,7 @@
     }
    ],
    "notes": "La remolacha da el color rosa. Imprescindible en el shawarma y los mezze.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-gari-jengibre-encurtido",
@@ -21492,6 +21492,7 @@
    "group": "Encurtidos",
    "cat": "En vinagre o ácido / Agridulces y dulces",
    "local": "",
+   "diet": "vegano",
    "tag": "Japón",
    "yield": "1 tarro de 250 ml",
    "parts": [
@@ -21530,8 +21531,7 @@
     }
    ],
    "notes": "El jengibre tierno se vuelve rosado con el vinagre. Acompañamiento del sushi.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-umeboshi",
@@ -21540,6 +21540,7 @@
    "group": "Encurtidos",
    "cat": "Curados en sal o sazonador / En sal o salmuera",
    "local": "",
+   "diet": "vegano",
    "tag": "Japón / Kansai",
    "yield": "1 kg",
    "parts": [
@@ -21594,8 +21595,7 @@
     }
    ],
    "notes": "Ume de Wakayama (Kishu), la zona más famosa. El MAFF indica 15 % de sal para conservar a temperatura ambiente y 10 % solo si se guarda en nevera. El umezu sobrante se usa como condimento.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-jangajji-de-ajo",
@@ -21604,6 +21604,7 @@
    "group": "Encurtidos",
    "cat": "Curados en sal o sazonador / En soja, miso o jang",
    "local": "",
+   "diet": "vegano",
    "tag": "Corea del Sur",
    "yield": "1 tarro de 1 l",
    "parts": [
@@ -21652,8 +21653,7 @@
     }
    ],
    "notes": "Banchan clásico. Hervir la salmuera varias veces ayuda a que se conserve. Siempre en nevera.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-o-chua-zanahoria-y-daikon",
@@ -21662,6 +21662,7 @@
    "group": "Encurtidos",
    "cat": "En vinagre o ácido / Agridulces y dulces",
    "local": "",
+   "diet": "vegano",
    "tag": "Vietnam",
    "yield": "1 tarro de 1 l",
    "parts": [
@@ -21710,8 +21711,7 @@
     }
    ],
    "notes": "Imprescindible en el bánh mì y el bún.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-pikliz",
@@ -21720,6 +21720,7 @@
    "group": "Encurtidos",
    "cat": "En vinagre o ácido / Ácidos",
    "local": "",
+   "diet": "vegano",
    "tag": "Haití",
    "yield": "1 tarro de 1 l",
    "parts": [
@@ -21793,8 +21794,7 @@
     }
    ],
    "notes": "Muy picante. Acompaña el griot (cerdo frito) y los plátanos fritos.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-mermelada-de-fresa",
@@ -21803,6 +21803,7 @@
    "group": "Conservas dulces",
    "cat": "Confituras y mermeladas / De fruta",
    "local": "",
+   "diet": "vegano",
    "tag": "",
    "yield": "4 tarros de 250 ml",
    "parts": [
@@ -21831,8 +21832,7 @@
     }
    ],
    "notes": "Fuente: NCHFP (USDA), «Berry jams without pectin». Punto de gelificación: 104–105 ºC, o cuando una gota en un plato frío se arruga al empujarla. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-mermelada-de-frambuesa-sin-pepitas",
@@ -21841,6 +21841,7 @@
    "group": "Conservas dulces",
    "cat": "Confituras y mermeladas / De fruta",
    "local": "",
+   "diet": "vegano",
    "tag": "",
    "yield": "4 tarros de 250 ml",
    "parts": [
@@ -21869,8 +21870,7 @@
     }
    ],
    "notes": "Fuente: NCHFP (USDA), variante sin pepitas de «Berry jams without pectin». Punto de gelificación: 104–105 ºC, o cuando una gota en un plato frío se arruga al empujarla. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-mermelada-de-naranja-amarga",
@@ -21879,6 +21879,7 @@
    "group": "Conservas dulces",
    "cat": "Confituras y mermeladas / De cítricos (marmalade)",
    "local": "",
+   "diet": "vegano",
    "tag": "Reino Unido",
    "yield": "6 tarros de 250 ml",
    "parts": [
@@ -21919,8 +21920,7 @@
     }
    ],
    "notes": "Las naranjas amargas de Sevilla se exportan casi todas a Reino Unido para esta mermelada. Punto de gelificación: 104–105 ºC, o cuando una gota en un plato frío se arruga al empujarla. Método de baño maría según NCHFP (USDA) para mermeladas de cítricos. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-dulce-de-membrillo",
@@ -21929,6 +21929,7 @@
    "group": "Conservas dulces",
    "cat": "Pastas de fruta",
    "local": "",
+   "diet": "vegano",
    "tag": "España",
    "yield": "1,5 kg",
    "parts": [
@@ -21964,8 +21965,7 @@
     }
    ],
    "notes": "Salpica mucho al final: usar cuchara de mango largo. Acompaña el queso manchego.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-confitura-de-albaricoque",
@@ -21974,6 +21974,7 @@
    "group": "Conservas dulces",
    "cat": "Confituras y mermeladas / De fruta",
    "local": "",
+   "diet": "vegano",
    "tag": "Francia",
    "yield": "5 tarros de 250 ml",
    "parts": [
@@ -22007,8 +22008,7 @@
     }
    ],
    "notes": "Fuente: NCHFP (USDA), «Apricot jam without pectin». Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-mermelada-de-higos",
@@ -22017,6 +22017,7 @@
    "group": "Conservas dulces",
    "cat": "Confituras y mermeladas / De fruta",
    "local": "",
+   "diet": "vegano",
    "tag": "España",
    "yield": "5 tarros de 250 ml",
    "parts": [
@@ -22055,8 +22056,7 @@
     }
    ],
    "notes": "Fuente: NCHFP (USDA), «Fig jam without pectin». El limón es necesario: el higo es poco ácido. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-mermelada-de-tomate",
@@ -22065,6 +22065,7 @@
    "group": "Conservas dulces",
    "cat": "Confituras y mermeladas / De fruta",
    "local": "",
+   "diet": "vegano",
    "tag": "",
    "yield": "5 tarros de 250 ml",
    "parts": [
@@ -22125,8 +22126,7 @@
     }
    ],
    "notes": "Fuente: NCHFP (USDA), «Tomato marmalade» (a mitad de cantidad). Los cítricos aseguran la acidez. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-jalea-de-grosella",
@@ -22135,6 +22135,7 @@
    "group": "Conservas dulces",
    "cat": "Jaleas / De fruta",
    "local": "",
+   "diet": "vegano",
    "tag": "Francia / Lorena",
    "yield": "4 tarros de 250 ml",
    "parts": [
@@ -22168,8 +22169,7 @@
     }
    ],
    "notes": "La grosella es muy rica en pectina y cuaja sin añadirla. En Bar-le-Duc (Lorena) se hace con las semillas extraídas una a una. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-lemon-curd",
@@ -22178,6 +22178,7 @@
    "group": "Conservas dulces",
    "cat": "Cremas untables / Curds",
    "local": "",
+   "diet": "vegetariano",
    "tag": "Reino Unido",
    "yield": "4 tarros de 250 ml",
    "parts": [
@@ -22228,8 +22229,7 @@
     }
    ],
    "notes": "Fuente: NCHFP (USDA). Usar zumo embotellado: el del limón fresco varía de acidez. Consumir en 3–4 meses y desechar si se oscurece o se separa. Alternativa: congelar hasta 1 año.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-compota-de-manzana",
@@ -22238,6 +22238,7 @@
    "group": "Conservas dulces",
    "cat": "Frutas en medio líquido / Compotas",
    "local": "",
+   "diet": "vegano",
    "tag": "Francia",
    "yield": "4 tarros de 500 ml",
    "parts": [
@@ -22276,8 +22277,7 @@
     }
    ],
    "notes": "Método de la compota de manzana del NCHFP (USDA). Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-chutney-de-mango",
@@ -22286,6 +22286,7 @@
    "group": "Encurtidos",
    "cat": "En vinagre o ácido / Picados, chutneys y relishes",
    "local": "",
+   "diet": "vegano",
    "tag": "India",
    "yield": "6 tarros de 500 ml",
    "parts": [
@@ -22348,8 +22349,7 @@
     }
    ],
    "notes": "Fuente: NCHFP (USDA), «Mango chutney». Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-melocoton-en-almibar",
@@ -22358,6 +22358,7 @@
    "group": "Conservas dulces",
    "cat": "Frutas en medio líquido / En almíbar",
    "local": "",
+   "diet": "vegano",
    "tag": "España / Aragón",
    "yield": "4 tarros de 1 l",
    "parts": [
@@ -22397,8 +22398,7 @@
     }
    ],
    "notes": "Fuente: NCHFP (USDA), «Peaches – hot pack». No usar melocotones de carne blanca: pueden no ser lo bastante ácidos. El melocotón de Calanda (Aragón) es el más famoso. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-cabello-de-angel",
@@ -22407,6 +22407,7 @@
    "group": "Conservas dulces",
    "cat": "Confituras y mermeladas / De fruta",
    "local": "",
+   "diet": "vegano",
    "tag": "España",
    "yield": "1,5 kg",
    "parts": [
@@ -22445,8 +22446,7 @@
     }
    ],
    "notes": "La cidra cayote (Cucurbita ficifolia) se encuentra en otoño. Relleno de ensaimadas, tortas y empanadillas. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-guindas-en-aguardiente",
@@ -22455,6 +22455,7 @@
    "group": "Conservas dulces",
    "cat": "Frutas en medio líquido / En alcohol",
    "local": "",
+   "diet": "vegano",
    "tag": "España",
    "yield": "1 tarro de 1 l",
    "parts": [
@@ -22494,8 +22495,7 @@
     }
    ],
    "notes": "El alcohol a 40 % las conserva sin esterilizar. Es una conserva alcohólica: no apta para niños.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-arrope",
@@ -22504,6 +22504,7 @@
    "group": "Conservas dulces",
    "cat": "Jarabes y arropes / Arropes",
    "local": "",
+   "diet": "vegano",
    "tag": "España",
    "yield": "500 ml",
    "parts": [
@@ -22531,8 +22532,7 @@
     }
    ],
    "notes": "Endulzante tradicional de La Mancha y Andalucía anterior al azúcar. Muy concentrado, se conserva meses en lugar fresco.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-crema-de-castanas",
@@ -22541,6 +22541,7 @@
    "group": "Conservas dulces",
    "cat": "Cremas untables / De castaña",
    "local": "",
+   "diet": "vegano",
    "tag": "Francia / Ardèche",
    "yield": "3 tarros de 250 ml",
    "parts": [
@@ -22579,8 +22580,7 @@
     }
    ],
    "notes": "La castaña es poco ácida y no hay tiempos de esterilización validados para hacerla en casa: guardar en nevera y consumir en 3 semanas, o congelar.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-piel-de-naranja-confitada",
@@ -22589,6 +22589,7 @@
    "group": "Conservas dulces",
    "cat": "Frutas confitadas / Confitadas",
    "local": "",
+   "diet": "vegano",
    "tag": "",
    "yield": "300 g",
    "parts": [
@@ -22628,8 +22629,7 @@
     }
    ],
    "notes": "Se puede bañar en chocolate. Bien seca, dura meses.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-powid-a-crema-de-ciruela",
@@ -22638,6 +22638,7 @@
    "group": "Conservas dulces",
    "cat": "Cremas untables / De fruta",
    "local": "",
+   "diet": "vegano",
    "tag": "Polonia",
    "yield": "4 tarros de 250 ml",
    "parts": [
@@ -22661,8 +22662,7 @@
     }
    ],
    "notes": "Sin azúcar añadido: se concentra solo por la cocción larga. Relleno típico de pączki y pierogi.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-dulce-de-leche",
@@ -22671,6 +22671,7 @@
    "group": "Conservas dulces",
    "cat": "Cremas untables / Dulces lácteos",
    "local": "",
+   "diet": "vegetariano",
    "tag": "Argentina",
    "yield": "2 tarros de 250 ml",
    "parts": [
@@ -22709,8 +22710,7 @@
     }
    ],
    "notes": "No hervir latas de leche condensada cerradas: pueden explotar.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-goiabada",
@@ -22719,6 +22719,7 @@
    "group": "Conservas dulces",
    "cat": "Pastas de fruta",
    "local": "",
+   "diet": "vegano",
    "tag": "Brasil",
    "yield": "1 kg",
    "parts": [
@@ -22752,8 +22753,7 @@
     }
    ],
    "notes": "Con queso fresco es el «romeu e julieta». Como el membrillo, muy concentrada se conserva meses.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-tomate-triturado-en-conserva",
@@ -22762,6 +22762,7 @@
    "group": "Conservas saladas",
    "cat": "Al natural, en su jugo o en salsa / Tomate",
    "local": "",
+   "diet": "vegano",
    "tag": "",
    "yield": "4 tarros de 1 l",
    "parts": [
@@ -22796,8 +22797,7 @@
     }
    ],
    "notes": "Fuente: NCHFP (USDA), «Crushed tomatoes». El limón embotellado es obligatorio: el tomate no siempre es lo bastante ácido por sí solo. En tarros de 500 ml, 1 cda de limón o ¼ cdta de ácido cítrico. Calcular unos 1,25 kg de tomate por litro. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-pimientos-asados-marinados",
@@ -22806,6 +22806,7 @@
    "group": "Conservas saladas",
    "cat": "En aceite / Hortalizas y setas",
    "local": "",
+   "diet": "vegano",
    "tag": "",
    "yield": "9 tarros de 250 ml",
    "parts": [
@@ -22865,8 +22866,7 @@
     }
    ],
    "notes": "Fuente: NCHFP (USDA), «Marinated peppers». No reducir el limón ni el vinagre: son los que hacen segura la conserva. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-bonito-en-aceite",
@@ -22875,6 +22875,7 @@
    "group": "Conservas saladas",
    "cat": "En aceite / Pescado y marisco",
    "local": "",
+   "diet": "pescado",
    "tag": "España / Cantabria",
    "yield": "6 tarros de 250 ml",
    "parts": [
@@ -22910,8 +22911,7 @@
     }
    ],
    "notes": "Fuente: NCHFP (USDA), «Canning tuna» (solo tarros de 250 o 500 ml). Requiere olla a presión de conservas con manómetro (autoclave doméstico): el baño maría y las ollas exprés normales no están validados para alimentos poco ácidos (riesgo de botulismo). Tiempos para 0–300 m; a más altura, subir la presión según la fuente. El bonito del norte de costera (junio–octubre) es el clásico de las conserveras cántabras y vascas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-anchoas-en-salazon-y-aceite",
@@ -22920,6 +22920,7 @@
    "group": "Conservas saladas",
    "cat": "Salazones / Pescado y huevas",
    "local": "",
+   "diet": "pescado",
    "tag": "España / Cantabria",
    "yield": "500 g de filetes",
    "parts": [
@@ -22966,8 +22967,7 @@
     }
    ],
    "notes": "Es el método de la anchoa de Santoña. Los filetes en aceite son semiconserva: siempre en nevera, consumir en 2–3 semanas. Congelar antes es la recomendación de AESAN para pescado que no se cocina.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-caballa-en-escabeche",
@@ -22976,6 +22976,7 @@
    "group": "Conservas saladas",
    "cat": "Escabeches y marinados / Pescado y marisco",
    "local": "",
+   "diet": "pescado",
    "tag": "España",
    "yield": "4 raciones",
    "parts": [
@@ -23068,8 +23069,7 @@
     }
    ],
    "notes": "En nevera, siempre cubierta, unos 5–7 días. El escabeche es un método de conservación, no esterilización: no guardar fuera de la nevera.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-lomo-de-orza",
@@ -23078,6 +23078,7 @@
    "group": "Conservas saladas",
    "cat": "Confitados en grasa / Orza",
    "local": "",
+   "diet": "carne",
    "tag": "España / Castilla-La Mancha",
    "yield": "1,5 kg",
    "parts": [
@@ -23140,8 +23141,7 @@
     }
    ],
    "notes": "Receta tradicional manchega (Turespaña, spain.info). La orza antigua se guardaba en la despensa; hoy se recomienda nevera, la carne siempre cubierta, sacar con utensilio limpio y consumir en 2–3 semanas. Se come templado o frío.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-confit-de-pato",
@@ -23150,6 +23150,7 @@
    "group": "Conservas saladas",
    "cat": "Confitados en grasa / Confits",
    "local": "",
+   "diet": "carne",
    "tag": "Francia / Gascuña",
    "yield": "4 muslos",
    "parts": [
@@ -23212,8 +23213,7 @@
     }
    ],
    "notes": "Siempre cubierto de grasa y en nevera, hasta 1 mes; retirar los muslos con utensilio limpio y volver a cubrir. Para servir, dorar con la piel hacia abajo en sartén.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-rillettes-de-cerdo",
@@ -23222,6 +23222,7 @@
    "group": "Conservas saladas",
    "cat": "Confitados en grasa / Rillettes y desmigados",
    "local": "",
+   "diet": "carne",
    "tag": "Francia / Valle del Loira",
    "yield": "4 tarros de 250 ml",
    "parts": [
@@ -23282,8 +23283,7 @@
     }
    ],
    "notes": "Las de Tours y Le Mans son las más conocidas (las de Le Mans, del Sarthe). En nevera, con la capa de grasa intacta, 1–2 semanas; abierta, 3–4 días.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-tapenade",
@@ -23292,6 +23292,7 @@
    "group": "Conservas saladas",
    "cat": "Pastas, condimentos y salsas / Untables",
    "local": "",
+   "diet": "pescado",
    "tag": "Francia / Provenza",
    "yield": "1 tarro de 300 ml",
    "parts": [
@@ -23343,8 +23344,7 @@
     }
    ],
    "notes": "El nombre viene de «tapeno», alcaparra en provenzal. Lleva ajo crudo en aceite: guardar en nevera y consumir en una semana; para más tiempo, congelar.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-mostaza-a-la-antigua",
@@ -23353,6 +23353,7 @@
    "group": "Conservas saladas",
    "cat": "Pastas, condimentos y salsas / Salsas de mesa",
    "local": "",
+   "diet": "vegano",
    "tag": "Francia",
    "yield": "2 tarros de 200 ml",
    "parts": [
@@ -23400,8 +23401,7 @@
     }
    ],
    "notes": "Estilo «à l'ancienne» (grano entero, como la de Meaux). Por su acidez aguanta meses en nevera.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-tomates-secos-en-aceite",
@@ -23410,6 +23410,7 @@
    "group": "Conservas saladas",
    "cat": "Secados y ahumados / Secados",
    "local": "",
+   "diet": "vegano",
    "tag": "Italia",
    "yield": "2 tarros de 250 ml",
    "parts": [
@@ -23442,8 +23443,7 @@
     }
    ],
    "notes": "Fuente: Oregon State University Extension, «Herbs and vegetables in oil» (SP 50-701). No rehidratarlos en agua ni vinagre: la humedad es lo que los hace inseguros. Sin ajo ni hierbas, en nevera hasta 6 meses (el aceite se enturbia con el frío; se aclara a temperatura ambiente). Con ajo o hierbas, 4 días en nevera o congelar.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-alcachofas-en-aceite-carciofini-sott-olio",
@@ -23452,6 +23452,7 @@
    "group": "Conservas saladas",
    "cat": "En aceite / Hortalizas y setas",
    "local": "",
+   "diet": "vegano",
    "tag": "Italia",
    "yield": "4 tarros de 250 ml",
    "parts": [
@@ -23512,8 +23513,7 @@
     }
    ],
    "notes": "Fuente: Istituto Superiore di Sanità (ISS), Linee guida per la corretta preparazione delle conserve alimentari in ambito domestico: la seguridad está en cocer en agua y vinagre a partes iguales. La guía no fija un tiempo único de pasteurización (depende del tarro); para 250 ml se suele usar unos 20 min desde que rompe a hervir. Desechar si hay burbujas o el aceite se enturbia en los primeros 10–15 días.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-caponata",
@@ -23522,6 +23522,7 @@
    "group": "Conservas saladas",
    "cat": "Al natural, en su jugo o en salsa / Hortalizas cocinadas",
    "local": "",
+   "diet": "vegano",
    "tag": "Italia / Sicilia",
    "yield": "4 tarros de 250 ml",
    "parts": [
@@ -23596,8 +23597,7 @@
     }
    ],
    "notes": "Agridulce («agrodolce»). Mejor al día siguiente. En nevera, en tarros, 1 semana; también se congela.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-ajvar",
@@ -23606,6 +23606,7 @@
    "group": "Conservas saladas",
    "cat": "Pastas, condimentos y salsas / Untables",
    "local": "",
+   "diet": "vegano",
    "tag": "Serbia",
    "yield": "3 tarros de 250 ml",
    "parts": [
@@ -23660,8 +23661,7 @@
     }
    ],
    "notes": "Típico del otoño en Serbia y Macedonia del Norte, cuando hay pimiento rojo barato. Sin método casero validado para baño maría: en nevera, 2 semanas, o congelar.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-harissa",
@@ -23670,6 +23670,7 @@
    "group": "Conservas saladas",
    "cat": "Pastas, condimentos y salsas / Pastas de chile y especias",
    "local": "",
+   "diet": "vegano",
    "tag": "Túnez",
    "yield": "1 tarro de 250 ml",
    "parts": [
@@ -23728,8 +23729,7 @@
     }
    ],
    "notes": "Inscrita por la UNESCO (2022) como patrimonio inmaterial de Túnez. Lleva ajo crudo: en nevera una semana, o congelar en porciones. Las guías oficiales (Oregon State University) piden 4 días en nevera para aceites con ajo o hierbas frescas, o congelar. ",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-ketchup",
@@ -23738,6 +23738,7 @@
    "group": "Conservas saladas",
    "cat": "Pastas, condimentos y salsas / Salsas de mesa",
    "local": "",
+   "diet": "vegano",
    "tag": "Estados Unidos",
    "yield": "3 tarros de 500 ml",
    "parts": [
@@ -23816,8 +23817,7 @@
     }
    ],
    "notes": "Fuente: NCHFP (USDA), «Tomato ketchup», a mitad de cantidad. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-aceite-de-chile-crujiente",
@@ -23826,6 +23826,7 @@
    "group": "Conservas saladas",
    "cat": "Pastas, condimentos y salsas / Condimentos en aceite",
    "local": "",
+   "diet": "vegano",
    "tag": "China / Guizhou",
    "yield": "1 tarro de 500 ml",
    "parts": [
@@ -23901,8 +23902,7 @@
     }
    ],
    "notes": "Estilo Lao Gan Ma, la marca de Guizhou que lo hizo famoso. Las guías oficiales (Oregon State University) piden 4 días en nevera para aceites con ajo o hierbas frescas, o congelar. Con el ajo y la chalota fritos hasta quedar secos el riesgo baja, pero no hay tiempo validado: nevera y, para más tiempo, congelar en porciones.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-salsa-xo",
@@ -23911,6 +23911,7 @@
    "group": "Conservas saladas",
    "cat": "Pastas, condimentos y salsas / Condimentos en aceite",
    "local": "",
+   "diet": "carne",
    "tag": "China / Hong Kong",
    "yield": "2 tarros de 250 ml",
    "parts": [
@@ -23980,8 +23981,7 @@
     }
    ],
    "notes": "Creada en Hong Kong en los años 80 (se atribuye al restaurante del hotel Peninsula). Las guías oficiales (Oregon State University) piden 4 días en nevera para aceites con ajo o hierbas frescas, o congelar. No hay método casero validado de larga duración: nevera y, para más tiempo, congelar.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-pasta-de-curry-rojo",
@@ -23990,6 +23990,7 @@
    "group": "Conservas saladas",
    "cat": "Pastas, condimentos y salsas / Pastas de chile y especias",
    "local": "",
+   "diet": "pescado",
    "tag": "Tailandia",
    "yield": "1 tarro de 200 ml",
    "parts": [
@@ -24068,8 +24069,7 @@
     }
    ],
    "notes": "Nam prik gaeng phet. En nevera, en tarro cubierto de una capa de aceite, 1–2 semanas; congelada en cubitos, 3 meses.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-conservas-garbanzos-en-conserva",
@@ -24078,6 +24078,7 @@
    "group": "Conservas saladas",
    "cat": "Al natural, en su jugo o en salsa / Legumbres",
    "local": "",
+   "diet": "vegano",
    "tag": "",
    "yield": "4 tarros de 1 l",
    "parts": [
@@ -24112,8 +24113,7 @@
     }
    ],
    "notes": "Fuente: NCHFP (USDA), «Beans or peas – shelled, dried». Requiere olla a presión de conservas con manómetro (autoclave doméstico): el baño maría y las ollas exprés normales no están validados para alimentos poco ácidos (riesgo de botulismo). Tiempos para 0–300 m; a más altura, subir la presión según la fuente. Vale para alubias y otras legumbres secas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-mantequilla",
@@ -24122,6 +24122,7 @@
    "group": "Lácteos y derivados",
    "cat": "Grasas lácteas / Mantequillas",
    "local": "",
+   "diet": "vegetariano",
    "tag": "",
    "yield": "200 g de mantequilla y 250 ml de suero",
    "parts": [
@@ -24156,8 +24157,7 @@
     }
    ],
    "notes": "Lavarla bien es lo que la hace durar: el suero que quede la enrancia. En nevera, 2–3 semanas; se congela bien.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-ghee",
@@ -24166,6 +24166,7 @@
    "group": "Lácteos y derivados",
    "cat": "Grasas lácteas / Mantequilla clarificada y ghee",
    "local": "",
+   "diet": "vegetariano",
    "tag": "India",
    "yield": "400 ml",
    "parts": [
@@ -24189,8 +24190,7 @@
     }
    ],
    "notes": "Al quitarle agua y sólidos de leche aguanta unos 3 meses a temperatura ambiente, bien cerrado, y más en nevera. Usar siempre cuchara seca. A diferencia de la mantequilla clarificada francesa, los sólidos se tuestan.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-ricotta",
@@ -24199,6 +24199,7 @@
    "group": "Lácteos y derivados",
    "cat": "Quesos frescos / De calor y ácido",
    "local": "",
+   "diet": "vegetariano",
    "tag": "Italia",
    "yield": "400 g",
    "parts": [
@@ -24238,8 +24239,7 @@
     }
    ],
    "notes": "«Ricotta» significa «recocida»: la tradicional se hace recalentando el suero que sobra del queso. Esta es la versión casera con leche. En nevera, 4–5 días.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-mato",
@@ -24248,6 +24248,7 @@
    "group": "Lácteos y derivados",
    "cat": "Quesos frescos / De cuajo",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Cataluña",
    "yield": "500 g",
    "parts": [
@@ -24277,8 +24278,7 @@
     }
    ],
    "notes": "Queso fresco catalán y sin sal, el del «mel i mató». Usar leche pasteurizada, no UHT (la UHT no cuaja bien con cuajo). Con leche de supermercado ayuda añadir ¼ cdta de cloruro cálcico por cada 4 l. En nevera, 3–4 días.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-paneer",
@@ -24287,6 +24287,7 @@
    "group": "Lácteos y derivados",
    "cat": "Quesos frescos / De calor y ácido",
    "local": "",
+   "diet": "vegetariano",
    "tag": "India",
    "yield": "350 g",
    "parts": [
@@ -24321,8 +24322,7 @@
     }
    ],
    "notes": "No funde al calentarlo: se fríe o se cocina en salsa (palak paneer, paneer tikka). En nevera, 3–4 días; se congela.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-queso-fresco-de-burgos",
@@ -24331,6 +24331,7 @@
    "group": "Lácteos y derivados",
    "cat": "Quesos frescos / De cuajo",
    "local": "",
+   "diet": "vegetariano",
    "tag": "España / Castilla y León",
    "yield": "2 quesos de 300 g",
    "parts": [
@@ -24365,8 +24366,7 @@
     }
    ],
    "notes": "Queso fresco sin madurar, tierno y con mucho suero. Usar leche pasteurizada, no UHT (la UHT no cuaja bien con cuajo). Con leche de supermercado ayuda añadir ¼ cdta de cloruro cálcico por cada 4 l. En nevera, 4–5 días.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-mozzarella",
@@ -24375,6 +24375,7 @@
    "group": "Lácteos y derivados",
    "cat": "Quesos de pasta hilada / Frescos",
    "local": "",
+   "diet": "vegetariano",
    "tag": "Italia / Campania",
    "yield": "400 g",
    "parts": [
@@ -24416,8 +24417,7 @@
     }
    ],
    "notes": "Versión rápida con ácido cítrico (método de Ricki Carroll, New England Cheesemaking). La de búfala campana (DOP) se hace con fermento y maduración de la cuajada. En nevera, en su suero o en agua con sal, 2–3 días.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-burrata",
@@ -24426,6 +24426,7 @@
    "group": "Lácteos y derivados",
    "cat": "Quesos de pasta hilada / Frescos",
    "local": "",
+   "diet": "vegetariano",
    "tag": "Italia / Apulia",
    "yield": "4 burratas",
    "parts": [
@@ -24471,8 +24472,7 @@
     }
    ],
    "notes": "Nació en Andria (Apulia) para aprovechar los recortes de mozzarella. Tomar en 24–48 h, en nevera.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-labneh",
@@ -24481,6 +24481,7 @@
    "group": "Lácteos y derivados",
    "cat": "Leches fermentadas / Concentradas (coladas)",
    "local": "",
+   "diet": "vegetariano",
    "tag": "Líbano",
    "yield": "500 g",
    "parts": [
@@ -24508,8 +24509,7 @@
     }
    ],
    "notes": "En nevera, 1 semana. Las bolitas en aceite deben guardarse también en nevera.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-skyr",
@@ -24518,6 +24518,7 @@
    "group": "Lácteos y derivados",
    "cat": "Leches fermentadas / Concentradas (coladas)",
    "local": "",
+   "diet": "vegetariano",
    "tag": "Islandia",
    "yield": "600 g",
    "parts": [
@@ -24551,8 +24552,7 @@
     }
    ],
    "notes": "Lácteo tradicional islandés, más cercano al queso fresco que al yogur. Guardar 2 cucharadas para la siguiente tanda. En nevera, 1–2 semanas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-requeson-tipo-cottage",
@@ -24561,6 +24561,7 @@
    "group": "Lácteos y derivados",
    "cat": "Quesos frescos / De coagulación ácida",
    "local": "",
+   "diet": "vegetariano",
    "tag": "Estados Unidos",
    "yield": "500 g",
    "parts": [
@@ -24600,8 +24601,7 @@
     }
    ],
    "notes": "Versión ácida casera; la industrial se cuaja con fermento y cuajo. En nevera, 1 semana.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-mascarpone",
@@ -24610,6 +24610,7 @@
    "group": "Lácteos y derivados",
    "cat": "Quesos frescos / De calor y ácido",
    "local": "",
+   "diet": "vegetariano",
    "tag": "Italia / Lombardía",
    "yield": "400 g",
    "parts": [
@@ -24637,8 +24638,7 @@
     }
    ],
    "notes": "Tradicional de Lombardía; base del tiramisú. En nevera, 4–5 días.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-halloumi",
@@ -24647,6 +24647,7 @@
    "group": "Lácteos y derivados",
    "cat": "Quesos en salmuera",
    "local": "",
+   "diet": "vegetariano",
    "tag": "Chipre",
    "yield": "2 bloques de 300 g",
    "parts": [
@@ -24686,8 +24687,7 @@
     }
    ],
    "notes": "DOP de Chipre desde 2021. El escaldado en suero es lo que hace que no se funda a la plancha. Usar leche pasteurizada, no UHT (la UHT no cuaja bien con cuajo). Con leche de supermercado ayuda añadir ¼ cdta de cloruro cálcico por cada 4 l. En nevera, en salmuera al 10 %, 2–3 semanas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-feta",
@@ -24696,6 +24696,7 @@
    "group": "Lácteos y derivados",
    "cat": "Quesos en salmuera",
    "local": "",
+   "diet": "vegetariano",
    "tag": "Grecia",
    "yield": "800 g",
    "parts": [
@@ -24740,8 +24741,7 @@
     }
    ],
    "notes": "DOP Grecia: solo leche de oveja, con hasta un 30 % de cabra, y 2 meses mínimo de maduración. Usar leche pasteurizada, no UHT (la UHT no cuaja bien con cuajo). Con leche de supermercado ayuda añadir ¼ cdta de cloruro cálcico por cada 4 l. ",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-queso-crema",
@@ -24750,6 +24750,7 @@
    "group": "Lácteos y derivados",
    "cat": "Quesos frescos / De calor y ácido",
    "local": "",
+   "diet": "vegetariano",
    "tag": "Estados Unidos",
    "yield": "450 g",
    "parts": [
@@ -24788,8 +24789,7 @@
     }
    ],
    "notes": "Tipo Philadelphia, versión casera ácida. En nevera, 1 semana.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-clotted-cream",
@@ -24798,6 +24798,7 @@
    "group": "Lácteos y derivados",
    "cat": "Natas / Tratadas por calor",
    "local": "",
+   "diet": "vegetariano",
    "tag": "Reino Unido / Cornualles",
    "yield": "300 g",
    "parts": [
@@ -24820,8 +24821,7 @@
     }
    ],
    "notes": "La Cornish clotted cream es DOP. Se toma con scones y mermelada. En nevera, 4–5 días.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-brunost",
@@ -24830,6 +24830,7 @@
    "group": "Lácteos y derivados",
    "cat": "Quesos de suero / Por concentración",
    "local": "",
+   "diet": "vegetariano",
    "tag": "Noruega",
    "yield": "300 g",
    "parts": [
@@ -24858,8 +24859,7 @@
     }
    ],
    "notes": "Queso «marrón» noruego: se carameliza el azúcar del suero. Aprovecha el suero del queso fresco, el halloumi o la mozzarella. Se corta en lonchas finas. En nevera, semanas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-quesillo-de-oaxaca",
@@ -24868,6 +24868,7 @@
    "group": "Lácteos y derivados",
    "cat": "Quesos de pasta hilada / Frescos",
    "local": "",
+   "diet": "vegetariano",
    "tag": "México / Oaxaca",
    "yield": "400 g",
    "parts": [
@@ -24905,8 +24906,7 @@
     }
    ],
    "notes": "Pasta hilada como la mozzarella, pero en tiras largas enrolladas. Se deshebra para quesadillas. En nevera, 1 semana.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-leche-condensada",
@@ -24915,6 +24915,7 @@
    "group": "Lácteos y derivados",
    "cat": "Leches concentradas / Con azúcar",
    "local": "",
+   "diet": "vegetariano",
    "tag": "",
    "yield": "400 g",
    "parts": [
@@ -24948,8 +24949,7 @@
     }
    ],
    "notes": "El bicarbonato evita que se corte y que oscurezca demasiado. En nevera, 2–3 semanas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-ayran",
@@ -24958,6 +24958,7 @@
    "group": "Lácteos y derivados",
    "cat": "Leches fermentadas / Bebidas de leche fermentada",
    "local": "",
+   "diet": "vegetariano",
    "tag": "Turquía",
    "yield": "1 l",
    "parts": [
@@ -24990,8 +24991,7 @@
     }
    ],
    "notes": "Bebida nacional de Turquía. Acompaña kebabs y comidas especiadas. Se toma el mismo día.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-masa-de-pizza-napolitana",
@@ -25000,6 +25000,7 @@
    "group": "Masas",
    "cat": "Fermentadas / Magras",
    "local": "",
+   "diet": "vegano",
    "tag": "Italia / Campania",
    "yield": "6 bolas de 250 g",
    "parts": [
@@ -25040,8 +25041,7 @@
     }
    ],
    "notes": "Según el pliego de la Pizza Napoletana ETG y la AVPN: solo harina, agua, sal y levadura; diámetro máximo 35 cm.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-baguette",
@@ -25050,6 +25050,7 @@
    "group": "Masas",
    "cat": "Fermentadas / Magras",
    "local": "",
+   "diet": "vegano",
    "tag": "Francia",
    "yield": "3 baguettes",
    "parts": [
@@ -25091,8 +25092,7 @@
     }
    ],
    "notes": "La «baguette de tradition française» (decreto de 1993) solo admite harina, agua, sal y levadura o masa madre, sin aditivos.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-chapata",
@@ -25101,6 +25101,7 @@
    "group": "Masas",
    "cat": "Fermentadas / Magras",
    "local": "",
+   "diet": "vegano",
    "tag": "Italia / Véneto",
    "yield": "3 chapatas",
    "parts": [
@@ -25164,8 +25165,7 @@
     }
    ],
    "notes": "Creada en 1982 en Adria (Véneto) por Arnaldo Cavallari. Masa con mucha agua (80 %): manos mojadas o enharinadas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-focaccia-genovese",
@@ -25174,6 +25174,7 @@
    "group": "Masas",
    "cat": "Fermentadas / Magras",
    "local": "",
+   "diet": "vegano",
    "tag": "Italia / Liguria",
    "yield": "1 bandeja de 30×40 cm",
    "parts": [
@@ -25242,8 +25243,7 @@
     }
    ],
    "notes": "La salmuera en los hoyos es la firma ligur. Se come sola o mojada en capuchino al desayuno.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-pan-de-molde",
@@ -25252,6 +25252,7 @@
    "group": "Masas",
    "cat": "Fermentadas / Enriquecidas",
    "local": "",
+   "diet": "vegetariano",
    "tag": "",
    "yield": "1 molde de 25 cm",
    "parts": [
@@ -25302,8 +25303,7 @@
     }
    ],
    "notes": "Con tapa (molde Pullman) sale cuadrado y de miga más cerrada. Se congela en rebanadas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-masa-de-coca",
@@ -25312,6 +25312,7 @@
    "group": "Masas",
    "cat": "Fermentadas / Enriquecidas",
    "local": "",
+   "diet": "vegano",
    "tag": "España / Comunidad Valenciana",
    "yield": "2 cocas de 30×20 cm",
    "parts": [
@@ -25355,8 +25356,7 @@
     }
    ],
    "notes": "Masa base de las cocas saladas valencianas, baleares y catalanas. Ver «Coca de trempó» en Recetas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-masa-quebrada-pate-brisee",
@@ -25365,6 +25365,7 @@
    "group": "Masas",
    "cat": "Quebradas / Brisa",
    "local": "",
+   "diet": "vegetariano",
    "tag": "Francia",
    "yield": "1 molde de 26 cm",
    "parts": [
@@ -25409,8 +25410,7 @@
     }
    ],
    "notes": "Salada: quiches, tartas de verdura. No amasar: si se trabaja mucho, encoge y queda dura.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-masa-sablee",
@@ -25419,6 +25419,7 @@
    "group": "Masas",
    "cat": "Quebradas / Sablée",
    "local": "",
+   "diet": "vegetariano",
    "tag": "Francia",
    "yield": "1 molde de 26 cm",
    "parts": [
@@ -25463,8 +25464,7 @@
     }
    ],
    "notes": "Para tartas dulces de fruta, crema o limón. Se congela bien en crudo.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-hojaldre",
@@ -25473,6 +25473,7 @@
    "group": "Masas",
    "cat": "Hojaldradas",
    "local": "",
+   "diet": "vegetariano",
    "tag": "Francia",
    "yield": "1,2 kg",
    "parts": [
@@ -25526,8 +25527,7 @@
     }
    ],
    "notes": "Hojaldre clásico de 6 vueltas sencillas (729 capas de mantequilla). Si la mantequilla se rompe o sale, enfriar más. Se congela.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-masa-choux",
@@ -25536,6 +25536,7 @@
    "group": "Masas",
    "cat": "Escaldadas",
    "local": "",
+   "diet": "vegetariano",
    "tag": "Francia",
    "yield": "30 profiteroles",
    "parts": [
@@ -25591,8 +25592,7 @@
     }
    ],
    "notes": "Profiteroles, éclairs, buñuelos de viento. Sin azúcar, para gougères con queso.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-brioche",
@@ -25601,6 +25601,7 @@
    "group": "Masas",
    "cat": "Fermentadas / Enriquecidas",
    "local": "",
+   "diet": "vegetariano",
    "tag": "Francia",
    "yield": "2 moldes de pan",
    "parts": [
@@ -25651,8 +25652,7 @@
     }
    ],
    "notes": "La nevera es clave: la mantequilla fría hace la masa manejable.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-pasta-fresca-al-huevo",
@@ -25661,6 +25661,7 @@
    "group": "Masas",
    "cat": "Sin levar de trigo / Pastas frescas",
    "local": "",
+   "diet": "vegetariano",
    "tag": "Italia / Emilia-Romaña",
    "yield": "4 raciones",
    "parts": [
@@ -25691,8 +25692,7 @@
     }
    ],
    "notes": "Proporción clásica de la «sfoglia» boloñesa: 100 g de harina por huevo. El tallarín de Bolonia mide 8 mm cocido (registro de la Accademia Italiana della Cucina, 1972).",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-masa-de-maiz-nixtamalizado",
@@ -25701,6 +25701,7 @@
    "group": "Masas",
    "cat": "De maíz y otros almidones / Nixtamalizadas",
    "local": "",
+   "diet": "vegano",
    "tag": "México",
    "yield": "1,5 kg de masa (30 tortillas)",
    "parts": [
@@ -25740,8 +25741,7 @@
     }
    ],
    "notes": "La nixtamalización libera la niacina del maíz y da elasticidad a la masa. La UNESCO incluye la cocina tradicional mexicana como patrimonio inmaterial.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-tortillas-de-harina",
@@ -25750,6 +25750,7 @@
    "group": "Masas",
    "cat": "Sin levar de trigo / Panes planos sin levar",
    "local": "",
+   "diet": "carne",
    "tag": "México",
    "yield": "12 tortillas",
    "parts": [
@@ -25789,8 +25790,7 @@
     }
    ],
    "notes": "Típicas del norte de México (Sonora, Chihuahua); base de burritos.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-obleas-para-empanadillas",
@@ -25799,6 +25799,7 @@
    "group": "Masas",
    "cat": "Quebradas / Brisa",
    "local": "",
+   "diet": "vegano",
    "tag": "España",
    "yield": "30 obleas",
    "parts": [
@@ -25843,8 +25844,7 @@
     }
    ],
    "notes": "Masa de empanadillas de atún, de pisto o de carne. Las obleas se congelan separadas con papel.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-pan-de-pita",
@@ -25853,6 +25853,7 @@
    "group": "Masas",
    "cat": "Fermentadas / Magras",
    "local": "",
+   "diet": "vegano",
    "tag": "Líbano",
    "yield": "8 panes",
    "parts": [
@@ -25897,8 +25898,7 @@
     }
    ],
    "notes": "Si se infla, sale el bolsillo. También se cuece en sartén muy caliente, 1 min por lado.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-naan",
@@ -25907,6 +25907,7 @@
    "group": "Masas",
    "cat": "Fermentadas / Magras",
    "local": "",
+   "diet": "vegetariano",
    "tag": "India / Punyab",
    "yield": "8 naan",
    "parts": [
@@ -25961,8 +25962,7 @@
     }
    ],
    "notes": "En el tandoor se pegan a la pared del horno de barro. En casa, la sartén de hierro o la parrilla del horno al máximo.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-masa-de-jiaozi",
@@ -25971,6 +25971,7 @@
    "group": "Masas",
    "cat": "Sin levar de trigo / Envolturas y láminas",
    "local": "",
+   "diet": "vegano",
    "tag": "China",
    "yield": "40 obleas",
    "parts": [
@@ -26005,8 +26006,7 @@
     }
    ],
    "notes": "Con agua fría, más firmes para hervir; con agua caliente, más tiernas para guotie (a la plancha) y vapor. Sirve para gyozas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-masa-de-bao",
@@ -26015,6 +26015,7 @@
    "group": "Masas",
    "cat": "Fermentadas / Enriquecidas",
    "local": "",
+   "diet": "vegetariano",
    "tag": "China",
    "yield": "16 bao",
    "parts": [
@@ -26064,8 +26065,7 @@
     }
    ],
    "notes": "Harina floja = blancos y esponjosos.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-arepas",
@@ -26074,6 +26074,7 @@
    "group": "Masas",
    "cat": "De maíz y otros almidones / Precocidas",
    "local": "",
+   "diet": "vegano",
    "tag": "Venezuela",
    "yield": "8 arepas",
    "parts": [
@@ -26108,8 +26109,7 @@
     }
    ],
    "notes": "Se abren y se rellenan (reina pepiada, pabellón, queso). Igual de propias de Colombia.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-leche-de-soja",
@@ -26118,6 +26118,7 @@
    "group": "Legumbres, cereales, frutos secos y semillas",
    "cat": "Legumbres / Bebidas vegetales",
    "local": "",
+   "diet": "vegano",
    "tag": "China",
    "yield": "1,5 l",
    "parts": [
@@ -26146,8 +26147,7 @@
     }
    ],
    "notes": "Cocerla es obligatorio: la soja cruda tiene sustancias que dificultan la digestión de las proteínas. En nevera, 3–4 días.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-tofu",
@@ -26156,6 +26156,7 @@
    "group": "Legumbres, cereales, frutos secos y semillas",
    "cat": "Legumbres / Cuajados y fermentados",
    "local": "",
+   "diet": "vegano",
    "tag": "China",
    "yield": "400 g",
    "parts": [
@@ -26190,8 +26191,7 @@
     }
    ],
    "notes": "En nevera, cubierto de agua (cambiarla cada día), 4–5 días.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-tahini",
@@ -26200,6 +26200,7 @@
    "group": "Legumbres, cereales, frutos secos y semillas",
    "cat": "Semillas / Pastas, cremas y untables",
    "local": "",
+   "diet": "vegano",
    "tag": "Líbano",
    "yield": "1 tarro de 250 ml",
    "parts": [
@@ -26233,8 +26234,7 @@
     }
    ],
    "notes": "Poco tostado para que no amargue. Base de hummus, baba ganoush y salsas. Aguanta meses en lugar fresco; es normal que el aceite se separe.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-mantequilla-de-cacahuete",
@@ -26243,6 +26243,7 @@
    "group": "Legumbres, cereales, frutos secos y semillas",
    "cat": "Legumbres / Pastas, cremas y untables",
    "local": "",
+   "diet": "vegano",
    "tag": "Estados Unidos",
    "yield": "1 tarro de 400 g",
    "parts": [
@@ -26275,8 +26276,7 @@
     }
    ],
    "notes": "En un tarro cerrado, 1 mes en la despensa o 3 meses en nevera.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-horchata-de-chufa",
@@ -26285,6 +26285,7 @@
    "group": "Legumbres, cereales, frutos secos y semillas",
    "cat": "Otras materias primas / Bebidas vegetales",
    "local": "",
+   "diet": "vegano",
    "tag": "España / Comunidad Valenciana",
    "yield": "1 l",
    "parts": [
@@ -26324,8 +26325,7 @@
     }
    ],
    "notes": "Con chufa de la DO Chufa de Valencia (l'Horta Nord). La horchata natural no lleva conservantes: en nevera, 24–48 h.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-leche-de-almendras",
@@ -26334,6 +26334,7 @@
    "group": "Legumbres, cereales, frutos secos y semillas",
    "cat": "Frutos secos / Bebidas vegetales",
    "local": "",
+   "diet": "vegano",
    "tag": "",
    "yield": "1 l",
    "parts": [
@@ -26365,8 +26366,7 @@
     }
    ],
    "notes": "La pulpa sobrante, seca en el horno a baja temperatura, es harina de almendra. En nevera, 3–4 días.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-leche-de-avena",
@@ -26375,6 +26375,7 @@
    "group": "Legumbres, cereales, frutos secos y semillas",
    "cat": "Cereales / Bebidas vegetales",
    "local": "",
+   "diet": "vegano",
    "tag": "",
    "yield": "1 l",
    "parts": [
@@ -26405,8 +26406,7 @@
     }
    ],
    "notes": "Triturar más o apretar al colar la deja viscosa. En nevera, 3–4 días; agitar antes de usar.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-tramussos-altramuces",
@@ -26415,6 +26415,7 @@
    "group": "Legumbres, cereales, frutos secos y semillas",
    "cat": "Legumbres / Cocidos y encurtidos",
    "local": "",
+   "diet": "vegano",
    "tag": "España / Comunidad Valenciana",
    "yield": "1 kg",
    "parts": [
@@ -26448,8 +26449,7 @@
     }
    ],
    "notes": "El amargor son alcaloides tóxicos: la AESAN avisa de intoxicaciones por altramuces mal desamargados. Si amargan, no comerlos y seguir cambiando el agua.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-garbanzos-tostados",
@@ -26458,6 +26458,7 @@
    "group": "Legumbres, cereales, frutos secos y semillas",
    "cat": "Legumbres / Tostados y fritos",
    "local": "",
+   "diet": "vegano",
    "tag": "España",
    "yield": "300 g",
    "parts": [
@@ -26495,8 +26496,7 @@
     }
    ],
    "notes": "Versión casera de los «torraos». Tierno por dentro = falta horno. En tarro cerrado, 1 semana.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-anko-pasta-de-judia-roja",
@@ -26505,6 +26505,7 @@
    "group": "Legumbres, cereales, frutos secos y semillas",
    "cat": "Legumbres / Pastas, cremas y untables",
    "local": "",
+   "diet": "vegano",
    "tag": "Japón",
    "yield": "600 g",
    "parts": [
@@ -26538,8 +26539,7 @@
     }
    ],
    "notes": "Tsubuan (con grano). Para koshian (fina), pasar las judías por un colador antes del azúcar. Rellena dorayaki y mochi. En nevera, 1 semana; se congela.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-gomasio",
@@ -26548,6 +26548,7 @@
    "group": "Legumbres, cereales, frutos secos y semillas",
    "cat": "Semillas / Mezclas condimentarias",
    "local": "",
+   "diet": "vegano",
    "tag": "Japón",
    "yield": "1 tarro de 150 g",
    "parts": [
@@ -26575,8 +26576,7 @@
     }
    ],
    "notes": "Proporción tradicional entre 10:1 y 15:1 de sésamo y sal. Para arroz, verduras y sopas. En tarro cerrado, 1 mes.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-dukkah",
@@ -26585,6 +26585,7 @@
    "group": "Legumbres, cereales, frutos secos y semillas",
    "cat": "Frutos secos / Mezclas condimentarias",
    "local": "",
+   "diet": "vegano",
    "tag": "Egipto",
    "yield": "1 tarro de 200 g",
    "parts": [
@@ -26632,8 +26633,7 @@
     }
    ],
    "notes": "Se come mojando pan en aceite y luego en el dukkah. En tarro cerrado, 1 mes.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-za-atar",
@@ -26642,6 +26642,7 @@
    "group": "Legumbres, cereales, frutos secos y semillas",
    "cat": "Semillas / Mezclas condimentarias",
    "local": "",
+   "diet": "vegano",
    "tag": "Líbano",
    "yield": "1 tarro de 100 g",
    "parts": [
@@ -26677,8 +26678,7 @@
     }
    ],
    "notes": "Para manakish, labneh, huevos o pan con aceite. Las proporciones varían por casa y país (Palestina, Siria, Jordania).",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-granola",
@@ -26687,6 +26687,7 @@
    "group": "Legumbres, cereales, frutos secos y semillas",
    "cat": "Cereales / Copos y mezclas de desayuno",
    "local": "",
+   "diet": "vegano",
    "tag": "Estados Unidos",
    "yield": "600 g",
    "parts": [
@@ -26741,8 +26742,7 @@
     }
    ],
    "notes": "En tarro cerrado, 2–3 semanas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-brotes-de-soja-judia-mungo",
@@ -26751,6 +26751,7 @@
    "group": "Legumbres, cereales, frutos secos y semillas",
    "cat": "Legumbres / Germinados",
    "local": "",
+   "diet": "vegano",
    "tag": "China",
    "yield": "400 g",
    "parts": [
@@ -26774,8 +26775,7 @@
     }
    ],
    "notes": "Los germinados crecen en condiciones que también favorecen bacterias: la AESAN y la EFSA recomiendan cocinarlos antes de comerlos. Salteados 1–2 min bastan. En nevera, 2–3 días.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-almendras-fritas",
@@ -26784,6 +26784,7 @@
    "group": "Legumbres, cereales, frutos secos y semillas",
    "cat": "Frutos secos / Tostados y fritos",
    "local": "",
+   "diet": "vegano",
    "tag": "España",
    "yield": "250 g",
    "parts": [
@@ -26816,8 +26817,7 @@
     }
    ],
    "notes": "Sacarlas un punto antes de lo que parece: se oscurecen al enfriar. En tarro cerrado, 2 semanas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-pipas-de-girasol-tostadas",
@@ -26826,6 +26826,7 @@
    "group": "Legumbres, cereales, frutos secos y semillas",
    "cat": "Semillas / Tostados y fritos",
    "local": "",
+   "diet": "vegano",
    "tag": "España",
    "yield": "250 g",
    "parts": [
@@ -26858,8 +26859,7 @@
     }
    ],
    "notes": "La salmuera mete la sal dentro de la cáscara, como las de bolsa. En tarro cerrado, 1 mes.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-crackers-de-semillas-froknacke",
@@ -26868,6 +26868,7 @@
    "group": "Legumbres, cereales, frutos secos y semillas",
    "cat": "Semillas / Horneados",
    "local": "",
+   "diet": "vegano",
    "tag": "Suecia",
    "yield": "1 bandeja",
    "parts": [
@@ -26927,8 +26928,7 @@
     }
    ],
    "notes": "Clásico sueco sin gluten. En lata cerrada, 2–3 semanas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-bircher-muesli",
@@ -26937,6 +26937,7 @@
    "group": "Legumbres, cereales, frutos secos y semillas",
    "cat": "Cereales / Copos y mezclas de desayuno",
    "local": "",
+   "diet": "vegetariano",
    "tag": "Suiza",
    "yield": "2 raciones",
    "parts": [
@@ -26984,8 +26985,7 @@
     }
    ],
    "notes": "Lo creó el médico Maximilian Bircher-Benner hacia 1900 en su sanatorio de Zúrich. En su receta original, la manzana pesa mucho más que la avena.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-gofio",
@@ -26994,6 +26994,7 @@
    "group": "Legumbres, cereales, frutos secos y semillas",
    "cat": "Cereales / Harinas y sémolas",
    "local": "",
+   "diet": "vegano",
    "tag": "España / Canarias",
    "yield": "450 g",
    "parts": [
@@ -27021,8 +27022,7 @@
     }
    ],
    "notes": "Tradicional de molino de piedra; protegido como «Gofio Canario» (IGP). También se hace de trigo, cebada o mezcla. Para escaldón, con leche o amasado con plátano. En tarro cerrado, 2–3 meses.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-aceite-de-ajo",
@@ -27031,6 +27031,7 @@
    "group": "Aceites, vinagres, extractos y bebidas",
    "cat": "Aceites aromatizados",
    "local": "",
+   "diet": "vegano",
    "tag": "",
    "yield": "500 ml",
    "parts": [
@@ -27077,8 +27078,7 @@
     }
    ],
    "notes": "Método de acidificación con ácido cítrico de las extensiones universitarias de EE. UU. (Clemson, Penn State, Washington State/PNW664): es el único probado; no sirven limón ni vinagre, y no se puede acortar el remojo. Así aguanta mucho más: mejor en nevera por calidad. Sin acidificar (ajo crudo en aceite, sin más), solo 4 días en nevera o congelar: riesgo de botulismo.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-aceite-de-romero",
@@ -27087,6 +27087,7 @@
    "group": "Aceites, vinagres, extractos y bebidas",
    "cat": "Aceites aromatizados",
    "local": "",
+   "diet": "vegano",
    "tag": "",
    "yield": "500 ml",
    "parts": [
@@ -27133,8 +27134,7 @@
     }
    ],
    "notes": "Método de acidificación con ácido cítrico de las extensiones universitarias de EE. UU. (Clemson, Penn State, Washington State/PNW664): es el único probado; no sirven limón ni vinagre, y no se puede acortar el remojo. Vale igual para albahaca y orégano frescos; no para otras hierbas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-aceite-verde-de-albahaca",
@@ -27143,6 +27143,7 @@
    "group": "Aceites, vinagres, extractos y bebidas",
    "cat": "Aceites aromatizados",
    "local": "",
+   "diet": "vegano",
    "tag": "Italia",
    "yield": "200 ml",
    "parts": [
@@ -27176,8 +27177,7 @@
     }
    ],
    "notes": "Aceite de acabado, para dar color y aroma. Hierba fresca en aceite: 4 días en nevera (Oregon State) o congelar en cubitos.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-aceite-de-guindilla",
@@ -27186,6 +27186,7 @@
    "group": "Aceites, vinagres, extractos y bebidas",
    "cat": "Aceites aromatizados",
    "local": "",
+   "diet": "vegano",
    "tag": "",
    "yield": "250 ml",
    "parts": [
@@ -27218,8 +27219,7 @@
     }
    ],
    "notes": "Con guindilla seca, sin ajo. Las guías no coinciden: Oregon State pide 4 días en nevera también con ingredientes secos, mientras que Penn State da hasta 3 meses en nevera para hierbas secas. Lo prudente es hacer poco y guardarlo en nevera.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-vinagre-de-frambuesa",
@@ -27228,6 +27228,7 @@
    "group": "Aceites, vinagres, extractos y bebidas",
    "cat": "Vinagres aromatizados",
    "local": "",
+   "diet": "vegano",
    "tag": "Francia",
    "yield": "750 ml",
    "parts": [
@@ -27256,8 +27257,7 @@
     }
    ],
    "notes": "Fuente: University of Maine Cooperative Extension, «Let's Preserve: Herbal Vinegar» (2 tazas de frambuesa por 3 de vinagre). En nevera, 3 meses; para guardar en despensa, esterilizar botes de 500 ml 10 min al baño maría.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-vinagre-de-estragon",
@@ -27266,6 +27266,7 @@
    "group": "Aceites, vinagres, extractos y bebidas",
    "cat": "Vinagres aromatizados",
    "local": "",
+   "diet": "vegano",
    "tag": "Francia",
    "yield": "500 ml",
    "parts": [
@@ -27293,8 +27294,7 @@
     }
    ],
    "notes": "Fuente: University of Maine Cooperative Extension: 2–3 ramas por cada 500 ml, o 3 cda de hierba seca. El de la salsa bearnesa. En nevera, 3 meses; o esterilizar 10 min al baño maría.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-extracto-de-vainilla",
@@ -27303,6 +27303,7 @@
    "group": "Aceites, vinagres, extractos y bebidas",
    "cat": "Preparaciones en alcohol / Extractos",
    "local": "",
+   "diet": "vegano",
    "tag": "",
    "yield": "250 ml",
    "parts": [
@@ -27331,8 +27332,7 @@
     }
    ],
    "notes": "Proporción similar a la que fija la norma estadounidense (FDA) para el extracto «de un pliegue»: unos 100 g de vainilla por litro. Dura años.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-masala-chai",
@@ -27341,6 +27341,7 @@
    "group": "Aceites, vinagres, extractos y bebidas",
    "cat": "Bebidas a base de leche",
    "local": "",
+   "diet": "vegetariano",
    "tag": "India",
    "yield": "4 tazas",
    "parts": [
@@ -27404,8 +27405,7 @@
     }
    ],
    "notes": "Cada casa y cada puesto de chaiwala tiene su mezcla.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-te-moruno",
@@ -27414,6 +27414,7 @@
    "group": "Aceites, vinagres, extractos y bebidas",
    "cat": "Bebidas a base de agua / Té",
    "local": "",
+   "diet": "vegano",
    "tag": "Marruecos",
    "yield": "1 tetera (6 vasos)",
    "parts": [
@@ -27452,8 +27453,7 @@
     }
    ],
    "notes": "Ataï. Parte de su ceremonia de hospitalidad.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-agua-de-jamaica",
@@ -27462,6 +27462,7 @@
    "group": "Aceites, vinagres, extractos y bebidas",
    "cat": "Bebidas a base de agua / Otras infusiones",
    "local": "",
+   "diet": "vegano",
    "tag": "México",
    "yield": "2 l",
    "parts": [
@@ -27495,8 +27496,7 @@
     }
    ],
    "notes": "Una de las «aguas frescas» mexicanas. La flor se puede hervir una segunda vez. En nevera, 3–4 días.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-cafe-de-olla",
@@ -27505,6 +27505,7 @@
    "group": "Aceites, vinagres, extractos y bebidas",
    "cat": "Bebidas a base de agua / Café",
    "local": "",
+   "diet": "vegano",
    "tag": "México",
    "yield": "4 tazas",
    "parts": [
@@ -27547,8 +27548,7 @@
     }
    ],
    "notes": "Tradicionalmente en olla de barro, que le da sabor.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-mate",
@@ -27557,6 +27557,7 @@
    "group": "Aceites, vinagres, extractos y bebidas",
    "cat": "Bebidas a base de agua / Otras infusiones",
    "local": "",
+   "diet": "vegano",
    "tag": "Argentina",
    "yield": "1 mate",
    "parts": [
@@ -27586,8 +27587,7 @@
     }
    ],
    "notes": "El agua hirviendo quema la yerba y amarga («lava» el mate). Igual de propio de Uruguay, Paraguay y el sur de Brasil.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-leche-dorada",
@@ -27596,6 +27596,7 @@
    "group": "Aceites, vinagres, extractos y bebidas",
    "cat": "Bebidas a base de leche",
    "local": "",
+   "diet": "vegetariano",
    "tag": "India",
    "yield": "2 tazas",
    "parts": [
@@ -27642,8 +27643,7 @@
     }
    ],
    "notes": "Haldi doodh, bebida casera tradicional de la India.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-mugicha-te-de-cebada",
@@ -27652,6 +27652,7 @@
    "group": "Aceites, vinagres, extractos y bebidas",
    "cat": "Bebidas a base de agua / Otras infusiones",
    "local": "",
+   "diet": "vegano",
    "tag": "Japón",
    "yield": "1 l",
    "parts": [
@@ -27678,8 +27679,7 @@
     }
    ],
    "notes": "El té frío del verano japonés; no lleva cafeína. También se hierve 5 min y se enfría. En nevera, 2 días.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-matcha",
@@ -27688,6 +27688,7 @@
    "group": "Aceites, vinagres, extractos y bebidas",
    "cat": "Bebidas a base de agua / Té",
    "local": "",
+   "diet": "vegano",
    "tag": "Japón",
    "yield": "1 cuenco",
    "parts": [
@@ -27716,8 +27717,7 @@
     }
    ],
    "notes": "Usucha (ligero). El koicha (espeso) lleva el doble de matcha y la mitad de agua y se amasa sin espuma.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-cold-brew",
@@ -27726,6 +27726,7 @@
    "group": "Aceites, vinagres, extractos y bebidas",
    "cat": "Bebidas a base de agua / Café",
    "local": "",
+   "diet": "vegano",
    "tag": "Estados Unidos",
    "yield": "1 l de concentrado",
    "parts": [
@@ -27753,8 +27754,7 @@
     }
    ],
    "notes": "Proporción 1:8 para concentrado. Menos ácido que el café caliente. En nevera, 1 semana.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-cordial-de-flor-de-sauco",
@@ -27763,6 +27763,7 @@
    "group": "Aceites, vinagres, extractos y bebidas",
    "cat": "Jarabes y cordiales",
    "local": "",
+   "diet": "vegano",
    "tag": "Reino Unido",
    "yield": "1,5 l",
    "parts": [
@@ -27807,8 +27808,7 @@
     }
    ],
    "notes": "Las flores se cogen en mayo-junio, recién abiertas y en día seco. Solo la flor y la baya madura cocida son comestibles; tallos y hojas son tóxicos. En nevera, 1 mes; se congela en cubitos.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-limoncello",
@@ -27817,6 +27817,7 @@
    "group": "Aceites, vinagres, extractos y bebidas",
    "cat": "Preparaciones en alcohol / Licores y macerados",
    "local": "",
+   "diet": "vegano",
    "tag": "Italia / Campania",
    "yield": "1,2 l",
    "parts": [
@@ -27856,8 +27857,7 @@
     }
    ],
    "notes": "Típico de la costa amalfitana y Sorrento, con el limón de Sorrento (IGP). Usar alcohol etiquetado para uso alimentario, nunca el de farmacia.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-pacharan",
@@ -27866,6 +27866,7 @@
    "group": "Aceites, vinagres, extractos y bebidas",
    "cat": "Preparaciones en alcohol / Licores y macerados",
    "local": "",
+   "diet": "vegano",
    "tag": "España / Navarra",
    "yield": "1 l",
    "parts": [
@@ -27904,8 +27905,7 @@
     }
    ],
    "notes": "La IG Pacharán Navarro exige entre 125 y 250 g de endrinas por litro y maceración en anís. Las endrinas se recogen en otoño, tras las primeras heladas.",
-   "done": false,
-   "pesce": false
+   "done": false
   },
   {
    "id": "r-productos-herbero",
@@ -27914,6 +27914,7 @@
    "group": "Aceites, vinagres, extractos y bebidas",
    "cat": "Preparaciones en alcohol / Licores y macerados",
    "local": "",
+   "diet": "vegano",
    "tag": "España / Comunidad Valenciana",
    "yield": "1 l",
    "parts": [
@@ -27982,8 +27983,7 @@
     }
    ],
    "notes": "Licor de hierbas de la Sierra de Mariola, con indicación geográfica «Herbero de la Sierra de Mariola». Cada familia tiene su mezcla (las tradicionales llevan hasta veinte hierbas). Recolectar solo hierbas que se conozcan bien.",
-   "done": false,
-   "pesce": false
+   "done": false
   }
  ]
 }
