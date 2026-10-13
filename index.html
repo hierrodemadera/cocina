@@ -414,7 +414,7 @@ const CATS = {
   ]
 };
 
-/* clasificación dentro de cada grupo de Productos (y de Fermentos): [categoría, subcategorías] */
+/* clasificación dentro de cada grupo de Productos y de Conservas: [categoría, subcategorías] */
 const LEG_SUBS = ['Cocidos y encurtidos','Tostados y fritos','Pastas, cremas y untables','Bebidas vegetales','Cuajados y fermentados','Germinados','Harinas y sémolas','Mezclas condimentarias','Copos y mezclas de desayuno','Horneados'];
 const GCATS = {
   'Fondos': [
@@ -491,6 +491,29 @@ const GCATS = {
   ]
 };
 GCATS['Fermentos'] = CATS.conservas;
+GCATS['Encurtidos'] = [
+  ['En vinagre o ácido', ['Ácidos','Agridulces y dulces','Picados, chutneys y relishes']],
+  ['En aceite y especias', []],
+  ['Curados en sal o sazonador', ['En sal o salmuera','En soja, miso o jang','Aceitunas de mesa aliñadas']]
+];
+GCATS['Conservas dulces'] = [
+  ['Confituras y mermeladas', ['De fruta','De cítricos (marmalade)']],
+  ['Jaleas', ['De fruta','De cítricos']],
+  ['Cremas untables', ['De fruta','De castaña','Curds','Dulces lácteos']],
+  ['Pastas de fruta', []],
+  ['Frutas en medio líquido', ['Compotas','En almíbar','En alcohol']],
+  ['Jarabes y arropes', ['Arropes','Jarabes y mieles de fruta']],
+  ['Frutas confitadas', ['Confitadas','Glaseadas o escarchadas']]
+];
+GCATS['Conservas saladas'] = [
+  ['Al natural, en su jugo o en salsa', ['Tomate','Hortalizas y setas','Hortalizas cocinadas','Legumbres','Pescado y marisco','Carnes y aves']],
+  ['En aceite', ['Hortalizas y setas','Pescado y marisco','Quesos y otros']],
+  ['Escabeches y marinados', ['Pescado y marisco','Carnes y aves','Setas y hortalizas cocinadas']],
+  ['Salazones', ['Pescado y huevas','Carnes y grasas','Hierbas y hortalizas en sal']],
+  ['Secados y ahumados', ['Secados','Seco-salados','Ahumados']],
+  ['Confitados en grasa', ['Confits','Orza','Rillettes y desmigados']],
+  ['Pastas, condimentos y salsas', ['Pastas de chile y especias','Untables','Condimentos en aceite','Salsas de mesa']]
+];
 function catListFor(tab, group){ return tab === 'recetas' ? (group !== 'Dulce' ? CATS.recetas : null) : (GCATS[group] || null); }
 function catList(r){ return catListFor(r.tab, r.group); }
 function catApplies(r){ return !!catList(r); }
@@ -826,7 +849,7 @@ Reglas:
 - Para modificar una receta, edítala dentro del archivo; no la dupliques. Respeta el "done" que tenga.
 - "tab": "recetas" (platos con nombre propio), "productos" (elaboraciones base: masas, salsas, lácteos, bebidas…) o "conservas".
 - "group": en recetas, "Salado" o "Dulce". En productos: "Fondos", "Salsas", "Guarniciones", "Elaboraciones complementarias", "Masas", "Lácteos y derivados", "Legumbres, cereales, frutos secos y semillas" o "Aceites, vinagres, extractos y bebidas". En conservas: "Fermentos", "Encurtidos", "Conservas dulces" o "Conservas saladas".
-- "cat": tipo de plato, «Capítulo / Subcapítulo» (o solo el capítulo si no tiene subcapítulos). En recetas saladas, en todos los grupos de productos y en conservas del grupo Fermentos; en lo demás, "".
+- "cat": tipo de plato, «Capítulo / Subcapítulo» (o solo el capítulo si no tiene subcapítulos). En recetas saladas, en todos los grupos de productos y en todos los de conservas; en recetas dulces, "".
   Recetas saladas: "Entremeses y aperitivos / Fríos", "Entremeses y aperitivos / Calientes", "Ensaladas", "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés", "Sopas, consomés, cremas, potajes y cocidos / Cremas frías", "Sopas, consomés, cremas, potajes y cocidos / Cremas calientes", "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos", "Hortalizas", "Arroces", "Pastas alimenticias", "Huevos", "Pescados", "Mariscos", "Carnes / Aves y conejo", "Carnes / Bovino", "Carnes / Porcino", "Carnes / Ovino", "Carnes / Caza".
   Desempate: manda primero el formato (si la base es arroz → Arroces; pasta o fideos → Pastas alimenticias; sopa, crema, potaje, cocido o guiso de cuchara → Sopas…; ensalada → Ensaladas; tapa, mezze, masa rellena o bocado → Entremeses), y si no, el ingrediente principal.
   Productos, según el grupo:
@@ -839,6 +862,10 @@ Reglas:
   Legumbres, cereales, frutos secos y semillas: Categoría por materia prima: Legumbres (también soja, cacahuete, altramuz), Cereales, Frutos secos, Semillas, Otras materias primas (chufa, coco). Subcategoría por elaboración: Cocidos y encurtidos, Tostados y fritos, Pastas, cremas y untables, Bebidas vegetales, Cuajados y fermentados, Germinados, Harinas y sémolas, Mezclas condimentarias, Copos y mezclas de desayuno, Horneados. Manda el ingrediente que da nombre al producto.
   Aceites, vinagres, extractos y bebidas: Por el líquido que extrae y conserva: Aceites aromatizados, Vinagres aromatizados, Preparaciones en alcohol (Extractos, Licores y macerados), Bebidas a base de agua (Té, Café, Otras infusiones), Bebidas a base de leche, Jarabes y cordiales. Solo es «Té» lo que viene de Camellia sinensis.
   Fermentos (según «El arte de la fermentación», de Sandor Katz): "Alcohólicos", "Hortalizas y frutas", "Bebidas ácidas", "Leche", "Cereales y tubérculos", "Cervezas", "Mohos", "Legumbres, semillas y frutos secos", "Carne, pescado y huevos".
+  Frontera entre conservas: si se fermenta en sal o salmuera sin ácido añadido → Fermentos; si el ácido (vinagre, cítrico) está desde el principio, o se cura en sal, soja o aceite sin buscar fermentación → Encurtidos; si es dulce y para untar o postre → Conservas dulces; el resto (pescado, carne, tomate, hortalizas cocinadas, salsas y pastas estabilizadas) → Conservas saladas. Una salsa que no se estabiliza para guardar va a Productos › Salsas.
+  Encurtidos (por el medio que conserva): En vinagre o ácido (Ácidos, Agridulces y dulces, Picados, chutneys y relishes), En aceite y especias, Curados en sal o sazonador (En sal o salmuera, En soja, miso o jang, Aceitunas de mesa aliñadas). Desempate: vinagre + aceite → En vinagre salvo que el aceite sea la mayor parte; azúcar ≥ ⅓ del vinagre → Agridulces y dulces; picado fino o ligado con mostaza (relish, chutney, piccalilli) → Picados…; pescado y huevo, por su medio; aceitunas → Aceitunas de mesa aliñadas salvo que se fermenten (entonces Fermentos). Hortaliza en aceite sin especias marcadas → Conservas saladas › En aceite.
+  Conservas dulces (por la forma física): Confituras y mermeladas (De fruta, De cítricos (marmalade)), Jaleas (De fruta, De cítricos), Cremas untables (De fruta, De castaña, Curds, Dulces lácteos), Pastas de fruta, Frutas en medio líquido (Compotas, En almíbar, En alcohol), Jarabes y arropes (Arropes, Jarabes y mieles de fruta), Frutas confitadas (Confitadas, Glaseadas o escarchadas). Desempate en orden: lleva vinagre o es para salado → no es dulce (chutney → Encurtidos); en alcohol → En alcohol; piezas saturadas de azúcar → Frutas confitadas; bloque que se corta → Pastas de fruta; líquido que se vierte → Jarabes y arropes; fruta reconocible en líquido → Frutas en medio líquido; solo zumo gelificado → Jaleas; pulpa o trozos gelificados → Confituras y mermeladas; crema lisa → Cremas untables.
+  Conservas saladas (por el método que estabiliza): Al natural, en su jugo o en salsa (Tomate, Hortalizas y setas, Hortalizas cocinadas, Legumbres, Pescado y marisco, Carnes y aves), En aceite (Hortalizas y setas, Pescado y marisco, Quesos y otros), Escabeches y marinados (Pescado y marisco, Carnes y aves, Setas y hortalizas cocinadas), Salazones (Pescado y huevas, Carnes y grasas, Hierbas y hortalizas en sal), Secados y ahumados (Secados, Seco-salados, Ahumados), Confitados en grasa (Confits, Orza, Rillettes y desmigados), Pastas, condimentos y salsas (Pastas de chile y especias, Untables, Condimentos en aceite, Salsas de mesa). Desempate en orden: triturado o condimento → Pastas, condimentos y salsas; su identidad viene de la sal, el secado o el humo → Salazones o Secados y ahumados (aunque acabe en aceite); cocinado en grasa y guardado bajo ella → Confitados en grasa; si no, por el líquido que lo cubre (escabeche → aceite → natural o salsa).
 - "local": solo en recetas de Japón, Perú o Líbano: la clasificación propia de esa cocina, «Categoría / Subcategoría» o solo la categoría. En el resto, "".
   Japón (washoku): Gohanmono (Sushi, Donburi y kare raisu, Onigiri, Takikomi y mazegohan, Kayu y zosui), Menrui (Udon, Soba, Somen y hiyamugi, Ramen, Otros fideos), Shirumono (Suimono, Misoshiru, Sopas con tropezones), Nabemono, Konamono, Sashimi, Yakimono, Nimono, Mushimono, Agemono (Karaage, Tempura y koromoage, Furai y katsu, Suage), Itamemono, Aemono y sunomono, Tsukemono, Wagashi (Mochimono (de mochi y dango), Yakimono (horneados), Mushimono (al vapor), Nagashimono (en molde), Nerimono (pastas), Higashi (secos)), Kanmi. Desempate: dulce → arroz como base → fideos → cazuela en la mesa → masa de harina → sopa → conserva → método de cocción.
   Perú: Marina (Cebiches y tiraditos, Frituras y jaleas, Calientes), Criolla (Limeña, Afroperuana, Anticuchos y brasas, Desayuno y sánguches), Chifa, Nikkei, Norteña, Sureña (Picantería arequipeña, Tacna y Moquegua), Andina, Amazónica, Dulcería (Mazamorras y postres de cuchara, Turrones, alfajores y dulces de convento, Frituras y masas dulces, Helados y fríos). Desempate: dulce → tipo de local (chifa, nikkei, cebichería, anticuchos y brasas) → afroperuana → macrorregión de origen → criolla.
