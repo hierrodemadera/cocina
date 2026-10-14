@@ -27984,6 +27984,1147 @@
    ],
    "notes": "Licor de hierbas de la Sierra de Mariola, con indicación geográfica «Herbero de la Sierra de Mariola». Cada familia tiene su mezcla (las tradicionales llevan hasta veinte hierbas). Recolectar solo hierbas que se conozcan bien.",
    "done": false
+  },
+  {
+   "id": "r-conservas-kuri-no-kanroni-castanas-en-almibar",
+   "tab": "conservas",
+   "name": "Kuri no kanroni (castañas en almíbar)",
+   "group": "Conservas dulces",
+   "cat": "Frutas en medio líquido / En almíbar",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Japón",
+   "yield": "1 tarro de 750 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Castaña pelada (sin la piel interior)"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "400",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Fruto de gardenia seco (kuchinashi), partido"
+      },
+      {
+       "q": "2",
+       "u": "cda.",
+       "n": "Brandy o mirin (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar las castañas con cáscara en agua toda la noche; pelar la cáscara dura y la piel interior con un cuchillo afilado, dejando forma de castaña.",
+      "Mantener las castañas peladas en agua al menos 1 h para quitar amargor.",
+      "Cubrir con agua nueva, añadir la gardenia envuelta en una gasa y cocer a fuego suave 20 min desde el hervor, sin borbotones; enfriar en agua fría.",
+      "Disolver 200 g de azúcar en los 400 ml de agua, añadir las castañas escurridas y apagar en cuanto rompa a hervir.",
+      "Cubrir con papel (otoshibuta) y reposar toda la noche.",
+      "Añadir los 200 g de azúcar restantes (y el brandy si se usa), llevar a hervor suave, apagar y reposar otra noche.",
+      "Envasar en tarro esterilizado cubiertas de almíbar y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "El azúcar en dos veces evita que la castaña se endurezca; no dejar que hierva fuerte o se rompe. La gardenia da el amarillo típico; sin ella quedan pálidas. En nevera, unas 2 semanas. Es la base de casi todos los dulces de castaña de esta lista.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-kuri-no-shibukawani-castanas-en-almibar-con-piel-interior",
+   "tab": "conservas",
+   "name": "Kuri no shibukawani (castañas en almíbar con piel interior)",
+   "group": "Conservas dulces",
+   "cat": "Frutas en medio líquido / En almíbar",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Japón",
+   "yield": "1 tarro de 750 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Castaña con cáscara"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Bicarbonato (en tres tandas de 1 cdta.)"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Salsa de soja"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cubrir las castañas con agua caliente 30 min y quitar solo la cáscara dura, sin dañar la piel interior (shibukawa).",
+      "Cubrir con agua abundante y 1 cdta. de bicarbonato; dejar en remojo de 4 h a una noche.",
+      "Llevar a ebullición y cocer 10 min a fuego suave; escurrir.",
+      "Repetir la cocción con agua limpia y bicarbonato hasta que el agua salga casi clara (normalmente 3 veces), enfriando cada vez poco a poco con agua del grifo.",
+      "Retirar con los dedos o un palillo las fibras gruesas y la vena del lomo, sin romper la piel.",
+      "Cocer 10 min más solo con agua para quitar el sabor a bicarbonato.",
+      "Cubrir con agua nueva, añadir el azúcar, tapar con otoshibuta y cocer 30 min a fuego muy suave; reposar toda la noche.",
+      "Sacar las castañas, reducir el almíbar con la salsa de soja 10–15 min, devolver las castañas y glasearlas 10 min.",
+      "Envasar en tarro esterilizado cubiertas de almíbar y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Las unas gotas de soja redondean el dulzor y dan brillo. Si se rompe la piel interior la castaña se deshace: manipular siempre con agua templada. En nevera, unas 2–3 semanas; para más tiempo, esterilizar los tarros.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-kuri-kinton-de-nakatsugawa",
+   "tab": "recetas",
+   "name": "Kuri kinton de Nakatsugawa",
+   "group": "Dulce",
+   "cat": "",
+   "local": "Wagashi / Nerimono (pastas)",
+   "diet": "vegano",
+   "tag": "Japón / Chubu",
+   "yield": "20 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Castaña fresca con cáscara"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar las castañas unas horas y cocerlas en agua 40–50 min hasta que estén tiernas.",
+      "Partirlas por la mitad en caliente y vaciar la pulpa con una cucharilla.",
+      "Aplastar la pulpa mezclándola con el azúcar y una pizca de sal, y pasarla por un tamiz si se quiere más fina.",
+      "Cocer en un cazo de fondo grueso a fuego suave, removiendo, hasta que la pasta se separe del fondo y tenga cuerpo para formar bolas.",
+      "Enfriar un poco y porcionar en bolas de 30 g.",
+      "Poner cada bola en un paño húmedo bien escurrido, cerrarlo y retorcerlo para marcar las arrugas (chakin shibori); presionar ligeramente la base con el pulgar y desenvolver."
+     ]
+    }
+   ],
+   "notes": "Dulce de otoño de Nakatsugawa (Gifu), antigua posta de la ruta Nakasendō; solo castaña y azúcar. Se toma en el día o al siguiente: no lleva conservantes.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-kuri-kinton-de-ano-nuevo",
+   "tab": "recetas",
+   "name": "Kuri kinton de Año Nuevo",
+   "group": "Dulce",
+   "cat": "",
+   "local": "Wagashi / Nerimono (pastas)",
+   "diet": "vegano",
+   "tag": "Japón",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Boniato japonés (satsumaimo)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Fruto de gardenia seco (kuchinashi), partido"
+      },
+      {
+       "q": "10",
+       "u": "ud.",
+       "n": "Castaña en almíbar (kuri no kanroni)"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Almíbar de las castañas"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "2",
+       "u": "cda.",
+       "n": "Mirin"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Pelar el boniato con una capa gruesa (para que quede amarillo), cortar en rodajas de 2 cm y dejar en agua 30 min.",
+      "Cocer el boniato con la gardenia envuelta en gasa hasta que esté muy tierno; escurrir y pasar por un tamiz en caliente.",
+      "Volver al cazo con el almíbar de las castañas, el azúcar y el mirin; cocer a fuego suave removiendo hasta que la pasta caiga despacio de la espátula.",
+      "Añadir una pizca de sal y las castañas enteras o en mitades; calentar 1 min y apagar.",
+      "Enfriar tapado con film en contacto."
+     ]
+    }
+   ],
+   "notes": "Plato de la osechi: el color dorado simboliza riqueza para el año nuevo. Se sirve tal cual o en bolitas retorcidas en paño (chakin). Necesita las castañas en almíbar (Conservas › Kuri no kanroni).",
+   "done": false
+  },
+  {
+   "id": "r-recetas-kuri-yokan",
+   "tab": "recetas",
+   "name": "Kuri yōkan",
+   "group": "Dulce",
+   "cat": "",
+   "local": "Wagashi / Nagashimono (en molde)",
+   "diet": "vegano",
+   "tag": "Japón",
+   "yield": "1 molde de 15 × 15 cm",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "8",
+       "u": "ud.",
+       "n": "Castaña en almíbar (kuri no kanroni)"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Koshian (pasta lisa de judía roja)"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "3",
+       "u": "g",
+       "n": "Agar en polvo (kanten)"
+      },
+      {
+       "q": "200",
+       "u": "ml",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar las castañas en cuartos.",
+      "Mezclar el agua con el agar en un cazo, llevar a ebullición removiendo y hervir 1–2 min a fuego suave para que se disuelva por completo.",
+      "Añadir el azúcar y el koshian a temperatura ambiente y remover hasta que no queden grumos; cocer a fuego suave unos minutos hasta que espese ligeramente.",
+      "Mojar el molde con agua, verter la mezcla y repartir las castañas.",
+      "Templar y refrigerar 1–2 h hasta que cuaje; desmoldar y cortar con un cuchillo mojado."
+     ]
+    }
+   ],
+   "notes": "Si el agar no hierve bien no cuaja. Cuanto más se reduce la pasta, más firme y denso queda (neri yōkan). Se conserva 3–4 días en nevera, bien tapado.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-kuri-mushi-yokan",
+   "tab": "recetas",
+   "name": "Kuri mushi yōkan",
+   "group": "Dulce",
+   "cat": "",
+   "local": "Wagashi / Mushimono (al vapor)",
+   "diet": "vegano",
+   "tag": "Japón",
+   "yield": "1 molde de 15 × 7 cm",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "12",
+       "u": "ud.",
+       "n": "Castaña en almíbar (kuri no kanroni)"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Koshian (pasta lisa de judía roja)"
+      },
+      {
+       "q": "22",
+       "u": "g",
+       "n": "Harina floja"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Fécula de patata (katakuriko)"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "70",
+       "u": "ml",
+       "n": "Agua a 60 ºC (60–80 ml)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Forrar el molde con papel de horno y preparar la vaporera.",
+      "Escaldar las castañas 1 min, escurrir y enfriar; reservar 4 enteras y partir el resto por la mitad.",
+      "Amasar con la mano el koshian con la harina tamizada; añadir la fécula, el azúcar y la sal.",
+      "Incorporar el agua templada poco a poco hasta que la masa caiga lentamente de la espátula; añadir las castañas partidas.",
+      "Verter en el molde, alisar y colocar encima las castañas enteras.",
+      "Cocer al vapor fuerte 30 min, con un paño en la tapa para que no gotee.",
+      "Alisar la superficie, enfriar tapado con un paño húmedo, desmoldar y cortar."
+     ]
+    }
+   ],
+   "notes": "Usar un koshian que no lleve agar: con él queda blando. Textura más tierna y elástica que el yōkan de agar; es el dulce de té típico de otoño.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-kuri-kanoko",
+   "tab": "recetas",
+   "name": "Kuri kanoko",
+   "group": "Dulce",
+   "cat": "",
+   "local": "Wagashi / Nerimono (pastas)",
+   "diet": "vegano",
+   "tag": "Japón",
+   "yield": "8 ud.",
+   "parts": [
+    {
+     "name": "Centro",
+     "ings": [
+      {
+       "q": "160",
+       "u": "g",
+       "n": "Koshian (pasta lisa de judía roja)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Porcionar el koshian en 8 bolas de 20 g."
+     ]
+    },
+    {
+     "name": "Cobertura y glaseado",
+     "ings": [
+      {
+       "q": "12",
+       "u": "ud.",
+       "n": "Castaña en almíbar (kuri no kanroni)"
+      },
+      {
+       "q": "1",
+       "u": "g",
+       "n": "Agar en polvo (kanten)"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Azúcar"
+      }
+     ],
+     "steps": [
+      "Escurrir bien las castañas y cortarlas en mitades o láminas gruesas.",
+      "Pegar los trozos de castaña alrededor de cada bola, con la cara curva hacia fuera, hasta cubrirla.",
+      "Hervir el agua con el agar 1–2 min, añadir el azúcar y disolver.",
+      "Pintar las piezas con el agar templado para darles brillo y dejar que cuaje a temperatura ambiente."
+     ]
+    }
+   ],
+   "notes": "Kanoko significa «moteado de cervatillo»: el nombre viene de las legumbres o castañas que cubren la bola. Es un namagashi de otoño; se come en el día. Necesita las castañas en almíbar (Conservas › Kuri no kanroni).",
+   "done": false
+  },
+  {
+   "id": "r-recetas-kuri-dorayaki",
+   "tab": "recetas",
+   "name": "Kuri dorayaki",
+   "group": "Dulce",
+   "cat": "",
+   "local": "Wagashi / Yakimono (horneados)",
+   "diet": "vegetariano",
+   "tag": "Japón",
+   "yield": "6 ud.",
+   "parts": [
+    {
+     "name": "Relleno",
+     "ings": [
+      {
+       "q": "240",
+       "u": "g",
+       "n": "Tsubuan (pasta de judía roja con grano)"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Castaña en almíbar (kuri no kanroni)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Escurrir las castañas, picar la mitad en dados y mezclarlos con el tsubuan; cortar el resto en láminas."
+     ]
+    },
+    {
+     "name": "Tortitas y montaje",
+     "ings": [
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "70",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Miel"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Harina floja"
+      },
+      {
+       "q": "½",
+       "u": "cdta.",
+       "n": "Bicarbonato"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite"
+      }
+     ],
+     "steps": [
+      "Batir los huevos con el azúcar y la miel hasta que blanqueen.",
+      "Disolver el bicarbonato en el agua y añadirlo.",
+      "Incorporar la harina tamizada y reposar la masa 15 min.",
+      "Untar una sartén antiadherente con aceite y retirar el exceso con papel.",
+      "Verter discos de 9 cm a fuego medio-bajo y dar la vuelta cuando salgan burbujas; tapar con un paño para que no se sequen.",
+      "Untar un disco con relleno, poner encima unas láminas de castaña y cerrar con otro disco."
+     ]
+    }
+   ],
+   "notes": "Es el dorayaki básico de la ficha «Dorayaki» con castaña: la variante de otoño de las confiterías. El anko también se vende hecho.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-kuri-manju",
+   "tab": "recetas",
+   "name": "Kuri manjū",
+   "group": "Dulce",
+   "cat": "",
+   "local": "Wagashi / Yakimono (horneados)",
+   "diet": "vegetariano",
+   "tag": "Japón",
+   "yield": "10 ud.",
+   "parts": [
+    {
+     "name": "Masa",
+     "ings": [
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Mantequilla sin sal, a temperatura ambiente"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Huevo batido"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Harina floja"
+      },
+      {
+       "q": "½",
+       "u": "cdta.",
+       "n": "Levadura química"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Batir la mantequilla en pomada con el azúcar hasta que blanquee.",
+      "Añadir el huevo en tres veces, emulsionando cada vez.",
+      "Incorporar la harina y la levadura tamizadas con una espátula, sin trabajar de más; envolver y refrigerar 30 min."
+     ]
+    },
+    {
+     "name": "Relleno",
+     "ings": [
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Shiroan (pasta de judía blanca)"
+      },
+      {
+       "q": "10",
+       "u": "ud.",
+       "n": "Castaña en almíbar (kuri no kanroni)"
+      }
+     ],
+     "steps": [
+      "Secar las castañas con papel y cortarlas en cuartos.",
+      "Mezclar con el shiroan y formar 10 bolas."
+     ]
+    },
+    {
+     "name": "Formado y horneado",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Yema de huevo"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Mirin"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Semilla de amapola"
+      }
+     ],
+     "steps": [
+      "Precalentar el horno a 180 ºC.",
+      "Dividir la masa en 10, estirar cada porción en un disco de 5 cm, envolver el relleno y cerrar.",
+      "Dar forma de castaña: redondeada con una base plana y algo apuntada arriba.",
+      "Pintar con la yema mezclada con el mirin y mojar la base en semilla de amapola.",
+      "Hornear 15 min a 180 ºC hasta que brillen y estén dorados."
+     ]
+    }
+   ],
+   "notes": "Pintar dos veces (antes y a mitad de horneado) da el tostado brillante de las confiterías. La amapola imita la parte rugosa de la castaña.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-kuri-mushi-manju",
+   "tab": "recetas",
+   "name": "Kuri mushi manjū",
+   "group": "Dulce",
+   "cat": "",
+   "local": "Wagashi / Mushimono (al vapor)",
+   "diet": "vegano",
+   "tag": "Japón",
+   "yield": "8 ud.",
+   "parts": [
+    {
+     "name": "Relleno",
+     "ings": [
+      {
+       "q": "160",
+       "u": "g",
+       "n": "Shiroan (pasta de judía blanca)"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Castaña en almíbar (kuri no kanroni)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Picar las castañas en dados, mezclar con el shiroan y formar 8 bolas de 20 g."
+     ]
+    },
+    {
+     "name": "Masa y cocción",
+     "ings": [
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Harina floja"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Levadura química"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "45",
+       "u": "ml",
+       "n": "Agua (40–50 ml)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Harina para las manos"
+      }
+     ],
+     "steps": [
+      "Tamizar juntas la harina y la levadura.",
+      "Disolver el azúcar en el agua.",
+      "Incorporar la harina con una espátula, mezclando en cortes, hasta formar una masa blanda que no se pegue; dividir en 8.",
+      "Con las manos enharinadas aplanar cada porción, envolver el relleno y cerrar con la unión hacia abajo sobre un cuadrado de papel.",
+      "Colocar en la vaporera separados y cocer 10–12 min a vapor fuerte, con un paño en la tapa."
+     ]
+    }
+   ],
+   "notes": "Masa sin huevo ni lácteos. Con lías de sake (sakekasu) en la masa se convierte en sakamanjū. Se come templado o del día.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-kuri-imagawayaki",
+   "tab": "recetas",
+   "name": "Kuri imagawayaki",
+   "group": "Dulce",
+   "cat": "",
+   "local": "Wagashi / Yakimono (horneados)",
+   "diet": "vegetariano",
+   "tag": "Japón",
+   "yield": "6 ud.",
+   "parts": [
+    {
+     "name": "Relleno",
+     "ings": [
+      {
+       "q": "180",
+       "u": "g",
+       "n": "Tsubuan (pasta de judía roja con grano)"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Castaña en almíbar (kuri no kanroni)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Envolver cada castaña con 30 g de tsubuan."
+     ]
+    },
+    {
+     "name": "Masa y cocción",
+     "ings": [
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "240",
+       "u": "ml",
+       "n": "Leche"
+      },
+      {
+       "q": "240",
+       "u": "g",
+       "n": "Harina floja"
+      },
+      {
+       "q": "3",
+       "u": "cdta.",
+       "n": "Levadura química"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Aceite"
+      }
+     ],
+     "steps": [
+      "Batir el huevo con el azúcar y la sal; añadir la leche.",
+      "Incorporar la harina y la levadura tamizadas sin batir de más.",
+      "Untar la placa de imagawayaki (o aros de 8 cm sobre una sartén) con aceite y calentar a fuego medio-bajo.",
+      "Llenar cada hueco un 20 %, tapar y cuajar hasta que salgan burbujas.",
+      "Poner una bola de relleno en el centro y cubrir con masa hasta el 80 %; tapar 5 min.",
+      "Dar la vuelta (o unir con otra mitad si es placa de dos caras) y cocer 5–10 min más.",
+      "Desmoldar y servir caliente."
+     ]
+    }
+   ],
+   "notes": "Según la zona se llama imagawayaki, ōbanyaki o kaitenyaki. Sin placa se hace con aros de silicona en sartén tapada.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-kuri-kintsuba",
+   "tab": "recetas",
+   "name": "Kuri kintsuba",
+   "group": "Dulce",
+   "cat": "",
+   "local": "Wagashi / Yakimono (horneados)",
+   "diet": "vegano",
+   "tag": "Japón",
+   "yield": "12 ud.",
+   "parts": [
+    {
+     "name": "Bloque de anko",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Tsubuan (pasta de judía roja con grano)"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Castaña en almíbar (kuri no kanroni)"
+      },
+      {
+       "q": "2",
+       "u": "g",
+       "n": "Agar en polvo (kanten)"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Picar las castañas en dados.",
+      "Hervir el agua con el agar removiendo y cocer 1 min a fuego suave.",
+      "Apagar, añadir el tsubuan y las castañas y mezclar bien.",
+      "Verter en un molde de 13 × 10 cm forrado con film, enfriar en nevera hasta que cuaje y cortar en 12 dados."
+     ]
+    },
+    {
+     "name": "Capa y marcado",
+     "ings": [
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Shiratamako (harina de arroz glutinoso)"
+      },
+      {
+       "q": "5",
+       "u": "cda.",
+       "n": "Harina floja"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Azúcar"
+      },
+      {
+       "q": "5",
+       "u": "cda.",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Aceite"
+      }
+     ],
+     "steps": [
+      "Deshacer el shiratamako, mezclar con la harina y el azúcar y añadir el agua poco a poco hasta una masa líquida sin grumos.",
+      "Calentar una sartén con una película de aceite a fuego suave.",
+      "Pasar una cara de cada dado por la masa y marcarla en la sartén unos segundos; repetir con las seis caras."
+     ]
+    }
+   ],
+   "notes": "La capa tiene que ser casi transparente: se ve el anko y la castaña a través. Sin shiratamako, 6 cda. de harina floja.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-kuri-mushipan",
+   "tab": "recetas",
+   "name": "Kuri mushipan",
+   "group": "Dulce",
+   "cat": "",
+   "local": "Wagashi / Mushimono (al vapor)",
+   "diet": "vegetariano",
+   "tag": "Japón",
+   "yield": "6 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Castaña en almíbar (kuri no kanroni)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "3",
+       "u": "cda.",
+       "n": "Azúcar"
+      },
+      {
+       "q": "3",
+       "u": "cda.",
+       "n": "Leche"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Harina floja"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Levadura química"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Aceite vegetal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar las castañas en dados de 7 mm.",
+      "Batir el huevo con el azúcar y añadir la leche.",
+      "Tamizar encima la harina y la levadura, mezclar y añadir el aceite.",
+      "Llenar moldes de 7 cm hasta el 70 % y repartir las castañas por encima.",
+      "Cocer al vapor 12 min a fuego medio."
+     ]
+    }
+   ],
+   "notes": "Sin vaporera: sartén con un paño en el fondo y agua hasta media altura de los moldes, tapada, 12 min a fuego medio-bajo.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-kuri-kasutera",
+   "tab": "recetas",
+   "name": "Kuri kasutera",
+   "group": "Dulce",
+   "cat": "",
+   "local": "Wagashi / Yakimono (horneados)",
+   "diet": "vegetariano",
+   "tag": "Japón / Kyushu y Okinawa",
+   "yield": "1 molde de 20 × 20 cm",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Miel"
+      },
+      {
+       "q": "3",
+       "u": "cda.",
+       "n": "Mirin"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Harina de fuerza"
+      },
+      {
+       "q": "10",
+       "u": "ud.",
+       "n": "Castaña en almíbar (kuri no kanroni)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azúcar gruesa (zarame), opcional"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Forrar el molde con papel y, si se usa, repartir el zarame en el fondo. Precalentar el horno a 160 ºC.",
+      "Picar las castañas en dados, secarlas y pasarlas por un poco de la harina.",
+      "Batir los huevos con el azúcar al baño maría hasta que estén tibios; seguir batiendo 5–7 min hasta punto de cinta.",
+      "Añadir en hilo la miel mezclada con el mirin.",
+      "Incorporar la harina tamizada en tres veces con varillas hasta que no queden grumos; añadir las castañas en la última adición.",
+      "Verter en el molde y dejarlo caer un par de veces para quitar burbujas.",
+      "Hornear unos 60 min a 160 ºC, girando el molde a media cocción; cubrir con aluminio si se dora demasiado.",
+      "Desmoldar, darle la vuelta, envolver en film y reposar 1–2 días antes de cortar."
+     ]
+    }
+   ],
+   "notes": "Bizcocho de Nagasaki llegado con los portugueses en el s. XVI. La harina de fuerza da su miga elástica; el reposo envuelto lo deja húmedo.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-kuri-daifuku",
+   "tab": "recetas",
+   "name": "Kuri daifuku",
+   "group": "Dulce",
+   "cat": "",
+   "local": "Wagashi / Mochimono (de mochi y dango)",
+   "diet": "vegano",
+   "tag": "Japón",
+   "yield": "6 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Castaña en almíbar (kuri no kanroni)"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Shiroan (pasta de judía blanca) o koshian"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Shiratamako (harina de arroz glutinoso)"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "140",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Fécula de patata (katakuriko)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Secar las castañas y envolver cada una con 25 g de anko.",
+      "Mezclar el shiratamako con el azúcar y añadir el agua poco a poco hasta una masa lisa.",
+      "Cocer al vapor 15–20 min removiendo a media cocción (o en microondas a 600 W, 3 min + 2 min, removiendo entre medias) hasta que quede translúcida y elástica.",
+      "Volcar sobre una bandeja con fécula, espolvorear por encima y dividir en 6.",
+      "Aplanar cada porción, poner la bola de anko en el centro, cerrar pellizcando y redondear con la unión hacia abajo."
+     ]
+    }
+   ],
+   "notes": "El mochi se endurece en unas horas: se come en el día.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-kuri-nama-yatsuhashi",
+   "tab": "recetas",
+   "name": "Kuri nama yatsuhashi",
+   "group": "Dulce",
+   "cat": "",
+   "local": "Wagashi / Mochimono (de mochi y dango)",
+   "diet": "vegano",
+   "tag": "Japón / Kansai",
+   "yield": "8 ud.",
+   "parts": [
+    {
+     "name": "Relleno",
+     "ings": [
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Shiroan (pasta de judía blanca)"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Castaña en almíbar (kuri no kanroni)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Picar las castañas muy finas, mezclar con el shiroan y formar 8 bolitas."
+     ]
+    },
+    {
+     "name": "Masa y montaje",
+     "ings": [
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Shiratamako (harina de arroz glutinoso)"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Joshinko (harina de arroz)"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "80",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "3",
+       "u": "cda.",
+       "n": "Kinako (harina de soja tostada)"
+      },
+      {
+       "q": "2",
+       "u": "cdta.",
+       "n": "Canela molida"
+      }
+     ],
+     "steps": [
+      "Mezclar el shiratamako, el joshinko y el azúcar; añadir el agua y batir hasta que quede liso.",
+      "Cocer al vapor 15 min removiendo a mitad (o en microondas a 500 W, 90 s + 2 min, removiendo entre medias) hasta obtener una masa lisa y elástica.",
+      "Mezclar el kinako con la canela y espolvorear la mitad sobre la mesa.",
+      "Volcar la masa, cubrirla con el resto de la mezcla y estirarla a 1–2 mm en un rectángulo de 30 × 20 cm.",
+      "Cortar 8 cuadrados de 8 cm, poner una bolita de relleno en cada uno y doblar en triángulo."
+     ]
+    }
+   ],
+   "notes": "Dulce de Kioto; la masa cruda con canela es lo que lo define. La versión de castaña es la de otoño de las casas de yatsuhashi.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-kuri-monaka",
+   "tab": "recetas",
+   "name": "Kuri monaka",
+   "group": "Dulce",
+   "cat": "",
+   "local": "Wagashi / Yakimono (horneados)",
+   "diet": "vegano",
+   "tag": "Japón",
+   "yield": "8 ud.",
+   "parts": [
+    {
+     "name": "Pasta de castaña",
+     "ings": [
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Shiroan (pasta de judía blanca)"
+      },
+      {
+       "q": "8",
+       "u": "ud.",
+       "n": "Castaña en almíbar (kuri no kanroni)"
+      },
+      {
+       "q": "2",
+       "u": "cda.",
+       "n": "Almíbar de las castañas"
+      },
+      {
+       "q": "2",
+       "u": "g",
+       "n": "Agar en polvo (kanten), opcional"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Agua (si se usa agar)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Triturar 4 castañas con el almíbar y picar las otras 4 en dados.",
+      "Cocer el shiroan con el puré de castaña a fuego suave, removiendo, hasta que tenga cuerpo y no se pegue a la espátula.",
+      "Si se usa agar, hervirlo 1 min con el agua y mezclarlo con la pasta: así no humedece la oblea.",
+      "Añadir los dados de castaña y enfriar."
+     ]
+    },
+    {
+     "name": "Montaje",
+     "ings": [
+      {
+       "q": "16",
+       "u": "ud.",
+       "n": "Oblea de monaka (monaka no kawa), mitades"
+      }
+     ],
+     "steps": [
+      "Rellenar una mitad de oblea con la pasta, a ras.",
+      "Tapar con otra mitad y presionar ligeramente."
+     ]
+    }
+   ],
+   "notes": "Las obleas de mochi tostado se compran hechas en tiendas japonesas. Montar justo antes de comer para que sigan crujientes.",
+   "done": false
   }
  ]
 }
