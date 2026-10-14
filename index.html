@@ -111,6 +111,7 @@ html.despensa,html.despensa body,html.despensa .top{background:var(--bg);}
 #diet-btn.on{color:var(--dc,var(--fg));background:var(--db,var(--soft));}
 .dz{display:inline-flex;align-items:center;color:var(--dc);vertical-align:-2px;}
 .rcard .n .dz{margin-left:6px;}
+.fdesc{font-size:16px;line-height:1.6;margin-top:18px;}
 .dpill{display:inline-flex;align-items:center;gap:5px;background:var(--db);color:var(--dc);}
 .fp-o .dl{display:inline-flex;align-items:center;gap:10px;}
 .fp-o .dl .c{color:var(--muted);font-size:13px;}
@@ -383,12 +384,14 @@ button.ghead{padding:20px 0 6px;}
 const TABS = [
   {id:'recetas', label:'Recetas'},
   {id:'productos', label:'Productos'},
-  {id:'conservas', label:'Conservas'}
+  {id:'conservas', label:'Conservas'},
+  {id:'formatos', label:'Formatos'}
 ];
 const GROUPS = {
   recetas:   ['Salado','Dulce'],
   productos: ['Fondos','Salsas','Guarniciones','Elaboraciones complementarias','Masas','Lácteos y derivados','Legumbres, cereales, frutos secos y semillas','Aceites, vinagres, extractos y bebidas'],
-  conservas: ['Fermentos','Encurtidos','Conservas dulces','Conservas saladas']
+  conservas: ['Fermentos','Encurtidos','Conservas dulces','Conservas saladas'],
+  formatos:  ['Para compartir y en la mesa','Con masa o pan','Pasta y fideos','Arroces y cereales','De cuchara','Con huevo','Crudos, fríos y ensaladas','Fritos y rebozados','A la brasa y a la parrilla','Al horno','En sartén']
 };
 
 /* clasificación por tipo: capítulo y, si lo tiene, subcapítulo («Carnes / Bovino»).
@@ -496,6 +499,21 @@ const GCATS = {
   ]
 };
 GCATS['Fermentos'] = CATS.conservas;
+/* Formatos: tipos de plato, por cómo es el plato y cómo se come */
+const FCATS = {
+  'Para compartir y en la mesa': ['Cocinado en la mesa','Para mojar y untar','Tablas','Tradiciones de platos pequeños'],
+  'Con masa o pan': ['Envueltos y enrollados','Doblados','Bocadillos y sándwiches','En bollo','En bolsillo o pan abierto','Tostas','Masa con cosas encima','Envueltos en hoja','Pasteles y tartas saladas','Cerrados al horno','Cerrados fritos','Cerrados a la plancha','Al vapor o hervidos','De masa líquida','Panes para mojar y acompañar'],
+  'Pasta y fideos': ['Pasta con salsa','Pasta rellena','Pasta al horno','Ñoquis y similares','Fideos a la española','Fideos en caldo','Fideos salteados','Fideos aliñados en seco','Fideos fríos y ensaladas de pasta'],
+  'Arroces y cereales': ['Arroz con cosas encima','Arroz con acompañamientos','Arroces secos y melosos','Arroces caldosos y gachas de arroz','Arroz salteado','Arroz moldeado o envuelto','Otros cereales','Gachas, polentas y masas de acompañar'],
+  'De cuchara': ['Caldos y sopas claras','Sopas con tropezones','Sopas de pan','Sopas con bolitas','Cremas y purés','Sopas frías','Guisos de legumbre','Guisos de carne','Guisos de pescado y marisco','Guisos de verdura','Curries'],
+  'Con huevo': ['Tortillas','Revueltos','Huevos en salsa','Huevos fritos sobre algo','Huevos cocidos y rellenos'],
+  'Crudos, fríos y ensaladas': ['Ensaladas verdes y mixtas','Ensaladas completas','Ensaladas de cereal o pan','Ensaladas de legumbre','Picadas de verdura cruda','Ensaladas del sudeste asiático','De patata y mayonesa','Pescado y marisco crudos o marinados','Carne cruda','Rollos frescos'],
+  'Fritos y rebozados': ['En tempura o rebozados','Empanados','Enharinados y adobados','Croquetas y bolas','De legumbre','Buñuelos y frituras de verdura'],
+  'A la brasa y a la parrilla': ['Brochetas','Carne picada al fuego','Asador giratorio','Parrilladas y barbacoa','Adobados al fuego'],
+  'Al horno': ['Asados','Bandeja de horno','Gratinados y en capas','Con puré encima','Verduras y hojas rellenas','En papillote, en hoja y hornos de tierra'],
+  'En sartén': ['Al wok','Salteados con salsa','A la plancha','Salteados de aprovechamiento']
+};
+Object.entries(FCATS).forEach(([g, cs])=>{ GCATS[g] = cs.map(c=> [c, []]); });
 GCATS['Encurtidos'] = [
   ['En vinagre o ácido', ['Ácidos','Agridulces y dulces','Picados, chutneys y relishes']],
   ['En aceite y especias', []],
@@ -591,7 +609,10 @@ const GCOLOR = {
   'Salado':'#fee2d5', 'Dulce':'#ffdaf6',
   'Lácteos y derivados':'#cfdfff', 'Masas':'#d0f0fd', 'Legumbres, cereales, frutos secos y semillas':'#c2f5e9',
   'Aceites, vinagres, extractos y bebidas':'#d1f7c4', 'Salsas':'#ffeab6', 'Fondos':'#fee2d5', 'Guarniciones':'#ffdce5', 'Elaboraciones complementarias':'#ede2fe',
-  'Fermentos':'#ede2fe', 'Encurtidos':'#d1f7c4', 'Conservas dulces':'#ffdaf6', 'Conservas saladas':'#ffeab6'
+  'Fermentos':'#ede2fe', 'Encurtidos':'#d1f7c4', 'Conservas dulces':'#ffdaf6', 'Conservas saladas':'#ffeab6',
+  'Para compartir y en la mesa':'#ffdce5', 'Con masa o pan':'#ffeab6', 'Pasta y fideos':'#fee2d5', 'Arroces y cereales':'#d1f7c4',
+  'De cuchara':'#d0f0fd', 'Con huevo':'#fff3bf', 'Crudos, fríos y ensaladas':'#c2f5e9', 'Fritos y rebozados':'#ede2fe',
+  'A la brasa y a la parrilla':'#ffd8c2', 'Al horno':'#cfdfff', 'En sartén':'#ffdaf6'
 };
 function gc(g){ return GCOLOR[g] || '#eeeeee'; }
 const PALETTE = ['#cfdfff','#d0f0fd','#c2f5e9','#d1f7c4','#ffeab6','#fee2d5','#ffdce5','#ffdaf6','#ede2fe'];
@@ -715,6 +736,7 @@ function normTab(v, fallback){
   if(n.startsWith('rece') || n.startsWith('plato')) return 'recetas';
   if(n.startsWith('produ')) return 'productos';
   if(n.startsWith('conse') || n.startsWith('ferment') || n.startsWith('encurt')) return 'conservas';
+  if(n.startsWith('format') || n.startsWith('idea')) return 'formatos';
   return fallback || 'recetas';
 }
 function matchGroup(tab, v){
@@ -852,9 +874,9 @@ Cada receta tiene esta forma:
 Reglas:
 - No cambies el "id" de las recetas que ya existen. Para una receta nueva, crea un id único con el formato "r-" + pestaña + "-" + nombre en minúsculas y con guiones.
 - Para modificar una receta, edítala dentro del archivo; no la dupliques. Respeta el "done" que tenga.
-- "tab": "recetas" (platos con nombre propio), "productos" (elaboraciones base: masas, salsas, lácteos, bebidas…) o "conservas".
-- "group": en recetas, "Salado" o "Dulce". En productos: "Fondos", "Salsas", "Guarniciones", "Elaboraciones complementarias", "Masas", "Lácteos y derivados", "Legumbres, cereales, frutos secos y semillas" o "Aceites, vinagres, extractos y bebidas". En conservas: "Fermentos", "Encurtidos", "Conservas dulces" o "Conservas saladas".
-- "cat": tipo de plato, «Capítulo / Subcapítulo» (o solo el capítulo si no tiene subcapítulos). En recetas saladas, en todos los grupos de productos y en todos los de conservas; en recetas dulces, "".
+- "tab": "recetas" (platos con nombre propio), "productos" (elaboraciones base: masas, salsas, lácteos, bebidas…), "conservas" o "formatos" (tipos de plato sin receta concreta: burrito, pizza, ramen…).
+- "group": en recetas, "Salado" o "Dulce". En productos: "Fondos", "Salsas", "Guarniciones", "Elaboraciones complementarias", "Masas", "Lácteos y derivados", "Legumbres, cereales, frutos secos y semillas" o "Aceites, vinagres, extractos y bebidas". En conservas: "Fermentos", "Encurtidos", "Conservas dulces" o "Conservas saladas". En formatos: la rama (ver abajo).
+- "cat": tipo de plato, «Capítulo / Subcapítulo» (o solo el capítulo si no tiene subcapítulos). En recetas saladas, en todos los grupos de productos, conservas y formatos; en recetas dulces, "".
   Recetas saladas: "Entremeses y aperitivos / Fríos", "Entremeses y aperitivos / Calientes", "Ensaladas", "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés", "Sopas, consomés, cremas, potajes y cocidos / Cremas frías", "Sopas, consomés, cremas, potajes y cocidos / Cremas calientes", "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos", "Hortalizas", "Arroces", "Pastas alimenticias", "Huevos", "Pescados", "Mariscos", "Carnes / Aves y conejo", "Carnes / Bovino", "Carnes / Porcino", "Carnes / Ovino", "Carnes / Caza".
   Desempate: manda primero el formato (si la base es arroz → Arroces; pasta o fideos → Pastas alimenticias; sopa, crema, potaje, cocido o guiso de cuchara → Sopas…; ensalada → Ensaladas; tapa, mezze, masa rellena o bocado → Entremeses), y si no, el ingrediente principal.
   Productos, según el grupo:
@@ -871,6 +893,9 @@ Reglas:
   Encurtidos (por el medio que conserva): En vinagre o ácido (Ácidos, Agridulces y dulces, Picados, chutneys y relishes), En aceite y especias, Curados en sal o sazonador (En sal o salmuera, En soja, miso o jang, Aceitunas de mesa aliñadas). Desempate: vinagre + aceite → En vinagre salvo que el aceite sea la mayor parte; azúcar ≥ ⅓ del vinagre → Agridulces y dulces; picado fino o ligado con mostaza (relish, chutney, piccalilli) → Picados…; pescado y huevo, por su medio; aceitunas → Aceitunas de mesa aliñadas salvo que se fermenten (entonces Fermentos). Hortaliza en aceite sin especias marcadas → Conservas saladas › En aceite.
   Conservas dulces (por la forma física): Confituras y mermeladas (De fruta, De cítricos (marmalade)), Jaleas (De fruta, De cítricos), Cremas untables (De fruta, De castaña, Curds, Dulces lácteos), Pastas de fruta, Frutas en medio líquido (Compotas, En almíbar, En alcohol), Jarabes y arropes (Arropes, Jarabes y mieles de fruta), Frutas confitadas (Confitadas, Glaseadas o escarchadas). Desempate en orden: lleva vinagre o es para salado → no es dulce (chutney → Encurtidos); en alcohol → En alcohol; piezas saturadas de azúcar → Frutas confitadas; bloque que se corta → Pastas de fruta; líquido que se vierte → Jarabes y arropes; fruta reconocible en líquido → Frutas en medio líquido; solo zumo gelificado → Jaleas; pulpa o trozos gelificados → Confituras y mermeladas; crema lisa → Cremas untables.
   Conservas saladas (por el método que estabiliza): Al natural, en su jugo o en salsa (Tomate, Hortalizas y setas, Hortalizas cocinadas, Legumbres, Pescado y marisco, Carnes y aves), En aceite (Hortalizas y setas, Pescado y marisco, Quesos y otros), Escabeches y marinados (Pescado y marisco, Carnes y aves, Setas y hortalizas cocinadas), Salazones (Pescado y huevas, Carnes y grasas, Hierbas y hortalizas en sal), Secados y ahumados (Secados, Seco-salados, Ahumados), Confitados en grasa (Confits, Orza, Rillettes y desmigados), Pastas, condimentos y salsas (Pastas de chile y especias, Untables, Condimentos en aceite, Salsas de mesa). Desempate en orden: triturado o condimento → Pastas, condimentos y salsas; su identidad viene de la sal, el secado o el humo → Salazones o Secados y ahumados (aunque acabe en aceite); cocinado en grasa y guardado bajo ella → Confitados en grasa; si no, por el líquido que lo cubre (escabeche → aceite → natural o salsa).
+  Formatos (tipos de plato; ficha corta sin ingredientes ni pasos: "parts" con una sola parte vacía, "yield" "", "diet" "", "notes" = descripción de 1–3 frases: qué es y qué se le suele poner; "tag" = país o zona de origen sin barra, p. ej. "México y EE. UU.", "Levante"). Ramas ("group") y tipos ("cat"):
+  Para compartir y en la mesa: Cocinado en la mesa, Para mojar y untar, Tablas, Tradiciones de platos pequeños. Con masa o pan: Envueltos y enrollados, Doblados, Bocadillos y sándwiches, En bollo, En bolsillo o pan abierto, Tostas, Masa con cosas encima, Envueltos en hoja, Pasteles y tartas saladas, Cerrados al horno, Cerrados fritos, Cerrados a la plancha, Al vapor o hervidos, De masa líquida, Panes para mojar y acompañar. Pasta y fideos: Pasta con salsa, Pasta rellena, Pasta al horno, Ñoquis y similares, Fideos a la española, Fideos en caldo, Fideos salteados, Fideos aliñados en seco, Fideos fríos y ensaladas de pasta. Arroces y cereales: Arroz con cosas encima, Arroz con acompañamientos, Arroces secos y melosos, Arroces caldosos y gachas de arroz, Arroz salteado, Arroz moldeado o envuelto, Otros cereales, Gachas, polentas y masas de acompañar. De cuchara: Caldos y sopas claras, Sopas con tropezones, Sopas de pan, Sopas con bolitas, Cremas y purés, Sopas frías, Guisos de legumbre, Guisos de carne, Guisos de pescado y marisco, Guisos de verdura, Curries. Con huevo: Tortillas, Revueltos, Huevos en salsa, Huevos fritos sobre algo, Huevos cocidos y rellenos. Crudos, fríos y ensaladas: Ensaladas verdes y mixtas, Ensaladas completas, Ensaladas de cereal o pan, Ensaladas de legumbre, Picadas de verdura cruda, Ensaladas del sudeste asiático, De patata y mayonesa, Pescado y marisco crudos o marinados, Carne cruda, Rollos frescos. Fritos y rebozados: En tempura o rebozados, Empanados, Enharinados y adobados, Croquetas y bolas, De legumbre, Buñuelos y frituras de verdura. A la brasa y a la parrilla: Brochetas, Carne picada al fuego, Asador giratorio, Parrilladas y barbacoa, Adobados al fuego. Al horno: Asados, Bandeja de horno, Gratinados y en capas, Con puré encima, Verduras y hojas rellenas, En papillote, en hoja y hornos de tierra. En sartén: Al wok, Salteados con salsa, A la plancha, Salteados de aprovechamiento.
+  Desempate de formatos: va a la primera rama de la lista en la que encaje (en la mesa → masa o pan → pasta y fideos → arroz y cereales → cuchara → huevo → crudos y ensaladas → fritos → brasa → horno → sartén). «Con masa o pan» solo si la masa o el pan envuelve, sostiene o encierra lo demás. El cereal o la pasta mandan solo si son la base o la mayor parte del plato.
 - "local": solo en recetas de Japón, Perú o Líbano: la clasificación propia de esa cocina, «Categoría / Subcategoría» o solo la categoría. En el resto, "".
   Japón (washoku): Gohanmono (Sushi, Donburi y kare raisu, Onigiri, Takikomi y mazegohan, Kayu y zosui), Menrui (Udon, Soba, Somen y hiyamugi, Ramen, Otros fideos), Shirumono (Suimono, Misoshiru, Sopas con tropezones), Nabemono, Konamono, Sashimi, Yakimono, Nimono, Mushimono, Agemono (Karaage, Tempura y koromoage, Furai y katsu, Suage), Itamemono, Aemono y sunomono, Tsukemono, Wagashi (Mochimono (de mochi y dango), Yakimono (horneados), Mushimono (al vapor), Nagashimono (en molde), Nerimono (pastas), Higashi (secos)), Kanmi. Desempate: dulce → arroz como base → fideos → cazuela en la mesa → masa de harina → sopa → conserva → método de cocción.
   Perú: Marina (Cebiches y tiraditos, Frituras y jaleas, Calientes), Criolla (Limeña, Afroperuana, Anticuchos y brasas, Desayuno y sánguches), Chifa, Nikkei, Norteña, Sureña (Picantería arequipeña, Tacna y Moquegua), Andina, Amazónica, Dulcería (Mazamorras y postres de cuchara, Turrones, alfajores y dulces de convento, Frituras y masas dulces, Helados y fríos). Desempate: dulce → tipo de local (chifa, nikkei, cebichería, anticuchos y brasas) → afroperuana → macrorregión de origen → criolla.
@@ -1077,7 +1102,7 @@ function updateHeaderIcons(){
   }
   $('#search-btn').style.display = '';
   const isWeek = ui.tab === 'semana';
-  $('#diet-btn').style.display = isWeek ? 'none' : '';
+  $('#diet-btn').style.display = isWeek || ui.tab === 'formatos' ? 'none' : '';
   drawDietBtn();
   $('#filter-btn').style.display = isWeek ? 'none' : '';
   $('#fab').classList.toggle('hide', isWeek || ui.tab === 'regiones' || ui.searching);
@@ -1103,11 +1128,11 @@ function dietIcon(k, size){ return DIET[k] ? svgIcon(DIET[k].svg, size || 14) : 
 function dietVars(k){ return DIET[k] ? `--dc:${DIET[k].c};--db:${DIET[k].b};` : ''; }
 function dietMark(r){ return r.diet && DIET[r.diet] ? `<span class="dz" style="${dietVars(r.diet)}" title="${DIET[r.diet].label}">${dietIcon(r.diet, 13)}</span>` : ''; }
 function dietOn(){ return !!(ui.diets && ui.diets.length); }
-function dietOk(r){ return !dietOn() || ui.diets.includes(r.diet); }
+function dietOk(r){ return !dietOn() || r.tab === 'formatos' || ui.diets.includes(r.diet); }
 function drawDietBtn(){
   const b = $('#diet-btn'), ds = ui.diets || [];
   b.innerHTML = ds.length === 1 ? dietIcon(ds[0], 20) : svgIcon(UTENSILS, 20);
-  b.style.cssText = ds.length === 1 ? dietVars(ds[0]) : '';
+  b.style.setProperty('--dc', ds.length === 1 ? DIET[ds[0]].c : ''); b.style.setProperty('--db', ds.length === 1 ? DIET[ds[0]].b : '');
   b.classList.toggle('on', ds.length > 0);
   b.title = ds.length ? 'Dieta: ' + ds.map(k=> DIET[k].label).join(' + ') : 'Dieta';
 }
@@ -1183,7 +1208,7 @@ function renderActiveFilter(){
   const el = $('#active-f');
   if(ui.tab === 'semana' || ui.searching){ el.innerHTML = ''; return; }
   const st = ui.filter[ui.tab] || 'all', tg = ui.tagFilter[ui.tab] || '';
-  const parts = [st === 'todo' ? 'Por hacer' : st === 'done' ? 'Hechas' : '', tg ? tagLabel(tg) : '', dietOn() ? ui.diets.map(k=> DIET[k].label).join(' + ') : ''].filter(Boolean);
+  const parts = [st === 'todo' ? 'Por hacer' : st === 'done' ? 'Hechas' : '', tg ? tagLabel(tg) : '', dietOn() && ui.tab !== 'formatos' ? ui.diets.map(k=> DIET[k].label).join(' + ') : ''].filter(Boolean);
   el.innerHTML = parts.length ? `<div class="active-f"><span>Filtro: ${esc(parts.join(' · '))}</span><button data-clear>quitar</button></div>` : '';
 }
 $('#active-f').addEventListener('click', e=>{
@@ -1408,7 +1433,7 @@ function subSection(key, label, its, card, filtering, cls){
     + (open ? (its.length ? its.map(card).join('') : `<div class="col-empty sm">${filtering ? 'Nada con este filtro' : 'Vacío'}</div>`) : '');
 }
 function catBody(items, tab, chapter, subs, card, filtering){
-  if(!subs.length) return subSection((tab || 'local') + ':' + chapter + ':*', 'Recetas', items, card, filtering);
+  if(!subs.length) return subSection((tab || 'local') + ':' + chapter + ':*', FCATS[String(tab || '').replace(/^g:/, '')] ? 'Ver todos' : 'Recetas', items, card, filtering);
   const sub = r => splitCat(tab ? r.cat : r.local).s;
   const loose = items.filter(r=> !subs.includes(sub(r)));
   return (loose.length ? subSection((tab || 'local') + ':' + chapter + ':', 'Sin subcategoría', loose, card, filtering) : '')
@@ -1699,15 +1724,16 @@ function readHTML(r){
     </div>
     <div class="sh-body">
       <div class="pills">
-        <button class="pill${r.done?' on':''}" data-act="done">${r.done?'✓ hecha':'marcar hecha'}</button>
-        <button class="pill wkp${inWeek(r.id)?' on':''}" data-act="week">${inWeek(r.id)?'✓ en la semana':'+ semana'}</button>
+        <button class="pill${r.done?' on':''}" data-act="done">${r.tab === 'formatos' ? (r.done?'✓ probado':'marcar probado') : (r.done?'✓ hecha':'marcar hecha')}</button>
+        ${r.tab === 'formatos' ? '' : `<button class="pill wkp${inWeek(r.id)?' on':''}" data-act="week">${inWeek(r.id)?'✓ en la semana':'+ semana'}</button>`}
       </div>
       ${meta?`<div class="meta-line">${r.group?`<span class="gp" style="--gc:${gc(r.group)}">${esc(r.group)}</span>`:''}${cat?` <span class="gp" style="--gc:${tc(splitCat(cat).c)};margin-left:6px;">${esc(catText(cat))}</span>`:''}${loc?` <span class="gp" style="--gc:${tc(splitCat(r.local).c)};margin-left:6px;" title="Clasificación propia de ${esc(splitTag(r.tag).c)}">${esc(loc)}</span>`:''}${r.tag?` <span class="gp" style="--gc:${tc(leafTag(r.tag))};margin-left:6px;">${esc(tagLabel(r.tag))}</span>`:''}${r.diet?` <span class="gp dpill" style="${dietVars(r.diet)}margin-left:6px;">${dietIcon(r.diet, 13)}${esc(DIET[r.diet].label)}</span>`:''}</div>`:''}
       ${(r.yield || anyNumeric(r)) && hasContent(r) ? `<div class="ficha-top"><span class="lb">Raciones</span>${anyNumeric(r) ? scalerHTML(r, fichaTarget, 'data-fsc') : `<span>${esc(r.yield)}</span>`}</div>` : ''}
       ${shown.length > 1 ? `<div class="compo"><span class="lbl">Composición</span><ol>${shown.map((p,i)=> `<li><button data-goto="${i}">${esc(p.name || 'Elaboración ' + (i+1))}</button></li>`).join('')}</ol></div>` : ''}
       <div id="f-parts">${partsHTML(r)}</div>
-      ${r.notes.trim() ? `<section class="part"><h3>Observaciones</h3><div class="prose">${esc(r.notes)}</div></section>` : ''}
-      ${!hasContent(r) ? `<div class="empty" style="padding:34px 0;">Solo está el nombre.<br><button class="link" data-act="edit">Añadir la receta</button></div>` : ''}
+      ${r.notes.trim() ? (r.tab === 'formatos' ? `<div class="prose fdesc">${esc(r.notes)}</div>` : `<section class="part"><h3>Observaciones</h3><div class="prose">${esc(r.notes)}</div></section>`) : ''}
+      ${!hasContent(r) && r.tab === 'formatos' ? `<div class="empty" style="padding:34px 0;">Sin descripción.<br><button class="link" data-act="edit">Añadirla</button></div>` : ''}
+      ${!hasContent(r) && r.tab !== 'formatos' ? `<div class="empty" style="padding:34px 0;">Solo está el nombre.<br><button class="link" data-act="edit">Añadir la receta</button></div>` : ''}
       <div class="foot"><button data-act="copy">Copiar como texto</button></div>
     </div>`;
 }
@@ -1726,13 +1752,13 @@ function editHTML(r){
         <div class="chips">${GROUPS[r.tab].map(g=> `<button class="chip${r.group===g?' on':''}" data-groupset="${esc(g)}"><span class="gdot" style="--gc:${gc(g)}"></span>${esc(g)}</button>`).join('')}</div></div>
       ${catApplies(r) ? catEditHTML(r) : ''}
       ${r.tab === 'recetas' && localOf(splitTag(r.tag).c) ? localEditHTML(r) : ''}
-      <div class="f"><span class="lb">Dieta</span>
-        <div class="chips dchips">${DIETS.map(d=> `<button class="chip${r.diet===d.k?' on':''}" data-dietset="${d.k}" style="${dietVars(d.k)}">${dietIcon(d.k, 15)}${d.label}</button>`).join('')}</div></div>
+      ${r.tab === 'formatos' ? '' : `<div class="f"><span class="lb">Dieta</span>
+        <div class="chips dchips">${DIETS.map(d=> `<button class="chip${r.diet===d.k?' on':''}" data-dietset="${d.k}" style="${dietVars(d.k)}">${dietIcon(d.k, 15)}${d.label}</button>`).join('')}</div></div>`}
       <div class="row2">
         <div class="f"><label>País</label><input class="in" data-tagc value="${esc(splitTag(r.tag).c)}" list="countries-dl" placeholder="España, Perú… (opcional)" autocomplete="off"></div>
         <div class="f"><label>Región</label><input class="in" data-tags value="${esc(splitTag(r.tag).s)}" list="subs-dl" placeholder="Navarra… (opcional)" autocomplete="off"></div>
       </div>
-      <div class="row2">
+      ${r.tab === 'formatos' ? '' : `      <div class="row2">
         <div class="f"><label>Raciones</label><input class="in" data-k="yield" value="${esc(r.yield)}" placeholder="4 pax" autocomplete="off"></div>
       </div>
       ${parts.map((p,pi)=> `<div class="epart" data-p="${pi}">
@@ -1752,9 +1778,9 @@ function editHTML(r){
           <textarea class="ta" data-pk="steps" placeholder="Mise en place de géneros y útiles.&#10;Pelar y cortar en brunoise.&#10;…">${esc(p.steps)}</textarea>
           <div class="hint">Un paso por línea, en infinitivo. Se numeran solos.</div></div>
       </div>`).join('')}
-      <button class="addpart" data-act="addpart">+ otra elaboración</button>
-      <div class="f" style="margin-top:22px;"><label>Observaciones</label><textarea class="ta" data-k="notes" placeholder="Conservación, variantes, qué cambiarías…">${esc(r.notes)}</textarea></div>
-      <div class="foot"><button class="danger" data-act="delete">Eliminar receta</button></div>
+      <button class="addpart" data-act="addpart">+ otra elaboración</button>`}
+      <div class="f" style="margin-top:22px;"><label>${r.tab === 'formatos' ? 'Descripción' : 'Observaciones'}</label><textarea class="ta" data-k="notes" placeholder="${r.tab === 'formatos' ? 'Qué es y qué se le suele poner…' : 'Conservación, variantes, qué cambiarías…'}">${esc(r.notes)}</textarea></div>
+      <div class="foot"><button class="danger" data-act="delete">${r.tab === 'formatos' ? 'Eliminar' : 'Eliminar receta'}</button></div>
     </div>`;
 }
 function catEditHTML(r){
