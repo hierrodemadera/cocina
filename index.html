@@ -104,6 +104,11 @@ html.despensa,html.despensa body,html.despensa .top{background:var(--bg);}
 .buy-sec{margin-top:6px;}
 .buy-done{margin-top:14px;height:42px;padding:0 16px;border-radius:10px;background:var(--accent);color:var(--on-accent);font-size:15px;font-weight:600;}
 .shop.flat{padding:0;}
+.xhead{display:flex;align-items:center;}
+.xadd{margin-left:auto;width:32px;height:32px;border-radius:9px;background:var(--soft);font-size:21px;line-height:1;color:var(--fg);}
+.xin{display:flex;gap:8px;align-items:center;margin:6px 0 4px;}
+.xin .in{flex:1;}
+.xin .sh-btn{height:42px;flex-shrink:0;}
 .shop .from{margin-left:auto;font-size:12px;color:var(--muted);flex-shrink:0;padding-left:8px;}
 .ib{width:42px;height:42px;display:flex;align-items:center;justify-content:center;color:var(--muted);border-radius:10px;position:relative;flex-shrink:0;}
 #menu-btn{margin-right:-10px;}
@@ -919,7 +924,7 @@ function loadJSON(k){ try{ const v = localStorage.getItem(k); return v ? JSON.pa
 function save(){ try{ localStorage.setItem(KEY, JSON.stringify(data)); }catch(e){ toast('No se pudo guardar'); } }
 let saveT;
 function saveSoon(){ clearTimeout(saveT); saveT = setTimeout(save, 350); }
-function saveUi(){ try{ const c = Object.assign({}, ui); delete c.q; delete c.searching; localStorage.setItem(UIKEY, JSON.stringify(c)); }catch(e){} }
+function saveUi(){ try{ const c = Object.assign({}, ui); delete c.q; delete c.searching; delete c.xadding; localStorage.setItem(UIKEY, JSON.stringify(c)); }catch(e){} }
 function validData(d){ return d && Array.isArray(d.recipes); }
 function slug(s){ return norm(s).replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,60); }
 function asText(v){ return Array.isArray(v) ? v.map(x=> String(x).trim()).filter(Boolean).join('\n') : String(v||''); }
@@ -958,7 +963,8 @@ function cleanData(d){
 const DEFAULT_ZONES = ['Nevera','Congelador','Despensa','Bodega'];
 function cleanPantry(pt){
   const zones = pt && Array.isArray(pt.zones) ? pt.zones : DEFAULT_ZONES.map(n=> ({ name: n, items: [] }));
-  return { zones: zones.filter(z=> z && z.name).map(z=>({
+  const extra = pt && Array.isArray(pt.extra) ? pt.extra.filter(x=> x && x.name).map(x=>({ id: x.id || uid(), name: String(x.name), bought: !!x.bought })) : [];
+  return { extra, zones: zones.filter(z=> z && z.name).map(z=>({
     id: z.id || uid(), name: String(z.name),
     items: (z.items||[]).filter(i=> i && i.name).map(i=>({ id: i.id || uid(), name: String(i.name), note: String(i.note||''), missing: !!i.missing, bought: !!i.bought })) })) };
 }
@@ -1001,7 +1007,7 @@ function applyFile(obj){
     if(data.recipes.some(r=> r.id === id)){ data.recipes = data.recipes.filter(r=> r.id !== id); data.week = data.week.filter(w=> w.recipeId !== id); removed++; }
   });
   // la despensa solo se toma del archivo si en este dispositivo aún está vacía
-  if(obj.pantry && !pantryCount()){ const pt = cleanPantry(obj.pantry); if(pt.zones.some(z=> z.items.length)) data.pantry = pt; }
+  if(obj.pantry && !pantryCount()){ const pt = cleanPantry(obj.pantry); if(pt.zones.some(z=> z.items.length)){ pt.extra = data.pantry.extra || []; data.pantry = pt; } }
   data.fileSync = next; data.syncedAt = Date.now();
   save();
   return { added, changed, removed };
@@ -2041,7 +2047,7 @@ function weekShopCount(){
   return n;
 }
 function renderPTabs(){
-  const n = missingItems().filter(x=> !x.i.bought).length + weekShopCount();
+  const n = missingItems().filter(x=> !x.i.bought).length + weekShopCount() + (data.pantry.extra || []).filter(x=> !x.bought).length;
   const pt = ui.ptab, nw = data.week.length;
   $('#tabs').innerHTML = `<button class="tab${pt==='lista'?' on':''}" data-ptab="lista">Stock</button>`
     + `<button class="tab${pt==='semana'?' on':''}" data-ptab="semana">Semana${nw?`<span class="n">${nw}</span>`:''}</button>`
@@ -2093,11 +2099,10 @@ function renderPantry(){
 function renderBuy(main){
   const miss = missingItems();
   const weeks = data.week.map(w=> ({ w, r: byId(w.recipeId) })).filter(x=> x.r && x.r.parts.some(p=> p.ings.length));
-  if(!miss.length && !weeks.length){
-    main.innerHTML = `<div class="empty">No falta nada.<br>En <b>Stock</b>, toca lo que se acabe y aparecerá aquí.<br>Las recetas que metas en la Semana también traen aquí sus ingredientes.</div>`;
-    return;
-  }
+  const extra = data.pantry.extra || [];
   let html = '';
+  if(!miss.length && !weeks.length)
+    html += `<div class="empty" style="padding:28px 0 18px;">No falta nada.<br>En <b>Stock</b>, toca lo que se acabe y aparecerá aquí.<br>Las recetas que metas en la Semana también traen aquí sus ingredientes.</div>`;
   if(miss.length){
     html += `<div class="ghead"><span class="t">De la despensa</span><span class="c">${miss.length}</span></div><ul class="shop flat">` +
       miss.map(({z,i})=> `<li data-buy="${i.id}"${i.bought?' class="struck"':''}><span>${esc(i.name)}${i.note?` <span class="muted">(${esc(i.note)})</span>`:''}</span><span class="from">${esc(z.name)}</span></li>`).join('') + `</ul>`;
@@ -2115,7 +2120,24 @@ function renderBuy(main){
       html += `</ul>`;
     });
   }
+  html += `<div class="ghead xhead" style="margin-top:14px;"><span class="t">Otros productos</span>${extra.length?`<span class="c">${extra.length}</span>`:''}<button class="xadd" data-xadd aria-label="Añadir a otros productos">+</button></div>`
+    + (ui.xadding ? `<div class="xin"><input class="in" id="x-name" placeholder="Qué (papel de cocina, detergente…)" autocomplete="off" enterkeyhint="done"><button class="sh-btn primary" data-xok>Añadir</button></div>` : '')
+    + (extra.length ? `<ul class="shop flat">` + extra.map(x=> `<li data-xbuy="${x.id}"${x.bought?' class="struck"':''}><span>${esc(x.name)}</span></li>`).join('') + `</ul>`
+       : (ui.xadding ? '' : `<p class="muted" style="padding:6px 0 0;">Lo que no es de la despensa: pulsa <b>+</b> para apuntarlo.</p>`))
+    + (extra.some(x=> x.bought) ? `<button class="buy-done" data-xclear>Comprado: quitar lo tachado</button>` : '');
   main.innerHTML = `<div class="list">${html}</div>`;
+  const xi = main.querySelector('#x-name');
+  if(xi){
+    xi.focus();
+    xi.addEventListener('keydown', e=>{ if(e.key === 'Enter'){ e.preventDefault(); addExtra(); } if(e.key === 'Escape'){ ui.xadding = false; renderPantry(); } });
+  }
+}
+function addExtra(){
+  const xi = $('#x-name'), name = xi ? xi.value.trim() : '';
+  if(!name){ if(xi){ shake(xi); xi.focus(); } return; }
+  data.pantry.extra = data.pantry.extra || [];
+  data.pantry.extra.push({ id: uid(), name, bought: false });
+  save(); renderPantry(); renderPTabs();
 }
 function pantryClick(e){
   if(ui.ptab === 'semana'){ weekClick(e); renderPTabs(); return; }
@@ -2138,6 +2160,14 @@ function pantryClick(e){
   if(t.closest('[data-stock]')){
     let n = 0; missingItems().forEach(({i})=>{ if(i.bought){ i.missing = false; i.bought = false; n++; } });
     save(); renderPantry(); renderPTabs(); toast(`${n} de vuelta en la despensa`); return;
+  }
+  if(t.closest('[data-xadd]')){ ui.xadding = !ui.xadding; renderPantry(); return; }
+  if(t.closest('[data-xok]')){ addExtra(); return; }
+  const xb = t.closest('[data-xbuy]');
+  if(xb){ const x = (data.pantry.extra || []).find(v=> v.id === xb.dataset.xbuy); if(x){ x.bought = !x.bought; save(); renderPantry(); renderPTabs(); } return; }
+  if(t.closest('[data-xclear]')){
+    const n = data.pantry.extra.filter(x=> x.bought).length;
+    data.pantry.extra = data.pantry.extra.filter(x=> !x.bought); save(); renderPantry(); renderPTabs(); toast(`${n} quitado${n === 1 ? '' : 's'}`); return;
   }
   const wl = t.closest('[data-wk]');
   if(wl){
