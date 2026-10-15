@@ -116,6 +116,9 @@ html.despensa,html.despensa body,html.despensa .top{background:var(--bg);}
 #diet-btn.on{color:var(--dc,var(--fg));background:var(--db,var(--soft));}
 .dz{display:inline-flex;align-items:center;color:var(--dc);vertical-align:-2px;}
 .rcard .n .dz{margin-left:6px;}
+.copyname{cursor:pointer;border-radius:8px;padding:2px 6px;margin-left:-6px;transition:background .25s;-webkit-tap-highlight-color:transparent;user-select:none;-webkit-user-select:none;}
+.copyname:hover{background:var(--soft);}
+.copyname.flash{background:var(--soft);}
 .fdesc{font-size:16px;line-height:1.6;margin-top:18px;}
 .dpill{display:inline-flex;align-items:center;gap:5px;background:var(--db);color:var(--dc);}
 .fp-o .dl{display:inline-flex;align-items:center;gap:10px;}
@@ -1725,7 +1728,7 @@ function readHTML(r){
   const meta = r.group || r.tag || r.diet || cat || loc;
   return `<div class="sh-head">
       <button class="x" data-act="close" aria-label="Cerrar">✕</button>
-      <h2>${esc(r.name)}</h2>
+      <h2 class="copyname" data-act="copyname" title="Tocar para copiar">${esc(r.name)}</h2>
       <button class="sh-btn ghost" data-act="edit">Editar</button>
     </div>
     <div class="sh-body">
@@ -1823,6 +1826,7 @@ function mountFicha(sh, r){
         save(); drawFicha(sh, true); renderTabs(); return;
       }
       if(act === 'copy') return copyText(recipeToText(r), 'Receta copiada como texto');
+      if(act === 'copyname'){ const el = e.target.closest('[data-act]'); el.classList.add('flash'); setTimeout(()=> el.classList.remove('flash'), 400); return copyText(r.name, 'Copiado: ' + r.name); }
       if(act === 'delete'){
         if(!confirm(`¿Eliminar «${r.name}»? No se puede deshacer.`)) return;
         data.recipes = data.recipes.filter(x=> x !== r);
