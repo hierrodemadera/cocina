@@ -123,6 +123,14 @@ html.despensa,html.despensa body,html.despensa .top{background:var(--bg);}
 .fpill{background:var(--fb);color:var(--fc);}
 .fdot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--fc);margin-right:6px;}
 .fchips .chip.on{background:var(--fb);color:var(--fc);border-color:var(--fc);}
+.fguide{margin:4px 0 6px;}
+.fg-body{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:6px 0 10px;max-width:640px;}
+.fg-row{display:flex;align-items:center;gap:10px;margin:12px 0 4px;font-size:14.5px;}
+.fg-row b{font-weight:600;}
+.fg-row .gp{flex-shrink:0;}
+.fg-list{margin:2px 0 4px 18px;padding:0;font-size:14px;line-height:1.6;color:var(--fg);}
+.fg-intro{font-size:13.5px;color:var(--muted);line-height:1.5;margin:0 0 4px;}
+.fg-note{font-size:12.5px;color:var(--muted);margin:10px 0 0;}
 .fdef{font-size:12.5px;color:var(--muted);padding:0 2px 8px;line-height:1.4;}
 .dpill{display:inline-flex;align-items:center;gap:5px;background:var(--db);color:var(--dc);}
 .fp-o .dl{display:inline-flex;align-items:center;gap:10px;}
@@ -1458,7 +1466,18 @@ function renderFreq(main){
   const card = r => cardInner(r, r.tag ? `<span><span class="gdot" style="--gc:${tc(leafTag(r.tag))}"></span>${esc(leafTag(r.tag))}</span>` : '');
   const body = (k, its) => (kind ? [kind] : GROUPS.recetas).map(g=> subSection('f:' + k + ':' + g, g, its.filter(r=> r.group === g), card, filtering)).join('');
   const none = list.filter(r=> !FREQ[r.freq]);
-  main.innerHTML = `<div class="board">` + FREQS.map(f=>{
+  const gk = 'f:guia', gopen = subOpen(gk);
+  const guide = `<div class="fguide"><div class="col-sub tog${gopen?' open':''}" data-sub="${gk}"><span class="chev"></span>Guía: cuánto de cada una</div>` + (gopen ? `<div class="fg-body">
+      <p class="fg-intro">Según la pirámide de la dieta mediterránea, contando unas 14 comidas principales a la semana (comida y cena).</p>
+      <div class="fg-row"><span class="gp fpill" style="${freqVars('diario')}">Diario</span><b>Todos los días, en casi todas las comidas.</b></div>
+      <div class="fg-row"><span class="gp fpill" style="${freqVars('semanal')}">Semanal</span><b>6-9 comidas a la semana.</b></div>
+      <ul class="fg-list"><li>Pescado y marisco: 2 o más por semana</li><li>Legumbre: 2 o más por semana</li><li>Huevos: de 2 a 4 por semana</li><li>Carne blanca (pollo, pavo, conejo): unas 2 por semana</li><li>Lácteos: a diario, en poca cantidad</li></ul>
+      <div class="fg-row"><span class="gp fpill" style="${freqVars('ocasional')}">Ocasional</span><b>2-3 a la semana como máximo (unas 10 al mes).</b></div>
+      <ul class="fg-list"><li>Carne roja: menos de 2 por semana</li><li>Embutido y carne procesada: 1 por semana como mucho</li><li>Dulces: 2 por semana como mucho</li><li>Frituras y rebozados: dentro de esas 2-3</li></ul>
+      <p class="fg-intro"><b>Semana tipo:</b> 2 de pescado, 2-3 de legumbre, 2 de huevo, 1-2 de pollo, 1 de carne roja o con embutido y 1 dulce. El resto, verdura, arroz, pasta y ensaladas.</p>
+      <p class="fg-note">Pautas generales para un adulto sano, no una norma estricta.</p>
+    </div>` : '') + `</div>`;
+  main.innerHTML = guide + `<div class="board">` + FREQS.map(f=>{
     const its = list.filter(r=> r.freq === f.k);
     return `<section class="col"><div class="col-h"><span class="gp fpill" style="${freqVars(f.k)}">${f.label}</span><span class="c">${its.length}</span></div>
       <div class="col-body"><div class="fdef">${esc(f.def)}</div>${body(f.k, its)}<button class="col-add" data-addfreq="${f.k}">+ Añadir</button></div></section>`;
