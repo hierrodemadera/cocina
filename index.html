@@ -1039,6 +1039,7 @@ function applyFile(obj){
     if(data.recipes.some(r=> r.id === id)){ data.recipes = data.recipes.filter(r=> r.id !== id); data.week = data.week.filter(w=> w.recipeId !== id); removed++; }
   });
   // la despensa solo se toma del archivo si en este dispositivo aún está vacía
+  let pantryNew = false;
   if(obj.pantry){
     const pt = cleanPantry(obj.pantry);
     const fresh = !pantryCount() && pt.zones.some(z=> z.items.length);
@@ -1046,12 +1047,12 @@ function applyFile(obj){
     if(fresh || newer){
       const was = new Map(); data.pantry.zones.forEach(z=> z.items.forEach(i=> was.set(norm(i.name), i)));
       pt.zones.forEach(z=> z.items.forEach(i=>{ const o = was.get(norm(i.name)); if(o){ i.missing = o.missing; i.bought = o.bought; } }));
-      pt.extra = data.pantry.extra || []; data.pantry = pt;
+      pt.extra = data.pantry.extra || []; data.pantry = pt; pantryNew = true;
     }
   }
   data.fileSync = next; data.syncedAt = Date.now();
   save();
-  return { added, changed, removed };
+  return { added, changed, removed, pantry: pantryNew };
 }
 function syncMsg(res){
   return [res.added ? `${res.added} nueva${res.added>1?'s':''}` : '', res.changed ? `${res.changed} cambiada${res.changed>1?'s':''}` : '',
@@ -2377,7 +2378,7 @@ async function syncFromGithub(){
     const out = applyFile(await res.json());
     if(out){
       const msg = syncMsg(out);
-      if(msg){ if(!sheetOpen) render(); toast('Actualizado: ' + msg); }
+      if(msg || out.pantry){ if(!sheetOpen) render(); toast('Actualizado: ' + [msg, out.pantry ? 'stock nuevo' : ''].filter(Boolean).join(' · ')); }
     }
   }catch(e){}
   finally{ syncing = false; }
