@@ -1227,7 +1227,7 @@ function renderGroups(){
     const cnt = f => list.filter(r=> matchTag(r.tag, f) && (!ui.kind || r.group === ui.kind)).length;
     if(!c){
       el.innerHTML = `<button class="chip on" data-r="">Todos los países</button>` +
-        cs.map(x=> `<button class="chip" data-r="${esc(x)}"><span class="gdot" style="--gc:${tc(x)}"></span>${esc(x)}<span class="c">${cnt(x)}</span></button>`).join('');
+        cs.filter(x=> cnt(x)).map(x=> `<button class="chip" data-r="${esc(x)}"><span class="gdot" style="--gc:${tc(x)}"></span>${esc(x)}<span class="c">${cnt(x)}</span></button>`).join('');
     } else {
       const subs = subsOf(list, c);
       el.innerHTML = (cs.length > 1 ? `<button class="chip" data-r="">← Países</button>` : '')
@@ -1470,7 +1470,7 @@ function renderRegions(main){
     return;
   }
   // varios países: una columna por país
-  board(cs.map(x=> col(x, tc(x), sort(list.filter(r=> matchTag(r.tag, x))), 'regionC', x)).join('')
+  board(cs.filter(x=> list.some(r=> matchTag(r.tag, x))).map(x=> col(x, tc(x), sort(list.filter(r=> matchTag(r.tag, x))), 'regionC', x)).join('')
     + (noOrigin.length ? col('Sin origen', '#eeeeee', noOrigin, 'kind', '') : ''));
 }
 /* vista «Tipo»: una columna por capítulo; dentro, sus subcapítulos. País y región siguen filtrando */
@@ -2049,6 +2049,7 @@ function openMenu(){
       <button class="mitem" data-act="ai">Copiar para la IA<small>Instrucciones y tus recetas, listo para pegar</small></button>
       <button class="mitem" data-act="export">Descargar data.json</button>
       <button class="mitem" data-act="import">Cargar archivo</button>
+      <button class="mitem" data-act="tidy">Quitar fichas sobrantes<small>Las que quedaron en este dispositivo y ya no están en data.json</small></button>
       <p class="muted" style="margin-top:18px;">${data.recipes.length} recetas${data.syncedAt ? ` · data.json leído ${timeAgo(data.syncedAt)}` : ''}</p>
       <button class="link" data-act="prompt" style="margin-top:4px;">editar las instrucciones</button>
     </div>`, '', sh=>{
@@ -2060,6 +2061,19 @@ function openMenu(){
         if(act === 'export'){ download(JSON.stringify(fileData(), null, 1), 'data.json'); toast('Descargado'); return; }
         if(act === 'import') return fileInput.click();
         if(act === 'prompt') return openPrompt();
+        if(act === 'tidy'){
+          const sync = data.fileSync || {};
+          if(!Object.keys(sync).length){ toast('Primero tiene que leer data.json: abre la app con conexión'); return; }
+          // fichas que vinieron de un data.json (id «r-pestaña-…») y que el data.json actual ya no trae; las creadas a mano no se tocan
+          const extra = data.recipes.filter(r=> /^r-[a-z]+-/.test(r.id) && !sync[r.id]);
+          if(!extra.length){ toast('No sobra nada: todo está como en data.json'); return; }
+          const list = extra.slice(0, 8).map(r=> '· ' + r.name).join('\n') + (extra.length > 8 ? `\n… y ${extra.length - 8} más` : '');
+          if(!confirm(`Se quitarán ${extra.length} fichas que ya no están en data.json:\n\n${list}`)) return;
+          const ids = new Set(extra.map(r=> r.id));
+          data.recipes = data.recipes.filter(r=> !ids.has(r.id));
+          data.week = data.week.filter(w=> !ids.has(w.recipeId));
+          save(); closeSheet(); render(); toast(`${extra.length} fichas quitadas`); return;
+        }
       });
     });
 }
