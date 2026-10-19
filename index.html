@@ -762,6 +762,8 @@ function yieldInfo(y){
 }
 
 /* ---- plantilla de texto (la que escribe la IA) ---- */
+/* una ficha con una pestaña que esta versión no conoce no se mete en Recetas: se deja fuera */
+function knownTab(r){ return !String(r.id || '').startsWith('r-dulces-') && (!String(r.tab || '').trim() || normTab(r.tab, '?') !== '?'); }
 function normTab(v, fallback){
   const n = norm(v);
   if(n.startsWith('rece') || n.startsWith('plato')) return 'recetas';
@@ -967,7 +969,9 @@ function cleanRecipe(r, fromFile){
   parts = parts.map(p=>({ name: String(p.name||''), steps: stepLines(asText(p.steps)).join('\n'),
     ings: (p.ings||[]).map(i=> i && asIng(i)).filter(i=> i && (i.q || i.u || i.n)) }));
   if(!parts.length) parts = [{ name:'', ings:[], steps:'' }];
-  const tab = normTab(r.tab), name = String(r.name).trim();
+  // la pestaña la manda el id (r-recetas-…, r-formatos-…) cuando lo trae: así nada se cuela en otra pestaña
+  const idTab = (/^r-(recetas|productos|conservas|formatos)-/.exec(String(r.id || '')) || [])[1];
+  const tab = idTab || normTab(r.tab), name = String(r.name).trim();
   return { id: r.id ? String(r.id) : (fromFile ? 'r-' + tab + '-' + slug(name) : uid()), tab, name,
            group: matchGroup(tab, r.group) || '', cat: matchCat(tab, r.cat, matchGroup(tab, r.group)), local: matchLocal(normTag(String(r.tag||'')), r.local), tag: normTag(String(r.tag||'')), yield: String(r.yield||'').trim(),
            parts, notes: asText(r.notes), done: !!r.done, diet: DIET_KEYS.includes(r.diet) ? r.diet : '' };
@@ -976,10 +980,7 @@ function cleanData(d){
   const v2 = d.version >= 2;
   return {
     version: 2,
-    recipes: d.recipes.filter(r=> r && r.name && !String(r.id || '').startsWith('r-dulces-')).map(r=>{
-      if(String(r.id || '').startsWith('r-formatos-')) r = Object.assign({}, r, { tab: 'formatos' });
-      return cleanRecipe(r);
-    }),
+    recipes: d.recipes.filter(r=> r && r.name && knownTab(r)).map(r=> cleanRecipe(r)),
     week: Array.isArray(d.week) ? d.week.filter(w=> w && w.recipeId).map(w=>({
       id: w.id || uid(), recipeId: w.recipeId, target: typeof w.target === 'number' ? w.target : null,
       struck: v2 && Array.isArray(w.struck) ? w.struck.map(String) : [] })) : [],
@@ -1020,7 +1021,7 @@ function applyFile(obj){
   if(obj.reset && obj.reset !== data.reset){
     data.recipes = []; data.week = []; data.fileSync = {}; data.reset = obj.reset;
   }
-  const incoming = obj.recipes.filter(r=> r && r.name).map(r=> cleanRecipe(r, true));
+  const incoming = obj.recipes.filter(r=> r && r.name && knownTab(r)).map(r=> cleanRecipe(r, true));
   const prev = data.fileSync || {}, next = {};
   let added = 0, changed = 0, removed = 0;
   incoming.forEach(f=>{
