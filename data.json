@@ -48682,5 +48682,1305 @@
    "notes": "Fruta y verdura cruda (piña, mango, pepino, jícama) con una salsa dulce y picante de pasta de gambas y cacahuete.",
    "done": false
   }
- ]
+ ],
+ "pantry": {
+  "rev": "2026-10-19",
+  "zones": [
+   {
+    "id": "z-despensa",
+    "name": "Despensa",
+    "items": [
+     {
+      "id": "p-despensa-arroz-redondo-bomba",
+      "name": "Arroz redondo / bomba",
+      "note": "",
+      "group": "Arroces y cereales",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-arroz-basmati",
+      "name": "Arroz basmati",
+      "note": "",
+      "group": "Arroces y cereales",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-arroz-jazmin",
+      "name": "Arroz jazmín",
+      "note": "",
+      "group": "Arroces y cereales",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-quinoa",
+      "name": "Quinoa",
+      "note": "",
+      "group": "Arroces y cereales",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-cuscus",
+      "name": "Cuscús",
+      "note": "",
+      "group": "Arroces y cereales",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-bulgur",
+      "name": "Bulgur",
+      "note": "",
+      "group": "Arroces y cereales",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-espaguetis",
+      "name": "Espaguetis",
+      "note": "",
+      "group": "Pasta y fideos",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-macarrones",
+      "name": "Macarrones",
+      "note": "",
+      "group": "Pasta y fideos",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-fideos-finos",
+      "name": "Fideos finos",
+      "note": "",
+      "group": "Pasta y fideos",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-fideos-para-ramen",
+      "name": "Fideos para ramen",
+      "note": "",
+      "group": "Pasta y fideos",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-fideos-de-arroz",
+      "name": "Fideos de arroz",
+      "note": "",
+      "group": "Pasta y fideos",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-garbanzos",
+      "name": "Garbanzos",
+      "note": "secos y cocidos",
+      "group": "Legumbres",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-lentejas",
+      "name": "Lentejas",
+      "note": "secas y cocidas",
+      "group": "Legumbres",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-alubias",
+      "name": "Alubias",
+      "note": "secas y cocidas",
+      "group": "Legumbres",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-soja-texturizada",
+      "name": "Soja texturizada",
+      "note": "",
+      "group": "Legumbres",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-harina",
+      "name": "Harina",
+      "note": "",
+      "group": "Harinas y repostería",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-harina-de-fuerza",
+      "name": "Harina de fuerza",
+      "note": "",
+      "group": "Harinas y repostería",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-harina-de-maiz",
+      "name": "Harina de maíz",
+      "note": "",
+      "group": "Harinas y repostería",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-maicena",
+      "name": "Maicena",
+      "note": "",
+      "group": "Harinas y repostería",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-azucar",
+      "name": "Azúcar",
+      "note": "",
+      "group": "Harinas y repostería",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-azucar-moreno",
+      "name": "Azúcar moreno",
+      "note": "",
+      "group": "Harinas y repostería",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-levadura-quimica",
+      "name": "Levadura química",
+      "note": "Royal",
+      "group": "Harinas y repostería",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-bicarbonato",
+      "name": "Bicarbonato",
+      "note": "",
+      "group": "Harinas y repostería",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-cacao-puro-en-polvo",
+      "name": "Cacao puro en polvo",
+      "note": "",
+      "group": "Harinas y repostería",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-extracto-de-vainilla",
+      "name": "Extracto de vainilla",
+      "note": "",
+      "group": "Harinas y repostería",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-copos-de-avena",
+      "name": "Copos de avena",
+      "note": "",
+      "group": "Harinas y repostería",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-pan-rallado",
+      "name": "Pan rallado",
+      "note": "",
+      "group": "Harinas y repostería",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-maiz-para-palomitas",
+      "name": "Maíz para palomitas",
+      "note": "",
+      "group": "Harinas y repostería",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-leche-de-vaca",
+      "name": "Leche de vaca",
+      "note": "brick",
+      "group": "Lácteos y bebidas vegetales",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-leche-de-avena",
+      "name": "Leche de avena",
+      "note": "",
+      "group": "Lácteos y bebidas vegetales",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-leche-de-soja",
+      "name": "Leche de soja",
+      "note": "",
+      "group": "Lácteos y bebidas vegetales",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-tomate-natural-triturado",
+      "name": "Tomate natural triturado",
+      "note": "",
+      "group": "Conservas y encurtidos",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-tomate-frito",
+      "name": "Tomate frito",
+      "note": "",
+      "group": "Conservas y encurtidos",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-tomate-concentrado",
+      "name": "Tomate concentrado",
+      "note": "",
+      "group": "Conservas y encurtidos",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-leche-de-coco",
+      "name": "Leche de coco",
+      "note": "",
+      "group": "Conservas y encurtidos",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-caldo",
+      "name": "Caldo",
+      "note": "brick",
+      "group": "Conservas y encurtidos",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-atun",
+      "name": "Atún",
+      "note": "",
+      "group": "Conservas y encurtidos",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-sardinas-o-caballa",
+      "name": "Sardinas o caballa",
+      "note": "",
+      "group": "Conservas y encurtidos",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-maiz-dulce",
+      "name": "Maíz dulce",
+      "note": "",
+      "group": "Conservas y encurtidos",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-piparras",
+      "name": "Piparras",
+      "note": "",
+      "group": "Conservas y encurtidos",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-aceitunas",
+      "name": "Aceitunas",
+      "note": "",
+      "group": "Conservas y encurtidos",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-alcaparras",
+      "name": "Alcaparras",
+      "note": "",
+      "group": "Conservas y encurtidos",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-pepinillos",
+      "name": "Pepinillos",
+      "note": "",
+      "group": "Conservas y encurtidos",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-aceite-de-oliva",
+      "name": "Aceite de oliva",
+      "note": "",
+      "group": "Aceites, vinagres y salsas",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-aceite-de-girasol",
+      "name": "Aceite de girasol",
+      "note": "",
+      "group": "Aceites, vinagres y salsas",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-aceite-de-sesamo-tostado",
+      "name": "Aceite de sésamo tostado",
+      "note": "",
+      "group": "Aceites, vinagres y salsas",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-vinagre-balsamico",
+      "name": "Vinagre balsámico",
+      "note": "",
+      "group": "Aceites, vinagres y salsas",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-vinagre-de-manzana",
+      "name": "Vinagre de manzana",
+      "note": "",
+      "group": "Aceites, vinagres y salsas",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-vinagre-de-arroz",
+      "name": "Vinagre de arroz",
+      "note": "",
+      "group": "Aceites, vinagres y salsas",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-salsa-de-soja",
+      "name": "Salsa de soja",
+      "note": "",
+      "group": "Aceites, vinagres y salsas",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-salsa-de-pescado",
+      "name": "Salsa de pescado",
+      "note": "fish sauce",
+      "group": "Aceites, vinagres y salsas",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-salsa-de-ostras",
+      "name": "Salsa de ostras",
+      "note": "",
+      "group": "Aceites, vinagres y salsas",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-sriracha",
+      "name": "Sriracha",
+      "note": "",
+      "group": "Aceites, vinagres y salsas",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-mirin",
+      "name": "Mirin",
+      "note": "",
+      "group": "Aceites, vinagres y salsas",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-tahini",
+      "name": "Tahini",
+      "note": "",
+      "group": "Aceites, vinagres y salsas",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-crema-de-cacahuete",
+      "name": "Crema de cacahuete",
+      "note": "",
+      "group": "Untables",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-miel",
+      "name": "Miel",
+      "note": "",
+      "group": "Untables",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-anacardos",
+      "name": "Anacardos",
+      "note": "",
+      "group": "Frutos secos y semillas",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-almendras",
+      "name": "Almendras",
+      "note": "",
+      "group": "Frutos secos y semillas",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-nueces",
+      "name": "Nueces",
+      "note": "",
+      "group": "Frutos secos y semillas",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-cacahuetes",
+      "name": "Cacahuetes",
+      "note": "",
+      "group": "Frutos secos y semillas",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-pasas",
+      "name": "Pasas",
+      "note": "",
+      "group": "Frutos secos y semillas",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-higos-secos",
+      "name": "Higos secos",
+      "note": "",
+      "group": "Frutos secos y semillas",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-sesamo-blanco",
+      "name": "Sésamo blanco",
+      "note": "",
+      "group": "Frutos secos y semillas",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-sesamo-negro",
+      "name": "Sésamo negro",
+      "note": "",
+      "group": "Frutos secos y semillas",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-chia",
+      "name": "Chía",
+      "note": "",
+      "group": "Frutos secos y semillas",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-lino",
+      "name": "Lino",
+      "note": "",
+      "group": "Frutos secos y semillas",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-alga-kombu",
+      "name": "Alga kombu",
+      "note": "",
+      "group": "Algas",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-alga-nori",
+      "name": "Alga nori",
+      "note": "",
+      "group": "Algas",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-alga-wakame",
+      "name": "Alga wakame",
+      "note": "",
+      "group": "Algas",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-tortillas-de-trigo",
+      "name": "Tortillas de trigo",
+      "note": "",
+      "group": "Pan y tortillas",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-tortitas-de-arroz",
+      "name": "Tortitas de arroz",
+      "note": "",
+      "group": "Pan y tortillas",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-cafe",
+      "name": "Café",
+      "note": "",
+      "group": "Café e infusiones",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-cafe-descafeinado",
+      "name": "Café descafeinado",
+      "note": "",
+      "group": "Café e infusiones",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-hierbas-para-infusion",
+      "name": "Hierbas para infusión",
+      "note": "",
+      "group": "Café e infusiones",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-sal",
+      "name": "Sal",
+      "note": "",
+      "group": "Sal",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-sal-gorda-en-escamas",
+      "name": "Sal gorda / en escamas",
+      "note": "",
+      "group": "Sal",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-patatas",
+      "name": "Patatas",
+      "note": "",
+      "group": "Fresco fuera de la nevera",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-cebolla",
+      "name": "Cebolla",
+      "note": "",
+      "group": "Fresco fuera de la nevera",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-cebolla-morada",
+      "name": "Cebolla morada",
+      "note": "",
+      "group": "Fresco fuera de la nevera",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-limon",
+      "name": "Limón",
+      "note": "",
+      "group": "Fresco fuera de la nevera",
+      "missing": false
+     },
+     {
+      "id": "p-despensa-fruta",
+      "name": "Fruta",
+      "note": "",
+      "group": "Fresco fuera de la nevera",
+      "missing": false
+     }
+    ]
+   },
+   {
+    "id": "z-especias",
+    "name": "Especias",
+    "items": [
+     {
+      "id": "p-especias-pimenton-dulce-de-la-vera",
+      "name": "Pimentón dulce de la Vera",
+      "note": "",
+      "group": "Pimentones y picantes",
+      "missing": false
+     },
+     {
+      "id": "p-especias-pimenton-picante",
+      "name": "Pimentón picante",
+      "note": "",
+      "group": "Pimentones y picantes",
+      "missing": false
+     },
+     {
+      "id": "p-especias-cayena",
+      "name": "Cayena",
+      "note": "",
+      "group": "Pimentones y picantes",
+      "missing": false
+     },
+     {
+      "id": "p-especias-piri-piri",
+      "name": "Piri-piri",
+      "note": "",
+      "group": "Pimentones y picantes",
+      "missing": false
+     },
+     {
+      "id": "p-especias-gochugaru",
+      "name": "Gochugaru",
+      "note": "",
+      "group": "Pimentones y picantes",
+      "missing": false
+     },
+     {
+      "id": "p-especias-shichimi-togarashi",
+      "name": "Shichimi togarashi",
+      "note": "",
+      "group": "Pimentones y picantes",
+      "missing": false
+     },
+     {
+      "id": "p-especias-pimienta",
+      "name": "Pimienta",
+      "note": "",
+      "group": "Pimientas",
+      "missing": false
+     },
+     {
+      "id": "p-especias-pimienta-blanca",
+      "name": "Pimienta blanca",
+      "note": "",
+      "group": "Pimientas",
+      "missing": false
+     },
+     {
+      "id": "p-especias-pimienta-de-sichuan",
+      "name": "Pimienta de Sichuan",
+      "note": "",
+      "group": "Pimientas",
+      "missing": false
+     },
+     {
+      "id": "p-especias-comino",
+      "name": "Comino",
+      "note": "",
+      "group": "Especias",
+      "missing": false
+     },
+     {
+      "id": "p-especias-curcuma",
+      "name": "Cúrcuma",
+      "note": "",
+      "group": "Especias",
+      "missing": false
+     },
+     {
+      "id": "p-especias-jengibre-en-polvo",
+      "name": "Jengibre en polvo",
+      "note": "",
+      "group": "Especias",
+      "missing": false
+     },
+     {
+      "id": "p-especias-ajo-en-polvo",
+      "name": "Ajo en polvo",
+      "note": "",
+      "group": "Especias",
+      "missing": false
+     },
+     {
+      "id": "p-especias-cebolla-en-polvo",
+      "name": "Cebolla en polvo",
+      "note": "",
+      "group": "Especias",
+      "missing": false
+     },
+     {
+      "id": "p-especias-nuez-moscada",
+      "name": "Nuez moscada",
+      "note": "",
+      "group": "Especias",
+      "missing": false
+     },
+     {
+      "id": "p-especias-clavo",
+      "name": "Clavo",
+      "note": "",
+      "group": "Especias",
+      "missing": false
+     },
+     {
+      "id": "p-especias-canela-molida",
+      "name": "Canela molida",
+      "note": "",
+      "group": "Especias",
+      "missing": false
+     },
+     {
+      "id": "p-especias-canela-en-rama",
+      "name": "Canela en rama",
+      "note": "",
+      "group": "Especias",
+      "missing": false
+     },
+     {
+      "id": "p-especias-cardamomo",
+      "name": "Cardamomo",
+      "note": "",
+      "group": "Especias",
+      "missing": false
+     },
+     {
+      "id": "p-especias-anis-estrellado",
+      "name": "Anís estrellado",
+      "note": "",
+      "group": "Especias",
+      "missing": false
+     },
+     {
+      "id": "p-especias-cilantro-en-semilla",
+      "name": "Cilantro en semilla",
+      "note": "",
+      "group": "Especias",
+      "missing": false
+     },
+     {
+      "id": "p-especias-semillas-de-mostaza",
+      "name": "Semillas de mostaza",
+      "note": "",
+      "group": "Especias",
+      "missing": false
+     },
+     {
+      "id": "p-especias-semillas-de-hinojo",
+      "name": "Semillas de hinojo",
+      "note": "",
+      "group": "Especias",
+      "missing": false
+     },
+     {
+      "id": "p-especias-azafran",
+      "name": "Azafrán",
+      "note": "",
+      "group": "Especias",
+      "missing": false
+     },
+     {
+      "id": "p-especias-colorante-alimentario",
+      "name": "Colorante alimentario",
+      "note": "",
+      "group": "Especias",
+      "missing": false
+     },
+     {
+      "id": "p-especias-curry-en-polvo",
+      "name": "Curry en polvo",
+      "note": "",
+      "group": "Mezclas",
+      "missing": false
+     },
+     {
+      "id": "p-especias-garam-masala",
+      "name": "Garam masala",
+      "note": "",
+      "group": "Mezclas",
+      "missing": false
+     },
+     {
+      "id": "p-especias-cinco-especias-chinas",
+      "name": "Cinco especias chinas",
+      "note": "",
+      "group": "Mezclas",
+      "missing": false
+     },
+     {
+      "id": "p-especias-ras-el-hanout",
+      "name": "Ras el hanout",
+      "note": "",
+      "group": "Mezclas",
+      "missing": false
+     },
+     {
+      "id": "p-especias-za-atar",
+      "name": "Za'atar",
+      "note": "",
+      "group": "Mezclas",
+      "missing": false
+     },
+     {
+      "id": "p-especias-zumaque",
+      "name": "Zumaque",
+      "note": "",
+      "group": "Mezclas",
+      "missing": false
+     },
+     {
+      "id": "p-especias-hierbas-provenzales",
+      "name": "Hierbas provenzales",
+      "note": "",
+      "group": "Mezclas",
+      "missing": false
+     },
+     {
+      "id": "p-especias-laurel",
+      "name": "Laurel",
+      "note": "",
+      "group": "Hierbas secas",
+      "missing": false
+     },
+     {
+      "id": "p-especias-tomillo",
+      "name": "Tomillo",
+      "note": "",
+      "group": "Hierbas secas",
+      "missing": false
+     },
+     {
+      "id": "p-especias-oregano",
+      "name": "Orégano",
+      "note": "",
+      "group": "Hierbas secas",
+      "missing": false
+     },
+     {
+      "id": "p-especias-albahaca",
+      "name": "Albahaca",
+      "note": "",
+      "group": "Hierbas secas",
+      "missing": false
+     },
+     {
+      "id": "p-especias-eneldo",
+      "name": "Eneldo",
+      "note": "",
+      "group": "Hierbas secas",
+      "missing": false
+     },
+     {
+      "id": "p-especias-cilantro",
+      "name": "Cilantro",
+      "note": "hoja",
+      "group": "Hierbas secas",
+      "missing": false
+     },
+     {
+      "id": "p-especias-perejil",
+      "name": "Perejil",
+      "note": "",
+      "group": "Hierbas secas",
+      "missing": false
+     },
+     {
+      "id": "p-especias-romero",
+      "name": "Romero",
+      "note": "",
+      "group": "Hierbas secas",
+      "missing": false
+     },
+     {
+      "id": "p-especias-menta-hierbabuena",
+      "name": "Menta / hierbabuena",
+      "note": "",
+      "group": "Hierbas secas",
+      "missing": false
+     },
+     {
+      "id": "p-especias-salvia",
+      "name": "Salvia",
+      "note": "",
+      "group": "Hierbas secas",
+      "missing": false
+     }
+    ]
+   },
+   {
+    "id": "z-nevera",
+    "name": "Nevera",
+    "items": [
+     {
+      "id": "p-nevera-lechugas",
+      "name": "Lechugas",
+      "note": "",
+      "group": "Verduras y hortalizas",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-rucula-brotes",
+      "name": "Rúcula / brotes",
+      "note": "",
+      "group": "Verduras y hortalizas",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-espinacas",
+      "name": "Espinacas",
+      "note": "",
+      "group": "Verduras y hortalizas",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-col-repollo",
+      "name": "Col / repollo",
+      "note": "",
+      "group": "Verduras y hortalizas",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-brocoli",
+      "name": "Brócoli",
+      "note": "",
+      "group": "Verduras y hortalizas",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-coliflor",
+      "name": "Coliflor",
+      "note": "",
+      "group": "Verduras y hortalizas",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-zanahoria",
+      "name": "Zanahoria",
+      "note": "",
+      "group": "Verduras y hortalizas",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-pepino",
+      "name": "Pepino",
+      "note": "",
+      "group": "Verduras y hortalizas",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-calabacin",
+      "name": "Calabacín",
+      "note": "",
+      "group": "Verduras y hortalizas",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-berenjena",
+      "name": "Berenjena",
+      "note": "",
+      "group": "Verduras y hortalizas",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-pimientos",
+      "name": "Pimientos",
+      "note": "",
+      "group": "Verduras y hortalizas",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-puerro",
+      "name": "Puerro",
+      "note": "",
+      "group": "Verduras y hortalizas",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-apio",
+      "name": "Apio",
+      "note": "",
+      "group": "Verduras y hortalizas",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-tomate",
+      "name": "Tomate",
+      "note": "",
+      "group": "Verduras y hortalizas",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-boniato",
+      "name": "Boniato",
+      "note": "",
+      "group": "Verduras y hortalizas",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-remolacha",
+      "name": "Remolacha",
+      "note": "",
+      "group": "Verduras y hortalizas",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-rabanitos",
+      "name": "Rabanitos",
+      "note": "",
+      "group": "Verduras y hortalizas",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-ajos",
+      "name": "Ajos",
+      "note": "",
+      "group": "Verduras y hortalizas",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-jengibre-fresco",
+      "name": "Jengibre fresco",
+      "note": "",
+      "group": "Verduras y hortalizas",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-champinones",
+      "name": "Champiñones",
+      "note": "",
+      "group": "Setas",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-setas-variadas",
+      "name": "Setas variadas",
+      "note": "shiitake, ostra…",
+      "group": "Setas",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-aguacate",
+      "name": "Aguacate",
+      "note": "",
+      "group": "Fruta",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-limas",
+      "name": "Limas",
+      "note": "",
+      "group": "Fruta",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-huevos",
+      "name": "Huevos",
+      "note": "",
+      "group": "Huevos y lácteos",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-yogur",
+      "name": "Yogur",
+      "note": "",
+      "group": "Huevos y lácteos",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-yogur-griego",
+      "name": "Yogur griego",
+      "note": "",
+      "group": "Huevos y lácteos",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-kefir",
+      "name": "Kéfir",
+      "note": "",
+      "group": "Huevos y lácteos",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-mantequilla",
+      "name": "Mantequilla",
+      "note": "",
+      "group": "Huevos y lácteos",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-nata-para-cocinar",
+      "name": "Nata para cocinar",
+      "note": "",
+      "group": "Huevos y lácteos",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-quesos",
+      "name": "Quesos",
+      "note": "",
+      "group": "Huevos y lácteos",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-parmesano",
+      "name": "Parmesano",
+      "note": "",
+      "group": "Huevos y lácteos",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-tofu",
+      "name": "Tofu",
+      "note": "",
+      "group": "Proteína vegetal",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-seitan",
+      "name": "Seitán",
+      "note": "",
+      "group": "Proteína vegetal",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-tempeh",
+      "name": "Tempeh",
+      "note": "",
+      "group": "Proteína vegetal",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-anchoas",
+      "name": "Anchoas",
+      "note": "",
+      "group": "Pescado",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-mayonesa",
+      "name": "Mayonesa",
+      "note": "",
+      "group": "Salsas y condimentos",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-ketchup",
+      "name": "Kétchup",
+      "note": "",
+      "group": "Salsas y condimentos",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-mostaza",
+      "name": "Mostaza",
+      "note": "",
+      "group": "Salsas y condimentos",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-pesto",
+      "name": "Pesto",
+      "note": "",
+      "group": "Salsas y condimentos",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-miso",
+      "name": "Miso",
+      "note": "",
+      "group": "Salsas y condimentos",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-lao-gan-ma",
+      "name": "Lao Gan Ma",
+      "note": "",
+      "group": "Salsas y condimentos",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-gochujang",
+      "name": "Gochujang",
+      "note": "",
+      "group": "Salsas y condimentos",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-pasta-de-curry",
+      "name": "Pasta de curry",
+      "note": "",
+      "group": "Salsas y condimentos",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-pasta-de-aji-amarillo",
+      "name": "Pasta de ají amarillo",
+      "note": "",
+      "group": "Salsas y condimentos",
+      "missing": false
+     },
+     {
+      "id": "p-nevera-mermelada",
+      "name": "Mermelada",
+      "note": "",
+      "group": "Salsas y condimentos",
+      "missing": false
+     }
+    ]
+   },
+   {
+    "id": "z-congelador",
+    "name": "Congelador",
+    "items": []
+   },
+   {
+    "id": "z-bodega",
+    "name": "Bodega",
+    "items": [
+     {
+      "id": "p-bodega-vino-blanco",
+      "name": "Vino blanco",
+      "note": "",
+      "group": "",
+      "missing": false
+     },
+     {
+      "id": "p-bodega-vino-tinto",
+      "name": "Vino tinto",
+      "note": "",
+      "group": "",
+      "missing": false
+     },
+     {
+      "id": "p-bodega-cerveza",
+      "name": "Cerveza",
+      "note": "",
+      "group": "",
+      "missing": false
+     },
+     {
+      "id": "p-bodega-brandy-conac",
+      "name": "Brandy / coñac",
+      "note": "",
+      "group": "",
+      "missing": false
+     },
+     {
+      "id": "p-bodega-sake",
+      "name": "Sake",
+      "note": "",
+      "group": "",
+      "missing": false
+     },
+     {
+      "id": "p-bodega-anis",
+      "name": "Anís",
+      "note": "",
+      "group": "",
+      "missing": false
+     },
+     {
+      "id": "p-bodega-ron",
+      "name": "Ron",
+      "note": "",
+      "group": "",
+      "missing": false
+     },
+     {
+      "id": "p-bodega-vermut",
+      "name": "Vermut",
+      "note": "",
+      "group": "",
+      "missing": false
+     },
+     {
+      "id": "p-bodega-sidra",
+      "name": "Sidra",
+      "note": "",
+      "group": "",
+      "missing": false
+     }
+    ]
+   },
+   {
+    "id": "z-hecho-en-casa",
+    "name": "Hecho en casa",
+    "items": [
+     {
+      "id": "p-hecho-en-casa-masa-madre",
+      "name": "Masa madre",
+      "note": "",
+      "group": "",
+      "missing": false
+     },
+     {
+      "id": "p-hecho-en-casa-kimchi",
+      "name": "Kimchi",
+      "note": "",
+      "group": "",
+      "missing": false
+     }
+    ]
+   }
+  ]
+ }
 }

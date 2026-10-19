@@ -998,7 +998,7 @@ function cleanPantry(pt){
   const extra = pt && Array.isArray(pt.extra) ? pt.extra.filter(x=> x && x.name).map(x=>({ id: x.id || uid(), name: String(x.name), bought: !!x.bought })) : [];
   return { extra, zones: zones.filter(z=> z && z.name).map(z=>({
     id: z.id || uid(), name: String(z.name),
-    items: (z.items||[]).filter(i=> i && i.name).map(i=>({ id: i.id || uid(), name: String(i.name), note: String(i.note||''), missing: !!i.missing, bought: !!i.bought })) })) };
+    items: (z.items||[]).filter(i=> i && i.name).map(i=>({ id: i.id || uid(), name: String(i.name), note: String(i.note||''), group: String(i.group||''), missing: !!i.missing, bought: !!i.bought })) })), rev: pt && pt.rev ? String(pt.rev) : '' };
 }
 function pantryCount(){ return data.pantry.zones.reduce((n,z)=> n + z.items.length, 0); }
 /* lo que va en data.json (lo que sube a GitHub y lo que lee la IA) */
@@ -1007,7 +1007,7 @@ function fileData(){
     id: r.id, tab: r.tab, name: r.name, group: r.group, cat: r.cat || '', local: r.local || '', diet: r.diet || '', tag: r.tag, yield: r.yield,
     parts: r.parts.map(p=>({ name: p.name, ings: p.ings.map(i=>({q:i.q,u:i.u,n:i.n})), steps: stepLines(p.steps) })),
     notes: r.notes, done: r.done })),
-    pantry: { zones: data.pantry.zones.map(z=>({ id: z.id, name: z.name, items: z.items.map(i=>({ id: i.id, name: i.name, note: i.note, missing: i.missing })) })) } };
+    pantry: { rev: data.pantry.rev || undefined, zones: data.pantry.zones.map(z=>({ id: z.id, name: z.name, items: z.items.map(i=>({ id: i.id, name: i.name, note: i.note, group: i.group || '', missing: i.missing })) })) } };
 }
 function hashRecipe(r){
   const s = JSON.stringify([r.tab, r.name, r.group, r.cat || '', r.local || '', r.tag, r.yield, r.parts, r.notes, r.diet || '']);
@@ -1039,7 +1039,16 @@ function applyFile(obj){
     if(data.recipes.some(r=> r.id === id)){ data.recipes = data.recipes.filter(r=> r.id !== id); data.week = data.week.filter(w=> w.recipeId !== id); removed++; }
   });
   // la despensa solo se toma del archivo si en este dispositivo aún está vacía
-  if(obj.pantry && !pantryCount()){ const pt = cleanPantry(obj.pantry); if(pt.zones.some(z=> z.items.length)){ pt.extra = data.pantry.extra || []; data.pantry = pt; } }
+  if(obj.pantry){
+    const pt = cleanPantry(obj.pantry);
+    const fresh = !pantryCount() && pt.zones.some(z=> z.items.length);
+    const newer = pt.rev && pt.rev !== (data.pantry.rev || '');
+    if(fresh || newer){
+      const was = new Map(); data.pantry.zones.forEach(z=> z.items.forEach(i=> was.set(norm(i.name), i)));
+      pt.zones.forEach(z=> z.items.forEach(i=>{ const o = was.get(norm(i.name)); if(o){ i.missing = o.missing; i.bought = o.bought; } }));
+      pt.extra = data.pantry.extra || []; data.pantry = pt;
+    }
+  }
   data.fileSync = next; data.syncedAt = Date.now();
   save();
   return { added, changed, removed };
@@ -2123,6 +2132,16 @@ function renderZones(){
       return `<button class="chip${cur && cur.id===z.id?' on':''}" data-z="${z.id}"><span class="gdot" style="--gc:${tc(z.name)}"></span>${esc(z.name)}${m?`<span class="c" style="color:var(--miss);opacity:1;">${m}</span>`:''}</button>`;
     }).join('');
 }
+/* cosas de una zona agrupadas: primero las sueltas y luego cada grupo, plegable */
+function zoneItems(z){
+  const loose = z.items.filter(i=> !i.group), groups = [];
+  z.items.forEach(i=>{ if(i.group && !groups.includes(i.group)) groups.push(i.group); });
+  return loose.map(i=> itemHTML(z, i)).join('') + groups.map(g=>{
+    const its = z.items.filter(i=> i.group === g), k = 'p:' + z.id + ':' + g, open = subOpen(k), m = its.filter(i=> i.missing).length;
+    return `<div class="col-sub tog${open?' open':''}" data-sub="${esc(k)}"><span class="chev"></span>${esc(g)}<span class="c">${its.length}</span>${m?`<span class="c" style="color:var(--miss);opacity:1;">· ${m} falta${m>1?'n':''}</span>`:''}</div>`
+      + (open ? its.map(i=> itemHTML(z, i)).join('') : '');
+  }).join('');
+}
 function itemHTML(z, i){
   return `<div class="rcard item${i.missing?' missing':''}" data-item="${i.id}" data-zone="${z.id}">
     <div class="open"><span class="n">${esc(i.name)}</span><span class="sub">${i.note?`<span>${esc(i.note)}</span>`:''}</span></div>
@@ -2138,7 +2157,7 @@ function renderPantry(){
   const cur = curZone();
   if(cur){
     main.innerHTML = `<div class="list">
-      ${cur.items.length ? cur.items.map(i=> itemHTML(cur, i)).join('') : '<div class="muted" style="padding:6px 0 10px;">Aún no hay nada en esta zona.</div>'}
+      ${cur.items.length ? zoneItems(cur) : '<div class="muted" style="padding:6px 0 10px;">Aún no hay nada en esta zona.</div>'}
       <button class="col-add" data-additem="${cur.id}">+ Añadir</button>
       <p class="muted" style="margin-top:18px;">Toca una cosa cuando se acabe o quede poco: pasa a la compra.</p>
     </div>`;
@@ -2147,7 +2166,7 @@ function renderPantry(){
   const cols = data.pantry.zones.map(z=> `<section class="col">
       <div class="col-h"><span class="gp zname" data-zedit="${z.id}" style="--gc:${tc(z.name)}">${esc(z.name)}</span><span class="c">${z.items.length}</span></div>
       <div class="col-body">
-        ${z.items.length ? z.items.map(i=> itemHTML(z, i)).join('') : '<div class="col-empty">Vacío</div>'}
+        ${z.items.length ? zoneItems(z) : '<div class="col-empty">Vacío</div>'}
         <button class="col-add" data-additem="${z.id}">+ Añadir</button>
       </div>
     </section>`).join('') + `<section class="col addcol"><button data-addzone>+ Zona</button></section>`;
@@ -2164,7 +2183,7 @@ function renderBuy(main){
     html += `<div class="empty" style="padding:28px 0 18px;">No falta nada.<br>En <b>Stock</b>, toca lo que se acabe y aparecerá aquí.<br>Las recetas que metas en la Semana también traen aquí sus ingredientes.</div>`;
   if(miss.length){
     html += `<div class="ghead"><span class="t">De la despensa</span><span class="c">${miss.length}</span></div><ul class="shop flat">` +
-      miss.map(({z,i})=> `<li data-buy="${i.id}"${i.bought?' class="struck"':''}><span>${esc(i.name)}${i.note?` <span class="muted">(${esc(i.note)})</span>`:''}</span><span class="from">${esc(z.name)}</span></li>`).join('') + `</ul>`;
+      miss.map(({z,i})=> `<li data-buy="${i.id}"${i.bought?' class="struck"':''}><span>${esc(i.name)}${i.note?` <span class="muted">(${esc(i.note)})</span>`:''}</span><span class="from">${esc(z.name)}${i.group?` · ${esc(i.group)}`:''}</span></li>`).join('') + `</ul>`;
     if(miss.some(x=> x.i.bought)) html += `<button class="buy-done" data-stock>Ya está en casa: quitar lo tachado</button>`;
   }
   if(weeks.length){
@@ -2204,6 +2223,8 @@ function pantryClick(e){
   if(t.closest('[data-addzone]')) return openZone(null);
   const ze = t.closest('[data-zedit]'); if(ze) return openZone(ze.dataset.zedit);
   const ai = t.closest('[data-additem]'); if(ai) return openItem(null, ai.dataset.additem);
+  const sb = t.closest('[data-sub]');
+  if(sb){ const k = sb.dataset.sub; if(openSubs.has(k)) openSubs.delete(k); else openSubs.add(k); keepBoard(renderPantry); return; }
   const card = t.closest('[data-item]');
   if(card){
     const z = data.pantry.zones.find(x=> x.id === card.dataset.zone), i = z && z.items.find(x=> x.id === card.dataset.item);
@@ -2246,30 +2267,40 @@ function openItem(itemId, zoneId){
       <div class="f"><input class="in" id="it-name" placeholder="Qué (aceite de oliva, huevos…)" value="${item ? esc(item.name) : ''}" autocomplete="off" enterkeyhint="done"></div>
       <div class="f"><input class="in" id="it-note" placeholder="Nota (opcional: virgen extra, de garrafa…)" value="${item ? esc(item.note) : ''}" autocomplete="off" enterkeyhint="done"></div>
       <div class="f"><span class="lb">Dónde</span><div class="chips">${data.pantry.zones.map(z=> `<button class="chip${z.id===selZone?' on':''}" data-zs="${z.id}"><span class="gdot" style="--gc:${tc(z.name)}"></span>${esc(z.name)}</button>`).join('')}</div></div>
+      <div class="f"><span class="lb">Grupo</span><div class="chips" id="it-groups"></div>
+        <input class="in" id="it-group" placeholder="Otro grupo (opcional)" value="${item ? esc(item.group || '') : ''}" autocomplete="off" enterkeyhint="done" style="margin-top:8px;"></div>
       ${item ? `<div class="foot"><button class="danger" data-act="del">Quitar de la lista</button></div>`
              : `<div class="foot" style="margin-top:22px;"><button class="sh-btn primary" data-act="add" style="height:44px;">Añadir</button></div>
                 <p class="muted" style="margin-top:14px;">Con Intro se añade y puedes escribir la siguiente.</p>`}
     </div>`, '', sh=>{
-      const nm = sh.querySelector('#it-name'), nt = sh.querySelector('#it-note');
+      const nm = sh.querySelector('#it-name'), nt = sh.querySelector('#it-note'), gr = sh.querySelector('#it-group');
+      const drawGroups = ()=>{
+        const z = data.pantry.zones.find(x=> x.id === selZone), gs = [];
+        (z ? z.items : []).forEach(i=>{ if(i.group && !gs.includes(i.group)) gs.push(i.group); });
+        sh.querySelector('#it-groups').innerHTML = gs.length ? gs.map(g=> `<button class="chip${gr.value.trim()===g?' on':''}" data-gs="${esc(g)}">${esc(g)}</button>`).join('') : '<span class="muted">Esta zona aún no tiene grupos.</span>';
+      };
+      drawGroups(); gr.addEventListener('input', drawGroups);
       setTimeout(()=> nm.focus(), 50);
       const commit = ()=>{
         const name = nm.value.trim();
         if(!name){ shake(nm); nm.focus(); return false; }
         const target = data.pantry.zones.find(z=> z.id === selZone);
         if(item){
-          item.name = name; item.note = nt.value.trim();
+          item.name = name; item.note = nt.value.trim(); item.group = gr.value.trim();
           if(target && !target.items.includes(item)){ zone.items = zone.items.filter(i=> i !== item); target.items.push(item); }
-        } else target.items.push({ id: uid(), name, note: nt.value.trim(), missing: false, bought: false });
+        } else target.items.push({ id: uid(), name, note: nt.value.trim(), group: gr.value.trim(), missing: false, bought: false });
         save(); return true;
       };
       const addMore = ()=>{ if(!commit()) return; toast(`Añadido: ${nm.value.trim()}`); nm.value = ''; nt.value = ''; nm.focus(); renderZones(); keepBoard(renderPantry); };
-      [nm, nt].forEach(inp=> inp.addEventListener('keydown', e=>{
+      [nm, nt, gr].forEach(inp=> inp.addEventListener('keydown', e=>{
         if(e.key !== 'Enter') return; e.preventDefault();
         if(item){ if(commit()) closeSheet(); } else addMore();
       }));
       sh.addEventListener('click', e=>{
         const zs = e.target.closest('[data-zs]');
-        if(zs){ selZone = zs.dataset.zs; sh.querySelectorAll('[data-zs]').forEach(b=> b.classList.toggle('on', b.dataset.zs === selZone)); return; }
+        if(zs){ selZone = zs.dataset.zs; sh.querySelectorAll('[data-zs]').forEach(b=> b.classList.toggle('on', b.dataset.zs === selZone)); drawGroups(); return; }
+        const gsb = e.target.closest('[data-gs]');
+        if(gsb){ gr.value = gr.value.trim() === gsb.dataset.gs ? '' : gsb.dataset.gs; drawGroups(); return; }
         const a = e.target.closest('[data-act]'); if(!a) return;
         const act = a.dataset.act;
         if(act === 'close') return closeSheet();
