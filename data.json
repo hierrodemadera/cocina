@@ -10,6 +10,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
    "local": "",
    "diet": "carne",
+   "freq": "semanal",
    "tag": "España / Castilla y León",
    "yield": "4 pax",
    "parts": [
@@ -81,6 +82,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Cremas frías",
    "local": "",
    "diet": "carne",
+   "freq": "semanal",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -147,6 +149,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Cremas frías",
    "local": "",
    "diet": "vegano",
+   "freq": "diario",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -222,6 +225,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Cremas frías",
    "local": "",
    "diet": "carne",
+   "freq": "semanal",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -302,6 +306,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Cremas frías",
    "local": "",
    "diet": "vegano",
+   "freq": "diario",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -372,6 +377,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
    "local": "",
    "diet": "carne",
+   "freq": "semanal",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -430,6 +436,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "España / Galicia",
    "yield": "4 pax",
    "parts": [
@@ -506,6 +513,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
    "local": "",
    "diet": "vegetariano",
+   "freq": "diario",
    "tag": "España / Extremadura",
    "yield": "4 pax",
    "parts": [
@@ -587,6 +595,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
    "diet": "carne",
+   "freq": "semanal",
    "tag": "España / Castilla-La Mancha",
    "yield": "4 pax",
    "parts": [
@@ -673,6 +682,7 @@
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "España / Extremadura",
    "yield": "4 pax",
    "parts": [
@@ -748,6 +758,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "España / Castilla-La Mancha",
    "yield": "4 pax",
    "parts": [
@@ -823,6 +834,7 @@
    "cat": "Entremeses y aperitivos / Fríos",
    "local": "",
    "diet": "vegano",
+   "freq": "diario",
    "tag": "España / Cataluña",
    "yield": "4 pax",
    "parts": [
@@ -875,6 +887,7 @@
    "cat": "Entremeses y aperitivos / Fríos",
    "local": "",
    "diet": "carne",
+   "freq": "semanal",
    "tag": "España / Baleares",
    "yield": "6 pax",
    "parts": [
@@ -970,6 +983,7 @@
    "cat": "Entremeses y aperitivos / Fríos",
    "local": "",
    "diet": "pescado",
+   "freq": "semanal",
    "tag": "España / Galicia",
    "yield": "6 pax",
    "parts": [
@@ -1088,6 +1102,7 @@
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "España",
    "yield": "30 ud.",
    "parts": [
@@ -1179,6 +1194,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
    "diet": "carne",
+   "freq": "semanal",
    "tag": "España",
    "yield": "4 pax",
    "parts": [
@@ -1275,6 +1291,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
    "diet": "pescado",
+   "freq": "semanal",
    "tag": "España",
    "yield": "4 pax",
    "parts": [
@@ -1366,6 +1383,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
    "diet": "vegano",
+   "freq": "diario",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -1445,6 +1463,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
    "diet": "vegano",
+   "freq": "diario",
    "tag": "España / Murcia",
    "yield": "4 pax",
    "parts": [
@@ -1545,6 +1564,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "España / Murcia",
    "yield": "4 pax",
    "parts": [
@@ -1628,6 +1648,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "España / Madrid",
    "yield": "6 pax",
    "parts": [
@@ -1757,6 +1778,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "España / Asturias",
    "yield": "4 pax",
    "parts": [
@@ -1831,6 +1853,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "España / Castilla y León",
    "yield": "4 pax",
    "parts": [
@@ -1915,6 +1938,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "España / País Vasco",
    "yield": "4 pax",
    "parts": [
@@ -2010,6 +2034,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "España / Andalucía",
    "yield": "6 pax",
    "parts": [
@@ -2109,6 +2134,7 @@
    "cat": "Carnes / Bovino",
    "local": "",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "España / Canarias",
    "yield": "4 pax",
    "parts": [
@@ -2199,6 +2225,7 @@
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -2257,6 +2284,7 @@
    "cat": "Arroces",
    "local": "",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "España / Comunidad Valenciana",
    "yield": "4 pax",
    "parts": [
@@ -2353,6 +2381,7 @@
    "cat": "Arroces",
    "local": "",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "España / Comunidad Valenciana",
    "yield": "4 pax",
    "parts": [
@@ -2432,6 +2461,7 @@
    "cat": "Hortalizas",
    "local": "",
    "diet": "vegano",
+   "freq": "diario",
    "tag": "España / Castilla-La Mancha",
    "yield": "4 pax",
    "parts": [
@@ -2512,6 +2542,7 @@
    "cat": "Hortalizas",
    "local": "",
    "diet": "vegano",
+   "freq": "diario",
    "tag": "España / Cataluña",
    "yield": "4 pax",
    "parts": [
@@ -2576,6 +2607,7 @@
    "cat": "Hortalizas",
    "local": "",
    "diet": "vegano",
+   "freq": "semanal",
    "tag": "España / Baleares",
    "yield": "4 pax",
    "parts": [
@@ -2646,6 +2678,7 @@
    "cat": "Hortalizas",
    "local": "",
    "diet": "vegano",
+   "freq": "diario",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -2724,6 +2757,7 @@
    "cat": "Hortalizas",
    "local": "",
    "diet": "vegetariano",
+   "freq": "diario",
    "tag": "España / Murcia",
    "yield": "4 pax",
    "parts": [
@@ -2776,6 +2810,7 @@
    "cat": "Hortalizas",
    "local": "",
    "diet": "vegano",
+   "freq": "diario",
    "tag": "España / Cataluña",
    "yield": "4 pax",
    "parts": [
@@ -2834,6 +2869,7 @@
    "cat": "Hortalizas",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Castilla y León",
    "yield": "4 pax",
    "parts": [
@@ -2919,6 +2955,7 @@
    "cat": "Hortalizas",
    "local": "",
    "diet": "vegano",
+   "freq": "semanal",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -2982,6 +3019,7 @@
    "cat": "Hortalizas",
    "local": "",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "España / Castilla y León",
    "yield": "4 pax",
    "parts": [
@@ -3051,6 +3089,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "España / La Rioja",
    "yield": "4 pax",
    "parts": [
@@ -3135,6 +3174,7 @@
    "cat": "Hortalizas",
    "local": "",
    "diet": "vegano",
+   "freq": "diario",
    "tag": "España / Canarias",
    "yield": "4 pax",
    "parts": [
@@ -3223,6 +3263,7 @@
    "cat": "Huevos",
    "local": "",
    "diet": "vegetariano",
+   "freq": "semanal",
    "tag": "España",
    "yield": "4 pax",
    "parts": [
@@ -3276,6 +3317,7 @@
    "cat": "Huevos",
    "local": "",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -3351,6 +3393,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "",
    "diet": "pescado",
+   "freq": "semanal",
    "tag": "España / País Vasco",
    "yield": "4 pax",
    "parts": [
@@ -3431,6 +3474,7 @@
    "cat": "Arroces",
    "local": "",
    "diet": "pescado",
+   "freq": "semanal",
    "tag": "España / Comunidad Valenciana",
    "yield": "4 pax",
    "parts": [
@@ -3541,6 +3585,7 @@
    "cat": "Entremeses y aperitivos / Fríos",
    "local": "",
    "diet": "pescado",
+   "freq": "semanal",
    "tag": "España / Comunidad Valenciana",
    "yield": "4 pax",
    "parts": [
@@ -3595,6 +3640,7 @@
    "cat": "Pescados",
    "local": "",
    "diet": "pescado",
+   "freq": "semanal",
    "tag": "España / Navarra",
    "yield": "4 pax",
    "parts": [
@@ -3674,6 +3720,7 @@
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "",
    "diet": "pescado",
+   "freq": "semanal",
    "tag": "España / Castilla-La Mancha",
    "yield": "4 pax",
    "parts": [
@@ -3738,6 +3785,7 @@
    "cat": "Entremeses y aperitivos / Fríos",
    "local": "",
    "diet": "pescado",
+   "freq": "semanal",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -3801,6 +3849,7 @@
    "cat": "Carnes / Bovino",
    "local": "",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "España / Madrid",
    "yield": "6 pax",
    "parts": [
@@ -3912,6 +3961,7 @@
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "España / Castilla-La Mancha",
    "yield": "6 pax",
    "parts": [
@@ -4001,6 +4051,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Asturias",
    "yield": "6 pax",
    "parts": [
@@ -4071,6 +4122,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España",
    "yield": "6 pax",
    "parts": [
@@ -4140,6 +4192,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España",
    "yield": "6 pax",
    "parts": [
@@ -4208,6 +4261,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Cataluña",
    "yield": "6 pax",
    "parts": [
@@ -4272,6 +4326,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Castilla y León",
    "yield": "6 pax",
    "parts": [
@@ -4365,6 +4420,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España",
    "yield": "8 ud.",
    "parts": [
@@ -4439,6 +4495,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Andalucía",
    "yield": "6 pax",
    "parts": [
@@ -4511,6 +4568,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "semanal",
    "tag": "España / Navarra",
    "yield": "4 pax",
    "parts": [
@@ -4559,6 +4617,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Comunidad Valenciana",
    "yield": "6 pax",
    "parts": [
@@ -4617,6 +4676,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Andalucía",
    "yield": "4 pax",
    "parts": [
@@ -4685,6 +4745,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Madrid",
    "yield": "30 ud.",
    "parts": [
@@ -4758,6 +4819,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Andalucía",
    "yield": "30 ud.",
    "parts": [
@@ -4838,6 +4900,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Andalucía",
    "yield": "30 ud.",
    "parts": [
@@ -4912,6 +4975,7 @@
    "cat": "",
    "local": "",
    "diet": "vegano",
+   "freq": "ocasional",
    "tag": "España / Madrid",
    "yield": "4 pax",
    "parts": [
@@ -4965,6 +5029,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Castilla-La Mancha",
    "yield": "25 ud.",
    "parts": [
@@ -5034,6 +5099,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Galicia",
    "yield": "25 ud.",
    "parts": [
@@ -5107,6 +5173,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Galicia",
    "yield": "15 ud.",
    "parts": [
@@ -5170,6 +5237,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Asturias",
    "yield": "15 ud.",
    "parts": [
@@ -5238,6 +5306,7 @@
    "cat": "",
    "local": "",
    "diet": "vegano",
+   "freq": "ocasional",
    "tag": "España / Comunidad Valenciana",
    "yield": "30 ud.",
    "parts": [
@@ -5302,6 +5371,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Madrid",
    "yield": "20 ud.",
    "parts": [
@@ -5388,6 +5458,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Asturias",
    "yield": "12 ud.",
    "parts": [
@@ -5475,6 +5546,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Galicia",
    "yield": "8 pax",
    "parts": [
@@ -5538,6 +5610,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España",
    "yield": "8 pax",
    "parts": [
@@ -5602,6 +5675,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España",
    "yield": "16 ud.",
    "parts": [
@@ -5671,6 +5745,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Castilla-La Mancha",
    "yield": "8 pax",
    "parts": [
@@ -5750,6 +5825,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / País Vasco",
    "yield": "8 pax",
    "parts": [
@@ -5804,6 +5880,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Cantabria",
    "yield": "8 pax",
    "parts": [
@@ -5873,6 +5950,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Cantabria",
    "yield": "12 ud.",
    "parts": [
@@ -5942,6 +6020,7 @@
    "cat": "",
    "local": "",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "España / Baleares",
    "yield": "2 ud.",
    "parts": [
@@ -6013,6 +6092,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Comunidad Valenciana",
    "yield": "8 pax",
    "parts": [
@@ -6082,6 +6162,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Comunidad Valenciana",
    "yield": "15 ud.",
    "parts": [
@@ -6169,6 +6250,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Murcia",
    "yield": "8 pax",
    "parts": [
@@ -6246,6 +6328,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España",
    "yield": "8 pax",
    "parts": [
@@ -6332,6 +6415,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / País Vasco",
    "yield": "8 pax",
    "parts": [
@@ -6438,6 +6522,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Cataluña",
    "yield": "30 ud.",
    "parts": [
@@ -6503,6 +6588,7 @@
    "cat": "",
    "local": "",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "España / Extremadura",
    "yield": "25 ud.",
    "parts": [
@@ -6577,6 +6663,7 @@
    "cat": "",
    "local": "",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "España / Andalucía",
    "yield": "30 ud.",
    "parts": [
@@ -6641,6 +6728,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España",
    "yield": "8 pax",
    "parts": [
@@ -6756,6 +6844,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Cataluña",
    "yield": "30 ud.",
    "parts": [
@@ -6815,6 +6904,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Castilla-La Mancha",
    "yield": "30 ud.",
    "parts": [
@@ -6868,6 +6958,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Castilla y León",
    "yield": "20 ud.",
    "parts": [
@@ -6927,6 +7018,7 @@
    "cat": "",
    "local": "",
    "diet": "vegano",
+   "freq": "semanal",
    "tag": "España / La Rioja",
    "yield": "4 pax",
    "parts": [
@@ -6985,6 +7077,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "semanal",
    "tag": "España",
    "yield": "4 pax",
    "parts": [
@@ -7039,6 +7132,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Castilla-La Mancha",
    "yield": "12 ud.",
    "parts": [
@@ -7112,6 +7206,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Andalucía",
    "yield": "10 ud.",
    "parts": [
@@ -7186,6 +7281,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Canarias",
    "yield": "6 pax",
    "parts": [
@@ -7244,6 +7340,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España / Canarias",
    "yield": "6 pax",
    "parts": [
@@ -7318,6 +7415,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "semanal",
    "tag": "España / Cataluña",
    "yield": "4 pax",
    "parts": [
@@ -7359,6 +7457,7 @@
    "cat": "",
    "local": "",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "España",
    "yield": "6 pax",
    "parts": [
@@ -7423,6 +7522,7 @@
    "cat": "",
    "local": "",
    "diet": "vegano",
+   "freq": "ocasional",
    "tag": "España / Andalucía",
    "yield": "1 ud.",
    "parts": [
@@ -7491,6 +7591,7 @@
    "cat": "Arroces",
    "local": "Gohanmono / Sushi",
    "diet": "pescado",
+   "freq": "semanal",
    "tag": "Japón / Kanto",
    "yield": "4 pax",
    "parts": [
@@ -7586,6 +7687,7 @@
    "cat": "Mariscos",
    "local": "Agemono / Tempura y koromoage",
    "diet": "pescado",
+   "freq": "ocasional",
    "tag": "Japón / Kanto",
    "yield": "4 pax",
    "parts": [
@@ -7694,6 +7796,7 @@
    "cat": "Pastas alimenticias",
    "local": "Menrui / Ramen",
    "diet": "carne",
+   "freq": "semanal",
    "tag": "Japón / Kanto",
    "yield": "4 pax",
    "parts": [
@@ -7851,6 +7954,7 @@
    "cat": "Arroces",
    "local": "Gohanmono / Donburi y kare raisu",
    "diet": "carne",
+   "freq": "semanal",
    "tag": "Japón / Kanto",
    "yield": "4 pax",
    "parts": [
@@ -7925,6 +8029,7 @@
    "cat": "Carnes / Bovino",
    "local": "Nabemono",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Japón / Kanto",
    "yield": "4 pax",
    "parts": [
@@ -8032,6 +8137,7 @@
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Konamono",
    "diet": "carne",
+   "freq": "semanal",
    "tag": "Japón / Kansai",
    "yield": "2 ud.",
    "parts": [
@@ -8128,6 +8234,7 @@
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Konamono",
    "diet": "pescado",
+   "freq": "semanal",
    "tag": "Japón / Kansai",
    "yield": "40 ud.",
    "parts": [
@@ -8229,6 +8336,7 @@
    "cat": "",
    "local": "Wagashi / Mochimono (de mochi y dango)",
    "diet": "vegano",
+   "freq": "ocasional",
    "tag": "Japón / Kansai",
    "yield": "8 ud.",
    "parts": [
@@ -8303,6 +8411,7 @@
    "cat": "Pastas alimenticias",
    "local": "Menrui / Udon",
    "diet": "pescado",
+   "freq": "semanal",
    "tag": "Japón / Shikoku",
    "yield": "4 pax",
    "parts": [
@@ -8412,6 +8521,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "Nabemono",
    "diet": "pescado",
+   "freq": "semanal",
    "tag": "Japón / Hokkaido",
    "yield": "4 pax",
    "parts": [
@@ -8543,6 +8653,7 @@
    "cat": "Carnes / Ovino",
    "local": "Yakimono",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Japón / Hokkaido",
    "yield": "4 pax",
    "parts": [
@@ -8659,6 +8770,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "Nabemono",
    "diet": "carne",
+   "freq": "semanal",
    "tag": "Japón / Tohoku",
    "yield": "5 pax",
    "parts": [
@@ -8768,6 +8880,7 @@
    "cat": "Pastas alimenticias",
    "local": "Menrui / Otros fideos",
    "diet": "pescado",
+   "freq": "semanal",
    "tag": "Japón / Chubu",
    "yield": "5 pax",
    "parts": [
@@ -8873,6 +8986,7 @@
    "cat": "Hortalizas",
    "local": "Itamemono",
    "diet": "carne",
+   "freq": "semanal",
    "tag": "Japón / Kyushu y Okinawa",
    "yield": "4 pax",
    "parts": [
@@ -8933,6 +9047,7 @@
    "cat": "Carnes / Aves y conejo",
    "local": "Agemono / Karaage",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Japón / Kyushu y Okinawa",
    "yield": "4 pax",
    "parts": [
@@ -9012,6 +9127,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
    "local": "Shirumono / Misoshiru",
    "diet": "pescado",
+   "freq": "diario",
    "tag": "Japón",
    "yield": "4 pax",
    "parts": [
@@ -9085,6 +9201,7 @@
    "cat": "Arroces",
    "local": "Gohanmono / Onigiri",
    "diet": "pescado",
+   "freq": "semanal",
    "tag": "Japón",
    "yield": "6 ud.",
    "parts": [
@@ -9148,6 +9265,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "Nimono",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Japón",
    "yield": "4 pax",
    "parts": [
@@ -9238,6 +9356,7 @@
    "cat": "Arroces",
    "local": "Gohanmono / Donburi y kare raisu",
    "diet": "carne",
+   "freq": "semanal",
    "tag": "Japón",
    "yield": "4 pax",
    "parts": [
@@ -9354,6 +9473,7 @@
    "cat": "",
    "local": "Wagashi / Yakimono (horneados)",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "Japón",
    "yield": "6 ud.",
    "parts": [
@@ -9444,6 +9564,7 @@
    "cat": "Pescados",
    "local": "Marina / Cebiches y tiraditos",
    "diet": "pescado",
+   "freq": "semanal",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -9539,6 +9660,7 @@
    "cat": "Pescados",
    "local": "Marina / Cebiches y tiraditos",
    "diet": "pescado",
+   "freq": "semanal",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -9616,6 +9738,7 @@
    "cat": "Entremeses y aperitivos / Fríos",
    "local": "Criolla / Limeña",
    "diet": "pescado",
+   "freq": "semanal",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -9711,6 +9834,7 @@
    "cat": "Carnes / Aves y conejo",
    "local": "Criolla / Limeña",
    "diet": "carne",
+   "freq": "semanal",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -9850,6 +9974,7 @@
    "cat": "Carnes / Bovino",
    "local": "Criolla / Limeña",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -9945,6 +10070,7 @@
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Criolla / Anticuchos y brasas",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -10052,6 +10178,7 @@
    "cat": "Arroces",
    "local": "Chifa",
    "diet": "carne",
+   "freq": "semanal",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -10145,6 +10272,7 @@
    "cat": "Arroces",
    "local": "Criolla / Limeña",
    "diet": "vegano",
+   "freq": "semanal",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -10208,6 +10336,7 @@
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Criolla / Limeña",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Perú / Lima",
    "yield": "8 ud.",
    "parts": [
@@ -10333,6 +10462,7 @@
    "cat": "Carnes / Aves y conejo",
    "local": "Criolla / Anticuchos y brasas",
    "diet": "carne",
+   "freq": "semanal",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -10455,6 +10585,7 @@
    "cat": "Pastas alimenticias",
    "local": "Criolla / Limeña",
    "diet": "vegetariano",
+   "freq": "semanal",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -10538,6 +10669,7 @@
    "cat": "Carnes / Bovino",
    "local": "Criolla / Limeña",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -10622,6 +10754,7 @@
    "cat": "Carnes / Bovino",
    "local": "Criolla / Limeña",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -10750,6 +10883,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
    "local": "Criolla / Limeña",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -10854,6 +10988,7 @@
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Criolla / Desayuno y sánguches",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Perú / Lima",
    "yield": "8 ud.",
    "parts": [
@@ -10990,6 +11125,7 @@
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Criolla / Desayuno y sánguches",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -11098,6 +11234,7 @@
    "cat": "Mariscos",
    "local": "Marina / Frituras y jaleas",
    "diet": "pescado",
+   "freq": "ocasional",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -11259,6 +11396,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
    "local": "Marina / Calientes",
    "diet": "pescado",
+   "freq": "semanal",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -11402,6 +11540,7 @@
    "cat": "Pescados",
    "local": "Marina / Calientes",
    "diet": "pescado",
+   "freq": "semanal",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -11563,6 +11702,7 @@
    "cat": "Pescados",
    "local": "Criolla / Limeña",
    "diet": "pescado",
+   "freq": "semanal",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -11697,6 +11837,7 @@
    "cat": "Arroces",
    "local": "Marina / Calientes",
    "diet": "pescado",
+   "freq": "semanal",
    "tag": "Perú / Lima",
    "yield": "4 pax",
    "parts": [
@@ -11831,6 +11972,7 @@
    "cat": "Hortalizas",
    "local": "Andina",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Perú",
    "yield": "4 pax",
    "parts": [
@@ -11915,6 +12057,7 @@
    "cat": "Entremeses y aperitivos / Fríos",
    "local": "Criolla / Limeña",
    "diet": "vegetariano",
+   "freq": "semanal",
    "tag": "Perú / Junín",
    "yield": "4 pax",
    "parts": [
@@ -12003,6 +12146,7 @@
    "cat": "Carnes",
    "local": "Andina",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Perú / Junín",
    "yield": "4 pax",
    "parts": [
@@ -12144,6 +12288,7 @@
    "cat": "Hortalizas",
    "local": "Sureña / Picantería arequipeña",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Perú / Arequipa",
    "yield": "4 pax",
    "parts": [
@@ -12288,6 +12433,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
    "local": "Sureña / Picantería arequipeña",
    "diet": "pescado",
+   "freq": "semanal",
    "tag": "Perú / Arequipa",
    "yield": "4 pax",
    "parts": [
@@ -12419,6 +12565,7 @@
    "cat": "Entremeses y aperitivos / Fríos",
    "local": "Sureña / Picantería arequipeña",
    "diet": "vegetariano",
+   "freq": "semanal",
    "tag": "Perú / Arequipa",
    "yield": "4 pax",
    "parts": [
@@ -12517,6 +12664,7 @@
    "cat": "Carnes / Porcino",
    "local": "Sureña / Picantería arequipeña",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Perú / Arequipa",
    "yield": "4 pax",
    "parts": [
@@ -12585,6 +12733,7 @@
    "cat": "Ensaladas",
    "local": "Sureña / Picantería arequipeña",
    "diet": "vegetariano",
+   "freq": "diario",
    "tag": "Perú / Arequipa",
    "yield": "4 pax",
    "parts": [
@@ -12672,6 +12821,7 @@
    "cat": "Carnes / Aves y conejo",
    "local": "Sureña / Picantería arequipeña",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Perú / Arequipa",
    "yield": "4 pax",
    "parts": [
@@ -12736,6 +12886,7 @@
    "cat": "Carnes / Porcino",
    "local": "Criolla / Afroperuana",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Perú / Ica",
    "yield": "4 pax",
    "parts": [
@@ -12890,6 +13041,7 @@
    "cat": "Carnes",
    "local": "Andina",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Perú / Cusco",
    "yield": "4 pax",
    "parts": [
@@ -13034,6 +13186,7 @@
    "cat": "Hortalizas",
    "local": "Andina",
    "diet": "vegetariano",
+   "freq": "semanal",
    "tag": "Perú / Cusco",
    "yield": "4 pax",
    "parts": [
@@ -13124,6 +13277,7 @@
    "cat": "Hortalizas",
    "local": "Andina",
    "diet": "vegetariano",
+   "freq": "semanal",
    "tag": "Perú / Cusco",
    "yield": "4 pax",
    "parts": [
@@ -13176,6 +13330,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
    "local": "Andina",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Perú / Puno",
    "yield": "4 pax",
    "parts": [
@@ -13265,6 +13420,7 @@
    "cat": "Pescados",
    "local": "Andina",
    "diet": "pescado",
+   "freq": "ocasional",
    "tag": "Perú / Puno",
    "yield": "4 pax",
    "parts": [
@@ -13338,6 +13494,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "Andina",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Perú / Ayacucho",
    "yield": "4 pax",
    "parts": [
@@ -13421,6 +13578,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
    "local": "Andina",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Perú / Ayacucho",
    "yield": "4 pax",
    "parts": [
@@ -13511,6 +13669,7 @@
    "cat": "Carnes / Bovino",
    "local": "Sureña / Tacna y Moquegua",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Perú / Tacna",
    "yield": "4 pax",
    "parts": [
@@ -13596,6 +13755,7 @@
    "cat": "Arroces",
    "local": "Norteña",
    "diet": "carne",
+   "freq": "semanal",
    "tag": "Perú / Lambayeque",
    "yield": "4 pax",
    "parts": [
@@ -13696,6 +13856,7 @@
    "cat": "Carnes / Ovino",
    "local": "Norteña",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Perú / Lambayeque",
    "yield": "4 pax",
    "parts": [
@@ -13813,6 +13974,7 @@
    "cat": "Pescados",
    "local": "Marina / Cebiches y tiraditos",
    "diet": "pescado",
+   "freq": "semanal",
    "tag": "Perú / Lambayeque",
    "yield": "4 pax",
    "parts": [
@@ -13890,6 +14052,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "Norteña",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Perú / La Libertad",
    "yield": "4 pax",
    "parts": [
@@ -14003,6 +14166,7 @@
    "cat": "Carnes / Bovino",
    "local": "Norteña",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Perú / Piura",
    "yield": "4 pax",
    "parts": [
@@ -14092,6 +14256,7 @@
    "cat": "Mariscos",
    "local": "Marina / Cebiches y tiraditos",
    "diet": "pescado",
+   "freq": "semanal",
    "tag": "Perú / Tumbes",
    "yield": "4 pax",
    "parts": [
@@ -14159,6 +14324,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
    "local": "Andina",
    "diet": "vegetariano",
+   "freq": "diario",
    "tag": "Perú / Cajamarca",
    "yield": "4 pax",
    "parts": [
@@ -14260,6 +14426,7 @@
    "cat": "Arroces",
    "local": "Amazónica",
    "diet": "carne",
+   "freq": "semanal",
    "tag": "Perú / San Martín",
    "yield": "8 ud.",
    "parts": [
@@ -14367,6 +14534,7 @@
    "cat": "Carnes / Porcino",
    "local": "Amazónica",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Perú / San Martín",
    "yield": "4 pax",
    "parts": [
@@ -14454,6 +14622,7 @@
    "cat": "Pescados",
    "local": "Amazónica",
    "diet": "pescado",
+   "freq": "semanal",
    "tag": "Perú / Loreto",
    "yield": "4 pax",
    "parts": [
@@ -14527,6 +14696,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
    "local": "Amazónica",
    "diet": "carne",
+   "freq": "semanal",
    "tag": "Perú / Loreto",
    "yield": "4 pax",
    "parts": [
@@ -14605,6 +14775,7 @@
    "cat": "Entremeses y aperitivos / Fríos",
    "local": "Mazza / Fríos (bārde)",
    "diet": "vegano",
+   "freq": "diario",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -14685,6 +14856,7 @@
    "cat": "Entremeses y aperitivos / Fríos",
    "local": "Mazza / Fríos (bārde)",
    "diet": "vegano",
+   "freq": "diario",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -14748,6 +14920,7 @@
    "cat": "Entremeses y aperitivos / Fríos",
    "local": "Mazza / Fríos (bārde)",
    "diet": "vegano",
+   "freq": "diario",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -14835,6 +15008,7 @@
    "cat": "Ensaladas",
    "local": "Mazza / Fríos (bārde)",
    "diet": "vegano",
+   "freq": "diario",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -14919,6 +15093,7 @@
    "cat": "Ensaladas",
    "local": "Mazza / Fríos (bārde)",
    "diet": "vegano",
+   "freq": "semanal",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -15045,6 +15220,7 @@
    "cat": "Entremeses y aperitivos / Fríos",
    "local": "Bi zeit",
    "diet": "vegano",
+   "freq": "diario",
    "tag": "Líbano",
    "yield": "40 ud.",
    "parts": [
@@ -15145,6 +15321,7 @@
    "cat": "Hortalizas",
    "local": "Bi zeit",
    "diet": "vegano",
+   "freq": "diario",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -15219,6 +15396,7 @@
    "cat": "Hortalizas",
    "local": "Bi zeit",
    "diet": "vegano",
+   "freq": "diario",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -15288,6 +15466,7 @@
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Mazza / Calientes (sukhne)",
    "diet": "vegano",
+   "freq": "diario",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -15350,6 +15529,7 @@
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Mazza / Calientes (sukhne)",
    "diet": "vegano",
+   "freq": "diario",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -15419,6 +15599,7 @@
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Comida callejera",
    "diet": "vegano",
+   "freq": "ocasional",
    "tag": "Líbano",
    "yield": "20 ud.",
    "parts": [
@@ -15542,6 +15723,7 @@
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Mazza / Calientes (sukhne)",
    "diet": "vegano",
+   "freq": "ocasional",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -15614,6 +15796,7 @@
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Kebbeh / Frita o a la brasa",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Líbano",
    "yield": "20 ud.",
    "parts": [
@@ -15735,6 +15918,7 @@
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Mu'ajjanat / Fatayer y sfiha (empanadillas)",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Líbano",
    "yield": "20 ud.",
    "parts": [
@@ -15827,6 +16011,7 @@
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Mu'ajjanat / Fatayer y sfiha (empanadillas)",
    "diet": "vegano",
+   "freq": "diario",
    "tag": "Líbano",
    "yield": "20 ud.",
    "parts": [
@@ -15929,6 +16114,7 @@
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Mu'ajjanat / Manaqish (panes abiertos)",
    "diet": "vegano",
+   "freq": "semanal",
    "tag": "Líbano",
    "yield": "4 ud.",
    "parts": [
@@ -16012,6 +16198,7 @@
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Mu'ajjanat / Manaqish (panes abiertos)",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Líbano",
    "yield": "8 ud.",
    "parts": [
@@ -16123,6 +16310,7 @@
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Mu'ajjanat / Fatayer y sfiha (empanadillas)",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Líbano / Bekaa",
    "yield": "20 ud.",
    "parts": [
@@ -16225,6 +16413,7 @@
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Mazza / Calientes (sukhne)",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -16324,6 +16513,7 @@
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Mashawi",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -16402,6 +16592,7 @@
    "cat": "Carnes / Ovino",
    "local": "Kebbeh / Al horno (bil sanieh)",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -16523,6 +16714,7 @@
    "cat": "Entremeses y aperitivos / Fríos",
    "local": "Kebbeh / Cruda (nayye)",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Líbano / Norte",
    "yield": "4 pax",
    "parts": [
@@ -16603,6 +16795,7 @@
    "cat": "Carnes / Ovino",
    "local": "Kebbeh / Guisada en salsa",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -16721,6 +16914,7 @@
    "cat": "Pastas alimenticias",
    "local": "Tabkhat / En yogur",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -16844,6 +17038,7 @@
    "cat": "Carnes / Bovino",
    "local": "Mashawi",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -16911,6 +17106,7 @@
    "cat": "Carnes / Aves y conejo",
    "local": "Mashawi",
    "diet": "carne",
+   "freq": "semanal",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17021,6 +17217,7 @@
    "cat": "Carnes / Aves y conejo",
    "local": "Comida callejera",
    "diet": "carne",
+   "freq": "semanal",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17173,6 +17370,7 @@
    "cat": "Arroces",
    "local": "Tabkhat / Arroces y cereales",
    "diet": "carne",
+   "freq": "semanal",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17289,6 +17487,7 @@
    "cat": "Hortalizas",
    "local": "Mahashi",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17378,6 +17577,7 @@
    "cat": "Hortalizas",
    "local": "Mahashi",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17463,6 +17663,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "Tabkhat / Arroces y cereales",
    "diet": "vegano",
+   "freq": "diario",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17537,6 +17738,7 @@
    "cat": "Pastas alimenticias",
    "local": "Tabkhat / Arroces y cereales",
    "diet": "carne",
+   "freq": "semanal",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17654,6 +17856,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
    "local": "Tabkhat / Yakhneh (guisos)",
    "diet": "carne",
+   "freq": "semanal",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17753,6 +17956,7 @@
    "cat": "Arroces",
    "local": "Samak",
    "diet": "pescado",
+   "freq": "semanal",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -17848,6 +18052,7 @@
    "cat": "Pescados",
    "local": "Samak",
    "diet": "pescado",
+   "freq": "semanal",
    "tag": "Líbano / Norte",
    "yield": "4 pax",
    "parts": [
@@ -17941,6 +18146,7 @@
    "cat": "Sopas, consomés, cremas, potajes y cocidos / Cremas calientes",
    "local": "Tabkhat / Sopas (shorba)",
    "diet": "vegano",
+   "freq": "diario",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -18023,6 +18229,7 @@
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "Mazza / Calientes (sukhne)",
    "diet": "vegetariano",
+   "freq": "semanal",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -18107,6 +18314,7 @@
    "cat": "Hortalizas",
    "local": "Bi zeit",
    "diet": "vegano",
+   "freq": "semanal",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -18180,6 +18388,7 @@
    "cat": "Carnes / Ovino",
    "local": "Kebbeh / Guisada en salsa",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Líbano / Beirut",
    "yield": "4 pax",
    "parts": [
@@ -18258,6 +18467,7 @@
    "cat": "Carnes / Ovino",
    "local": "Tabkhat / Yakhneh (guisos)",
    "diet": "carne",
+   "freq": "ocasional",
    "tag": "Líbano",
    "yield": "4 pax",
    "parts": [
@@ -18351,6 +18561,7 @@
    "cat": "",
    "local": "Halawiyat / Con almíbar o ashta",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "Líbano",
    "yield": "8 raciones",
    "parts": [
@@ -18449,6 +18660,7 @@
    "cat": "",
    "local": "Halawiyat / Con almíbar o ashta",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "Líbano / Norte",
    "yield": "30 ud.",
    "parts": [
@@ -18575,6 +18787,7 @@
    "cat": "",
    "local": "Halawiyat / Horneados sin almíbar",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "Líbano",
    "yield": "30 ud.",
    "parts": [
@@ -18677,6 +18890,7 @@
    "cat": "",
    "local": "Halawiyat / De cuchara",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "Líbano",
    "yield": "6 ud.",
    "parts": [
@@ -18736,6 +18950,7 @@
    "cat": "",
    "local": "Halawiyat / Horneados sin almíbar",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "Líbano",
    "yield": "24 ud.",
    "parts": [
@@ -18815,6 +19030,7 @@
    "cat": "",
    "local": "Halawiyat / Con almíbar o ashta",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "Líbano",
    "yield": "16 ud.",
    "parts": [
@@ -18929,6 +19145,7 @@
    "cat": "",
    "local": "Halawiyat / Con almíbar o ashta",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "Líbano",
    "yield": "20 ud.",
    "parts": [
@@ -19080,6 +19297,7 @@
    "cat": "",
    "local": "Halawiyat / De cuchara",
    "diet": "vegano",
+   "freq": "ocasional",
    "tag": "Líbano",
    "yield": "4 ud.",
    "parts": [
@@ -19143,6 +19361,7 @@
    "cat": "",
    "local": "Halawiyat / De cuchara",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "Líbano",
    "yield": "5 ud.",
    "parts": [
@@ -19211,6 +19430,7 @@
    "cat": "",
    "local": "Halawiyat / Con almíbar o ashta",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "Líbano",
    "yield": "12 ud.",
    "parts": [
@@ -28105,6 +28325,7 @@
    "cat": "",
    "local": "Wagashi / Nerimono (pastas)",
    "diet": "vegano",
+   "freq": "ocasional",
    "tag": "Japón / Chubu",
    "yield": "20 ud.",
    "parts": [
@@ -28149,6 +28370,7 @@
    "cat": "",
    "local": "Wagashi / Nerimono (pastas)",
    "diet": "vegano",
+   "freq": "ocasional",
    "tag": "Japón",
    "yield": "4 pax",
    "parts": [
@@ -28212,6 +28434,7 @@
    "cat": "",
    "local": "Wagashi / Nagashimono (en molde)",
    "diet": "vegano",
+   "freq": "ocasional",
    "tag": "Japón",
    "yield": "1 molde de 15 × 15 cm",
    "parts": [
@@ -28265,6 +28488,7 @@
    "cat": "",
    "local": "Wagashi / Mushimono (al vapor)",
    "diet": "vegano",
+   "freq": "ocasional",
    "tag": "Japón",
    "yield": "1 molde de 15 × 7 cm",
    "parts": [
@@ -28330,6 +28554,7 @@
    "cat": "",
    "local": "Wagashi / Nerimono (pastas)",
    "diet": "vegano",
+   "freq": "ocasional",
    "tag": "Japón",
    "yield": "8 ud.",
    "parts": [
@@ -28390,6 +28615,7 @@
    "cat": "",
    "local": "Wagashi / Yakimono (horneados)",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "Japón",
    "yield": "6 ud.",
    "parts": [
@@ -28472,6 +28698,7 @@
    "cat": "",
    "local": "Wagashi / Yakimono (horneados)",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "Japón",
    "yield": "10 ud.",
    "parts": [
@@ -28569,6 +28796,7 @@
    "cat": "",
    "local": "Wagashi / Mushimono (al vapor)",
    "diet": "vegano",
+   "freq": "ocasional",
    "tag": "Japón",
    "yield": "8 ud.",
    "parts": [
@@ -28640,6 +28868,7 @@
    "cat": "",
    "local": "Wagashi / Yakimono (horneados)",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "Japón",
    "yield": "6 ud.",
    "parts": [
@@ -28723,6 +28952,7 @@
    "cat": "",
    "local": "Wagashi / Yakimono (horneados)",
    "diet": "vegano",
+   "freq": "ocasional",
    "tag": "Japón",
    "yield": "12 ud.",
    "parts": [
@@ -28805,6 +29035,7 @@
    "cat": "",
    "local": "Wagashi / Mushimono (al vapor)",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "Japón",
    "yield": "6 ud.",
    "parts": [
@@ -28868,6 +29099,7 @@
    "cat": "",
    "local": "Wagashi / Yakimono (horneados)",
    "diet": "vegetariano",
+   "freq": "ocasional",
    "tag": "Japón / Kyushu y Okinawa",
    "yield": "1 molde de 20 × 20 cm",
    "parts": [
@@ -28934,6 +29166,7 @@
    "cat": "",
    "local": "Wagashi / Mochimono (de mochi y dango)",
    "diet": "vegano",
+   "freq": "ocasional",
    "tag": "Japón",
    "yield": "6 ud.",
    "parts": [
@@ -28992,6 +29225,7 @@
    "cat": "",
    "local": "Wagashi / Mochimono (de mochi y dango)",
    "diet": "vegano",
+   "freq": "ocasional",
    "tag": "Japón / Kansai",
    "yield": "8 ud.",
    "parts": [
@@ -29068,6 +29302,7 @@
    "cat": "",
    "local": "Wagashi / Yakimono (horneados)",
    "diet": "vegano",
+   "freq": "ocasional",
    "tag": "Japón",
    "yield": "8 ud.",
    "parts": [
@@ -29134,6 +29369,7 @@
    "cat": "Entremeses y aperitivos / Calientes",
    "local": "",
    "diet": "vegetariano",
+   "freq": "semanal",
    "tag": "India / Bengala Occidental",
    "yield": "4 ud.",
    "parts": [

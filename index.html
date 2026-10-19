@@ -120,6 +120,10 @@ html.despensa,html.despensa body,html.despensa .top{background:var(--bg);}
 .copyname:hover{background:var(--soft);}
 .copyname.flash{background:var(--soft);}
 .fdesc{font-size:16px;line-height:1.6;margin-top:18px;}
+.fpill{background:var(--fb);color:var(--fc);}
+.fdot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--fc);margin-right:6px;}
+.fchips .chip.on{background:var(--fb);color:var(--fc);border-color:var(--fc);}
+.fdef{font-size:12.5px;color:var(--muted);padding:0 2px 8px;line-height:1.4;}
 .dpill{display:inline-flex;align-items:center;gap:5px;background:var(--db);color:var(--dc);}
 .fp-o .dl{display:inline-flex;align-items:center;gap:10px;}
 .fp-o .dl .c{color:var(--muted);font-size:13px;}
@@ -931,6 +935,7 @@ Reglas:
   Desempate de formatos: va a la primera rama de la lista en la que encaje (en la mesa → masa o pan → pasta y fideos → arroz y cereales → cuchara → huevo → crudos y ensaladas → fritos → brasa → horno → sartén). «Con masa o pan» solo si la masa o el pan envuelve, sostiene o encierra lo demás. El cereal o la pasta mandan solo si son la base o la mayor parte del plato.
   Formatos dulces (subpestaña Dulce; mismas fichas cortas). Ramas y tipos: Helados y fríos: Helados, Sorbetes y granizados, Semifríos, Hielo raspado. Fritos dulces: De masa escaldada, Levados, Láminas, lazos y flores, Rosquillas y roscos, Rellenos fritos, Pan frito, Bañados en almíbar, Fruta frita. Crepes, tortitas y gofres: Crepes, Tortitas y pancakes, Gofres, Al horno o con trocitos. Bollería y panes dulces: Bollos y brioches, Hojaldrados fermentados, Panes dulces de fiesta, Empapados en almíbar. Hojaldre, filo y choux: De hojaldre, Filo y masas estiradas, Masa choux. Tartas y pies: Tartas de fruta, Tartas de crema o relleno, Pies cerrados, Tartaletas, Crumbles y cobblers, Tartas de queso. Bizcochos y pasteles: Bizcochos y cakes, Magdalenas y pastelitos, Tartas de capas y decoradas, Brazos y enrollados, Densos de chocolate y almendra, Empapados y al vapor. Galletas y pastas: De mantequilla, Mantecados y polvorones, Especiadas, De clara y almendra, Secas y para mojar, Rellenas. Postres de cuchara: Natillas y cremas, Flanes y horneados de huevo, Cuajados y gelatinas, Mousses y espumas, Arroces, cereales y cocidos dulces, Postres de capas en vaso. De arroz y almidones: Mochi y arroz glutinoso, Pasta de judía, Gelatinas y almidones, Sopas dulces, Pasteles de arroz al vapor o al horno. Confitería: Bombones y trufas, Caramelos y toffees, Turrones, mazapanes y halva, Garrapiñados y crocantes, Dulces de yema, Dulces de leche y de la India, Lokum y gominolas. De fruta: Fruta asada o al horno, Fruta cocida, Fruta fresca aliñada.
   Desempate de formatos dulces: primera rama de la lista en la que encaje (helados → fritos → crepes y gofres → bollería levada → hojaldre, filo y choux → tartas → bizcochos → galletas → cuchara → arroz y almidones → confitería → fruta). Manda la masa o la técnica, no el relleno.
+- "freq": solo en recetas: cada cuánto conviene tomarla según la pirámide de la dieta mediterránea. "diario" (la base es verdura, legumbre, cereal, fruta o aceite de oliva, sin fritura), "semanal" (pescado, marisco, huevo, carne blanca, lácteos, o legumbre con algo de embutido) u "ocasional" (carne roja o procesada como protagonista, frituras y rebozados, y todos los dulces salvo los de fruta sencilla). En las demás pestañas, no se pone.
 - "local": solo en recetas de Japón, Perú o Líbano: la clasificación propia de esa cocina, «Categoría / Subcategoría» o solo la categoría. En el resto, "".
   Japón (washoku): Gohanmono (Sushi, Donburi y kare raisu, Onigiri, Takikomi y mazegohan, Kayu y zosui), Menrui (Udon, Soba, Somen y hiyamugi, Ramen, Otros fideos), Shirumono (Suimono, Misoshiru, Sopas con tropezones), Nabemono, Konamono, Sashimi, Yakimono, Nimono, Mushimono, Agemono (Karaage, Tempura y koromoage, Furai y katsu, Suage), Itamemono, Aemono y sunomono, Tsukemono, Wagashi (Mochimono (de mochi y dango), Yakimono (horneados), Mushimono (al vapor), Nagashimono (en molde), Nerimono (pastas), Higashi (secos)), Kanmi. Desempate: dulce → arroz como base → fideos → cazuela en la mesa → masa de harina → sopa → conserva → método de cocción.
   Perú: Marina (Cebiches y tiraditos, Frituras y jaleas, Calientes), Criolla (Limeña, Afroperuana, Anticuchos y brasas, Desayuno y sánguches), Chifa, Nikkei, Norteña, Sureña (Picantería arequipeña, Tacna y Moquegua), Andina, Amazónica, Dulcería (Mazamorras y postres de cuchara, Turrones, alfajores y dulces de convento, Frituras y masas dulces, Helados y fríos). Desempate: dulce → tipo de local (chifa, nikkei, cebichería, anticuchos y brasas) → afroperuana → macrorregión de origen → criolla.
@@ -974,7 +979,7 @@ function cleanRecipe(r, fromFile){
   const tab = idTab || normTab(r.tab), name = String(r.name).trim();
   return { id: r.id ? String(r.id) : (fromFile ? 'r-' + tab + '-' + slug(name) : uid()), tab, name,
            group: matchGroup(tab, r.group) || '', cat: matchCat(tab, r.cat, matchGroup(tab, r.group)), local: matchLocal(normTag(String(r.tag||'')), r.local), tag: normTag(String(r.tag||'')), yield: String(r.yield||'').trim(),
-           parts, notes: asText(r.notes), done: !!r.done, diet: DIET_KEYS.includes(r.diet) ? r.diet : '' };
+           parts, notes: asText(r.notes), done: !!r.done, diet: DIET_KEYS.includes(r.diet) ? r.diet : '', freq: FREQ_KEYS.includes(r.freq) ? r.freq : '' };
 }
 function cleanData(d){
   const v2 = d.version >= 2;
@@ -1004,13 +1009,13 @@ function pantryCount(){ return data.pantry.zones.reduce((n,z)=> n + z.items.leng
 /* lo que va en data.json (lo que sube a GitHub y lo que lee la IA) */
 function fileData(){
   return { version: 2, reset: data.reset || undefined, recipes: data.recipes.map(r=>({
-    id: r.id, tab: r.tab, name: r.name, group: r.group, cat: r.cat || '', local: r.local || '', diet: r.diet || '', tag: r.tag, yield: r.yield,
+    id: r.id, tab: r.tab, name: r.name, group: r.group, cat: r.cat || '', local: r.local || '', diet: r.diet || '', freq: r.freq || undefined, tag: r.tag, yield: r.yield,
     parts: r.parts.map(p=>({ name: p.name, ings: p.ings.map(i=>({q:i.q,u:i.u,n:i.n})), steps: stepLines(p.steps) })),
     notes: r.notes, done: r.done })),
     pantry: { rev: data.pantry.rev || undefined, zones: data.pantry.zones.map(z=>({ id: z.id, name: z.name, items: z.items.map(i=>({ id: i.id, name: i.name, note: i.note, group: i.group || '', missing: i.missing })) })) } };
 }
 function hashRecipe(r){
-  const s = JSON.stringify([r.tab, r.name, r.group, r.cat || '', r.local || '', r.tag, r.yield, r.parts, r.notes, r.diet || '']);
+  const s = JSON.stringify([r.tab, r.name, r.group, r.cat || '', r.local || '', r.tag, r.yield, r.parts, r.notes, r.diet || '', r.freq || '']);
   let h = 0; for(let i=0;i<s.length;i++){ h = (h*31 + s.charCodeAt(i)) | 0; }
   return String(h);
 }
@@ -1030,7 +1035,7 @@ function applyFile(obj){
     if(!l){ data.recipes.push(f); added++; return; }
     if(l.id !== f.id){ data.week.forEach(w=>{ if(w.recipeId === l.id) w.recipeId = f.id; }); l.id = f.id; }
     if(prev[f.id] !== h && hashRecipe(l) !== h){
-      Object.assign(l, { tab:f.tab, name:f.name, group:f.group, cat:f.cat, local:f.local, tag:f.tag, yield:f.yield, parts:f.parts, notes:f.notes, diet:f.diet });
+      Object.assign(l, { tab:f.tab, name:f.name, group:f.group, cat:f.cat, local:f.local, tag:f.tag, yield:f.yield, parts:f.parts, notes:f.notes, diet:f.diet, freq:f.freq });
       changed++;
     }
   });
@@ -1119,7 +1124,8 @@ $('#space-sw').addEventListener('click', e=>{
 
 function renderTabs(){
   const n = data.week.length;
-  $('#tabs').innerHTML = TABS.map(t=> `<button class="tab${ui.tab===t.id?' on':''}" data-tab="${t.id}">${t.label}</button>`).join('');
+  $('#tabs').innerHTML = TABS.map(t=> `<button class="tab${ui.tab===t.id?' on':''}" data-tab="${t.id}">${t.label}</button>`).join('')
+    + `<button class="tab${ui.tab==='frecuencia'?' on':''}" data-tab="frecuencia">Frecuencia</button>`;
 }
 $('#diet-btn').addEventListener('click', e=>{
   e.stopPropagation();
@@ -1180,6 +1186,14 @@ function dietIcon(k, size){ return DIET[k] ? svgIcon(DIET[k].svg, size || 14) : 
 function dietVars(k){ return DIET[k] ? `--dc:${DIET[k].c};--db:${DIET[k].b};` : ''; }
 function dietMark(r){ return r.diet && DIET[r.diet] ? `<span class="dz" style="${dietVars(r.diet)}" title="${DIET[r.diet].label}">${dietIcon(r.diet, 13)}</span>` : ''; }
 function dietOn(){ return !!(ui.diets && ui.diets.length); }
+/* frecuencia según la pirámide de la dieta mediterránea (solo recetas) */
+const FREQS = [
+  { k:'diario', label:'Diario', c:'#2b8a3e', b:'#d3f9d8', def:'La base: verdura, legumbre, cereal, fruta y aceite de oliva.' },
+  { k:'semanal', label:'Semanal', c:'#b7791f', b:'#fff3bf', def:'Varias veces por semana: pescado, huevo, carne blanca, lácteos o legumbre con algo de embutido.' },
+  { k:'ocasional', label:'Ocasional', c:'#c92a2a', b:'#ffe3e3', def:'De vez en cuando: carne roja o procesada, frituras, rebozados y dulces.' }
+];
+const FREQ = Object.fromEntries(FREQS.map(f=> [f.k, f])), FREQ_KEYS = FREQS.map(f=> f.k);
+function freqVars(k){ return FREQ[k] ? `--fc:${FREQ[k].c};--fb:${FREQ[k].b};` : ''; }
 function isFmt(t){ return t === 'formatos'; }
 function dietOk(r){ return !dietOn() || isFmt(r.tab) || ui.diets.includes(r.diet); }
 function drawDietBtn(){
@@ -1212,6 +1226,12 @@ function renderKindbar(){
     el.innerHTML = `<div class="kseg">` + ['Salado','Dulce'].map(k=> `<button class="${fkind()===k?'on':''}" data-fkind="${k}">${k}</button>`).join('') + `</div>`;
     return;
   }
+  if(ui.space !== 'despensa' && ui.tab === 'frecuencia' && !ui.searching){
+    const k = ui.kind || '';
+    el.innerHTML = `<div class="kseg">` + [['','Todo'], ...GROUPS.recetas.map(g=> [g,g])].map(([v,l])=>
+      `<button class="${k===v?'on':''}" data-kind="${esc(v)}">${v?`<span class="gdot" style="--gc:${gc(v)};margin:0"></span>`:''}${esc(l)}</button>`).join('') + `</div>`;
+    return;
+  }
   if(ui.space === 'despensa' || ui.tab !== 'recetas' || ui.searching){ el.innerHTML = ''; return; }
   const k = ui.kind || '', v = ui.view === 'tipo' ? 'tipo' : 'origen';
   el.innerHTML = (`<div class="kseg">` + [['','Todo'], ...GROUPS.recetas.map(g=> [g,g])].map(([v,l])=>
@@ -1229,7 +1249,7 @@ $('#kindbar').addEventListener('click', e=>{
 function renderGroups(){
   renderKindbar();
   const el = $('#groups');
-  if(ui.tab === 'semana' || ui.searching){ el.classList.add('hide'); el.innerHTML = ''; return; }
+  if(ui.tab === 'semana' || ui.tab === 'frecuencia' || ui.searching){ el.classList.add('hide'); el.innerHTML = ''; return; }
   el.classList.remove('hide');
   if(ui.tab === 'recetas'){
     const list = recList(), cs = countriesOf(list), c = curCountry(), sb = curSub();
@@ -1356,6 +1376,7 @@ function renderMain(){
   document.body.classList.remove('boardmode');
   if(ui.searching){ renderSearch(main); return; }
   if(ui.tab === 'semana'){ renderWeek(main); return; }
+  if(ui.tab === 'frecuencia'){ renderFreq(main); return; }
   if(ui.tab === 'recetas'){ renderRegions(main); return; }
   const tab = ui.tab, g = curGroup();
   const all = data.recipes.filter(r=> r.tab === tab && dietOk(r) && inKind(r));
@@ -1427,6 +1448,22 @@ function keepBoard(fn){
   fn();
   const nb = $('#main .board'); if(!nb) return;
   nb.scrollLeft = x; nb.querySelectorAll('.col-body').forEach((c,i)=>{ if(ys[i]) c.scrollTop = ys[i]; });
+}
+/* pestaña Frecuencia: las recetas por la pirámide mediterránea, una columna por frecuencia */
+function renderFreq(main){
+  const st = ui.filter.frecuencia || 'all', kind = ui.kind || '';
+  const list = data.recipes.filter(r=> r.tab === 'recetas' && dietOk(r) && (st === 'all' || (st === 'done' ? r.done : !r.done)) && (!kind || r.group === kind))
+    .sort((a,b)=> a.name.localeCompare(b.name,'es'));
+  const filtering = st !== 'all' || dietOn();
+  const card = r => cardInner(r, r.tag ? `<span><span class="gdot" style="--gc:${tc(leafTag(r.tag))}"></span>${esc(leafTag(r.tag))}</span>` : '');
+  const body = (k, its) => (kind ? [kind] : GROUPS.recetas).map(g=> subSection('f:' + k + ':' + g, g, its.filter(r=> r.group === g), card, filtering)).join('');
+  const none = list.filter(r=> !FREQ[r.freq]);
+  main.innerHTML = `<div class="board">` + FREQS.map(f=>{
+    const its = list.filter(r=> r.freq === f.k);
+    return `<section class="col"><div class="col-h"><span class="gp fpill" style="${freqVars(f.k)}">${f.label}</span><span class="c">${its.length}</span></div>
+      <div class="col-body"><div class="fdef">${esc(f.def)}</div>${body(f.k, its)}<button class="col-add" data-addfreq="${f.k}">+ Añadir</button></div></section>`;
+  }).join('') + (none.length ? `<section class="col"><div class="col-h"><span class="gp">Sin clasificar</span><span class="c">${none.length}</span></div><div class="col-body">${subSection('f:none', 'Recetas', none, card, filtering)}</div></section>` : '') + `</div>`;
+  document.body.classList.add('boardmode'); fitBoard();
 }
 function renderRegions(main){
   const base = recList();
@@ -1594,6 +1631,8 @@ $('#main').addEventListener('click', e=>{
   if(addc){ openNew('Salado', addc.dataset.addtag || '', null, addc.dataset.addcat); return; }
   const addg = e.target.closest('[data-addg]');
   if(addg){ openNew(addg.dataset.addg, addg.dataset.addtag || '', null, addg.dataset.addgcat || null); return; }
+  const addf = e.target.closest('[data-addfreq]');
+  if(addf){ openNew(ui.kind || null, '', null, null, null, addf.dataset.addfreq); return; }
   const addt = e.target.closest('[data-addtag]');
   if(addt){ openNew(null, addt.dataset.addtag); return; }
   const row = e.target.closest('.row, .rcard');
@@ -1776,7 +1815,7 @@ function partsHTML(r){
 function readHTML(r){
   const shown = shownParts(r);
   const cat = catApplies(r) ? r.cat || '' : '', loc = r.local ? localText(r.tag, r.local) : '';
-  const meta = r.group || r.tag || r.diet || cat || loc;
+  const meta = r.group || r.tag || r.diet || r.freq || cat || loc;
   return `<div class="sh-head">
       <button class="x" data-act="close" aria-label="Cerrar">✕</button>
       <h2 class="copyname" data-act="copyname" title="Tocar para copiar">${esc(r.name)}</h2>
@@ -1787,7 +1826,7 @@ function readHTML(r){
         <button class="pill${r.done?' on':''}" data-act="done">${isFmt(r.tab) ? (r.done?'✓ probado':'marcar probado') : (r.done?'✓ hecha':'marcar hecha')}</button>
         ${isFmt(r.tab) ? '' : `<button class="pill wkp${inWeek(r.id)?' on':''}" data-act="week">${inWeek(r.id)?'✓ en la semana':'+ semana'}</button>`}
       </div>
-      ${meta?`<div class="meta-line">${r.group?`<span class="gp" style="--gc:${gc(r.group)}">${esc(r.group)}</span>`:''}${cat?` <span class="gp" style="--gc:${tc(splitCat(cat).c)};margin-left:6px;">${esc(catText(cat))}</span>`:''}${loc?` <span class="gp" style="--gc:${tc(splitCat(r.local).c)};margin-left:6px;" title="Clasificación propia de ${esc(splitTag(r.tag).c)}">${esc(loc)}</span>`:''}${r.tag?` <span class="gp" style="--gc:${tc(leafTag(r.tag))};margin-left:6px;">${esc(tagLabel(r.tag))}</span>`:''}${r.diet?` <span class="gp dpill" style="${dietVars(r.diet)}margin-left:6px;">${dietIcon(r.diet, 13)}${esc(DIET[r.diet].label)}</span>`:''}</div>`:''}
+      ${meta?`<div class="meta-line">${r.group?`<span class="gp" style="--gc:${gc(r.group)}">${esc(r.group)}</span>`:''}${cat?` <span class="gp" style="--gc:${tc(splitCat(cat).c)};margin-left:6px;">${esc(catText(cat))}</span>`:''}${loc?` <span class="gp" style="--gc:${tc(splitCat(r.local).c)};margin-left:6px;" title="Clasificación propia de ${esc(splitTag(r.tag).c)}">${esc(loc)}</span>`:''}${r.tag?` <span class="gp" style="--gc:${tc(leafTag(r.tag))};margin-left:6px;">${esc(tagLabel(r.tag))}</span>`:''}${r.diet?` <span class="gp dpill" style="${dietVars(r.diet)}margin-left:6px;">${dietIcon(r.diet, 13)}${esc(DIET[r.diet].label)}</span>`:''}${r.tab === 'recetas' && FREQ[r.freq]?` <span class="gp fpill" style="${freqVars(r.freq)}margin-left:6px;"><span class="fdot"></span>${esc(FREQ[r.freq].label)}</span>`:''}</div>`:''}
       ${(r.yield || anyNumeric(r)) && hasContent(r) ? `<div class="ficha-top"><span class="lb">Raciones</span>${anyNumeric(r) ? scalerHTML(r, fichaTarget, 'data-fsc') : `<span>${esc(r.yield)}</span>`}</div>` : ''}
       ${shown.length > 1 ? `<div class="compo"><span class="lbl">Composición</span><ol>${shown.map((p,i)=> `<li><button data-goto="${i}">${esc(p.name || 'Elaboración ' + (i+1))}</button></li>`).join('')}</ol></div>` : ''}
       <div id="f-parts">${partsHTML(r)}</div>
@@ -1812,6 +1851,8 @@ function editHTML(r){
         <div class="chips">${GROUPS[r.tab].map(g=> `<button class="chip${r.group===g?' on':''}" data-groupset="${esc(g)}"><span class="gdot" style="--gc:${gc(g)}"></span>${esc(g)}</button>`).join('')}</div></div>
       ${catApplies(r) ? catEditHTML(r) : ''}
       ${r.tab === 'recetas' && localOf(splitTag(r.tag).c) ? localEditHTML(r) : ''}
+      ${r.tab === 'recetas' ? `<div class="f"><span class="lb">Frecuencia</span>
+        <div class="chips fchips">${FREQS.map(f=> `<button class="chip${r.freq===f.k?' on':''}" data-freqset="${f.k}" style="${freqVars(f.k)}"><span class="fdot"></span>${f.label}</button>`).join('')}</div></div>` : ''}
       ${isFmt(r.tab) ? '' : `<div class="f"><span class="lb">Dieta</span>
         <div class="chips dchips">${DIETS.map(d=> `<button class="chip${r.diet===d.k?' on':''}" data-dietset="${d.k}" style="${dietVars(d.k)}">${dietIcon(d.k, 15)}${d.label}</button>`).join('')}</div></div>`}
       <div class="row2">
@@ -1912,6 +1953,8 @@ function mountFicha(sh, r){
     if(cs){ flushFicha(); r.cat = splitCat(r.cat).c === cs.dataset.catset ? '' : cs.dataset.catset; save(); drawFicha(sh, true); return; }
     const ss = e.target.closest('[data-subset]');
     if(ss){ flushFicha(); const x = splitCat(r.cat); r.cat = joinCat(x.c, x.s === ss.dataset.subset ? '' : ss.dataset.subset); save(); drawFicha(sh, true); return; }
+    const fq = e.target.closest('[data-freqset]');
+    if(fq){ r.freq = r.freq === fq.dataset.freqset ? '' : fq.dataset.freqset; sh.querySelectorAll('[data-freqset]').forEach(b=> b.classList.toggle('on', b.dataset.freqset === r.freq)); save(); return; }
     const dz = e.target.closest('[data-dietset]');
     if(dz){ r.diet = r.diet === dz.dataset.dietset ? '' : dz.dataset.dietset; sh.querySelectorAll('[data-dietset]').forEach(b=> b.classList.toggle('on', b.dataset.dietset === r.diet)); save(); return; }
     const gs = e.target.closest('[data-groupset]');
@@ -1994,9 +2037,9 @@ function refreshTagsDatalist(){
 
 /* ---------- añadir rápido ---------- */
 $('#fab').addEventListener('click', ()=> ui.space === 'despensa' ? openItem(null, curZone() ? curZone().id : null)
-  : ui.tab === 'recetas' ? openNew(ui.kind || null, joinTag(curCountry(), curSub())) : openNew());
-function openNew(group, tag, diet, cat, local){
-  const tab = ui.tab === 'semana' ? 'recetas' : ui.tab;
+  : ui.tab === 'recetas' ? openNew(ui.kind || null, joinTag(curCountry(), curSub())) : ui.tab === 'frecuencia' ? openNew(ui.kind || null) : openNew());
+function openNew(group, tag, diet, cat, local, freq){
+  const tab = (ui.tab === 'semana' || ui.tab === 'frecuencia') ? 'recetas' : ui.tab;
   if(diet == null) diet = (ui.diets || []).length === 1 ? ui.diets[0] : '';
   let newGroup = group != null ? group : (tab === 'recetas' ? '' : curGroup());
   tag = tag || '';
@@ -2009,6 +2052,7 @@ function openNew(group, tag, diet, cat, local){
       <div class="f"><input class="in" id="new-name" placeholder="Nombre" autocomplete="off" enterkeyhint="done"></div>
       <div class="f"><span class="lb">Grupo</span><div class="chips">${viewGroups(tab).map(g=> `<button class="chip${newGroup===g?' on':''}" data-g="${esc(g)}"><span class="gdot" style="--gc:${gc(g)}"></span>${esc(g)}</button>`).join('')}</div></div>
       ${diet ? `<p class="muted" style="margin-top:12px;">Dieta: <span class="gp dpill" style="${dietVars(diet)}">${dietIcon(diet, 13)}${esc(DIET[diet].label)}</span></p>` : ''}
+      ${freq ? `<p class="muted" style="margin-top:12px;">Frecuencia: <span class="gp fpill" style="${freqVars(freq)}">${esc(FREQ[freq].label)}</span></p>` : ''}
       ${local ? `<p class="muted" style="margin-top:12px;">Tipo propio: <span class="gp" style="--gc:${tc(local)}">${esc(local)}</span></p>` : ''}
       ${cat ? `<p class="muted" style="margin-top:12px;">Tipo: <span class="gp" style="--gc:${tc(splitCat(cat).c)}">${esc(catText(cat))}</span></p>` : ''}
       ${tag ? `<p class="muted" style="margin-top:12px;">Origen: <span class="gp" style="--gc:${tc(leafTag(tag))}">${esc(tagLabel(tag))}</span></p>` : ''}
@@ -2023,7 +2067,7 @@ function openNew(group, tag, diet, cat, local){
       const add = (open)=>{
         const name = inp.value.trim();
         if(!name){ shake(inp); inp.focus(); return; }
-        const r = { id: uid(), tab, name, group: newGroup, cat: cat && newGroup !== 'Dulce' ? cat : '', local: local || '', tag, yield:'', parts:[{name:'', ings:[], steps:''}], notes:'', done:false, diet: diet || '' };
+        const r = { id: uid(), tab, name, group: newGroup, cat: cat && newGroup !== 'Dulce' ? cat : '', local: local || '', tag, yield:'', parts:[{name:'', ings:[], steps:''}], notes:'', done:false, diet: diet || '', freq: freq || '' };
         data.recipes.push(r); save();
         if(open){ render(); openFicha(r.id, true); return; }
         inp.value = ''; inp.focus(); renderGroups(); renderMain(); toast(`Añadida: ${name}`);
