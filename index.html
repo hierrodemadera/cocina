@@ -393,14 +393,12 @@ const TABS = [
   {id:'recetas', label:'Recetas'},
   {id:'productos', label:'Productos'},
   {id:'conservas', label:'Conservas'},
-  {id:'formatos', label:'Formatos'},
-  {id:'dulces', label:'Dulces'}
+  {id:'formatos', label:'Formatos'}
 ];
 const GROUPS = {
   recetas:   ['Salado','Dulce'],
   productos: ['Fondos','Salsas','Guarniciones','Elaboraciones complementarias','Masas','Lácteos y derivados','Legumbres, cereales, frutos secos y semillas','Aceites, vinagres, extractos y bebidas'],
   conservas: ['Fermentos','Encurtidos','Conservas dulces','Conservas saladas'],
-  dulces:    ['Helados y fríos','Fritos dulces','Crepes, tortitas y gofres','Bollería y panes dulces','Hojaldre, filo y choux','Tartas y pies','Bizcochos y pasteles','Galletas y pastas','Postres de cuchara','De arroz y almidones','Confitería','De fruta'],
   formatos:  ['Para compartir y en la mesa','Con masa o pan','Pasta y fideos','Arroces y cereales','De cuchara','Con huevo','Crudos, fríos y ensaladas','Fritos y rebozados','A la brasa y a la parrilla','Al horno','En sartén']
 };
 
@@ -523,20 +521,6 @@ const FCATS = {
   'Al horno': ['Asados','Bandeja de horno','Gratinados y en capas','Con puré encima','Verduras y hojas rellenas','En papillote, en hoja y hornos de tierra'],
   'En sartén': ['Al wok','Salteados con salsa','A la plancha','Salteados de aprovechamiento']
 };
-Object.assign(FCATS, {
-  'Helados y fríos': ['Helados','Sorbetes y granizados','Semifríos','Hielo raspado'],
-  'Fritos dulces': ['De masa escaldada','Levados','Láminas, lazos y flores','Rosquillas y roscos','Rellenos fritos','Pan frito','Bañados en almíbar','Fruta frita'],
-  'Crepes, tortitas y gofres': ['Crepes','Tortitas y pancakes','Gofres','Al horno o con trocitos'],
-  'Bollería y panes dulces': ['Bollos y brioches','Hojaldrados fermentados','Panes dulces de fiesta','Empapados en almíbar'],
-  'Hojaldre, filo y choux': ['De hojaldre','Filo y masas estiradas','Masa choux'],
-  'Tartas y pies': ['Tartas de fruta','Tartas de crema o relleno','Pies cerrados','Tartaletas','Crumbles y cobblers','Tartas de queso'],
-  'Bizcochos y pasteles': ['Bizcochos y cakes','Magdalenas y pastelitos','Tartas de capas y decoradas','Brazos y enrollados','Densos de chocolate y almendra','Empapados y al vapor'],
-  'Galletas y pastas': ['De mantequilla','Mantecados y polvorones','Especiadas','De clara y almendra','Secas y para mojar','Rellenas'],
-  'Postres de cuchara': ['Natillas y cremas','Flanes y horneados de huevo','Cuajados y gelatinas','Mousses y espumas','Arroces, cereales y cocidos dulces','Postres de capas en vaso'],
-  'De arroz y almidones': ['Mochi y arroz glutinoso','Pasta de judía','Gelatinas y almidones','Sopas dulces','Pasteles de arroz al vapor o al horno'],
-  'Confitería': ['Bombones y trufas','Caramelos y toffees','Turrones, mazapanes y halva','Garrapiñados y crocantes','Dulces de yema','Dulces de leche y de la India','Lokum y gominolas'],
-  'De fruta': ['Fruta asada o al horno','Fruta cocida','Fruta fresca aliñada']
-});
 Object.entries(FCATS).forEach(([g, cs])=>{ GCATS[g] = cs.map(c=> [c, []]); });
 GCATS['Encurtidos'] = [
   ['En vinagre o ácido', ['Ácidos','Agridulces y dulces','Picados, chutneys y relishes']],
@@ -636,10 +620,7 @@ const GCOLOR = {
   'Fermentos':'#ede2fe', 'Encurtidos':'#d1f7c4', 'Conservas dulces':'#ffdaf6', 'Conservas saladas':'#ffeab6',
   'Para compartir y en la mesa':'#ffdce5', 'Con masa o pan':'#ffeab6', 'Pasta y fideos':'#fee2d5', 'Arroces y cereales':'#d1f7c4',
   'De cuchara':'#d0f0fd', 'Con huevo':'#fff3bf', 'Crudos, fríos y ensaladas':'#c2f5e9', 'Fritos y rebozados':'#ede2fe',
-  'A la brasa y a la parrilla':'#ffd8c2', 'Al horno':'#cfdfff', 'En sartén':'#ffdaf6',
-  'Helados y fríos':'#d0f0fd', 'Fritos dulces':'#ffeab6', 'Crepes, tortitas y gofres':'#fee2d5', 'Bollería y panes dulces':'#fff3bf',
-  'Hojaldre, filo y choux':'#ede2fe', 'Tartas y pies':'#ffdce5', 'Bizcochos y pasteles':'#ffdaf6', 'Galletas y pastas':'#ffd8c2',
-  'Postres de cuchara':'#cfdfff', 'De arroz y almidones':'#d1f7c4', 'Confitería':'#c2f5e9', 'De fruta':'#ffe3e3'
+  'A la brasa y a la parrilla':'#ffd8c2', 'Al horno':'#cfdfff', 'En sartén':'#ffdaf6'
 };
 function gc(g){ return GCOLOR[g] || '#eeeeee'; }
 const PALETTE = ['#cfdfff','#d0f0fd','#c2f5e9','#d1f7c4','#ffeab6','#fee2d5','#ffdce5','#ffdaf6','#ede2fe'];
@@ -764,7 +745,6 @@ function normTab(v, fallback){
   if(n.startsWith('produ')) return 'productos';
   if(n.startsWith('conse') || n.startsWith('ferment') || n.startsWith('encurt')) return 'conservas';
   if(n.startsWith('format') || n.startsWith('idea')) return 'formatos';
-  if(n.startsWith('dulces') || n.startsWith('postre')) return 'dulces';
   return fallback || 'recetas';
 }
 function matchGroup(tab, v){
@@ -902,9 +882,9 @@ Cada receta tiene esta forma:
 Reglas:
 - No cambies el "id" de las recetas que ya existen. Para una receta nueva, crea un id único con el formato "r-" + pestaña + "-" + nombre en minúsculas y con guiones.
 - Para modificar una receta, edítala dentro del archivo; no la dupliques. Respeta el "done" que tenga.
-- "tab": "recetas" (platos con nombre propio), "productos" (elaboraciones base: masas, salsas, lácteos, bebidas…), "conservas", "formatos" (tipos de plato sin receta concreta: burrito, pizza, ramen…) o "dulces" (tipos de dulce sin receta concreta: churros, brioche, flan…; misma forma de ficha que los formatos).
-- "group": en recetas, "Salado" o "Dulce". En productos: "Fondos", "Salsas", "Guarniciones", "Elaboraciones complementarias", "Masas", "Lácteos y derivados", "Legumbres, cereales, frutos secos y semillas" o "Aceites, vinagres, extractos y bebidas". En conservas: "Fermentos", "Encurtidos", "Conservas dulces" o "Conservas saladas". En formatos y dulces: la rama (ver abajo).
-- "cat": tipo de plato, «Capítulo / Subcapítulo» (o solo el capítulo si no tiene subcapítulos). En recetas saladas, en todos los grupos de productos, conservas, formatos y dulces; en recetas dulces, "".
+- "tab": "recetas" (platos con nombre propio), "productos" (elaboraciones base: masas, salsas, lácteos, bebidas…), "conservas" o "formatos" (tipos de plato sin receta concreta: burrito, pizza, ramen…).
+- "group": en recetas, "Salado" o "Dulce". En productos: "Fondos", "Salsas", "Guarniciones", "Elaboraciones complementarias", "Masas", "Lácteos y derivados", "Legumbres, cereales, frutos secos y semillas" o "Aceites, vinagres, extractos y bebidas". En conservas: "Fermentos", "Encurtidos", "Conservas dulces" o "Conservas saladas". En formatos: la rama (ver abajo).
+- "cat": tipo de plato, «Capítulo / Subcapítulo» (o solo el capítulo si no tiene subcapítulos). En recetas saladas, en todos los grupos de productos, conservas y formatos; en recetas dulces, "".
   Recetas saladas: "Entremeses y aperitivos / Fríos", "Entremeses y aperitivos / Calientes", "Ensaladas", "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés", "Sopas, consomés, cremas, potajes y cocidos / Cremas frías", "Sopas, consomés, cremas, potajes y cocidos / Cremas calientes", "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos", "Hortalizas", "Arroces", "Pastas alimenticias", "Huevos", "Pescados", "Mariscos", "Carnes / Aves y conejo", "Carnes / Bovino", "Carnes / Porcino", "Carnes / Ovino", "Carnes / Caza".
   Desempate: manda primero el formato (si la base es arroz → Arroces; pasta o fideos → Pastas alimenticias; sopa, crema, potaje, cocido o guiso de cuchara → Sopas…; ensalada → Ensaladas; tapa, mezze, masa rellena o bocado → Entremeses), y si no, el ingrediente principal.
   Productos, según el grupo:
@@ -924,8 +904,6 @@ Reglas:
   Formatos (tipos de plato; ficha corta sin ingredientes ni pasos: "parts" con una sola parte vacía, "yield" "", "diet" "", "notes" = descripción de 1–3 frases: qué es y qué se le suele poner; "tag" = país o zona de origen sin barra, p. ej. "México y EE. UU.", "Levante"). Ramas ("group") y tipos ("cat"):
   Para compartir y en la mesa: Cocinado en la mesa, Para mojar y untar, Tablas, Tradiciones de platos pequeños. Con masa o pan: Envueltos y enrollados, Doblados, Bocadillos y sándwiches, En bollo, En bolsillo o pan abierto, Tostas, Masa con cosas encima, Envueltos en hoja, Pasteles y tartas saladas, Cerrados al horno, Cerrados fritos, Cerrados a la plancha, Al vapor o hervidos, De masa líquida, Panes para mojar y acompañar. Pasta y fideos: Pasta con salsa, Pasta rellena, Pasta al horno, Ñoquis y similares, Fideos a la española, Fideos en caldo, Fideos salteados, Fideos aliñados en seco, Fideos fríos y ensaladas de pasta. Arroces y cereales: Arroz con cosas encima, Arroz con acompañamientos, Arroces secos y melosos, Arroces caldosos y gachas de arroz, Arroz salteado, Arroz moldeado o envuelto, Otros cereales, Gachas, polentas y masas de acompañar. De cuchara: Caldos y sopas claras, Sopas con tropezones, Sopas de pan, Sopas con bolitas, Cremas y purés, Sopas frías, Guisos de legumbre, Guisos de carne, Guisos de pescado y marisco, Guisos de verdura, Curries. Con huevo: Tortillas, Revueltos, Huevos en salsa, Huevos fritos sobre algo, Huevos cocidos y rellenos. Crudos, fríos y ensaladas: Ensaladas verdes y mixtas, Ensaladas completas, Ensaladas de cereal o pan, Ensaladas de legumbre, Picadas de verdura cruda, Ensaladas del sudeste asiático, De patata y mayonesa, Pescado y marisco crudos o marinados, Carne cruda, Rollos frescos. Fritos y rebozados: En tempura o rebozados, Empanados, Enharinados y adobados, Croquetas y bolas, De legumbre, Buñuelos y frituras de verdura. A la brasa y a la parrilla: Brochetas, Carne picada al fuego, Asador giratorio, Parrilladas y barbacoa, Adobados al fuego. Al horno: Asados, Bandeja de horno, Gratinados y en capas, Con puré encima, Verduras y hojas rellenas, En papillote, en hoja y hornos de tierra. En sartén: Al wok, Salteados con salsa, A la plancha, Salteados de aprovechamiento.
   Desempate de formatos: va a la primera rama de la lista en la que encaje (en la mesa → masa o pan → pasta y fideos → arroz y cereales → cuchara → huevo → crudos y ensaladas → fritos → brasa → horno → sartén). «Con masa o pan» solo si la masa o el pan envuelve, sostiene o encierra lo demás. El cereal o la pasta mandan solo si son la base o la mayor parte del plato.
-  Dulces (pestaña "dulces", fichas como las de formatos). Ramas y tipos: Helados y fríos: Helados, Sorbetes y granizados, Semifríos, Hielo raspado. Fritos dulces: De masa escaldada, Levados, Láminas, lazos y flores, Rosquillas y roscos, Rellenos fritos, Pan frito, Bañados en almíbar, Fruta frita. Crepes, tortitas y gofres: Crepes, Tortitas y pancakes, Gofres, Al horno o con trocitos. Bollería y panes dulces: Bollos y brioches, Hojaldrados fermentados, Panes dulces de fiesta, Empapados en almíbar. Hojaldre, filo y choux: De hojaldre, Filo y masas estiradas, Masa choux. Tartas y pies: Tartas de fruta, Tartas de crema o relleno, Pies cerrados, Tartaletas, Crumbles y cobblers, Tartas de queso. Bizcochos y pasteles: Bizcochos y cakes, Magdalenas y pastelitos, Tartas de capas y decoradas, Brazos y enrollados, Densos de chocolate y almendra, Empapados y al vapor. Galletas y pastas: De mantequilla, Mantecados y polvorones, Especiadas, De clara y almendra, Secas y para mojar, Rellenas. Postres de cuchara: Natillas y cremas, Flanes y horneados de huevo, Cuajados y gelatinas, Mousses y espumas, Arroces, cereales y cocidos dulces, Postres de capas en vaso. De arroz y almidones: Mochi y arroz glutinoso, Pasta de judía, Gelatinas y almidones, Sopas dulces, Pasteles de arroz al vapor o al horno. Confitería: Bombones y trufas, Caramelos y toffees, Turrones, mazapanes y halva, Garrapiñados y crocantes, Dulces de yema, Dulces de leche y de la India, Lokum y gominolas. De fruta: Fruta asada o al horno, Fruta cocida, Fruta fresca aliñada.
-  Desempate de dulces: va a la primera rama de la lista en la que encaje (helados → fritos → crepes y gofres → bollería levada → hojaldre, filo y choux → tartas → bizcochos → galletas → cuchara → arroz y almidones → confitería → fruta). Manda la masa o la técnica que define el dulce, no el relleno.
 - "local": solo en recetas de Japón, Perú o Líbano: la clasificación propia de esa cocina, «Categoría / Subcategoría» o solo la categoría. En el resto, "".
   Japón (washoku): Gohanmono (Sushi, Donburi y kare raisu, Onigiri, Takikomi y mazegohan, Kayu y zosui), Menrui (Udon, Soba, Somen y hiyamugi, Ramen, Otros fideos), Shirumono (Suimono, Misoshiru, Sopas con tropezones), Nabemono, Konamono, Sashimi, Yakimono, Nimono, Mushimono, Agemono (Karaage, Tempura y koromoage, Furai y katsu, Suage), Itamemono, Aemono y sunomono, Tsukemono, Wagashi (Mochimono (de mochi y dango), Yakimono (horneados), Mushimono (al vapor), Nagashimono (en molde), Nerimono (pastas), Higashi (secos)), Kanmi. Desempate: dulce → arroz como base → fideos → cazuela en la mesa → masa de harina → sopa → conserva → método de cocción.
   Perú: Marina (Cebiches y tiraditos, Frituras y jaleas, Calientes), Criolla (Limeña, Afroperuana, Anticuchos y brasas, Desayuno y sánguches), Chifa, Nikkei, Norteña, Sureña (Picantería arequipeña, Tacna y Moquegua), Andina, Amazónica, Dulcería (Mazamorras y postres de cuchara, Turrones, alfajores y dulces de convento, Frituras y masas dulces, Helados y fríos). Desempate: dulce → tipo de local (chifa, nikkei, cebichería, anticuchos y brasas) → afroperuana → macrorregión de origen → criolla.
@@ -1159,7 +1137,7 @@ function dietIcon(k, size){ return DIET[k] ? svgIcon(DIET[k].svg, size || 14) : 
 function dietVars(k){ return DIET[k] ? `--dc:${DIET[k].c};--db:${DIET[k].b};` : ''; }
 function dietMark(r){ return r.diet && DIET[r.diet] ? `<span class="dz" style="${dietVars(r.diet)}" title="${DIET[r.diet].label}">${dietIcon(r.diet, 13)}</span>` : ''; }
 function dietOn(){ return !!(ui.diets && ui.diets.length); }
-function isFmt(t){ return t === 'formatos' || t === 'dulces'; }
+function isFmt(t){ return t === 'formatos'; }
 function dietOk(r){ return !dietOn() || isFmt(r.tab) || ui.diets.includes(r.diet); }
 function drawDietBtn(){
   const b = $('#diet-btn'), ds = ui.diets || [];
