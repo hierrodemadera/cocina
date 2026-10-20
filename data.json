@@ -48917,6 +48917,6137 @@
    ],
    "notes": "Fruta y verdura cruda (piña, mango, pepino, jícama) con una salsa dulce y picante de pasta de gambas y cacahuete.",
    "done": false
+  },
+  {
+   "id": "r-recetas-hervido-valenciano",
+   "tab": "recetas",
+   "name": "Hervido valenciano",
+   "group": "Salado",
+   "cat": "Hortalizas",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España / Comunidad Valenciana",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Patata"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Judía verde plana (bajoqueta)"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Cebolla mediana"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Acelgas"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Zanahoria (opcional)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Vinagre de vino"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Pelar las patatas y cortarlas en trozos grandes; pelar las cebollas y dejarlas enteras o en cuartos.",
+      "Despuntar las judías y quitarles las hebras; cortarlas en trozos de 4–5 cm.",
+      "Lavar las acelgas y separar las pencas de las hojas; trocear las pencas.",
+      "Llevar a ebullición una olla de agua con sal y un chorro de aceite.",
+      "Cocer la patata, la cebolla, la zanahoria y las pencas 15 min.",
+      "Añadir las judías y cocer 10 min; añadir las hojas de acelga y cocer 5 min más, hasta que todo esté tierno.",
+      "Escurrir bien, reservando un poco del agua de cocción.",
+      "Servir caliente y aliñar en la mesa con aceite de oliva, vinagre y sal."
+     ]
+    }
+   ],
+   "notes": "Bollit valenciano: cena de diario de toda la vida. Admite calabacín, boniato o un huevo cocido en la misma olla. El agua de cocción sirve de caldo para una sopa.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-judias-verdes-rehogadas-con-patata",
+   "tab": "recetas",
+   "name": "Judías verdes rehogadas con patata",
+   "group": "Salado",
+   "cat": "Hortalizas",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Judía verde"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Patata"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "40",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Despuntar las judías, quitarles las hebras y cortarlas en trozos de 3–4 cm.",
+      "Pelar las patatas y cortarlas en dados de 2 cm.",
+      "Cocer las patatas en agua con sal 8 min; añadir las judías y cocer 10–12 min más, hasta que estén tiernas.",
+      "Escurrir bien.",
+      "Laminar los ajos y dorarlos suavemente en el aceite.",
+      "Apartar del fuego, añadir el pimentón y remover sin que se queme.",
+      "Incorporar las judías y la patata, saltear 2 min y rectificar de sal."
+     ]
+    }
+   ],
+   "notes": "Plato de diario en toda España. El pimentón se añade siempre fuera del fuego para que no amargue.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-acelgas-rehogadas-con-ajo",
+   "tab": "recetas",
+   "name": "Acelgas rehogadas con ajo",
+   "group": "Salado",
+   "cat": "Hortalizas",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1000",
+       "u": "g",
+       "n": "Acelgas"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimentón dulce (opcional)"
+      },
+      {
+       "q": "40",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar las acelgas y separar las pencas de las hojas.",
+      "Quitar las hebras a las pencas y cortarlas en bastones de 4 cm; picar las hojas groseramente.",
+      "Cocer las pencas en agua con sal 8 min; añadir las hojas y cocer 4 min más.",
+      "Escurrir bien, apretando para quitar el exceso de agua.",
+      "Laminar los ajos y dorarlos suavemente en el aceite.",
+      "Añadir el pimentón fuera del fuego si se usa.",
+      "Incorporar las acelgas, saltear 2–3 min y rectificar de sal."
+     ]
+    }
+   ],
+   "notes": "Se puede añadir patata cocida para hacerlo plato único. Las pencas también se pueden rebozar aparte.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-menestra-de-verduras",
+   "tab": "recetas",
+   "name": "Menestra de verduras",
+   "group": "Salado",
+   "cat": "Hortalizas",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España / Navarra",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Alcachofa"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Judía verde"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Guisante desgranado"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Haba tierna desgranada"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Espárrago blanco o triguero"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Coliflor"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "400",
+       "u": "ml",
+       "n": "Caldo de verduras"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Limón (para las alcachofas)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Limpiar las alcachofas, cortarlas en cuartos y reservarlas en agua con limón.",
+      "Despuntar las judías y cortarlas; separar la coliflor en ramilletes; pelar la zanahoria y cortarla en rodajas; cortar los espárragos en trozos.",
+      "Cocer cada verdura por separado en agua con sal hasta que esté al dente: alcachofa 12–15 min, judía 8 min, coliflor 6 min, zanahoria 8 min, guisante y haba 4 min, espárrago 4–6 min.",
+      "Enfriar en agua con hielo, escurrir y reservar parte del agua de cocción.",
+      "Picar la cebolla y el ajo en brunoise y pocharlos en el aceite 10 min.",
+      "Añadir la harina, rehogar 1 min y mojar poco a poco con el caldo o el agua de cocción hasta tener una salsa ligera.",
+      "Incorporar las verduras, mover la cazuela y cocer 5 min a fuego suave.",
+      "Rectificar de sal."
+     ]
+    }
+   ],
+   "notes": "Plato de la huerta de Tudela, de primavera. Cada verdura se cuece aparte para respetar su punto. La versión tradicional rebozada o con jamón es más pesada; esta es la ligera.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-samfaina",
+   "tab": "recetas",
+   "name": "Samfaina",
+   "group": "Salado",
+   "cat": "Hortalizas",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España / Cataluña",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Berenjena"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Calabacín"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Pimiento rojo"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Pimiento verde"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Cebolla"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Tomillo (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar la berenjena y el calabacín en dados de 1,5 cm; salar la berenjena 15 min y secarla.",
+      "Cortar los pimientos y la cebolla en dados del mismo tamaño; picar el ajo.",
+      "Escaldar, pelar y rallar o picar el tomate.",
+      "Pochar la cebolla en el aceite a fuego suave 15 min.",
+      "Añadir el ajo y los pimientos y cocinar 10 min.",
+      "Incorporar la berenjena y el calabacín y cocinar 10 min más.",
+      "Añadir el tomate y cocinar a fuego suave 20–30 min, hasta que esté confitado y sin agua.",
+      "Rectificar de sal."
+     ]
+    }
+   ],
+   "notes": "Es la «ratatouille» catalana. Se come sola, con huevo, con bacalao o como guarnición de pollo y conejo.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-coliflor-al-ajoarriero",
+   "tab": "recetas",
+   "name": "Coliflor al ajoarriero",
+   "group": "Salado",
+   "cat": "Hortalizas",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España / Navarra",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Coliflor grande"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Perejil picado"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Vinagre de vino"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Separar la coliflor en ramilletes y cocerla en agua con sal 8–10 min, hasta que esté tierna.",
+      "Escurrir y reservar un poco del agua de cocción.",
+      "Majar en el mortero un diente de ajo con el perejil y una pizca de sal; diluir con 3 cda del agua de cocción y 3 cda de aceite crudo.",
+      "Picar el otro ajo y dorarlo en el resto del aceite.",
+      "Apartar la sartén del fuego, añadir el pimentón, remover y mojar con el vinagre.",
+      "Mezclar el majado con el refrito.",
+      "Colocar la coliflor en una fuente caliente y regarla con la salsa."
+     ]
+    }
+   ],
+   "notes": "Receta de la Real Academia de Gastronomía. La salsa sirve igual para patata o judía verde cocidas.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-alcachofas-con-jamon",
+   "tab": "recetas",
+   "name": "Alcachofas con jamón",
+   "group": "Salado",
+   "cat": "Hortalizas",
+   "local": "",
+   "diet": "carne",
+   "freq": "semanal",
+   "tag": "España / Navarra",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "12",
+       "u": "ud.",
+       "n": "Alcachofa"
+      },
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Jamón serrano en taquitos"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Harina de trigo (opcional)"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Vino blanco (opcional)"
+      },
+      {
+       "q": "40",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Limón"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Perejil"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Quitar a las alcachofas las hojas duras, cortar las puntas y tornear la base; cortarlas en cuartos y reservar en agua con limón.",
+      "Cocer las alcachofas en agua con sal 12–15 min, hasta que estén tiernas; escurrir y reservar un poco del agua.",
+      "Laminar los ajos y dorarlos suavemente en el aceite; añadir el jamón y saltear 1 min.",
+      "Añadir la harina si se usa y rehogar unos segundos; mojar con el vino y dejar evaporar.",
+      "Incorporar las alcachofas con un chorrito del agua de cocción y saltear 3–4 min.",
+      "Rectificar de sal y terminar con perejil picado."
+     ]
+    }
+   ],
+   "notes": "Sin jamón quedan como alcachofas salteadas con ajo: vegano y de diario. Las de Tudela son las clásicas.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-pimientos-asados",
+   "tab": "recetas",
+   "name": "Pimientos asados",
+   "group": "Salado",
+   "cat": "Hortalizas",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1500",
+       "u": "g",
+       "n": "Pimiento rojo carnoso"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Vinagre de Jerez (opcional)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar y secar los pimientos; untarlos con un poco de aceite.",
+      "Asar en horno precalentado a 200 °C unos 45–50 min, dándoles la vuelta a mitad, hasta que la piel esté arrugada y tostada.",
+      "Taparlos en un recipiente 15 min para que suden y se pelen mejor.",
+      "Pelar, quitar las semillas y cortar en tiras, reservando el jugo que sueltan.",
+      "Laminar o picar el ajo.",
+      "Aliñar las tiras con el jugo colado, el aceite, el ajo, la sal y el vinagre si se usa.",
+      "Dejar reposar al menos 1 h antes de servir."
+     ]
+    }
+   ],
+   "notes": "Base de muchos platos: ensaladas, escalivada, tostas, guarnición. En nevera aguantan 4–5 días cubiertos de aceite.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-berenjenas-rellenas-de-verduras",
+   "tab": "recetas",
+   "name": "Berenjenas rellenas de verduras",
+   "group": "Salado",
+   "cat": "Hortalizas",
+   "local": "",
+   "diet": "vegetariano",
+   "freq": "diario",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Berenjena grande"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento rojo pequeño"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Calabacín pequeño"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "200",
+       "u": "ml",
+       "n": "Tomate triturado"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Queso rallado para gratinar"
+      },
+      {
+       "q": "40",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pimienta negra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Orégano"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar las berenjenas por la mitad a lo largo, hacer cortes en rejilla en la pulpa, salar y regar con un hilo de aceite.",
+      "Asar en horno a 200 °C 25–30 min, hasta que la pulpa esté tierna.",
+      "Vaciar la pulpa con una cuchara dejando 0,5 cm pegado a la piel; picar la pulpa.",
+      "Cortar la cebolla, los pimientos y el calabacín en brunoise; picar el ajo.",
+      "Pochar la cebolla y el ajo en el aceite 8 min; añadir los pimientos y el calabacín y cocinar 10 min.",
+      "Incorporar la pulpa de berenjena y el tomate; cocinar 10 min hasta que espese; sazonar con sal, pimienta y orégano.",
+      "Rellenar las berenjenas, cubrir con el queso y gratinar a 220 °C 8–10 min."
+     ]
+    }
+   ],
+   "notes": "Sin queso, o con un queso vegano, queda vegano. Se puede añadir arroz cocido o lenteja al relleno para hacerla plato único.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-calabacines-rellenos",
+   "tab": "recetas",
+   "name": "Calabacines rellenos",
+   "group": "Salado",
+   "cat": "Hortalizas",
+   "local": "",
+   "diet": "vegetariano",
+   "freq": "diario",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Calabacín mediano"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento rojo"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Champiñón"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Tomate triturado"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Queso rallado para gratinar"
+      },
+      {
+       "q": "40",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pimienta negra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Tomillo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar los calabacines por la mitad a lo largo y vaciarlos con una cuchara dejando 0,5 cm de pared; picar la pulpa.",
+      "Salar las barcas, regarlas con un hilo de aceite y hornear a 190 °C 12–15 min.",
+      "Picar la cebolla, el pimiento y los champiñones en brunoise; picar el ajo.",
+      "Pochar la cebolla y el ajo 8 min; añadir el pimiento y cocinar 5 min; añadir los champiñones y la pulpa y cocinar hasta que se evapore el agua.",
+      "Añadir el tomate, cocinar 5 min y sazonar con sal, pimienta y tomillo.",
+      "Rellenar las barcas, cubrir con el queso y gratinar a 220 °C 8–10 min."
+     ]
+    }
+   ],
+   "notes": "Es la versión de verdura; con carne picada pasa a ser un plato de carne. Sin queso queda vegano.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-verduras-a-la-plancha",
+   "tab": "recetas",
+   "name": "Verduras a la plancha",
+   "group": "Salado",
+   "cat": "Hortalizas",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Berenjena"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Calabacín"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento rojo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla morada"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Champiñón grande"
+      },
+      {
+       "q": "8",
+       "u": "ud.",
+       "n": "Espárrago triguero"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Perejil"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal en escamas"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar la berenjena y el calabacín en lonchas de 0,5–1 cm; el pimiento en tiras anchas; la cebolla en rodajas gruesas.",
+      "Limpiar los champiñones y quitar la parte dura a los espárragos.",
+      "Majar el ajo con el perejil y el aceite para hacer un ajillo.",
+      "Calentar bien la plancha y pintarla con aceite.",
+      "Marcar cada verdura por tandas, sin amontonar, hasta que tenga color y esté tierna: berenjena y pimiento 3–4 min por lado, calabacín y cebolla 2–3 min, champiñón y espárrago 2 min.",
+      "Servir con el ajillo y la sal en escamas."
+     ]
+    }
+   ],
+   "notes": "La plancha tiene que estar muy caliente para que la verdura se dore sin soltar agua. Sobras: para bocadillo o ensalada templada.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-habas-a-la-catalana-sin-embutido",
+   "tab": "recetas",
+   "name": "Habas a la catalana sin embutido",
+   "group": "Salado",
+   "cat": "Hortalizas",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España / Cataluña",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1000",
+       "u": "g",
+       "n": "Haba tierna desgranada (o 2,5 kg en vaina)"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Cebolleta"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Ajo tierno"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Vino rancio o vino blanco"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Anís seco (opcional)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Ramita de menta fresca"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pimienta negra"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Picar la cebolleta y los ajos tiernos; rallar el tomate.",
+      "Pochar la cebolleta y los ajos en el aceite a fuego suave 10 min.",
+      "Añadir el tomate y cocinar 5 min.",
+      "Incorporar las habas, el laurel y la menta; mojar con el vino y el anís y dejar evaporar el alcohol.",
+      "Tapar y cocer a fuego muy suave 15–25 min, según lo tiernas que sean, añadiendo un poco de agua si hace falta.",
+      "Rectificar de sal y pimienta y retirar la menta y el laurel."
+     ]
+    }
+   ],
+   "notes": "La receta tradicional lleva butifarra negra y panceta; esta es la versión sin embutido. La menta es imprescindible.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-guisantes-salteados",
+   "tab": "recetas",
+   "name": "Guisantes salteados",
+   "group": "Salado",
+   "cat": "Hortalizas",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Guisante desgranado (fresco o congelado)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolleta"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Menta o hierbabuena fresca"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Picar la cebolleta y el ajo en brunoise.",
+      "Escaldar los guisantes 2–3 min en agua con sal (1 min si son congelados) y enfriar en agua con hielo.",
+      "Pochar la cebolleta y el ajo en el aceite 5 min, sin que tomen color.",
+      "Añadir los guisantes y saltear 2–3 min.",
+      "Rectificar de sal y terminar con la menta picada."
+     ]
+    }
+   ],
+   "notes": "Con jamón es la versión clásica de guarnición; con huevo escalfado encima es plato único.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-cardo-en-salsa-de-almendras",
+   "tab": "recetas",
+   "name": "Cardo en salsa de almendras",
+   "group": "Salado",
+   "cat": "Hortalizas",
+   "local": "",
+   "diet": "vegetariano",
+   "freq": "diario",
+   "tag": "España / Aragón",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1000",
+       "u": "g",
+       "n": "Cardo limpio (o 1 bote grande en conserva)"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Almendra cruda"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Piñón (opcional)"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Leche"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Agua de cocción del cardo"
+      },
+      {
+       "q": "40",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Limón"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Quitar las hebras al cardo, cortarlo en trozos de 4 cm y reservarlo en agua con limón para que no se oscurezca.",
+      "Cocer el cardo en agua con sal y una cucharada de harina disuelta 1 h o hasta que esté tierno; escurrir y reservar el agua.",
+      "Triturar o majar las almendras y los piñones hasta tener una pasta.",
+      "Laminar los ajos y dorarlos suavemente en el aceite.",
+      "Añadir la harina y rehogar 1 min; incorporar la pasta de almendra y remover.",
+      "Mojar con la leche y el agua de cocción poco a poco hasta tener una salsa ligada.",
+      "Incorporar el cardo y mover la cazuela, sin remover, 5 min a fuego suave.",
+      "Rectificar de sal."
+     ]
+    }
+   ],
+   "notes": "Plato de Nochebuena en Aragón, Navarra y La Rioja. Con cardo en conserva solo hay que calentarlo. Con agua de cocción en lugar de leche queda vegano.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-borrajas-con-patata",
+   "tab": "recetas",
+   "name": "Borrajas con patata",
+   "group": "Salado",
+   "cat": "Hortalizas",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España / Aragón",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1000",
+       "u": "g",
+       "n": "Borraja"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Patata"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Quitar las hojas a la borraja y limpiar los tallos con un cuchillo, retirando la pelusa y las hebras.",
+      "Cortar los tallos en trozos de 4–5 cm y lavarlos bien.",
+      "Pelar las patatas y cortarlas en trozos medianos.",
+      "Cocer las patatas en agua con sal 10 min; añadir la borraja y cocer 15 min más, hasta que todo esté tierno.",
+      "Escurrir bien.",
+      "Laminar los ajos y dorarlos suavemente en el aceite.",
+      "Servir las borrajas con la patata y regar con el aceite y los ajos."
+     ]
+    }
+   ],
+   "notes": "Verdura emblemática de Aragón y Navarra. En conserva o congelada se ahorra la limpieza.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-puerros-a-la-vinagreta",
+   "tab": "recetas",
+   "name": "Puerros a la vinagreta",
+   "group": "Salado",
+   "cat": "Hortalizas",
+   "local": "",
+   "diet": "vegetariano",
+   "freq": "diario",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "8",
+       "u": "ud.",
+       "n": "Puerro mediano"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Huevo cocido"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Chalota o cebolleta pequeña"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Pimiento rojo"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Pimiento verde"
+      },
+      {
+       "q": "90",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Vinagre de vino"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Mostaza (opcional)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Perejil"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Quitar las raíces y la parte verde dura a los puerros, dejando la parte blanca y tierna; lavarlos bien.",
+      "Cocer en agua con sal 12–15 min, hasta que estén tiernos.",
+      "Escurrir y dejar templar sobre un paño.",
+      "Picar el huevo, la chalota y los pimientos en brunoise fina.",
+      "Emulsionar el vinagre con la mostaza, la sal y el aceite.",
+      "Mezclar la vinagreta con la brunoise y el perejil picado.",
+      "Servir los puerros templados o fríos cubiertos con la vinagreta."
+     ]
+    }
+   ],
+   "notes": "Sin huevo queda vegano. Clásico de la cocina francesa (poireaux vinaigrette) y de casas de comida españolas.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-esparragos-trigueros-a-la-plancha",
+   "tab": "recetas",
+   "name": "Espárragos trigueros a la plancha",
+   "group": "Salado",
+   "cat": "Hortalizas",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Espárrago triguero"
+      },
+      {
+       "q": "20",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal en escamas"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Ajo y perejil picados (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar los espárragos y quitar la parte leñosa del tallo doblándolos: se rompen donde empieza lo tierno.",
+      "Calentar bien la plancha o una sartén.",
+      "Untar los espárragos con aceite.",
+      "Marcar 3–5 min, girándolos, hasta que estén tiernos y con algo de color.",
+      "Terminar con sal en escamas y, si se quiere, un ajillo de ajo y perejil."
+     ]
+    }
+   ],
+   "notes": "Temporada de marzo a junio. Guarnición rápida para pescado, huevo o carne.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-ratatouille",
+   "tab": "recetas",
+   "name": "Ratatouille",
+   "group": "Salado",
+   "cat": "Hortalizas",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "Francia / Provenza",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Berenjena"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Calabacín"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento rojo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento amarillo o verde"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Bouquet garni (tomillo, laurel, romero)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Albahaca fresca"
+      },
+      {
+       "q": "80",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pimienta negra"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar la berenjena, el calabacín, los pimientos y la cebolla en dados de 2 cm; picar el ajo.",
+      "Escaldar, pelar y despepitar el tomate; cortarlo en dados.",
+      "Saltear por separado, con un poco de aceite cada vez, la berenjena, el calabacín y los pimientos hasta que se doren; reservar.",
+      "Pochar la cebolla en la misma cazuela 10 min; añadir el ajo y el tomate y cocinar 10 min.",
+      "Incorporar las verduras salteadas y el bouquet garni; tapar y cocer a fuego suave 30–40 min.",
+      "Retirar el bouquet, rectificar de sal y pimienta y terminar con albahaca."
+     ]
+    }
+   ],
+   "notes": "Plato de Niza. Saltear cada verdura por separado es lo que mantiene su sabor y textura. Mejor de un día para otro; se come caliente, templado o frío.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-caponata",
+   "tab": "recetas",
+   "name": "Caponata",
+   "group": "Salado",
+   "cat": "Hortalizas",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "Italia / Sicilia",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "800",
+       "u": "g",
+       "n": "Berenjena"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Rama de apio"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Tomate triturado"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Aceituna verde"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Alcaparra"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Vinagre de vino"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Azúcar"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Albahaca fresca"
+      },
+      {
+       "q": "80",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Piñón tostado (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar la berenjena en dados de 2 cm, salarla 30 min y secarla.",
+      "Cortar la cebolla y el apio en dados; deshuesar las aceitunas y desalar las alcaparras.",
+      "Saltear la berenjena por tandas en el aceite hasta que esté dorada y tierna; reservar.",
+      "Pochar la cebolla y el apio en la misma sartén 10 min.",
+      "Añadir el tomate y cocinar 10 min; incorporar las aceitunas y las alcaparras.",
+      "Añadir la berenjena, el vinagre y el azúcar y cocinar 5 min para que se evapore el vinagre (agrodolce).",
+      "Rectificar de sal, terminar con albahaca y piñón y dejar reposar al menos 1 h."
+     ]
+    }
+   ],
+   "notes": "Se sirve templada o fría, mejor al día siguiente. La versión siciliana fríe la berenjena en abundante aceite; salteada queda más ligera.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-lentejas-con-verduras",
+   "tab": "recetas",
+   "name": "Lentejas con verduras",
+   "group": "Salado",
+   "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Lenteja pardina"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Patata mediana"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Comino molido (opcional)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "40",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar las lentejas (la pardina no necesita remojo).",
+      "Picar la cebolla, el pimiento y el ajo en brunoise; pelar la zanahoria y cortarla en rodajas; rallar el tomate.",
+      "Pochar la cebolla, el pimiento y el ajo en el aceite 10 min.",
+      "Añadir el tomate y cocinar 5 min; apartar del fuego y añadir el pimentón.",
+      "Incorporar las lentejas, la zanahoria y el laurel; cubrir con 1,5 l de agua fría.",
+      "Llevar a ebullición, bajar el fuego y cocer 20 min.",
+      "Añadir la patata pelada y chascada en trozos y cocer 20 min más, hasta que lenteja y patata estén tiernas.",
+      "Rectificar de sal y dejar reposar 10 min."
+     ]
+    }
+   ],
+   "notes": "Versión sin chorizo de las lentejas estofadas. Chascar la patata (romperla en lugar de cortarla) suelta almidón y espesa el caldo.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-potaje-de-garbanzos-y-acelgas",
+   "tab": "recetas",
+   "name": "Potaje de garbanzos y acelgas",
+   "group": "Salado",
+   "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Garbanzo seco"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Acelgas"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Patata mediana"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Comino molido"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rebanada de pan del día anterior"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar los garbanzos la noche anterior en agua templada con sal.",
+      "Llevar a ebullición agua con el laurel y echar los garbanzos escurridos; cocer a fuego suave 1,5–2 h (20 min en olla exprés) hasta que estén tiernos, añadiendo siempre agua caliente si hace falta.",
+      "Separar las pencas de las hojas de acelga y trocear.",
+      "Pochar la cebolla picada en el aceite 10 min; añadir el tomate rallado y cocinar 5 min.",
+      "Freír aparte la rebanada de pan y los ajos y majarlos en el mortero con el comino y el pimentón.",
+      "Añadir al guiso el sofrito, la patata en trozos y las pencas; cocer 15 min.",
+      "Incorporar las hojas de acelga y el majado; cocer 10 min más.",
+      "Rectificar de sal y dejar reposar."
+     ]
+    }
+   ],
+   "notes": "Potaje de diario en toda España. Con espinacas en lugar de acelgas es casi el potaje de vigilia sin bacalao.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-alubias-con-verduras",
+   "tab": "recetas",
+   "name": "Alubias con verduras",
+   "group": "Salado",
+   "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Alubia blanca seca"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Puerro"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Calabaza o calabacín"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar las alubias la noche anterior en agua fría.",
+      "Poner las alubias en agua fría con el laurel, media cebolla y un chorro de aceite; llevar a ebullición.",
+      "Asustar con agua fría dos o tres veces durante la cocción para que no se rompan la piel; cocer a fuego muy suave 1,5–2 h.",
+      "Picar el resto de la cebolla, el puerro, el pimiento y el ajo; cortar la zanahoria y la calabaza en dados.",
+      "Pochar las verduras picadas en el aceite 15 min; apartar del fuego y añadir el pimentón.",
+      "Incorporar el sofrito, la zanahoria y la calabaza a las alubias y cocer 20 min más.",
+      "Rectificar de sal y dejar reposar."
+     ]
+    }
+   ],
+   "notes": "Se puede triturar la media cebolla cocida con un cacillo de alubias y devolverla al guiso para espesarlo sin harina.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-pochas-con-verduras",
+   "tab": "recetas",
+   "name": "Pochas con verduras",
+   "group": "Salado",
+   "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España / Navarra",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "800",
+       "u": "g",
+       "n": "Pocha fresca desgranada (o congelada)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Puerro"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Guindillas en vinagre (para acompañar)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Picar la cebolla, el pimiento, el puerro, la zanahoria y el ajo en brunoise; pelar el tomate y cortarlo en cuartos.",
+      "Poner las pochas en una olla con todas las verduras crudas y el aceite.",
+      "Cubrir con agua fría dos dedos por encima y llevar a ebullición.",
+      "Bajar el fuego y cocer 30–40 min, sin remover para no romperlas: mover la olla.",
+      "Sacar unas cuantas pochas con verdura, triturarlas y devolverlas para ligar el caldo.",
+      "Rectificar de sal y servir con guindillas."
+     ]
+    }
+   ],
+   "notes": "La pocha es la alubia blanca recogida antes de secarse; temporada de agosto a octubre. No necesita remojo y se cuece en menos de una hora.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-fabes-con-almejas",
+   "tab": "recetas",
+   "name": "Fabes con almejas",
+   "group": "Salado",
+   "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "",
+   "diet": "pescado",
+   "freq": "semanal",
+   "tag": "España / Asturias",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Faba asturiana (IGP Faba Asturiana)"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Almeja"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Vino blanco"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Hebras de azafrán"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Perejil"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar las fabes la noche anterior en agua fría.",
+      "Poner las fabes en una olla con agua fría que las cubra justo, media cebolla y un chorro de aceite; llevar a ebullición y desespumar.",
+      "Cocer a fuego muy suave 2–2,5 h, asustando con agua fría tres o cuatro veces y moviendo la olla sin remover.",
+      "Purgar las almejas 1 h en agua con sal.",
+      "Picar la otra media cebolla y el ajo y pocharlos en el aceite 10 min; añadir la harina y rehogar 1 min.",
+      "Mojar con el vino, añadir las almejas y tapar hasta que se abran.",
+      "Añadir el azafrán tostado y majado a las fabes, verter las almejas con su salsa y cocer 5 min más.",
+      "Rectificar de sal, terminar con perejil y reposar 15 min."
+     ]
+    }
+   ],
+   "notes": "Clásico asturiano. La faba se sala al final porque la sal endurece la piel durante la cocción.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-empedrat",
+   "tab": "recetas",
+   "name": "Empedrat",
+   "group": "Salado",
+   "cat": "Ensaladas",
+   "local": "",
+   "diet": "pescado",
+   "freq": "semanal",
+   "tag": "España / Cataluña",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Alubia blanca cocida"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Bacalao desalado"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento rojo pequeño"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolleta"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Aceituna negra"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "20",
+       "u": "ml",
+       "n": "Vinagre de vino"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Perejil"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Desalar el bacalao si es necesario (36–48 h, cambiando el agua) o usar bacalao desmigado ya desalado.",
+      "Esqueixar el bacalao: desmigarlo con los dedos en hebras, retirando piel y espinas.",
+      "Lavar y escurrir bien las alubias.",
+      "Cortar los tomates, los pimientos y la cebolleta en dados pequeños.",
+      "Mezclar las alubias con las verduras, el bacalao y las aceitunas.",
+      "Aliñar con aceite, vinagre y sal; terminar con perejil.",
+      "Dejar reposar 30 min en nevera antes de servir."
+     ]
+    }
+   ],
+   "notes": "Ensalada de verano catalana. El nombre («empedrado») viene de su aspecto de piedras de colores. También se hace con garbanzos.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-ensalada-de-garbanzos",
+   "tab": "recetas",
+   "name": "Ensalada de garbanzos",
+   "group": "Salado",
+   "cat": "Ensaladas",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Garbanzo cocido"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Tomate"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento rojo pequeño"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla morada"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pepino"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Aceituna"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Perejil o cilantro"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "20",
+       "u": "ml",
+       "n": "Vinagre de Jerez"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Comino molido (opcional)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar y escurrir bien los garbanzos.",
+      "Cortar los tomates, los pimientos, la cebolla y el pepino en dados pequeños.",
+      "Emulsionar el aceite con el vinagre, la sal y el comino.",
+      "Mezclar los garbanzos con las verduras y las aceitunas.",
+      "Aliñar, añadir las hierbas picadas y dejar reposar 15 min."
+     ]
+    }
+   ],
+   "notes": "Plato único de verano. Admite huevo cocido, atún o ventresca (entonces deja de ser vegana).",
+   "done": false
+  },
+  {
+   "id": "r-recetas-dal",
+   "tab": "recetas",
+   "name": "Dal",
+   "group": "Salado",
+   "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "India",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Lenteja roja (masoor dal) o lenteja amarilla (toor dal)"
+      },
+      {
+       "q": "900",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Cúrcuma molida"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Tomate"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "15",
+       "u": "g",
+       "n": "Jengibre fresco"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Guindilla verde (opcional)"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Comino en grano"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Semilla de mostaza (opcional)"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Garam masala"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Aceite vegetal o ghee"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Cilantro fresco"
+      },
+      {
+       "q": "0,5",
+       "u": "ud.",
+       "n": "Limón"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar las lentejas hasta que el agua salga clara.",
+      "Cocer las lentejas con el agua y la cúrcuma 20–25 min a fuego suave, desespumando, hasta que estén deshechas.",
+      "Picar la cebolla, el tomate, el ajo, el jengibre y la guindilla.",
+      "Calentar el aceite y freír el comino y la mostaza hasta que chisporroteen (tadka).",
+      "Añadir la cebolla y pocharla 8 min; incorporar el ajo, el jengibre y la guindilla y rehogar 1 min.",
+      "Añadir el tomate y el garam masala y cocinar 5 min hasta que se deshaga.",
+      "Verter el sofrito sobre las lentejas, cocer 5 min y ajustar la textura con agua.",
+      "Rectificar de sal y terminar con cilantro y un chorro de limón."
+     ]
+    }
+   ],
+   "notes": "Plato diario de toda la India; se acompaña de arroz basmati o pan (roti, chapati). Con ghee deja de ser vegano.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-caldo-de-verduras",
+   "tab": "recetas",
+   "name": "Caldo de verduras",
+   "group": "Salado",
+   "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Puerro"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Rama de apio"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Nabo (opcional)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Tomate"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Rama de perejil"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "8",
+       "u": "ud.",
+       "n": "Granos de pimienta negra"
+      },
+      {
+       "q": "2,5",
+       "u": "l",
+       "n": "Agua fría"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar todas las verduras; cortarlas en trozos grandes (mirepoix) sin pelar las que no lo necesiten.",
+      "Opcional: dorar la cebolla partida por la mitad en una plancha para dar color y sabor.",
+      "Poner las verduras en una olla con el agua fría, el laurel, el perejil y la pimienta.",
+      "Llevar a ebullición, desespumar y cocer a fuego suave 45 min–1 h, sin tapar del todo.",
+      "Colar sin apretar las verduras para que salga limpio.",
+      "Salar al final solo si se va a tomar directamente; para fondo, dejarlo sin sal."
+     ]
+    }
+   ],
+   "notes": "Fondo básico para cremas, arroces y guisos. Se conserva 4 días en nevera o 3 meses congelado.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-sopa-de-verduras",
+   "tab": "recetas",
+   "name": "Sopa de verduras",
+   "group": "Salado",
+   "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1500",
+       "u": "ml",
+       "n": "Caldo de verduras"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Puerro"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de apio"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Calabacín pequeño"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Judía verde"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Patata pequeña"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Fideo fino o pasta pequeña (opcional)"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Perejil"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar todas las verduras en dados pequeños (paisana o macedonia) del mismo tamaño.",
+      "Rehogar el puerro, la zanahoria y el apio en el aceite 5 min, sin que tomen color.",
+      "Mojar con el caldo y llevar a ebullición.",
+      "Añadir la patata y la judía y cocer 10 min.",
+      "Añadir el calabacín y la pasta y cocer 5 min más.",
+      "Rectificar de sal y terminar con perejil."
+     ]
+    }
+   ],
+   "notes": "Para aprovechar restos de verdura. Las verduras duras van primero y las tiernas al final.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-crema-de-calabaza",
+   "tab": "recetas",
+   "name": "Crema de calabaza",
+   "group": "Salado",
+   "cat": "Sopas, consomés, cremas, potajes y cocidos / Cremas calientes",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1000",
+       "u": "g",
+       "n": "Calabaza pelada"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Puerro"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Patata pequeña"
+      },
+      {
+       "q": "700",
+       "u": "ml",
+       "n": "Caldo de verduras o agua"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pimienta negra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Nuez moscada"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pipas de calabaza tostadas (para terminar)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar la calabaza, la zanahoria y la patata en dados; picar la cebolla y el puerro.",
+      "Pochar la cebolla y el puerro en el aceite 10 min sin que tomen color.",
+      "Añadir la calabaza, la zanahoria y la patata y rehogar 5 min.",
+      "Mojar con el caldo justo para cubrir y cocer 20–25 min, hasta que todo esté tierno.",
+      "Triturar fino, ajustando la textura con caldo, y pasar por el chino si se quiere más fina.",
+      "Rectificar de sal, pimienta y nuez moscada; terminar con un hilo de aceite y pipas."
+     ]
+    }
+   ],
+   "notes": "Asar antes la calabaza al horno 30 min a 200 °C intensifica el sabor. Un chorro de nata o leche de coco la hace más cremosa.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-crema-de-calabacin",
+   "tab": "recetas",
+   "name": "Crema de calabacín",
+   "group": "Salado",
+   "cat": "Sopas, consomés, cremas, potajes y cocidos / Cremas calientes",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1000",
+       "u": "g",
+       "n": "Calabacín"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Puerro"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Patata pequeña"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Caldo de verduras o agua"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pimienta negra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Quesito o queso fresco (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar el calabacín y cortarlo en dados con la piel; picar la cebolla y el puerro; pelar y cortar la patata.",
+      "Pochar la cebolla y el puerro en el aceite 10 min sin que tomen color.",
+      "Añadir el calabacín y la patata y rehogar 5 min.",
+      "Mojar con el caldo justo para cubrir y cocer 15–20 min.",
+      "Triturar fino y ajustar la textura.",
+      "Rectificar de sal y pimienta."
+     ]
+    }
+   ],
+   "notes": "La piel del calabacín da el color verde. El queso es opcional: sin él es vegana; con él, más cremosa.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-crema-de-puerros",
+   "tab": "recetas",
+   "name": "Crema de puerros",
+   "group": "Salado",
+   "cat": "Sopas, consomés, cremas, potajes y cocidos / Cremas calientes",
+   "local": "",
+   "diet": "vegetariano",
+   "freq": "diario",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Puerro (parte blanca y verde clara)"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Patata"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla pequeña"
+      },
+      {
+       "q": "1000",
+       "u": "ml",
+       "n": "Caldo de verduras o agua"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Leche o nata ligera"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Mantequilla o aceite de oliva"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pimienta negra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Cebollino"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Limpiar bien los puerros abriéndolos para quitar la tierra y cortarlos en rodajas; picar la cebolla; pelar y cortar la patata.",
+      "Pochar el puerro y la cebolla en la mantequilla 10 min a fuego suave sin que tomen color.",
+      "Añadir la patata y mojar con el caldo.",
+      "Cocer 20 min, hasta que la patata esté tierna.",
+      "Triturar fino y añadir la leche; dar un hervor.",
+      "Rectificar de sal y pimienta y terminar con cebollino."
+     ]
+    }
+   ],
+   "notes": "Es el potage Parmentier francés; fría y pasada por el chino con nata se convierte en vichyssoise. Con aceite y sin leche queda vegana.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-porrusalda",
+   "tab": "recetas",
+   "name": "Porrusalda",
+   "group": "Salado",
+   "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España / País Vasco",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Puerro"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Patata"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla pequeña"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1,2",
+       "u": "l",
+       "n": "Agua o caldo de verduras"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Limpiar los puerros y cortarlos en trozos de 2 cm; picar la cebolla y el ajo; pelar la zanahoria y cortarla en rodajas.",
+      "Rehogar la cebolla y el ajo en el aceite 5 min; añadir el puerro y rehogar 5 min más sin que tome color.",
+      "Añadir la zanahoria y la patata pelada y chascada en trozos.",
+      "Mojar con el agua y cocer a fuego suave 25–30 min, hasta que la patata esté tierna.",
+      "Rectificar de sal y dejar reposar 10 min."
+     ]
+    }
+   ],
+   "notes": "«Caldo de puerros» en euskera. Muy habitual con bacalao desmigado añadido al final (entonces es de pescado); el puerro, mejor el de invierno.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-sopa-de-ajo-sin-jamon",
+   "tab": "recetas",
+   "name": "Sopa de ajo sin jamón",
+   "group": "Salado",
+   "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
+   "local": "",
+   "diet": "vegetariano",
+   "freq": "semanal",
+   "tag": "España / Castilla y León",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Pan del día anterior (tipo hogaza)"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Pimentón dulce de la Vera"
+      },
+      {
+       "q": "1,2",
+       "u": "l",
+       "n": "Caldo de verduras o agua"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar el pan en rebanadas finas y laminar los ajos.",
+      "Dorar los ajos suavemente en el aceite en una cazuela de barro.",
+      "Añadir el pan y tostarlo ligeramente.",
+      "Apartar del fuego, añadir el pimentón y remover rápido.",
+      "Mojar con el caldo caliente, salar y cocer 10–15 min hasta que el pan se deshaga.",
+      "Cascar los huevos encima y cuajarlos en la sopa (o al horno 3–4 min) con la yema líquida."
+     ]
+    }
+   ],
+   "notes": "Sopa castellana sin jamón ni chorizo. Sin huevo, vegana. La original con jamón ya está en el recetario.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-caldo-verde-portugues",
+   "tab": "recetas",
+   "name": "Caldo verde portugués",
+   "group": "Salado",
+   "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "Portugal / Minho",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Patata harinosa"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Col gallega o berza (couve galega)"
+      },
+      {
+       "q": "1,5",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Chouriço en rodajas (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Pelar y cortar las patatas; picar la cebolla y el ajo.",
+      "Cocer la patata, la cebolla y el ajo con el agua, sal y la mitad del aceite 20 min.",
+      "Quitar los nervios a la col, enrollar las hojas y cortarlas en juliana muy fina (casi hilos).",
+      "Triturar la patata con su caldo hasta tener una crema ligera.",
+      "Llevar a ebullición, añadir la col y cocer 3–5 min, sin tapar, para que quede verde.",
+      "Rectificar de sal y servir con un hilo del aceite restante."
+     ]
+    }
+   ],
+   "notes": "Sopa nacional de Portugal, del Minho. Se sirve tradicionalmente con una rodaja de chouriço y broa (pan de maíz); sin él es vegana.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-minestrone",
+   "tab": "recetas",
+   "name": "Minestrone",
+   "group": "Salado",
+   "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
+   "local": "",
+   "diet": "vegetariano",
+   "freq": "diario",
+   "tag": "Italia",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Rama de apio"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Calabacín"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Judía verde"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Patata"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Col o kale"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Tomate triturado"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Alubia borlotti o blanca cocida"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Pasta corta pequeña (ditalini)"
+      },
+      {
+       "q": "1,5",
+       "u": "l",
+       "n": "Caldo de verduras"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Corteza de parmesano (opcional)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Albahaca"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Parmesano rallado"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pimienta negra"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar la cebolla, la zanahoria y el apio en brunoise (soffritto); el resto de verduras en dados de 1 cm; la col en juliana.",
+      "Pochar el soffritto en el aceite 10 min.",
+      "Añadir la patata, la judía y el calabacín y rehogar 5 min.",
+      "Incorporar el tomate, el caldo y la corteza de parmesano; cocer 20 min.",
+      "Añadir la col y las alubias y cocer 10 min.",
+      "Añadir la pasta y cocerla el tiempo indicado en el paquete.",
+      "Retirar la corteza, rectificar de sal y pimienta y servir con albahaca, parmesano y un hilo de aceite."
+     ]
+    }
+   ],
+   "notes": "Cada región italiana tiene la suya; la regla es usar verdura de temporada. Sin parmesano queda vegana. Con arroz en lugar de pasta, minestrone di riso.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-ensalada-mixta",
+   "tab": "recetas",
+   "name": "Ensalada mixta",
+   "group": "Salado",
+   "cat": "Ensaladas",
+   "local": "",
+   "diet": "pescado",
+   "freq": "semanal",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Lechuga (romana o cogollos)"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Tomate"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "160",
+       "u": "g",
+       "n": "Atún en conserva"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Aceituna"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Espárrago blanco en conserva (opcional)"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "20",
+       "u": "ml",
+       "n": "Vinagre de vino"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cocer los huevos 10 min, enfriar en agua con hielo, pelar y cortar en cuartos.",
+      "Lavar y centrifugar la lechuga; cortarla en trozos.",
+      "Cortar los tomates en gajos, la cebolla en juliana fina y rallar la zanahoria.",
+      "Escurrir el atún.",
+      "Montar la lechuga de base y repartir encima el tomate, la cebolla, la zanahoria, el huevo, el atún, las aceitunas y los espárragos.",
+      "Aliñar en el momento de servir con sal, vinagre y aceite, por este orden."
+     ]
+    }
+   ],
+   "notes": "La ensalada de casa de comidas española. Sal y vinagre antes que el aceite, para que se disuelva la sal.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-ensalada-campera",
+   "tab": "recetas",
+   "name": "Ensalada campera",
+   "group": "Salado",
+   "cat": "Ensaladas",
+   "local": "",
+   "diet": "pescado",
+   "freq": "semanal",
+   "tag": "España / Andalucía",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "800",
+       "u": "g",
+       "n": "Patata"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Tomate"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolleta"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "160",
+       "u": "g",
+       "n": "Atún en conserva"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Aceituna verde"
+      },
+      {
+       "q": "70",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "25",
+       "u": "ml",
+       "n": "Vinagre de Jerez"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Perejil"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cocer las patatas con piel en agua con sal 20–25 min, hasta que estén tiernas; pelar y cortar en dados o rodajas.",
+      "Cocer los huevos 10 min, enfriar, pelar y cortar.",
+      "Cortar el tomate, el pimiento y la cebolleta en dados.",
+      "Mezclar la patata templada con las verduras, el atún y las aceitunas.",
+      "Aliñar con sal, vinagre y aceite; añadir el huevo y el perejil.",
+      "Servir templada o reposada en nevera 30 min."
+     ]
+    }
+   ],
+   "notes": "Ensalada de patata de verano. La patata templada absorbe mejor el aliño. Sin huevo ni atún queda vegana.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-pipirrana",
+   "tab": "recetas",
+   "name": "Pipirrana",
+   "group": "Salado",
+   "cat": "Ensaladas",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España / Andalucía",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Pimiento verde italiano"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla dulce"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pepino"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "20",
+       "u": "ml",
+       "n": "Vinagre de Jerez"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Pelar el tomate y cortarlo en dados pequeños.",
+      "Cortar el pimiento, la cebolla y el pepino en brunoise.",
+      "Mezclar todas las verduras en un bol.",
+      "Aliñar con sal, vinagre y aceite.",
+      "Reposar en nevera al menos 30 min y servir muy fría."
+     ]
+    }
+   ],
+   "notes": "Ensalada picada de Jaén y toda Andalucía oriental. Se suele acompañar con huevo cocido o atún (entonces deja de ser vegana). En Jaén se hace también majando el tomate con ajo.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-remojon",
+   "tab": "recetas",
+   "name": "Remojón",
+   "group": "Salado",
+   "cat": "Ensaladas",
+   "local": "",
+   "diet": "pescado",
+   "freq": "semanal",
+   "tag": "España / Andalucía",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Naranja"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Bacalao desalado (o asado y desmigado)"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolleta"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Aceituna negra"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Desmigar el bacalao desalado (si se quiere, asarlo antes unos minutos en la plancha).",
+      "Cocer los huevos 10 min, enfriar, pelar y cortar en cuartos.",
+      "Pelar las naranjas a lo vivo y cortarlas en rodajas o gajos, reservando el jugo.",
+      "Cortar la cebolleta en juliana fina.",
+      "Montar la naranja de base y repartir el bacalao, la cebolleta, el huevo y las aceitunas.",
+      "Aliñar con el jugo de la naranja, el aceite y sal."
+     ]
+    }
+   ],
+   "notes": "Ensalada de invierno de Granada. Admite patata cocida; sin huevo ni bacalao es la ensalada de naranja vegana.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-ensalada-de-tomate-y-cebolla",
+   "tab": "recetas",
+   "name": "Ensalada de tomate y cebolla",
+   "group": "Salado",
+   "cat": "Ensaladas",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "800",
+       "u": "g",
+       "n": "Tomate maduro (de temporada)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla dulce o cebolleta"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Orégano seco"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "15",
+       "u": "ml",
+       "n": "Vinagre de vino (opcional)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal en escamas"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar los tomates y cortarlos en rodajas o gajos.",
+      "Cortar la cebolla en juliana muy fina y, si pica, dejarla 10 min en agua fría y escurrir.",
+      "Disponer el tomate, cubrir con la cebolla y espolvorear orégano.",
+      "Aliñar en el momento con sal en escamas, vinagre y un buen aceite."
+     ]
+    }
+   ],
+   "notes": "Solo vale con tomate maduro de temporada (junio a septiembre). Con ventresca o atún es la clásica de chiringuito.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-esqueixada",
+   "tab": "recetas",
+   "name": "Esqueixada",
+   "group": "Salado",
+   "cat": "Ensaladas",
+   "local": "",
+   "diet": "pescado",
+   "freq": "semanal",
+   "tag": "España / Cataluña",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Bacalao desalado (lomo o migas)"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento rojo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla tierna"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Aceituna negra de Aragón"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "15",
+       "u": "ml",
+       "n": "Vinagre de vino"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Desalar el bacalao 36–48 h si viene salado, cambiando el agua.",
+      "Esqueixar el bacalao crudo: quitar piel y espinas y desmigarlo con los dedos en tiras finas.",
+      "Escurrirlo bien apretando con un paño.",
+      "Cortar el tomate, los pimientos y la cebolla en brunoise.",
+      "Mezclar las verduras con el bacalao y las aceitunas.",
+      "Aliñar con aceite, poco vinagre y sal solo si hace falta; reposar 15 min en frío."
+     ]
+    }
+   ],
+   "notes": "«Esqueixar» es desgarrar: el bacalao se come crudo, solo desalado. Ensalada típica de verano en Cataluña.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-xato",
+   "tab": "recetas",
+   "name": "Xató",
+   "group": "Salado",
+   "cat": "Ensaladas",
+   "local": "",
+   "diet": "pescado",
+   "freq": "semanal",
+   "tag": "España / Cataluña",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Salsa de xató",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Ñora"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Almendra tostada"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Avellana tostada"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rebanada de pan"
+      },
+      {
+       "q": "20",
+       "u": "ml",
+       "n": "Vinagre de vino"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar las ñoras en agua caliente 15 min, abrirlas y raspar la carne con una cuchara.",
+      "Tostar la rebanada de pan en la plancha (o freírla con un poco de aceite) y empaparla en el vinagre.",
+      "Majar o triturar las almendras, las avellanas, los ajos y el pan hasta tener una pasta.",
+      "Añadir la carne de ñora y seguir triturando hasta que sea homogénea.",
+      "Emulsionar añadiendo el aceite en hilo hasta que quede cremosa; salar."
+     ]
+    },
+    {
+     "name": "Ensalada",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Escarola"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Bacalao desalado"
+      },
+      {
+       "q": "120",
+       "u": "g",
+       "n": "Atún en conserva"
+      },
+      {
+       "q": "8",
+       "u": "ud.",
+       "n": "Filete de anchoa"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Aceituna arbequina o negra"
+      }
+     ],
+     "steps": [
+      "Lavar y secar bien la escarola y trocearla.",
+      "Esqueixar el bacalao en tiras, sin piel ni espinas.",
+      "Mezclar la escarola con la salsa.",
+      "Repartir encima el bacalao, el atún, las anchoas y las aceitunas."
+     ]
+    }
+   ],
+   "notes": "Ensalada de invierno del Penedès y el Garraf (Vilanova, Sitges, Vilafranca), centro de las «xatonadas» de carnaval. La salsa es pariente del romesco.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-ensalada-griega",
+   "tab": "recetas",
+   "name": "Ensalada griega",
+   "group": "Salado",
+   "cat": "Ensaladas",
+   "local": "",
+   "diet": "vegetariano",
+   "freq": "semanal",
+   "tag": "Grecia",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pepino"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla morada"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Queso feta en bloque"
+      },
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Aceituna kalamata"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Alcaparra (opcional)"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Orégano seco"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "15",
+       "u": "ml",
+       "n": "Vinagre de vino tinto"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar el tomate en gajos, el pepino en medias lunas gruesas, la cebolla en aros finos y el pimiento en aros.",
+      "Disponer las verduras en una fuente con las aceitunas y las alcaparras.",
+      "Aliñar con sal, vinagre y la mitad del aceite.",
+      "Colocar el bloque de feta entero encima.",
+      "Terminar con el orégano y el resto del aceite."
+     ]
+    }
+   ],
+   "notes": "Horiatiki («ensalada de pueblo»): no lleva lechuga y el feta va en bloque, no desmenuzado.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-arroz-con-verduras",
+   "tab": "recetas",
+   "name": "Arroz con verduras",
+   "group": "Salado",
+   "cat": "Arroces",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "320",
+       "u": "g",
+       "n": "Arroz redondo o largo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento rojo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Calabacín"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Guisante"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "800",
+       "u": "ml",
+       "n": "Caldo de verduras"
+      },
+      {
+       "q": "40",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Cúrcuma o azafrán"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar todas las verduras en dados de 1 cm; picar el ajo.",
+      "Pochar la cebolla, el ajo y la zanahoria en el aceite 8 min.",
+      "Añadir los pimientos y el calabacín y saltear 5 min.",
+      "Añadir el arroz y nacarar 1–2 min.",
+      "Mojar con el caldo caliente con la cúrcuma, salar y cocer 17–18 min a fuego medio-suave, añadiendo el guisante a los 10 min.",
+      "Reposar 5 min tapado."
+     ]
+    }
+   ],
+   "notes": "Arroz de cazuela de diario, seco y suelto. Sirve de base para añadir legumbre, huevo o pescado.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-paella-de-verduras",
+   "tab": "recetas",
+   "name": "Paella de verduras",
+   "group": "Salado",
+   "cat": "Arroces",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España / Comunidad Valenciana",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Arroz redondo (bomba o senia)"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Judía verde plana (bajoqueta)"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Garrofó (judión) fresco o congelado"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Alcachofa"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento rojo"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Coliflor"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Hebras de azafrán"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de romero"
+      },
+      {
+       "q": "1,2",
+       "u": "l",
+       "n": "Caldo de verduras"
+      },
+      {
+       "q": "70",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Limpiar las alcachofas y cortarlas en cuartos; trocear la judía; cortar el pimiento en tiras y la coliflor en ramilletes pequeños; rallar el tomate.",
+      "Calentar el aceite en una paella de 40 cm y sofreír el pimiento; retirar y reservar.",
+      "Sofreír la judía, el garrofó, la alcachofa y la coliflor 8 min.",
+      "Añadir el ajo picado y el tomate y cocinar 5 min; apartar del fuego y añadir el pimentón.",
+      "Mojar con el caldo, añadir el azafrán y salar; cocer 10 min.",
+      "Repartir el arroz en cruz y extenderlo; no volver a remover.",
+      "Cocer 10 min a fuego fuerte y 8 min a fuego suave; colocar el pimiento y el romero los últimos minutos.",
+      "Subir el fuego al final para el socarrat y reposar 5 min con un paño."
+     ]
+    }
+   ],
+   "notes": "Versión de huerta de la paella valenciana, con las verduras de la propia receta. El caldo debe quedar algo subido de sal antes de echar el arroz.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-arroz-caldoso-de-verduras",
+   "tab": "recetas",
+   "name": "Arroz caldoso de verduras",
+   "group": "Salado",
+   "cat": "Arroces",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España / Comunidad Valenciana",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Arroz redondo"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Alcachofa"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Judía verde"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Coliflor"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Nabo pequeño"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento rojo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Hebras de azafrán"
+      },
+      {
+       "q": "1,8",
+       "u": "l",
+       "n": "Caldo de verduras"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Limpiar y trocear todas las verduras en trozos de bocado; rallar el tomate; picar el ajo.",
+      "Sofreír en una cazuela el pimiento, la zanahoria y el nabo 5 min; añadir la alcachofa, la judía y la coliflor y sofreír 5 min más.",
+      "Añadir el ajo y el tomate y cocinar 5 min; apartar del fuego y añadir el pimentón.",
+      "Mojar con el caldo, añadir el azafrán y cocer 10 min.",
+      "Añadir el arroz, salar y cocer 16–17 min removiendo de vez en cuando.",
+      "Servir enseguida, con caldo abundante."
+     ]
+    }
+   ],
+   "notes": "El caldoso debe servirse al momento porque el arroz sigue absorbiendo caldo. Admite garbanzo o alubia cocida.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-arroz-al-horno-de-verduras",
+   "tab": "recetas",
+   "name": "Arroz al horno de verduras",
+   "group": "Salado",
+   "cat": "Arroces",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "España / Comunidad Valenciana",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Arroz redondo"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Garbanzo cocido"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Patata mediana"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cabeza de ajos"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Berenjena pequeña"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento rojo"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Hebras de azafrán"
+      },
+      {
+       "q": "900",
+       "u": "ml",
+       "n": "Caldo de verduras"
+      },
+      {
+       "q": "80",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Precalentar el horno a 220 °C.",
+      "Pelar las patatas y cortarlas en rodajas de 0,5 cm; cortar un tomate en rodajas y rallar el otro; cortar la berenjena y el pimiento en dados.",
+      "Dorar en el aceite, en una cazuela de barro, las patatas, las rodajas de tomate y la cabeza de ajos entera; retirar.",
+      "Sofreír la berenjena y el pimiento 5 min; añadir el tomate rallado y cocinar 3 min.",
+      "Añadir el arroz y los garbanzos, apartar del fuego y añadir el pimentón; mezclar.",
+      "Mojar con el caldo hirviendo con el azafrán y salar.",
+      "Colocar encima las patatas, el tomate en rodajas y la cabeza de ajos en el centro.",
+      "Hornear 18–20 min y reposar 5 min."
+     ]
+    }
+   ],
+   "notes": "Versión de verduras del arròs al forn. La proporción de caldo es algo más del doble que de arroz, en volumen, porque el horno evapora poco.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-arroz-negro",
+   "tab": "recetas",
+   "name": "Arroz negro",
+   "group": "Salado",
+   "cat": "Arroces",
+   "local": "",
+   "diet": "pescado",
+   "freq": "semanal",
+   "tag": "España / Comunidad Valenciana",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Arroz redondo (bomba o senia)"
+      },
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Sepia o calamar limpio"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Sobre de tinta de calamar (8 g cada uno)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "1,2",
+       "u": "l",
+       "n": "Fumet de pescado"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Allioli (para acompañar)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar la sepia en dados pequeños; picar la cebolla, el pimiento y el ajo en brunoise; rallar el tomate.",
+      "Saltear la sepia en el aceite, en la paella, 4–5 min hasta que suelte el agua y se dore.",
+      "Añadir la cebolla, el pimiento y el ajo y pochar 10 min.",
+      "Añadir el tomate y cocinar 5 min; apartar del fuego y añadir el pimentón.",
+      "Disolver la tinta en el fumet caliente, mojar y salar.",
+      "Repartir el arroz y cocer 10 min a fuego fuerte y 8 min a fuego suave sin remover.",
+      "Reposar 5 min y servir con allioli."
+     ]
+    }
+   ],
+   "notes": "Arroz seco de la costa valenciana y catalana. Esta es la versión sin frituras ni rebozados; el allioli se puede aligerar con yogur o servir aparte.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-risotto-de-verduras",
+   "tab": "recetas",
+   "name": "Risotto de verduras",
+   "group": "Salado",
+   "cat": "Arroces",
+   "local": "",
+   "diet": "vegetariano",
+   "freq": "diario",
+   "tag": "Italia",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "320",
+       "u": "g",
+       "n": "Arroz carnaroli o arborio"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla pequeña"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Calabacín"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Espárrago triguero"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Guisante"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Vino blanco seco"
+      },
+      {
+       "q": "1,2",
+       "u": "l",
+       "n": "Caldo de verduras caliente"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Mantequilla fría"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Parmesano rallado"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pimienta negra"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar el calabacín y la zanahoria en dados pequeños; los espárragos en trozos (las puntas aparte); picar la cebolla muy fina.",
+      "Saltear las verduras en un poco de aceite 3–4 min, que queden al dente; reservar.",
+      "Pochar la cebolla en el resto del aceite 5 min sin color.",
+      "Añadir el arroz y nacararlo 2 min (tostatura).",
+      "Mojar con el vino y dejar evaporar.",
+      "Añadir el caldo caliente cazo a cazo, removiendo y esperando a que se absorba, unos 16–18 min.",
+      "Incorporar las verduras en los últimos 3 min.",
+      "Fuera del fuego, mantecar con la mantequilla fría y el parmesano; tapar y reposar 2 min (all'onda)."
+     ]
+    }
+   ],
+   "notes": "El arroz no se lava: el almidón da la cremosidad. Con aceite en vez de mantequilla y sin queso, vegano.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-cuscus-con-verduras",
+   "tab": "recetas",
+   "name": "Cuscús con verduras",
+   "group": "Salado",
+   "cat": "Pastas alimenticias",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "Marruecos",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Verduras",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Nabo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Calabacín"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Calabaza"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Col pequeña (¼)"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Tomate"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Garbanzo cocido"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Ras el hanout"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Jengibre molido"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Cúrcuma"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Azafrán"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Cilantro y perejil (manojo atado)"
+      },
+      {
+       "q": "1,5",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pimienta negra"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar las verduras en trozos grandes; la cebolla y el tomate en dados.",
+      "Rehogar la cebolla y el tomate en el aceite con las especias 5 min.",
+      "Añadir el agua, el manojo de hierbas, la zanahoria y el nabo; cocer 20 min.",
+      "Añadir la col y la calabaza y cocer 10 min; añadir el calabacín y los garbanzos y cocer 10 min más.",
+      "Rectificar de sal y pimienta."
+     ]
+    },
+    {
+     "name": "Sémola",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Sémola de cuscús de grano medio"
+      },
+      {
+       "q": "400",
+       "u": "ml",
+       "n": "Caldo de las verduras o agua caliente"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Aceite de oliva o smen"
+      }
+     ],
+     "steps": [
+      "Mezclar la sémola con el aceite y una pizca de sal frotando con las manos.",
+      "Mojar con el caldo caliente, tapar y dejar hidratar 5 min.",
+      "Desgranar con un tenedor; idealmente, cocerla al vapor sobre las verduras 10 min (cuscusera) y desgranar otra vez.",
+      "Servir la sémola en montaña con las verduras encima y caldo aparte."
+     ]
+    }
+   ],
+   "notes": "Cuscús de los siete vegetales (seksu bi sebaa khodar), plato del viernes en Marruecos. Sirve también con garbanzo y pasas caramelizadas (tfaya).",
+   "done": false
+  },
+  {
+   "id": "r-recetas-merluza-en-salsa-verde",
+   "tab": "recetas",
+   "name": "Merluza en salsa verde",
+   "group": "Salado",
+   "cat": "Pescados",
+   "local": "",
+   "diet": "pescado",
+   "freq": "semanal",
+   "tag": "España / País Vasco",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "8",
+       "u": "ud.",
+       "n": "Rodaja o lomo de merluza (unos 150 g por ración)"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Almeja (opcional)"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Vino blanco"
+      },
+      {
+       "q": "300",
+       "u": "ml",
+       "n": "Fumet de pescado"
+      },
+      {
+       "q": "3",
+       "u": "cda",
+       "n": "Perejil picado"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Guisante o espárrago blanco (opcional)"
+      },
+      {
+       "q": "80",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Purgar las almejas 1 h en agua con sal si se usan.",
+      "Salar la merluza.",
+      "Picar el ajo muy fino y dorarlo suavemente en el aceite en una cazuela de barro.",
+      "Añadir la harina y rehogar 1 min; mojar con el vino y dejar evaporar.",
+      "Añadir el fumet poco a poco moviendo la cazuela y la mitad del perejil.",
+      "Colocar la merluza con la piel hacia arriba y las almejas; cocer 3–4 min moviendo la cazuela en vaivén para ligar la salsa.",
+      "Dar la vuelta a la merluza y cocer 2–3 min más; añadir el guisante o los espárragos.",
+      "Terminar con el resto del perejil."
+     ]
+    }
+   ],
+   "notes": "La salsa se liga con la gelatina de la merluza al mover la cazuela; no remover con cuchara. Con cocochas es la versión de fiesta.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-merluza-a-la-gallega",
+   "tab": "recetas",
+   "name": "Merluza a la gallega",
+   "group": "Salado",
+   "cat": "Pescados",
+   "local": "",
+   "diet": "pescado",
+   "freq": "semanal",
+   "tag": "España / Galicia",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Rodaja de merluza (unos 200 g)"
+      },
+      {
+       "q": "800",
+       "u": "g",
+       "n": "Patata"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimentón picante (opcional)"
+      },
+      {
+       "q": "80",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "15",
+       "u": "ml",
+       "n": "Vinagre de vino (opcional)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal gruesa"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Pelar las patatas y cortarlas en rodajas de 1 cm; cortar la cebolla en cuartos.",
+      "Cocer las patatas con la cebolla y el laurel en agua con sal 15 min.",
+      "Añadir la merluza y cocer 4–5 min a fuego suave, sin que hierva fuerte.",
+      "Escurrir con cuidado y colocar en una fuente con las patatas.",
+      "Laminar los ajos y dorarlos en el aceite; apartar del fuego y añadir los pimentones (y el vinagre si se usa).",
+      "Regar la merluza y las patatas con la ajada y espolvorear sal gruesa."
+     ]
+    }
+   ],
+   "notes": "La «ajada» o «allada» es el refrito gallego de ajo y pimentón; es la misma que se usa con el pulpo y el rape a la gallega.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-pescado-al-horno-con-patatas-panaderas",
+   "tab": "recetas",
+   "name": "Pescado al horno con patatas panaderas",
+   "group": "Salado",
+   "cat": "Pescados",
+   "local": "",
+   "diet": "pescado",
+   "freq": "semanal",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Dorada o lubina (unos 600 g cada una), limpia"
+      },
+      {
+       "q": "800",
+       "u": "g",
+       "n": "Patata"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Vino blanco"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Limón"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Perejil"
+      },
+      {
+       "q": "80",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Precalentar el horno a 200 °C.",
+      "Pelar las patatas y cortarlas en rodajas de 0,5 cm; cortar la cebolla y el pimiento en juliana.",
+      "Colocar las patatas, la cebolla y el pimiento en una bandeja, salar, regar con la mitad del aceite y un vaso de agua.",
+      "Hornear 25–30 min, hasta que las patatas estén casi tiernas.",
+      "Hacer dos o tres cortes en el lomo del pescado, salarlo y meter rodajas de limón en los cortes.",
+      "Colocar el pescado sobre las patatas, regar con el vino y un hilo de aceite.",
+      "Hornear 15–20 min, según tamaño, hasta que la espina se separe con facilidad.",
+      "Dorar el ajo laminado en el resto del aceite, añadir el perejil y regar el pescado al servir."
+     ]
+    }
+   ],
+   "notes": "El refrito de ajo y perejil al final es el de la dorada «a la espalda». Regla orientativa: 10 min por cada 2–3 cm de grosor.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-dorada-a-la-sal",
+   "tab": "recetas",
+   "name": "Dorada a la sal",
+   "group": "Salado",
+   "cat": "Pescados",
+   "local": "",
+   "diet": "pescado",
+   "freq": "semanal",
+   "tag": "España / Murcia",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Dorada o lubina (unos 600 g), sin escamar ni abrir"
+      },
+      {
+       "q": "2000",
+       "u": "g",
+       "n": "Sal gruesa"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Clara de huevo (opcional)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Limón"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite de oliva virgen extra"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Precalentar el horno a 200 °C.",
+      "Pedir el pescado limpio de vísceras por las agallas, sin abrir la barriga y con las escamas, para que la sal no entre.",
+      "Mezclar la sal gruesa con un poco de agua o la clara para que se compacte.",
+      "Hacer una cama de sal en una bandeja, colocar el pescado y cubrirlo por completo, apretando.",
+      "Hornear 20–25 min (unos 20 min por cada 500 g de pieza).",
+      "Romper la costra en la mesa, retirar la piel y sacar los lomos.",
+      "Servir con aceite y limón."
+     ]
+    }
+   ],
+   "notes": "Técnica del Mar Menor y Almería. El pescado se cuece en su propio jugo y no queda salado si la piel está entera.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-pescado-a-la-plancha",
+   "tab": "recetas",
+   "name": "Pescado a la plancha",
+   "group": "Salado",
+   "cat": "Pescados",
+   "local": "",
+   "diet": "pescado",
+   "freq": "semanal",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Lomo o filete de pescado blanco o azul (unos 180 g)"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Perejil"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Limón"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal gruesa o en escamas"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Sacar el pescado de la nevera 10 min antes y secarlo bien con papel.",
+      "Majar el ajo y el perejil con el aceite y unas gotas de limón (ajillo).",
+      "Calentar mucho la plancha y pintarla con aceite.",
+      "Marcar el pescado por el lado de la piel 3–4 min, sin moverlo, hasta que esté dorado y crujiente.",
+      "Dar la vuelta y cocinar 1–2 min más, según grosor.",
+      "Salar con sal en escamas y regar con el ajillo."
+     ]
+    }
+   ],
+   "notes": "Vale para merluza, bacalao fresco, lubina, dorada, salmón, atún, bonito… La plancha muy caliente y el pescado muy seco evitan que se pegue.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-bacalao-al-pil-pil",
+   "tab": "recetas",
+   "name": "Bacalao al pil-pil",
+   "group": "Salado",
+   "cat": "Pescados",
+   "local": "",
+   "diet": "pescado",
+   "freq": "semanal",
+   "tag": "España / País Vasco",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Lomo de bacalao desalado con piel (unos 200 g)"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Guindilla seca"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra (suave)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Desalar el bacalao 36–48 h en nevera, cambiando el agua cada 8 h; secarlo muy bien.",
+      "Laminar los ajos y confitarlos con la guindilla en el aceite a fuego suave hasta que estén dorados; retirarlos.",
+      "Dejar templar el aceite (unos 60–70 °C) en una cazuela de barro.",
+      "Colocar el bacalao con la piel hacia arriba y confitarlo a fuego muy suave 5 min; darle la vuelta y otros 3–4 min.",
+      "Retirar el bacalao y dejar templar el aceite, que habrá recogido la gelatina.",
+      "Ligar el pil-pil moviendo la cazuela en círculos (o con un colador batiendo) hasta que emulsione y quede como una mayonesa ligera.",
+      "Devolver el bacalao, calentar suave moviendo la cazuela y servir con los ajos y la guindilla."
+     ]
+    }
+   ],
+   "notes": "La emulsión sale de la gelatina de la piel: el aceite nunca debe superar los 70 °C. Si no liga, añadir unas gotas de agua templada.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-bacalao-a-la-vizcaina",
+   "tab": "recetas",
+   "name": "Bacalao a la vizcaína",
+   "group": "Salado",
+   "cat": "Pescados",
+   "local": "",
+   "diet": "pescado",
+   "freq": "semanal",
+   "tag": "España / País Vasco",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Salsa vizcaína",
+     "ings": [
+      {
+       "q": "10",
+       "u": "ud.",
+       "n": "Pimiento choricero (o 3 cda de carne de choricero)"
+      },
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Cebolla roja"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rebanada de pan del día anterior (opcional)"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Abrir los choriceros, quitarles las semillas e hidratarlos en agua caliente 1 h; raspar la carne.",
+      "Picar la cebolla y el ajo y pocharlos en el aceite a fuego muy suave 45 min–1 h, hasta que estén muy blandos y dulces.",
+      "Añadir la carne de choricero y el pan y cocinar 10 min con un poco del agua de remojo.",
+      "Triturar y pasar por el chino; rectificar de sal."
+     ]
+    },
+    {
+     "name": "Bacalao",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Lomo de bacalao desalado (unos 200 g)"
+      },
+      {
+       "q": "40",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      }
+     ],
+     "steps": [
+      "Desalar el bacalao 36–48 h en nevera, cambiando el agua; secarlo bien.",
+      "Confitar el bacalao en aceite templado 4–5 min con la piel hacia arriba (o pocharlo en agua sin hervir).",
+      "Disponer la salsa en una cazuela de barro y colocar el bacalao encima.",
+      "Calentar juntos 5 min a fuego suave moviendo la cazuela."
+     ]
+    }
+   ],
+   "notes": "La vizcaína auténtica no lleva tomate: el color rojo lo da el pimiento choricero. La salsa se congela bien.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-suquet-de-peix",
+   "tab": "recetas",
+   "name": "Suquet de peix",
+   "group": "Salado",
+   "cat": "Pescados",
+   "local": "",
+   "diet": "pescado",
+   "freq": "semanal",
+   "tag": "España / Cataluña",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "800",
+       "u": "g",
+       "n": "Pescado de roca o rape, merluza, rascacio (en rodajas o tacos)"
+      },
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Patata"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rebanada de pan"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Almendra tostada"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Perejil"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Hebras de azafrán"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Fumet de pescado"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Allioli (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Salar el pescado.",
+      "Dorar 2 ajos enteros y la rebanada de pan en el aceite; retirar.",
+      "Majar el pan, los ajos fritos, la almendra, el perejil y el azafrán en el mortero (picada).",
+      "En el mismo aceite, sofreír el tomate rallado con los otros 2 ajos picados 5 min; apartar y añadir el pimentón.",
+      "Añadir las patatas peladas y chascadas, rehogar y mojar con el fumet; cocer 15 min.",
+      "Añadir la picada diluida en un poco de caldo y el pescado; cocer 5–6 min moviendo la cazuela.",
+      "Rectificar de sal y reposar 3 min; servir con allioli si se quiere."
+     ]
+    }
+   ],
+   "notes": "Guiso marinero de la Costa Brava; «suquet» viene de «suc», jugo. El pescado se añade al final para que no se deshaga.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-sardinas-a-la-plancha",
+   "tab": "recetas",
+   "name": "Sardinas a la plancha",
+   "group": "Salado",
+   "cat": "Pescados",
+   "local": "",
+   "diet": "pescado",
+   "freq": "semanal",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1000",
+       "u": "g",
+       "n": "Sardina fresca"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal gruesa"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Limón"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Perejil y ajo picado (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar las sardinas sin escamar ni vaciar (o vaciadas si se prefiere) y secarlas bien.",
+      "Salarlas con sal gruesa 15 min antes.",
+      "Calentar mucho la plancha y untarla con aceite.",
+      "Asar 2–3 min por cada lado, hasta que la piel esté crujiente y la carne se despegue de la espina.",
+      "Servir con limón, un hilo de aceite y ajo y perejil si se quiere."
+     ]
+    }
+   ],
+   "notes": "Mejor en temporada, de junio a septiembre, cuando tienen más grasa. Pescado azul muy rico en omega-3.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-mejillones-al-vapor",
+   "tab": "recetas",
+   "name": "Mejillones al vapor",
+   "group": "Salado",
+   "cat": "Mariscos",
+   "local": "",
+   "diet": "pescado",
+   "freq": "semanal",
+   "tag": "España / Galicia",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2000",
+       "u": "g",
+       "n": "Mejillón"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Vino blanco (opcional)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Limón"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Limpiar los mejillones: raspar las conchas y arrancar las barbas; desechar los que estén abiertos o rotos.",
+      "Ponerlos en una olla amplia con el laurel y el vino, sin agua.",
+      "Tapar y cocinar a fuego fuerte 3–5 min, moviendo la olla, hasta que se abran.",
+      "Retirar en cuanto se abran y desechar los que sigan cerrados.",
+      "Servir con limón y su caldo colado."
+     ]
+    }
+   ],
+   "notes": "Galicia produce la mayor parte del mejillón de Europa (DOP Mexillón de Galicia). El caldo sirve para arroces y salsas.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-almejas-a-la-marinera",
+   "tab": "recetas",
+   "name": "Almejas a la marinera",
+   "group": "Salado",
+   "cat": "Mariscos",
+   "local": "",
+   "diet": "pescado",
+   "freq": "semanal",
+   "tag": "España / Galicia",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1000",
+       "u": "g",
+       "n": "Almeja"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Vino blanco"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Fumet de pescado o agua"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Guindilla (opcional)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Perejil"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Purgar las almejas 1–2 h en agua fría con sal, cambiando el agua una vez.",
+      "Picar la cebolla y el ajo en brunoise y pocharlos en el aceite con la guindilla 10 min.",
+      "Añadir la harina y rehogar 1 min; apartar del fuego y añadir el pimentón.",
+      "Mojar con el vino y dejar evaporar el alcohol; añadir el fumet.",
+      "Incorporar las almejas, tapar y cocinar 3–4 min moviendo la cazuela hasta que se abran.",
+      "Desechar las que no se abran y terminar con perejil."
+     ]
+    }
+   ],
+   "notes": "La salsa se liga con la harina y el jugo de las almejas; pide pan.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-pulpo-a-la-gallega",
+   "tab": "recetas",
+   "name": "Pulpo a la gallega",
+   "group": "Salado",
+   "cat": "Mariscos",
+   "local": "",
+   "diet": "pescado",
+   "freq": "semanal",
+   "tag": "España / Galicia",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2000",
+       "u": "g",
+       "n": "Pulpo (congelado o «asustado»)"
+      },
+      {
+       "q": "1000",
+       "u": "g",
+       "n": "Patata (opcional, cachelos)"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimentón picante"
+      },
+      {
+       "q": "80",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal gruesa"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Si el pulpo es fresco, congelarlo al menos 48 h para que se ablande; descongelarlo en la nevera.",
+      "Llevar a ebullición una olla grande de agua sin sal.",
+      "Asustar el pulpo: sumergirlo y sacarlo tres veces, cogiéndolo por la cabeza, para que se ricen los tentáculos.",
+      "Cocerlo 30–40 min a fuego medio (unos 20 min por kg), hasta que al pinchar la parte gruesa entre con poca resistencia.",
+      "Dejar reposar 10 min en el agua apagada; si se hacen cachelos, cocer las patatas con piel en esa agua.",
+      "Cortar el pulpo en rodajas con tijeras sobre un plato de madera.",
+      "Espolvorear sal gruesa, los pimentones y regar con el aceite."
+     ]
+    }
+   ],
+   "notes": "Polbo á feira. Se sirve en plato de madera sobre cachelos. El pulpo se sala al final.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-calamares-en-su-tinta",
+   "tab": "recetas",
+   "name": "Calamares en su tinta",
+   "group": "Salado",
+   "cat": "Mariscos",
+   "local": "",
+   "diet": "pescado",
+   "freq": "semanal",
+   "tag": "España / País Vasco",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1000",
+       "u": "g",
+       "n": "Calamar o chipirón con su tinta"
+      },
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Sobre de tinta de calamar (si hace falta)"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Vino blanco"
+      },
+      {
+       "q": "200",
+       "u": "ml",
+       "n": "Fumet de pescado"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Limpiar los calamares: separar las bolsas de tinta y reservarlas; cortar los cuerpos en anillas o dejarlos enteros y picar las patas.",
+      "Picar la cebolla, el pimiento y el ajo en brunoise y pocharlos en el aceite a fuego suave 30 min, hasta que estén muy blandos.",
+      "Añadir el tomate rallado y cocinar 5 min.",
+      "Incorporar el calamar y saltear 3 min.",
+      "Mojar con el vino y dejar evaporar; añadir la tinta disuelta en el fumet.",
+      "Cocer tapado a fuego suave 30–40 min, hasta que el calamar esté tierno.",
+      "Sacar el calamar, triturar la salsa y pasarla por el chino; volver a juntar y rectificar de sal."
+     ]
+    }
+   ],
+   "notes": "Txipirones en su tinta, clásico vasco. Se acompañan con arroz blanco. La cebolla bien pochada da el dulzor de la salsa.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-tortilla-de-verduras",
+   "tab": "recetas",
+   "name": "Tortilla de verduras",
+   "group": "Salado",
+   "cat": "Huevos",
+   "local": "",
+   "diet": "vegetariano",
+   "freq": "semanal",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento rojo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Calabacín"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "40",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar todas las verduras en dados pequeños; rallar la zanahoria.",
+      "Pochar la cebolla en el aceite 8 min; añadir los pimientos y la zanahoria y cocinar 8 min; añadir el calabacín y cocinar 5 min más.",
+      "Escurrir la verdura del aceite y salar.",
+      "Batir los huevos con sal y mezclar con la verdura templada; reposar 5 min.",
+      "Calentar una sartén de 22–24 cm con un poco del aceite, verter y cuajar a fuego medio 3 min.",
+      "Dar la vuelta con un plato y cuajar 2 min más."
+     ]
+    }
+   ],
+   "notes": "También llamada tortilla de la huerta o paisana. Admite cualquier verdura de temporada siempre que esté bien escurrida.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-tortilla-de-espinacas",
+   "tab": "recetas",
+   "name": "Tortilla de espinacas",
+   "group": "Salado",
+   "cat": "Huevos",
+   "local": "",
+   "diet": "vegetariano",
+   "freq": "semanal",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Espinaca fresca"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla pequeña"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Nuez moscada (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar las espinacas; picar la cebolla y laminar el ajo.",
+      "Pochar la cebolla en el aceite 8 min; añadir el ajo y luego las espinacas, y saltear hasta que se reduzcan y suelten el agua.",
+      "Escurrir bien la verdura y picarla un poco.",
+      "Batir los huevos con sal y nuez moscada y mezclar con las espinacas.",
+      "Cuajar en sartén de 22 cm con un poco de aceite 2–3 min por cada lado."
+     ]
+    }
+   ],
+   "notes": "Con piñones y pasas es la versión catalana. Plana y fina es la «tortilla francesa de espinacas».",
+   "done": false
+  },
+  {
+   "id": "r-recetas-revuelto-de-setas",
+   "tab": "recetas",
+   "name": "Revuelto de setas",
+   "group": "Salado",
+   "cat": "Huevos",
+   "local": "",
+   "diet": "vegetariano",
+   "freq": "semanal",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Setas variadas (boletus, níscalos, shiitake, champiñón…)"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Perejil"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pimienta negra"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Limpiar las setas con un paño o pincel (sin mojarlas) y cortarlas en trozos.",
+      "Saltear las setas en el aceite a fuego fuerte, por tandas, hasta que se doren y evaporen el agua; añadir el ajo picado al final.",
+      "Salar y salpimentar; bajar el fuego.",
+      "Batir ligeramente los huevos con sal y añadirlos.",
+      "Remover a fuego suave con una espátula hasta que cuajen jugosos, sin que se sequen.",
+      "Terminar con perejil."
+     ]
+    }
+   ],
+   "notes": "El revuelto se retira del fuego cuando aún está un punto menos de lo deseado: termina de cuajar con el calor residual.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-revuelto-de-ajetes-y-esparragos",
+   "tab": "recetas",
+   "name": "Revuelto de ajetes y espárragos",
+   "group": "Salado",
+   "cat": "Huevos",
+   "local": "",
+   "diet": "vegetariano",
+   "freq": "semanal",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Ajo tierno (ajete)"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Espárrago triguero"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Limpiar los ajetes y cortarlos en trozos de 2 cm.",
+      "Quitar la parte leñosa a los espárragos y cortarlos en trozos de 2 cm, dejando las puntas aparte.",
+      "Saltear los espárragos 3 min en el aceite; añadir los ajetes y las puntas y saltear 2 min más.",
+      "Salar y bajar el fuego.",
+      "Añadir los huevos ligeramente batidos con sal y remover suave hasta que cuajen jugosos."
+     ]
+    }
+   ],
+   "notes": "Plato de primavera, cuando hay ajete y triguero. Con gambas pasa a ser un revuelto de marisco.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-huevos-al-plato",
+   "tab": "recetas",
+   "name": "Huevos al plato",
+   "group": "Salado",
+   "cat": "Huevos",
+   "local": "",
+   "diet": "vegetariano",
+   "freq": "semanal",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "8",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "300",
+       "u": "ml",
+       "n": "Salsa de tomate casera"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Guisante"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento rojo asado"
+      },
+      {
+       "q": "20",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Jamón en taquitos (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Precalentar el horno a 200 °C.",
+      "Untar con aceite 4 cazuelitas de barro individuales.",
+      "Repartir la salsa de tomate, los guisantes cocidos y el pimiento en tiras.",
+      "Cascar 2 huevos en cada cazuelita y salar las claras.",
+      "Hornear 8–10 min, hasta que la clara esté cuajada y la yema líquida.",
+      "Servir en la misma cazuela."
+     ]
+    }
+   ],
+   "notes": "La versión con chorizo, jamón y espárragos es la flamenca, que ya está en el recetario. Se pueden cuajar también en el fuego, tapados.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-shakshuka",
+   "tab": "recetas",
+   "name": "Shakshuka",
+   "group": "Salado",
+   "cat": "Huevos",
+   "local": "",
+   "diet": "vegetariano",
+   "freq": "semanal",
+   "tag": "Túnez",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Pimiento rojo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Guindilla o harissa al gusto"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "800",
+       "u": "g",
+       "n": "Tomate maduro o triturado"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Comino molido"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "40",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pimienta negra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Cilantro o perejil"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar la cebolla y los pimientos en juliana; picar el ajo.",
+      "Pochar la cebolla y el pimiento en el aceite en una sartén amplia 10 min.",
+      "Añadir el ajo, el comino, el pimentón y la guindilla y rehogar 1 min.",
+      "Incorporar el tomate y cocinar 15 min a fuego suave hasta que espese; salpimentar.",
+      "Hacer huecos en la salsa y cascar los huevos.",
+      "Tapar y cocinar 5–8 min a fuego suave, hasta que la clara esté cuajada y la yema líquida.",
+      "Terminar con las hierbas y servir en la sartén con pan."
+     ]
+    }
+   ],
+   "notes": "Plato del Magreb (Túnez y Libia), muy extendido en Israel y todo Oriente Medio. Con feta desmenuzado por encima es una versión frecuente.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-pollo-al-horno",
+   "tab": "recetas",
+   "name": "Pollo al horno",
+   "group": "Salado",
+   "cat": "Carnes / Aves y conejo",
+   "local": "",
+   "diet": "carne",
+   "freq": "semanal",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pollo entero (1,8 kg) o cuartos"
+      },
+      {
+       "q": "800",
+       "u": "g",
+       "n": "Patata"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cabeza de ajos"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Limón"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Tomillo y romero"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Vino blanco"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pimienta negra"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Precalentar el horno a 200 °C.",
+      "Salpimentar el pollo por dentro y por fuera; meter medio limón y las hierbas en la cavidad.",
+      "Cortar las patatas en rodajas gruesas y la cebolla en gajos; partir la cabeza de ajos por la mitad.",
+      "Colocar la verdura en la bandeja, salar y regar con aceite; poner el pollo encima con la pechuga hacia abajo.",
+      "Regar con el vino y hornear 40 min.",
+      "Dar la vuelta al pollo y hornear 30–40 min más, regándolo con su jugo, hasta que la piel esté dorada y el jugo del muslo salga transparente (74 °C en el interior).",
+      "Reposar 10 min antes de trinchar."
+     ]
+    }
+   ],
+   "notes": "Asar empezando con la pechuga hacia abajo la mantiene jugosa. Quitar la piel en el plato lo hace más ligero.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-pollo-al-ajillo",
+   "tab": "recetas",
+   "name": "Pollo al ajillo",
+   "group": "Salado",
+   "cat": "Carnes / Aves y conejo",
+   "local": "",
+   "diet": "carne",
+   "freq": "semanal",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1200",
+       "u": "g",
+       "n": "Pollo troceado pequeño (contramuslo y muslo)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cabeza de ajos"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Vino blanco"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Guindilla (opcional)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Perejil"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pimienta negra"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Salpimentar el pollo.",
+      "Pelar los ajos y dejarlos enteros, aplastados ligeramente.",
+      "Dorar el pollo en una cazuela amplia con el aceite, por tandas, sin amontonarlo, 8–10 min hasta que esté dorado por todos lados.",
+      "Añadir los ajos, el laurel y la guindilla y rehogar 2 min sin que se quemen.",
+      "Mojar con el vino, dejar evaporar el alcohol y tapar.",
+      "Cocinar a fuego suave 20–25 min, moviendo la cazuela, hasta que el pollo esté hecho y la salsa reducida.",
+      "Terminar con perejil."
+     ]
+    }
+   ],
+   "notes": "Versión sin freír: el pollo se dora con poco aceite y se termina tapado en su jugo. También se puede hacer en el horno a 200 °C 40 min.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-pollo-en-pepitoria",
+   "tab": "recetas",
+   "name": "Pollo en pepitoria",
+   "group": "Salado",
+   "cat": "Carnes / Aves y conejo",
+   "local": "",
+   "diet": "carne",
+   "freq": "semanal",
+   "tag": "España / Madrid",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1200",
+       "u": "g",
+       "n": "Pollo troceado (o gallina)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Almendra cruda"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Hebras de azafrán"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Vino fino o blanco seco"
+      },
+      {
+       "q": "400",
+       "u": "ml",
+       "n": "Caldo de ave"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pimienta negra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Perejil"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cocer los huevos 10 min, enfriar y pelar; separar las yemas.",
+      "Salpimentar el pollo, pasarlo ligeramente por harina y dorarlo en el aceite; retirar.",
+      "Freír en el mismo aceite los ajos y las almendras hasta que estén dorados; retirar.",
+      "Pochar la cebolla picada 10 min.",
+      "Devolver el pollo, mojar con el vino y dejar evaporar; añadir el caldo y el laurel.",
+      "Cocer tapado a fuego suave 35–40 min.",
+      "Majar las almendras, los ajos, las yemas cocidas, el azafrán tostado y el perejil con un poco de caldo; añadir al guiso.",
+      "Cocer 5 min más y servir con la clara picada por encima."
+     ]
+    }
+   ],
+   "notes": "Clásico de la cocina castellana y madrileña, de origen árabe. La salsa se liga con las yemas y la almendra.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-pollo-con-verduras",
+   "tab": "recetas",
+   "name": "Pollo con verduras",
+   "group": "Salado",
+   "cat": "Carnes / Aves y conejo",
+   "local": "",
+   "diet": "carne",
+   "freq": "semanal",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Pechuga o contramuslo de pollo deshuesado"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento rojo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Calabacín"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Champiñón"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Vino blanco"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Tomillo u orégano"
+      },
+      {
+       "q": "40",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pimienta negra"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar el pollo en tiras o dados y salpimentar.",
+      "Cortar las verduras en juliana o dados del mismo tamaño; laminar los champiñones y el ajo.",
+      "Saltear el pollo a fuego fuerte en la mitad del aceite hasta dorarlo; retirar.",
+      "Saltear en el resto del aceite la cebolla, la zanahoria y los pimientos 6–8 min; añadir el calabacín, los champiñones y el ajo y saltear 4 min.",
+      "Devolver el pollo, mojar con el vino y dejar reducir.",
+      "Añadir las hierbas, rectificar de sal y cocinar 3–5 min más."
+     ]
+    }
+   ],
+   "notes": "Plato único rápido. También se puede hacer al horno en bandeja todo junto a 200 °C 30–35 min.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-pavo-a-la-plancha",
+   "tab": "recetas",
+   "name": "Pavo a la plancha",
+   "group": "Salado",
+   "cat": "Carnes / Aves y conejo",
+   "local": "",
+   "diet": "carne",
+   "freq": "semanal",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Pechuga de pavo en filetes de 1 cm"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Perejil"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Limón"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Tomillo u orégano seco"
+      },
+      {
+       "q": "40",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pimienta negra"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Marinar los filetes 30 min con el zumo de limón, el ajo picado, las hierbas y la mitad del aceite.",
+      "Secar los filetes y salpimentar.",
+      "Calentar bien la plancha y pintarla con aceite.",
+      "Marcar los filetes 2–3 min por cada lado, hasta que estén hechos por dentro pero jugosos.",
+      "Servir con perejil picado y un hilo de aceite."
+     ]
+    }
+   ],
+   "notes": "La pechuga de pavo es muy magra y se seca enseguida: filetes finos y plancha muy caliente. Acompañar con ensalada o verdura.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-conejo-al-ajillo",
+   "tab": "recetas",
+   "name": "Conejo al ajillo",
+   "group": "Salado",
+   "cat": "Carnes / Aves y conejo",
+   "local": "",
+   "diet": "carne",
+   "freq": "semanal",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Conejo (1,2 kg) troceado pequeño"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cabeza de ajos"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Vino blanco"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de tomillo o romero"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Guindilla (opcional)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Perejil"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pimienta negra"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Salpimentar el conejo.",
+      "Pelar los ajos y aplastarlos ligeramente.",
+      "Dorar el conejo en una cazuela amplia con el aceite, por tandas, 8–10 min.",
+      "Añadir los ajos, la guindilla y las hierbas y rehogar 2 min sin que se quemen.",
+      "Mojar con el vino y dejar evaporar el alcohol.",
+      "Tapar y cocinar a fuego suave 25–30 min, moviendo la cazuela, hasta que esté tierno y la salsa reducida.",
+      "Terminar con perejil."
+     ]
+    }
+   ],
+   "notes": "El conejo es carne blanca, muy magra. Se dora con poco aceite y se termina tapado para que no se seque.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-conejo-con-verduras",
+   "tab": "recetas",
+   "name": "Conejo con verduras",
+   "group": "Salado",
+   "cat": "Carnes / Aves y conejo",
+   "local": "",
+   "diet": "carne",
+   "freq": "semanal",
+   "tag": "España",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Conejo (1,2 kg) troceado"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento rojo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Champiñón"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Vino blanco"
+      },
+      {
+       "q": "300",
+       "u": "ml",
+       "n": "Caldo de ave o agua"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Tomillo"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pimienta negra"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Salpimentar el conejo y dorarlo en el aceite; retirar.",
+      "Cortar la cebolla, los pimientos y la zanahoria en dados; laminar los champiñones; picar el ajo; rallar el tomate.",
+      "Pochar la cebolla, el ajo, los pimientos y la zanahoria en el mismo aceite 10 min.",
+      "Añadir el tomate y los champiñones y cocinar 5 min.",
+      "Devolver el conejo, mojar con el vino y dejar evaporar.",
+      "Añadir el caldo, el laurel y el tomillo; tapar y cocer a fuego suave 35–40 min.",
+      "Rectificar de sal."
+     ]
+    }
+   ],
+   "notes": "Guiso de diario, mejor de un día para otro. Admite patata en trozos en los últimos 20 min.",
+   "done": false
   }
  ],
  "pantry": {
