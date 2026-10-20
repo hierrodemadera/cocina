@@ -155,6 +155,8 @@ html.despensa,html.despensa body,html.despensa .top{background:var(--bg);}
 .tab{position:relative;padding:11px 13px 10px;font-size:13px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);
   white-space:nowrap;border:1px solid transparent;border-bottom:none;margin-bottom:-1px;}
 .tab + .tab::before{content:'';position:absolute;left:0;top:12px;bottom:12px;width:1px;background:var(--line);}
+.tab-gap{flex:1 0 28px;}
+.tab-right::before{display:none;}
 .tab.on{color:var(--fg);background:var(--bg);border-color:var(--line);border-radius:6px 6px 0 0;}
 .tab.on::before,.tab.on + .tab::before{display:none;}
 .tab .n{font-size:12px;color:var(--muted);margin-left:3px;}
@@ -1132,8 +1134,10 @@ $('#space-sw').addEventListener('click', e=>{
 
 function renderTabs(){
   const n = data.week.length;
-  $('#tabs').innerHTML = TABS.map(t=> `<button class="tab${ui.tab===t.id?' on':''}" data-tab="${t.id}">${t.label}</button>`).join('')
-    + `<button class="tab${ui.tab==='frecuencia'?' on':''}" data-tab="frecuencia">Frecuencia</button>`;
+  // las principales a la izquierda; Formatos y Frecuencia, que son complementarias, pegadas a la derecha
+  const tab = (id, label, cls) => `<button class="tab${cls ? ' ' + cls : ''}${ui.tab===id?' on':''}" data-tab="${id}">${label}</button>`;
+  $('#tabs').innerHTML = TABS.filter(t=> t.id !== 'formatos').map(t=> tab(t.id, t.label)).join('')
+    + `<span class="tab-gap"></span>` + tab('formatos', 'Formatos', 'tab-right') + tab('frecuencia', 'Frecuencia');
 }
 $('#diet-btn').addEventListener('click', e=>{
   e.stopPropagation();
