@@ -219,6 +219,7 @@ button.ghead{padding:20px 0 6px;}
 .row.done .rname .n{color:var(--muted);}
 .tag{font-size:13px;color:var(--muted);white-space:nowrap;}
 .dot{width:6px;height:6px;border-radius:50%;background:var(--fg);flex-shrink:0;opacity:.5;}
+.dot.freq{width:8px;height:8px;background:var(--fc);opacity:1;}
 .wk{margin-left:auto;font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);
   border:1px solid var(--field);border-radius:6px;padding:1px 6px;flex-shrink:0;}
 .empty{padding:48px 8px;text-align:center;color:var(--muted);font-size:15px;line-height:1.7;}
@@ -1613,11 +1614,17 @@ function renderSearch(main){
   });
   main.innerHTML = html ? `<div class="list">${html}</div>` : `<div class="empty">Nada con «${esc(ui.q)}».</div>`;
 }
+/* punto de la tarjeta: gris si no tiene frecuencia; con el color de la frecuencia si la tiene */
+function dotHTML(r){
+  const f = r.tab === 'recetas' && FREQ[r.freq];
+  if(f) return `<span class="dot freq" style="--fc:${f.c}" title="${f.label}"></span>`;
+  return hasContent(r) ? '<span class="dot" title="tiene receta"></span>' : '';
+}
 function cardInner(r, where){
   const sub = [where, inWeek(r.id) ? '<span class="wk">semana</span>' : ''].join('');
   return `<div class="rcard${r.done?' done':''}" data-id="${r.id}">
     <button class="open"><span class="n">${esc(r.name)}${dietMark(r)}</span><span class="sub">${sub}</span></button>
-    ${hasContent(r) ? '<span class="dot" title="tiene receta"></span>' : ''}
+    ${dotHTML(r)}
     <button class="chk${r.done?' on':''}" aria-label="Hecha"><i></i></button>
   </div>`;
 }
@@ -1630,14 +1637,14 @@ function cardHTML(r, ctx){
   const sub = [where, inWeek(r.id) ? '<span class="wk">semana</span>' : ''].join('');
   return `<div class="rcard${r.done?' done':''}" data-id="${r.id}">
     <button class="open"><span class="n">${esc(r.name)}${dietMark(r)}</span><span class="sub">${sub}</span></button>
-    ${hasContent(r) ? '<span class="dot" title="tiene receta"></span>' : ''}
+    ${dotHTML(r)}
     <button class="chk${r.done?' on':''}" aria-label="Hecha"><i></i></button>
   </div>`;
 }
 function rowHTML(r){
   return `<div class="row${r.done?' done':''}" data-id="${r.id}">
     <button class="chk${r.done?' on':''}" aria-label="Hecha"><i></i></button>
-    <button class="rname"><span class="n">${esc(r.name)}</span>${r.tag?`<span class="tag">${esc(leafTag(r.tag))}</span>`:''}${hasContent(r)?'<span class="dot" title="tiene receta"></span>':''}${inWeek(r.id)?'<span class="wk">semana</span>':''}</button>
+    <button class="rname"><span class="n">${esc(r.name)}</span>${r.tag?`<span class="tag">${esc(leafTag(r.tag))}</span>`:''}${dotHTML(r)}${inWeek(r.id)?'<span class="wk">semana</span>':''}</button>
   </div>`;
 }
 $('#main').addEventListener('click', e=>{
