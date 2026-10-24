@@ -234,6 +234,7 @@ button.ghead{padding:20px 0 6px;}
 .card{border:1px solid var(--line);border-radius:14px;margin-top:12px;overflow:hidden;}
 .card-h{display:flex;align-items:center;gap:6px;padding:6px 6px 6px 14px;border-bottom:1px solid var(--line);}
 .card-h .n{flex:1;min-width:0;font-weight:600;text-align:left;padding:8px 0;}
+.card-h .n .dz{margin-left:6px;}
 .card-h .sm{height:36px;padding:0 10px;border-radius:8px;font-size:14px;color:var(--muted);}
 .card-h .sm.ok{color:var(--ok);font-weight:600;}
 .card .scaler{margin:10px 14px 2px;}
@@ -970,7 +971,7 @@ function loadJSON(k){ try{ const v = localStorage.getItem(k); return v ? JSON.pa
 function save(){ try{ localStorage.setItem(KEY, JSON.stringify(data)); }catch(e){ toast('No se pudo guardar'); } }
 let saveT;
 function saveSoon(){ clearTimeout(saveT); saveT = setTimeout(save, 350); }
-function saveUi(){ try{ const c = Object.assign({}, ui); delete c.q; delete c.searching; delete c.xadding; localStorage.setItem(UIKEY, JSON.stringify(c)); }catch(e){} }
+function saveUi(){ try{ const c = Object.assign({}, ui); delete c.q; delete c.searching; delete c.xadding; delete c.xfocus; localStorage.setItem(UIKEY, JSON.stringify(c)); }catch(e){} }
 function validData(d){ return d && Array.isArray(d.recipes); }
 function slug(s){ return norm(s).replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,60); }
 function asText(v){ return Array.isArray(v) ? v.map(x=> String(x).trim()).filter(Boolean).join('\n') : String(v||''); }
@@ -1739,7 +1740,7 @@ function renderWeek(main){
     ${struckN?'<button class="link" data-act="unstrike">desmarcar todo</button>':''}</div>` + cards
     + `<div style="text-align:center;padding:18px 0;"><button class="link" data-act="clear">vaciar semana</button></div></div>`;
 }
-function isWeekView(){ return ui.space === 'despensa' && ui.ptab === 'semana'; }
+function isWeekView(){ return ui.space === 'despensa' && (ui.ptab === 'semana' || ui.ptab === 'compra'); }
 function weekClick(e){
   if(!isWeekView()) return;
   const act = e.target.closest('[data-act]');
@@ -2195,7 +2196,6 @@ function renderPTabs(){
   const n = missingItems().filter(x=> !x.i.bought).length + weekShopCount() + (data.pantry.extra || []).filter(x=> !x.bought).length;
   const pt = ui.ptab, nw = data.week.length;
   $('#tabs').innerHTML = `<button class="tab${pt==='lista'?' on':''}" data-ptab="lista">Stock</button>`
-    + `<button class="tab${pt==='semana'?' on':''}" data-ptab="semana">Semana${nw?`<span class="n">${nw}</span>`:''}</button>`
     + `<button class="tab${pt==='compra'?' on':''}" data-ptab="compra">Compra${n?`<span class="n">${n}</span>`:''}</button>`;
 }
 function renderZones(){
@@ -2253,37 +2253,55 @@ function renderPantry(){
 }
 function renderBuy(main){
   const miss = missingItems();
-  const weeks = data.week.map(w=> ({ w, r: byId(w.recipeId) })).filter(x=> x.r && x.r.parts.some(p=> p.ings.length));
+  data.week = data.week.filter(w=> byId(w.recipeId));
+  const weeks = data.week.map(w=> ({ w, r: byId(w.recipeId) }));
   const extra = data.pantry.extra || [];
   let html = '';
   if(!miss.length && !weeks.length)
-    html += `<div class="empty" style="padding:28px 0 18px;">No falta nada.<br>En <b>Stock</b>, toca lo que se acabe y aparecerá aquí.<br>Las recetas que metas en la Semana también traen aquí sus ingredientes.</div>`;
+    html += `<div class="empty" style="padding:28px 0 18px;">No falta nada.<br>En <b>Stock</b>, toca lo que se acabe y aparecerá aquí.<br>En el Recetario, abre una receta y pulsa <b>+ semana</b>: aparecerá aquí con sus ingredientes.</div>`;
   if(miss.length){
     html += `<div class="ghead"><span class="t">De la despensa</span><span class="c">${miss.length}</span></div><ul class="shop flat">` +
       miss.map(({z,i})=> `<li data-buy="${i.id}"${i.bought?' class="struck"':''}><span>${esc(i.name)}${i.note?` <span class="muted">(${esc(i.note)})</span>`:''}</span><span class="from">${esc(z.name)}${i.group?` · ${esc(i.group)}`:''}</span></li>`).join('') + `</ul>`;
     if(miss.some(x=> x.i.bought)) html += `<button class="buy-done" data-stock>Ya está en casa: quitar lo tachado</button>`;
   }
   if(weeks.length){
-    html += `<div class="ghead" style="margin-top:14px;"><span class="t">De las recetas de la semana</span></div>`;
+    // las recetas de la semana: se abren tocando el nombre, con raciones, «hecha» y quitar
+    const struckAny = weeks.some(({w})=> w.struck.length);
+    html += `<div class="ghead" style="margin-top:14px;"><span class="t">Recetas de la semana</span><span class="c">${weeks.length}</span>${struckAny ? '<button class="link" data-act="unstrike" style="margin-left:auto;font-size:13px;">desmarcar todo</button>' : ''}</div>`;
     weeks.forEach(({w, r})=>{
-      const f = factorFor(r, w.target);
-      html += `<div class="ghead" style="padding-top:12px;"><span style="font-weight:600;">${esc(r.name)}</span></div><ul class="shop flat">`;
-      r.parts.forEach((p,pi)=> p.ings.forEach((i,ii)=>{
-        const k = pi + ':' + ii, q = scaleQ(i.q, f, i.u);
-        html += `<li data-wk="${w.id}" data-k="${k}"${w.struck.includes(k)?' class="struck"':''}><span>${q?`<b>${esc(q)}</b> `:''}${i.u && i.u !== 'C/S' ? esc(i.u) + ' ' : ''}${esc(i.n)}</span></li>`;
-      }));
-      html += `</ul>`;
+      const f = factorFor(r, w.target), named = r.parts.filter(p=> p.ings.length).length > 1;
+      let lis = '';
+      r.parts.forEach((p,pi)=>{
+        if(!p.ings.length) return;
+        if(named) lis += `<li class="sub">${esc(p.name || 'Elaboración ' + (pi+1))}</li>`;
+        p.ings.forEach((i,ii)=>{
+          const k = pi + ':' + ii, q = scaleQ(i.q, f, i.u);
+          lis += `<li data-k="${k}"${w.struck.includes(k)?' class="struck"':''}><span>${q?`<b>${esc(q)}</b> `:''}${i.u && i.u !== 'C/S' ? esc(i.u) + ' ' : ''}${esc(i.n)}${i.u === 'C/S' ? ' <span class="muted">(C/S)</span>' : ''}</span></li>`;
+        });
+      });
+      html += `<div class="card" data-w="${w.id}">
+        <div class="card-h">
+          <button class="n" data-act="open">${esc(r.name)}${dietMark(r)}</button>
+          <button class="sm ok" data-act="done">✓ hecha</button>
+          <button class="sm" data-act="rm" aria-label="Quitar de la semana">✕</button>
+        </div>
+        ${lis ? (anyNumeric(r) ? scalerHTML(r, w.target, 'data-wsc') : '') + `<ul class="shop">${lis}</ul>` : `<div class="note">Sin ingredientes. Tócala para abrirla y añadirlos.</div>`}
+      </div>`;
     });
+    html += `<div style="text-align:center;padding:10px 0 4px;"><button class="link" data-act="clear">vaciar semana</button></div>`;
   }
   html += `<div class="ghead xhead" style="margin-top:14px;"><span class="t">Otros productos</span>${extra.length?`<span class="c">${extra.length}</span>`:''}<button class="xadd" data-xadd aria-label="Añadir a otros productos">+</button></div>`
     + (ui.xadding ? `<div class="xin"><input class="in" id="x-name" placeholder="Qué (papel de cocina, detergente…)" autocomplete="off" enterkeyhint="done"><button class="sh-btn primary" data-xok>Añadir</button></div>` : '')
     + (extra.length ? `<ul class="shop flat">` + extra.map(x=> `<li data-xbuy="${x.id}"${x.bought?' class="struck"':''}><span>${esc(x.name)}</span></li>`).join('') + `</ul>`
        : (ui.xadding ? '' : `<p class="muted" style="padding:6px 0 0;">Lo que no es de la despensa: pulsa <b>+</b> para apuntarlo.</p>`))
     + (extra.some(x=> x.bought) ? `<button class="buy-done" data-xclear>Comprado: quitar lo tachado</button>` : '');
+  const y = window.scrollY;
   main.innerHTML = `<div class="list">${html}</div>`;
   const xi = main.querySelector('#x-name');
+  const focusX = ui.xfocus; ui.xfocus = false;
+  if(!focusX || !xi) window.scrollTo(0, y); // al tachar, la lista se queda donde estaba
   if(xi){
-    xi.focus();
+    if(focusX) xi.focus();
     xi.addEventListener('keydown', e=>{ if(e.key === 'Enter'){ e.preventDefault(); addExtra(); } if(e.key === 'Escape'){ ui.xadding = false; renderPantry(); } });
   }
 }
@@ -2292,10 +2310,11 @@ function addExtra(){
   if(!name){ if(xi){ shake(xi); xi.focus(); } return; }
   data.pantry.extra = data.pantry.extra || [];
   data.pantry.extra.push({ id: uid(), name, bought: false });
+  ui.xfocus = true; // para seguir apuntando otra cosa
   save(); renderPantry(); renderPTabs();
 }
 function pantryClick(e){
-  if(ui.ptab === 'semana'){ weekClick(e); renderPTabs(); return; }
+  if(ui.ptab === 'semana' || (ui.ptab === 'compra' && e.target.closest('.card[data-w], [data-act=unstrike], [data-act=clear]'))){ weekClick(e); renderPTabs(); return; }
   const t = e.target;
   if(t.closest('[data-addzone]')) return openZone(null);
   const ze = t.closest('[data-zedit]'); if(ze) return openZone(ze.dataset.zedit);
@@ -2318,7 +2337,7 @@ function pantryClick(e){
     let n = 0; missingItems().forEach(({i})=>{ if(i.bought){ i.missing = false; i.bought = false; n++; } });
     save(); renderPantry(); renderPTabs(); toast(`${n} de vuelta en la despensa`); return;
   }
-  if(t.closest('[data-xadd]')){ ui.xadding = !ui.xadding; renderPantry(); return; }
+  if(t.closest('[data-xadd]')){ ui.xadding = !ui.xadding; ui.xfocus = ui.xadding; renderPantry(); return; }
   if(t.closest('[data-xok]')){ addExtra(); return; }
   const xb = t.closest('[data-xbuy]');
   if(xb){ const x = (data.pantry.extra || []).find(v=> v.id === xb.dataset.xbuy); if(x){ x.bought = !x.bought; save(); renderPantry(); renderPTabs(); } return; }
@@ -2472,7 +2491,8 @@ async function boot(){
   if(ui.tab === 'semana' || ui.tab === 'regiones' || ui.tab === 'pesce') ui.tab = 'recetas';
   if(!Array.isArray(ui.diets)) ui.diets = [];
   ui.diets = ui.diets.filter(k=> DIET_KEYS.includes(k));
-  if(!['lista','semana','compra'].includes(ui.ptab)) ui.ptab = 'lista';
+  if(ui.ptab === 'semana') ui.ptab = 'compra'; // la Semana ahora va dentro de la Compra
+  if(!['lista','compra'].includes(ui.ptab)) ui.ptab = 'lista';
   const stored = loadJSON(KEY);
   if(validData(stored)){
     data = cleanData(stored);
