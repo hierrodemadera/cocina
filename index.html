@@ -1855,6 +1855,7 @@ function readHTML(r){
       <div class="pills">
         <button class="pill${r.done?' on':''}" data-act="done">${isFmt(r.tab) ? (r.done?'✓ probado':'marcar probado') : (r.done?'✓ hecha':'marcar hecha')}</button>
         ${isFmt(r.tab) ? '' : `<button class="pill wkp${inWeek(r.id)?' on':''}" data-act="week">${inWeek(r.id)?'✓ en la semana':'+ semana'}</button>`}
+        <button class="pill" data-act="toboard">+ pizarra</button>
       </div>
       ${meta?`<div class="meta-line">${r.group?`<span class="gp" style="--gc:${gc(r.group)}">${esc(r.group)}</span>`:''}${cat?` <span class="gp" style="--gc:${tc(splitCat(cat).c)};margin-left:6px;">${esc(catText(cat))}</span>`:''}${loc?` <span class="gp" style="--gc:${tc(splitCat(r.local).c)};margin-left:6px;" title="Clasificación propia de ${esc(splitTag(r.tag).c)}">${esc(loc)}</span>`:''}${r.tag?` <span class="gp" style="--gc:${tc(leafTag(r.tag))};margin-left:6px;">${esc(tagLabel(r.tag))}</span>`:''}${r.diet?` <span class="gp dpill" style="${dietVars(r.diet)}margin-left:6px;">${dietIcon(r.diet, 13)}${esc(DIET[r.diet].label)}</span>`:''}${r.tab === 'recetas' && FREQ[r.freq]?` <span class="gp fpill" style="${freqVars(r.freq)}margin-left:6px;"><span class="fdot"></span>${esc(FREQ[r.freq].label)}</span>`:''}</div>`:''}
       ${(r.yield || anyNumeric(r)) && hasContent(r) ? `<div class="ficha-top"><span class="lb">Raciones</span>${anyNumeric(r) ? scalerHTML(r, fichaTarget, 'data-fsc') : `<span>${esc(r.yield)}</span>`}</div>` : ''}
@@ -1947,6 +1948,7 @@ function mountFicha(sh, r){
         else data.week.push({ id: uid(), recipeId: r.id, target: fichaTarget, struck: [] });
         save(); drawFicha(sh, true); renderTabs(); return;
       }
+      if(act === 'toboard'){ if(window.pizarra) window.pizarra.attach(r.id, a); return; }
       if(act === 'copy') return copyText(recipeToText(r), 'Receta copiada como texto');
       if(act === 'copyname'){ const el = e.target.closest('[data-act]'); el.classList.add('flash'); setTimeout(()=> el.classList.remove('flash'), 400); return copyText(r.name, 'Copiado: ' + r.name); }
       if(act === 'delete'){
@@ -2486,10 +2488,13 @@ async function boot(){
   try{ if(navigator.storage && navigator.storage.persist) navigator.storage.persist(); }catch(e){}
   if('serviceWorker' in navigator && /^https?:/.test(location.protocol)) navigator.serviceWorker.register('sw.js').catch(()=>{});
 }
-window.cocinaApi = { recipes: ()=> data.recipes, byId, openFicha: id=> openFicha(id), dietIcon, DIET, TABS };
+window.cocinaApi = { recipes: ()=> data.recipes, byId, openFicha: id=> openFicha(id), dietIcon, DIET, TABS, toast };
 boot();
 })();
 </script>
+
+
+
 
 
 
@@ -2675,6 +2680,13 @@ body.pz-open{overflow:hidden;}
   padding:8px 16px;border-radius:18px;font-size:14.5px;opacity:0;transition:opacity .2s;pointer-events:none !important;}
 .pz-toast.show{opacity:1;}
 
+/* elegir pizarra desde la ficha de una receta */
+#pz-attach{position:fixed;inset:0;z-index:60;color:#1c1c1e;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --pzpanel:rgba(255,255,255,.96);--pzpanel-b:rgba(0,0,0,.08);--pzhover:rgba(0,0,0,.06);}
+@media (prefers-color-scheme: dark){ #pz-attach{color:#ececec;--pzpanel:rgba(44,44,46,.97);--pzpanel-b:rgba(255,255,255,.1);--pzhover:rgba(255,255,255,.08);} }
+#pz-attach .pz-menu{position:fixed;}
+#pz-attach .pz-dim{background:rgba(0,0,0,.08);}
+
 /* botón de la pizarra en la cabecera de la app */
 #pz-open-btn svg{width:21px;height:21px;}
 /* con un botón más en la cabecera, en móvil se aprietan un poco para que quepa todo */
@@ -2755,6 +2767,7 @@ const ARROWS = {
 const NOTE_COLORS = ['#f9df7a','#fbb36b','#f58fa4','#c3a6f2','#8fc8f5','#93dfa3','#e4e4e6'];
 const SHAPE_COLORS = ['#5ab4f0','#3478f6','#34c759','#ffcc00','#ff9500','#ff3b30','#af52de','#ff2d92','#8e8e93','#1c1c1e','#ffffff','transparent'];
 const INK_COLORS = ['#1c1c1e','#3478f6','#5bc46b','#f5c84b','#e9443e'];
+const REC_COLORS = ['#ffffff','#f9df7a','#fbb36b','#f58fa4','#c3a6f2','#8fc8f5','#93dfa3','#e4e4e6','#3478f6','#34c759','#ff3b30','#1c1c1e'];
 const TEXT_COLORS = ['#1c1c1e','#ffffff','#3478f6','#34c759','#ff9500','#ff3b30','#af52de','#8e8e93'];
 
 /* ---------- herramientas de dibujo ---------- */
@@ -3005,6 +3018,7 @@ function shapeIcon(kind){
 }
 
 /* ---------- pintar ítems ---------- */
+function isDark(c){ const m = /^#?([0-9a-f]{6})$/i.exec(c || ''); if(!m) return false; const n = parseInt(m[1], 16), r = n >> 16, g = (n >> 8) & 255, b = n & 255; return (r*299 + g*587 + b*114) / 1000 < 140; }
 const els = new Map(); // id -> elemento
 function fsPx(it){ return (it.fs || 18); }
 function itemHTML(it){
@@ -3075,7 +3089,12 @@ function styleEl(el, it){
   el.className = itemClass(it) + (editing && editing.id === it.id ? ' editing' : '');
   el.style.background = it.t === 'note' ? (it.fill || NOTE_COLORS[0]) : '';
   if(it.t === 'table'){ el.style.gridTemplateColumns = `repeat(${it.rows[0].length}, 1fr)`; el.style.gridTemplateRows = `repeat(${it.rows.length}, 1fr)`; el.style.fontSize = fsPx(it) + 'px'; }
-  if(it.t === 'rec') el.style.fontSize = clamp(it.h * .32, 11, 120) + 'px';
+  if(it.t === 'rec'){
+    el.style.fontSize = clamp(it.h * .32, 11, 120) + 'px';
+    // fondo elegido por ti; con fondos oscuros el texto pasa a blanco
+    el.style.background = it.fill || ''; el.style.color = it.fill && isDark(it.fill) ? '#fff' : '';
+    el.style.borderColor = it.fill && it.fill !== '#ffffff' ? 'rgba(0,0,0,.08)' : '';
+  }
   if(it.t === 'link') el.style.fontSize = clamp(it.h * .2, 10, 90) + 'px';
 }
 function renderItem(it){
@@ -3177,7 +3196,7 @@ function drawCtx(){
   else {
     if(one && one.t === 'rec') h += btn('open', 'Abrir receta');
     if(one && one.t === 'link') h += btn('openlink', 'Abrir enlace') + btn('editlink', 'Editar');
-    const colorable = items.every(i=> ['note','shape','line','ink','text'].includes(i.t));
+    const colorable = items.every(i=> ['note','shape','line','ink','text','rec'].includes(i.t));
     if(colorable){ const c = colorOf(items[0]); h += `<button data-c="color"><span class="cs" style="background:${c === 'transparent' ? 'conic-gradient(#ddd 25%,#fff 0 50%,#ddd 0 75%,#fff 0)' : c}"></span>Color</button>`; }
     if(one && one.t === 'shape') h += btn('border', 'Borde');
     if(one && one.t === 'line') h += btn('linestyle', 'Estilo');
@@ -3196,7 +3215,7 @@ function drawCtx(){
   if(y + bh > r.height - 70) y = Math.max(64, Math.min(r.height - 70 - bh, s.y + 10));
   bar.style.left = clamp(x, 8, r.width - bw - 8) + 'px'; bar.style.top = y + 'px';
 }
-function colorOf(it){ return it.t === 'note' ? (it.fill || NOTE_COLORS[0]) : it.t === 'shape' ? (it.fill || '#5ab4f0') : it.t === 'text' ? (it.color || '#1c1c1e') : (it.color || '#1c1c1e'); }
+function colorOf(it){ return it.t === 'rec' ? (it.fill || '#ffffff') : it.t === 'note' ? (it.fill || NOTE_COLORS[0]) : it.t === 'shape' ? (it.fill || '#5ab4f0') : it.t === 'text' ? (it.color || '#1c1c1e') : (it.color || '#1c1c1e'); }
 
 
 /* activar botones al levantar el dedo (y no solo con «click»): tras algunos gestos el
@@ -3410,8 +3429,8 @@ function onCtx(a, btn){
   if(a === 'del') return delSel();
   if(a === 'color'){
     const it = items[0];
-    const list = it.t === 'note' ? NOTE_COLORS : it.t === 'shape' ? SHAPE_COLORS : it.t === 'text' ? TEXT_COLORS : INK_COLORS.concat(['#ff9500','#af52de','#8e8e93','#ffffff']);
-    const apply = c=> change(()=> items.forEach(i=>{ if(i.t === 'note' || i.t === 'shape') i.fill = c; else { i.color = c; } if(i.t === 'note') S.ui.noteColor = c; }));
+    const list = it.t === 'rec' ? REC_COLORS : it.t === 'note' ? NOTE_COLORS : it.t === 'shape' ? SHAPE_COLORS : it.t === 'text' ? TEXT_COLORS : INK_COLORS.concat(['#ff9500','#af52de','#8e8e93','#ffffff']);
+    const apply = c=> change(()=> items.forEach(i=>{ if(i.t === 'note' || i.t === 'shape' || i.t === 'rec') i.fill = c; else { i.color = c; } if(i.t === 'note') S.ui.noteColor = c; }));
     openMenu(btn, swatches(list, colorOf(it), 'c'), m=>{ apply(m.slice(2)); closeMenu(); }, { onMount: m=> $('input[type=color]', m).addEventListener('input', e=> apply(e.target.value)) });
     return;
   }
@@ -3650,7 +3669,7 @@ function tapItem(g, e){
   const it = byIdI(g.id); if(!it) return;
   const now = performance.now(), dbl = now - lastTap.t < 340 && lastTap.id === it.id;
   lastTap = { t: now, id: it.id, x: e.clientX, y: e.clientY };
-  if(it.t === 'rec' && performance.now() - g.t < 450){ openRecipe(it.rid); return; }
+  // la receta no se abre al tocarla: se selecciona y la barra de opciones tiene «Abrir receta»
   if(it.t === 'link' && g.wasSel && !dbl) return;
   if(dbl){
     lastTap.t = 0;
@@ -3949,7 +3968,7 @@ function sceneThumb(sc){
   return `<svg viewBox="${sc.x} ${sc.y} ${sc.w} ${sc.h}" preserveAspectRatio="xMidYMid meet">` + items.map(it=>{
     if(it.t === 'ink') return `<g transform="translate(${it.x},${it.y}) scale(${it.w/it.w0},${it.h/it.h0})"><path d="${it.d}" fill="${it.color}"/></g>`;
     if(isLine(it)) return `<path d="${linePathData(it).d}" stroke="${it.color||'#1c1c1e'}" stroke-width="${(it.sw||2.5)*2}" fill="none"/>`;
-    const b = box(it), fill = it.t === 'note' ? (it.fill || NOTE_COLORS[0]) : it.t === 'shape' ? (it.fill || '#5ab4f0') : it.t === 'text' ? 'none' : '#fff';
+    const b = box(it), fill = it.t === 'note' ? (it.fill || NOTE_COLORS[0]) : it.t === 'shape' ? (it.fill || '#5ab4f0') : it.t === 'text' ? 'none' : it.t === 'rec' ? (it.fill || '#fff') : '#fff';
     return `<rect x="${b.x}" y="${b.y}" width="${b.w}" height="${b.h}" fill="${fill}" stroke="#c8c8cc" stroke-width="${Math.max(1, sc.w/200)}"/>`;
   }).join('') + `</svg>`;
 }
@@ -4302,7 +4321,50 @@ function addHeaderButton(){
   menu.parentNode.insertBefore(b, menu);
 }
 addHeaderButton();
-window.pizarra = { open, close };
+/* ---------- añadir una receta a una pizarra desde la ficha (sin abrir la pizarra) ---------- */
+async function attach(rid, anchor){
+  await load();
+  const r = API.byId(rid); if(!r) return;
+  let host = document.getElementById('pz-attach'); if(host) host.remove();
+  host = document.createElement('div'); host.id = 'pz-attach';
+  const list = S.boards.slice().sort((a, b)=> b.updated - a.updated);
+  host.innerHTML = `<div class="pz-dim"></div><div class="pz-menu"><div class="pz-mh">Añadir «${esc(r.name)}» a…</div>` +
+    list.map(b=>{ const n = b.items.filter(i=> i.t === 'rec' && i.rid === rid).length;
+      return `<button class="pz-mi" data-b="${b.id}">${IC.board}<span style="flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(b.name)}</span>${n ? `<small style="opacity:.55;font-size:13px">ya está${n > 1 ? ' ×' + n : ''}</small>` : ''}</button>`; }).join('') +
+    `<div class="pz-msep"></div><button class="pz-mi" data-b="new">${IC.newb}Nueva pizarra…</button></div>`;
+  document.body.appendChild(host);
+  const m = $('.pz-menu', host), a = anchor && anchor.getBoundingClientRect ? anchor.getBoundingClientRect() : { left: innerWidth/2, right: innerWidth/2, bottom: innerHeight/3, top: innerHeight/3 };
+  const mw = m.offsetWidth, mh = m.offsetHeight;
+  m.style.left = clamp((a.left + a.right)/2 - mw/2, 8, innerWidth - mw - 8) + 'px';
+  m.style.top = clamp(a.bottom + 8 + mh > innerHeight - 8 ? a.top - mh - 8 : a.bottom + 8, 8, innerHeight - mh - 8) + 'px';
+  const done = ()=> host.remove();
+  $('.pz-dim', host).addEventListener('click', done);
+  onTap(m, '[data-b]', b=>{
+    let board;
+    if(b.dataset.b === 'new'){
+      const n = prompt('Nombre de la nueva pizarra', 'Sin título ' + (S.boards.length + 1)); if(n == null) return;
+      board = newBoard(n.trim() || 'Sin título'); S.boards.push(board);
+    } else board = S.boards.find(x=> x.id === b.dataset.b);
+    if(!board) return;
+    addToBoard(board, rid);
+    done();
+    if(API.toast) API.toast(`Añadida a la pizarra «${board.name}»`);
+  });
+}
+function addToBoard(board, rid){
+  const r = API.byId(rid);
+  if(root && root.classList.contains('open') && board === B){ addRecipe(rid); return; }
+  const v = board.view && board.view.z ? board.view : { x: innerWidth/2, y: innerHeight/2, z: 1 };
+  const k = clamp(1 / v.z, 1, 4), w = 240*k, h = 60*k;
+  const c = { x: (innerWidth/2 - v.x) / v.z, y: (innerHeight/2 - v.y) / v.z };
+  const it = { id: 'i' + uid(), t: 'rec', rid, name: r ? r.name : '', w, h, x: c.x - w/2, y: c.y - h/2 };
+  // si ya hay algo justo ahí, la nueva va debajo, como una lista
+  for(let n = 0; n < 40 && board.items.some(o=> !isLine(o) && o.t !== 'ink' && Math.abs(o.x - it.x) < w*.5 && Math.abs(o.y - it.y) < h*.8); n++) it.y += h + 12*k;
+  board.items.push(it); board.updated = Date.now();
+  if(board === B){ undoStack = []; redoStack = []; }
+  saveNow();
+}
+window.pizarra = { open, close, attach };
 })();
 </script>
 <!-- /PIZARRA -->
