@@ -55048,6 +55048,218 @@
    ],
    "notes": "Guiso de diario, mejor de un día para otro. Admite patata en trozos en los últimos 20 min.",
    "done": false
+  },
+  {
+   "id": "r-recetas-guacamole",
+   "tab": "recetas",
+   "name": "Guacamole",
+   "group": "Salado",
+   "cat": "Entremeses y aperitivos / Fríos",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "México",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Aguacate Hass maduro (unos 450 g de pulpa)"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Cebolla blanca picada fina"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Chile serrano (o 2, al gusto)"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Cilantro fresco picado"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Tomate (jitomate) maduro, opcional"
+      },
+      {
+       "q": "0,5",
+       "u": "ud.",
+       "n": "Lima"
+      },
+      {
+       "q": "4",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Totopos de maíz (para acompañar)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Quitar las semillas y las venas al chile si se quiere menos picante y picarlo fino.",
+      "Majar en el molcajete (o un mortero) la mitad de la cebolla, el chile, la mitad del cilantro y la sal hasta tener una pasta.",
+      "Partir los aguacates, quitar el hueso y sacar la pulpa con una cuchara.",
+      "Añadir el aguacate al molcajete y machacarlo con el majado, dejando algún trozo.",
+      "Quitar las semillas al tomate, picarlo en dados pequeños y mezclarlo, si se usa.",
+      "Incorporar el resto de la cebolla y el cilantro y unas gotas de lima.",
+      "Rectificar de sal y lima y servir enseguida con totopos."
+     ]
+    }
+   ],
+   "notes": "Majar primero cebolla, chile, cilantro y sal suelta los aceites y reparte el sabor. La lima es opcional en la receta tradicional: con poca basta. Se oxida en poco tiempo: si hay que guardarlo, cubrir con film en contacto y consumir en el día.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-labneh",
+   "tab": "recetas",
+   "name": "Labneh",
+   "group": "Salado",
+   "cat": "Entremeses y aperitivos / Fríos",
+   "local": "Mazza / Fríos (bārde)",
+   "diet": "vegetariano",
+   "freq": "semanal",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Labneh (de 800 g de yogur colado 24 h, ver Productos)"
+      },
+      {
+       "q": "4",
+       "u": "cda",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Za'atar"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Menta seca"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Aceituna negra"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pepino"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Tomate"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pan de pita o pan árabe"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Sacar el labneh de la nevera 15 min antes.",
+      "Extenderlo en un plato llano con el dorso de una cuchara, haciendo un surco en espiral.",
+      "Regar con el aceite de modo que llene el surco.",
+      "Espolvorear el za'atar o la menta seca.",
+      "Cortar el pepino y el tomate en gajos y colocarlos alrededor con las aceitunas.",
+      "Servir con pan para mojar o enrollar."
+     ]
+    }
+   ],
+   "notes": "Plato de desayuno y de mazza en todo el Levante. El labneh se hace colando yogur con sal (ficha en Productos). Con 48 h de colado se forman bolitas que se guardan en aceite (labneh mkabbas).",
+   "done": false
+  },
+  {
+   "id": "r-recetas-bizcocho-chiffon-en-arrocera",
+   "tab": "recetas",
+   "name": "Bizcocho chiffon en arrocera",
+   "group": "Dulce",
+   "cat": "",
+   "local": "",
+   "diet": "vegetariano",
+   "freq": "ocasional",
+   "tag": "China",
+   "yield": "8 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "7",
+       "u": "ud.",
+       "n": "Huevo (claras y yemas por separado)"
+      },
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Leche entera"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Aceite de maíz o de girasol"
+      },
+      {
+       "q": "110",
+       "u": "g",
+       "n": "Harina floja (de repostería)"
+      },
+      {
+       "q": "55",
+       "u": "g",
+       "n": "Azúcar (en dos mitades)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Zumo de limón o vinagre blanco (unas gotas)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite para engrasar"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Separar las claras y las yemas en dos boles limpios y secos, sin rastro de grasa.",
+      "Mezclar las yemas con la leche y el aceite con unas varillas.",
+      "Tamizar la harina sobre la mezcla y batir en zigzag hasta que quede lisa y sin grumos (si queda muy espesa, un poco más de leche; si queda muy líquida, un poco más de harina).",
+      "Pintar el fondo de la cubeta de la arrocera con aceite y precalentarla unos minutos.",
+      "Montar las claras con unas gotas de limón y la mitad del azúcar hasta que espumen.",
+      "Añadir el resto del azúcar y seguir batiendo hasta tener picos firmes y erguidos.",
+      "Incorporar un tercio de las claras a la mezcla de yemas con movimientos envolventes, de abajo arriba.",
+      "Verter esa mezcla sobre el resto de las claras y envolver hasta que quede homogénea.",
+      "Echar la masa en la cubeta y dar unos golpes suaves contra la encimera para sacar el aire.",
+      "Cocer con el programa normal unos 29 min (35 min en invierno o si la cocina está fría).",
+      "Dejar reposar 10 min con la tapa cerrada.",
+      "Desmoldar dándole la vuelta."
+     ]
+    }
+   ],
+   "notes": "Bizcocho de arrocera, muy popular en China (电饭煲蛋糕). Técnica chiffon: el aceite da la miga húmeda y las claras, la altura; si las claras tienen restos de yema o el bol tiene grasa, no montan. Pensado para una arrocera de 5 l: los tiempos cambian según el modelo; está hecho cuando un palillo sale limpio. Poco dulce, al estilo asiático. En horno (pauta general de chiffon, no de la receta original): molde de 18–20 cm sin engrasar, 150–160 °C, 50–60 min, y enfriar boca abajo para que no se baje.",
+   "done": false
   }
  ],
  "pantry": {
@@ -56349,5 +56561,1476 @@
     ]
    }
   ]
- }
+ },
+ "schemas": [
+  {
+   "id": "e-cebiches",
+   "name": "Cebiches",
+   "desc": "Tipos de cebiche: Perú por técnica, ingrediente y región; otros países y parientes.",
+   "board": {
+    "items": [
+     {
+      "id": "l005",
+      "t": "line",
+      "a": {
+       "id": "c003",
+       "side": "r"
+      },
+      "b": {
+       "id": "c004",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l007",
+      "t": "line",
+      "a": {
+       "id": "c003",
+       "side": "r"
+      },
+      "b": {
+       "id": "c006",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l009",
+      "t": "line",
+      "a": {
+       "id": "c003",
+       "side": "r"
+      },
+      "b": {
+       "id": "c008",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l011",
+      "t": "line",
+      "a": {
+       "id": "c003",
+       "side": "r"
+      },
+      "b": {
+       "id": "c010",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l013",
+      "t": "line",
+      "a": {
+       "id": "c003",
+       "side": "r"
+      },
+      "b": {
+       "id": "c012",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l015",
+      "t": "line",
+      "a": {
+       "id": "c003",
+       "side": "r"
+      },
+      "b": {
+       "id": "c014",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l016",
+      "t": "line",
+      "a": {
+       "id": "c002",
+       "side": "r"
+      },
+      "b": {
+       "id": "c003",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l019",
+      "t": "line",
+      "a": {
+       "id": "c017",
+       "side": "r"
+      },
+      "b": {
+       "id": "c018",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l021",
+      "t": "line",
+      "a": {
+       "id": "c017",
+       "side": "r"
+      },
+      "b": {
+       "id": "c020",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l023",
+      "t": "line",
+      "a": {
+       "id": "c017",
+       "side": "r"
+      },
+      "b": {
+       "id": "c022",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l025",
+      "t": "line",
+      "a": {
+       "id": "c017",
+       "side": "r"
+      },
+      "b": {
+       "id": "c024",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l027",
+      "t": "line",
+      "a": {
+       "id": "c017",
+       "side": "r"
+      },
+      "b": {
+       "id": "c026",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l029",
+      "t": "line",
+      "a": {
+       "id": "c017",
+       "side": "r"
+      },
+      "b": {
+       "id": "c028",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l030",
+      "t": "line",
+      "a": {
+       "id": "c002",
+       "side": "r"
+      },
+      "b": {
+       "id": "c017",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l033",
+      "t": "line",
+      "a": {
+       "id": "c031",
+       "side": "r"
+      },
+      "b": {
+       "id": "c032",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l035",
+      "t": "line",
+      "a": {
+       "id": "c031",
+       "side": "r"
+      },
+      "b": {
+       "id": "c034",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l037",
+      "t": "line",
+      "a": {
+       "id": "c031",
+       "side": "r"
+      },
+      "b": {
+       "id": "c036",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l039",
+      "t": "line",
+      "a": {
+       "id": "c031",
+       "side": "r"
+      },
+      "b": {
+       "id": "c038",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l041",
+      "t": "line",
+      "a": {
+       "id": "c031",
+       "side": "r"
+      },
+      "b": {
+       "id": "c040",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l043",
+      "t": "line",
+      "a": {
+       "id": "c031",
+       "side": "r"
+      },
+      "b": {
+       "id": "c042",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l045",
+      "t": "line",
+      "a": {
+       "id": "c031",
+       "side": "r"
+      },
+      "b": {
+       "id": "c044",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l047",
+      "t": "line",
+      "a": {
+       "id": "c031",
+       "side": "r"
+      },
+      "b": {
+       "id": "c046",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l049",
+      "t": "line",
+      "a": {
+       "id": "c031",
+       "side": "r"
+      },
+      "b": {
+       "id": "c048",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l050",
+      "t": "line",
+      "a": {
+       "id": "c002",
+       "side": "r"
+      },
+      "b": {
+       "id": "c031",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l053",
+      "t": "line",
+      "a": {
+       "id": "c051",
+       "side": "r"
+      },
+      "b": {
+       "id": "c052",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l055",
+      "t": "line",
+      "a": {
+       "id": "c051",
+       "side": "r"
+      },
+      "b": {
+       "id": "c054",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l056",
+      "t": "line",
+      "a": {
+       "id": "c002",
+       "side": "r"
+      },
+      "b": {
+       "id": "c051",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l057",
+      "t": "line",
+      "a": {
+       "id": "c001",
+       "side": "r"
+      },
+      "b": {
+       "id": "c002",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l060",
+      "t": "line",
+      "a": {
+       "id": "c058",
+       "side": "r"
+      },
+      "b": {
+       "id": "c059",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l062",
+      "t": "line",
+      "a": {
+       "id": "c058",
+       "side": "r"
+      },
+      "b": {
+       "id": "c061",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l064",
+      "t": "line",
+      "a": {
+       "id": "c058",
+       "side": "r"
+      },
+      "b": {
+       "id": "c063",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l066",
+      "t": "line",
+      "a": {
+       "id": "c058",
+       "side": "r"
+      },
+      "b": {
+       "id": "c065",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l068",
+      "t": "line",
+      "a": {
+       "id": "c058",
+       "side": "r"
+      },
+      "b": {
+       "id": "c067",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l070",
+      "t": "line",
+      "a": {
+       "id": "c058",
+       "side": "r"
+      },
+      "b": {
+       "id": "c069",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l072",
+      "t": "line",
+      "a": {
+       "id": "c058",
+       "side": "r"
+      },
+      "b": {
+       "id": "c071",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l073",
+      "t": "line",
+      "a": {
+       "id": "c001",
+       "side": "r"
+      },
+      "b": {
+       "id": "c058",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l076",
+      "t": "line",
+      "a": {
+       "id": "c074",
+       "side": "r"
+      },
+      "b": {
+       "id": "c075",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l078",
+      "t": "line",
+      "a": {
+       "id": "c074",
+       "side": "r"
+      },
+      "b": {
+       "id": "c077",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l080",
+      "t": "line",
+      "a": {
+       "id": "c074",
+       "side": "r"
+      },
+      "b": {
+       "id": "c079",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l082",
+      "t": "line",
+      "a": {
+       "id": "c074",
+       "side": "r"
+      },
+      "b": {
+       "id": "c081",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l083",
+      "t": "line",
+      "a": {
+       "id": "c001",
+       "side": "r"
+      },
+      "b": {
+       "id": "c074",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l085",
+      "t": "line",
+      "a": {
+       "id": "c001",
+       "side": "r"
+      },
+      "b": {
+       "id": "c084",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l088",
+      "t": "line",
+      "a": {
+       "id": "c086",
+       "side": "r"
+      },
+      "b": {
+       "id": "c087",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l090",
+      "t": "line",
+      "a": {
+       "id": "c086",
+       "side": "r"
+      },
+      "b": {
+       "id": "c089",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l092",
+      "t": "line",
+      "a": {
+       "id": "c086",
+       "side": "r"
+      },
+      "b": {
+       "id": "c091",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l093",
+      "t": "line",
+      "a": {
+       "id": "c001",
+       "side": "r"
+      },
+      "b": {
+       "id": "c086",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l096",
+      "t": "line",
+      "a": {
+       "id": "c094",
+       "side": "r"
+      },
+      "b": {
+       "id": "c095",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l098",
+      "t": "line",
+      "a": {
+       "id": "c094",
+       "side": "r"
+      },
+      "b": {
+       "id": "c097",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "l099",
+      "t": "line",
+      "a": {
+       "id": "c001",
+       "side": "r"
+      },
+      "b": {
+       "id": "c094",
+       "side": "l"
+      },
+      "sw": 2,
+      "color": "#c7c7cc"
+     },
+     {
+      "id": "c001",
+      "t": "shape",
+      "kind": "pill",
+      "w": 240,
+      "h": 84,
+      "x": 0,
+      "y": 1765.5,
+      "fill": "#1c1c1e",
+      "stroke": "#1c1c1e",
+      "sw": 0,
+      "fs": 26,
+      "text": "Cebiches",
+      "bold": true,
+      "color": "#ffffff",
+      "info": "Pescado o marisco crudo marinado en zumo de limón, con ají, sal y cebolla, servido con productos del lugar.\n\n· Perú: Patrimonio Cultural de la Nación (RDN 241/INC, 23-3-2004); Día Nacional del Cebiche el 28 de junio (RM 708-2008).\n· UNESCO, 2023: «Prácticas y significados asociados a la preparación y consumo del ceviche, expresión de la cocina tradicional peruana». No fija variantes: dice que la receta cambia de una región a otra.\n· Se escribe cebiche (Perú), ceviche, seviche o sebiche.\n· Base canónica peruana: pescado, limón, cebolla roja, ají y sal.\n\nPunto verde: tiene ficha en la app."
+     },
+     {
+      "id": "c002",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 230,
+      "h": 62,
+      "x": 330,
+      "y": 827.0,
+      "fill": "#f58fa4",
+      "stroke": "#1c1c1e",
+      "sw": 0,
+      "fs": 20,
+      "text": "Perú",
+      "bold": true,
+      "info": "Cuna del plato. Se clasifica por técnica, por ingrediente y por región: lo que cambia de una zona a otra es el pescado, el ají y la guarnición."
+     },
+     {
+      "id": "c003",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 210,
+      "h": 54,
+      "x": 650,
+      "y": 164.0,
+      "fill": "#ffffff",
+      "stroke": "#f58fa4",
+      "sw": 2,
+      "fs": 18,
+      "text": "Por técnica",
+      "bold": true
+     },
+     {
+      "id": "c004",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 990,
+      "y": 0,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Clásico al momento",
+      "info": "Dados de pescado blanco, marinado de 2 a 5 min con limón, ají limo, cebolla roja y sal; se sirve con su leche de tigre. Es el estándar actual.",
+      "rid": "r-recetas-cebiche-de-pescado"
+     },
+     {
+      "id": "c006",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 990,
+      "y": 66,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Antiguo o «de antes»",
+      "info": "Marinado largo (horas), a veces con naranja agria: el pescado queda opaco y firme. Es como se hacía hasta mediados del siglo XX."
+     },
+     {
+      "id": "c008",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 990,
+      "y": 132,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Tiradito",
+      "info": "Pescado en láminas finas, como el sashimi, sin cebolla, napado al servir con crema de ají amarillo, rocoto u otra salsa. De influencia nikkei.",
+      "rid": "r-recetas-tiradito"
+     },
+     {
+      "id": "c010",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 990,
+      "y": 198,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Nikkei",
+      "info": "Aliño con soja, jengibre, aceite de sésamo, nori o tamarindo. Acurio lo trata como categoría propia en «La Mar Cebichería»."
+     },
+     {
+      "id": "c012",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 990,
+      "y": 264,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Caliente",
+      "info": "El ingrediente se cocina: cebiche de pato (Norte Chico, Lambayeque) o de camarones «a la piedra» (Arequipa, cocidos con piedras calientes)."
+     },
+     {
+      "id": "c014",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 990,
+      "y": 330,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Seco: chinguirito",
+      "info": "Lambayeque. Guitarra (pez raya) secada y deshilachada, marinada con limón, cebolla y ají; con yuca o choclo.",
+      "rid": "r-recetas-chinguirito"
+     },
+     {
+      "id": "c017",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 210,
+      "h": 54,
+      "x": 650,
+      "y": 580.0,
+      "fill": "#ffffff",
+      "stroke": "#f58fa4",
+      "sw": 2,
+      "fs": 18,
+      "text": "Por ingrediente",
+      "bold": true
+     },
+     {
+      "id": "c018",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 990,
+      "y": 416,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Pescado",
+      "info": "Lenguado (el de Lima por excelencia), corvina, cojinova, mero, pejerrey (Callao), bonito, caballa, tollo; trucha y paiche tierra adentro.",
+      "rid": "r-recetas-cebiche-de-pescado"
+     },
+     {
+      "id": "c020",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 990,
+      "y": 482,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Mixto",
+      "info": "Pescado con mariscos: pulpo, calamar o pota, langostino, conchas."
+     },
+     {
+      "id": "c022",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 990,
+      "y": 548,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Conchas negras",
+      "info": "Tumbes. Bivalvo del manglar, crudo, con su jugo oscuro.",
+      "rid": "r-recetas-cebiche-de-conchas-negras"
+     },
+     {
+      "id": "c024",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 990,
+      "y": 614,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Otros mariscos",
+      "info": "Pulpo (tierno o escaldado), pota (Lima), erizo (Arequipa, Atico), lapas y camarones de río (Arequipa)."
+     },
+     {
+      "id": "c026",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 990,
+      "y": 680,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Carnes",
+      "info": "Pato, cocinado y servido caliente (Norte Chico de Lima, Lambayeque). Criadillas en Cajamarca (dato poco respaldado)."
+     },
+     {
+      "id": "c028",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 990,
+      "y": 746,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Vegetales",
+      "info": "Champiñones (Chorrillos), tarwi o chocho (Áncash), espárragos (Ica) y mango verde (selva)."
+     },
+     {
+      "id": "c031",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 210,
+      "h": 54,
+      "x": 650,
+      "y": 1105.0,
+      "fill": "#ffffff",
+      "stroke": "#f58fa4",
+      "sw": 2,
+      "fs": 18,
+      "text": "Por región",
+      "bold": true
+     },
+     {
+      "id": "c032",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 990,
+      "y": 832,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Tumbes",
+      "info": "Conchas negras y leche de pantera. Ají limo. Con plátano frito o chifles."
+     },
+     {
+      "id": "c034",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 990,
+      "y": 898,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Piura",
+      "info": "Cebiche de pescado (también caballa con espina). Ají limo y limón de Piura. Con zarandaja, yuca y camote."
+     },
+     {
+      "id": "c036",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 990,
+      "y": 964,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Lambayeque",
+      "info": "Chinguirito y pato. Ajíes cerezo y cacho de cabra. Con yuca y zarandaja."
+     },
+     {
+      "id": "c038",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 990,
+      "y": 1030,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "La Libertad",
+      "info": "Cebiche liberteño (Huanchaco). Ají mochero. Con camote y choclo."
+     },
+     {
+      "id": "c040",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 990,
+      "y": 1096,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Norte Chico de Lima",
+      "info": "Pescado y pato (Barranca, Huacho, Supe). Ají arnaucho. Con yuca."
+     },
+     {
+      "id": "c042",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 990,
+      "y": 1162,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Lima y Callao",
+      "info": "Lenguado, pejerrey, pota y mixto. Ají limo y amarillo. Con camote, choclo, cancha y yuyo (alga)."
+     },
+     {
+      "id": "c044",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 72,
+      "x": 990,
+      "y": 1228,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Sur (Arequipa, Moquegua, Tacna)",
+      "info": "Camarones de río, erizo y camarones «a la piedra». Rocoto y ají pacae. Con papa y choclo."
+     },
+     {
+      "id": "c046",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 990,
+      "y": 1314,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Sierra",
+      "info": "Trucha (Junín, Puno) y tarwi (Áncash). Rocoto. Con cancha y papa."
+     },
+     {
+      "id": "c048",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 990,
+      "y": 1380,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Selva",
+      "info": "Paiche, dorado y doncella. Ají charapita y pipí de mono, sacha culantro. Con yuca y plátano."
+     },
+     {
+      "id": "c051",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 210,
+      "h": 54,
+      "x": 650,
+      "y": 1498.0,
+      "fill": "#ffffff",
+      "stroke": "#f58fa4",
+      "sw": 2,
+      "fs": 18,
+      "text": "Derivados",
+      "bold": true
+     },
+     {
+      "id": "c052",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 990,
+      "y": 1466,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Leche de tigre",
+      "info": "El jugo del marinado del cebiche de pescado blanco, servido solo en vaso, a veces con trocitos de pescado y cancha."
+     },
+     {
+      "id": "c054",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 990,
+      "y": 1532,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Leche de pantera",
+      "info": "Tumbes: leche de tigre con conchas negras, de color oscuro. Ojo: el mismo nombre se usa para un cóctel de leche de tigre con pisco."
+     },
+     {
+      "id": "c058",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 230,
+      "h": 62,
+      "x": 330,
+      "y": 1811.0,
+      "fill": "#f9df7a",
+      "stroke": "#1c1c1e",
+      "sw": 0,
+      "fs": 20,
+      "text": "Ecuador",
+      "bold": true,
+      "info": "El marisco suele ir cocido o escaldado y el ceviche es caldoso, casi una sopa fría. Marinado más largo (unos 30 min), con naranja, salsa de tomate o mostaza.\nSe acompaña con chifles, canguil (palomitas), tostado o patacones.\n\nAviso: parte de estos datos viene de un estudio de 2022 que fue retractado en 2024. Conviene contrastarlo con un libro ecuatoriano."
+     },
+     {
+      "id": "c059",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 650,
+      "y": 1618,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "De camarón",
+      "info": "El más común. Camarón cocido, con su caldo, limón, naranja, tomate o salsa de tomate, cebolla y cilantro."
+     },
+     {
+      "id": "c061",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 650,
+      "y": 1684,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "De concha",
+      "info": "El Oro y Esmeraldas. Concha negra cruda."
+     },
+     {
+      "id": "c063",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 650,
+      "y": 1750,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "De pescado",
+      "info": "Corvina, picudo o dorado."
+     },
+     {
+      "id": "c065",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 650,
+      "y": 1816,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Jipijapa",
+      "info": "Manabí. Pescado con salsa de maní."
+     },
+     {
+      "id": "c067",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 650,
+      "y": 1882,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "De chocho",
+      "info": "Sierra (Riobamba). Chocho (altramuz andino) en vez de pescado: vegetariano."
+     },
+     {
+      "id": "c069",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 650,
+      "y": 1948,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Volquetero",
+      "info": "Pastaza. Atún de lata, chochos, cebolla, limón y chifles."
+     },
+     {
+      "id": "c071",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 650,
+      "y": 2014,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Encebollado (derivado)",
+      "info": "Guayas. Sopa de atún, yuca y cebolla que nace del ceviche. No es un ceviche."
+     },
+     {
+      "id": "c074",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 230,
+      "h": 62,
+      "x": 330,
+      "y": 2194.0,
+      "fill": "#93dfa3",
+      "stroke": "#1c1c1e",
+      "sw": 0,
+      "fs": 20,
+      "text": "México",
+      "bold": true,
+      "info": "Se sirve sobre tostadas y suele llevar jitomate."
+     },
+     {
+      "id": "c075",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 650,
+      "y": 2100,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "De sierra",
+      "info": "Sinaloa y Nayarit. Pescado sierra muy picado, con jitomate, cebolla y cilantro."
+     },
+     {
+      "id": "c077",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 650,
+      "y": 2166,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Estilo Acapulco",
+      "info": "Con catsup y aceitunas. Documentado en recetarios desde 1969."
+     },
+     {
+      "id": "c079",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 650,
+      "y": 2232,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "De Colima",
+      "info": "Dorado o róbalo, con zanahoria y pepino en cubitos."
+     },
+     {
+      "id": "c081",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 650,
+      "y": 2298,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Aguachile",
+      "info": "Sinaloa. Camarón crudo bañado al momento en limón con chiltepín, con pepino y cebolla morada. Es «primo» del ceviche.\nVariantes: verde (más chile), negro (salsa oscura, es reciente) y rojo (mal documentado).",
+      "rid": "r-formatos-aguachile"
+     },
+     {
+      "id": "c084",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 230,
+      "h": 62,
+      "x": 330,
+      "y": 2384,
+      "fill": "#8fc8f5",
+      "stroke": "#1c1c1e",
+      "sw": 0,
+      "fs": 20,
+      "text": "Chile",
+      "bold": true,
+      "info": "Reineta, corvina o salmón muy picados, con cilantro, ají verde, pimentón y a veces palta. El marinado es más largo que el peruano."
+     },
+     {
+      "id": "c086",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 230,
+      "h": 62,
+      "x": 330,
+      "y": 2541.0,
+      "fill": "#c3a6f2",
+      "stroke": "#1c1c1e",
+      "sw": 0,
+      "fs": 20,
+      "text": "Centroamérica y Caribe",
+      "bold": true,
+      "info": "Fuentes más flojas que las demás: tómalo con cautela."
+     },
+     {
+      "id": "c087",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 650,
+      "y": 2480,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Costa Rica",
+      "info": "Caldoso, con limón y naranja, chile dulce y culantro. También de palmito o de mango."
+     },
+     {
+      "id": "c089",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 650,
+      "y": 2546,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Panamá",
+      "info": "De corvina, con ají chombo."
+     },
+     {
+      "id": "c091",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 650,
+      "y": 2612,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Colombia",
+      "info": "De camarón con salsa rosada o de tomate (Cartagena, Caribe)."
+     },
+     {
+      "id": "c094",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 230,
+      "h": 62,
+      "x": 330,
+      "y": 2726.0,
+      "fill": "#fbb36b",
+      "stroke": "#1c1c1e",
+      "sw": 0,
+      "fs": 20,
+      "text": "Parientes",
+      "bold": true,
+      "info": "No son ceviche, pero usan la misma técnica: pescado crudo en ácido."
+     },
+     {
+      "id": "c095",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 650,
+      "y": 2698,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Kinilaw",
+      "info": "Filipinas. Pescado crudo con vinagre o calamansí, jengibre, cebolla y chile.",
+      "rid": "r-formatos-kinilaw"
+     },
+     {
+      "id": "c097",
+      "t": "shape",
+      "kind": "rrect",
+      "w": 250,
+      "h": 52,
+      "x": 650,
+      "y": 2764,
+      "fill": "#ffffff",
+      "stroke": "#d1d1d6",
+      "sw": 1,
+      "fs": 16,
+      "text": "Poisson cru / ota ika",
+      "info": "Polinesia (Tahití, Samoa). Pescado en lima terminado con leche de coco. La kokoda de Fiyi es de la misma familia.",
+      "rid": "r-formatos-kokoda"
+     }
+    ],
+    "scenes": [],
+    "opts": {
+     "grid": false,
+     "snap": false,
+     "guides": true,
+     "dark": false,
+     "tree": true
+    }
+   }
+  }
+ ]
 }
