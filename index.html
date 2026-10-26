@@ -223,6 +223,15 @@ button.ghead{padding:20px 0 6px;}
 .wk{margin-left:auto;font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);
   border:1px solid var(--field);border-radius:6px;padding:1px 6px;flex-shrink:0;}
 .empty{padding:48px 8px;text-align:center;color:var(--muted);font-size:15px;line-height:1.7;}
+/* ---------- esquemas ---------- */
+.sch-wrap{padding:16px 16px calc(96px + var(--sb));max-width:1100px;margin:0 auto;}
+.sch-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px;}
+.sch-card{display:flex;flex-direction:column;text-align:left;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--card-shadow);color:inherit;}
+.sch-card:active{transform:scale(.99);}
+.sch-th{aspect-ratio:16/10;background:#fff;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:center;overflow:hidden;}
+.sch-th svg{width:100%;height:100%;}
+.sch-n{font-weight:600;font-size:16px;padding:10px 12px 2px;}
+.sch-m{font-size:13px;color:var(--muted);padding:0 12px 12px;}
 
 .fab{position:fixed;right:20px;bottom:calc(20px + var(--sb));z-index:20;width:56px;height:56px;border-radius:50%;
   background:var(--accent);color:var(--on-accent);font-size:30px;line-height:1;box-shadow:0 6px 18px rgba(0,0,0,.22);}
@@ -961,7 +970,8 @@ Reglas:
 - "diet": la dieta a la que se ajusta tal como está escrita, en todas las pestañas: "carne" (lleva carne o derivados: jamón, embutido, panceta, manteca de cerdo, sebo, gelatina animal, caldos de carne o ave; también si lleva carne y pescado), "pescado" (pescado o marisco o derivados como dashi de bonito, salsa de pescado o anchoa, sin carne), "vegetariano" (sin carne ni pescado, con huevo, lácteos o miel) o "vegano" (nada de origen animal). Un ingrediente opcional o con alternativa («miel o azúcar», «huevo (opcional)») no cuenta.
 - Nada de emplatado, boceto, alérgenos, costes ni calorías.
 - Español de España. Sin emojis.
-- El apartado "pantry" (mi despensa) déjalo exactamente como está, salvo que te pida cambiarlo.`;
+- El apartado "pantry" (mi despensa) déjalo exactamente como está, salvo que te pida cambiarlo.
+- El apartado "schemas" (mis esquemas, hechos con la pizarra) déjalo exactamente como está, salvo que te pida cambiarlo.`;
 
 /* ---------- almacenamiento ---------- */
 const KEY = 'cocina_v1', UIKEY = 'cocina_ui_v2';
@@ -1006,8 +1016,24 @@ function cleanData(d){
     fileSync: d.fileSync && typeof d.fileSync === 'object' ? d.fileSync : {},
     syncedAt: d.syncedAt || null,
     pantry: cleanPantry(d.pantry),
-    reset: d.reset || null
+    reset: d.reset || null,
+    schemas: cleanSchemas(d.schemas),
+    schemaSync: d.schemaSync && typeof d.schemaSync === 'object' ? d.schemaSync : {}
   };
+}
+/* esquemas: pizarras publicadas, que se ven en la pestaña Esquemas y se editan con la pizarra */
+function cleanSchema(x){
+  const b = x.board && typeof x.board === 'object' ? x.board : {};
+  return { id: String(x.id || ('e-' + slug(x.name || 'esquema') + '-' + Date.now().toString(36))), name: String(x.name || 'Esquema').trim() || 'Esquema',
+    desc: String(x.desc || ''), updated: x.updated || Date.now(),
+    board: { items: Array.isArray(b.items) ? b.items.filter(i=> i && i.id && i.t) : [], scenes: Array.isArray(b.scenes) ? b.scenes : [],
+      opts: Object.assign({ grid: true, snap: false, guides: true, dark: false }, b.opts || {}), view: b.view && b.view.z ? b.view : null } };
+}
+function cleanSchemas(list){ return Array.isArray(list) ? list.filter(x=> x && (x.id || x.name)).map(cleanSchema) : []; }
+function hashSchema(x){
+  const s = JSON.stringify([x.name, x.desc || '', x.board.items, x.board.scenes, x.board.opts]);
+  let h = 0; for(let i=0;i<s.length;i++){ h = (h*31 + s.charCodeAt(i)) | 0; }
+  return String(h);
 }
 const DEFAULT_ZONES = ['Nevera','Congelador','Despensa','Bodega'];
 function cleanPantry(pt){
@@ -1024,7 +1050,8 @@ function fileData(){
     id: r.id, tab: r.tab, name: r.name, group: r.group, cat: r.cat || '', local: r.local || '', diet: r.diet || '', freq: r.freq || undefined, tag: r.tag, yield: r.yield,
     parts: r.parts.map(p=>({ name: p.name, ings: p.ings.map(i=>({q:i.q,u:i.u,n:i.n})), steps: stepLines(p.steps) })),
     notes: r.notes, done: r.done })),
-    pantry: { rev: data.pantry.rev || undefined, zones: data.pantry.zones.map(z=>({ id: z.id, name: z.name, items: z.items.map(i=>({ id: i.id, name: i.name, note: i.note, group: i.group || '', missing: i.missing })) })) } };
+    pantry: { rev: data.pantry.rev || undefined, zones: data.pantry.zones.map(z=>({ id: z.id, name: z.name, items: z.items.map(i=>({ id: i.id, name: i.name, note: i.note, group: i.group || '', missing: i.missing })) })) },
+    schemas: data.schemas.length ? data.schemas.map(x=>({ id: x.id, name: x.name, desc: x.desc || undefined, board: { items: x.board.items, scenes: x.board.scenes, opts: x.board.opts } })) : undefined };
 }
 function hashRecipe(r){
   const s = JSON.stringify([r.tab, r.name, r.group, r.cat || '', r.local || '', r.tag, r.yield, r.parts, r.notes, r.diet || '', r.freq || '']);
@@ -1067,13 +1094,26 @@ function applyFile(obj){
       pt.extra = data.pantry.extra || []; data.pantry = pt; pantryNew = true;
     }
   }
+  // esquemas: igual que las recetas (lo nuevo entra, lo cambiado en el archivo se actualiza si aquí no lo has tocado, lo quitado se quita)
+  let schemas = 0;
+  if(Array.isArray(obj.schemas)){
+    const sp = data.schemaSync || {}, sn = {};
+    cleanSchemas(obj.schemas).forEach(f=>{
+      const h = hashSchema(f); sn[f.id] = h;
+      const l = data.schemas.find(x=> x.id === f.id);
+      if(!l){ data.schemas.push(f); schemas++; return; }
+      if(sp[f.id] !== h && hashSchema(l) !== h){ Object.assign(l, { name: f.name, desc: f.desc, board: Object.assign({}, f.board, { view: l.board.view }) }); schemas++; }
+    });
+    Object.keys(sp).forEach(id=>{ if(!sn[id] && data.schemas.some(x=> x.id === id)){ data.schemas = data.schemas.filter(x=> x.id !== id); schemas++; } });
+    data.schemaSync = sn;
+  }
   data.fileSync = next; data.syncedAt = Date.now();
   save();
-  return { added, changed, removed, pantry: pantryNew };
+  return { added, changed, removed, pantry: pantryNew, schemas };
 }
 function syncMsg(res){
   return [res.added ? `${res.added} nueva${res.added>1?'s':''}` : '', res.changed ? `${res.changed} cambiada${res.changed>1?'s':''}` : '',
-          res.removed ? `${res.removed} quitada${res.removed>1?'s':''}` : ''].filter(Boolean).join(' · ');
+          res.removed ? `${res.removed} quitada${res.removed>1?'s':''}` : '', res.schemas ? `esquemas al día` : ''].filter(Boolean).join(' · ');
 }
 
 /* ---------- utilidades ---------- */
@@ -1139,7 +1179,7 @@ function renderTabs(){
   // las principales a la izquierda; Formatos y Frecuencia, que son complementarias, pegadas a la derecha
   const tab = (id, label, cls) => `<button class="tab${cls ? ' ' + cls : ''}${ui.tab===id?' on':''}" data-tab="${id}">${label}</button>`;
   $('#tabs').innerHTML = TABS.filter(t=> t.id !== 'formatos').map(t=> tab(t.id, t.label)).join('')
-    + `<span class="tab-gap"></span>` + tab('formatos', 'Formatos', 'tab-right') + tab('frecuencia', 'Frecuencia');
+    + `<span class="tab-gap"></span>` + tab('formatos', 'Formatos', 'tab-right') + tab('frecuencia', 'Frecuencia') + tab('esquemas', 'Esquemas');
 }
 $('#diet-btn').addEventListener('click', e=>{
   e.stopPropagation();
@@ -1246,7 +1286,7 @@ function renderKindbar(){
       `<button class="${k===v?'on':''}" data-kind="${esc(v)}">${v?`<span class="gdot" style="--gc:${gc(v)};margin:0"></span>`:''}${esc(l)}</button>`).join('') + `</div>`;
     return;
   }
-  if(ui.space === 'despensa' || ui.tab !== 'recetas' || ui.searching){ el.innerHTML = ''; return; }
+  if(ui.space === 'despensa' || ui.tab !== 'recetas' || ui.searching){ el.innerHTML = ''; return; }  // (Esquemas tampoco lleva barra)
   const k = ui.kind || '', v = ui.view === 'tipo' ? 'tipo' : 'origen';
   el.innerHTML = (`<div class="kseg">` + [['','Todo'], ...GROUPS.recetas.map(g=> [g,g])].map(([v,l])=>
     `<button class="${k===v?'on':''}" data-kind="${esc(v)}">${v?`<span class="gdot" style="--gc:${gc(v)};margin:0"></span>`:''}${esc(l)}</button>`).join('') + `</div>`)
@@ -1263,7 +1303,7 @@ $('#kindbar').addEventListener('click', e=>{
 function renderGroups(){
   renderKindbar();
   const el = $('#groups');
-  if(ui.tab === 'semana' || ui.tab === 'frecuencia' || ui.searching){ el.classList.add('hide'); el.innerHTML = ''; return; }
+  if(ui.tab === 'semana' || ui.tab === 'frecuencia' || ui.tab === 'esquemas' || ui.searching){ el.classList.add('hide'); el.innerHTML = ''; return; }
   el.classList.remove('hide');
   if(ui.tab === 'recetas'){
     const list = recList(), cs = countriesOf(list), c = curCountry(), sb = curSub();
@@ -1391,6 +1431,7 @@ function renderMain(){
   if(ui.searching){ renderSearch(main); return; }
   if(ui.tab === 'semana'){ renderWeek(main); return; }
   if(ui.tab === 'frecuencia'){ renderFreq(main); return; }
+  if(ui.tab === 'esquemas'){ renderSchemas(main); return; }
   if(ui.tab === 'recetas'){ renderRegions(main); return; }
   const tab = ui.tab, g = curGroup();
   const all = data.recipes.filter(r=> r.tab === tab && dietOk(r) && inKind(r));
@@ -1490,6 +1531,24 @@ function renderFreq(main){
   }).join('') + (none.length ? `<section class="col"><div class="col-h"><span class="gp">Sin clasificar</span><span class="c">${none.length}</span></div><div class="col-body">${subSection('f:none', 'Recetas', none, card, filtering)}</div></section>` : '') + `</div>`;
   document.body.classList.add('boardmode'); fitBoard();
 }
+/* pestaña Esquemas: cada esquema es una tarjeta; al tocarla se abre para verlo (y desde ahí, editarlo) */
+function renderSchemas(main){
+  const list = data.schemas.slice().sort((a,b)=> a.name.localeCompare(b.name,'es'));
+  const thumb = x => window.pizarra && window.pizarra.thumb ? window.pizarra.thumb(x.board) : '';
+  const nodes = x => x.board.items.filter(i=> i.t !== 'line' && i.t !== 'ink').length;
+  main.innerHTML = `<div class="sch-wrap">` + (list.length ? `<div class="sch-grid">` + list.map(x=> `<button class="sch-card" data-schema="${esc(x.id)}">
+      <div class="sch-th">${thumb(x)}</div><div class="sch-n">${esc(x.name)}</div><div class="sch-m">${x.desc ? esc(x.desc) : nodes(x) + (nodes(x) === 1 ? ' elemento' : ' elementos')}</div></button>`).join('') + `</div>`
+    : `<div class="empty">Aún no hay esquemas.<br>Pulsa <b>+</b> para crear uno, o en una pizarra elige <b>Guardar en Esquemas</b>.</div>`) + `</div>`;
+}
+function newSchema(){
+  const n = prompt('Nombre del esquema', ''); if(n == null) return;
+  const x = cleanSchema({ name: n.trim() || 'Esquema' }); data.schemas.push(x); save(); render();
+  if(window.pizarra) window.pizarra.schema(x.id, 'edit');
+}
+$('#main').addEventListener('click', e=>{
+  const c = e.target.closest('[data-schema]'); if(!c) return;
+  if(window.pizarra) window.pizarra.schema(c.dataset.schema, 'view');
+});
 function renderRegions(main){
   const base = recList();
   const head = '';
@@ -2070,6 +2129,7 @@ function refreshTagsDatalist(){
 
 /* ---------- añadir rápido ---------- */
 $('#fab').addEventListener('click', ()=> ui.space === 'despensa' ? openItem(null, curZone() ? curZone().id : null)
+  : ui.tab === 'esquemas' ? newSchema()
   : ui.tab === 'recetas' ? openNew(ui.kind || null, joinTag(curCountry(), curSub())) : ui.tab === 'frecuencia' ? openNew(ui.kind || null) : openNew());
 function openNew(group, tag, diet, cat, local, freq){
   const tab = (ui.tab === 'semana' || ui.tab === 'frecuencia') ? 'recetas' : ui.tab;
@@ -2508,7 +2568,12 @@ async function boot(){
   try{ if(navigator.storage && navigator.storage.persist) navigator.storage.persist(); }catch(e){}
   if('serviceWorker' in navigator && /^https?:/.test(location.protocol)) navigator.serviceWorker.register('sw.js').catch(()=>{});
 }
-window.cocinaApi = { recipes: ()=> data.recipes, byId, openFicha: id=> openFicha(id), dietIcon, DIET, TABS, toast };
+window.cocinaApi = { recipes: ()=> data.recipes, byId, openFicha: id=> openFicha(id), dietIcon, DIET, TABS, toast,
+  schemaById: id=> data.schemas.find(x=> x.id === id),
+  saveSchema(id, patch){ const x = data.schemas.find(s=> s.id === id); if(!x) return; if(patch.board) x.board = patch.board; if(patch.name != null) x.name = patch.name; x.updated = Date.now(); saveSoon(); },
+  addSchema(name, board){ const x = cleanSchema({ name, board }); data.schemas.push(x); save(); return x.id; },
+  deleteSchema(id){ data.schemas = data.schemas.filter(x=> x.id !== id); save(); },
+  refresh(){ if(ui.space !== 'despensa' && ui.tab === 'esquemas' && !sheetOpen) renderMain(); } };
 boot();
 })();
 </script>
@@ -2700,6 +2765,32 @@ body.pz-open{overflow:hidden;}
   padding:8px 16px;border-radius:18px;font-size:14.5px;opacity:0;transition:opacity .2s;pointer-events:none !important;}
 .pz-toast.show{opacity:1;}
 
+/* esquemas: modo ver (sin herramientas) y edición de un esquema */
+#pz-vbar{display:none;right:calc(12px + env(safe-area-inset-right,0px));top:calc(10px + env(safe-area-inset-top,0px));}
+#pz.pz-view #pz-vbar{display:flex;}
+#pz.pz-view #pz-top-c,#pz.pz-view #pz-top-r,#pz.pz-view #pz-bot-r,#pz.pz-view #pz-pal,#pz.pz-view [data-a=scenes],#pz.pz-view [data-a=slist],#pz.pz-view #pz-ctx{display:none !important;}
+#pz.pz-view #pz-title i{display:none;}
+#pz.pz-view #pz-vp{cursor:grab;}
+#pz.pz-view .pz-it{cursor:pointer;}
+#pz.pz-ext [data-a=newboard]{display:none !important;}
+.pz-vb{padding:0 14px;width:auto;font-size:16px;font-weight:600;}
+.pz-fold{position:absolute;min-width:26px;height:26px;margin:-13px 0 0 -13px;padding:0 7px;border-radius:13px;background:#1c1c1e;color:#fff;
+  font-size:13px;font-weight:600;display:flex;align-items:center;justify-content:center;pointer-events:auto !important;touch-action:none;
+  box-shadow:0 0 0 2px #fff,0 2px 6px rgba(0,0,0,.25);cursor:pointer;}
+.pz-fold.open{background:#fff;color:#1c1c1e;box-shadow:0 0 0 1.5px #1c1c1e,0 2px 6px rgba(0,0,0,.15);}
+#pz-info{position:absolute;left:50%;transform:translateX(-50%);bottom:calc(14px + env(safe-area-inset-bottom,0px));width:min(520px,calc(100vw - 20px));
+  max-height:min(50vh,460px);overflow:auto;padding:14px 16px 12px;z-index:4;}
+#pz-info h3{font-size:18px;margin:0 30px 6px 0;line-height:1.25;}
+#pz-info .ib-t{white-space:pre-wrap;font-size:15.5px;line-height:1.5;opacity:.88;}
+#pz-info .ib-x{position:absolute;right:8px;top:8px;width:30px;height:30px;border-radius:15px;background:var(--pzhover);font-size:18px;line-height:30px;text-align:center;}
+#pz-info .ib-a{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap;}
+#pz-info .ib-a button{padding:9px 14px;border-radius:18px;background:#1c1c1e;color:#fff;font-size:15px;}
+#pz.dark #pz-info .ib-a button{background:#ececec;color:#1c1c1e;}
+.pz-it.has-info::after{content:"i";position:absolute;right:3px;top:3px;width:16px;height:16px;border-radius:50%;background:#2f8cf5;color:#fff;font:italic 700 11px/16px Georgia,serif;text-align:center;pointer-events:none;}
+#pz.pz-view .pz-it.has-info::after{display:none;}
+/* caja que lleva a una ficha de la app */
+.pz-it.has-rid::before{content:"";position:absolute;left:7px;top:7px;width:8px;height:8px;border-radius:50%;background:#34c759;box-shadow:0 0 0 1.5px #fff;z-index:1;pointer-events:none;}
+
 /* elegir pizarra desde la ficha de una receta */
 #pz-attach{position:fixed;inset:0;z-index:60;color:#1c1c1e;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   --pzpanel:rgba(255,255,255,.96);--pzpanel-b:rgba(0,0,0,.08);--pzhover:rgba(0,0,0,.06);}
@@ -2776,7 +2867,10 @@ const IC = {
   check: I('<path d="M5 12.5l4.5 4.5L19 7.5"/>', 2.2),
   pdf: I('<path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M8.5 16.5h7M8.5 13h7"/>'),
   boards: I('<rect x="3" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="1.5"/>'),
-  board: I('<rect x="3" y="4" width="18" height="14" rx="2"/><path d="M7.5 21l2-3M16.5 21l-2-3"/><path d="M7 13.5c1.5-3 3-3 4.5-1s3 2 5-1.5"/>')
+  board: I('<rect x="3" y="4" width="18" height="14" rx="2"/><path d="M7.5 21l2-3M16.5 21l-2-3"/><path d="M7 13.5c1.5-3 3-3 4.5-1s3 2 5-1.5"/>'),
+  fit: I('<path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/>'),
+  collapse: I('<path d="M7 4l5 5 5-5M7 20l5-5 5 5"/>'),
+  schema: I('<rect x="3" y="9.5" width="6" height="5" rx="1.2"/><rect x="15" y="3.5" width="6" height="5" rx="1.2"/><rect x="15" y="15.5" width="6" height="5" rx="1.2"/><path d="M9 12h3M12 6v12M12 6h3M12 18h3"/>')
 };
 const ARROWS = {
   t: I('<path d="M12 19V5M6 11l6-6 6 6"/>', 2.4), b: I('<path d="M12 5v14M6 13l6 6 6-6"/>', 2.4),
@@ -2849,8 +2943,16 @@ async function load(){
   loaded = true;
 }
 let saveT = 0;
-function save(){ if(!B) return; B.updated = Date.now(); clearTimeout(saveT); saveT = setTimeout(saveNow, 350); }
-function saveNow(){ clearTimeout(saveT); if(!S) return; idbSet('state', S).catch(()=> toast('No se pudo guardar la pizarra')); }
+/* EXT: un esquema abierto (vive en data.json de la app, no en las pizarras de este dispositivo)
+   { id, mode: 'view' | 'edit', folded: Set } */
+let EXT = null;
+const VIEW = ()=> !!(EXT && EXT.mode === 'view');
+function save(){ if(!B) return; if(VIEW()) return; B.updated = Date.now(); clearTimeout(saveT); saveT = setTimeout(saveNow, 350); }
+function saveNow(){
+  clearTimeout(saveT); if(!S) return;
+  if(EXT && EXT.mode === 'edit' && API.saveSchema) API.saveSchema(EXT.id, { name: B.name, board: { items: clone(B.items), scenes: clone(B.scenes || []), opts: clone(B.opts), view: clone(B.view) } });
+  idbSet('state', S).catch(()=> toast('No se pudo guardar la pizarra'));
+}
 async function loadAssets(board){
   const ids = new Set(board.items.filter(i=> i.t === 'img').map(i=> i.asset));
   await Promise.all([...ids].filter(id=> !assets[id]).map(async id=>{ try{ const v = await idbGet('asset:' + id); if(v) assets[id] = v; }catch(e){} }));
@@ -2916,6 +3018,11 @@ function endPt(ln, k){
   const e = ln[k];
   if(e && e.id){
     const it = byIdI(e.id);
+    if(it && !isLine(it) && EXT && EXT.mode === 'view' && B.opts.tree && ln.a && ln.a.id && ln.b && ln.b.id){
+      // en el árbol, las flechas salen siempre por la derecha del padre y llegan por la izquierda del hijo
+      const parentEnd = ln.sa && !ln.ea ? 'b' : 'a', side = k === parentEnd ? 'r' : 'l';
+      return Object.assign(sidePt(it, side), { side });
+    }
     if(it && !isLine(it)){
       const other = ln[k === 'a' ? 'b' : 'a'];
       const toward = other && other.id && byIdI(other.id) ? centerOf(byIdI(other.id)) : other;
@@ -3103,7 +3210,7 @@ function placeEl(el, it){
 function itemClass(it){
   return 'pz-it pz-' + ({ note:'note', text:'text', shape:'shape', table:'table', img:'img', link:'link', rec:'rec', ink:'ink', line:'line' }[it.t]) +
     (it.t === 'ink' && TOOLS[it.tool] && TOOLS[it.tool].hl ? ' hl' : '') + (it.lock ? ' locked' : '') +
-    (it.t === 'rec' && !(API.byId && API.byId(it.rid)) ? ' gone' : '');
+    (it.t === 'rec' && !(API.byId && API.byId(it.rid)) ? ' gone' : '') + (EXT && it.info ? ' has-info' : '') + (it.t !== 'rec' && it.rid && API.byId && API.byId(it.rid) ? ' has-rid' : '');
 }
 function styleEl(el, it){
   el.className = itemClass(it) + (editing && editing.id === it.id ? ' editing' : '');
@@ -3127,10 +3234,11 @@ function renderItem(it){
 }
 function render(){
   if(!B || !world) return;
-  const keep = new Set();
+  const keep = new Set(), hid = VIEW() ? hiddenSet() : null;
   B.items.forEach((it, i)=>{
     if(it.t === 'ink' && !it.d) it.d = inkPath(it.pts, it.size, (TOOLS[it.tool] || {}).pressure);
     const el = renderItem(it); keep.add(it.id);
+    el.style.display = hid && hid.has(it.id) ? 'none' : '';
     if(world.children[i] !== el) world.insertBefore(el, world.children[i] || null);
   });
   for(const [id, el] of els){ if(!keep.has(id)){ el.remove(); els.delete(id); } }
@@ -3161,6 +3269,7 @@ function setSel(ids){ sel = expandGroups(ids); closeMenu(); drawUI(); }
 function screenBox(b){ const p = toScreen(b.x, b.y), z = V().z; return { x: p.x, y: p.y, w: b.w*z, h: b.h*z }; }
 function drawUI(){
   const layer = $('#pz-sel', root); if(!layer) return;
+  if(VIEW()){ layer.innerHTML = foldBadges(); drawCtx(); return; }
   let h = '';
   const items = selItems();
   if(items.length === 1 && isLine(items[0])){
@@ -3223,6 +3332,7 @@ function drawCtx(){
     if(items.every(i=> ['note','shape','text','table'].includes(i.t))) h += btn('textstyle', 'Aa');
     if(one && ['note','shape','text'].includes(one.t)) h += btn('edit', 'Editar texto');
     if(one && one.t === 'table') h += btn('tablemenu', 'Tabla');
+    if(EXT && one && !isLine(one) && one.t !== 'ink') h += btn('info', one.info ? 'Descripción ✓' : 'Descripción');
     h += '<span class="vs"></span>' + btn('arrange', 'Disponer') + btn('dup', 'Duplicar') + btn('copy', 'Copiar') + btn('del', 'Eliminar');
   }
   if(bar._h !== h){ bar.innerHTML = h; bar._h = h; } // sin rehacerla si no cambia: así no se pierde un toque a medias
@@ -3318,6 +3428,7 @@ function addRecipe(rid, at){ const r = API.byId(rid); return addItem(placeNew({ 
 function addLink(url, title){ return addItem(placeNew({ t:'link', url, title: title || '', w:260, h:90 })); }
 function addImageFile(file, at){
   if(!file || !/^image\//.test(file.type)) return;
+  if(VIEW()) return;
   const rd = new FileReader();
   rd.onload = ()=>{
     const img = new Image();
@@ -3444,6 +3555,12 @@ function onCtx(a, btn){
   if(a === 'openlink'){ window.open(one.url, '_blank', 'noopener'); return; }
   if(a === 'editlink'){ askLink(one); return; }
   if(a === 'edit'){ startEdit(one.id); return; }
+  if(a === 'info'){
+    openMenu(btn, `<div class="pz-mh">Descripción · se ve al tocarlo en el esquema</div><div style="padding:4px 6px"><textarea class="pz-in" rows="7" style="resize:vertical;font:inherit;line-height:1.45">${esc(one.info || '')}</textarea></div><div class="pz-row"><button data-m="ok" class="on">Hecho</button></div>`,
+      m=>{ if(m !== 'ok') return; const v = $('textarea', menuEl).value.trim(); closeMenu(); change(()=>{ if(v) one.info = v; else delete one.info; }); },
+      { onMount: m=>{ m.style.width = 'min(420px, calc(100vw - 20px))'; const t = $('textarea', m); if(matchMedia('(pointer:fine)').matches) t.focus(); } });
+    return;
+  }
   if(a === 'dup') return duplicate();
   if(a === 'copy') return copySel();
   if(a === 'del') return delSel();
@@ -3579,6 +3696,13 @@ function onDown(e){
     return;
   }
   if(ptrs.size > 1) return;
+  if(VIEW()){
+    const fb = e.target.closest('[data-h^="fold:"]');
+    if(fb){ gest = { kind: 'vfold', id: fb.dataset.h.slice(5), sx: e.clientX, sy: e.clientY }; return; }
+    const vi = hitItem(e);
+    gest = vi ? { kind: 'vtap', id: vi.id, sx: e.clientX, sy: e.clientY } : { kind: 'pan', sx: e.clientX, sy: e.clientY, v0: Object.assign({}, V()), hist: [{ x: e.clientX, y: e.clientY, t: performance.now() }], moved: false };
+    return;
+  }
   if(editing){
     const it = hitItem(e);
     if(it && it.id === editing.id) return; // dentro del texto que se edita: dejar al navegador
@@ -3639,6 +3763,11 @@ function onMove(e){
     const hit = B.items.filter(it=>{ const q = aabb(it); return q.x < b.x && q.x + q.w > a.x && q.y < b.y && q.y + q.h > a.y; }).map(i=> i.id);
     sel = expandGroups([...new Set(gest.add.concat(hit))]); drawUI(); return;
   }
+  if(gest.kind === 'vtap' || gest.kind === 'vfold'){
+    if(Math.hypot(e.clientX - gest.sx, e.clientY - gest.sy) < 8) return;
+    gest = { kind: 'pan', sx: gest.sx, sy: gest.sy, v0: Object.assign({}, V()), hist: [{ x: e.clientX, y: e.clientY, t: performance.now() }], moved: true };
+    V().x = gest.v0.x + e.clientX - gest.sx; V().y = gest.v0.y + e.clientY - gest.sy; applyView(); return;
+  }
   if(gest.kind === 'press'){
     if(Math.hypot(e.clientX - gest.sx, e.clientY - gest.sy) < 6) return;
     const it = byIdI(gest.id);
@@ -3659,6 +3788,9 @@ function onUp(e){
   }
   if(ptrs.size) return;
   const g = gest; gest = null;
+  if(g.kind === 'vtap'){ viewTap(g.id); return; }
+  if(g.kind === 'vfold'){ toggleFold(g.id); return; }
+  if(g.kind === 'pan' && !g.moved && VIEW()){ closeInfo(); return; }
   if(g.kind === 'pan'){
     if(!g.moved){ // toque en el fondo: quitar selección (y doble toque: nota nueva, como en Freeform)
       const now = performance.now(), w = toWorld(e.clientX, e.clientY);
@@ -4080,6 +4212,7 @@ function build(){
       <button class="pz-b" data-a="conn" title="Mostrar conectores">${IC.conn}</button>
       <button class="pz-b" data-a="grid" title="Cuadrícula">${IC.grid}</button>
     </div>
+    <div class="pz-bar" id="pz-vbar"><button class="pz-b" data-a="vfit" title="Ver todo">${IC.fit}</button><button class="pz-b" data-a="vfoldall" title="Recoger todo">${IC.collapse}</button><button class="pz-b pz-vb" data-a="vedit">Editar</button></div>
     <div class="pz-bar" id="pz-pal"></div>
     <div class="pz-ctx" id="pz-ctx" style="display:none"></div>
     <div class="pz-toast"></div>
@@ -4097,7 +4230,7 @@ function build(){
   $('#pz-sel', root).addEventListener('pointerdown', e=>{ if(e.target.closest('[data-h]')){ e.stopPropagation(); onDown(e); } });
   ['gesturestart','gesturechange','gestureend'].forEach(ev=> root.addEventListener(ev, e=> e.preventDefault()));
   vp.addEventListener('wheel', onWheel, { passive: false });
-  vp.addEventListener('contextmenu', e=>{ e.preventDefault(); if(e.pointerType === 'touch' || e.pointerType === 'pen' || (gest && gest.kind === 'marq') || [...ptrs.values()].some(q=> q.type !== 'mouse')) return; const it = hitItem(e); if(it && !sel.includes(it.id)) setSel([it.id]); if(sel.length) return; openMenu({ x: e.clientX - vp.getBoundingClientRect().left, y: e.clientY - vp.getBoundingClientRect().top }, `<button class="pz-mi" data-m="paste"${clipboard ? '' : ' disabled style="opacity:.4"'}>Pegar</button><button class="pz-mi" data-m="note">Nota adhesiva aquí</button><button class="pz-mi" data-m="text">Texto aquí</button>`, m=>{ closeMenu(); const w = toWorld(e.clientX, e.clientY); if(m === 'paste') paste(w); if(m === 'note') addNote(w); if(m === 'text') addText(w); }); });
+  vp.addEventListener('contextmenu', e=>{ e.preventDefault(); if(VIEW() || e.pointerType === 'touch' || e.pointerType === 'pen' || (gest && gest.kind === 'marq') || [...ptrs.values()].some(q=> q.type !== 'mouse')) return; const it = hitItem(e); if(it && !sel.includes(it.id)) setSel([it.id]); if(sel.length) return; openMenu({ x: e.clientX - vp.getBoundingClientRect().left, y: e.clientY - vp.getBoundingClientRect().top }, `<button class="pz-mi" data-m="paste"${clipboard ? '' : ' disabled style="opacity:.4"'}>Pegar</button><button class="pz-mi" data-m="note">Nota adhesiva aquí</button><button class="pz-mi" data-m="text">Texto aquí</button>`, m=>{ closeMenu(); const w = toWorld(e.clientX, e.clientY); if(m === 'paste') paste(w); if(m === 'note') addNote(w); if(m === 'text') addText(w); }); });
   onTap(ui, '.pz-bar [data-a]', (b, e)=> onUiClick({ target: b }));
   $('#pz-ctx', root).addEventListener('pointerdown', e=> e.stopPropagation());
   onTap($('#pz-ctx', root), '[data-c]', b=> onCtx(b.dataset.c, b));
@@ -4128,31 +4261,35 @@ function onUiClick(e){
   if(editing && a !== 'undo') stopEdit();
   switch(a){
     case 'close': return close();
+    case 'vedit': return setMode('edit');
+    case 'vfit': return fitVisible();
+    case 'vfoldall': EXT.folded = defaultFolded(); closeInfo(); treeLayout(false); render(); return fitVisible();
     case 'draw': return setDrawMode(!drawMode);
     case 'text': return addText();
     case 'note': return addNote();
     case 'table': return addTable();
     case 'shapes': return openMenu(b, `<div class="pz-shapes">${SHAPES.map(k=> `<button data-m="${k}" title="${k}">${shapeIcon(k)}</button>`).join('')}</div>`, m=>{ closeMenu(); addShape(m); });
     case 'attach': return openMenu(b, `<button class="pz-mi" data-m="recipe">${IC.recipe}Receta del recetario</button><div class="pz-msep"></div>
-      <button class="pz-mi" data-m="photo">${IC.photo}Elegir foto</button><button class="pz-mi" data-m="cam">${IC.camera}Hacer foto</button>
-      <div class="pz-msep"></div><button class="pz-mi" data-m="link">${IC.link}Añadir un enlace</button>`,
+      ${EXT ? '' : `<button class="pz-mi" data-m="photo">${IC.photo}Elegir foto</button><button class="pz-mi" data-m="cam">${IC.camera}Hacer foto</button>
+      <div class="pz-msep"></div>`}<button class="pz-mi" data-m="link">${IC.link}Añadir un enlace</button>`,
       m=>{ closeMenu(); if(m === 'recipe') pickRecipe(b); if(m === 'photo') $('#pz-file', root).click(); if(m === 'cam') $('#pz-cam', root).click(); if(m === 'link') askLink(); });
     case 'recipe': return pickRecipe(b);
     case 'undo': if(editing) stopEdit(); return undo();
     case 'redo': return redo();
     case 'share': return openMenu(b, `<button class="pz-mi" data-m="pdf">${IC.pdf}Imprimir o guardar en PDF</button><button class="pz-mi" data-m="png">${IC.photo}Guardar como imagen</button>
-      <div class="pz-msep"></div><button class="pz-mi" data-m="export">${IC.file}Exportar pizarra (archivo)</button><button class="pz-mi" data-m="import">${IC.folder}Importar pizarra…</button>`,
+      <div class="pz-msep"></div><button class="pz-mi" data-m="export">${IC.file}Exportar ${EXT ? 'esquema' : 'pizarra'} (archivo)</button>${EXT ? '' : `<button class="pz-mi" data-m="import">${IC.folder}Importar pizarra…</button>`}`,
       m=>{ closeMenu(); if(m === 'pdf') printBoard(); if(m === 'png') exportPNG(); if(m === 'export') exportBoard(); if(m === 'import') $('#pz-json', root).click(); });
     case 'more': return openMenu(b, `<button class="pz-mi" data-m="grid">Cuadrícula de puntos <span class="tg${B.opts.grid ? ' on' : ''}"></span></button>
       <button class="pz-mi" data-m="snap">Alinear con la cuadrícula <span class="tg${B.opts.snap ? ' on' : ''}"></span></button>
       <button class="pz-mi" data-m="guides">Guías de alineación <span class="tg${B.opts.guides !== false ? ' on' : ''}"></span></button>
       <button class="pz-mi" data-m="conn">Mostrar conectores <span class="tg${S.ui.conn ? ' on' : ''}"></span></button>
       <button class="pz-mi" data-m="dark">Fondo oscuro <span class="tg${B.opts.dark ? ' on' : ''}"></span></button>
+      ${EXT ? `<button class="pz-mi" data-m="tree">Al verlo, colocar como árbol <span class="tg${B.opts.tree ? ' on' : ''}"></span></button>` : ''}
       <div class="pz-msep"></div><button class="pz-mi" data-m="selall">Seleccionar todo</button><button class="pz-mi" data-m="paste"${clipboard ? '' : ' style="opacity:.4"'}>Pegar</button>
       <button class="pz-mi" data-m="fit">Ajustar al contenido</button>
       <div class="pz-msep"></div><button class="pz-mi" data-m="redo">${IC.redo}Rehacer</button><button class="pz-mi danger" data-m="clear">${IC.trash}Borrar todo el contenido</button>`,
       m=>{
-        if(['grid','snap','guides','dark'].includes(m)){ B.opts[m] = m === 'guides' ? B.opts.guides === false : !B.opts[m]; save(); root.classList.toggle('dark', !!B.opts.dark); applyView(); $('.tg', menuEl.querySelector(`[data-m=${m}]`)).classList.toggle('on'); updateBotR(); return; }
+        if(['grid','snap','guides','dark','tree'].includes(m)){ B.opts[m] = m === 'guides' ? B.opts.guides === false : !B.opts[m]; save(); root.classList.toggle('dark', !!B.opts.dark); applyView(); $('.tg', menuEl.querySelector(`[data-m=${m}]`)).classList.toggle('on'); updateBotR(); return; }
         if(m === 'conn'){ S.ui.conn = !S.ui.conn; saveNow(); $('.tg', menuEl.querySelector('[data-m=conn]')).classList.toggle('on'); updateBotR(); drawUI(); return; }
         closeMenu();
         if(m === 'selall') setSel(B.items.map(i=> i.id));
@@ -4162,7 +4299,7 @@ function onUiClick(e){
         if(m === 'clear' && B.items.length && confirm('¿Borrar todo lo que hay en esta pizarra? (Se puede deshacer)')) { change(()=> B.items = []); sel = []; drawUI(); }
       });
     case 'newboard': return createBoard();
-    case 'boards': return boardsMenu(b);
+    case 'boards': return EXT ? (VIEW() ? null : schemaMenu(b)) : boardsMenu(b);
     case 'zoom': return openMenu(b, [10, 25, 50, 75, 100, 200, 400].map(p=> `<button class="pz-mi" data-m="${p}">${Math.round(V().z*100) === p ? '<span style="width:14px">✓</span>' : '<span style="width:14px"></span>'}${p} %</button>`).join('') +
       `<div class="pz-msep"></div><button class="pz-mi" data-m="sel"${sel.length ? '' : ' style="opacity:.4"'}>Ajustar a la selección</button><button class="pz-mi" data-m="fit">Ajustar al contenido</button>`,
       m=>{ closeMenu(); if(m === 'fit') return fitContent(); if(m === 'sel') return fitSelection(); const r = vp.getBoundingClientRect(), c = viewCenter(), z = +m / 100; animateView({ z, x: r.width/2 - c.x*z, y: r.height/2 - c.y*z }); });
@@ -4204,6 +4341,7 @@ function boardsMenu(anchor){
   const list = S.boards.slice().sort((a, b)=> b.updated - a.updated);
   openMenu(anchor, `<div class="pz-mh">Pizarras</div>` + list.map(b=> `<button class="pz-mi" data-m="open:${b.id}">${b.id === B.id ? IC.check : '<span style="width:20px"></span>'}<span style="flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(b.name)}</span></button>`).join('') +
     `<div class="pz-msep"></div><button class="pz-mi" data-m="rename">Renombrar</button><button class="pz-mi" data-m="dup">${IC.copy}Duplicar</button><button class="pz-mi" data-m="new">${IC.newb}Nueva pizarra</button>
+    <div class="pz-msep"></div><button class="pz-mi" data-m="toschema">${IC.schema}Guardar en Esquemas</button>
     <div class="pz-msep"></div><button class="pz-mi danger" data-m="del">${IC.trash}Eliminar esta pizarra</button>`,
     m=>{
       closeMenu();
@@ -4211,6 +4349,7 @@ function boardsMenu(anchor){
       if(m === 'rename'){ const n = prompt('Nombre de la pizarra', B.name); if(n && n.trim()){ B.name = n.trim(); save(); drawTitle(); } }
       if(m === 'dup'){ const c = clone(B); c.id = 'b' + uid(); c.name = B.name + ' (copia)'; c.created = c.updated = Date.now(); S.boards.push(c); switchBoard(c.id); }
       if(m === 'new') createBoard();
+      if(m === 'toschema') toSchema();
       if(m === 'del'){
         if(!confirm(`¿Eliminar la pizarra «${B.name}»? No se puede deshacer.`)) return;
         S.boards = S.boards.filter(b=> b !== B);
@@ -4295,6 +4434,7 @@ function onKey(e){
   if(editing || /^(INPUT|TEXTAREA)$/.test(document.activeElement && document.activeElement.tagName) || (document.activeElement && document.activeElement.isContentEditable)) return;
   if(document.getElementById('sheet') && document.getElementById('sheet').classList.contains('open')) return;
   const mod = e.metaKey || e.ctrlKey, k = e.key.toLowerCase();
+  if(VIEW()){ if(k === 'escape'){ if($('#pz-info', root)) closeInfo(); else close(); } return; }
   if(mod && k === 'z'){ e.preventDefault(); e.shiftKey ? redo() : undo(); return; }
   if(mod && k === 'y'){ e.preventDefault(); redo(); return; }
   if(mod && k === 'c'){ e.preventDefault(); copySel(); return; }
@@ -4313,7 +4453,7 @@ function onKey(e){
   }
 }
 function onPaste(e){
-  if(!root || !root.classList.contains('open') || editing) return;
+  if(!root || !root.classList.contains('open') || editing || VIEW()) return;
   if(document.activeElement && (/^(INPUT|TEXTAREA)$/.test(document.activeElement.tagName) || document.activeElement.isContentEditable)) return;
   const files = [...(e.clipboardData && e.clipboardData.files || [])].filter(f=> /^image\//.test(f.type));
   if(files.length){ e.preventDefault(); files.forEach(f=> addImageFile(f)); return; }
@@ -4326,12 +4466,264 @@ function onPaste(e){
 async function open(){
   if(!root) build();
   await load();
+  if(EXT) leaveSchema();
   root.classList.add('open'); document.body.classList.add('pz-open');
   await switchBoard(B.id);
   if(B.view.x === 0 && B.view.y === 0 && !B.items.length){ B.view = { x: vp.clientWidth/2, y: vp.clientHeight/2, z: 1 }; applyView(); }
   setDrawMode(drawMode);
 }
-function close(){ stopEdit(); closeMenu(); closeScenes(); saveNow(); root.classList.remove('open'); document.body.classList.remove('pz-open'); }
+function close(){
+  stopEdit(); closeMenu(); closeScenes(); closeInfo();
+  if(EXT && EXT.mode === 'edit' && EXT.back){ saveNow(); setMode('view'); return; } // de editar se vuelve a verlo
+  saveNow();
+  if(EXT){ leaveSchema(); if(API.refresh) API.refresh(); }
+  root.classList.remove('open'); document.body.classList.remove('pz-open');
+}
+
+/* ================= ESQUEMAS =================
+   Un esquema es una pizarra guardada en la app (data.json). Se abre en modo ver: sin herramientas,
+   las flechas forman el árbol y cada caja con flechas que salen se despliega o se recoge.
+   «Editar» lo abre con todas las herramientas de la pizarra. */
+let prevB = null;
+async function schema(id, mode){
+  const x = API.schemaById && API.schemaById(id); if(!x) return;
+  if(!root) build();
+  await load();
+  if(!EXT){ stopEdit(); saveNow(); prevB = B; }
+  EXT = { id, mode: null, folded: new Set(), back: false };
+  B = { id: 'x' + id, name: x.name, created: 0, updated: x.updated, items: clone(x.board.items), scenes: clone(x.board.scenes || []),
+        view: x.board.view ? clone(x.board.view) : { x: 0, y: 0, z: 1 }, opts: clone(x.board.opts || { grid: true }) };
+  root.classList.add('open', 'pz-ext'); document.body.classList.add('pz-open');
+  undoStack = []; redoStack = []; sel = []; sceneIdx = -1; closeScenes();
+  els.forEach(el=> el.remove()); els.clear();
+  await loadAssets(B);
+  root.classList.toggle('dark', !!B.opts.dark);
+  setMode(mode, true);
+}
+function setMode(mode, first){
+  if(!EXT) return;
+  closeMenu(); closeInfo(); stopEdit(); setDrawMode(false); setSel([]);
+  if(EXT.mode === 'edit') saveNow();
+  if(mode === 'edit' && EXT.mode === 'view') EXT.back = true;
+  // lo que se ve es una copia: al ver se puede recolocar (árbol) sin tocar lo guardado
+  const x = API.schemaById && API.schemaById(EXT.id);
+  if(x && EXT.mode){ B.items = clone(x.board.items); B.scenes = clone(x.board.scenes || []); B.opts = clone(x.board.opts || B.opts); els.forEach(el=> el.remove()); els.clear(); }
+  EXT.mode = mode;
+  root.classList.toggle('pz-view', mode === 'view');
+  if(mode === 'view'){ EXT.order = new Map(B.items.map(i=> [i.id, isLine(i) ? 0 : i.y])); EXT.folded = defaultFolded(); treeLayout(false); }
+  undoStack = []; redoStack = [];
+  drawTitle(); render(); drawSceneNav(); updateBotR(); updateUndo();
+  if(mode === 'view') requestAnimationFrame(()=> fitVisible(first));
+  else requestAnimationFrame(()=>{
+    // todo a la vista, pero sin alejarse tanto que no se pueda leer
+    const u = unionBox(B.items); if(!u) return fitContent();
+    const t = viewFor(u), z = Math.max(t.z, .35), r = vp.getBoundingClientRect();
+    const cx = t.z < .35 ? u.x + (r.width/2 - 40) / z : u.x + u.w/2;
+    Object.assign(V(), { z, x: r.width/2 - cx*z, y: r.height/2 - (u.y + u.h/2)*z }); applyView();
+  });
+}
+function leaveSchema(){
+  EXT = null; root.classList.remove('pz-view', 'pz-ext');
+  els.forEach(el=> el.remove()); els.clear();
+  B = prevB || (S && S.boards[0]); prevB = null;
+  if(B) root.classList.toggle('dark', !!B.opts.dark);
+}
+function schemaMenu(anchor){
+  openMenu(anchor, `<div class="pz-mh">Esquema</div><button class="pz-mi" data-m="view">${IC.schema}Ver el esquema</button><button class="pz-mi" data-m="rename">Renombrar</button>
+    <div class="pz-msep"></div><button class="pz-mi" data-m="toboard">${IC.board}Copiar a mis pizarras</button>
+    <div class="pz-msep"></div><button class="pz-mi danger" data-m="del">${IC.trash}Eliminar este esquema</button>`,
+    m=>{
+      closeMenu();
+      if(m === 'view') return setMode('view');
+      if(m === 'rename'){ const n = prompt('Nombre del esquema', B.name); if(n && n.trim()){ B.name = n.trim(); saveNow(); drawTitle(); } }
+      if(m === 'toboard'){ const c = newBoard(B.name); c.items = clone(B.items); c.scenes = clone(B.scenes || []); c.opts = clone(B.opts); S.boards.push(c); saveNow(); toast('Copiado a tus pizarras'); }
+      if(m === 'del'){
+        if(!confirm(`¿Eliminar el esquema «${B.name}»? No se puede deshacer.`)) return;
+        const id = EXT.id; EXT.mode = 'view'; EXT.back = false; if(API.deleteSchema) API.deleteSchema(id);
+        leaveSchema(); root.classList.remove('open'); document.body.classList.remove('pz-open'); if(API.refresh) API.refresh();
+      }
+    });
+}
+/* pasar la pizarra abierta a Esquemas (sale de las pizarras) */
+function toSchema(){
+  if(!API.addSchema) return;
+  if(!B.items.length){ toast('La pizarra está vacía'); return; }
+  const fotos = B.items.some(i=> i.t === 'img');
+  if(!confirm(`«${B.name}» pasará a la pestaña Esquemas y saldrá de tus pizarras.` + (fotos ? '\n\nLas fotos solo se verán en este dispositivo.' : ''))) return;
+  const id = API.addSchema(B.name, { items: clone(B.items), scenes: clone(B.scenes || []), opts: clone(B.opts), view: clone(B.view) });
+  S.boards = S.boards.filter(b=> b !== B);
+  if(!S.boards.length) S.boards.push(newBoard('Pizarra'));
+  B = S.boards[0]; S.cur = B.id; saveNow();
+  schema(id, 'view');
+}
+
+/* --- árbol: las flechas entre cajas (de la que sale a la que llega) --- */
+function treeKids(){
+  const kids = new Map(), par = new Map();
+  B.items.forEach(l=>{
+    if(!isLine(l) || !(l.a && l.a.id) || !(l.b && l.b.id) || !byIdI(l.a.id) || !byIdI(l.b.id)) return;
+    const [p, c] = l.sa && !l.ea ? [l.b.id, l.a.id] : [l.a.id, l.b.id];
+    if(!kids.has(p)) kids.set(p, []); kids.get(p).push(c);
+    if(!par.has(c)) par.set(c, []); par.get(c).push(p);
+  });
+  return { kids, par };
+}
+/* al abrir: todo recogido salvo el primer nivel (las cajas de las que no llega ninguna flecha) */
+function defaultFolded(){ const { kids, par } = treeKids(); return new Set([...kids.keys()].filter(id=> par.has(id))); }
+function hiddenSet(){
+  const { kids } = treeKids(), hid = new Set(), stack = [];
+  EXT.folded.forEach(id=> (kids.get(id) || []).forEach(k=> stack.push(k)));
+  while(stack.length){ const id = stack.pop(); if(hid.has(id)) continue; hid.add(id); (kids.get(id) || []).forEach(k=> stack.push(k)); }
+  // lo que también cuelga de una caja visible y abierta sigue visible
+  let again = true;
+  while(again){ again = false; kids.forEach((cs, p)=>{ if(hid.has(p) || EXT.folded.has(p)) return; cs.forEach(c=>{ if(hid.has(c)){ hid.delete(c); again = true; } }); }); }
+  B.items.forEach(l=>{ if(isLine(l) && ((l.a && l.a.id && hid.has(l.a.id)) || (l.b && l.b.id && hid.has(l.b.id)))) hid.add(l.id); });
+  return hid;
+}
+function countDesc(id, kids){ const seen = new Set(), st = [...(kids.get(id) || [])]; while(st.length){ const c = st.pop(); if(seen.has(c)) continue; seen.add(c); (kids.get(c) || []).forEach(k=> st.push(k)); } return seen.size; }
+function foldBadges(){
+  const { kids } = treeKids(), hid = hiddenSet();
+  let h = '';
+  kids.forEach((cs, id)=>{
+    const it = byIdI(id); if(!it || hid.has(id)) return;
+    // el botón va en el lado por el que salen sus flechas
+    const kc = centerOf(byIdI(cs[0]) || it), side = B.opts.tree ? 'r' : bestSide(it, kc), p = sidePt(it, side), q0 = toScreen(p.x, p.y), nv = NORMAL[side];
+    const q = { x: q0.x + nv.x * 16, y: q0.y + nv.y * 16 };
+    const open = !EXT.folded.has(id);
+    h += `<div class="pz-fold${open ? ' open' : ''}" data-h="fold:${id}" style="left:${q.x}px;top:${q.y}px">${open ? '−' : '+' + countDesc(id, kids)}</div>`;
+  });
+  return h;
+}
+function toggleFold(id){
+  const { kids } = treeKids(); if(!kids.has(id)) return;
+  const opening = EXT.folded.has(id);
+  if(opening) EXT.folded.delete(id); else EXT.folded.add(id);
+  const target = treeLayout(true);
+  render();
+  if(opening){
+    if(target){
+      // seguir lo que se abre usando dónde va a quedar
+      const its = [id, ...kids.get(id)].map(k=>{ const it = byIdI(k), p = target.get(k); return it ? { x: p ? p.x : it.x, y: p ? p.y : it.y, w: it.w, h: it.h } : null; }).filter(Boolean);
+      const u = unionBox(its.map(o=> Object.assign({ t: 'box' }, o))), vr = visibleRect();
+      if(u && (u.x < vr.x || u.y < vr.y || u.x + u.w > vr.x + vr.w || u.y + u.h > vr.y + vr.h)){
+        const t = viewFor(u, 50), z = Math.min(t.z, V().z), r = vp.getBoundingClientRect();
+        animateView({ z, x: r.width/2 - (u.x + u.w/2) * z, y: r.height/2 - (u.y + u.h/2) * z });
+      }
+      return;
+    }
+    // si lo que se abre no cabe en pantalla, la vista lo acompaña (sin acercarse más de lo que estaba)
+    const its = [byIdI(id), ...kids.get(id).map(byIdI)].filter(Boolean), u = unionBox(its), vr = visibleRect();
+    if(u && (u.x < vr.x || u.y < vr.y || u.x + u.w > vr.x + vr.w || u.y + u.h > vr.y + vr.h)){
+      const t = viewFor(u, 50), z = Math.min(t.z, V().z), r = vp.getBoundingClientRect();
+      animateView({ z, x: r.width/2 - (u.x + u.w/2) * z, y: r.height/2 - (u.y + u.h/2) * z });
+    }
+  }
+}
+/* árbol automático (si el esquema lo pide): raíz a la izquierda, hijos en columnas a la derecha,
+   y solo ocupa sitio lo que está desplegado. Devuelve las posiciones nuevas (y las anima). */
+let layRaf = 0;
+function treeLayout(animate){
+  if(!VIEW() || !B.opts.tree) return null;
+  const { kids, par } = treeKids();
+  const ids = new Set([...kids.keys(), ...par.keys()]);
+  const ord = id=> EXT.order && EXT.order.has(id) ? EXT.order.get(id) : (byIdI(id) || {}).y || 0;
+  const roots = [...ids].filter(id=> !par.has(id) && byIdI(id)).sort((a, b)=> ord(a) - ord(b));
+  if(!roots.length) return null;
+  const depth = new Map(), q = roots.map(r=> [r, 0]);
+  while(q.length){ const [id, d] = q.shift(); if(depth.has(id)) continue; depth.set(id, d); (kids.get(id) || []).forEach(k=> q.push([k, d + 1])); }
+  const colW = []; depth.forEach((d, id)=>{ const it = byIdI(id); if(it) colW[d] = Math.max(colW[d] || 0, it.w); });
+  const r0 = byIdI(roots[0]), colX = [r0.x]; for(let d = 1; d < colW.length; d++) colX[d] = colX[d-1] + colW[d-1] + 90;
+  const pos = new Map(), done = new Set();
+  const lay = (id, y)=>{
+    const it = byIdI(id), d = depth.get(id); done.add(id);
+    const ks = (EXT.folded.has(id) ? [] : (kids.get(id) || [])).filter(k=> !done.has(k) && depth.get(k) === d + 1 && byIdI(k)).sort((a, b)=> ord(a) - ord(b));
+    if(!ks.length){ pos.set(id, { x: colX[d], y }); return it.h; }
+    let cy = y, c1 = null, c2 = null;
+    ks.forEach((k, i)=>{
+      const hh = lay(k, cy), p = pos.get(k), kh = byIdI(k).h;
+      if(c1 == null) c1 = p.y + kh/2; c2 = p.y + kh/2;
+      cy += hh + (i < ks.length - 1 ? ((kids.has(k) && !EXT.folded.has(k)) || (kids.has(ks[i+1]) && !EXT.folded.has(ks[i+1])) ? 34 : 14) : 0);
+    });
+    const ny = Math.max(y, (c1 + c2)/2 - it.h/2);
+    pos.set(id, { x: colX[d], y: ny });
+    return Math.max(cy - y, ny + it.h - y);
+  };
+  let y = r0.y;
+  roots.forEach(id=>{ y += lay(id, y) + 60; });
+  // lo plegado se queda escondido detrás de su caja
+  const hid = hiddenSet();
+  hid.forEach(id=>{ const it = byIdI(id); if(!it || isLine(it) || pos.has(id)) return; let p = (par.get(id) || [])[0]; while(p && !pos.has(p)) p = (par.get(p) || [])[0]; const pp = p && pos.get(p); if(pp) pos.set(id, { x: pp.x, y: pp.y }); });
+  cancelAnimationFrame(layRaf);
+  const from = new Map(); pos.forEach((p, id)=>{ const it = byIdI(id); from.set(id, { x: it.x, y: it.y }); });
+  if(!animate){ pos.forEach((p, id)=> Object.assign(byIdI(id), p)); return pos; }
+  const t0 = performance.now(), ms = 240;
+  const step = now=>{
+    const k = Math.min(1, (now - t0) / ms), e = 1 - Math.pow(1 - k, 3);
+    pos.forEach((p, id)=>{ const it = byIdI(id), f = from.get(id); if(it){ it.x = f.x + (p.x - f.x) * e; it.y = f.y + (p.y - f.y) * e; } });
+    render();
+    if(k < 1) layRaf = requestAnimationFrame(step);
+  };
+  layRaf = requestAnimationFrame(step);
+  return pos;
+}
+function fitVisible(instant){
+  const hid = hiddenSet(), u = unionBox(B.items.filter(i=> !hid.has(i.id)));
+  if(!u) return;
+  const t = viewFor(u, 60); t.z = Math.min(t.z, 1.4);
+  const r = vp.getBoundingClientRect(); t.x = r.width/2 - (u.x + u.w/2) * t.z; t.y = r.height/2 - (u.y + u.h/2) * t.z;
+  if(instant){ Object.assign(V(), t); applyView(); } else animateView(t);
+}
+function viewTap(id){
+  const it = byIdI(id); if(!it) return;
+  const { kids } = treeKids();
+  if(kids.has(id)) toggleFold(id);
+  const rec = it.rid && API.byId && API.byId(it.rid);
+  if(it.info || (rec && kids.has(id)) || (it.t === 'link' && kids.has(id))) return showInfo(it);
+  closeInfo();
+  if(rec) return openRecipe(it.rid);
+  if(it.t === 'link') return window.open(it.url, '_blank', 'noopener');
+}
+function itemTitle(it){
+  if(it.t === 'rec'){ const r = API.byId && API.byId(it.rid); return r ? r.name : (it.name || 'Receta'); }
+  if(it.t === 'link') return it.title || it.url;
+  if(it.t === 'table') return 'Tabla';
+  return String(it.text || '').split('\n')[0] || '';
+}
+function showInfo(it){
+  closeInfo();
+  const rec = it.rid && API.byId && API.byId(it.rid), r = rec ? API.byId(it.rid) : null;
+  const tabLabel = r ? (((API.TABS || []).find(x=> x.id === r.tab) || {}).label || '') : '';
+  const p = document.createElement('div'); p.id = 'pz-info'; p.className = 'pz-menu';
+  p.innerHTML = `<button class="ib-x" data-i="x">×</button><h3>${esc(itemTitle(it))}</h3>${it.info ? `<div class="ib-t">${esc(it.info)}</div>` : ''}` +
+    ((rec || it.t === 'link') ? `<div class="ib-a">${rec ? `<button data-i="rec">Abrir ${tabLabel === 'Formatos' ? 'formato' : 'ficha'}</button>` : ''}${it.t === 'link' ? `<button data-i="link">Abrir enlace</button>` : ''}</div>` : '');
+  ui.appendChild(p);
+  p.addEventListener('pointerdown', e=> e.stopPropagation());
+  onTap(p, '[data-i]', b=>{ const k = b.dataset.i; if(k === 'x') return closeInfo(); if(k === 'rec') return openRecipe(it.rid); if(k === 'link') window.open(it.url, '_blank', 'noopener'); });
+}
+function closeInfo(){ const p = root && $('#pz-info', root); if(p) p.remove(); }
+/* miniatura para la tarjeta de la pestaña Esquemas */
+function thumb(board){
+  const keep = B, keepX = EXT; B = { items: clone(board.items || []), opts: board.opts || {} };
+  try{
+    // si es un árbol, la miniatura enseña lo que se ve al abrirlo (primer nivel), ya colocado
+    let hid = new Set();
+    if(B.opts.tree){ EXT = { mode: 'view', folded: new Set() }; EXT.order = new Map(B.items.map(i=> [i.id, isLine(i) ? 0 : i.y])); EXT.folded = defaultFolded(); treeLayout(false); hid = hiddenSet(); }
+    B.items = B.items.filter(i=> !hid.has(i.id));
+    const u = unionBox(B.items.filter(i=> i.t !== 'ink')); if(!u) return '';
+    const pad = Math.max(u.w, u.h) * .04;
+    return `<svg viewBox="${u.x - pad} ${u.y - pad} ${u.w + pad*2} ${u.h + pad*2}" preserveAspectRatio="xMidYMid meet">` + B.items.map(it=>{
+      if(it.t === 'ink') return `<g transform="translate(${it.x},${it.y}) scale(${it.w/it.w0},${it.h/it.h0})"><path d="${it.d || ''}" fill="${it.color}"/></g>`;
+      if(isLine(it)) return `<path d="${linePathData(it).d}" stroke="${it.color||'#1c1c1e'}" stroke-width="${Math.max(2, (it.sw||2.5)) * Math.max(1, u.w/900)}" fill="none" opacity=".55"/>`;
+      const label = ['shape','note','text'].includes(it.t) ? String(it.text || '').split('\n')[0] : it.t === 'rec' ? itemTitle(it) : '';
+      const txt = label ? `<text x="${it.x + it.w/2}" y="${it.y + it.h/2}" text-anchor="middle" dominant-baseline="central" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="${fsPx(it)}" font-weight="${it.bold ? 700 : 400}" fill="${it.color || '#1c1c1e'}">${esc(label.length > 26 ? label.slice(0, 25) + '…' : label)}</text>` : '';
+      if(it.t === 'shape') return `<path transform="translate(${it.x},${it.y})" d="${shapePath(it.kind, it.w, it.h)}" fill="${it.fill||'#5ab4f0'}" stroke="${it.sw ? (it.stroke || '#1c1c1e') : 'none'}" stroke-width="${it.sw || 0}"/>` + txt;
+      if(it.t === 'text') return txt;
+      const fill = it.t === 'note' ? (it.fill || NOTE_COLORS[0]) : it.t === 'rec' ? (it.fill || '#fff') : '#fff';
+      return `<rect x="${it.x}" y="${it.y}" width="${it.w}" height="${it.h}" rx="${Math.min(it.w, it.h) * .12}" fill="${fill}" stroke="#c8c8cc" stroke-width="${Math.max(1, u.w/400)}"/>` + txt;
+    }).join('') + `</svg>`;
+  }catch(e){ return ''; }
+  finally{ B = keep; EXT = keepX; }
+}
 
 /* botón en la cabecera de la app */
 function addHeaderButton(){
@@ -4384,7 +4776,7 @@ function addToBoard(board, rid){
   if(board === B){ undoStack = []; redoStack = []; }
   saveNow();
 }
-window.pizarra = { open, close, attach };
+window.pizarra = { open, close, attach, schema, thumb };
 })();
 </script>
 <!-- /PIZARRA -->
