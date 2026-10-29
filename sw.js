@@ -1,8 +1,8 @@
 // Permite abrir la app sin conexión: usa la red si hay, y si no, la última copia guardada.
 // data.json no pasa por aquí: siempre se pide fresco a GitHub.
-const CACHE = 'cocina-v26';
+const CACHE = 'cocina-v28';
 self.addEventListener('install', e => {
-  e.waitUntil(caches.open(CACHE).then(c => c.addAll(['./', './index.html', './icon-192.png', './icon-512.png', './icon-32.png', './apple-touch-icon.png', './manifest.webmanifest'])).catch(() => {}));
+  e.waitUntil(caches.open(CACHE).then(c => c.addAll(['./', './index.html', './manifest.webmanifest'])).catch(() => {}));
   self.skipWaiting();
 });
 self.addEventListener('activate', e => {
