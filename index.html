@@ -112,6 +112,21 @@ html.despensa,html.despensa body,html.despensa .top{background:var(--bg);}
 .shop .from{margin-left:auto;font-size:12px;color:var(--muted);flex-shrink:0;padding-left:8px;}
 .ib{width:42px;height:42px;display:flex;align-items:center;justify-content:center;color:var(--muted);border-radius:10px;position:relative;flex-shrink:0;}
 #menu-btn{margin-right:-10px;}
+/* estado del guardado en GitHub */
+.ib.sync svg{width:21px;height:21px;}
+.ib.sync .slash{display:none;}
+.ib.sync.s-ok{color:var(--muted);}
+.ib.sync.s-pending{color:var(--muted);opacity:.55;}
+.ib.sync.s-sync{color:#2f8cf5;animation:ghpulse 1s ease-in-out infinite;}
+.ib.sync.s-err{color:#e5484d;}
+.ib.sync.s-off,.ib.sync.s-none{color:var(--muted);opacity:.7;}
+.ib.sync.s-off .slash,.ib.sync.s-none .slash{display:inline;}
+@keyframes ghpulse{0%,100%{opacity:1;}50%{opacity:.3;}}
+@media (prefers-reduced-motion:reduce){.ib.sync.s-sync{animation:none;}}
+.ghp{font-size:14.5px;line-height:1.5;color:var(--muted);margin:0 0 12px;}
+.ghp.err{color:#e5484d;}
+.ghl{display:block;font-size:13px;font-weight:600;margin:12px 0 5px;}
+.ghs{display:inline-flex;align-items:center;gap:6px;color:var(--fg);}
 .ib.on{color:var(--fg);}
 #diet-btn.on{color:var(--dc,var(--fg));background:var(--db,var(--soft));}
 .dz{display:inline-flex;align-items:center;color:var(--dc);vertical-align:-2px;}
@@ -377,6 +392,7 @@ button.ghead{padding:20px 0 6px;}
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
         <i class="badge" style="display:none"></i>
       </button>
+      <button class="ib sync s-none" id="gh-btn" aria-label="Guardado en GitHub" title="Sin conectar: toca para guardar en GitHub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18.5h10.5a4 4 0 0 0 .6-7.96A6 6 0 0 0 6.6 9.1 4.75 4.75 0 0 0 7 18.5z"/><path class="slash" d="M4 4l16 16"/></svg></button>
       <button class="ib" id="menu-btn" aria-label="Más">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="12" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="19" cy="12" r="1.8"/></svg>
       </button>
@@ -978,7 +994,8 @@ const KEY = 'cocina_v1', UIKEY = 'cocina_ui_v2';
 function uid(){ return 'r' + Date.now().toString(36) + Math.random().toString(36).slice(2,7); }
 let data, ui;
 function loadJSON(k){ try{ const v = localStorage.getItem(k); return v ? JSON.parse(v) : null; }catch(e){ return null; } }
-function save(){ try{ localStorage.setItem(KEY, JSON.stringify(data)); }catch(e){ toast('No se pudo guardar'); } }
+function saveLocal(){ try{ localStorage.setItem(KEY, JSON.stringify(data)); }catch(e){ toast('No se pudo guardar'); } }
+function save(){ saveLocal(); if(typeof scheduleSync === 'function') scheduleSync(); }
 let saveT;
 function saveSoon(){ clearTimeout(saveT); saveT = setTimeout(save, 350); }
 function saveUi(){ try{ const c = Object.assign({}, ui); delete c.q; delete c.searching; delete c.xadding; delete c.xfocus; localStorage.setItem(UIKEY, JSON.stringify(c)); }catch(e){} }
@@ -1050,8 +1067,10 @@ function fileData(){
     id: r.id, tab: r.tab, name: r.name, group: r.group, cat: r.cat || '', local: r.local || '', diet: r.diet || '', freq: r.freq || undefined, tag: r.tag, yield: r.yield,
     parts: r.parts.map(p=>({ name: p.name, ings: p.ings.map(i=>({q:i.q,u:i.u,n:i.n})), steps: stepLines(p.steps) })),
     notes: r.notes, done: r.done })),
-    pantry: { rev: data.pantry.rev || undefined, zones: data.pantry.zones.map(z=>({ id: z.id, name: z.name, items: z.items.map(i=>({ id: i.id, name: i.name, note: i.note, group: i.group || '', missing: i.missing })) })) },
-    schemas: data.schemas.length ? data.schemas.map(x=>({ id: x.id, name: x.name, desc: x.desc || undefined, board: { items: x.board.items, scenes: x.board.scenes, opts: x.board.opts } })) : undefined };
+    pantry: { rev: data.pantry.rev || undefined, zones: data.pantry.zones.map(z=>({ id: z.id, name: z.name, items: z.items.map(i=>({ id: i.id, name: i.name, note: i.note, group: i.group || '', missing: i.missing, bought: i.bought || undefined })) })),
+      extra: data.pantry.extra && data.pantry.extra.length ? data.pantry.extra.map(x=>({ id: x.id, name: x.name, bought: x.bought || undefined })) : undefined },
+    schemas: data.schemas.length ? data.schemas.map(x=>({ id: x.id, name: x.name, desc: x.desc || undefined, board: { items: x.board.items, scenes: x.board.scenes, opts: x.board.opts } })) : undefined,
+    week: data.week.length ? data.week.map(w=>({ id: w.id, recipeId: w.recipeId, target: w.target, struck: w.struck })) : undefined };
 }
 function hashRecipe(r){
   const s = JSON.stringify([r.tab, r.name, r.group, r.cat || '', r.local || '', r.tag, r.yield, r.parts, r.notes, r.diet || '', r.freq || '']);
@@ -2193,6 +2212,8 @@ function timeAgo(t){
 function openMenu(){
   openSheet(`<div class="sh-head"><button class="x" data-act="close" aria-label="Cerrar">✕</button><h2>Más</h2></div>
     <div class="sh-body">
+      <button class="mitem" data-act="pizarra">Pizarra<small>Tus pizarras de este aparato</small></button>
+      <button class="mitem" data-act="github">Guardar en GitHub<small>${ghOk() ? ghLabel() : 'Sin conectar: los cambios se quedan en este aparato'}</small></button>
       <button class="mitem" data-act="ai">Copiar para la IA<small>Instrucciones y tus recetas, listo para pegar</small></button>
       <button class="mitem" data-act="export">Descargar data.json</button>
       <button class="mitem" data-act="import">Cargar archivo</button>
@@ -2207,6 +2228,8 @@ function openMenu(){
         if(act === 'ai') return copyText(data.prompt + '\n\n--- data.json ---\n' + JSON.stringify(fileData()) + '\n\n--- Lo que quiero ---\n', 'Copiado: pégalo en la IA y escribe lo que quieres');
         if(act === 'export'){ download(JSON.stringify(fileData(), null, 1), 'data.json'); toast('Descargado'); return; }
         if(act === 'import') return fileInput.click();
+        if(act === 'github') return openGh();
+        if(act === 'pizarra'){ closeSheet(); if(window.pizarra) window.pizarra.open(); return; }
         if(act === 'prompt') return openPrompt();
         if(act === 'tidy'){
           const sync = data.fileSync || {};
@@ -2525,6 +2548,7 @@ fileInput.addEventListener('change', async ()=>{
 /* ---------- data.json publicado (GitHub) ---------- */
 let syncing = false, lastTry = 0;
 async function syncFromGithub(){
+  if(ghOk()){ return ghSync(); }
   if(syncing || !/^https?:/.test(location.protocol)) return;
   syncing = true; lastTry = Date.now();
   try{
@@ -2542,10 +2566,263 @@ document.addEventListener('visibilitychange', ()=>{
   if(document.visibilityState === 'visible' && Date.now() - lastTry > 30000) syncFromGithub();
 });
 
+
+/* ============================================================
+   GUARDADO EN GITHUB (se sincroniza solo entre aparatos)
+   data.json vive en el repositorio. Al cambiar algo se sube a los pocos segundos; al abrir la app
+   y cada poco mientras está abierta, se trae lo último. Si dos aparatos cambian a la vez, se juntan
+   receta a receta (y lo mismo con la semana, la despensa y los esquemas).
+   ============================================================ */
+let gh = null, ghState = 'none', ghSyncing = false, ghAgain = false, ghT = 0, ghLast = 0;
+try{ gh = JSON.parse(localStorage.getItem('cocina_gh') || 'null'); }catch(e){}
+function ghOk(){ return !!(gh && gh.owner && gh.repo && gh.token && gh.branch); }
+const ghFile = ()=> (gh && gh.dir ? gh.dir.replace(/^\/+|\/+$/g, '') + '/' : '') + 'data.json';
+const ghBaseKey = ()=> 'base:' + gh.owner + '/' + gh.repo + '/' + ghFile();
+/* lo que la dirección de la web ya dice: usuario.github.io/repositorio/carpeta/ */
+function guessFromUrl(){
+  const h = location.hostname.match(/^([^.]+)\.github\.io$/i); if(!h) return {};
+  const parts = location.pathname.split('/').filter(Boolean); if(parts.length && /\.html?$/i.test(parts[parts.length - 1])) parts.pop();
+  if(!parts.length) return { owner: h[1], repo: h[1] + '.github.io', dir: '' };
+  return { owner: h[1], repo: parts[0], dir: parts.slice(1).join('/') };
+}
+/* la última versión que este aparato y GitHub tenían en común (para saber qué cambió en cada lado) */
+let sdbp = null;
+function sdb(){ if(sdbp) return sdbp; sdbp = new Promise((res, rej)=>{ const q = indexedDB.open('cocina-sync', 1); q.onupgradeneeded = ()=> q.result.createObjectStore('kv'); q.onsuccess = ()=> res(q.result); q.onerror = ()=> rej(q.error); }); return sdbp; }
+async function kvGet(k){ try{ const d = await sdb(); return await new Promise(res=>{ const r = d.transaction('kv').objectStore('kv').get(k); r.onsuccess = ()=> res(r.result || null); r.onerror = ()=> res(null); }); }catch(e){ return null; } }
+async function kvSet(k, v){ try{ const d = await sdb(); await new Promise(res=>{ const t = d.transaction('kv', 'readwrite'); t.objectStore('kv').put(v, k); t.oncomplete = res; t.onerror = res; }); }catch(e){} }
+async function kvDel(k){ try{ const d = await sdb(); await new Promise(res=>{ const t = d.transaction('kv', 'readwrite'); t.objectStore('kv').delete(k); t.oncomplete = res; t.onerror = res; }); }catch(e){} }
+
+const GH_TITLES = { ok: 'Guardado en GitHub', sync: 'Guardando…', pending: 'Cambios por guardar', off: 'Sin conexión: se guardará al volver', err: 'No se pudo guardar', none: 'Sin conectar: toca para guardar en GitHub' };
+let ghErr = '';
+function ghLabel(){ const v = ghOk() ? ghState : 'none'; return (GH_TITLES[v] || '') + (v === 'err' && ghErr ? ': ' + ghErr : '') + (v === 'ok' && ghLast ? ' · ' + timeAgo(ghLast) : ''); }
+function setGh(s, msg){
+  ghState = s; if(msg != null) ghErr = msg;
+  const b = $('#gh-btn'); if(!b) return;
+  // la nube siempre está: tachada si este aparato no está conectado o no hay internet
+  b.className = 'ib sync s-' + (ghOk() ? s : 'none');
+  b.title = ghLabel();
+  const st = $('#gh-state'); if(st) st.textContent = ghLabel();
+}
+function scheduleSync(ms){ if(!ghOk()) return; clearTimeout(ghT); if(!ghSyncing) setGh('pending'); ghT = setTimeout(ghSync, ms == null ? 1200 : ms); }
+async function ghApi(path, opt){
+  opt = opt || {};
+  return fetch(`https://api.github.com/repos/${gh.owner}/${gh.repo}${path}`, { method: opt.method || 'GET', cache: 'no-store',
+    headers: { Authorization: 'Bearer ' + gh.token, Accept: opt.raw ? 'application/vnd.github.raw' : 'application/vnd.github+json', ...(opt.body ? { 'Content-Type': 'application/json' } : {}) },
+    body: opt.body ? JSON.stringify(opt.body) : undefined });
+}
+const b64enc = str=> { const u = new TextEncoder().encode(str); let s = ''; for(let i = 0; i < u.length; i += 0x8000) s += String.fromCharCode.apply(null, u.subarray(i, i + 0x8000)); return btoa(s); };
+const b64dec = b=> new TextDecoder().decode(Uint8Array.from(atob(b.replace(/\s/g, '')), c=> c.charCodeAt(0)));
+const jclone = o=> JSON.parse(JSON.stringify(o));
+
+/* todo lo que se comparte, como listas con id (así se puede juntar elemento a elemento) */
+function snapOf(d){
+  const pt = d.pantry || { zones: [], extra: [] };
+  return {
+    recipes: (d.recipes || []).map(r=> cleanRecipe(jclone(r))),
+    week: (d.week || []).filter(w=> w && w.recipeId).map(w=> ({ id: String(w.id), recipeId: w.recipeId, target: typeof w.target === 'number' ? w.target : null, struck: (w.struck || []).map(String) })),
+    schemas: (d.schemas || []).map(x=> ({ id: x.id, name: x.name, desc: x.desc || '', board: { items: x.board.items || [], scenes: x.board.scenes || [], opts: x.board.opts || {} } })),
+    zones: (pt.zones || []).map((z, i)=> ({ id: z.id, name: z.name, pos: i })),
+    items: (pt.zones || []).flatMap(z=> z.items.map((it, i)=> ({ id: it.id, zone: z.id, name: it.name, note: it.note || '', group: it.group || '', missing: !!it.missing, bought: !!it.bought, pos: i }))),
+    extra: (pt.extra || []).map((x, i)=> ({ id: x.id, name: x.name, bought: !!x.bought, pos: i })),
+    meta: [{ k: 'rev', v: pt.rev || '' }, { k: 'reset', v: d.reset || '' }]
+  };
+}
+function fromFile(o){
+  return { recipes: o.recipes.filter(r=> r && r.name && knownTab(r)).map(r=> cleanRecipe(r, true)), week: Array.isArray(o.week) ? o.week : [],
+    schemas: cleanSchemas(o.schemas), pantry: o.pantry ? cleanPantry(o.pantry) : { zones: [], extra: [] }, reset: o.reset || '' };
+}
+/* fusión a tres bandas: lo que cambió aquí, lo que cambió fuera, y lo último que ambos compartían */
+function merge3(b, l, r, key){
+  const S = JSON.stringify, B = new Map((b || []).map(x=> [x[key], x])), L = new Map((l || []).map(x=> [x[key], x])), R = new Map((r || []).map(x=> [x[key], x]));
+  const out = [];
+  new Set([...L.keys(), ...R.keys(), ...B.keys()]).forEach(id=>{
+    const bi = B.get(id), li = L.get(id), ri = R.get(id); let v;
+    if(!bi) v = li || ri;
+    else { const lc = !li || S(li) !== S(bi), rc = !ri || S(ri) !== S(bi); v = !lc ? ri : !rc ? li : (li || ri); }
+    if(v) out.push(v);
+  });
+  return out;
+}
+const SNAP_KEYS = { recipes: 'id', week: 'id', schemas: 'id', zones: 'id', items: 'id', extra: 'id', meta: 'k' };
+function mergeSnap(b, l, r){
+  const m = {}; Object.entries(SNAP_KEYS).forEach(([k, key])=> m[k] = merge3(b[k], l[k], r[k], key));
+  // el orden se vuelve a numerar, para que los dos lados acaben exactamente iguales
+  const byPos = (a, c)=> a.pos - c.pos;
+  m.zones.sort(byPos).forEach((z, i)=> z.pos = i);
+  const zi = new Map(m.zones.map(z=> [z.id, z.pos]));
+  m.items.forEach(it=>{ if(!zi.has(it.zone) && m.zones.length) it.zone = m.zones[0].id; });
+  m.items.sort((a, c)=> (zi.get(a.zone) - zi.get(c.zone)) || byPos(a, c));
+  const cnt = {}; m.items.forEach(it=>{ it.pos = cnt[it.zone] = (cnt[it.zone] == null ? 0 : cnt[it.zone] + 1); });
+  m.extra.sort(byPos).forEach((x, i)=> x.pos = i);
+  return m;
+}
+/* la primera vez que este aparato se conecta: lo que no has tocado desde el último data.json lo manda GitHub;
+   lo que has cambiado aquí, se queda. La despensa y la semana de este aparato se juntan con las de GitHub. */
+function firstBase(L, R){
+  const fs = data.fileSync || {}, ss = data.schemaSync || {};
+  const pick = (list, rlist, sync, hash)=>{
+    const RM = new Map(rlist.map(x=> [x.id, x])), out = [];
+    list.forEach(l=>{ const r = RM.get(l.id), same = sync[l.id] && sync[l.id] === hash(l); if(r) out.push(same ? l : r); else if(sync[l.id]) out.push(l); });
+    return out;
+  };
+  // si aquí la despensa está vacía (aparato nuevo), sus zonas de ejemplo no cuentan: manda la de GitHub
+  const emptyHere = !L.items.length && !L.extra.length;
+  return { recipes: pick(L.recipes, R.recipes, fs, hashRecipe), schemas: pick(L.schemas, R.schemas, ss, hashSchema),
+    // de la despensa se juntan las marcas: lo que marcaste aquí («falta», «comprado») se suma a lo marcado en GitHub
+    week: [], zones: emptyHere ? L.zones : [], items: L.items.map(x=> ({ ...x, missing: false, bought: false })), extra: [], meta: L.meta };
+}
+/* llevar lo juntado a la app, reutilizando los objetos que ya había (así no se pierde nada que se esté editando) */
+function applySnap(m){
+  const reuse = (oldArr, newArr, key)=>{
+    const M = new Map((oldArr || []).map(o=> [o[key], o]));
+    return newArr.map(n=>{ const o = M.get(n[key]); if(!o) return n; if(JSON.stringify(o) === JSON.stringify(n)) return o;
+      Object.keys(o).forEach(k=>{ if(!(k in n)) delete o[k]; }); return Object.assign(o, n); });
+  };
+  data.recipes = reuse(data.recipes, m.recipes.map(jclone), 'id');
+  const ids = new Set(data.recipes.map(r=> r.id));
+  data.week = reuse(data.week, m.week.filter(w=> ids.has(w.recipeId)).map(jclone), 'id');
+  const views = new Map(data.schemas.map(x=> [x.id, x.board.view]));
+  data.schemas = m.schemas.map(x=>{ const o = data.schemas.find(y=> y.id === x.id), n = cleanSchema(jclone(x)); n.board.view = views.get(x.id) || null; n.updated = o ? o.updated : Date.now(); return o && JSON.stringify(o) === JSON.stringify(n) ? o : n; });
+  const oldItems = new Map(), oldZones = new Map(data.pantry.zones.map(z=> [z.id, z]));
+  data.pantry.zones.forEach(z=> z.items.forEach(i=> oldItems.set(i.id, i)));
+  const zones = m.zones.slice().sort((a, b)=> a.pos - b.pos).map(z=>{ const o = oldZones.get(z.id) || { id: z.id, items: [] }; o.name = z.name; o.items = []; return o; });
+  if(!zones.length && m.items.length) zones.push({ id: uid(), name: 'Despensa', items: [] });
+  m.items.slice().sort((a, b)=> a.pos - b.pos).forEach(n=>{
+    const z = zones.find(x=> x.id === n.zone) || zones[0]; if(!z) return;
+    const v = { id: n.id, name: n.name, note: n.note, group: n.group, missing: n.missing, bought: n.bought };
+    const o = oldItems.get(n.id); z.items.push(o ? Object.assign(o, v) : v);
+  });
+  data.pantry.zones = zones;
+  data.pantry.extra = reuse(data.pantry.extra, m.extra.slice().sort((a, b)=> a.pos - b.pos).map(x=> ({ id: x.id, name: x.name, bought: x.bought })), 'id');
+  const meta = Object.fromEntries(m.meta.map(x=> [x.k, x.v]));
+  data.pantry.rev = meta.rev || ''; data.reset = meta.reset || null;
+}
+async function ghSync(){
+  if(!ghOk()) return;
+  if(ghSyncing){ ghAgain = true; return; }
+  if(!navigator.onLine){ setGh('off'); return; }
+  ghSyncing = true; setGh('sync'); clearTimeout(ghT);
+  try{
+    for(let tries = 0; tries < 3; tries++){
+      const q = '/contents/' + ghFile() + '?ref=' + encodeURIComponent(gh.branch);
+      const r = await ghApi(q);
+      if(r.status === 401) throw new Error('llave');
+      if(!r.ok && r.status !== 404) throw new Error('lectura ' + r.status);
+      const base = await kvGet(ghBaseKey());
+      let sha = null, remote;
+      if(r.ok){
+        const j = await r.json(); sha = j.sha;
+        if(base && base.sha === sha) remote = base.snap; // no ha cambiado en GitHub: no hace falta descargarlo
+        else {
+          let txt = j.content && j.encoding === 'base64' ? b64dec(j.content) : '';
+          if(!txt){ const rr = await ghApi(q, { raw: true }); if(!rr.ok) throw new Error('lectura ' + rr.status); txt = await rr.text(); }
+          const o = JSON.parse(txt); if(!validData(o)) throw new Error('el data.json de GitHub no es válido');
+          remote = snapOf(fromFile(o));
+        }
+      } else remote = snapOf({});
+      const local = snapOf(data), S = JSON.stringify;
+      const merged = mergeSnap(base ? base.snap : firstBase(local, remote), local, remote);
+      // si has cambiado algo mientras se descargaba, se vuelve a empezar con lo nuevo
+      if(S(snapOf(data)) !== S(local)){ ghAgain = true; return; }
+      const changedHere = S(merged) !== S(local), needPush = S(merged) !== S(remote);
+      if(changedHere) applySnap(merged);
+      let newSha = sha;
+      if(needPush){
+        const body = { message: 'Cocina: ' + new Date().toLocaleString('es-ES'), content: b64enc(JSON.stringify(fileData(), null, 1)), branch: gh.branch };
+        if(sha) body.sha = sha;
+        const p = await ghApi('/contents/' + ghFile(), { method: 'PUT', body });
+        if(p.status === 409 || p.status === 422) continue; // otro aparato guardó justo antes: se vuelve a juntar
+        if(!p.ok) throw new Error('escritura ' + p.status);
+        newSha = (await p.json()).content.sha;
+      }
+      await kvSet(ghBaseKey(), { sha: newSha, snap: merged });
+      data.fileSync = Object.fromEntries(merged.recipes.map(x=> [x.id, hashRecipe(x)]));
+      data.schemaSync = Object.fromEntries(merged.schemas.map(x=> [x.id, hashSchema(x)]));
+      data.syncedAt = Date.now(); saveLocal();
+      ghLast = Date.now();
+      setGh('ok', '');
+      if(changedHere && !sheetOpen) render();
+      return;
+    }
+    throw new Error('demasiados cambios a la vez, se reintentará');
+  }catch(e){
+    const m = String(e && e.message || e);
+    setGh(!navigator.onLine ? 'off' : 'err', m === 'llave' ? 'la llave no es válida o ha caducado' : /Failed to fetch|NetworkError|Load failed/i.test(m) ? 'sin conexión con GitHub' : m);
+  }finally{
+    ghSyncing = false;
+    if(ghAgain){ ghAgain = false; scheduleSync(300); }
+  }
+}
+addEventListener('online', ()=> scheduleSync(200));
+addEventListener('offline', ()=> { if(ghOk()) setGh('off'); });
+/* traer lo nuevo al volver a la app, y cada poco mientras está abierta; al salir, subir lo pendiente */
+document.addEventListener('visibilitychange', ()=>{
+  if(!ghOk()) return;
+  if(document.visibilityState === 'visible'){ if(Date.now() - ghLast > 5000) ghSync(); }
+  else if(ghState === 'pending'){ if(sheetOpen) flushFicha(); clearTimeout(ghT); ghSync(); }
+});
+addEventListener('pagehide', ()=>{ if(ghOk() && ghState === 'pending'){ clearTimeout(ghT); ghSync(); } });
+setInterval(()=>{ if(ghOk() && document.visibilityState === 'visible' && !ghSyncing && ghState !== 'pending' && Date.now() - ghLast > 30000) ghSync(); }, 10000);
+
+/* ---------- conectar con GitHub ---------- */
+function openGh(msg){
+  const g = Object.assign(guessFromUrl(), gh || {});
+  openSheet(`<div class="sh-head"><button class="x" data-act="close" aria-label="Cerrar">✕</button><h2>Guardar en GitHub</h2></div>
+    <div class="sh-body">
+      <p class="ghp">${ghOk() ? `<span class="ghs" id="gh-state">${esc(ghLabel())}</span><br>Cada cambio se sube solo a <b>${esc(gh.owner + '/' + gh.repo)}</b> y llega a los demás aparatos conectados.`
+        : 'Pega tu llave de GitHub y pulsa <b>Conectar</b>. Lo demás ya viene puesto si abres la app desde tu web. Hay que conectarlo una vez en cada aparato (y en cada acceso directo de la pantalla de inicio).'}</p>
+      <label class="ghl" for="g-token">Llave (token)</label>
+      <input class="in" id="g-token" type="password" value="${esc(g.token || '')}" placeholder="github_pat_…" autocomplete="off" spellcheck="false">
+      <label class="ghl" for="g-owner">Usuario de GitHub</label>
+      <input class="in" id="g-owner" value="${esc(g.owner || '')}" placeholder="tu-usuario" autocomplete="off" spellcheck="false" autocapitalize="off">
+      <label class="ghl" for="g-repo">Repositorio</label>
+      <input class="in" id="g-repo" value="${esc(g.repo || '')}" placeholder="nombre-del-repositorio" autocomplete="off" spellcheck="false" autocapitalize="off">
+      <label class="ghl" for="g-dir">Carpeta dentro del repositorio (si está en la raíz, vacío)</label>
+      <input class="in" id="g-dir" value="${esc(g.dir || '')}" placeholder="vacío" autocomplete="off" spellcheck="false" autocapitalize="off">
+      ${msg ? `<p class="ghp err" style="margin-top:12px">${esc(msg)}</p>` : ''}
+      <div class="foot" style="flex-wrap:wrap;gap:8px">
+        <button data-act="connect" class="sh-btn">${ghOk() ? 'Guardar' : 'Conectar'}</button>
+        ${ghOk() ? `<button data-act="now">Sincronizar ahora</button><button data-act="off" style="color:#e5484d">Desconectar este aparato</button>` : ''}
+      </div>
+    </div>`, '', sh=>{
+      sh.addEventListener('click', async e=>{
+        const t = e.target.closest('[data-act]'); if(!t) return;
+        const a = t.dataset.act;
+        if(a === 'close') return closeSheet();
+        if(a === 'now'){ closeSheet(); ghSync(); return; }
+        if(a === 'off'){
+          if(!confirm('¿Desconectar este aparato? Los cambios dejarán de subirse a GitHub desde aquí.')) return;
+          await kvDel(ghBaseKey()); gh = null; localStorage.removeItem('cocina_gh'); setGh('none'); closeSheet(); toast('Este aparato ya no guarda en GitHub'); return;
+        }
+        if(a === 'connect'){
+          const v = id=> sh.querySelector(id).value.trim();
+          const cand = { token: v('#g-token'), owner: v('#g-owner'), repo: v('#g-repo').replace(/\.git$/, ''), dir: v('#g-dir').replace(/^\/+|\/+$/g, '') };
+          if(!cand.token || !cand.owner || !cand.repo) return openGh('Faltan la llave, el usuario o el repositorio.');
+          t.textContent = 'Comprobando…'; t.disabled = true;
+          try{
+            const r = await fetch(`https://api.github.com/repos/${cand.owner}/${cand.repo}`, { headers: { Authorization: 'Bearer ' + cand.token, Accept: 'application/vnd.github+json' }, cache: 'no-store' });
+            if(r.status === 401) return openGh('La llave no es válida. Cópiala otra vez entera (empieza por github_pat_).');
+            if(r.status === 404) return openGh('No encuentro ese repositorio, o la llave no tiene acceso a él. Revisa el usuario, el nombre del repositorio y que lo elegiste al crear la llave.');
+            if(!r.ok) return openGh('GitHub ha respondido con un error (' + r.status + '). Prueba otra vez en un momento.');
+            const j = await r.json();
+            if(j.permissions && !j.permissions.push) return openGh('La llave puede leer pero no escribir. En la llave, el permiso «Contents» tiene que estar en «Read and write».');
+            const same = gh && gh.owner === cand.owner && gh.repo === cand.repo && (gh.dir || '') === cand.dir;
+            if(!same && ghOk()) await kvDel(ghBaseKey());
+            gh = { ...cand, branch: j.default_branch || 'main' };
+            localStorage.setItem('cocina_gh', JSON.stringify(gh));
+            closeSheet(); toast('Conectado con GitHub'); ghSync();
+          }catch(err){ openGh('No hay conexión con GitHub. Comprueba internet y vuelve a probar.'); }
+        }
+      });
+    });
+}
+$('#gh-btn').addEventListener('click', ()=> openGh());
+
 /* ============================================================
    ARRANQUE
    ============================================================ */
 async function boot(){
+  setGh(ghOk() ? (navigator.onLine ? 'pending' : 'off') : 'none');
   ui = Object.assign({ space:'recetario', tab:'recetas', ptab:'lista', zone:'', filter:{}, tagFilter:{}, group:{}, collapsed:{} }, loadJSON(UIKEY) || {});
   ui.q = ''; ui.searching = false;
   if(ui.tab === 'semana' || ui.tab === 'regiones' || ui.tab === 'pesce') ui.tab = 'recetas';
@@ -2801,7 +3078,8 @@ body.pz-open{overflow:hidden;}
 /* botón de la pizarra en la cabecera de la app */
 #pz-open-btn svg{width:21px;height:21px;}
 /* con un botón más en la cabecera, en móvil se aprietan un poco para que quepa todo */
-@media (max-width:440px){ .bar .ib{width:36px;} .space-sw button{padding:0 9px;} }
+@media (max-width:440px){ .bar .ib{width:36px;} .space-sw button{padding:0 9px;} #pz-open-btn{display:none;} }
+@media (max-width:380px){ .bar .ib{width:32px;} .space-sw button{padding:0 7px;font-size:14px;} } /* en el móvil la pizarra se abre desde «Más» y su sitio lo ocupa la nube */
 @media (max-width:640px){
   #pz-top-r [data-a=recipe], #pz-top-r [data-a=newboard]{display:none;}
   #pz-pal{max-width:calc(100vw - 16px);overflow-x:auto;justify-content:flex-start;padding:6px;gap:4px;scrollbar-width:none;}
@@ -4727,7 +5005,7 @@ function thumb(board){
 
 /* botón en la cabecera de la app */
 function addHeaderButton(){
-  const menu = document.getElementById('menu-btn'); if(!menu || document.getElementById('pz-open-btn')) return;
+  const menu = document.getElementById('gh-btn') || document.getElementById('menu-btn'); if(!menu || document.getElementById('pz-open-btn')) return;
   const b = document.createElement('button'); b.className = 'ib'; b.id = 'pz-open-btn'; b.title = 'Pizarra'; b.setAttribute('aria-label', 'Pizarra');
   b.innerHTML = IC.board; b.addEventListener('click', open);
   menu.parentNode.insertBefore(b, menu);
