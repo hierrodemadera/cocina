@@ -2545,16 +2545,72 @@ fileInput.addEventListener('change', async ()=>{
   toast(syncMsg(res) || 'Sin cambios');
 });
 
-/* ---------- data.json publicado (GitHub) ---------- */
+
+/* ============================================================
+   LOS DATOS, REPARTIDOS EN ARCHIVOS (carpeta datos/ del repositorio)
+   datos/indice.json            la lista de archivos (y el «reset»)
+   datos/recetas/<país>.json    las recetas, una por país (sin-origen.json si no tienen)
+   datos/productos/<grupo>.json, datos/conservas/<grupo>.json
+   datos/formatos/salado.json y dulce.json
+   datos/esquemas/<esquema>.json
+   datos/despensa.json, datos/semana.json
+   Juntos son exactamente lo mismo que el antiguo data.json.
+   ============================================================ */
+const DATA_DIR = 'datos/';
+function dataPath(r){
+  const sl = s=> slug(s) || '';
+  if(r.tab === 'recetas') return 'recetas/' + (sl(splitTag(r.tag).c) || 'sin-origen') + '.json';
+  if(r.tab === 'formatos') return 'formatos/' + (FKINDS.Dulce.includes(r.group) ? 'dulce' : FKINDS.Salado.includes(r.group) ? 'salado' : 'sin-grupo') + '.json';
+  return r.tab + '/' + (sl(r.group) || 'sin-grupo') + '.json';
+}
+const schemaPath = x=> 'esquemas/' + (slug(String(x.id).replace(/^e-/, '')) || 'esquema') + '.json';
+/* de los datos de la app a los archivos (ruta dentro de datos/ → texto) */
+function filesFromData(){
+  const fd = fileData(), out = {}, groups = new Map();
+  fd.recipes.forEach(r=>{ const p = dataPath(r); if(!groups.has(p)) groups.set(p, []); groups.get(p).push(r); });
+  groups.forEach((list, p)=> out[p] = JSON.stringify({ recipes: list }, null, 1));
+  (fd.schemas || []).forEach(x=> out[schemaPath(x)] = JSON.stringify(x, null, 1));
+  out['despensa.json'] = JSON.stringify({ pantry: fd.pantry }, null, 1);
+  out['semana.json'] = JSON.stringify({ week: fd.week || [] }, null, 1);
+  out['indice.json'] = JSON.stringify({ version: 3, reset: fd.reset, files: Object.keys(out).sort() }, null, 1);
+  return out;
+}
+/* de los archivos a un data.json completo (el mismo formato de siempre) */
+function dataFromFiles(files){
+  const obj = { version: 2, recipes: [], schemas: [], week: [] };
+  Object.keys(files).sort().forEach(p=>{
+    let o; try{ o = JSON.parse(files[p]); }catch(e){ throw new Error(DATA_DIR + p + ' no es un archivo válido'); }
+    if(p === 'indice.json'){ if(o && o.reset) obj.reset = o.reset; return; }
+    if(p === 'despensa.json'){ if(o && o.pantry) obj.pantry = o.pantry; return; }
+    if(p === 'semana.json'){ obj.week = o && Array.isArray(o.week) ? o.week : []; return; }
+    if(p.startsWith('esquemas/')){ if(!o || !o.id || !o.board) throw new Error(DATA_DIR + p + ' no es un esquema'); obj.schemas.push(o); return; }
+    if(/^(recetas|productos|conservas|formatos)\//.test(p)){ if(!o || !Array.isArray(o.recipes)) throw new Error(DATA_DIR + p + ' no tiene recetas'); obj.recipes.push(...o.recipes); }
+  });
+  return obj;
+}
+const isDataFile = p=> /\.json$/.test(p) && (/^(recetas|productos|conservas|formatos|esquemas)\/[^/]+\.json$/.test(p) || ['indice.json', 'despensa.json', 'semana.json'].includes(p));
+
+/* ---------- datos publicados (GitHub Pages) ---------- */
 let syncing = false, lastTry = 0;
 async function syncFromGithub(){
   if(ghOk()){ return ghSync(); }
   if(syncing || !/^https?:/.test(location.protocol)) return;
   syncing = true; lastTry = Date.now();
   try{
-    const res = await fetch('data.json?t=' + Date.now(), {cache:'no-store'});
-    if(!res.ok) return;
-    const out = applyFile(await res.json());
+    const t = '?t=' + Date.now();
+    let obj = null;
+    const ix = await fetch(DATA_DIR + 'indice.json' + t, {cache:'no-store'});
+    if(ix.ok){
+      const list = (await ix.clone().json()).files || [];
+      const files = { 'indice.json': await ix.text() };
+      await Promise.all(list.filter(isDataFile).map(async p=>{ const r = await fetch(DATA_DIR + p + t, {cache:'no-store'}); if(!r.ok) throw new Error(p); files[p] = await r.text(); }));
+      obj = dataFromFiles(files);
+    } else {
+      const res = await fetch('data.json' + t, {cache:'no-store'});
+      if(!res.ok) return;
+      obj = await res.json();
+    }
+    const out = applyFile(obj);
     if(out){
       const msg = syncMsg(out);
       if(msg || out.pantry){ if(!sheetOpen) render(); toast('Actualizado: ' + [msg, out.pantry ? 'stock nuevo' : ''].filter(Boolean).join(' · ')); }
@@ -2569,7 +2625,7 @@ document.addEventListener('visibilitychange', ()=>{
 
 /* ============================================================
    GUARDADO EN GITHUB (se sincroniza solo entre aparatos)
-   data.json vive en el repositorio. Al cambiar algo se sube a los pocos segundos; al abrir la app
+   Los datos viven en la carpeta datos/ del repositorio. Al cambiar algo se sube a los pocos segundos; al abrir la app
    y cada poco mientras está abierta, se trae lo último. Si dos aparatos cambian a la vez, se juntan
    receta a receta (y lo mismo con la semana, la despensa y los esquemas).
    ============================================================ */
@@ -2697,6 +2753,44 @@ function applySnap(m){
   const meta = Object.fromEntries(m.meta.map(x=> [x.k, x.v]));
   data.pantry.rev = meta.rev || ''; data.reset = meta.reset || null;
 }
+/* huella de git de un archivo (para saber, sin descargarlo, si ha cambiado) */
+async function gitSha(text){
+  const b = new TextEncoder().encode(text), h = new TextEncoder().encode('blob ' + b.length + '\0');
+  const all = new Uint8Array(h.length + b.length); all.set(h); all.set(b, h.length);
+  const d = await crypto.subtle.digest('SHA-1', all);
+  return [...new Uint8Array(d)].map(x=> x.toString(16).padStart(2, '0')).join('');
+}
+const ghDirP = ()=> gh && gh.dir ? gh.dir.replace(/^\/+|\/+$/g, '') + '/' : '';
+async function ghJson(path, opt){
+  const r = await ghApi(path, opt);
+  if(r.status === 401) throw new Error('llave');
+  return r;
+}
+/* lee lo que hay ahora en GitHub: el último guardado y los archivos de datos/ (solo descarga los que han cambiado) */
+async function ghRead(base){
+  const ref = await ghJson('/git/ref/heads/' + encodeURIComponent(gh.branch));
+  if(!ref.ok) throw new Error('lectura ' + ref.status);
+  const commit = (await ref.json()).object.sha;
+  const cache = (base && base.files) || {};
+  if(base && base.commit === commit) return { commit, files: Object.fromEntries(Object.entries(cache).map(([p, f])=> [p, f.text])), shas: Object.fromEntries(Object.entries(cache).map(([p, f])=> [p, f.sha])), same: true };
+  const c = await ghJson('/git/commits/' + commit); if(!c.ok) throw new Error('lectura ' + c.status);
+  const tree = (await c.json()).tree.sha;
+  const t = await ghJson('/git/trees/' + tree + '?recursive=1'); if(!t.ok) throw new Error('lectura ' + t.status);
+  const tj = await t.json(); if(tj.truncated) throw new Error('el repositorio es demasiado grande para leerlo de una vez');
+  const pre = ghDirP() + DATA_DIR, files = {}, shas = {};
+  const entries = tj.tree.filter(e=> e.type === 'blob' && e.path.startsWith(pre) && isDataFile(e.path.slice(pre.length)));
+  const blob = async sha=>{ const r = await ghJson('/git/blobs/' + sha, { raw: true }); if(!r.ok) throw new Error('lectura ' + r.status); return r.text(); };
+  await Promise.all(entries.map(async e=>{
+    const p = e.path.slice(pre.length); shas[p] = e.sha;
+    files[p] = cache[p] && cache[p].sha === e.sha ? cache[p].text : await blob(e.sha);
+  }));
+  let legacy = null;
+  if(!entries.length){ // todavía no hay carpeta datos/: se lee el data.json de antes
+    const old = tj.tree.find(e=> e.type === 'blob' && e.path === ghDirP() + 'data.json');
+    if(old){ const o = JSON.parse(await blob(old.sha)); if(!validData(o)) throw new Error('el data.json de GitHub no es válido'); legacy = o; }
+  }
+  return { commit, tree, files, shas, legacy };
+}
 async function ghSync(){
   if(!ghOk()) return;
   if(ghSyncing){ ghAgain = true; return; }
@@ -2704,38 +2798,38 @@ async function ghSync(){
   ghSyncing = true; setGh('sync'); clearTimeout(ghT);
   try{
     for(let tries = 0; tries < 3; tries++){
-      const q = '/contents/' + ghFile() + '?ref=' + encodeURIComponent(gh.branch);
-      const r = await ghApi(q);
-      if(r.status === 401) throw new Error('llave');
-      if(!r.ok && r.status !== 404) throw new Error('lectura ' + r.status);
       const base = await kvGet(ghBaseKey());
-      let sha = null, remote;
-      if(r.ok){
-        const j = await r.json(); sha = j.sha;
-        if(base && base.sha === sha) remote = base.snap; // no ha cambiado en GitHub: no hace falta descargarlo
-        else {
-          let txt = j.content && j.encoding === 'base64' ? b64dec(j.content) : '';
-          if(!txt){ const rr = await ghApi(q, { raw: true }); if(!rr.ok) throw new Error('lectura ' + rr.status); txt = await rr.text(); }
-          const o = JSON.parse(txt); if(!validData(o)) throw new Error('el data.json de GitHub no es válido');
-          remote = snapOf(fromFile(o));
-        }
-      } else remote = snapOf({});
+      const rd = await ghRead(base);
+      const remoteObj = rd.legacy || (Object.keys(rd.files).length ? dataFromFiles(rd.files) : {});
+      const remote = rd.same && base.snap ? base.snap : snapOf(fromFile(Object.assign({ recipes: [] }, remoteObj)));
       const local = snapOf(data), S = JSON.stringify;
-      const merged = mergeSnap(base ? base.snap : firstBase(local, remote), local, remote);
+      const merged = mergeSnap(base && base.snap ? base.snap : firstBase(local, remote), local, remote);
       // si has cambiado algo mientras se descargaba, se vuelve a empezar con lo nuevo
       if(S(snapOf(data)) !== S(local)){ ghAgain = true; return; }
-      const changedHere = S(merged) !== S(local), needPush = S(merged) !== S(remote);
+      const changedHere = S(merged) !== S(local);
       if(changedHere) applySnap(merged);
-      let newSha = sha;
-      if(needPush){
-        const body = { message: 'Cocina: ' + new Date().toLocaleString('es-ES'), content: b64enc(JSON.stringify(fileData(), null, 1)), branch: gh.branch };
-        if(sha) body.sha = sha;
-        const p = await ghApi('/contents/' + ghFile(), { method: 'PUT', body });
-        if(p.status === 409 || p.status === 422) continue; // otro aparato guardó justo antes: se vuelve a juntar
-        if(!p.ok) throw new Error('escritura ' + p.status);
-        newSha = (await p.json()).content.sha;
+      // qué archivos hay que escribir o borrar
+      const want = filesFromData(), pre = ghDirP() + DATA_DIR, entries = [];
+      Object.keys(want).forEach(p=>{ if(rd.files[p] !== want[p]) entries.push({ path: pre + p, mode: '100644', type: 'blob', content: want[p] }); });
+      Object.keys(rd.files).forEach(p=>{ if(!(p in want)) entries.push({ path: pre + p, mode: '100644', type: 'blob', sha: null }); });
+      let commit = rd.commit;
+      if(entries.length){
+        // todo en un solo guardado: o entra entero o no entra nada
+        let treeSha = rd.tree;
+        if(!treeSha){ const c = await ghJson('/git/commits/' + rd.commit); if(!c.ok) throw new Error('lectura ' + c.status); treeSha = (await c.json()).tree.sha; }
+        const t = await ghJson('/git/trees', { method: 'POST', body: { base_tree: treeSha, tree: entries } });
+        if(!t.ok) throw new Error('escritura ' + t.status);
+        const nc = await ghJson('/git/commits', { method: 'POST', body: { message: 'Cocina: ' + new Date().toLocaleString('es-ES') + ' · ' + entries.map(e=> e.path.slice(pre.length).replace(/\.json$/, '')).slice(0, 4).join(', ') + (entries.length > 4 ? '…' : ''), tree: (await t.json()).sha, parents: [rd.commit] } });
+        if(!nc.ok) throw new Error('escritura ' + nc.status);
+        const newCommit = (await nc.json()).sha;
+        const up = await ghJson('/git/refs/heads/' + encodeURIComponent(gh.branch), { method: 'PATCH', body: { sha: newCommit, force: false } });
+        if(up.status === 409 || up.status === 422) continue; // otro aparato guardó justo antes: se vuelve a juntar
+        if(!up.ok) throw new Error('escritura ' + up.status);
+        commit = newCommit;
       }
-      await kvSet(ghBaseKey(), { sha: newSha, snap: merged });
+      const cache = {};
+      for(const p of Object.keys(want)) cache[p] = { sha: !entries.length && rd.shas[p] ? rd.shas[p] : await gitSha(want[p]), text: want[p] };
+      await kvSet(ghBaseKey(), { commit, files: cache, snap: merged });
       data.fileSync = Object.fromEntries(merged.recipes.map(x=> [x.id, hashRecipe(x)]));
       data.schemaSync = Object.fromEntries(merged.schemas.map(x=> [x.id, hashSchema(x)]));
       data.syncedAt = Date.now(); saveLocal();
