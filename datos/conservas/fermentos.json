@@ -1,0 +1,1070 @@
+{
+ "recipes": [
+  {
+   "id": "r-conservas-chucrut",
+   "tab": "conservas",
+   "name": "Chucrut",
+   "group": "Fermentos",
+   "cat": "Hortalizas y frutas",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Alemania",
+   "yield": "2 tarros de 1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2,25",
+       "u": "kg",
+       "n": "Col blanca firme"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Sal sin yodo (≈2,2 % del peso de la col)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Salmuera de reserva: 25 g de sal por litro de agua hervida y fría"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Retirar las hojas exteriores, lavar la col, cortarla en cuartos, quitar el troncho y cortarla en juliana de 5 mm.",
+      "Mezclar la col con la sal en un recipiente amplio y masajear hasta que suelte jugo.",
+      "Prensar la col con fuerza en un recipiente de fermentación de vidrio, barro o plástico alimentario, dejando 10 cm libres hasta el borde.",
+      "Comprobar que el jugo cubre la col; si no, añadir salmuera de reserva.",
+      "Cubrir con un plato y un peso (o una bolsa con salmuera) y tapar con un paño.",
+      "Fermentar a 21–24 ºC durante 3–4 semanas (a 15–18 ºC, 5–6 semanas).",
+      "Revisar 2–3 veces por semana y retirar la espuma o telilla que aparezca en superficie.",
+      "Cuando deje de burbujear y tenga el punto ácido deseado, pasar a tarros y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA). Por debajo de 15 ºC puede no fermentar y por encima de 24 ºC se ablanda. Si queda blando, viscoso o huele mal, desechar. En nevera dura varios meses.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-kimchi",
+   "tab": "conservas",
+   "name": "Kimchi",
+   "group": "Fermentos",
+   "cat": "Hortalizas y frutas",
+   "local": "",
+   "diet": "pescado",
+   "tag": "Corea del Sur",
+   "yield": "1 tarro de 2 l",
+   "parts": [
+    {
+     "name": "Salado de la col",
+     "ings": [
+      {
+       "q": "2",
+       "u": "kg",
+       "n": "Col china (napa)"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Sal marina gruesa"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar la col en cuartos a lo largo y lavarla.",
+      "Espolvorear la sal entre las hojas, sobre todo en la parte blanca, y añadir un poco de agua.",
+      "Reposar 6–8 h, girándola cada 2 h, hasta que las hojas se doblen sin romperse.",
+      "Aclarar tres veces en agua fría y escurrir boca abajo 1 h."
+     ]
+    },
+    {
+     "name": "Pasta y fermentación",
+     "ings": [
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Harina de arroz glutinoso"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Gochugaru (chile coreano en copos)"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "15",
+       "u": "g",
+       "n": "Jengibre"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Salsa de pescado"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Saeujeot (gamba fermentada, opcional)"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Azúcar"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Rábano daikon"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Cebolleta"
+      }
+     ],
+     "steps": [
+      "Cocer la harina de arroz con el agua removiendo hasta que espese como una crema y enfriar.",
+      "Mezclar la pasta fría con el gochugaru, el ajo y el jengibre rallados, la salsa de pescado, el saeujeot picado y el azúcar.",
+      "Añadir el daikon en bastones finos y la cebolleta en trozos de 3 cm.",
+      "Untar la mezcla entre todas las hojas de la col, doblar cada cuarto sobre sí mismo y apretar en el tarro, sin aire, dejando 5 cm libres.",
+      "Fermentar a temperatura ambiente (18–20 ºC) 1–2 días, presionando cada día para que el jugo cubra.",
+      "Pasar a la nevera y dejar madurar al gusto."
+     ]
+    }
+   ],
+   "notes": "Fuente: Oregon State University Extension. La sal final debe quedar entre el 2 y el 5 % y conviene tenerlo siempre en nevera. Mantener las verduras sumergidas en su jugo. Para versión pescetariana sin pescado, sustituir la salsa de pescado por salsa de soja.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-kombucha",
+   "tab": "conservas",
+   "name": "Kombucha",
+   "group": "Fermentos",
+   "cat": "Bebidas ácidas",
+   "local": "",
+   "diet": "vegano",
+   "tag": "",
+   "yield": "3,8 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "3,8",
+       "u": "l",
+       "n": "Agua sin cloro"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Bolsita de té negro"
+      },
+      {
+       "q": "13",
+       "u": "ud.",
+       "n": "Bolsita de té verde"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Azúcar blanco"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "SCOBY (madre de kombucha)"
+      },
+      {
+       "q": "380",
+       "u": "ml",
+       "n": "Kombucha de una tanda anterior (líquido de arranque)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar y desinfectar todo el material con agua a más de 77 ºC durante 30 s.",
+      "Comprobar con tiras de pH que el líquido de arranque tiene pH 4,0 o menos; si no, no usarlo.",
+      "Calentar 1 l de agua a 71–77 ºC e infusionar el té 2 min. Retirar las bolsitas.",
+      "Disolver el azúcar en el té caliente y verterlo en el recipiente de fermentación.",
+      "Añadir los 2,8 l de agua fría y comprobar que la mezcla está por debajo de 35 ºC.",
+      "Añadir el SCOBY y el líquido de arranque y remover 10 s.",
+      "Tapar con un paño o filtro de café sujeto con goma (nunca hermético) y anotar la fecha.",
+      "Fermentar a 20–25 ºC durante 7–10 días.",
+      "Pasar a botellas limpias, refrigerar enseguida y consumir en 30 días. Reservar SCOBY y líquido para la siguiente tanda."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA). No cerrar herméticamente ni dejar botellas a temperatura ambiente: el CO₂ puede reventarlas. Si se aromatiza con fruta o jengibre tras fermentar, tomar enseguida o guardar en nevera un máximo de 2 días.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-kefir-de-leche",
+   "tab": "conservas",
+   "name": "Kéfir de leche",
+   "group": "Fermentos",
+   "cat": "Leche",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "Rusia / Cáucaso",
+   "yield": "1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Leche entera"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Nódulos de kéfir de leche"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Poner los nódulos en un tarro de vidrio limpio y añadir la leche, dejando espacio libre.",
+      "Tapar sin apretar o con un paño.",
+      "Fermentar a 20–25 ºC durante 24 h, hasta que espese y huela ácido.",
+      "Colar con un colador de plástico, sin presionar, y guardar el kéfir en nevera.",
+      "Volver a poner los nódulos con leche fresca para la siguiente tanda."
+     ]
+    }
+   ],
+   "notes": "Si se pasa de fermentación se separa el suero: remover y tomar igual. Los nódulos crecen; el sobrante se puede regalar o congelar.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-kefir-de-agua",
+   "tab": "conservas",
+   "name": "Kéfir de agua",
+   "group": "Fermentos",
+   "cat": "Bebidas ácidas",
+   "local": "",
+   "diet": "vegano",
+   "tag": "México",
+   "yield": "1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua sin cloro"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Azúcar moreno"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Nódulos de kéfir de agua (tibicos)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Higo seco"
+      },
+      {
+       "q": "½",
+       "u": "ud.",
+       "n": "Limón en rodajas"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Disolver el azúcar en el agua.",
+      "Añadir los nódulos, el higo y el limón.",
+      "Tapar con un paño y fermentar a 20–25 ºC durante 48 h.",
+      "Colar, retirar el higo y el limón y reservar los nódulos para otra tanda.",
+      "Para que tenga gas, embotellar y dejar 24 h más a temperatura ambiente, abriendo con cuidado.",
+      "Guardar en nevera y consumir en una semana."
+     ]
+    }
+   ],
+   "notes": "Los tibicos tienen tradición en México. En la segunda fermentación en botella cerrada, aliviar la presión cada 12 h para evitar que revienten.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-yogur-natural",
+   "tab": "conservas",
+   "name": "Yogur natural",
+   "group": "Fermentos",
+   "cat": "Leche",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "Bulgaria",
+   "yield": "1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Leche entera"
+      },
+      {
+       "q": "2",
+       "u": "cda.",
+       "n": "Yogur natural con fermentos vivos"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar la leche a 85–90 ºC y mantener 10 min, removiendo.",
+      "Enfriar a 43 ºC.",
+      "Disolver el yogur en un poco de leche y mezclarlo con el resto.",
+      "Repartir en tarros limpios y tapar.",
+      "Incubar a 42–44 ºC durante 5–8 h (yogurtera, horno con la luz encendida o nevera de camping con agua caliente).",
+      "Refrigerar en cuanto cuaje. Dura 1–2 semanas en nevera."
+     ]
+    }
+   ],
+   "notes": "Calentar a 85–90 ºC hace que quede más firme. Guardar 2 cucharadas para la siguiente tanda.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-masa-madre",
+   "tab": "conservas",
+   "name": "Masa madre",
+   "group": "Fermentos",
+   "cat": "Cereales y tubérculos",
+   "local": "",
+   "diet": "vegano",
+   "tag": "",
+   "yield": "200 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "350",
+       "u": "g",
+       "n": "Harina integral de trigo o centeno"
+      },
+      {
+       "q": "350",
+       "u": "ml",
+       "n": "Agua sin cloro"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Día 1: mezclar 50 g de harina con 50 ml de agua en un tarro, tapar sin apretar y dejar a 24–26 ºC.",
+      "Días 2 a 7: cada 24 h, desechar la mitad y añadir 50 g de harina y 50 ml de agua.",
+      "Estará lista cuando doble su volumen 4–8 h después de alimentarla y huela a yogur o fruta ácida.",
+      "Para mantenerla, guardar en nevera y alimentarla una vez por semana (1 parte de masa, 1 de harina, 1 de agua)."
+     ]
+    }
+   ],
+   "notes": "Al principio puede haber burbujas y olores raros que luego se estabilizan. Desechar si aparece moho de colores.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-miso",
+   "tab": "conservas",
+   "name": "Miso",
+   "group": "Fermentos",
+   "cat": "Mohos",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Japón",
+   "yield": "3,5 kg",
+   "parts": [
+    {
+     "name": "Preparación",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Soja amarilla seca"
+      },
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Koji de arroz"
+      },
+      {
+       "q": "350",
+       "u": "g",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar la soja en abundante agua 18 h.",
+      "Cocerla en agua nueva a fuego suave 4–5 h, hasta que se aplaste fácilmente entre los dedos (o 30 min en olla a presión).",
+      "Mezclar el koji desmenuzado con los 350 g de sal.",
+      "Escurrir la soja, reservando un poco del agua de cocción, y aplastarla hasta hacer un puré.",
+      "Mezclar el puré templado con el koji salado; si queda seco, añadir agua de cocción hasta textura de plastilina."
+     ]
+    },
+    {
+     "name": "Envasado y maduración",
+     "ings": [
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Sal (para la superficie)"
+      }
+     ],
+     "steps": [
+      "Hacer bolas con la mezcla y lanzarlas con fuerza al fondo de un recipiente limpio para no dejar aire.",
+      "Alisar la superficie y cubrir con los 50 g de sal.",
+      "Cubrir con film a piel, un plato y un peso de unos 500 g. Tapar.",
+      "Guardar en un lugar fresco y oscuro.",
+      "A los 2 meses, remover, dar la vuelta y volver a prensar; retirar el moho de la superficie si aparece.",
+      "Madurar de 3 meses a 1 año."
+     ]
+    }
+   ],
+   "notes": "Fuente: All About (Japón), receta de miso casero. El moho blanco superficial es normal y se retira. Una vez a punto, guardar en nevera.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-tepache",
+   "tab": "conservas",
+   "name": "Tepache",
+   "group": "Fermentos",
+   "cat": "Bebidas ácidas",
+   "local": "",
+   "diet": "vegano",
+   "tag": "México",
+   "yield": "2 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Piña madura (la cáscara y el corazón)"
+      },
+      {
+       "q": "2",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Piloncillo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Clavo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar bien la piña y cortar la cáscara y el corazón en trozos. La pulpa se puede comer aparte.",
+      "Disolver el piloncillo en 500 ml de agua caliente con la canela y el clavo y dejar enfriar.",
+      "Poner la piña en un recipiente de vidrio o barro con el resto del agua y el almíbar frío.",
+      "Tapar con un paño y fermentar a 20–25 ºC durante 2–3 días, retirando la espuma.",
+      "Colar, embotellar y refrigerar. Tomar frío en una semana."
+     ]
+    }
+   ],
+   "notes": "La receta de 1947 de la Enciclopedia del Hogar añadía cebada cocida en la segunda fase. Si se deja más días se vuelve alcohólico y después avinagra.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-kvas-de-pan",
+   "tab": "conservas",
+   "name": "Kvas de pan",
+   "group": "Fermentos",
+   "cat": "Bebidas ácidas",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Rusia",
+   "yield": "3 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Pan de centeno negro"
+      },
+      {
+       "q": "3",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Levadura seca de panadería"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Pasas"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Tostar el pan en rebanadas en el horno a 180 ºC hasta que esté bien seco y oscuro.",
+      "Verter el agua hirviendo sobre el pan, tapar y dejar reposar 4–6 h.",
+      "Colar presionando ligeramente.",
+      "Disolver el azúcar en el líquido tibio y añadir la levadura.",
+      "Fermentar tapado con un paño a 20–25 ºC durante 12–24 h.",
+      "Embotellar con unas pasas en cada botella y dejar 6–12 h más para que coja gas.",
+      "Refrigerar y consumir en 3–4 días."
+     ]
+    }
+   ],
+   "notes": "Bebida tradicional del este de Europa, con muy poco alcohol. Abrir con cuidado por la presión.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-pepinillos-fermentados-ogorki-kiszone",
+   "tab": "conservas",
+   "name": "Pepinillos fermentados (ogórki kiszone)",
+   "group": "Fermentos",
+   "cat": "Hortalizas y frutas",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Polonia",
+   "yield": "1 tarro de 3 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "kg",
+       "n": "Pepinillos pequeños y firmes"
+      },
+      {
+       "q": "1,5",
+       "u": "l",
+       "n": "Agua sin cloro"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Sal sin yodo"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Rama de eneldo con flor"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Trozo de raíz de rábano picante"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Hoja de vid, grosella o rábano picante"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar los pepinillos y dejarlos 2 h en agua muy fría.",
+      "Cortar 2 mm del extremo de la flor.",
+      "Poner en el tarro la mitad del eneldo, el ajo, el rábano picante y las hojas.",
+      "Colocar los pepinillos de pie y apretados y cubrir con el resto de aromáticos.",
+      "Disolver la sal en el agua y verter hasta cubrir.",
+      "Mantener sumergidos con un peso y tapar sin cerrar herméticamente.",
+      "Fermentar a 18–22 ºC: a los 2–3 días son «małosolne» (poco fermentados); a los 7–10 días, totalmente fermentados.",
+      "Guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Las hojas aportan taninos que los mantienen crujientes. Evitar temperaturas por encima de 27 ºC. Desechar si se ponen blandos o viscosos (NCHFP).",
+   "done": false
+  },
+  {
+   "id": "r-conservas-salsa-picante-fermentada",
+   "tab": "conservas",
+   "name": "Salsa picante fermentada",
+   "group": "Fermentos",
+   "cat": "Hortalizas y frutas",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Estados Unidos / Luisiana",
+   "yield": "500 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Chile fresco (jalapeño, fresno o mezcla)"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Agua sin cloro"
+      },
+      {
+       "q": "15",
+       "u": "g",
+       "n": "Sal sin yodo"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Vinagre de vino blanco"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Quitar el rabito a los chiles y cortarlos por la mitad (usar guantes).",
+      "Meter los chiles y el ajo en un tarro.",
+      "Disolver la sal en el agua (salmuera al 3 %) y cubrir.",
+      "Mantener sumergidos con un peso, tapar sin cerrar y fermentar a 20–24 ºC entre 1 y 3 semanas.",
+      "Escurrir, reservando la salmuera.",
+      "Triturar con el vinagre y un poco de salmuera hasta la textura deseada. Colar si se quiere fina.",
+      "Embotellar y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "El vinagre final la estabiliza. En nevera aguanta varios meses.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-ginger-beer",
+   "tab": "conservas",
+   "name": "Ginger beer",
+   "group": "Fermentos",
+   "cat": "Bebidas ácidas",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Reino Unido",
+   "yield": "2 l",
+   "parts": [
+    {
+     "name": "Ginger bug (fermento)",
+     "ings": [
+      {
+       "q": "70",
+       "u": "g",
+       "n": "Jengibre fresco"
+      },
+      {
+       "q": "70",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Agua sin cloro"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar 2 cucharadas de jengibre rallado con piel, 2 de azúcar y el agua en un tarro.",
+      "Tapar con un paño y dejar a 20–25 ºC.",
+      "Cada día durante 5 días, añadir 1 cucharada de jengibre rallado y 1 de azúcar.",
+      "Estará listo cuando burbujee y huela a levadura."
+     ]
+    },
+    {
+     "name": "Ginger beer",
+     "ings": [
+      {
+       "q": "2",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Jengibre fresco rallado"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Limón (el zumo)"
+      }
+     ],
+     "steps": [
+      "Hervir el jengibre con el agua 10 min y disolver el azúcar. Enfriar.",
+      "Colar y añadir el zumo de limón y 250 ml de líquido colado del ginger bug.",
+      "Embotellar en botellas resistentes a la presión, dejando 3 cm libres.",
+      "Fermentar 1–3 días a temperatura ambiente, aliviando la presión cada día.",
+      "Refrigerar y consumir en una semana."
+     ]
+    }
+   ],
+   "notes": "Bebida carbonatada tradicional inglesa con muy poco alcohol. Mucho cuidado con la presión: usar botellas de cierre mecánico o de plástico para controlar cuándo están duras.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-natto",
+   "tab": "conservas",
+   "name": "Natto",
+   "group": "Fermentos",
+   "cat": "Legumbres, semillas y frutos secos",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Japón / Kanto",
+   "yield": "600 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Soja pequeña (para natto)"
+      },
+      {
+       "q": "1",
+       "u": "g",
+       "n": "Esporas de Bacillus subtilis natto (o 1 cda de natto comprado)"
+      },
+      {
+       "q": "2",
+       "u": "cda.",
+       "n": "Agua hervida"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar la soja 12–18 h en abundante agua.",
+      "Cocer al vapor 4–6 h o 45 min en olla a presión, hasta que se aplaste fácilmente.",
+      "Disolver las esporas en el agua hervida tibia y mezclar con la soja todavía caliente.",
+      "Extender en capas de 2–3 cm en recipientes limpios, tapar con papel de aluminio con agujeros.",
+      "Fermentar a 40 ºC durante 22–24 h (horno con la luz, deshidratador o yogurtera).",
+      "Enfriar y madurar en nevera 24 h antes de comer."
+     ]
+    }
+   ],
+   "notes": "Típico de Mito (Ibaraki). Debe formar hilos al remover. Se congela bien en raciones.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-tempeh",
+   "tab": "conservas",
+   "name": "Tempeh",
+   "group": "Fermentos",
+   "cat": "Mohos",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Indonesia / Java",
+   "yield": "500 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Soja descascarillada"
+      },
+      {
+       "q": "15",
+       "u": "ml",
+       "n": "Vinagre de vino blanco"
+      },
+      {
+       "q": "2",
+       "u": "g",
+       "n": "Esporas de Rhizopus (iniciador de tempeh)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar la soja 12 h y frotar para soltar la piel. Retirar las cáscaras.",
+      "Cocer 30 min en agua con el vinagre.",
+      "Escurrir y secar muy bien con un paño hasta que no quede humedad.",
+      "Esperar a que esté a temperatura ambiente y mezclar con las esporas.",
+      "Repartir en bolsas de plástico con agujeros cada 2 cm, aplanando a 2–3 cm.",
+      "Fermentar a 30–32 ºC durante 24–36 h, hasta que un micelio blanco una todos los granos.",
+      "Refrigerar. Unas manchas grises o negras junto a los agujeros son normales."
+     ]
+    }
+   ],
+   "notes": "Desechar si huele a amoníaco fuerte o aparece moho de otros colores. Cocinar siempre antes de comer.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-creme-fraiche",
+   "tab": "conservas",
+   "name": "Crème fraîche",
+   "group": "Fermentos",
+   "cat": "Leche",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "Francia / Normandía",
+   "yield": "500 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Nata 35 % MG pasteurizada (mejor no UHT)"
+      },
+      {
+       "q": "2",
+       "u": "cda.",
+       "n": "Suero de mantequilla o yogur natural"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Templar la nata a 25 ºC.",
+      "Mezclar con el suero de mantequilla.",
+      "Pasar a un tarro limpio y tapar sin apretar.",
+      "Dejar a 22–25 ºC entre 12 y 24 h, hasta que espese.",
+      "Refrigerar: espesa más en frío. Dura 1–2 semanas."
+     ]
+    }
+   ],
+   "notes": "Típica de Normandía. Aguanta la cocción sin cortarse, a diferencia de la nata agria.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-limones-encurtidos-en-sal",
+   "tab": "conservas",
+   "name": "Limones encurtidos en sal",
+   "group": "Fermentos",
+   "cat": "Hortalizas y frutas",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Marruecos",
+   "yield": "1 tarro de 1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Limón (mejor de piel fina, sin tratar)"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Sal marina gruesa"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Limón (el zumo)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar los limones y cortarlos en cruz desde la punta, sin llegar a separar la base.",
+      "Rellenar cada uno con una cucharada colmada de sal.",
+      "Apretarlos en el tarro para que suelten jugo, con sal entre capas.",
+      "Cubrir con el zumo de limón hasta que queden sumergidos.",
+      "Cerrar y dejar a temperatura ambiente 3–4 semanas, girando el tarro cada día los primeros días.",
+      "Usar solo la piel, aclarada. Guardar en nevera una vez abiertos."
+     ]
+    }
+   ],
+   "notes": "Básicos en tajines y ensaladas marroquíes. Duran meses en nevera, siempre cubiertos de jugo.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-curtido-salvadoreno",
+   "tab": "conservas",
+   "name": "Curtido salvadoreño",
+   "group": "Fermentos",
+   "cat": "Hortalizas y frutas",
+   "local": "",
+   "diet": "vegano",
+   "tag": "El Salvador",
+   "yield": "1 tarro de 1,5 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Repollo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Chile jalapeño (opcional)"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Orégano seco"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Sal sin yodo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar el repollo en juliana fina, rallar la zanahoria y cortar la cebolla en juliana.",
+      "Mezclar con el chile picado, el orégano y la sal y masajear hasta que suelte jugo.",
+      "Apretar en un tarro hasta que el jugo cubra las verduras y poner un peso.",
+      "Fermentar a 20–24 ºC entre 3 y 5 días.",
+      "Guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Acompañamiento clásico de las pupusas. La versión rápida no fermenta: se escalda el repollo y se aliña con vinagre.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-masa-de-idli",
+   "tab": "conservas",
+   "name": "Masa de idli",
+   "group": "Fermentos",
+   "cat": "Cereales y tubérculos",
+   "local": "",
+   "diet": "vegano",
+   "tag": "India / Tamil Nadu",
+   "yield": "24 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Arroz para idli (vaporizado)"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Urad dal pelado"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Semillas de fenogreco"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar el arroz y, por separado, el urad dal con el fenogreco, 6 h.",
+      "Triturar el urad dal con poca agua fría hasta obtener una crema esponjosa.",
+      "Triturar el arroz hasta una textura de sémola fina.",
+      "Mezclar las dos masas con la sal, removiendo con la mano.",
+      "Tapar y fermentar a 25–30 ºC entre 8 y 12 h, hasta que doble su volumen.",
+      "Cocer al vapor en moldes de idli engrasados 10–12 min."
+     ]
+    }
+   ],
+   "notes": "La masa fermentada aguanta 3–4 días en nevera. Con más agua sirve para dosas.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-vinagre-casero",
+   "tab": "conservas",
+   "name": "Vinagre casero",
+   "group": "Fermentos",
+   "cat": "Bebidas ácidas",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Francia",
+   "yield": "750 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "750",
+       "u": "ml",
+       "n": "Vino tinto o blanco (máximo 10–12 % vol.)"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Vinagre sin pasteurizar con madre"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar el vino y el vinagre con madre en un tarro de boca ancha.",
+      "Cubrir con una gasa sujeta con goma para que entre aire y no insectos.",
+      "Dejar en un lugar oscuro a 20–28 ºC durante 2–3 meses, sin mover.",
+      "Se formará una película (la madre). Probar: cuando no quede sabor a alcohol, está hecho.",
+      "Colar, embotellar y guardar. Reservar la madre y un poco de vinagre para otra tanda."
+     ]
+    }
+   ],
+   "notes": "Método tradicional de Orleans. Si el vino tiene más de 12 % vol., rebajarlo con agua. El vinagre casero no tiene acidez garantizada: no usarlo para conservas que dependan del vinagre.",
+   "done": false
+  }
+ ]
+}

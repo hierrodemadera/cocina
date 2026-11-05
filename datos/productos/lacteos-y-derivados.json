@@ -1,0 +1,882 @@
+{
+ "recipes": [
+  {
+   "id": "r-productos-mantequilla",
+   "tab": "productos",
+   "name": "Mantequilla",
+   "group": "Lácteos y derivados",
+   "cat": "Grasas lácteas / Mantequillas",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "",
+   "yield": "200 g de mantequilla y 250 ml de suero",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Nata para montar (35 % materia grasa o más), fría"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal (opcional)"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua con hielo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Batir la nata fría con varillas eléctricas: primero se monta y, a los 5–10 min, se corta en grumos amarillos y suelta un líquido.",
+      "Colar y reservar el líquido (suero de mantequilla, sirve para masas y rebozados).",
+      "Lavar la mantequilla amasándola en agua con hielo y cambiar el agua hasta que salga limpia.",
+      "Escurrir apretando con una espátula para sacar toda el agua.",
+      "Añadir la sal si se quiere, dar forma y envolver.",
+      "Guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Lavarla bien es lo que la hace durar: el suero que quede la enrancia. En nevera, 2–3 semanas; se congela bien.",
+   "done": false
+  },
+  {
+   "id": "r-productos-ghee",
+   "tab": "productos",
+   "name": "Ghee",
+   "group": "Lácteos y derivados",
+   "cat": "Grasas lácteas / Mantequilla clarificada y ghee",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "India",
+   "yield": "400 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Mantequilla sin sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Fundir la mantequilla en un cazo de fondo grueso a fuego bajo.",
+      "Dejarla hervir suave, sin remover, 15–20 min: primero hace espuma, luego se aclara y los sólidos bajan y se doran.",
+      "Retirar cuando el líquido esté dorado y transparente y huela a avellana.",
+      "Colar por un paño fino o papel de cocina.",
+      "Guardar en un tarro limpio y seco."
+     ]
+    }
+   ],
+   "notes": "Al quitarle agua y sólidos de leche aguanta unos 3 meses a temperatura ambiente, bien cerrado, y más en nevera. Usar siempre cuchara seca. A diferencia de la mantequilla clarificada francesa, los sólidos se tuestan.",
+   "done": false
+  },
+  {
+   "id": "r-productos-ricotta",
+   "tab": "productos",
+   "name": "Ricotta",
+   "group": "Lácteos y derivados",
+   "cat": "Quesos frescos / De calor y ácido",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "Italia",
+   "yield": "400 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "l",
+       "n": "Leche entera"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Nata"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "45",
+       "u": "ml",
+       "n": "Zumo de limón"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar la leche, la nata y la sal hasta 85–90 ºC, removiendo para que no se pegue.",
+      "Apagar, añadir el zumo de limón y remover suave una sola vez.",
+      "Dejar reposar 10 min: se separan cuajos blancos y suero amarillento.",
+      "Pasar con cuidado a un colador forrado con paño fino.",
+      "Escurrir 15–60 min, según se quiera más cremosa o más firme.",
+      "Guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "«Ricotta» significa «recocida»: la tradicional se hace recalentando el suero que sobra del queso. Esta es la versión casera con leche. En nevera, 4–5 días.",
+   "done": false
+  },
+  {
+   "id": "r-productos-mato",
+   "tab": "productos",
+   "name": "Mató",
+   "group": "Lácteos y derivados",
+   "cat": "Quesos frescos / De cuajo",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "España / Cataluña",
+   "yield": "500 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "l",
+       "n": "Leche de cabra (o de vaca) entera"
+      },
+      {
+       "q": "",
+       "u": "",
+       "n": "Cuajo líquido (dosis del fabricante)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar la leche a 35 ºC.",
+      "Añadir el cuajo diluido en un poco de agua fría, remover 30 s y dejar quieta, tapada, 45–60 min, hasta que cuaje.",
+      "Cortar la cuajada en trozos grandes con un cuchillo largo.",
+      "Pasar con un cazo, sin romperla, a moldes perforados o a un colador con paño.",
+      "Escurrir 2–3 h en nevera, sin prensar.",
+      "No se sala."
+     ]
+    }
+   ],
+   "notes": "Queso fresco catalán y sin sal, el del «mel i mató». Usar leche pasteurizada, no UHT (la UHT no cuaja bien con cuajo). Con leche de supermercado ayuda añadir ¼ cdta de cloruro cálcico por cada 4 l. En nevera, 3–4 días.",
+   "done": false
+  },
+  {
+   "id": "r-productos-paneer",
+   "tab": "productos",
+   "name": "Paneer",
+   "group": "Lácteos y derivados",
+   "cat": "Quesos frescos / De calor y ácido",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "India",
+   "yield": "350 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "l",
+       "n": "Leche entera"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Zumo de limón (o vinagre)"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Llevar la leche a ebullición removiendo.",
+      "Apagar, añadir el limón mezclado con el agua poco a poco y remover hasta que el suero salga verdoso y claro.",
+      "Colar en un paño y enjuagar bajo agua fría para quitar el sabor a limón.",
+      "Escurrir retorciendo el paño.",
+      "Dar forma de bloque, poner un peso encima (aprox. 2 kg) y prensar 1–2 h.",
+      "Cortar en dados y guardar en nevera, en agua o bien envuelto."
+     ]
+    }
+   ],
+   "notes": "No funde al calentarlo: se fríe o se cocina en salsa (palak paneer, paneer tikka). En nevera, 3–4 días; se congela.",
+   "done": false
+  },
+  {
+   "id": "r-productos-queso-fresco-de-burgos",
+   "tab": "productos",
+   "name": "Queso fresco de Burgos",
+   "group": "Lácteos y derivados",
+   "cat": "Quesos frescos / De cuajo",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "España / Castilla y León",
+   "yield": "2 quesos de 300 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "l",
+       "n": "Leche de vaca u oveja entera"
+      },
+      {
+       "q": "",
+       "u": "",
+       "n": "Cuajo líquido (dosis del fabricante)"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar la leche a 32–35 ºC y añadir el cuajo diluido en un poco de agua fría.",
+      "Remover 30 s y dejar quieta, tapada, 30–45 min, hasta que al cortarla con un cuchillo se abra limpia.",
+      "Cortar la cuajada en cubos de unos 2–3 cm y dejar reposar 5 min.",
+      "Pasar a moldes perforados con un cazo, sin prensar, y dejar escurrir 1 h.",
+      "Dar la vuelta, salar por arriba y escurrir 2–3 h más en nevera.",
+      "Guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Queso fresco sin madurar, tierno y con mucho suero. Usar leche pasteurizada, no UHT (la UHT no cuaja bien con cuajo). Con leche de supermercado ayuda añadir ¼ cdta de cloruro cálcico por cada 4 l. En nevera, 4–5 días.",
+   "done": false
+  },
+  {
+   "id": "r-productos-mozzarella",
+   "tab": "productos",
+   "name": "Mozzarella",
+   "group": "Lácteos y derivados",
+   "cat": "Quesos de pasta hilada / Frescos",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "Italia / Campania",
+   "yield": "400 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "l",
+       "n": "Leche entera pasteurizada (no UHT)"
+      },
+      {
+       "q": "7",
+       "u": "g",
+       "n": "Ácido cítrico (1½ cdta), en 60 ml de agua"
+      },
+      {
+       "q": "",
+       "u": "",
+       "n": "Cuajo líquido (dosis del fabricante), en 60 ml de agua"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Añadir el ácido cítrico disuelto a la leche fría y remover.",
+      "Calentar a 32 ºC, añadir el cuajo disuelto y remover 30 s.",
+      "Dejar quieta 5 min y calentar despacio hasta 40 ºC: la cuajada se separa del suero.",
+      "Cortar la cuajada, apartar del fuego y reposar 5 min.",
+      "Sacar la cuajada con espumadera y escurrir.",
+      "Calentar el suero a 80 ºC con la sal y sumergir la cuajada por partes hasta que llegue a 57 ºC por dentro.",
+      "Estirar y doblar con guantes hasta que brille y se estire sin romperse.",
+      "Bolear y meter en agua con hielo para fijar la forma."
+     ]
+    }
+   ],
+   "notes": "Versión rápida con ácido cítrico (método de Ricki Carroll, New England Cheesemaking). La de búfala campana (DOP) se hace con fermento y maduración de la cuajada. En nevera, en su suero o en agua con sal, 2–3 días.",
+   "done": false
+  },
+  {
+   "id": "r-productos-burrata",
+   "tab": "productos",
+   "name": "Burrata",
+   "group": "Lácteos y derivados",
+   "cat": "Quesos de pasta hilada / Frescos",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "Italia / Apulia",
+   "yield": "4 burratas",
+   "parts": [
+    {
+     "name": "Stracciatella",
+     "ings": [
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Mozzarella recién hecha (de la receta de mozzarella)"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Nata fresca"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Deshilachar con los dedos la mozzarella en hebras finas.",
+      "Mezclar con la nata y la sal."
+     ]
+    },
+    {
+     "name": "Bolsa",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Cuajada de mozzarella caliente (estirada)"
+      }
+     ],
+     "steps": [
+      "Estirar una porción de cuajada caliente en un disco fino.",
+      "Rellenar con la stracciatella, cerrar como un saquito y atar o pellizcar el cierre.",
+      "Meter en agua con hielo para que fije."
+     ]
+    }
+   ],
+   "notes": "Nació en Andria (Apulia) para aprovechar los recortes de mozzarella. Tomar en 24–48 h, en nevera.",
+   "done": false
+  },
+  {
+   "id": "r-productos-labneh",
+   "tab": "productos",
+   "name": "Labneh",
+   "group": "Lácteos y derivados",
+   "cat": "Leches fermentadas / Concentradas (coladas)",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "Líbano",
+   "yield": "500 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Yogur natural entero"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar el yogur con la sal.",
+      "Ponerlo en un paño fino sobre un colador y colocar todo sobre un cuenco.",
+      "Escurrir en nevera 24 h (para untar) o 48 h (para hacer bolitas).",
+      "Servir con aceite de oliva y za'atar."
+     ]
+    }
+   ],
+   "notes": "En nevera, 1 semana. Las bolitas en aceite deben guardarse también en nevera.",
+   "done": false
+  },
+  {
+   "id": "r-productos-skyr",
+   "tab": "productos",
+   "name": "Skyr",
+   "group": "Lácteos y derivados",
+   "cat": "Leches fermentadas / Concentradas (coladas)",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "Islandia",
+   "yield": "600 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "l",
+       "n": "Leche desnatada"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Skyr natural (como fermento)"
+      },
+      {
+       "q": "3",
+       "u": "gota",
+       "n": "Cuajo líquido"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar la leche a 90 ºC y enfriarla a 40 ºC.",
+      "Diluir el skyr en un poco de la leche templada e incorporarlo con el cuajo diluido en una cucharada de agua.",
+      "Tapar y mantener a 37–40 ºC (horno apagado con la luz o yogurtera) 5–6 h, hasta que cuaje.",
+      "Pasar a un paño fino y escurrir en nevera 12–24 h, hasta que quede muy espeso.",
+      "Batir para alisar."
+     ]
+    }
+   ],
+   "notes": "Lácteo tradicional islandés, más cercano al queso fresco que al yogur. Guardar 2 cucharadas para la siguiente tanda. En nevera, 1–2 semanas.",
+   "done": false
+  },
+  {
+   "id": "r-productos-requeson-tipo-cottage",
+   "tab": "productos",
+   "name": "Requesón tipo cottage",
+   "group": "Lácteos y derivados",
+   "cat": "Quesos frescos / De coagulación ácida",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "Estados Unidos",
+   "yield": "500 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "l",
+       "n": "Leche desnatada"
+      },
+      {
+       "q": "180",
+       "u": "ml",
+       "n": "Vinagre blanco"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "120",
+       "u": "ml",
+       "n": "Nata"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar la leche a 49 ºC.",
+      "Retirar del fuego, añadir el vinagre y remover 1–2 min: se forman grumos.",
+      "Tapar y reposar 30 min.",
+      "Colar con un paño y enjuagar bajo agua fría, deshaciendo los grumos.",
+      "Escurrir 5 min apretando.",
+      "Mezclar con la sal y la nata justo antes de guardar."
+     ]
+    }
+   ],
+   "notes": "Versión ácida casera; la industrial se cuaja con fermento y cuajo. En nevera, 1 semana.",
+   "done": false
+  },
+  {
+   "id": "r-productos-mascarpone",
+   "tab": "productos",
+   "name": "Mascarpone",
+   "group": "Lácteos y derivados",
+   "cat": "Quesos frescos / De calor y ácido",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "Italia / Lombardía",
+   "yield": "400 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Nata (35 % materia grasa o más)"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Zumo de limón"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar la nata al baño maría o a fuego muy suave hasta 85 ºC.",
+      "Añadir el zumo de limón y remover 5 min manteniendo la temperatura: espesa y cubre la cuchara.",
+      "Enfriar 20 min.",
+      "Pasar a un colador forrado con paño fino y escurrir en nevera 12 h."
+     ]
+    }
+   ],
+   "notes": "Tradicional de Lombardía; base del tiramisú. En nevera, 4–5 días.",
+   "done": false
+  },
+  {
+   "id": "r-productos-halloumi",
+   "tab": "productos",
+   "name": "Halloumi",
+   "group": "Lácteos y derivados",
+   "cat": "Quesos en salmuera",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "Chipre",
+   "yield": "2 bloques de 300 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "l",
+       "n": "Leche entera (mejor de oveja o cabra)"
+      },
+      {
+       "q": "",
+       "u": "",
+       "n": "Cuajo líquido (dosis del fabricante)"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Hierbabuena seca"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar la leche a 32 ºC, añadir el cuajo diluido y dejar quieta 40 min, hasta que cuaje.",
+      "Cortar en cubos de 1 cm y remover suave 10 min, subiendo a 38 ºC.",
+      "Sacar la cuajada a un molde forrado con paño, prensar 1 h y cortar en bloques. Reservar el suero.",
+      "Calentar el suero a 90 ºC y meter los bloques hasta que floten (20–30 min).",
+      "Escurrir, frotar con sal y espolvorear la hierbabuena.",
+      "Doblar cada bloque por la mitad y dejar enfriar."
+     ]
+    }
+   ],
+   "notes": "DOP de Chipre desde 2021. El escaldado en suero es lo que hace que no se funda a la plancha. Usar leche pasteurizada, no UHT (la UHT no cuaja bien con cuajo). Con leche de supermercado ayuda añadir ¼ cdta de cloruro cálcico por cada 4 l. En nevera, en salmuera al 10 %, 2–3 semanas.",
+   "done": false
+  },
+  {
+   "id": "r-productos-feta",
+   "tab": "productos",
+   "name": "Feta",
+   "group": "Lácteos y derivados",
+   "cat": "Quesos en salmuera",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "Grecia",
+   "yield": "800 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "l",
+       "n": "Leche de oveja (o 70 % oveja y 30 % cabra)"
+      },
+      {
+       "q": "¼",
+       "u": "cdta",
+       "n": "Fermento mesófilo liofilizado"
+      },
+      {
+       "q": "",
+       "u": "",
+       "n": "Cuajo líquido (dosis del fabricante)"
+      },
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Sal (para la salmuera)"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua (para la salmuera)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar la leche a 30 ºC, añadir el fermento y madurar 1 h.",
+      "Añadir el cuajo diluido y dejar quieta 45–60 min, hasta que cuaje firme.",
+      "Cortar en cubos de 2 cm, reposar 10 min y remover suave 15 min.",
+      "Pasar a moldes y escurrir 24 h, dándoles la vuelta varias veces.",
+      "Cortar en bloques, salar por fuera y dejar 1 día.",
+      "Sumergir en salmuera al 8 % en nevera y madurar al menos 2 meses."
+     ]
+    }
+   ],
+   "notes": "DOP Grecia: solo leche de oveja, con hasta un 30 % de cabra, y 2 meses mínimo de maduración. Usar leche pasteurizada, no UHT (la UHT no cuaja bien con cuajo). Con leche de supermercado ayuda añadir ¼ cdta de cloruro cálcico por cada 4 l. ",
+   "done": false
+  },
+  {
+   "id": "r-productos-queso-crema",
+   "tab": "productos",
+   "name": "Queso crema",
+   "group": "Lácteos y derivados",
+   "cat": "Quesos frescos / De calor y ácido",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "Estados Unidos",
+   "yield": "450 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Leche entera"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Nata"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar la leche y la nata a 80 ºC.",
+      "Añadir el limón y remover hasta que cuaje en grumos finos.",
+      "Reposar 10 min y colar con un paño fino.",
+      "Escurrir 1–2 h.",
+      "Triturar con la sal hasta que quede liso y cremoso."
+     ]
+    }
+   ],
+   "notes": "Tipo Philadelphia, versión casera ácida. En nevera, 1 semana.",
+   "done": false
+  },
+  {
+   "id": "r-productos-clotted-cream",
+   "tab": "productos",
+   "name": "Clotted cream",
+   "group": "Lácteos y derivados",
+   "cat": "Natas / Tratadas por calor",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "Reino Unido / Cornualles",
+   "yield": "300 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Nata (la de más materia grasa que se encuentre)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Verter la nata en una fuente de horno de modo que tenga 4–5 cm de alto.",
+      "Hornear a 80 ºC, sin tapar, 12 h: se forma una costra amarilla.",
+      "Enfriar a temperatura ambiente y luego 8–12 h en nevera.",
+      "Retirar con cuidado la capa espesa de arriba y guardarla; el líquido de debajo sirve para scones."
+     ]
+    }
+   ],
+   "notes": "La Cornish clotted cream es DOP. Se toma con scones y mermelada. En nevera, 4–5 días.",
+   "done": false
+  },
+  {
+   "id": "r-productos-brunost",
+   "tab": "productos",
+   "name": "Brunost",
+   "group": "Lácteos y derivados",
+   "cat": "Quesos de suero / Por concentración",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "Noruega",
+   "yield": "300 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "l",
+       "n": "Suero de leche (de hacer queso)"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Nata"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Reducir el suero a fuego medio, sin tapar, removiendo de vez en cuando, varias horas, hasta que quede una cuarta parte.",
+      "Añadir la nata.",
+      "Seguir reduciendo a fuego bajo, removiendo sin parar al final, hasta que quede una pasta marrón espesa (como dulce de leche).",
+      "Retirar del fuego y batir mientras se enfría para que no quede granulosa.",
+      "Verter en un molde y enfriar en nevera."
+     ]
+    }
+   ],
+   "notes": "Queso «marrón» noruego: se carameliza el azúcar del suero. Aprovecha el suero del queso fresco, el halloumi o la mozzarella. Se corta en lonchas finas. En nevera, semanas.",
+   "done": false
+  },
+  {
+   "id": "r-productos-quesillo-de-oaxaca",
+   "tab": "productos",
+   "name": "Quesillo de Oaxaca",
+   "group": "Lácteos y derivados",
+   "cat": "Quesos de pasta hilada / Frescos",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "México / Oaxaca",
+   "yield": "400 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "l",
+       "n": "Leche entera pasteurizada (no UHT)"
+      },
+      {
+       "q": "7",
+       "u": "g",
+       "n": "Ácido cítrico, en 60 ml de agua"
+      },
+      {
+       "q": "",
+       "u": "",
+       "n": "Cuajo líquido (dosis del fabricante)"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua con 50 g de sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hacer la cuajada como la de la mozzarella hasta escaldarla en agua o suero a 80 ºC.",
+      "Estirarla en una cinta larga y fina, de 2 cm de ancho.",
+      "Meter la cinta en agua con sal 10 min.",
+      "Enrollarla en ovillo y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Pasta hilada como la mozzarella, pero en tiras largas enrolladas. Se deshebra para quesadillas. En nevera, 1 semana.",
+   "done": false
+  },
+  {
+   "id": "r-productos-leche-condensada",
+   "tab": "productos",
+   "name": "Leche condensada",
+   "group": "Lácteos y derivados",
+   "cat": "Leches concentradas / Con azúcar",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "",
+   "yield": "400 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Leche entera"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "¼",
+       "u": "cdta",
+       "n": "Bicarbonato (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar la leche con el azúcar en un cazo ancho, removiendo hasta disolver.",
+      "Cocer a fuego muy suave, sin que llegue a hervir fuerte, 1 h 30 min–2 h, removiendo a menudo.",
+      "Retirar cuando haya reducido a algo menos de la mitad y nape la cuchara.",
+      "Si se cuaja, batir con la batidora.",
+      "Guardar en un tarro limpio en nevera: espesa al enfriar."
+     ]
+    }
+   ],
+   "notes": "El bicarbonato evita que se corte y que oscurezca demasiado. En nevera, 2–3 semanas.",
+   "done": false
+  },
+  {
+   "id": "r-productos-ayran",
+   "tab": "productos",
+   "name": "Ayran",
+   "group": "Lácteos y derivados",
+   "cat": "Leches fermentadas / Bebidas de leche fermentada",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "Turquía",
+   "yield": "1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Yogur natural entero"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Agua muy fría"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Batir el yogur con la sal hasta que esté liso.",
+      "Añadir el agua poco a poco sin dejar de batir.",
+      "Batir fuerte (o con batidora) hasta que haga espuma.",
+      "Servir muy frío."
+     ]
+    }
+   ],
+   "notes": "Bebida nacional de Turquía. Acompaña kebabs y comidas especiadas. Se toma el mismo día.",
+   "done": false
+  }
+ ]
+}

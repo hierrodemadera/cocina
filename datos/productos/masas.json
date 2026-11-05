@@ -1,0 +1,1122 @@
+{
+ "recipes": [
+  {
+   "id": "r-productos-masa-de-pizza-napolitana",
+   "tab": "productos",
+   "name": "Masa de pizza napolitana",
+   "group": "Masas",
+   "cat": "Fermentadas / Magras",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Italia / Campania",
+   "yield": "6 bolas de 250 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Harina 00 de fuerza media (W 250–320)"
+      },
+      {
+       "q": "600",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "2",
+       "u": "g",
+       "n": "Levadura fresca"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Disolver la sal en el agua y añadir el 10 % de la harina.",
+      "Desmenuzar la levadura y seguir añadiendo harina mientras se amasa.",
+      "Amasar 10–20 min hasta que quede lisa y no se pegue.",
+      "Reposar la masa en bloque, tapada, 2 h a temperatura ambiente.",
+      "Dividir en bolas de 200–280 g y dejarlas 4–6 h más, tapadas.",
+      "Estirar a mano desde el centro hacia fuera, dejando el borde (cornicione) sin aplastar. Nunca con rodillo.",
+      "Cocer a la máxima temperatura posible: en horno de leña 430–480 ºC, 60–90 s; en casa, sobre piedra o acero bien caliente."
+     ]
+    }
+   ],
+   "notes": "Según el pliego de la Pizza Napoletana ETG y la AVPN: solo harina, agua, sal y levadura; diámetro máximo 35 cm.",
+   "done": false
+  },
+  {
+   "id": "r-productos-baguette",
+   "tab": "productos",
+   "name": "Baguette",
+   "group": "Masas",
+   "cat": "Fermentadas / Magras",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Francia",
+   "yield": "3 baguettes",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina panificable (T65)"
+      },
+      {
+       "q": "350",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "4",
+       "u": "g",
+       "n": "Levadura fresca"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar harina y agua y dejar reposar 30 min (autólisis).",
+      "Añadir la levadura y la sal y amasar hasta que quede lisa.",
+      "Fermentar 1 h 30 min en bloque, haciendo un pliegue a los 45 min.",
+      "Dividir en 3 piezas, bolear suave y reposar 20 min.",
+      "Formar barras de 35–40 cm sin desgasificar del todo.",
+      "Fermentar 45–60 min sobre un paño enharinado, con pliegues entre barras.",
+      "Hacer 4–5 cortes oblicuos con una cuchilla.",
+      "Hornear a 250 ºC con vapor 20–25 min, hasta que estén bien doradas."
+     ]
+    }
+   ],
+   "notes": "La «baguette de tradition française» (decreto de 1993) solo admite harina, agua, sal y levadura o masa madre, sin aditivos.",
+   "done": false
+  },
+  {
+   "id": "r-productos-chapata",
+   "tab": "productos",
+   "name": "Chapata",
+   "group": "Masas",
+   "cat": "Fermentadas / Magras",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Italia / Véneto",
+   "yield": "3 chapatas",
+   "parts": [
+    {
+     "name": "Biga",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Harina de fuerza"
+      },
+      {
+       "q": "125",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "2",
+       "u": "g",
+       "n": "Levadura fresca"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar sin amasar, solo hasta integrar.",
+      "Tapar y dejar 16–18 h a 16–18 ºC (o 1 h ambiente y el resto en nevera)."
+     ]
+    },
+    {
+     "name": "Masa",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Harina de fuerza"
+      },
+      {
+       "q": "275",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "2",
+       "u": "g",
+       "n": "Levadura fresca"
+      }
+     ],
+     "steps": [
+      "Mezclar la biga con la harina y casi toda el agua.",
+      "Añadir levadura, sal y el resto del agua poco a poco; amasar hasta que, siendo muy blanda, se despegue del bol.",
+      "Fermentar 2 h en un recipiente aceitado, con 3 pliegues en la primera hora.",
+      "Volcar sobre la mesa muy enharinada y cortar 3 rectángulos sin desgasificar.",
+      "Fermentar 30–45 min con el lado enharinado hacia abajo.",
+      "Dar la vuelta y hornear a 240 ºC con vapor 20–25 min."
+     ]
+    }
+   ],
+   "notes": "Creada en 1982 en Adria (Véneto) por Arnaldo Cavallari. Masa con mucha agua (80 %): manos mojadas o enharinadas.",
+   "done": false
+  },
+  {
+   "id": "r-productos-focaccia-genovese",
+   "tab": "productos",
+   "name": "Focaccia genovese",
+   "group": "Masas",
+   "cat": "Fermentadas / Magras",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Italia / Liguria",
+   "yield": "1 bandeja de 30×40 cm",
+   "parts": [
+    {
+     "name": "Masa",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina de fuerza media"
+      },
+      {
+       "q": "300",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Levadura fresca"
+      },
+      {
+       "q": "25",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Amasar todo hasta tener una masa lisa y elástica.",
+      "Fermentar 1 h tapada.",
+      "Extender en la bandeja aceitada y dejar 30 min; volver a estirar hasta las esquinas.",
+      "Fermentar 1 h."
+     ]
+    },
+    {
+     "name": "Salmuera (salamoia)",
+     "ings": [
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Sal gorda"
+      }
+     ],
+     "steps": [
+      "Emulsionar el agua con el aceite.",
+      "Hacer hoyos en la masa con la yema de los dedos, hasta el fondo.",
+      "Cubrir con la salmuera, espolvorear la sal y fermentar 30–45 min más.",
+      "Hornear a 230 ºC 15–20 min: dorada arriba y blanca y tierna dentro."
+     ]
+    }
+   ],
+   "notes": "La salmuera en los hoyos es la firma ligur. Se come sola o mojada en capuchino al desayuno.",
+   "done": false
+  },
+  {
+   "id": "r-productos-pan-de-molde",
+   "tab": "productos",
+   "name": "Pan de molde",
+   "group": "Masas",
+   "cat": "Fermentadas / Enriquecidas",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "",
+   "yield": "1 molde de 25 cm",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina de fuerza"
+      },
+      {
+       "q": "280",
+       "u": "ml",
+       "n": "Leche templada"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Mantequilla blanda"
+      },
+      {
+       "q": "25",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "9",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Levadura fresca"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Amasar harina, leche, azúcar, levadura y sal 10 min.",
+      "Añadir la mantequilla y amasar hasta que quede lisa y elástica.",
+      "Fermentar 1 h, hasta que doble.",
+      "Desgasificar, estirar en rectángulo y enrollar apretando, del ancho del molde.",
+      "Meter en el molde engrasado y fermentar hasta que asome 1 cm por encima del borde.",
+      "Hornear a 180 ºC 30–35 min.",
+      "Desmoldar enseguida y enfriar en rejilla antes de cortar."
+     ]
+    }
+   ],
+   "notes": "Con tapa (molde Pullman) sale cuadrado y de miga más cerrada. Se congela en rebanadas.",
+   "done": false
+  },
+  {
+   "id": "r-productos-masa-de-coca",
+   "tab": "productos",
+   "name": "Masa de coca",
+   "group": "Masas",
+   "cat": "Fermentadas / Enriquecidas",
+   "local": "",
+   "diet": "vegano",
+   "tag": "España / Comunidad Valenciana",
+   "yield": "2 cocas de 30×20 cm",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "125",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      },
+      {
+       "q": "125",
+       "u": "ml",
+       "n": "Agua templada (o vino blanco)"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "15",
+       "u": "g",
+       "n": "Levadura fresca"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Disolver la levadura en el agua templada.",
+      "Mezclar con la harina, la sal y el aceite y amasar solo hasta que esté lisa: queda suave y aceitosa.",
+      "Reposar 30–45 min tapada.",
+      "Estirar con las manos o rodillo, fina, sobre la bandeja con papel.",
+      "Cubrir con el relleno (trempó, verduras, sardinas…) y hornear a 200 ºC 25–30 min."
+     ]
+    }
+   ],
+   "notes": "Masa base de las cocas saladas valencianas, baleares y catalanas. Ver «Coca de trempó» en Recetas.",
+   "done": false
+  },
+  {
+   "id": "r-productos-masa-quebrada-pate-brisee",
+   "tab": "productos",
+   "name": "Masa quebrada (pâte brisée)",
+   "group": "Masas",
+   "cat": "Quebradas / Brisa",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "Francia",
+   "yield": "1 molde de 26 cm",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "125",
+       "u": "g",
+       "n": "Mantequilla fría en dados"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Agua fría (si hace falta)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Arenar la harina, la sal y la mantequilla con la yema de los dedos hasta que parezca arena gruesa.",
+      "Añadir el huevo y unir sin amasar; agua solo si no liga.",
+      "Aplanar en disco, envolver y enfriar 1 h.",
+      "Estirar a 3 mm, forrar el molde y pinchar el fondo.",
+      "Enfriar 20 min antes de hornear.",
+      "Para cocerla en blanco: cubrir con papel y peso y hornear a 180 ºC 15 min, retirar el peso y 10 min más."
+     ]
+    }
+   ],
+   "notes": "Salada: quiches, tartas de verdura. No amasar: si se trabaja mucho, encoge y queda dura.",
+   "done": false
+  },
+  {
+   "id": "r-productos-masa-sablee",
+   "tab": "productos",
+   "name": "Masa sablée",
+   "group": "Masas",
+   "cat": "Quebradas / Sablée",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "Francia",
+   "yield": "1 molde de 26 cm",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "125",
+       "u": "g",
+       "n": "Mantequilla blanda"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Azúcar glas"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cremar la mantequilla con el azúcar glas y la sal.",
+      "Añadir el huevo.",
+      "Incorporar la harina sin amasar, solo hasta que se una.",
+      "Aplanar entre dos papeles, envolver y enfriar 2 h.",
+      "Estirar a 3 mm, forrar el molde y enfriar 20 min.",
+      "Hornear en blanco a 170 ºC 20–25 min, hasta dorar."
+     ]
+    }
+   ],
+   "notes": "Para tartas dulces de fruta, crema o limón. Se congela bien en crudo.",
+   "done": false
+  },
+  {
+   "id": "r-productos-hojaldre",
+   "tab": "productos",
+   "name": "Hojaldre",
+   "group": "Masas",
+   "cat": "Hojaldradas",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "Francia",
+   "yield": "1,2 kg",
+   "parts": [
+    {
+     "name": "Masa base (détrempe)",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Agua fría"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Mantequilla fundida"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar todo hasta tener una masa lisa, sin amasar en exceso.",
+      "Hacer un corte en cruz, envolver y enfriar 1 h."
+     ]
+    },
+    {
+     "name": "Empaste y vueltas",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Mantequilla fría (de hojaldre, mejor)"
+      }
+     ],
+     "steps": [
+      "Golpear la mantequilla entre papeles hasta dejarla en un cuadrado flexible, a la misma temperatura que la masa.",
+      "Estirar la masa en cruz, poner la mantequilla en el centro y cerrar como un sobre.",
+      "Estirar en un rectángulo 3 veces más largo que ancho y doblar en tres: es una vuelta sencilla.",
+      "Girar 90º y dar otra vuelta. Enfriar 30 min.",
+      "Repetir hasta completar 6 vueltas sencillas, enfriando cada dos.",
+      "Reposar en nevera al menos 1 h antes de estirar y cortar."
+     ]
+    }
+   ],
+   "notes": "Hojaldre clásico de 6 vueltas sencillas (729 capas de mantequilla). Si la mantequilla se rompe o sale, enfriar más. Se congela.",
+   "done": false
+  },
+  {
+   "id": "r-productos-masa-choux",
+   "tab": "productos",
+   "name": "Masa choux",
+   "group": "Masas",
+   "cat": "Escaldadas",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "Francia",
+   "yield": "30 profiteroles",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "125",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "125",
+       "u": "ml",
+       "n": "Leche"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Mantequilla"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "4–5",
+       "u": "ud.",
+       "n": "Huevo (250 g aprox.)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Llevar a ebullición el agua, la leche, la mantequilla, la sal y el azúcar.",
+      "Fuera del fuego, añadir de golpe la harina y remover.",
+      "Volver al fuego y secar la panada 1–2 min, removiendo, hasta que se despegue y haga película en el fondo.",
+      "Pasar a un bol y enfriar un poco.",
+      "Añadir los huevos batidos de uno en uno, hasta que la masa caiga de la espátula en forma de «V».",
+      "Escudillar con manga sobre papel.",
+      "Hornear a 180 ºC 25–30 min sin abrir el horno."
+     ]
+    }
+   ],
+   "notes": "Profiteroles, éclairs, buñuelos de viento. Sin azúcar, para gougères con queso.",
+   "done": false
+  },
+  {
+   "id": "r-productos-brioche",
+   "tab": "productos",
+   "name": "Brioche",
+   "group": "Masas",
+   "cat": "Fermentadas / Enriquecidas",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "Francia",
+   "yield": "2 moldes de pan",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina de fuerza"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Huevo (300 g)"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Levadura fresca"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Mantequilla blanda en dados"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Amasar la harina, los huevos, el azúcar, la sal y la levadura 10 min, hasta que se despegue del bol.",
+      "Añadir la mantequilla poco a poco sin dejar de amasar, hasta que la masa vuelva a despegarse, lisa y brillante.",
+      "Fermentar 1 h a temperatura ambiente.",
+      "Desgasificar, tapar y dejar en nevera 12 h.",
+      "Formar en frío (bolas, trenza…) y meter en los moldes.",
+      "Fermentar 2–3 h, hasta que doble.",
+      "Pintar con huevo y hornear a 180 ºC 25–30 min."
+     ]
+    }
+   ],
+   "notes": "La nevera es clave: la mantequilla fría hace la masa manejable.",
+   "done": false
+  },
+  {
+   "id": "r-productos-pasta-fresca-al-huevo",
+   "tab": "productos",
+   "name": "Pasta fresca al huevo",
+   "group": "Masas",
+   "cat": "Sin levar de trigo / Pastas frescas",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "Italia / Emilia-Romaña",
+   "yield": "4 raciones",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Harina 00"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Huevo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hacer un volcán con la harina y cascar los huevos en el centro.",
+      "Batir con un tenedor, integrando harina poco a poco desde el borde.",
+      "Amasar 10 min hasta que quede lisa y elástica.",
+      "Envolver y reposar 30 min.",
+      "Estirar con rodillo o máquina hasta 0,6–1 mm.",
+      "Cortar: tallarines, pappardelle, láminas para lasaña o rellenas.",
+      "Cocer en agua con sal 1–3 min."
+     ]
+    }
+   ],
+   "notes": "Proporción clásica de la «sfoglia» boloñesa: 100 g de harina por huevo. El tallarín de Bolonia mide 8 mm cocido (registro de la Accademia Italiana della Cucina, 1972).",
+   "done": false
+  },
+  {
+   "id": "r-productos-masa-de-maiz-nixtamalizado",
+   "tab": "productos",
+   "name": "Masa de maíz nixtamalizado",
+   "group": "Masas",
+   "cat": "De maíz y otros almidones / Nixtamalizadas",
+   "local": "",
+   "diet": "vegano",
+   "tag": "México",
+   "yield": "1,5 kg de masa (30 tortillas)",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Maíz seco"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Cal (hidróxido de calcio alimentario)"
+      },
+      {
+       "q": "3",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Disolver la cal en el agua, añadir el maíz lavado y cocer 30–40 min, hasta que la piel se desprenda al frotar.",
+      "Apagar y dejar reposar 12 h en el agua (nixtamal).",
+      "Lavar el maíz frotándolo entre las manos, cambiando el agua hasta quitar la piel suelta.",
+      "Moler en molino de maíz hasta una masa fina; añadir agua si hace falta.",
+      "Amasar con la sal hasta que no se agriete al aplastar una bola.",
+      "Para tortillas: bolas de 35–40 g, aplastar en prensa entre plásticos y cocer en comal caliente 30 s, 1 min y 30 s, hasta que se inflen."
+     ]
+    }
+   ],
+   "notes": "La nixtamalización libera la niacina del maíz y da elasticidad a la masa. La UNESCO incluye la cocina tradicional mexicana como patrimonio inmaterial.",
+   "done": false
+  },
+  {
+   "id": "r-productos-tortillas-de-harina",
+   "tab": "productos",
+   "name": "Tortillas de harina",
+   "group": "Masas",
+   "cat": "Sin levar de trigo / Panes planos sin levar",
+   "local": "",
+   "diet": "carne",
+   "tag": "México",
+   "yield": "12 tortillas",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina de trigo"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Manteca de cerdo (o mantequilla)"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Agua caliente"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Arenar la harina con la sal y la manteca.",
+      "Añadir el agua caliente y amasar 5 min hasta que quede suave.",
+      "Dividir en 12 bolas y reposar 30 min tapadas.",
+      "Estirar con rodillo muy finas.",
+      "Cocer en sartén o comal caliente, sin grasa, 30–40 s por lado, hasta que salgan burbujas y puntos dorados.",
+      "Guardar apiladas en un paño para que se mantengan blandas."
+     ]
+    }
+   ],
+   "notes": "Típicas del norte de México (Sonora, Chihuahua); base de burritos.",
+   "done": false
+  },
+  {
+   "id": "r-productos-obleas-para-empanadillas",
+   "tab": "productos",
+   "name": "Obleas para empanadillas",
+   "group": "Masas",
+   "cat": "Quebradas / Brisa",
+   "local": "",
+   "diet": "vegano",
+   "tag": "España",
+   "yield": "30 obleas",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Vino blanco"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar el aceite, el vino, el agua y la sal sin que hierva.",
+      "Añadir la harina de golpe y mezclar.",
+      "Amasar hasta que quede lisa; reposar 30 min tapada.",
+      "Estirar muy fina (1–2 mm) y cortar círculos de 10 cm.",
+      "Rellenar, cerrar y sellar el borde con un tenedor.",
+      "Freír en aceite caliente o pintar con huevo y hornear a 200 ºC 15–20 min."
+     ]
+    }
+   ],
+   "notes": "Masa de empanadillas de atún, de pisto o de carne. Las obleas se congelan separadas con papel.",
+   "done": false
+  },
+  {
+   "id": "r-productos-pan-de-pita",
+   "tab": "productos",
+   "name": "Pan de pita",
+   "group": "Masas",
+   "cat": "Fermentadas / Magras",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Líbano",
+   "yield": "8 panes",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "325",
+       "u": "ml",
+       "n": "Agua templada"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Levadura fresca"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "15",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Amasar todo 10 min hasta que quede lisa.",
+      "Fermentar 1 h, hasta que doble.",
+      "Dividir en 8 bolas y reposar 15 min.",
+      "Estirar en discos de 5 mm, del mismo grosor de borde a centro.",
+      "Hornear sobre piedra o bandeja muy caliente a 250 ºC o más, 4–5 min, hasta que se inflen.",
+      "Envolver enseguida en un paño para que queden blandos."
+     ]
+    }
+   ],
+   "notes": "Si se infla, sale el bolsillo. También se cuece en sartén muy caliente, 1 min por lado.",
+   "done": false
+  },
+  {
+   "id": "r-productos-naan",
+   "tab": "productos",
+   "name": "Naan",
+   "group": "Masas",
+   "cat": "Fermentadas / Magras",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "India / Punyab",
+   "yield": "8 naan",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "7",
+       "u": "g",
+       "n": "Levadura seca de panadería"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Azúcar"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Yogur natural"
+      },
+      {
+       "q": "200",
+       "u": "ml",
+       "n": "Leche templada"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Ghee (y más para pintar)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar todo y amasar 8–10 min hasta que quede suave y algo pegajosa.",
+      "Fermentar 1 h 30 min.",
+      "Dividir en 8 bolas y reposar 15 min.",
+      "Estirar en forma de lágrima, de 5 mm.",
+      "Cocer en sartén de hierro muy caliente: cuando salgan burbujas, dar la vuelta y dorar.",
+      "Pintar con ghee (y ajo picado si se quiere)."
+     ]
+    }
+   ],
+   "notes": "En el tandoor se pegan a la pared del horno de barro. En casa, la sartén de hierro o la parrilla del horno al máximo.",
+   "done": false
+  },
+  {
+   "id": "r-productos-masa-de-jiaozi",
+   "tab": "productos",
+   "name": "Masa de jiaozi",
+   "group": "Masas",
+   "cat": "Sin levar de trigo / Envolturas y láminas",
+   "local": "",
+   "diet": "vegano",
+   "tag": "China",
+   "yield": "40 obleas",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Agua (caliente para cocer al vapor o a la plancha, fría para hervir)"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Añadir el agua a la harina poco a poco, mezclando con palillos.",
+      "Amasar 5–10 min hasta que quede lisa y firme.",
+      "Reposar 30 min tapada.",
+      "Hacer un churro de 2,5 cm y cortar trozos de 8 g.",
+      "Aplastar cada trozo y estirar con un rodillo pequeño, dejando el centro más grueso que el borde (8 cm).",
+      "Rellenar y plisar."
+     ]
+    }
+   ],
+   "notes": "Con agua fría, más firmes para hervir; con agua caliente, más tiernas para guotie (a la plancha) y vapor. Sirve para gyozas.",
+   "done": false
+  },
+  {
+   "id": "r-productos-masa-de-bao",
+   "tab": "productos",
+   "name": "Masa de bao",
+   "group": "Masas",
+   "cat": "Fermentadas / Enriquecidas",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "China",
+   "yield": "16 bao",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Harina floja"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Leche templada"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Levadura seca de panadería"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Levadura química"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Manteca o aceite neutro"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Amasar todo 10 min hasta que esté lisa y muy fina al tacto.",
+      "Fermentar 1 h.",
+      "Desgasificar y dividir en 16 bolas.",
+      "Estirar en óvalos, pintar con aceite y doblar (gua bao) o rellenar y cerrar (baozi).",
+      "Colocar sobre cuadrados de papel en la vaporera y fermentar 20–30 min.",
+      "Cocer al vapor 12 min y dejar 5 min con la tapa antes de abrir (si no, se arrugan)."
+     ]
+    }
+   ],
+   "notes": "Harina floja = blancos y esponjosos.",
+   "done": false
+  },
+  {
+   "id": "r-productos-arepas",
+   "tab": "productos",
+   "name": "Arepas",
+   "group": "Masas",
+   "cat": "De maíz y otros almidones / Precocidas",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Venezuela",
+   "yield": "8 arepas",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Harina de maíz blanco precocida"
+      },
+      {
+       "q": "325",
+       "u": "ml",
+       "n": "Agua templada"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Disolver la sal en el agua.",
+      "Añadir la harina poco a poco amasando hasta que no se pegue a las manos.",
+      "Reposar 5 min.",
+      "Formar 8 bolas y aplastarlas a 1,5 cm.",
+      "Dorar en plancha o budare engrasado a fuego medio 5–7 min por lado.",
+      "Terminar 10–15 min en el horno a 180 ºC para que suenen huecas al golpearlas."
+     ]
+    }
+   ],
+   "notes": "Se abren y se rellenan (reina pepiada, pabellón, queso). Igual de propias de Colombia.",
+   "done": false
+  }
+ ]
+}

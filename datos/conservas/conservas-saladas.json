@@ -1,0 +1,1364 @@
+{
+ "recipes": [
+  {
+   "id": "r-conservas-tomate-triturado-en-conserva",
+   "tab": "conservas",
+   "name": "Tomate triturado en conserva",
+   "group": "Conservas saladas",
+   "cat": "Al natural, en su jugo o en salsa / Tomate",
+   "local": "",
+   "diet": "vegano",
+   "tag": "",
+   "yield": "4 tarros de 1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "5",
+       "u": "kg",
+       "n": "Tomate maduro y firme"
+      },
+      {
+       "q": "8",
+       "u": "cda",
+       "n": "Zumo de limón embotellado (2 por tarro de 1 l)"
+      },
+      {
+       "q": "4",
+       "u": "cdta",
+       "n": "Sal (opcional, 1 por tarro)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Escaldar los tomates 30–60 s, enfriar en agua fría, pelar, quitar el corazón y cortar en cuartos.",
+      "Poner al fuego una sexta parte de los tomates aplastándolos y, cuando hierva, ir añadiendo el resto sin dejar de hervir.",
+      "Hervir suave 5 min.",
+      "Poner en cada tarro caliente 2 cda de zumo de limón (o ½ cdta de ácido cítrico) y la sal.",
+      "Llenar con el tomate caliente dejando 1 cm libre, quitar burbujas, limpiar bordes y cerrar.",
+      "Esterilizar al baño maría 45 min (tarros de 1 l) o 35 min (tarros de 500 ml)."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA), «Crushed tomatoes». El limón embotellado es obligatorio: el tomate no siempre es lo bastante ácido por sí solo. En tarros de 500 ml, 1 cda de limón o ¼ cdta de ácido cítrico. Calcular unos 1,25 kg de tomate por litro. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-pimientos-asados-marinados",
+   "tab": "conservas",
+   "name": "Pimientos asados marinados",
+   "group": "Conservas saladas",
+   "cat": "En aceite / Hortalizas y setas",
+   "local": "",
+   "diet": "vegano",
+   "tag": "",
+   "yield": "9 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1,8",
+       "u": "kg",
+       "n": "Pimiento rojo carnoso"
+      },
+      {
+       "q": "240",
+       "u": "ml",
+       "n": "Zumo de limón embotellado"
+      },
+      {
+       "q": "475",
+       "u": "ml",
+       "n": "Vinagre de vino blanco (5 % acidez)"
+      },
+      {
+       "q": "240",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      },
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Cebolla picada"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo en cuartos"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Orégano seco"
+      },
+      {
+       "q": "2",
+       "u": "cdta",
+       "n": "Sal (¼ por tarro)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Asar los pimientos al horno a 200 ºC o en la llama hasta que la piel se ampolle.",
+      "Dejarlos reposar tapados 10 min, pelar, quitar semillas y abrir en tiras.",
+      "Hervir el zumo de limón, el vinagre, el aceite, la cebolla, el ajo y el orégano.",
+      "Repartir la sal en tarros calientes y llenar con los pimientos sin apretar.",
+      "Cubrir con el líquido hirviendo dejando 1 cm libre, quitar burbujas y cerrar.",
+      "Esterilizar al baño maría 15 min."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA), «Marinated peppers». No reducir el limón ni el vinagre: son los que hacen segura la conserva. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-bonito-en-aceite",
+   "tab": "conservas",
+   "name": "Bonito en aceite",
+   "group": "Conservas saladas",
+   "cat": "En aceite / Pescado y marisco",
+   "local": "",
+   "diet": "pescado",
+   "tag": "España / Cantabria",
+   "yield": "6 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1,5",
+       "u": "kg",
+       "n": "Bonito del norte limpio (lomos)"
+      },
+      {
+       "q": "3",
+       "u": "cdta",
+       "n": "Sal (½ por tarro)"
+      },
+      {
+       "q": "6",
+       "u": "cda",
+       "n": "Aceite de oliva (1 por tarro, opcional más)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cocer los lomos al vapor o al horno hasta que el centro llegue a 74–79 ºC.",
+      "Enfriar en nevera toda la noche para que la carne se asiente.",
+      "Quitar piel, espinas y la carne oscura y cortar en tacos del alto del tarro.",
+      "Llenar tarros de 250 o 500 ml apretando, añadir la sal y el aceite, dejando 2,5 cm libres.",
+      "Limpiar bordes con un paño con vinagre y cerrar.",
+      "Procesar en olla a presión de conservas 100 min a 10 psi (manómetro de peso) u 11 psi (manómetro de aguja).",
+      "Dejar bajar la presión sola antes de abrir la olla."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA), «Canning tuna» (solo tarros de 250 o 500 ml). Requiere olla a presión de conservas con manómetro (autoclave doméstico): el baño maría y las ollas exprés normales no están validados para alimentos poco ácidos (riesgo de botulismo). Tiempos para 0–300 m; a más altura, subir la presión según la fuente. El bonito del norte de costera (junio–octubre) es el clásico de las conserveras cántabras y vascas.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-anchoas-en-salazon-y-aceite",
+   "tab": "conservas",
+   "name": "Anchoas en salazón y aceite",
+   "group": "Conservas saladas",
+   "cat": "Salazones / Pescado y huevas",
+   "local": "",
+   "diet": "pescado",
+   "tag": "España / Cantabria",
+   "yield": "500 g de filetes",
+   "parts": [
+    {
+     "name": "Salazón",
+     "ings": [
+      {
+       "q": "2",
+       "u": "kg",
+       "n": "Anchoa del Cantábrico muy fresca"
+      },
+      {
+       "q": "2",
+       "u": "kg",
+       "n": "Sal gorda marina"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Congelar las anchoas a –20 ºC al menos 5 días y descongelar en nevera (anisakis).",
+      "Quitar la cabeza tirando hacia abajo para sacar la tripa con ella. No lavar.",
+      "Cubrir con sal 12–24 h en nevera para que suelten sangre.",
+      "Colocar en un recipiente capas alternas de sal y anchoas en abanico, colas al centro, terminando con sal.",
+      "Poner un peso encima (aprox. el mismo peso que las anchoas) y guardar en sitio fresco (15–18 ºC).",
+      "Retirar la salmuera que sube y mantenerlas siempre cubiertas de líquido.",
+      "Madurar 4–6 meses, hasta que la carne esté rosada y huela a anchoa curada."
+     ]
+    },
+    {
+     "name": "Filetes en aceite",
+     "ings": [
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Aceite de oliva suave"
+      }
+     ],
+     "steps": [
+      "Lavar las anchoas en agua fría y quitar la piel frotando con los dedos.",
+      "Abrir en dos filetes, retirar la espina y las aletas.",
+      "Secar muy bien entre paños durante 1 h.",
+      "Colocar en tarros y cubrir con aceite."
+     ]
+    }
+   ],
+   "notes": "Es el método de la anchoa de Santoña. Los filetes en aceite son semiconserva: siempre en nevera, consumir en 2–3 semanas. Congelar antes es la recomendación de AESAN para pescado que no se cocina.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-caballa-en-escabeche",
+   "tab": "conservas",
+   "name": "Caballa en escabeche",
+   "group": "Conservas saladas",
+   "cat": "Escabeches y marinados / Pescado y marisco",
+   "local": "",
+   "diet": "pescado",
+   "tag": "España",
+   "yield": "4 raciones",
+   "parts": [
+    {
+     "name": "Pescado",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Caballa en lomos"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "200",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Salar los lomos, pasarlos por harina y freírlos en el aceite 1–2 min por lado.",
+      "Colocar en un recipiente de cristal o barro. Reservar el aceite."
+     ]
+    },
+    {
+     "name": "Escabeche",
+     "ings": [
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Aceite de oliva (el de freír, colado)"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Diente de ajo con piel, chafado"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimienta negra en grano"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Vinagre de vino"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Vino blanco"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Dorar los ajos en el aceite con el laurel y la pimienta.",
+      "Retirar del fuego, añadir el pimentón y, al momento, el vinagre, el vino y el agua.",
+      "Hervir 5 min y salar.",
+      "Verter caliente sobre el pescado hasta cubrirlo.",
+      "Enfriar, tapar y dejar reposar 24 h en nevera antes de comer."
+     ]
+    }
+   ],
+   "notes": "En nevera, siempre cubierta, unos 5–7 días. El escabeche es un método de conservación, no esterilización: no guardar fuera de la nevera.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-lomo-de-orza",
+   "tab": "conservas",
+   "name": "Lomo de orza",
+   "group": "Conservas saladas",
+   "cat": "Confitados en grasa / Orza",
+   "local": "",
+   "diet": "carne",
+   "tag": "España / Castilla-La Mancha",
+   "yield": "1,5 kg",
+   "parts": [
+    {
+     "name": "Adobo",
+     "ings": [
+      {
+       "q": "1,5",
+       "u": "kg",
+       "n": "Lomo de cerdo en una pieza"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Orégano seco"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Machacar ajo, pimentón, orégano, sal y aceite hasta hacer una pasta.",
+      "Untar el lomo y dejarlo adobar 24–48 h en nevera, tapado."
+     ]
+    },
+    {
+     "name": "Fritura y orza",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Aceite de oliva (o manteca de cerdo)"
+      }
+     ],
+     "steps": [
+      "Cortar el lomo en filetes gruesos (2 cm) o en trozos.",
+      "Freír a fuego lento en abundante aceite hasta que estén hechos por dentro, sin tostarse.",
+      "Colocar en la orza o en tarros limpios.",
+      "Cubrir por completo con el aceite de freír colado y templado (o con la manteca).",
+      "Dejar enfriar sin tapar del todo y cerrar."
+     ]
+    }
+   ],
+   "notes": "Receta tradicional manchega (Turespaña, spain.info). La orza antigua se guardaba en la despensa; hoy se recomienda nevera, la carne siempre cubierta, sacar con utensilio limpio y consumir en 2–3 semanas. Se come templado o frío.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-confit-de-pato",
+   "tab": "conservas",
+   "name": "Confit de pato",
+   "group": "Conservas saladas",
+   "cat": "Confitados en grasa / Confits",
+   "local": "",
+   "diet": "carne",
+   "tag": "Francia / Gascuña",
+   "yield": "4 muslos",
+   "parts": [
+    {
+     "name": "Salado",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Muslo de pato"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Sal gorda"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Diente de ajo laminado"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Rama de tomillo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimienta negra molida"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar sal, ajo, tomillo, laurel desmenuzado y pimienta.",
+      "Frotar los muslos con la mezcla y dejarlos 24 h en nevera, tapados."
+     ]
+    },
+    {
+     "name": "Confitado",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Grasa de pato"
+      }
+     ],
+     "steps": [
+      "Limpiar la sal de los muslos y secarlos bien.",
+      "Fundir la grasa y sumergir los muslos por completo.",
+      "Cocer a 85–90 ºC (fuego mínimo u horno a 120 ºC) 2 h 30 min–3 h, hasta que el hueso del muslo gire suelto.",
+      "Colocar los muslos en un recipiente limpio y cubrir con la grasa colada, sin el jugo del fondo.",
+      "Enfriar y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Siempre cubierto de grasa y en nevera, hasta 1 mes; retirar los muslos con utensilio limpio y volver a cubrir. Para servir, dorar con la piel hacia abajo en sartén.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-rillettes-de-cerdo",
+   "tab": "conservas",
+   "name": "Rillettes de cerdo",
+   "group": "Conservas saladas",
+   "cat": "Confitados en grasa / Rillettes y desmigados",
+   "local": "",
+   "diet": "carne",
+   "tag": "Francia / Valle del Loira",
+   "yield": "4 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Paleta o panceta de cerdo sin piel, en dados"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Manteca de cerdo"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "15",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimienta negra"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Rama de tomillo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Poner todo en una olla de fondo grueso, tapada.",
+      "Cocer a fuego mínimo 4–5 h, removiendo de vez en cuando, hasta que la carne se deshaga.",
+      "Retirar laurel, tomillo y ajo.",
+      "Escurrir la carne reservando la grasa y deshilachar con dos tenedores.",
+      "Mezclar con un poco de la grasa y rectificar de sal y pimienta.",
+      "Apretar en tarros y cubrir con una capa de grasa fundida.",
+      "Enfriar y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Las de Tours y Le Mans son las más conocidas (las de Le Mans, del Sarthe). En nevera, con la capa de grasa intacta, 1–2 semanas; abierta, 3–4 días.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-tapenade",
+   "tab": "conservas",
+   "name": "Tapenade",
+   "group": "Conservas saladas",
+   "cat": "Pastas, condimentos y salsas / Untables",
+   "local": "",
+   "diet": "pescado",
+   "tag": "Francia / Provenza",
+   "yield": "1 tarro de 300 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Aceituna negra deshuesada (tipo Nyons)"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Alcaparra escurrida"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Filete de anchoa en aceite"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "½",
+       "u": "ud.",
+       "n": "Limón (el zumo)"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Tomillo fresco"
+      },
+      {
+       "q": "80",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Triturar aceitunas, alcaparras, anchoas, ajo y tomillo hasta una pasta rústica.",
+      "Añadir el zumo de limón y emulsionar con el aceite en hilo.",
+      "Llenar un tarro y cubrir con una capa fina de aceite."
+     ]
+    }
+   ],
+   "notes": "El nombre viene de «tapeno», alcaparra en provenzal. Lleva ajo crudo en aceite: guardar en nevera y consumir en una semana; para más tiempo, congelar.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-mostaza-a-la-antigua",
+   "tab": "conservas",
+   "name": "Mostaza a la antigua",
+   "group": "Conservas saladas",
+   "cat": "Pastas, condimentos y salsas / Salsas de mesa",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Francia",
+   "yield": "2 tarros de 200 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Semilla de mostaza parda"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Semilla de mostaza amarilla"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Vino blanco seco"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Vinagre de vino blanco"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Miel (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar las semillas en el vino y el vinagre 24–48 h, tapadas, hasta que absorban el líquido.",
+      "Añadir sal y miel y triturar solo la mitad de la mezcla, para que quede granulada.",
+      "Juntar, ajustar con un poco de agua si está seca y llenar tarros.",
+      "Reposar 2–3 días en nevera antes de usar: pica mucho al principio y se suaviza."
+     ]
+    }
+   ],
+   "notes": "Estilo «à l'ancienne» (grano entero, como la de Meaux). Por su acidez aguanta meses en nevera.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-tomates-secos-en-aceite",
+   "tab": "conservas",
+   "name": "Tomates secos en aceite",
+   "group": "Conservas saladas",
+   "cat": "Secados y ahumados / Secados",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Italia",
+   "yield": "2 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Tomate seco (bien seco, acartonado)"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Zumo de limón embotellado (opcional)"
+      },
+      {
+       "q": "300",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Comprobar que los tomates están completamente secos, acartonados o crujientes, sin nada de humedad.",
+      "Si se quieren más tiernos, pasarlos un momento por el zumo de limón embotellado y escurrir (es el único remojo que admite la guía).",
+      "Colocar en tarros limpios y cubrir por completo con aceite.",
+      "Guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Fuente: Oregon State University Extension, «Herbs and vegetables in oil» (SP 50-701). No rehidratarlos en agua ni vinagre: la humedad es lo que los hace inseguros. Sin ajo ni hierbas, en nevera hasta 6 meses (el aceite se enturbia con el frío; se aclara a temperatura ambiente). Con ajo o hierbas, 4 días en nevera o congelar.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-alcachofas-en-aceite-carciofini-sott-olio",
+   "tab": "conservas",
+   "name": "Alcachofas en aceite (carciofini sott'olio)",
+   "group": "Conservas saladas",
+   "cat": "En aceite / Hortalizas y setas",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Italia",
+   "yield": "4 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "kg",
+       "n": "Alcachofa pequeña"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Vinagre de vino blanco (6 % acidez)"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Limón"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimienta negra en grano"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Aceite de oliva (aprox.)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Limpiar las alcachofas dejando solo el corazón tierno, cortar en cuartos y frotar con limón.",
+      "Hervir el agua con el vinagre y la sal, añadir las alcachofas y cocerlas al dente (8–10 min).",
+      "Escurrir y dejar secar sobre un paño limpio, boca abajo, varias horas.",
+      "Colocar en tarros esterilizados con el laurel y la pimienta, apretando sin aplastar.",
+      "Cubrir de aceite dejando 1 cm libre, esperar 1 h, eliminar burbujas y rellenar.",
+      "Cerrar y pasteurizar en agua hirviendo, cubiertos con 10 cm de agua.",
+      "Esperar 1–2 meses antes de consumir; abiertas, en nevera."
+     ]
+    }
+   ],
+   "notes": "Fuente: Istituto Superiore di Sanità (ISS), Linee guida per la corretta preparazione delle conserve alimentari in ambito domestico: la seguridad está en cocer en agua y vinagre a partes iguales. La guía no fija un tiempo único de pasteurización (depende del tarro); para 250 ml se suele usar unos 20 min desde que rompe a hervir. Desechar si hay burbujas o el aceite se enturbia en los primeros 10–15 días.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-caponata",
+   "tab": "conservas",
+   "name": "Caponata",
+   "group": "Conservas saladas",
+   "cat": "Al natural, en su jugo o en salsa / Hortalizas cocinadas",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Italia / Sicilia",
+   "yield": "4 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Berenjena en dados"
+      },
+      {
+       "q": "200",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla en dados"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Rama de apio en dados"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Tomate triturado"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Aceituna verde deshuesada"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Alcaparra"
+      },
+      {
+       "q": "80",
+       "u": "ml",
+       "n": "Vinagre de vino"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Manojo de albahaca"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Salar la berenjena 30 min, secarla y freírla en el aceite hasta dorar. Escurrir.",
+      "En 3 cda del aceite, pochar la cebolla y el apio 10 min.",
+      "Añadir el tomate y cocer 10 min.",
+      "Incorporar aceitunas, alcaparras y la berenjena.",
+      "Añadir el vinagre y el azúcar, cocer 5 min y rectificar de sal.",
+      "Terminar con albahaca y dejar reposar al menos unas horas antes de servir."
+     ]
+    }
+   ],
+   "notes": "Agridulce («agrodolce»). Mejor al día siguiente. En nevera, en tarros, 1 semana; también se congela.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-ajvar",
+   "tab": "conservas",
+   "name": "Ajvar",
+   "group": "Conservas saladas",
+   "cat": "Pastas, condimentos y salsas / Untables",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Serbia",
+   "yield": "3 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "kg",
+       "n": "Pimiento rojo carnoso"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Berenjena"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "120",
+       "u": "ml",
+       "n": "Aceite de girasol"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Vinagre de vino"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Azúcar"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Asar pimientos y berenjenas enteros al horno a 220 ºC o en la brasa hasta que la piel se queme.",
+      "Dejar reposar tapados, pelar y quitar semillas. Escurrir bien el líquido.",
+      "Picar finos o pasar por la picadora con el ajo.",
+      "Cocer en una cazuela a fuego bajo, añadiendo el aceite poco a poco y removiendo, 30–45 min, hasta que espese.",
+      "Añadir vinagre, sal y azúcar y cocer 5 min más.",
+      "Llenar tarros, cubrir con una capa de aceite y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Típico del otoño en Serbia y Macedonia del Norte, cuando hay pimiento rojo barato. Sin método casero validado para baño maría: en nevera, 2 semanas, o congelar.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-harissa",
+   "tab": "conservas",
+   "name": "Harissa",
+   "group": "Conservas saladas",
+   "cat": "Pastas, condimentos y salsas / Pastas de chile y especias",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Túnez",
+   "yield": "1 tarro de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Guindilla roja seca suave"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Comino en grano"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Alcaravea en grano"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Cilantro en grano"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "4",
+       "u": "cda",
+       "n": "Aceite de oliva (más para cubrir)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Quitar rabos y semillas a las guindillas y remojarlas en agua caliente 30 min.",
+      "Tostar las especias en seco 1 min y molerlas.",
+      "Escurrir las guindillas y triturarlas con el ajo, las especias, la sal y el limón.",
+      "Añadir el aceite hasta tener una pasta.",
+      "Llenar el tarro y cubrir con una capa de aceite."
+     ]
+    }
+   ],
+   "notes": "Inscrita por la UNESCO (2022) como patrimonio inmaterial de Túnez. Lleva ajo crudo: en nevera una semana, o congelar en porciones. Las guías oficiales (Oregon State University) piden 4 días en nevera para aceites con ajo o hierbas frescas, o congelar. ",
+   "done": false
+  },
+  {
+   "id": "r-conservas-ketchup",
+   "tab": "conservas",
+   "name": "Ketchup",
+   "group": "Conservas saladas",
+   "cat": "Pastas, condimentos y salsas / Salsas de mesa",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Estados Unidos",
+   "yield": "3 tarros de 500 ml",
+   "parts": [
+    {
+     "name": "Especias",
+     "ings": [
+      {
+       "q": "350",
+       "u": "ml",
+       "n": "Vinagre de manzana (5 % acidez)"
+      },
+      {
+       "q": "2",
+       "u": "cdta",
+       "n": "Clavo entero"
+      },
+      {
+       "q": "1½",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "¾",
+       "u": "cdta",
+       "n": "Pimienta de Jamaica"
+      },
+      {
+       "q": "1½",
+       "u": "cda",
+       "n": "Semilla de apio"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hervir el vinagre con las especias atadas en una gasa, apagar y dejar infusionar 20 min. Retirar las especias."
+     ]
+    },
+    {
+     "name": "Ketchup",
+     "ings": [
+      {
+       "q": "5,4",
+       "u": "kg",
+       "n": "Tomate"
+      },
+      {
+       "q": "350",
+       "u": "ml",
+       "n": "Cebolla picada"
+      },
+      {
+       "q": "⅜",
+       "u": "cdta",
+       "n": "Cayena"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Lavar, quitar el corazón y cuartear los tomates.",
+      "Cocerlos con la cebolla y la cayena 20 min, destapados.",
+      "Añadir el vinagre especiado y cocer 30 min más.",
+      "Pasar por el pasapurés o colador.",
+      "Reducir a fuego fuerte con el azúcar y la sal, removiendo, hasta que quede a la mitad y espese.",
+      "Llenar tarros calientes dejando 3 mm libres y cerrar.",
+      "Esterilizar al baño maría 15 min."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA), «Tomato ketchup», a mitad de cantidad. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-aceite-de-chile-crujiente",
+   "tab": "conservas",
+   "name": "Aceite de chile crujiente",
+   "group": "Conservas saladas",
+   "cat": "Pastas, condimentos y salsas / Condimentos en aceite",
+   "local": "",
+   "diet": "vegano",
+   "tag": "China / Guizhou",
+   "yield": "1 tarro de 500 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Guindilla seca en escamas"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Pimienta de Sichuan molida"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sésamo"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Azúcar"
+      },
+      {
+       "q": "400",
+       "u": "ml",
+       "n": "Aceite de girasol o cacahuete"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Chalota en láminas finas"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cabeza de ajo picada"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Soja negra fermentada (douchi) picada"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Anís estrellado"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar en un cuenco resistente al calor la guindilla, la pimienta de Sichuan, el sésamo, la sal y el azúcar.",
+      "Calentar el aceite con el anís y la canela y freír la chalota a fuego medio hasta que esté dorada y crujiente. Sacar.",
+      "Freír el ajo hasta dorar y sacar. Freír la soja 1 min y sacar.",
+      "Retirar las especias y dejar el aceite a unos 120 ºC.",
+      "Verter el aceite sobre el cuenco de guindilla en dos veces, removiendo.",
+      "Al enfriar, añadir chalota, ajo y soja.",
+      "Llenar el tarro y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Estilo Lao Gan Ma, la marca de Guizhou que lo hizo famoso. Las guías oficiales (Oregon State University) piden 4 días en nevera para aceites con ajo o hierbas frescas, o congelar. Con el ajo y la chalota fritos hasta quedar secos el riesgo baja, pero no hay tiempo validado: nevera y, para más tiempo, congelar en porciones.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-salsa-xo",
+   "tab": "conservas",
+   "name": "Salsa XO",
+   "group": "Conservas saladas",
+   "cat": "Pastas, condimentos y salsas / Condimentos en aceite",
+   "local": "",
+   "diet": "carne",
+   "tag": "China / Hong Kong",
+   "yield": "2 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Vieira seca"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Gamba seca"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Jamón curado graso en dados finos"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Chalota picada"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Ajo picado"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Guindilla roja fresca picada"
+      },
+      {
+       "q": "300",
+       "u": "ml",
+       "n": "Aceite de cacahuete"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Salsa de ostras"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Azúcar moreno"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Vino de Shaoxing"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar vieiras y gambas en agua caliente 1 h (o una noche). Escurrir, reservar el agua y desmigar.",
+      "Freír en el aceite a fuego medio la chalota y el ajo hasta dorar.",
+      "Añadir el jamón, las vieiras, las gambas y la guindilla y freír 10–15 min, removiendo, hasta que se tuesten.",
+      "Añadir el vino, la salsa de ostras, el azúcar y 3 cda del agua de remojo.",
+      "Cocer a fuego bajo hasta que el líquido desaparezca y el aceite quede limpio.",
+      "Llenar tarros y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Creada en Hong Kong en los años 80 (se atribuye al restaurante del hotel Peninsula). Las guías oficiales (Oregon State University) piden 4 días en nevera para aceites con ajo o hierbas frescas, o congelar. No hay método casero validado de larga duración: nevera y, para más tiempo, congelar.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-pasta-de-curry-rojo",
+   "tab": "conservas",
+   "name": "Pasta de curry rojo",
+   "group": "Conservas saladas",
+   "cat": "Pastas, condimentos y salsas / Pastas de chile y especias",
+   "local": "",
+   "diet": "pescado",
+   "tag": "Tailandia",
+   "yield": "1 tarro de 200 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "15",
+       "u": "ud.",
+       "n": "Guindilla roja seca larga"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Semilla de cilantro"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Comino en grano"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Pimienta blanca en grano"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Tallo de hierba limón (la parte tierna)"
+      },
+      {
+       "q": "2",
+       "u": "cm",
+       "n": "Galanga"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Piel de lima kaffir rallada"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Raíz de cilantro"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Chalota"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pasta de gambas (kapi)"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Quitar semillas a las guindillas y remojarlas 15 min en agua caliente.",
+      "Tostar cilantro, comino y pimienta en seco y molerlos.",
+      "Picar finos la hierba limón, la galanga, la raíz de cilantro, las chalotas y el ajo.",
+      "Machacar en mortero empezando por lo más duro (guindilla con sal, hierba limón, galanga) y terminando por lo más blando, hasta una pasta lisa. O triturar con un poco de agua.",
+      "Incorporar la pasta de gambas y las especias molidas."
+     ]
+    }
+   ],
+   "notes": "Nam prik gaeng phet. En nevera, en tarro cubierto de una capa de aceite, 1–2 semanas; congelada en cubitos, 3 meses.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-garbanzos-en-conserva",
+   "tab": "conservas",
+   "name": "Garbanzos en conserva",
+   "group": "Conservas saladas",
+   "cat": "Al natural, en su jugo o en salsa / Legumbres",
+   "local": "",
+   "diet": "vegano",
+   "tag": "",
+   "yield": "4 tarros de 1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1,3",
+       "u": "kg",
+       "n": "Garbanzo seco"
+      },
+      {
+       "q": "4",
+       "u": "cdta",
+       "n": "Sal (opcional, 1 por tarro)"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua de cocción (aprox.)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar los garbanzos y remojarlos 12–18 h en agua fría abundante. Escurrir.",
+      "Cubrirlos con agua nueva, hervir 30 min y salar los tarros si se quiere.",
+      "Llenar tarros calientes con los garbanzos y cubrir con el agua de cocción hirviendo, dejando 2,5 cm libres.",
+      "Quitar burbujas, limpiar bordes y cerrar.",
+      "Procesar en olla a presión de conservas 90 min (tarros de 1 l) o 75 min (500 ml) a 10 psi (manómetro de peso) u 11 psi (aguja).",
+      "Dejar bajar la presión sola antes de abrir."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA), «Beans or peas – shelled, dried». Requiere olla a presión de conservas con manómetro (autoclave doméstico): el baño maría y las ollas exprés normales no están validados para alimentos poco ácidos (riesgo de botulismo). Tiempos para 0–300 m; a más altura, subir la presión según la fuente. Vale para alubias y otras legumbres secas.",
+   "done": false
+  }
+ ]
+}

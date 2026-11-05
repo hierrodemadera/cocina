@@ -1,0 +1,88 @@
+{
+ "recipes": [
+  {
+   "id": "r-recetas-bizcocho-chiffon-en-arrocera",
+   "tab": "recetas",
+   "name": "Bizcocho chiffon en arrocera",
+   "group": "Dulce",
+   "cat": "",
+   "local": "",
+   "diet": "vegetariano",
+   "freq": "ocasional",
+   "tag": "China",
+   "yield": "8 pax",
+   "parts": [
+    {
+     "name": "En arrocera",
+     "ings": [
+      {
+       "q": "7",
+       "u": "ud.",
+       "n": "Huevo (claras y yemas por separado)"
+      },
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Leche entera"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Aceite de maíz o de girasol"
+      },
+      {
+       "q": "110",
+       "u": "g",
+       "n": "Harina floja (de repostería)"
+      },
+      {
+       "q": "55",
+       "u": "g",
+       "n": "Azúcar (en dos mitades)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Zumo de limón o vinagre blanco (unas gotas)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite para engrasar"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Separar las claras y las yemas en dos boles limpios y secos, sin rastro de grasa.",
+      "Mezclar las yemas con la leche y el aceite con unas varillas.",
+      "Tamizar la harina sobre la mezcla y batir en zigzag hasta que quede lisa y sin grumos (si queda muy espesa, un poco más de leche; si queda muy líquida, un poco más de harina).",
+      "Pintar el fondo de la cubeta de la arrocera con aceite y precalentarla unos minutos.",
+      "Montar las claras con unas gotas de limón y la mitad del azúcar hasta que espumen.",
+      "Añadir el resto del azúcar y seguir batiendo hasta tener picos firmes y erguidos.",
+      "Incorporar un tercio de las claras a la mezcla de yemas con movimientos envolventes, de abajo arriba.",
+      "Verter esa mezcla sobre el resto de las claras y envolver hasta que quede homogénea.",
+      "Echar la masa en la cubeta y dar unos golpes suaves contra la encimera para sacar el aire.",
+      "Cocer con el programa normal unos 29 min (35 min en invierno o si la cocina está fría).",
+      "Dejar reposar 10 min con la tapa cerrada.",
+      "Desmoldar dándole la vuelta."
+     ]
+    },
+    {
+     "name": "Variante en horno",
+     "ings": [],
+     "steps": [
+      "Precalentar el horno a 160 °C con calor arriba y abajo, sin ventilador.",
+      "Preparar la masa igual que en la arrocera (separar, mezclar las yemas, montar las claras y envolver).",
+      "Verter la masa en un molde de chimenea (de chiffon) de 22 cm o en uno desmontable de 20–22 cm, sin engrasar los lados; la base puede llevar papel.",
+      "Dar unos golpes suaves contra la encimera y pasar una brocheta en zigzag por la masa para romper las burbujas grandes.",
+      "Hornear en la parte baja del horno a 150–160 °C durante 50–60 min (algo más en molde desmontable), sin abrir la puerta los primeros 40 min, hasta que esté dorado y un palillo salga limpio.",
+      "Al sacarlo, darle un golpe seco contra la encimera y enfriarlo boca abajo al menos 1 h (el de chimenea, apoyado en una botella).",
+      "Desmoldar pasando un cuchillo fino por los bordes."
+     ]
+    }
+   ],
+   "notes": "Bizcocho de arrocera, muy popular en China (电饭煲蛋糕). Técnica chiffon: el aceite da la miga húmeda y las claras, la altura; si las claras tienen restos de yema o el bol tiene grasa, no montan. Pensado para una arrocera de 5 l: los tiempos cambian según el modelo; está hecho cuando un palillo sale limpio. Poco dulce, al estilo asiático. Una olla lenta (crock pot) no sirve: calienta demasiado despacio y el bizcocho se baja. La variante en horno es la forma clásica del chiffon (pauta general, no viene de la receta original): los lados sin engrasar dejan que la masa trepe por el molde, y enfriarlo boca abajo evita que se hunda.",
+   "done": false
+  }
+ ]
+}

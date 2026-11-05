@@ -1,0 +1,144 @@
+{
+ "recipes": [
+  {
+   "id": "r-recetas-cuscus-con-verduras",
+   "tab": "recetas",
+   "name": "Cuscús con verduras",
+   "group": "Salado",
+   "cat": "Pastas alimenticias",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "Marruecos",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Verduras",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Nabo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Calabacín"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Calabaza"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Col pequeña (¼)"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Tomate"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Garbanzo cocido"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Ras el hanout"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Jengibre molido"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Cúrcuma"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Azafrán"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Cilantro y perejil (manojo atado)"
+      },
+      {
+       "q": "1,5",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pimienta negra"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar las verduras en trozos grandes; la cebolla y el tomate en dados.",
+      "Rehogar la cebolla y el tomate en el aceite con las especias 5 min.",
+      "Añadir el agua, el manojo de hierbas, la zanahoria y el nabo; cocer 20 min.",
+      "Añadir la col y la calabaza y cocer 10 min; añadir el calabacín y los garbanzos y cocer 10 min más.",
+      "Rectificar de sal y pimienta."
+     ]
+    },
+    {
+     "name": "Sémola",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Sémola de cuscús de grano medio"
+      },
+      {
+       "q": "400",
+       "u": "ml",
+       "n": "Caldo de las verduras o agua caliente"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Aceite de oliva o smen"
+      }
+     ],
+     "steps": [
+      "Mezclar la sémola con el aceite y una pizca de sal frotando con las manos.",
+      "Mojar con el caldo caliente, tapar y dejar hidratar 5 min.",
+      "Desgranar con un tenedor; idealmente, cocerla al vapor sobre las verduras 10 min (cuscusera) y desgranar otra vez.",
+      "Servir la sémola en montaña con las verduras encima y caldo aparte."
+     ]
+    }
+   ],
+   "notes": "Cuscús de los siete vegetales (seksu bi sebaa khodar), plato del viernes en Marruecos. Sirve también con garbanzo y pasas caramelizadas (tfaya).",
+   "done": false
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "recipes": [
+  {
+   "id": "r-recetas-ratatouille",
+   "tab": "recetas",
+   "name": "Ratatouille",
+   "group": "Salado",
+   "cat": "Hortalizas",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "Francia / Provenza",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Berenjena"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Calabacín"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento rojo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento amarillo o verde"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Bouquet garni (tomillo, laurel, romero)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Albahaca fresca"
+      },
+      {
+       "q": "80",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pimienta negra"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar la berenjena, el calabacín, los pimientos y la cebolla en dados de 2 cm; picar el ajo.",
+      "Escaldar, pelar y despepitar el tomate; cortarlo en dados.",
+      "Saltear por separado, con un poco de aceite cada vez, la berenjena, el calabacín y los pimientos hasta que se doren; reservar.",
+      "Pochar la cebolla en la misma cazuela 10 min; añadir el ajo y el tomate y cocinar 10 min.",
+      "Incorporar las verduras salteadas y el bouquet garni; tapar y cocer a fuego suave 30–40 min.",
+      "Retirar el bouquet, rectificar de sal y pimienta y terminar con albahaca."
+     ]
+    }
+   ],
+   "notes": "Plato de Niza. Saltear cada verdura por separado es lo que mantiene su sabor y textura. Mejor de un día para otro; se come caliente, templado o frío.",
+   "done": false
+  }
+ ]
+}

@@ -1,0 +1,965 @@
+{
+ "recipes": [
+  {
+   "id": "r-productos-aceite-de-ajo",
+   "tab": "productos",
+   "name": "Aceite de ajo",
+   "group": "Aceites, vinagres, extractos y bebidas",
+   "cat": "Aceites aromatizados",
+   "local": "",
+   "diet": "vegano",
+   "tag": "",
+   "yield": "500 ml",
+   "parts": [
+    {
+     "name": "Acidificar el ajo",
+     "ings": [
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Ajo pelado, picado en trozos de 6 mm como máximo"
+      },
+      {
+       "q": "300",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "9",
+       "u": "g",
+       "n": "Ácido cítrico"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Disolver el ácido cítrico en el agua (solución al 3 %).",
+      "Cubrir el ajo con la solución (1 parte de ajo por 3 de solución, en peso) y ponerle un peso para que quede sumergido.",
+      "Dejar 24 h a temperatura ambiente.",
+      "Escurrir y desechar la solución."
+     ]
+    },
+    {
+     "name": "Aceite",
+     "ings": [
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      }
+     ],
+     "steps": [
+      "Poner el ajo acidificado en una botella limpia y cubrir con el aceite.",
+      "Infusionar 1 semana en nevera y colar."
+     ]
+    }
+   ],
+   "notes": "Método de acidificación con ácido cítrico de las extensiones universitarias de EE. UU. (Clemson, Penn State, Washington State/PNW664): es el único probado; no sirven limón ni vinagre, y no se puede acortar el remojo. Así aguanta mucho más: mejor en nevera por calidad. Sin acidificar (ajo crudo en aceite, sin más), solo 4 días en nevera o congelar: riesgo de botulismo.",
+   "done": false
+  },
+  {
+   "id": "r-productos-aceite-de-romero",
+   "tab": "productos",
+   "name": "Aceite de romero",
+   "group": "Aceites, vinagres, extractos y bebidas",
+   "cat": "Aceites aromatizados",
+   "local": "",
+   "diet": "vegano",
+   "tag": "",
+   "yield": "500 ml",
+   "parts": [
+    {
+     "name": "Acidificar el romero",
+     "ings": [
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Romero fresco (ramas con hojas)"
+      },
+      {
+       "q": "300",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "9",
+       "u": "g",
+       "n": "Ácido cítrico"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Disolver el ácido cítrico en el agua (3 %).",
+      "Sumergir el romero (1 parte por 10 de solución, en peso) con un peso encima.",
+      "Dejar 24 h a temperatura ambiente.",
+      "Escurrir y secar con papel."
+     ]
+    },
+    {
+     "name": "Aceite",
+     "ings": [
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      }
+     ],
+     "steps": [
+      "Poner el romero en una botella limpia y cubrir con el aceite.",
+      "Infusionar 1–2 semanas en nevera y colar."
+     ]
+    }
+   ],
+   "notes": "Método de acidificación con ácido cítrico de las extensiones universitarias de EE. UU. (Clemson, Penn State, Washington State/PNW664): es el único probado; no sirven limón ni vinagre, y no se puede acortar el remojo. Vale igual para albahaca y orégano frescos; no para otras hierbas.",
+   "done": false
+  },
+  {
+   "id": "r-productos-aceite-verde-de-albahaca",
+   "tab": "productos",
+   "name": "Aceite verde de albahaca",
+   "group": "Aceites, vinagres, extractos y bebidas",
+   "cat": "Aceites aromatizados",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Italia",
+   "yield": "200 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Hojas de albahaca"
+      },
+      {
+       "q": "200",
+       "u": "ml",
+       "n": "Aceite de oliva suave (o de girasol)"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua con hielo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Escaldar las hojas 10 s en agua hirviendo y pasar enseguida al agua con hielo.",
+      "Escurrir y secar muy bien apretando en un paño.",
+      "Triturar con el aceite 2 min, hasta que esté templado y muy verde.",
+      "Colar por un paño o filtro de café sin apretar, en nevera.",
+      "Guardar en un bote de plástico con dosificador."
+     ]
+    }
+   ],
+   "notes": "Aceite de acabado, para dar color y aroma. Hierba fresca en aceite: 4 días en nevera (Oregon State) o congelar en cubitos.",
+   "done": false
+  },
+  {
+   "id": "r-productos-aceite-de-guindilla",
+   "tab": "productos",
+   "name": "Aceite de guindilla",
+   "group": "Aceites, vinagres, extractos y bebidas",
+   "cat": "Aceites aromatizados",
+   "local": "",
+   "diet": "vegano",
+   "tag": "",
+   "yield": "250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Aceite de oliva o girasol"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Guindilla seca en escamas"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimienta de Sichuan (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Poner las escamas en un bote resistente al calor.",
+      "Calentar el aceite (con la pimienta de Sichuan, si se usa) a 120 ºC.",
+      "Verterlo sobre la guindilla.",
+      "Enfriar y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Con guindilla seca, sin ajo. Las guías no coinciden: Oregon State pide 4 días en nevera también con ingredientes secos, mientras que Penn State da hasta 3 meses en nevera para hierbas secas. Lo prudente es hacer poco y guardarlo en nevera.",
+   "done": false
+  },
+  {
+   "id": "r-productos-vinagre-de-frambuesa",
+   "tab": "productos",
+   "name": "Vinagre de frambuesa",
+   "group": "Aceites, vinagres, extractos y bebidas",
+   "cat": "Vinagres aromatizados",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Francia",
+   "yield": "750 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Frambuesa (2 tazas)"
+      },
+      {
+       "q": "700",
+       "u": "ml",
+       "n": "Vinagre de vino blanco o de sidra (5 % acidez)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar las frambuesas, escurrirlas y chafarlas un poco en un tarro esterilizado.",
+      "Calentar el vinagre a 88–90 ºC, sin que hierva.",
+      "Verterlo sobre la fruta dejando 6 mm libres y cerrar.",
+      "Macerar 3–4 semanas en lugar fresco y oscuro, probando de vez en cuando.",
+      "Colar por un filtro de café o una gasa húmeda y embotellar en botellas esterilizadas."
+     ]
+    }
+   ],
+   "notes": "Fuente: University of Maine Cooperative Extension, «Let's Preserve: Herbal Vinegar» (2 tazas de frambuesa por 3 de vinagre). En nevera, 3 meses; para guardar en despensa, esterilizar botes de 500 ml 10 min al baño maría.",
+   "done": false
+  },
+  {
+   "id": "r-productos-vinagre-de-estragon",
+   "tab": "productos",
+   "name": "Vinagre de estragón",
+   "group": "Aceites, vinagres, extractos y bebidas",
+   "cat": "Vinagres aromatizados",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Francia",
+   "yield": "500 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Rama de estragón fresco"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Vinagre de vino blanco (5 % acidez)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar el estragón, secarlo y meter las ramas en una botella esterilizada.",
+      "Calentar el vinagre a 88–90 ºC, sin que hierva, y verterlo dejando 6 mm libres.",
+      "Cerrar y macerar 3–4 semanas en lugar fresco y oscuro.",
+      "Colar y embotellar de nuevo con una rama fresca si se quiere."
+     ]
+    }
+   ],
+   "notes": "Fuente: University of Maine Cooperative Extension: 2–3 ramas por cada 500 ml, o 3 cda de hierba seca. El de la salsa bearnesa. En nevera, 3 meses; o esterilizar 10 min al baño maría.",
+   "done": false
+  },
+  {
+   "id": "r-productos-extracto-de-vainilla",
+   "tab": "productos",
+   "name": "Extracto de vainilla",
+   "group": "Aceites, vinagres, extractos y bebidas",
+   "cat": "Preparaciones en alcohol / Extractos",
+   "local": "",
+   "diet": "vegano",
+   "tag": "",
+   "yield": "250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "25",
+       "u": "g",
+       "n": "Vaina de vainilla (5–6 vainas)"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Vodka o ron blanco (40 % alcohol)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Abrir las vainas a lo largo y cortarlas en trozos.",
+      "Meterlas en una botella de cristal y cubrir con el alcohol.",
+      "Cerrar y guardar en lugar oscuro, agitando una vez por semana.",
+      "Esperar al menos 2 meses (mejor 6) antes de usar.",
+      "Ir rellenando con alcohol a medida que se gasta."
+     ]
+    }
+   ],
+   "notes": "Proporción similar a la que fija la norma estadounidense (FDA) para el extracto «de un pliegue»: unos 100 g de vainilla por litro. Dura años.",
+   "done": false
+  },
+  {
+   "id": "r-productos-masala-chai",
+   "tab": "productos",
+   "name": "Masala chai",
+   "group": "Aceites, vinagres, extractos y bebidas",
+   "cat": "Bebidas a base de leche",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "India",
+   "yield": "4 tazas",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Leche entera"
+      },
+      {
+       "q": "4",
+       "u": "cdta",
+       "n": "Té negro en hebras (assam)"
+      },
+      {
+       "q": "3",
+       "u": "cm",
+       "n": "Jengibre fresco machacado"
+      },
+      {
+       "q": "5",
+       "u": "ud.",
+       "n": "Cardamomo verde abierto"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Clavo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Pimienta negra en grano"
+      },
+      {
+       "q": "3",
+       "u": "cda",
+       "n": "Azúcar"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Machacar ligeramente el cardamomo, el clavo y la pimienta.",
+      "Hervir el agua con las especias y el jengibre 5 min.",
+      "Añadir el té y hervir 2 min.",
+      "Añadir la leche y el azúcar y llevar a ebullición; dejar que suba dos veces.",
+      "Colar y servir."
+     ]
+    }
+   ],
+   "notes": "Cada casa y cada puesto de chaiwala tiene su mezcla.",
+   "done": false
+  },
+  {
+   "id": "r-productos-te-moruno",
+   "tab": "productos",
+   "name": "Té moruno",
+   "group": "Aceites, vinagres, extractos y bebidas",
+   "cat": "Bebidas a base de agua / Té",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Marruecos",
+   "yield": "1 tetera (6 vasos)",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Té verde gunpowder"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Manojo grande de hierbabuena"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "750",
+       "u": "ml",
+       "n": "Agua hirviendo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Poner el té en la tetera, añadir un vaso de agua hirviendo, mover y tirar el agua (lava el té y quita amargor).",
+      "Añadir la hierbabuena, el azúcar y el resto del agua.",
+      "Dejar 3–5 min al fuego mínimo sin que hierva.",
+      "Servir un vaso y devolverlo a la tetera dos o tres veces para mezclar.",
+      "Servir desde lo alto para que haga espuma."
+     ]
+    }
+   ],
+   "notes": "Ataï. Parte de su ceremonia de hospitalidad.",
+   "done": false
+  },
+  {
+   "id": "r-productos-agua-de-jamaica",
+   "tab": "productos",
+   "name": "Agua de jamaica",
+   "group": "Aceites, vinagres, extractos y bebidas",
+   "cat": "Bebidas a base de agua / Otras infusiones",
+   "local": "",
+   "diet": "vegano",
+   "tag": "México",
+   "yield": "2 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Flor de jamaica (hibisco) seca"
+      },
+      {
+       "q": "2",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "120",
+       "u": "g",
+       "n": "Azúcar"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Enjuagar la flor.",
+      "Hervir en 500 ml de agua 5 min y dejar reposar 15 min.",
+      "Colar apretando.",
+      "Añadir el azúcar, disolver y completar con el resto del agua fría.",
+      "Servir con hielo."
+     ]
+    }
+   ],
+   "notes": "Una de las «aguas frescas» mexicanas. La flor se puede hervir una segunda vez. En nevera, 3–4 días.",
+   "done": false
+  },
+  {
+   "id": "r-productos-cafe-de-olla",
+   "tab": "productos",
+   "name": "Café de olla",
+   "group": "Aceites, vinagres, extractos y bebidas",
+   "cat": "Bebidas a base de agua / Café",
+   "local": "",
+   "diet": "vegano",
+   "tag": "México",
+   "yield": "4 tazas",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Piloncillo (o panela)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "4",
+       "u": "cda",
+       "n": "Café molido grueso"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Clavo (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hervir el agua con el piloncillo, la canela y el clavo hasta que se disuelva.",
+      "Apagar, añadir el café y remover.",
+      "Tapar y dejar reposar 5 min.",
+      "Colar y servir."
+     ]
+    }
+   ],
+   "notes": "Tradicionalmente en olla de barro, que le da sabor.",
+   "done": false
+  },
+  {
+   "id": "r-productos-mate",
+   "tab": "productos",
+   "name": "Mate",
+   "group": "Aceites, vinagres, extractos y bebidas",
+   "cat": "Bebidas a base de agua / Otras infusiones",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Argentina",
+   "yield": "1 mate",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Yerba mate (hasta ⅔ del recipiente)"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Agua a 70–80 ºC (en termo)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Llenar el mate con yerba hasta ⅔.",
+      "Taparlo con la mano, invertirlo y agitar para que el polvo suba; volver a ponerlo inclinado para que la yerba quede en montaña a un lado.",
+      "Echar un chorrito de agua tibia en el hueco y dejar que la absorba.",
+      "Meter la bombilla en el hueco, tapando la boca con el dedo, hasta el fondo.",
+      "Cebar con agua a 70–80 ºC, siempre en el mismo sitio.",
+      "Ir cebando y pasando: quien ceba da el mate y lo recibe vacío."
+     ]
+    }
+   ],
+   "notes": "El agua hirviendo quema la yerba y amarga («lava» el mate). Igual de propio de Uruguay, Paraguay y el sur de Brasil.",
+   "done": false
+  },
+  {
+   "id": "r-productos-leche-dorada",
+   "tab": "productos",
+   "name": "Leche dorada",
+   "group": "Aceites, vinagres, extractos y bebidas",
+   "cat": "Bebidas a base de leche",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "India",
+   "yield": "2 tazas",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Leche (o bebida vegetal)"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Cúrcuma molida"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Canela molida"
+      },
+      {
+       "q": "1",
+       "u": "cm",
+       "n": "Jengibre fresco rallado"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Pimienta negra"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Miel"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar la leche con la cúrcuma, la canela, el jengibre y la pimienta, batiendo.",
+      "Cocer a fuego suave 5 min, sin que hierva fuerte.",
+      "Colar, endulzar con la miel fuera del fuego y servir."
+     ]
+    }
+   ],
+   "notes": "Haldi doodh, bebida casera tradicional de la India.",
+   "done": false
+  },
+  {
+   "id": "r-productos-mugicha-te-de-cebada",
+   "tab": "productos",
+   "name": "Mugicha (té de cebada)",
+   "group": "Aceites, vinagres, extractos y bebidas",
+   "cat": "Bebidas a base de agua / Otras infusiones",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Japón",
+   "yield": "1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Cebada tostada en grano"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua fría"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Meter la cebada en una jarra con el agua fría (o en bolsita).",
+      "Dejar en nevera 2–3 h.",
+      "Colar y servir muy frío."
+     ]
+    }
+   ],
+   "notes": "El té frío del verano japonés; no lleva cafeína. También se hierve 5 min y se enfría. En nevera, 2 días.",
+   "done": false
+  },
+  {
+   "id": "r-productos-matcha",
+   "tab": "productos",
+   "name": "Matcha",
+   "group": "Aceites, vinagres, extractos y bebidas",
+   "cat": "Bebidas a base de agua / Té",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Japón",
+   "yield": "1 cuenco",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "g",
+       "n": "Matcha (2 cucharillas chashaku)"
+      },
+      {
+       "q": "70",
+       "u": "ml",
+       "n": "Agua a 80 ºC"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar el cuenco con agua caliente, tirarla y secarlo.",
+      "Tamizar el matcha en el cuenco.",
+      "Añadir un poco del agua y deshacer con el batidor (chasen) hasta tener una pasta.",
+      "Añadir el resto del agua y batir rápido en zigzag («M» o «W»), sin tocar el fondo, 15–20 s, hasta tener espuma fina.",
+      "Tomar enseguida."
+     ]
+    }
+   ],
+   "notes": "Usucha (ligero). El koicha (espeso) lleva el doble de matcha y la mitad de agua y se amasa sin espuma.",
+   "done": false
+  },
+  {
+   "id": "r-productos-cold-brew",
+   "tab": "productos",
+   "name": "Cold brew",
+   "group": "Aceites, vinagres, extractos y bebidas",
+   "cat": "Bebidas a base de agua / Café",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Estados Unidos",
+   "yield": "1 l de concentrado",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "125",
+       "u": "g",
+       "n": "Café molido grueso"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua fría"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar el café y el agua en una jarra, asegurando que todo el café se moja.",
+      "Tapar y dejar 12–18 h en nevera.",
+      "Colar por un colador fino y después por filtro de papel.",
+      "Servir mezclado a partes iguales con agua o leche y hielo."
+     ]
+    }
+   ],
+   "notes": "Proporción 1:8 para concentrado. Menos ácido que el café caliente. En nevera, 1 semana.",
+   "done": false
+  },
+  {
+   "id": "r-productos-cordial-de-flor-de-sauco",
+   "tab": "productos",
+   "name": "Cordial de flor de saúco",
+   "group": "Aceites, vinagres, extractos y bebidas",
+   "cat": "Jarabes y cordiales",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Reino Unido",
+   "yield": "1,5 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "20",
+       "u": "ud.",
+       "n": "Umbela de flor de saúco"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Azúcar"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Limón (ralladura y rodajas)"
+      },
+      {
+       "q": "25",
+       "u": "g",
+       "n": "Ácido cítrico"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Sacudir las flores (no lavarlas) y quitar los tallos gruesos.",
+      "Hervir el agua con el azúcar hasta disolverlo.",
+      "Añadir el ácido cítrico, la ralladura, las rodajas de limón y las flores.",
+      "Tapar y dejar macerar 24–48 h en lugar fresco.",
+      "Colar por un paño y embotellar en botellas esterilizadas.",
+      "Diluir 1 parte por 5–10 de agua o agua con gas."
+     ]
+    }
+   ],
+   "notes": "Las flores se cogen en mayo-junio, recién abiertas y en día seco. Solo la flor y la baya madura cocida son comestibles; tallos y hojas son tóxicos. En nevera, 1 mes; se congela en cubitos.",
+   "done": false
+  },
+  {
+   "id": "r-productos-limoncello",
+   "tab": "productos",
+   "name": "Limoncello",
+   "group": "Aceites, vinagres, extractos y bebidas",
+   "cat": "Preparaciones en alcohol / Licores y macerados",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Italia / Campania",
+   "yield": "1,2 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "8",
+       "u": "ud.",
+       "n": "Limón sin tratar (solo la piel amarilla)"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Alcohol de uso alimentario (95–96 %)"
+      },
+      {
+       "q": "600",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Azúcar"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Pelar los limones solo la parte amarilla, sin nada de blanco.",
+      "Macerar las pieles en el alcohol 7–10 días, en lugar oscuro, agitando a diario.",
+      "Hervir el agua con el azúcar hasta disolverlo y enfriar.",
+      "Colar el alcohol y mezclarlo con el almíbar frío.",
+      "Embotellar y reposar 1–2 semanas antes de tomar.",
+      "Servir helado, del congelador."
+     ]
+    }
+   ],
+   "notes": "Típico de la costa amalfitana y Sorrento, con el limón de Sorrento (IGP). Usar alcohol etiquetado para uso alimentario, nunca el de farmacia.",
+   "done": false
+  },
+  {
+   "id": "r-productos-pacharan",
+   "tab": "productos",
+   "name": "Pacharán",
+   "group": "Aceites, vinagres, extractos y bebidas",
+   "cat": "Preparaciones en alcohol / Licores y macerados",
+   "local": "",
+   "diet": "vegano",
+   "tag": "España / Navarra",
+   "yield": "1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Endrina madura"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Anís (40 % alcohol)"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Grano de café (opcional)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar y secar las endrinas y quitarles el rabito. Pincharlas o no, según se quiera más rápido.",
+      "Meterlas en una botella de boca ancha con el café y la canela.",
+      "Cubrir con el anís y cerrar.",
+      "Macerar 3–6 meses en lugar oscuro, agitando de vez en cuando, hasta que tome color rojo intenso.",
+      "Colar y embotellar."
+     ]
+    }
+   ],
+   "notes": "La IG Pacharán Navarro exige entre 125 y 250 g de endrinas por litro y maceración en anís. Las endrinas se recogen en otoño, tras las primeras heladas.",
+   "done": false
+  },
+  {
+   "id": "r-productos-herbero",
+   "tab": "productos",
+   "name": "Herbero",
+   "group": "Aceites, vinagres, extractos y bebidas",
+   "cat": "Preparaciones en alcohol / Licores y macerados",
+   "local": "",
+   "diet": "vegano",
+   "tag": "España / Comunidad Valenciana",
+   "yield": "1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Anís seco (o mitad seco, mitad dulce)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de manzanilla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de té de roca"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de poleo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de hierbaluisa"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de salvia"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de tomillo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de rabo de gato"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de hinojo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de romero"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Recoger o comprar las hierbas secas y limpias.",
+      "Meterlas en una botella de boca ancha.",
+      "Cubrir con el anís y cerrar.",
+      "Macerar 1–2 meses en lugar oscuro, agitando de vez en cuando.",
+      "Colar si se quiere un sabor estable, o dejarlas dentro (se va haciendo más intenso)."
+     ]
+    }
+   ],
+   "notes": "Licor de hierbas de la Sierra de Mariola, con indicación geográfica «Herbero de la Sierra de Mariola». Cada familia tiene su mezcla (las tradicionales llevan hasta veinte hierbas). Recolectar solo hierbas que se conozcan bien.",
+   "done": false
+  }
+ ]
+}

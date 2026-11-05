@@ -1,0 +1,95 @@
+{
+ "recipes": [
+  {
+   "id": "r-recetas-shakshuka",
+   "tab": "recetas",
+   "name": "Shakshuka",
+   "group": "Salado",
+   "cat": "Huevos",
+   "local": "",
+   "diet": "vegetariano",
+   "freq": "semanal",
+   "tag": "Túnez",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Pimiento rojo"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Guindilla o harissa al gusto"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "800",
+       "u": "g",
+       "n": "Tomate maduro o triturado"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Comino molido"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "40",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pimienta negra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Cilantro o perejil"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar la cebolla y los pimientos en juliana; picar el ajo.",
+      "Pochar la cebolla y el pimiento en el aceite en una sartén amplia 10 min.",
+      "Añadir el ajo, el comino, el pimentón y la guindilla y rehogar 1 min.",
+      "Incorporar el tomate y cocinar 15 min a fuego suave hasta que espese; salpimentar.",
+      "Hacer huecos en la salsa y cascar los huevos.",
+      "Tapar y cocinar 5–8 min a fuego suave, hasta que la clara esté cuajada y la yema líquida.",
+      "Terminar con las hierbas y servir en la sartén con pan."
+     ]
+    }
+   ],
+   "notes": "Plato del Magreb (Túnez y Libia), muy extendido en Israel y todo Oriente Medio. Con feta desmenuzado por encima es una versión frecuente.",
+   "done": false
+  }
+ ]
+}

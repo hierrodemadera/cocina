@@ -1,0 +1,88 @@
+{
+ "recipes": [
+  {
+   "id": "r-recetas-ensalada-griega",
+   "tab": "recetas",
+   "name": "Ensalada griega",
+   "group": "Salado",
+   "cat": "Ensaladas",
+   "local": "",
+   "diet": "vegetariano",
+   "freq": "semanal",
+   "tag": "Grecia",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pepino"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla morada"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Queso feta en bloque"
+      },
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Aceituna kalamata"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Alcaparra (opcional)"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Orégano seco"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "15",
+       "u": "ml",
+       "n": "Vinagre de vino tinto"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar el tomate en gajos, el pepino en medias lunas gruesas, la cebolla en aros finos y el pimiento en aros.",
+      "Disponer las verduras en una fuente con las aceitunas y las alcaparras.",
+      "Aliñar con sal, vinagre y la mitad del aceite.",
+      "Colocar el bloque de feta entero encima.",
+      "Terminar con el orégano y el resto del aceite."
+     ]
+    }
+   ],
+   "notes": "Horiatiki («ensalada de pueblo»): no lleva lechuga y el feta va en bloque, no desmenuzado.",
+   "done": false
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "recipes": [
+  {
+   "id": "r-recetas-guacamole",
+   "tab": "recetas",
+   "name": "Guacamole",
+   "group": "Salado",
+   "cat": "Entremeses y aperitivos / Fríos",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "México",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Aguacate Hass maduro (unos 450 g de pulpa)"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Cebolla blanca picada fina"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Chile serrano (o 2, al gusto)"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Cilantro fresco picado"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Tomate (jitomate) maduro, opcional"
+      },
+      {
+       "q": "0,5",
+       "u": "ud.",
+       "n": "Lima"
+      },
+      {
+       "q": "4",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Totopos de maíz (para acompañar)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Quitar las semillas y las venas al chile si se quiere menos picante y picarlo fino.",
+      "Majar en el molcajete (o un mortero) la mitad de la cebolla, el chile, la mitad del cilantro y la sal hasta tener una pasta.",
+      "Partir los aguacates, quitar el hueso y sacar la pulpa con una cuchara.",
+      "Añadir el aguacate al molcajete y machacarlo con el majado, dejando algún trozo.",
+      "Quitar las semillas al tomate, picarlo en dados pequeños y mezclarlo, si se usa.",
+      "Incorporar el resto de la cebolla y el cilantro y unas gotas de lima.",
+      "Rectificar de sal y lima y servir enseguida con totopos."
+     ]
+    }
+   ],
+   "notes": "Majar primero cebolla, chile, cilantro y sal suelta los aceites y reparte el sabor. La lima es opcional en la receta tradicional: con poca basta. Se oxida en poco tiempo: si hay que guardarlo, cubrir con film en contacto y consumir en el día.",
+   "done": false
+  }
+ ]
+}

@@ -1,0 +1,1666 @@
+{
+ "id": "e-guisos-de-albondigas",
+ "name": "Guisos de albóndigas",
+ "desc": "Albóndigas guisadas en salsa o en caldo, por zonas: España, resto de Europa, Mediterráneo oriental, Magreb, Asia y América.",
+ "board": {
+  "items": [
+   {
+    "id": "l005",
+    "t": "line",
+    "a": {
+     "id": "c003",
+     "side": "r"
+    },
+    "b": {
+     "id": "c004",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l007",
+    "t": "line",
+    "a": {
+     "id": "c003",
+     "side": "r"
+    },
+    "b": {
+     "id": "c006",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l009",
+    "t": "line",
+    "a": {
+     "id": "c003",
+     "side": "r"
+    },
+    "b": {
+     "id": "c008",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l011",
+    "t": "line",
+    "a": {
+     "id": "c003",
+     "side": "r"
+    },
+    "b": {
+     "id": "c010",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l012",
+    "t": "line",
+    "a": {
+     "id": "c002",
+     "side": "r"
+    },
+    "b": {
+     "id": "c003",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l015",
+    "t": "line",
+    "a": {
+     "id": "c013",
+     "side": "r"
+    },
+    "b": {
+     "id": "c014",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l017",
+    "t": "line",
+    "a": {
+     "id": "c013",
+     "side": "r"
+    },
+    "b": {
+     "id": "c016",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l018",
+    "t": "line",
+    "a": {
+     "id": "c002",
+     "side": "r"
+    },
+    "b": {
+     "id": "c013",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l021",
+    "t": "line",
+    "a": {
+     "id": "c019",
+     "side": "r"
+    },
+    "b": {
+     "id": "c020",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l023",
+    "t": "line",
+    "a": {
+     "id": "c019",
+     "side": "r"
+    },
+    "b": {
+     "id": "c022",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l024",
+    "t": "line",
+    "a": {
+     "id": "c002",
+     "side": "r"
+    },
+    "b": {
+     "id": "c019",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l027",
+    "t": "line",
+    "a": {
+     "id": "c025",
+     "side": "r"
+    },
+    "b": {
+     "id": "c026",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l029",
+    "t": "line",
+    "a": {
+     "id": "c025",
+     "side": "r"
+    },
+    "b": {
+     "id": "c028",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l031",
+    "t": "line",
+    "a": {
+     "id": "c025",
+     "side": "r"
+    },
+    "b": {
+     "id": "c030",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l032",
+    "t": "line",
+    "a": {
+     "id": "c002",
+     "side": "r"
+    },
+    "b": {
+     "id": "c025",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l033",
+    "t": "line",
+    "a": {
+     "id": "c001",
+     "side": "r"
+    },
+    "b": {
+     "id": "c002",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l036",
+    "t": "line",
+    "a": {
+     "id": "c034",
+     "side": "r"
+    },
+    "b": {
+     "id": "c035",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l038",
+    "t": "line",
+    "a": {
+     "id": "c034",
+     "side": "r"
+    },
+    "b": {
+     "id": "c037",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l040",
+    "t": "line",
+    "a": {
+     "id": "c034",
+     "side": "r"
+    },
+    "b": {
+     "id": "c039",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l042",
+    "t": "line",
+    "a": {
+     "id": "c034",
+     "side": "r"
+    },
+    "b": {
+     "id": "c041",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l044",
+    "t": "line",
+    "a": {
+     "id": "c034",
+     "side": "r"
+    },
+    "b": {
+     "id": "c043",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l046",
+    "t": "line",
+    "a": {
+     "id": "c034",
+     "side": "r"
+    },
+    "b": {
+     "id": "c045",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l047",
+    "t": "line",
+    "a": {
+     "id": "c001",
+     "side": "r"
+    },
+    "b": {
+     "id": "c034",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l051",
+    "t": "line",
+    "a": {
+     "id": "c049",
+     "side": "r"
+    },
+    "b": {
+     "id": "c050",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l053",
+    "t": "line",
+    "a": {
+     "id": "c049",
+     "side": "r"
+    },
+    "b": {
+     "id": "c052",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l055",
+    "t": "line",
+    "a": {
+     "id": "c049",
+     "side": "r"
+    },
+    "b": {
+     "id": "c054",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l057",
+    "t": "line",
+    "a": {
+     "id": "c049",
+     "side": "r"
+    },
+    "b": {
+     "id": "c056",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l058",
+    "t": "line",
+    "a": {
+     "id": "c048",
+     "side": "r"
+    },
+    "b": {
+     "id": "c049",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l061",
+    "t": "line",
+    "a": {
+     "id": "c059",
+     "side": "r"
+    },
+    "b": {
+     "id": "c060",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l063",
+    "t": "line",
+    "a": {
+     "id": "c059",
+     "side": "r"
+    },
+    "b": {
+     "id": "c062",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l065",
+    "t": "line",
+    "a": {
+     "id": "c059",
+     "side": "r"
+    },
+    "b": {
+     "id": "c064",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l066",
+    "t": "line",
+    "a": {
+     "id": "c048",
+     "side": "r"
+    },
+    "b": {
+     "id": "c059",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l069",
+    "t": "line",
+    "a": {
+     "id": "c067",
+     "side": "r"
+    },
+    "b": {
+     "id": "c068",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l071",
+    "t": "line",
+    "a": {
+     "id": "c067",
+     "side": "r"
+    },
+    "b": {
+     "id": "c070",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l072",
+    "t": "line",
+    "a": {
+     "id": "c048",
+     "side": "r"
+    },
+    "b": {
+     "id": "c067",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l073",
+    "t": "line",
+    "a": {
+     "id": "c001",
+     "side": "r"
+    },
+    "b": {
+     "id": "c048",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l076",
+    "t": "line",
+    "a": {
+     "id": "c074",
+     "side": "r"
+    },
+    "b": {
+     "id": "c075",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l078",
+    "t": "line",
+    "a": {
+     "id": "c074",
+     "side": "r"
+    },
+    "b": {
+     "id": "c077",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l080",
+    "t": "line",
+    "a": {
+     "id": "c074",
+     "side": "r"
+    },
+    "b": {
+     "id": "c079",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l081",
+    "t": "line",
+    "a": {
+     "id": "c001",
+     "side": "r"
+    },
+    "b": {
+     "id": "c074",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l085",
+    "t": "line",
+    "a": {
+     "id": "c083",
+     "side": "r"
+    },
+    "b": {
+     "id": "c084",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l087",
+    "t": "line",
+    "a": {
+     "id": "c083",
+     "side": "r"
+    },
+    "b": {
+     "id": "c086",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l089",
+    "t": "line",
+    "a": {
+     "id": "c083",
+     "side": "r"
+    },
+    "b": {
+     "id": "c088",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l090",
+    "t": "line",
+    "a": {
+     "id": "c082",
+     "side": "r"
+    },
+    "b": {
+     "id": "c083",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l093",
+    "t": "line",
+    "a": {
+     "id": "c091",
+     "side": "r"
+    },
+    "b": {
+     "id": "c092",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l095",
+    "t": "line",
+    "a": {
+     "id": "c091",
+     "side": "r"
+    },
+    "b": {
+     "id": "c094",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l097",
+    "t": "line",
+    "a": {
+     "id": "c091",
+     "side": "r"
+    },
+    "b": {
+     "id": "c096",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l098",
+    "t": "line",
+    "a": {
+     "id": "c082",
+     "side": "r"
+    },
+    "b": {
+     "id": "c091",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l101",
+    "t": "line",
+    "a": {
+     "id": "c099",
+     "side": "r"
+    },
+    "b": {
+     "id": "c100",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l103",
+    "t": "line",
+    "a": {
+     "id": "c099",
+     "side": "r"
+    },
+    "b": {
+     "id": "c102",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l104",
+    "t": "line",
+    "a": {
+     "id": "c082",
+     "side": "r"
+    },
+    "b": {
+     "id": "c099",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l105",
+    "t": "line",
+    "a": {
+     "id": "c001",
+     "side": "r"
+    },
+    "b": {
+     "id": "c082",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l108",
+    "t": "line",
+    "a": {
+     "id": "c106",
+     "side": "r"
+    },
+    "b": {
+     "id": "c107",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l110",
+    "t": "line",
+    "a": {
+     "id": "c106",
+     "side": "r"
+    },
+    "b": {
+     "id": "c109",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l112",
+    "t": "line",
+    "a": {
+     "id": "c106",
+     "side": "r"
+    },
+    "b": {
+     "id": "c111",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l113",
+    "t": "line",
+    "a": {
+     "id": "c001",
+     "side": "r"
+    },
+    "b": {
+     "id": "c106",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "c001",
+    "t": "shape",
+    "kind": "pill",
+    "w": 330,
+    "h": 84,
+    "x": 0,
+    "y": 1606.25,
+    "fill": "#1c1c1e",
+    "stroke": "#1c1c1e",
+    "sw": 0,
+    "fs": 26,
+    "text": "Guisos de albóndigas",
+    "bold": true,
+    "color": "#ffffff",
+    "info": "Bolas de carne picada (o de pescado, o de verdura), ligadas con pan, huevo o arroz y cocidas dentro de una salsa o de un caldo hasta que la toman.\n\nAquí solo van las guisadas. Las que se hacen a la brasa o en brocheta (kafta, tsukune) y las fritas para picar son otros formatos.\n\nTres familias:\n· En salsa espesa, la mayoría.\n· En caldo o sopa.\n· Al horno, en la propia salsa.\n\nPunto verde: tiene ficha en la app."
+   },
+   {
+    "id": "c002",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 230,
+    "h": 62,
+    "x": 420,
+    "y": 391.5,
+    "fill": "#f58fa4",
+    "stroke": "#1c1c1e",
+    "sw": 0,
+    "fs": 20,
+    "text": "España",
+    "bold": true,
+    "info": "Fritas o marcadas primero y terminadas en la salsa. El picado lleva pan mojado en leche, huevo, ajo y perejil."
+   },
+   {
+    "id": "c003",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 210,
+    "h": 54,
+    "x": 740,
+    "y": 113,
+    "fill": "#ffffff",
+    "stroke": "#f58fa4",
+    "sw": 2,
+    "fs": 18,
+    "text": "Salsas clásicas",
+    "bold": true
+   },
+   {
+    "id": "c004",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 72,
+    "x": 1080,
+    "y": 0,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "En salsa española o jardinera",
+    "info": "Sofrito de cebolla y zanahoria, vino blanco, harina tostada y caldo oscuro. La jardinera lleva además guisantes, zanahoria y patata en dados. La de casa de comidas."
+   },
+   {
+    "id": "c006",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 1080,
+    "y": 86,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Con tomate",
+    "info": "Sofrito de cebolla, ajo y tomate con aceite de oliva, a veces con vino rancio o una pizca de azúcar para la acidez. La más casera."
+   },
+   {
+    "id": "c008",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 1080,
+    "y": 152,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "En salsa de almendras",
+    "info": "Almendras, ajo y pan fritos, majados con azafrán y diluidos con vino fino o blanco y caldo; a veces con yema cocida, como la pepitoria. Andalucía y Murcia."
+   },
+   {
+    "id": "c010",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 1080,
+    "y": 218,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "En salsa verde",
+    "info": "Ajo, perejil abundante, vino blanco y caldo, ligado con un poco de harina moviendo la cazuela. Técnica vasca, la misma de la merluza."
+   },
+   {
+    "id": "c013",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 210,
+    "h": 54,
+    "x": 740,
+    "y": 336,
+    "fill": "#ffffff",
+    "stroke": "#f58fa4",
+    "sw": 2,
+    "fs": 18,
+    "text": "Mar y montaña (Cataluña)",
+    "bold": true
+   },
+   {
+    "id": "c014",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 1080,
+    "y": 304,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Mandonguilles amb sípia",
+    "info": "Albóndigas con sepia: sofrito, sepia guisada y una picada de almendra, avellana, ajo, perejil y pan frito (a veces con un trozo de chocolate o carquiñoles). En primavera, con guisantes."
+   },
+   {
+    "id": "c016",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 1080,
+    "y": 370,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Mandonguilles amb bolets",
+    "info": "Con setas de temporada (níscalos, rebozuelos, trompetas de la muerte), vino rancio y picada. Otoño."
+   },
+   {
+    "id": "c019",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 210,
+    "h": 54,
+    "x": 740,
+    "y": 488,
+    "fill": "#ffffff",
+    "stroke": "#f58fa4",
+    "sw": 2,
+    "fs": 18,
+    "text": "En caldo o cocido",
+    "bold": true
+   },
+   {
+    "id": "c020",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 1080,
+    "y": 456,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Pelotas del puchero",
+    "info": "Pilotes de putxero (Comunidad Valenciana, Alicante, Murcia): carne picada con pan, piñones, perejil y huevo, a veces con sangre o tocino, cocidas en el caldo del puchero. En Alicante y Murcia, envueltas en hoja de col: el «cocido con pelotas» de Navidad."
+   },
+   {
+    "id": "c022",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 1080,
+    "y": 522,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Sopa de albóndigas",
+    "info": "Albondiguillas pequeñas en caldo de carne o de tomate, con verduras o fideos.",
+    "rid": "r-formatos-sopa-de-albondigas"
+   },
+   {
+    "id": "c025",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 210,
+    "h": 54,
+    "x": 740,
+    "y": 678,
+    "fill": "#ffffff",
+    "stroke": "#f58fa4",
+    "sw": 2,
+    "fs": 18,
+    "text": "De pescado",
+    "bold": true
+   },
+   {
+    "id": "c026",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 1080,
+    "y": 608,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Albóndigas de bacalao",
+    "info": "Bacalao desalado y desmigado con pan, huevo, ajo y perejil, en salsa verde o con tomate. Plato de Cuaresma."
+   },
+   {
+    "id": "c028",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 1080,
+    "y": 674,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Albóndigas de choco",
+    "info": "Huelva. Choco (sepia) picado con pan y huevo, guisado en salsa de cebolla, vino y azafrán, a veces con guisantes."
+   },
+   {
+    "id": "c030",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 72,
+    "x": 1080,
+    "y": 740,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Albóndigas de merluza o rape",
+    "info": "Pescado blanco picado con pan y huevo, en salsa marinera o verde, a veces con almejas o gambas."
+   },
+   {
+    "id": "c034",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 230,
+    "h": 62,
+    "x": 420,
+    "y": 1011,
+    "fill": "#8fc8f5",
+    "stroke": "#1c1c1e",
+    "sw": 0,
+    "fs": 20,
+    "text": "Resto de Europa",
+    "bold": true
+   },
+   {
+    "id": "c035",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 846,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Polpette al sugo",
+    "info": "Italia. Carne picada con pan mojado en leche, huevo y pecorino o parmesano, cocida despacio en salsa de tomate con albahaca. En Italia se sirven solas; los espaguetis con albóndigas son italoamericanos."
+   },
+   {
+    "id": "c037",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 912,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Minestra maritata",
+    "info": "Campania. Polpettine (albondiguillas) en caldo con escarola y otras verduras: la «Italian wedding soup» de Estados Unidos."
+   },
+   {
+    "id": "c039",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 978,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Königsberger Klopse",
+    "info": "Alemania (de la antigua Prusia oriental). Ternera picada con anchoa, cocida en caldo; salsa blanca de ese caldo con alcaparras, limón, nata y yema. Con patata cocida."
+   },
+   {
+    "id": "c041",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 1044,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Boulets à la liégeoise",
+    "info": "Bélgica (Lieja). Bolas grandes de cerdo y ternera en «sauce lapin»: cebolla pochada, sirop de Liège (melaza de pera y manzana), vinagre y especias, a veces con cerveza. Con patatas fritas."
+   },
+   {
+    "id": "c043",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 1110,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Köttbullar",
+    "info": "Suecia. Albóndigas pequeñas doradas en mantequilla y servidas con salsa de nata (gräddsås) hecha con el fondo, caldo y un toque de soja. Con puré de patata y mermelada de arándano rojo (lingon). Más salseadas que guisadas."
+   },
+   {
+    "id": "c045",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 72,
+    "x": 740,
+    "y": 1176,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Pulpety w sosie koperkowym",
+    "info": "Polonia. Albóndigas cocidas en caldo y servidas en una salsa de nata y eneldo."
+   },
+   {
+    "id": "c048",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 230,
+    "h": 84,
+    "x": 420,
+    "y": 1583,
+    "fill": "#f9df7a",
+    "stroke": "#1c1c1e",
+    "sw": 0,
+    "fs": 20,
+    "text": "Mediterráneo oriental",
+    "bold": true,
+    "info": "Grecia, Turquía, Levante e Irán."
+   },
+   {
+    "id": "c049",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 210,
+    "h": 54,
+    "x": 740,
+    "y": 1380,
+    "fill": "#ffffff",
+    "stroke": "#f9df7a",
+    "sw": 2,
+    "fs": 18,
+    "text": "Grecia y Turquía",
+    "bold": true
+   },
+   {
+    "id": "c050",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 1080,
+    "y": 1282,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Youvarlakia avgolemono",
+    "info": "Grecia. Albóndigas con arroz cocidas en caldo, ligado al final con huevo y limón (avgolemono)."
+   },
+   {
+    "id": "c052",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 1080,
+    "y": 1348,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Soutzoukakia smyrneika",
+    "info": "De los griegos de Esmirna. Albóndigas alargadas con comino y ajo, en salsa de tomate con vino y canela."
+   },
+   {
+    "id": "c054",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 1080,
+    "y": 1414,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Ekşili köfte",
+    "info": "Turquía. Albondiguillas con arroz en caldo con verduras, agriado con limón y ligado con huevo."
+   },
+   {
+    "id": "c056",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 1080,
+    "y": 1480,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "İzmir köfte",
+    "info": "Turquía (Esmirna). Köfte alargadas al horno con patata, pimiento verde y salsa de tomate."
+   },
+   {
+    "id": "c059",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 210,
+    "h": 54,
+    "x": 740,
+    "y": 1631,
+    "fill": "#ffffff",
+    "stroke": "#f9df7a",
+    "sw": 2,
+    "fs": 18,
+    "text": "Levante",
+    "bold": true
+   },
+   {
+    "id": "c060",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 1080,
+    "y": 1566,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Dawood basha",
+    "info": "Siria y Líbano. Albóndigas con piñones en salsa de tomate con cebolla y melaza de granada o limón. Con arroz con fideos."
+   },
+   {
+    "id": "c062",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 1080,
+    "y": 1632,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Kofta bi tahini",
+    "info": "Palestina y Líbano. Kofta al horno cubiertas con salsa de tahini y limón, a veces con patata.",
+    "rid": "r-formatos-kofta"
+   },
+   {
+    "id": "c064",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 1080,
+    "y": 1698,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Kibbeh labanieh",
+    "info": "Líbano. Bolas de kibbeh (bulgur y carne, rellenas) guisadas en yogur caliente con ajo y menta seca. No es albóndiga en sentido estricto, pero es el guiso de la misma familia.",
+    "rid": "r-recetas-kibbeh-labanieh"
+   },
+   {
+    "id": "c067",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 210,
+    "h": 54,
+    "x": 740,
+    "y": 1816,
+    "fill": "#ffffff",
+    "stroke": "#f9df7a",
+    "sw": 2,
+    "fs": 18,
+    "text": "Irán",
+    "bold": true
+   },
+   {
+    "id": "c068",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 1080,
+    "y": 1784,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Koofteh Tabrizi",
+    "info": "Tabriz. Albóndiga gigante de carne, arroz y guisante partido, rellena de huevo duro, ciruela seca y nueces, cocida en caldo de tomate con azafrán."
+   },
+   {
+    "id": "c070",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 1080,
+    "y": 1850,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Koofteh berenji",
+    "info": "Albóndigas de arroz, carne y hierbas frescas cocidas en caldo de tomate y cúrcuma."
+   },
+   {
+    "id": "c074",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 230,
+    "h": 62,
+    "x": 420,
+    "y": 1997,
+    "fill": "#fbb36b",
+    "stroke": "#1c1c1e",
+    "sw": 0,
+    "fs": 20,
+    "text": "Magreb",
+    "bold": true
+   },
+   {
+    "id": "c075",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 1936,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Tajín de kefta",
+    "info": "Marruecos (kefta mkaouara). Albóndigas pequeñas con comino, pimentón y cilantro en salsa de tomate, con huevos cuajados encima al final.",
+    "rid": "r-formatos-tajin"
+   },
+   {
+    "id": "c077",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 2002,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Kefta de sardinas",
+    "info": "Costa atlántica de Marruecos. Albóndigas de sardina con chermoula, guisadas en salsa de tomate."
+   },
+   {
+    "id": "c079",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 2068,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Mtewem",
+    "info": "Argelia. Albóndigas con mucho ajo y garbanzos, en salsa blanca o roja (con tomate)."
+   },
+   {
+    "id": "c082",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 230,
+    "h": 62,
+    "x": 420,
+    "y": 2436.5,
+    "fill": "#93dfa3",
+    "stroke": "#1c1c1e",
+    "sw": 0,
+    "fs": 20,
+    "text": "Asia",
+    "bold": true
+   },
+   {
+    "id": "c083",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 210,
+    "h": 54,
+    "x": 740,
+    "y": 2219,
+    "fill": "#ffffff",
+    "stroke": "#93dfa3",
+    "sw": 2,
+    "fs": 18,
+    "text": "India",
+    "bold": true
+   },
+   {
+    "id": "c084",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 1080,
+    "y": 2154,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Kofta curry",
+    "info": "Albóndigas de cordero o pollo en curry de cebolla, tomate y especias (garam masala)."
+   },
+   {
+    "id": "c086",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 1080,
+    "y": 2220,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Malai kofta",
+    "info": "Vegetariana: bolas de paneer y patata en salsa cremosa de anacardo, tomate y nata."
+   },
+   {
+    "id": "c088",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 1080,
+    "y": 2286,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Lauki kofta",
+    "info": "Vegetariana: bolas de calabaza larga (lauki) y harina de garbanzo en curry de tomate."
+   },
+   {
+    "id": "c091",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 210,
+    "h": 54,
+    "x": 740,
+    "y": 2457,
+    "fill": "#ffffff",
+    "stroke": "#93dfa3",
+    "sw": 2,
+    "fs": 18,
+    "text": "Asia oriental",
+    "bold": true
+   },
+   {
+    "id": "c092",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 72,
+    "x": 1080,
+    "y": 2372,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Shizi tou («cabeza de león»)",
+    "info": "China (Yangzhou). Albóndigas gigantes de cerdo picado a cuchillo, con jengibre y castaña de agua. Dos versiones: en caldo claro con col china (qingdun) o estofadas en soja (hongshao)."
+   },
+   {
+    "id": "c094",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 1080,
+    "y": 2458,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Tsumire-jiru",
+    "info": "Japón. Bolas de sardina o de pollo en caldo de dashi o de miso. Las tsukune son las de pollo a la parrilla en brocheta, que no son guiso; en nabe (olla en la mesa) sí lo son."
+   },
+   {
+    "id": "c096",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 72,
+    "x": 1080,
+    "y": 2524,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Curry japonés con albóndigas",
+    "info": "Versión casera del curry japonés: salsa espesa de roux, ligeramente dulce, con albóndigas en lugar de trozos de carne. Con arroz.",
+    "rid": "r-recetas-curry-japones"
+   },
+   {
+    "id": "c099",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 210,
+    "h": 54,
+    "x": 740,
+    "y": 2662,
+    "fill": "#ffffff",
+    "stroke": "#93dfa3",
+    "sw": 2,
+    "fs": 18,
+    "text": "Sudeste asiático",
+    "bold": true
+   },
+   {
+    "id": "c100",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 1080,
+    "y": 2630,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Bakso",
+    "info": "Indonesia. Albóndigas muy elásticas de ternera con almidón de tapioca (se pican con hielo), en caldo de hueso con fideos, cebolla frita y sambal."
+   },
+   {
+    "id": "c102",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 1080,
+    "y": 2696,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Xíu mại",
+    "info": "Vietnam. Albóndigas de cerdo con jícama en salsa de tomate, para mojar pan (bánh mì) en el desayuno."
+   },
+   {
+    "id": "c106",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 230,
+    "h": 62,
+    "x": 420,
+    "y": 2843,
+    "fill": "#c3a6f2",
+    "stroke": "#1c1c1e",
+    "sw": 0,
+    "fs": 20,
+    "text": "América",
+    "bold": true
+   },
+   {
+    "id": "c107",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 2782,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Albóndigas en chipotle",
+    "info": "México. En salsa de jitomate con chile chipotle adobado; a veces con arroz o un trozo de huevo cocido dentro."
+   },
+   {
+    "id": "c109",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 2848,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Caldo de albóndigas",
+    "info": "México. Caldo de jitomate con calabacita, zanahoria y papa; las albóndigas llevan arroz y hierbabuena.",
+    "rid": "r-formatos-sopa-de-albondigas"
+   },
+   {
+    "id": "c111",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 2914,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Spaghetti and meatballs",
+    "info": "Estados Unidos (cocina italoamericana). Albóndigas grandes en salsa de tomate («marinara» o «gravy») sobre espaguetis."
+   }
+  ],
+  "scenes": [],
+  "opts": {
+   "grid": false,
+   "snap": false,
+   "guides": true,
+   "dark": false,
+   "tree": true
+  }
+ }
+}

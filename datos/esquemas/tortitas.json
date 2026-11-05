@@ -1,0 +1,1549 @@
+{
+ "id": "e-tortitas",
+ "name": "Tortitas",
+ "desc": "Tortitas del mundo por cómo es la masa: finas, gordas, esponjadas, fermentadas, de molde y saladas.",
+ "board": {
+  "items": [
+   {
+    "id": "l004",
+    "t": "line",
+    "a": {
+     "id": "c002",
+     "side": "r"
+    },
+    "b": {
+     "id": "c003",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l006",
+    "t": "line",
+    "a": {
+     "id": "c002",
+     "side": "r"
+    },
+    "b": {
+     "id": "c005",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l008",
+    "t": "line",
+    "a": {
+     "id": "c002",
+     "side": "r"
+    },
+    "b": {
+     "id": "c007",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l010",
+    "t": "line",
+    "a": {
+     "id": "c002",
+     "side": "r"
+    },
+    "b": {
+     "id": "c009",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l012",
+    "t": "line",
+    "a": {
+     "id": "c002",
+     "side": "r"
+    },
+    "b": {
+     "id": "c011",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l014",
+    "t": "line",
+    "a": {
+     "id": "c002",
+     "side": "r"
+    },
+    "b": {
+     "id": "c013",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l016",
+    "t": "line",
+    "a": {
+     "id": "c002",
+     "side": "r"
+    },
+    "b": {
+     "id": "c015",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l018",
+    "t": "line",
+    "a": {
+     "id": "c002",
+     "side": "r"
+    },
+    "b": {
+     "id": "c017",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l020",
+    "t": "line",
+    "a": {
+     "id": "c002",
+     "side": "r"
+    },
+    "b": {
+     "id": "c019",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l022",
+    "t": "line",
+    "a": {
+     "id": "c002",
+     "side": "r"
+    },
+    "b": {
+     "id": "c021",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l023",
+    "t": "line",
+    "a": {
+     "id": "c001",
+     "side": "r"
+    },
+    "b": {
+     "id": "c002",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l026",
+    "t": "line",
+    "a": {
+     "id": "c024",
+     "side": "r"
+    },
+    "b": {
+     "id": "c025",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l028",
+    "t": "line",
+    "a": {
+     "id": "c024",
+     "side": "r"
+    },
+    "b": {
+     "id": "c027",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l030",
+    "t": "line",
+    "a": {
+     "id": "c024",
+     "side": "r"
+    },
+    "b": {
+     "id": "c029",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l032",
+    "t": "line",
+    "a": {
+     "id": "c024",
+     "side": "r"
+    },
+    "b": {
+     "id": "c031",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l034",
+    "t": "line",
+    "a": {
+     "id": "c024",
+     "side": "r"
+    },
+    "b": {
+     "id": "c033",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l035",
+    "t": "line",
+    "a": {
+     "id": "c001",
+     "side": "r"
+    },
+    "b": {
+     "id": "c024",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l038",
+    "t": "line",
+    "a": {
+     "id": "c036",
+     "side": "r"
+    },
+    "b": {
+     "id": "c037",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l040",
+    "t": "line",
+    "a": {
+     "id": "c036",
+     "side": "r"
+    },
+    "b": {
+     "id": "c039",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l042",
+    "t": "line",
+    "a": {
+     "id": "c036",
+     "side": "r"
+    },
+    "b": {
+     "id": "c041",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l043",
+    "t": "line",
+    "a": {
+     "id": "c001",
+     "side": "r"
+    },
+    "b": {
+     "id": "c036",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l046",
+    "t": "line",
+    "a": {
+     "id": "c044",
+     "side": "r"
+    },
+    "b": {
+     "id": "c045",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l048",
+    "t": "line",
+    "a": {
+     "id": "c044",
+     "side": "r"
+    },
+    "b": {
+     "id": "c047",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l050",
+    "t": "line",
+    "a": {
+     "id": "c044",
+     "side": "r"
+    },
+    "b": {
+     "id": "c049",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l052",
+    "t": "line",
+    "a": {
+     "id": "c044",
+     "side": "r"
+    },
+    "b": {
+     "id": "c051",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l054",
+    "t": "line",
+    "a": {
+     "id": "c044",
+     "side": "r"
+    },
+    "b": {
+     "id": "c053",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l056",
+    "t": "line",
+    "a": {
+     "id": "c044",
+     "side": "r"
+    },
+    "b": {
+     "id": "c055",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l058",
+    "t": "line",
+    "a": {
+     "id": "c044",
+     "side": "r"
+    },
+    "b": {
+     "id": "c057",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l060",
+    "t": "line",
+    "a": {
+     "id": "c044",
+     "side": "r"
+    },
+    "b": {
+     "id": "c059",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l062",
+    "t": "line",
+    "a": {
+     "id": "c044",
+     "side": "r"
+    },
+    "b": {
+     "id": "c061",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l063",
+    "t": "line",
+    "a": {
+     "id": "c001",
+     "side": "r"
+    },
+    "b": {
+     "id": "c044",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l066",
+    "t": "line",
+    "a": {
+     "id": "c064",
+     "side": "r"
+    },
+    "b": {
+     "id": "c065",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l068",
+    "t": "line",
+    "a": {
+     "id": "c064",
+     "side": "r"
+    },
+    "b": {
+     "id": "c067",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l070",
+    "t": "line",
+    "a": {
+     "id": "c064",
+     "side": "r"
+    },
+    "b": {
+     "id": "c069",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l072",
+    "t": "line",
+    "a": {
+     "id": "c064",
+     "side": "r"
+    },
+    "b": {
+     "id": "c071",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l073",
+    "t": "line",
+    "a": {
+     "id": "c001",
+     "side": "r"
+    },
+    "b": {
+     "id": "c064",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l076",
+    "t": "line",
+    "a": {
+     "id": "c074",
+     "side": "r"
+    },
+    "b": {
+     "id": "c075",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l078",
+    "t": "line",
+    "a": {
+     "id": "c074",
+     "side": "r"
+    },
+    "b": {
+     "id": "c077",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l080",
+    "t": "line",
+    "a": {
+     "id": "c074",
+     "side": "r"
+    },
+    "b": {
+     "id": "c079",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l082",
+    "t": "line",
+    "a": {
+     "id": "c074",
+     "side": "r"
+    },
+    "b": {
+     "id": "c081",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l084",
+    "t": "line",
+    "a": {
+     "id": "c074",
+     "side": "r"
+    },
+    "b": {
+     "id": "c083",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l086",
+    "t": "line",
+    "a": {
+     "id": "c074",
+     "side": "r"
+    },
+    "b": {
+     "id": "c085",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l088",
+    "t": "line",
+    "a": {
+     "id": "c074",
+     "side": "r"
+    },
+    "b": {
+     "id": "c087",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l090",
+    "t": "line",
+    "a": {
+     "id": "c074",
+     "side": "r"
+    },
+    "b": {
+     "id": "c089",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l092",
+    "t": "line",
+    "a": {
+     "id": "c074",
+     "side": "r"
+    },
+    "b": {
+     "id": "c091",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l093",
+    "t": "line",
+    "a": {
+     "id": "c001",
+     "side": "r"
+    },
+    "b": {
+     "id": "c074",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l096",
+    "t": "line",
+    "a": {
+     "id": "c094",
+     "side": "r"
+    },
+    "b": {
+     "id": "c095",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l098",
+    "t": "line",
+    "a": {
+     "id": "c094",
+     "side": "r"
+    },
+    "b": {
+     "id": "c097",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l100",
+    "t": "line",
+    "a": {
+     "id": "c094",
+     "side": "r"
+    },
+    "b": {
+     "id": "c099",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l102",
+    "t": "line",
+    "a": {
+     "id": "c094",
+     "side": "r"
+    },
+    "b": {
+     "id": "c101",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "l103",
+    "t": "line",
+    "a": {
+     "id": "c001",
+     "side": "r"
+    },
+    "b": {
+     "id": "c094",
+     "side": "l"
+    },
+    "sw": 2,
+    "color": "#c7c7cc"
+   },
+   {
+    "id": "c001",
+    "t": "shape",
+    "kind": "pill",
+    "w": 330,
+    "h": 84,
+    "x": 0,
+    "y": 1572,
+    "fill": "#1c1c1e",
+    "stroke": "#1c1c1e",
+    "sw": 0,
+    "fs": 26,
+    "text": "Tortitas",
+    "bold": true,
+    "color": "#ffffff",
+    "info": "Masa líquida de harina y líquido (casi siempre con huevo) cuajada en plancha, sartén o molde.\n\nLo que hace que una sea fina y elástica o gorda y esponjosa:\n· El líquido: la crepe lleva más o menos el doble de líquido que de harina; la americana, más o menos lo mismo.\n· Lo que la hace subir: nada (crepe), levadura química o bicarbonato (americana, dorayaki), claras montadas (soufflé) o levadura y fermentación (blini, crumpet, dosa).\n· La harina: trigo, alforfón (trigo sarraceno), arroz, garbanzo, maíz, teff, sémola…\n· El reposo: en las finas relaja el gluten y las deja elásticas sin romperse; en las fermentadas es lo que da las burbujas.\n\nPunto verde: tiene ficha en la app."
+   },
+   {
+    "id": "c002",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 230,
+    "h": 62,
+    "x": 420,
+    "y": 292,
+    "fill": "#f9df7a",
+    "stroke": "#1c1c1e",
+    "sw": 0,
+    "fs": 20,
+    "text": "Finas (crepes)",
+    "bold": true,
+    "info": "Sin nada que las haga subir. Masa muy líquida y reposada; salen finas, flexibles y se doblan o enrollan."
+   },
+   {
+    "id": "c003",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 0,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Crepe",
+    "info": "Francia. Harina, huevo, leche y mantequilla fundida; la de referencia. Dulce con azúcar, chocolate o la suzette.",
+    "rid": "r-formatos-crepe"
+   },
+   {
+    "id": "c005",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 66,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Galette de sarrasin",
+    "info": "Bretaña. Solo alforfón, agua y sal, más fina y crujiente; salada (la complète: jamón, queso y huevo).",
+    "rid": "r-formatos-galette-bretona"
+   },
+   {
+    "id": "c007",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 132,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Filloas",
+    "info": "Galicia. Leche y huevo, a veces con caldo o sangre en versión salada. De Entroido.",
+    "rid": "r-recetas-filloas"
+   },
+   {
+    "id": "c009",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 198,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Frixuelos",
+    "info": "Asturias. Finas, con azúcar, miel o crema. De Antroxu.",
+    "rid": "r-recetas-frixuelos"
+   },
+   {
+    "id": "c011",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 264,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Palatschinken",
+    "info": "Austria y Centroeuropa. Algo más gruesas, enrolladas con mermelada de albaricoque o requesón.",
+    "rid": "r-formatos-palatschinken"
+   },
+   {
+    "id": "c013",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 330,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Blinchiki / naleśniki",
+    "info": "Rusia y Polonia. Crepes rellenas de requesón, carne o fruta, dobladas y doradas otra vez en la sartén."
+   },
+   {
+    "id": "c015",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 396,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Blintzes",
+    "info": "Cocina judía de Europa del Este. Rellenas de queso fresco dulce, en paquete y doradas en mantequilla.",
+    "rid": "r-formatos-blintzes"
+   },
+   {
+    "id": "c017",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 462,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Pannenkoeken",
+    "info": "Países Bajos. Grandes como la sartén, con tocino, manzana o queso cuajados dentro, y sirope (stroop)."
+   },
+   {
+    "id": "c019",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 528,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Pannkakor",
+    "info": "Suecia. Finas, con mermelada de fresa o de arándano rojo y nata."
+   },
+   {
+    "id": "c021",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 594,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Panqueques",
+    "info": "Argentina, Chile y Uruguay. Finas, enrolladas con dulce de leche (y a veces flambeadas)."
+   },
+   {
+    "id": "c024",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 230,
+    "h": 84,
+    "x": 420,
+    "y": 796,
+    "fill": "#fbb36b",
+    "stroke": "#1c1c1e",
+    "sw": 0,
+    "fs": 20,
+    "text": "Gordas con impulsor",
+    "bold": true,
+    "info": "Levadura química o bicarbonato con algo ácido (suero de mantequilla, yogur). Masa espesa que sube en la sartén."
+   },
+   {
+    "id": "c025",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 680,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Pancakes americanos",
+    "info": "EE. UU. Con suero de mantequilla (buttermilk) y bicarbonato; en pila con mantequilla y sirope de arce. Las «tortitas» de España.",
+    "rid": "r-formatos-pancakes"
+   },
+   {
+    "id": "c027",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 746,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Hotcake japonés",
+    "info": "Japón. Más alto y con el dorado muy parejo; con mantequilla y sirope. Se vende como preparado (hotcake mix)."
+   },
+   {
+    "id": "c029",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 812,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Dorayaki",
+    "info": "Japón. Dos discos de masa tipo castella (huevo, azúcar, miel, harina y bicarbonato) unidos con anko. La forma de dos discos es de Usagiya (Ueno, Tokio), 1914; en Kansai se llama mikasa. Hay versión con castaña en la app (kuri dorayaki).",
+    "rid": "r-recetas-dorayaki"
+   },
+   {
+    "id": "c031",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 878,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Scotch pancakes",
+    "info": "Reino Unido (Escocia). Pequeñas y gruesas, también llamadas drop scones; con mantequilla y mermelada."
+   },
+   {
+    "id": "c033",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 944,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Oladyi",
+    "info": "Rusia y Ucrania. Pequeñas y gruesas, con kéfir; se hacen varias a la vez. Con smetana o mermelada."
+   },
+   {
+    "id": "c036",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 230,
+    "h": 84,
+    "x": 420,
+    "y": 1080,
+    "fill": "#f58fa4",
+    "stroke": "#1c1c1e",
+    "sw": 0,
+    "fs": 20,
+    "text": "Esponjadas sin impulsor",
+    "bold": true,
+    "info": "Suben solo por el aire de las claras montadas o por el vapor del horno."
+   },
+   {
+    "id": "c037",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 1030,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Soufflé pancakes",
+    "info": "Japón. Claras montadas con azúcar y envueltas en la masa; muy altas y temblorosas, a fuego muy suave y tapadas.",
+    "rid": "r-formatos-souffle-pancakes"
+   },
+   {
+    "id": "c039",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 1096,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Kaiserschmarrn",
+    "info": "Austria. Masa con claras montadas y pasas que se rompe en trozos en la sartén y se carameliza; con compota de ciruela.",
+    "rid": "r-formatos-kaiserschmarrn"
+   },
+   {
+    "id": "c041",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 1162,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Dutch baby",
+    "info": "EE. UU. Masa de crepe en sartén de hierro muy caliente al horno: sube por el vapor y hace bordes crujientes.",
+    "rid": "r-formatos-dutch-baby"
+   },
+   {
+    "id": "c044",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 230,
+    "h": 84,
+    "x": 420,
+    "y": 1506,
+    "fill": "#c3a6f2",
+    "stroke": "#1c1c1e",
+    "sw": 0,
+    "fs": 20,
+    "text": "Con levadura o fermentadas",
+    "bold": true,
+    "info": "La masa sube o fermenta antes de cocerla: salen burbujas, agujeros y un punto ácido."
+   },
+   {
+    "id": "c045",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 1248,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Blini",
+    "info": "Rusia, Ucrania. Masa con levadura, tradicionalmente de alforfón; en Maslenitsa (fin del invierno). Con smetana, caviar o salmón; los pequeños son los de aperitivo."
+   },
+   {
+    "id": "c047",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 1314,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Crumpets",
+    "info": "Reino Unido. Levadura y bicarbonato, cocidos en aro por un solo lado: arriba quedan llenos de agujeros. Se tuestan y se untan con mantequilla. Sin aro, pikelets."
+   },
+   {
+    "id": "c049",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 1380,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Baghrir",
+    "info": "Magreb. «Mil agujeros»: sémola fina y levadura, cocidos por un solo lado; con mantequilla y miel derretidas."
+   },
+   {
+    "id": "c051",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 1446,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Qatayef",
+    "info": "Levante. Tortitas levadas cocidas por un lado, rellenas de nueces o de ashta y cerradas en media luna. De Ramadán.",
+    "rid": "r-recetas-atayef-bi-ashta"
+   },
+   {
+    "id": "c053",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 1512,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Poffertjes",
+    "info": "Países Bajos. Mini tortitas de levadura y alforfón en plancha de huecos, con mantequilla y azúcar glas.",
+    "rid": "r-formatos-poffertjes"
+   },
+   {
+    "id": "c055",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 72,
+    "x": 740,
+    "y": 1578,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Martabak manis / apam balik",
+    "info": "Indonesia y Malasia. Gruesa, con agujeros de panal, cocida tapada; se rellena (chocolate, cacahuete, queso, leche condensada) y se dobla."
+   },
+   {
+    "id": "c057",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 1664,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Hotteok",
+    "info": "Corea. Masa levada rellena de azúcar moreno, canela y frutos secos, aplastada en la plancha.",
+    "rid": "r-formatos-hotteok"
+   },
+   {
+    "id": "c059",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 1730,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Dosa, appam y uttapam",
+    "info": "India y Sri Lanka. Masa fermentada de arroz y urad dal: la dosa, fina y crujiente; el appam, en cuenco con borde crujiente; el uttapam, gruesa con verdura encima.",
+    "rid": "r-formatos-dosa"
+   },
+   {
+    "id": "c061",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 1796,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Injera",
+    "info": "Etiopía y Eritrea. Teff fermentado varios días, esponjosa y ácida, cocida por un lado; hace de plato y de cubierto.",
+    "rid": "r-formatos-injera"
+   },
+   {
+    "id": "c064",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 230,
+    "h": 84,
+    "x": 420,
+    "y": 1965,
+    "fill": "#8fc8f5",
+    "stroke": "#1c1c1e",
+    "sw": 0,
+    "fs": 20,
+    "text": "Rellenas y de molde",
+    "bold": true,
+    "info": "Lo que las define es la forma: en sándwich, enrolladas o cocidas en un molde."
+   },
+   {
+    "id": "c065",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 1882,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Imagawayaki",
+    "info": "Japón. Masa de dorayaki cocida en molde redondo y hondo, rellena de anko o crema. En la app está la de castaña.",
+    "rid": "r-recetas-kuri-imagawayaki"
+   },
+   {
+    "id": "c067",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 1948,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Taiyaki",
+    "info": "Japón. La misma idea en molde con forma de pez.",
+    "rid": "r-formatos-taiyaki"
+   },
+   {
+    "id": "c069",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 2014,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Æbleskiver",
+    "info": "Dinamarca. Bolitas esponjosas en sartén de huecos, que se van girando; con azúcar glas y mermelada. De Navidad."
+   },
+   {
+    "id": "c071",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 2080,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Kue dadar gulung",
+    "info": "Indonesia. Crepe verde de pandán enrollada con coco rallado y azúcar de palma."
+   },
+   {
+    "id": "c074",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 230,
+    "h": 84,
+    "x": 420,
+    "y": 2414,
+    "fill": "#93dfa3",
+    "stroke": "#1c1c1e",
+    "sw": 0,
+    "fs": 20,
+    "text": "Saladas y de otras harinas",
+    "bold": true,
+    "info": "Con verdura en la masa o harinas sin trigo: de comida o cena."
+   },
+   {
+    "id": "c075",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 2166,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Okonomiyaki",
+    "info": "Japón. Masa con mucha col y lo que se quiera, con salsa, mayonesa y bonito seco.",
+    "rid": "r-recetas-okonomiyaki"
+   },
+   {
+    "id": "c077",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 2232,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Pajeon y kimchijeon",
+    "info": "Corea. Finas y crujientes, con cebolleta (y marisco) o con kimchi; se mojan en soja con vinagre.",
+    "rid": "r-formatos-pajeon"
+   },
+   {
+    "id": "c079",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 2298,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Bánh xèo",
+    "info": "Vietnam. Crepe crujiente de arroz, cúrcuma y coco, rellena de gambas, cerdo y brotes; se envuelve en lechuga.",
+    "rid": "r-formatos-banh-xeo"
+   },
+   {
+    "id": "c081",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 2364,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Jianbing",
+    "info": "China. Crepe de calle con huevo, salsas, cebolleta y una oblea crujiente dentro, doblada.",
+    "rid": "r-formatos-jianbing"
+   },
+   {
+    "id": "c083",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 2430,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Socca / farinata",
+    "info": "Niza y Liguria. Garbanzo, agua y aceite, al horno muy caliente.",
+    "rid": "r-formatos-socca"
+   },
+   {
+    "id": "c085",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 2496,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Chilla",
+    "info": "India. Harina de garbanzo o de mung con cebolla, tomate y especias.",
+    "rid": "r-formatos-chilla"
+   },
+   {
+    "id": "c087",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 2562,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Cachapa",
+    "info": "Venezuela. Maíz tierno molido, dulzona, doblada sobre queso de mano.",
+    "rid": "r-formatos-cachapa"
+   },
+   {
+    "id": "c089",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 2628,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Tapioca",
+    "info": "Brasil. Almidón de mandioca hidratado que se cuaja en la sartén sin más líquido; rellena dulce o salada."
+   },
+   {
+    "id": "c091",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 2694,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "De patata",
+    "info": "Latkes (judía), Kartoffelpuffer (Alemania), draniki (Bielorrusia): patata rallada con huevo, frita.",
+    "rid": "r-formatos-latkes"
+   },
+   {
+    "id": "c094",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 230,
+    "h": 62,
+    "x": 420,
+    "y": 2874,
+    "fill": "#e4e4e6",
+    "stroke": "#1c1c1e",
+    "sw": 0,
+    "fs": 20,
+    "text": "Parientes",
+    "bold": true,
+    "info": "No son tortitas, pero salen de las mismas masas."
+   },
+   {
+    "id": "c095",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 2780,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Gofres",
+    "info": "Masa de tortita (o de brioche, el de Lieja) en plancha de hierro con dibujo.",
+    "rid": "r-formatos-gofre-de-bruselas"
+   },
+   {
+    "id": "c097",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 2846,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Clafoutis y far breton",
+    "info": "Masa de crepe, más espesa, horneada con fruta (cerezas, ciruelas pasas).",
+    "rid": "r-formatos-clafoutis"
+   },
+   {
+    "id": "c099",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 2912,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Syrniki",
+    "info": "Rusia y Ucrania. Tortitas de requesón (tvorog) con poca harina, doradas en la sartén."
+   },
+   {
+    "id": "c101",
+    "t": "shape",
+    "kind": "rrect",
+    "w": 250,
+    "h": 52,
+    "x": 740,
+    "y": 2978,
+    "fill": "#ffffff",
+    "stroke": "#d1d1d6",
+    "sw": 1,
+    "fs": 16,
+    "text": "Takoyaki",
+    "info": "Japón. Masa salada en plancha de huecos con pulpo dentro.",
+    "rid": "r-formatos-takoyaki"
+   }
+  ],
+  "scenes": [],
+  "opts": {
+   "grid": false,
+   "snap": false,
+   "guides": true,
+   "dark": false,
+   "tree": true
+  }
+ }
+}

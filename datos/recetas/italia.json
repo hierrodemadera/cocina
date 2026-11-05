@@ -1,0 +1,308 @@
+{
+ "recipes": [
+  {
+   "id": "r-recetas-caponata",
+   "tab": "recetas",
+   "name": "Caponata",
+   "group": "Salado",
+   "cat": "Hortalizas",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "Italia / Sicilia",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "800",
+       "u": "g",
+       "n": "Berenjena"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Rama de apio"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Tomate triturado"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Aceituna verde"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Alcaparra"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Vinagre de vino"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Azúcar"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Albahaca fresca"
+      },
+      {
+       "q": "80",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Piñón tostado (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar la berenjena en dados de 2 cm, salarla 30 min y secarla.",
+      "Cortar la cebolla y el apio en dados; deshuesar las aceitunas y desalar las alcaparras.",
+      "Saltear la berenjena por tandas en el aceite hasta que esté dorada y tierna; reservar.",
+      "Pochar la cebolla y el apio en la misma sartén 10 min.",
+      "Añadir el tomate y cocinar 10 min; incorporar las aceitunas y las alcaparras.",
+      "Añadir la berenjena, el vinagre y el azúcar y cocinar 5 min para que se evapore el vinagre (agrodolce).",
+      "Rectificar de sal, terminar con albahaca y piñón y dejar reposar al menos 1 h."
+     ]
+    }
+   ],
+   "notes": "Se sirve templada o fría, mejor al día siguiente. La versión siciliana fríe la berenjena en abundante aceite; salteada queda más ligera.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-minestrone",
+   "tab": "recetas",
+   "name": "Minestrone",
+   "group": "Salado",
+   "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
+   "local": "",
+   "diet": "vegetariano",
+   "freq": "diario",
+   "tag": "Italia",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Rama de apio"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Calabacín"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Judía verde"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Patata"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Col o kale"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Tomate triturado"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Alubia borlotti o blanca cocida"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Pasta corta pequeña (ditalini)"
+      },
+      {
+       "q": "1,5",
+       "u": "l",
+       "n": "Caldo de verduras"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Corteza de parmesano (opcional)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Albahaca"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Parmesano rallado"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pimienta negra"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar la cebolla, la zanahoria y el apio en brunoise (soffritto); el resto de verduras en dados de 1 cm; la col en juliana.",
+      "Pochar el soffritto en el aceite 10 min.",
+      "Añadir la patata, la judía y el calabacín y rehogar 5 min.",
+      "Incorporar el tomate, el caldo y la corteza de parmesano; cocer 20 min.",
+      "Añadir la col y las alubias y cocer 10 min.",
+      "Añadir la pasta y cocerla el tiempo indicado en el paquete.",
+      "Retirar la corteza, rectificar de sal y pimienta y servir con albahaca, parmesano y un hilo de aceite."
+     ]
+    }
+   ],
+   "notes": "Cada región italiana tiene la suya; la regla es usar verdura de temporada. Sin parmesano queda vegana. Con arroz en lugar de pasta, minestrone di riso.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-risotto-de-verduras",
+   "tab": "recetas",
+   "name": "Risotto de verduras",
+   "group": "Salado",
+   "cat": "Arroces",
+   "local": "",
+   "diet": "vegetariano",
+   "freq": "diario",
+   "tag": "Italia",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "320",
+       "u": "g",
+       "n": "Arroz carnaroli o arborio"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla pequeña"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Calabacín"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Espárrago triguero"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Guisante"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Vino blanco seco"
+      },
+      {
+       "q": "1,2",
+       "u": "l",
+       "n": "Caldo de verduras caliente"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Mantequilla fría"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Parmesano rallado"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pimienta negra"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar el calabacín y la zanahoria en dados pequeños; los espárragos en trozos (las puntas aparte); picar la cebolla muy fina.",
+      "Saltear las verduras en un poco de aceite 3–4 min, que queden al dente; reservar.",
+      "Pochar la cebolla en el resto del aceite 5 min sin color.",
+      "Añadir el arroz y nacararlo 2 min (tostatura).",
+      "Mojar con el vino y dejar evaporar.",
+      "Añadir el caldo caliente cazo a cazo, removiendo y esperando a que se absorba, unos 16–18 min.",
+      "Incorporar las verduras en los últimos 3 min.",
+      "Fuera del fuego, mantecar con la mantequilla fría y el parmesano; tapar y reposar 2 min (all'onda)."
+     ]
+    }
+   ],
+   "notes": "El arroz no se lava: el almidón da la cremosidad. Con aceite en vez de mantequilla y sin queso, vegano.",
+   "done": false
+  }
+ ]
+}

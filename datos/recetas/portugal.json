@@ -1,0 +1,74 @@
+{
+ "recipes": [
+  {
+   "id": "r-recetas-caldo-verde-portugues",
+   "tab": "recetas",
+   "name": "Caldo verde portugués",
+   "group": "Salado",
+   "cat": "Sopas, consomés, cremas, potajes y cocidos / Sopas y consomés",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "Portugal / Minho",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Patata harinosa"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Col gallega o berza (couve galega)"
+      },
+      {
+       "q": "1,5",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Chouriço en rodajas (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Pelar y cortar las patatas; picar la cebolla y el ajo.",
+      "Cocer la patata, la cebolla y el ajo con el agua, sal y la mitad del aceite 20 min.",
+      "Quitar los nervios a la col, enrollar las hojas y cortarlas en juliana muy fina (casi hilos).",
+      "Triturar la patata con su caldo hasta tener una crema ligera.",
+      "Llevar a ebullición, añadir la col y cocer 3–5 min, sin tapar, para que quede verde.",
+      "Rectificar de sal y servir con un hilo del aceite restante."
+     ]
+    }
+   ],
+   "notes": "Sopa nacional de Portugal, del Minho. Se sirve tradicionalmente con una rodaja de chouriço y broa (pan de maíz); sin él es vegana.",
+   "done": false
+  }
+ ]
+}

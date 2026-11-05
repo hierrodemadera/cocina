@@ -1,0 +1,368 @@
+{
+ "recipes": [
+  {
+   "id": "r-recetas-paneer-kathi-roll",
+   "tab": "recetas",
+   "name": "Paneer kathi roll",
+   "group": "Salado",
+   "cat": "Entremeses y aperitivos / Calientes",
+   "local": "",
+   "diet": "vegetariano",
+   "freq": "semanal",
+   "tag": "India / Bengala Occidental",
+   "yield": "4 ud.",
+   "parts": [
+    {
+     "name": "Paneer tikka",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Paneer en dados de 2 cm"
+      },
+      {
+       "q": "90",
+       "u": "g",
+       "n": "Yogur griego"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Pasta de ajo y jengibre"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Chile rojo en polvo (mejor kashmiri)"
+      },
+      {
+       "q": "½",
+       "u": "cdta.",
+       "n": "Cúrcuma"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Garam masala"
+      },
+      {
+       "q": "½",
+       "u": "cdta.",
+       "n": "Chaat masala"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Zumo de lima"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde en dados grandes"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla en cuartos, en pétalos"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Aceite"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar el yogur con la pasta de ajo y jengibre, las especias, el zumo de lima y la sal.",
+      "Marinar el paneer, el pimiento y la cebolla al menos 30 min (mejor 1 h) en nevera.",
+      "Saltear a fuego fuerte en sartén con el aceite, sin mover demasiado, hasta que el paneer se tueste por los bordes y las verduras queden al dente."
+     ]
+    },
+    {
+     "name": "Cebolla encurtida",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla morada en juliana fina"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Lima (el zumo)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Guindilla verde picada"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Chaat masala"
+      }
+     ],
+     "steps": [
+      "Mezclar la cebolla con el zumo de lima, la guindilla, la sal y una pizca de chaat masala.",
+      "Dejar al menos 10 min para que se ablande y coja color."
+     ]
+    },
+    {
+     "name": "Chutney verde",
+     "ings": [
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Cilantro fresco (hojas y tallos)"
+      },
+      {
+       "q": "15",
+       "u": "g",
+       "n": "Menta fresca"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Guindilla verde"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Zumo de lima"
+      },
+      {
+       "q": "2",
+       "u": "cda.",
+       "n": "Yogur"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Triturar todo con 1–2 cda. de agua hasta una salsa lisa y espesa.",
+      "Rectificar de sal y lima."
+     ]
+    },
+    {
+     "name": "Paratha",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Harina de trigo (o mitad atta integral)"
+      },
+      {
+       "q": "½",
+       "u": "cdta.",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Azúcar"
+      },
+      {
+       "q": "2",
+       "u": "cda.",
+       "n": "Aceite o ghee"
+      },
+      {
+       "q": "140",
+       "u": "ml",
+       "n": "Agua (aprox.)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite o ghee para la sartén"
+      }
+     ],
+     "steps": [
+      "Mezclar la harina con la sal, el azúcar y el aceite; añadir el agua poco a poco y amasar 5 min hasta una masa lisa y blanda.",
+      "Tapar y reposar 30 min.",
+      "Dividir en 4 bolas y estirar discos finos de unos 22 cm.",
+      "Cocer en sartén o tawa caliente 30–40 s por cara hasta que salgan manchas; pintar con un poco de aceite o ghee y dorar por ambas caras."
+     ]
+    },
+    {
+     "name": "Capa de huevo (opcional, estilo Calcuta)",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Batir cada huevo con una pizca de sal.",
+      "Echarlo en la sartén, poner el paratha encima enseguida y presionar para que se pegue.",
+      "Dar la vuelta y cocer 30 s más con el huevo hacia arriba."
+     ]
+    },
+    {
+     "name": "Montaje",
+     "ings": [
+      {
+       "q": "½",
+       "u": "ud.",
+       "n": "Pepino en bastones"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Cilantro fresco"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Chaat masala"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Lima en gajos"
+      }
+     ],
+     "steps": [
+      "Colocar el paratha con la cara del huevo hacia arriba y untar una línea de chutney verde.",
+      "Repartir el paneer tikka en el centro, con la cebolla encurtida, el pepino y unas hojas de cilantro.",
+      "Espolvorear chaat masala y unas gotas de lima.",
+      "Enrollar bien apretado y envolver la mitad inferior en papel para comerlo con la mano."
+     ]
+    }
+   ],
+   "notes": "Comida callejera de Calcuta: el kathi roll nació con brochetas a la brasa envueltas en paratha, y la versión de paneer es la vegetariana. En la calle también se aliña con kasundi (mostaza bengalí) y kétchup. Versión solo verduras: cambiar el paneer por patata cocida en dados, champiñón o garbanzos, con el mismo adobo. Sin la capa de huevo sigue siendo vegetariano.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-dal",
+   "tab": "recetas",
+   "name": "Dal",
+   "group": "Salado",
+   "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "India",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Lenteja roja (masoor dal) o lenteja amarilla (toor dal)"
+      },
+      {
+       "q": "900",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Cúrcuma molida"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Tomate"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "15",
+       "u": "g",
+       "n": "Jengibre fresco"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Guindilla verde (opcional)"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Comino en grano"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Semilla de mostaza (opcional)"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Garam masala"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Aceite vegetal o ghee"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Cilantro fresco"
+      },
+      {
+       "q": "0,5",
+       "u": "ud.",
+       "n": "Limón"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar las lentejas hasta que el agua salga clara.",
+      "Cocer las lentejas con el agua y la cúrcuma 20–25 min a fuego suave, desespumando, hasta que estén deshechas.",
+      "Picar la cebolla, el tomate, el ajo, el jengibre y la guindilla.",
+      "Calentar el aceite y freír el comino y la mostaza hasta que chisporroteen (tadka).",
+      "Añadir la cebolla y pocharla 8 min; incorporar el ajo, el jengibre y la guindilla y rehogar 1 min.",
+      "Añadir el tomate y el garam masala y cocinar 5 min hasta que se deshaga.",
+      "Verter el sofrito sobre las lentejas, cocer 5 min y ajustar la textura con agua.",
+      "Rectificar de sal y terminar con cilantro y un chorro de limón."
+     ]
+    }
+   ],
+   "notes": "Plato diario de toda la India; se acompaña de arroz basmati o pan (roti, chapati). Con ghee deja de ser vegano.",
+   "done": false
+  }
+ ]
+}

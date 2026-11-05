@@ -1,0 +1,4851 @@
+{
+ "recipes": [
+  {
+   "id": "r-recetas-hummus-bi-tahini",
+   "tab": "recetas",
+   "name": "Hummus bi tahini",
+   "group": "Salado",
+   "cat": "Entremeses y aperitivos / Fríos",
+   "local": "Mazza / Fríos (bārde)",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "170",
+       "u": "g",
+       "n": "Garbanzo seco"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Bicarbonato"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Tahini"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Diente de ajo sin germen"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "4",
+       "u": "cda",
+       "n": "Agua fría o caldo de cocción"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Pimentón o zumaque"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Perejil picado"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar los garbanzos 12 h con el bicarbonato.",
+      "Cocerlos en agua nueva unas 2 h, hasta que estén muy tiernos. Reservar el caldo.",
+      "Pelarlos frotándolos en agua y aclarar.",
+      "Triturar los garbanzos con el ajo hasta tener una pasta fina.",
+      "Añadir el tahini, el limón y la sal y triturar.",
+      "Aligerar con agua fría, cucharada a cucharada, hasta que quede untuoso pero se sostenga.",
+      "Extender en el plato, hacer un surco con la cuchara y rociar con aceite, pimentón y perejil."
+     ]
+    }
+   ],
+   "notes": "Récord Guinness de la mayor ración de hummus (Beirut, 2010, 10.452 kg; chef Ramzi Choueiri). Pelar los garbanzos es lo que da la textura libanesa. Fuentes: Anissa Helou, Maureen Abood.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-moutabal",
+   "tab": "recetas",
+   "name": "Moutabal",
+   "group": "Salado",
+   "cat": "Entremeses y aperitivos / Fríos",
+   "local": "Mazza / Fríos (bārde)",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Berenjena firme (800 g)"
+      },
+      {
+       "q": "45",
+       "u": "g",
+       "n": "Tahini"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo machacado con sal"
+      },
+      {
+       "q": "40",
+       "u": "ml",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "3",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Granos de granada"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Pinchar las berenjenas y asarlas a la llama o a la brasa, girándolas, hasta que la piel esté carbonizada y la pulpa hundida.",
+      "Pelarlas en caliente, quitar las vetas de semillas y escurrir la pulpa 15–30 min.",
+      "Machacar a mano con tenedor, sin batidora.",
+      "Mezclar con el ajo, el limón, el tahini y la sal.",
+      "Extender, hacer surcos y terminar con aceite y granada."
+     ]
+    }
+   ],
+   "notes": "«Mtabbal» significa «sazonado». El ahumado a la llama es la clave. En el Líbano a menudo se le llama también baba ghannouj. Fuentes: Taste of Beirut (Joumana Accad), Maureen Abood.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-baba-ghannouj",
+   "tab": "recetas",
+   "name": "Baba ghannouj",
+   "group": "Salado",
+   "cat": "Entremeses y aperitivos / Fríos",
+   "local": "Mazza / Fríos (bārde)",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Berenjena (800 g)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Tomate sin semillas, en dados finos"
+      },
+      {
+       "q": "½",
+       "u": "ud.",
+       "n": "Pimiento verde picado fino"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Cebolleta picada fina"
+      },
+      {
+       "q": "15",
+       "u": "g",
+       "n": "Perejil picado"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Menta picada"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Diente de ajo machacado"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "2",
+       "u": "cdta",
+       "n": "Melaza de granada"
+      },
+      {
+       "q": "45",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "3",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Granos de granada"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Asar, pelar y escurrir las berenjenas como para el moutabal.",
+      "Picarlas a cuchillo en trozos gruesos.",
+      "Mezclar en frío con las hortalizas, las hierbas y el ajo.",
+      "Aliñar con limón, melaza, aceite y sal y decorar con granada."
+     ]
+    }
+   ],
+   "notes": "Versión en ensalada, sin tahini, frecuente en la mesa libanesa y siria. No hay una fuente libanesa de autoridad que la fije: es la ficha con menos respaldo de las mezze.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-tabbouleh",
+   "tab": "recetas",
+   "name": "Tabbouleh",
+   "group": "Salado",
+   "cat": "Ensaladas",
+   "local": "Mazza / Fríos (bārde)",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Hojas de perejil liso, muy secas"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Hojas de menta"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Bulgur fino"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Tomate firme en dados pequeños"
+      },
+      {
+       "q": "25",
+       "u": "g",
+       "n": "Cebolleta en rodajas finas"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Canela"
+      },
+      {
+       "q": "¼",
+       "u": "cdta",
+       "n": "Pimienta de Jamaica o siete especias"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "40",
+       "u": "ml",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "75",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Cogollo de lechuga"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar el bulgur, escurrir y dejar reposar 30 min, aireándolo con un tenedor.",
+      "Cortar el tomate y dejarlo escurrir.",
+      "Cortar el perejil en manojos pequeños con un cuchillo muy afilado, en tiras finísimas, sin picar en balanceo (lo magulla).",
+      "Picar la menta al final.",
+      "Juntar el tomate, la cebolleta, las hierbas y el bulgur.",
+      "Sazonar y aliñar con el limón y el aceite justo antes de servir, con hojas de lechuga como cuchara."
+     ]
+    }
+   ],
+   "notes": "Es una ensalada de perejil, no de bulgur (Anissa Helou). Récord Guinness en Beirut (2009, 3.557 kg). Día Nacional del Tabbouleh en julio. Se toma el mismo día.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-fattoush",
+   "tab": "recetas",
+   "name": "Fattoush",
+   "group": "Salado",
+   "cat": "Ensaladas",
+   "local": "Mazza / Fríos (bārde)",
+   "diet": "vegano",
+   "freq": "semanal",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Pan",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pan libanés (80 g)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite para freír"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Abrir el pan, trocearlo y freírlo hasta dorar. Escurrir."
+     ]
+    },
+    {
+     "name": "Ensalada",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Lechuga romana troceada"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Verdolaga deshojada"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Tomate en dados"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Pepino pequeño en dados"
+      },
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Rábano en láminas"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Cebolleta"
+      },
+      {
+       "q": "½",
+       "u": "ud.",
+       "n": "Pimiento verde"
+      },
+      {
+       "q": "15",
+       "u": "g",
+       "n": "Perejil"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Menta fresca"
+      }
+     ],
+     "steps": [
+      "Cortar las hortalizas en dados irregulares y trocear las hierbas."
+     ]
+    },
+    {
+     "name": "Aliño",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Diente de ajo machacado con sal"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "80",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Zumaque (más para espolvorear)"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Menta seca"
+      },
+      {
+       "q": "3",
+       "u": "g",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Emulsionar el aliño.",
+      "Aliñar justo al servir, añadir el pan al final para que cruja y espolvorear zumaque."
+     ]
+    }
+   ],
+   "notes": "La verdolaga es esencial en el Líbano (Maureen Abood). Récord en Kab Elias (Bekaa, 2010), según la prensa libanesa. Fuentes: Taste of Beirut, Maureen Abood.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-warak-enab-bi-zeit",
+   "tab": "recetas",
+   "name": "Warak enab bi zeit",
+   "group": "Salado",
+   "cat": "Entremeses y aperitivos / Fríos",
+   "local": "Bi zeit",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "Líbano",
+   "yield": "40 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Hojas de parra en salmuera (unas 45)"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Arroz redondo lavado"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Tomate muy picado"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Perejil picado"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Menta fresca picada"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Cebolleta picada"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Siete especias"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Concentrado de tomate"
+      },
+      {
+       "q": "80",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Patata en rodajas de 1 cm"
+      },
+      {
+       "q": "400",
+       "u": "ml",
+       "n": "Agua con ½ cdta de sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Desalar las hojas en agua.",
+      "Mezclar el relleno en crudo y escurrir el jugo, que se reserva.",
+      "Rellenar cada hoja con ¾ cda por el envés: doblar los lados y enrollar apretado.",
+      "Cubrir el fondo de la olla con la patata y apilar los rollitos con la junta hacia abajo.",
+      "Poner un plato encima y cubrir con el jugo reservado y el agua.",
+      "Cocer 15–20 min a fuego medio y 1–1 h 30 min a fuego mínimo.",
+      "Dejar enfriar en la olla y servir fríos con limón."
+     ]
+    }
+   ],
+   "notes": "Versión vegetal «en aceite», para tomar fría. La Food Heritage Foundation documenta una variante con bulgur.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-loubieh-bi-zeit",
+   "tab": "recetas",
+   "name": "Loubieh bi zeit",
+   "group": "Salado",
+   "cat": "Hortalizas",
+   "local": "Bi zeit",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "750",
+       "u": "g",
+       "n": "Judía verde plana en trozos de 5 cm"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla grande picada"
+      },
+      {
+       "q": "5",
+       "u": "ud.",
+       "n": "Diente de ajo picado"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Tomate maduro pelado y troceado"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Concentrado de tomate"
+      },
+      {
+       "q": "125",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Siete especias"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Pochar la cebolla y el ajo en el aceite 5 min.",
+      "Añadir las judías y rehogar 10 min.",
+      "Salpimentar y añadir el tomate, el concentrado y el agua.",
+      "Tapar y cocer a fuego medio-bajo 25–30 min.",
+      "Destapar y reducir hasta que la salsa nape.",
+      "Servir frío o templado, con pan árabe y cebolla cruda."
+     ]
+    }
+   ],
+   "notes": "Plato «bi zeit» (en aceite): se come frío, nunca caliente. Aguanta una semana en nevera.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-hindbeh-bi-zeit",
+   "tab": "recetas",
+   "name": "Hindbeh bi zeit",
+   "group": "Salado",
+   "cat": "Hortalizas",
+   "local": "Bi zeit",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Diente de león o achicoria"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Cebolla grande en medias lunas finas"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Cilantro fresco picado"
+      },
+      {
+       "q": "45",
+       "u": "ml",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Pimienta"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar, quitar las bases duras y trocear las hojas.",
+      "Blanquear en agua hirviendo con sal 10–15 min, escurrir apretando y picar.",
+      "Freír la mayor parte de la cebolla hasta que esté marrón oscuro y crujiente y reservarla.",
+      "En el mismo aceite, dorar el resto de la cebolla con el ajo y el cilantro.",
+      "Añadir las hojas y saltear 5–10 min con sal y pimienta.",
+      "Fuera del fuego, añadir el limón y coronar con la cebolla frita."
+     ]
+    }
+   ],
+   "notes": "Hierba silvestre de primavera. Se sirve templado con limón y pan árabe.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-balila",
+   "tab": "recetas",
+   "name": "Balila",
+   "group": "Salado",
+   "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Mazza / Calientes (sukhne)",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Garbanzo seco"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Bicarbonato"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Diente de ajo machacado con sal"
+      },
+      {
+       "q": "80",
+       "u": "ml",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "80",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Comino molido"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar los garbanzos 12 h con el bicarbonato y cocerlos 2 h en agua nueva, hasta que estén muy tiernos.",
+      "Escurrir dejando un poco de caldo y aplastar algunos.",
+      "Aliñar en caliente con el ajo, el limón y el aceite y rectificar de sal.",
+      "Espolvorear comino al servir, con rábanos, menta, cebolleta y aceitunas."
+     ]
+    }
+   ],
+   "notes": "Desayuno o mezze caliente. Receta de Joumana Accad (Taste of Beirut).",
+   "done": false
+  },
+  {
+   "id": "r-recetas-foul-moudammas",
+   "tab": "recetas",
+   "name": "Foul moudammas",
+   "group": "Salado",
+   "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Mazza / Calientes (sukhne)",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Haba seca pequeña (ful)"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Bicarbonato"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Garbanzo cocido"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Diente de ajo machacado con sal"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Comino"
+      },
+      {
+       "q": "5",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar las habas 15–20 h con el bicarbonato.",
+      "Cocerlas 2–3 h, espumando, hasta que queden como un potaje espeso.",
+      "Añadir los garbanzos y calentar 10 min.",
+      "Aplastar entre la mitad y tres cuartas partes.",
+      "Fuera del fuego, añadir el ajo, el limón, el comino y la sal.",
+      "Rociar con abundante aceite y servir con tomate, perejil, cebolla, menta, encurtidos y pan."
+     ]
+    }
+   ],
+   "notes": "De origen probablemente egipcio (Food Heritage Foundation); en el Líbano es desayuno y lleva garbanzos.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-falafel",
+   "tab": "recetas",
+   "name": "Falafel",
+   "group": "Salado",
+   "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Comida callejera",
+   "diet": "vegano",
+   "freq": "ocasional",
+   "tag": "Líbano",
+   "yield": "20 ud.",
+   "parts": [
+    {
+     "name": "Falafel",
+     "ings": [
+      {
+       "q": "125",
+       "u": "g",
+       "n": "Garbanzo seco"
+      },
+      {
+       "q": "125",
+       "u": "g",
+       "n": "Haba seca pelada"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla pequeña"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Perejil"
+      },
+      {
+       "q": "15",
+       "u": "g",
+       "n": "Cilantro fresco"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Comino molido"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Cilantro molido"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Pimienta negra"
+      },
+      {
+       "q": "¼",
+       "u": "cdta",
+       "n": "Guindilla molida"
+      },
+      {
+       "q": "8",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Bicarbonato"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Aceite para freír"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar las legumbres por separado 12–24 h. No se cuecen.",
+      "Escurrir, secar y moler en grano fino, sin hacer puré.",
+      "Picar la cebolla, el ajo y las hierbas y mezclar con la legumbre, las especias y la sal.",
+      "Reposar 1 h en nevera.",
+      "Añadir el bicarbonato justo antes de freír.",
+      "Formar con el molde (qaleb) y freír a 175–180 ºC 3–4 min."
+     ]
+    },
+    {
+     "name": "Tarator",
+     "ings": [
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Tahini"
+      },
+      {
+       "q": "40",
+       "u": "ml",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Diente de ajo machacado"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Batir el tahini con el ajo, el limón y el agua hasta tener una salsa fluida.",
+      "Servir en pan árabe con tarator, tomate, perejil, rábano, menta y nabo encurtido."
+     ]
+    }
+   ],
+   "notes": "En el Líbano se mezcla garbanzo y haba. Récord Guinness de falafel (Beirut, 2010, 5.173 kg). El bicarbonato al final lo hace esponjoso (Anissa Helou). Falafel Sahyoun, en Beirut, abrió en 1933.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-batata-harra",
+   "tab": "recetas",
+   "name": "Batata harra",
+   "group": "Salado",
+   "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Mazza / Calientes (sukhne)",
+   "diet": "vegano",
+   "freq": "ocasional",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Patata en dados de 2 cm"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite para freír"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Diente de ajo machacado"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Guindilla roja picada"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Cilantro fresco picado"
+      },
+      {
+       "q": "35",
+       "u": "ml",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Pimienta negra"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Freír las patatas a 170–175 ºC hasta que estén doradas y crujientes. Escurrir.",
+      "Saltear en el aceite de oliva el ajo, la guindilla y la mitad del cilantro 1 min, sin quemar el ajo.",
+      "Añadir las patatas, la sal y la pimienta y saltear.",
+      "Terminar fuera del fuego con el limón y el resto del cilantro."
+     ]
+    }
+   ],
+   "notes": "«Patatas picantes». La versión tradicional es frita; las hay asadas. Fuentes: Arab News, The Matbakh.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-kibbeh-krass",
+   "tab": "recetas",
+   "name": "Kibbeh krass",
+   "group": "Salado",
+   "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Kebbeh / Frita o a la brasa",
+   "diet": "carne",
+   "freq": "ocasional",
+   "tag": "Líbano",
+   "yield": "20 ud.",
+   "parts": [
+    {
+     "name": "Masa",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Carne magra de cordero o ternera, sin nervios, muy fría"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Bulgur fino"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Cebolla rallada"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Siete especias"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Canela"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "80",
+       "u": "ml",
+       "n": "Agua helada"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar el bulgur, remojarlo 30 min en agua fría y escurrir apretando.",
+      "Picar la carne dos veces con placa fina, casi en pasta, siempre fría.",
+      "Amasar la carne con la cebolla, el bulgur, las especias y la sal, mojándose las manos en agua helada, hasta una masa lisa. Enfriar."
+     ]
+    },
+    {
+     "name": "Relleno (hashweh)",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Carne picada de cordero o ternera"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla grande picada"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Piñones"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Aceite o samneh"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Pimienta de Jamaica"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Canela"
+      }
+     ],
+     "steps": [
+      "Dorar los piñones y apartarlos.",
+      "Dorar la carne hasta que se evapore el jugo, añadir la cebolla y pocharla.",
+      "Sazonar, añadir los piñones y enfriar."
+     ]
+    },
+    {
+     "name": "Formado y fritura",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Aceite para freír"
+      }
+     ],
+     "steps": [
+      "Tomar porciones de 40 g, ahuecarlas con el dedo hasta dejar una pared de 2–3 mm.",
+      "Rellenar con 1–2 cdta de hashweh y cerrar en forma de huso.",
+      "Freír a 170–180 ºC 4–5 min. Servir con yogur o labneh."
+     ]
+    }
+   ],
+   "notes": "Siete especias (sabaa baharat): mezcla libanesa con la pimienta de Jamaica como especia principal, más pimienta negra, canela, clavo, nuez moscada, jengibre y cilantro o fenogreco; sirve la comercial. Repertorio de kibbeh de Zgharta-Ehden (L'Orient-Le Jour). Fuentes: Maureen Abood, Hadia's Lebanese Cuisine.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-sambousek-bi-lahmeh",
+   "tab": "recetas",
+   "name": "Sambousek bi lahmeh",
+   "group": "Salado",
+   "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Mu'ajjanat / Fatayer y sfiha (empanadillas)",
+   "diet": "carne",
+   "freq": "ocasional",
+   "tag": "Líbano",
+   "yield": "20 ud.",
+   "parts": [
+    {
+     "name": "Masa",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Samneh o mantequilla"
+      },
+      {
+       "q": "120",
+       "u": "ml",
+       "n": "Agua tibia"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Arenar la harina y la sal con la grasa, añadir el agua y amasar 5 min.",
+      "Reposar 30 min tapada."
+     ]
+    },
+    {
+     "name": "Relleno",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Carne picada de cordero o ternera"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla muy picada"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Piñones"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Samneh o aceite"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Siete especias"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Pimienta"
+      }
+     ],
+     "steps": [
+      "Dorar los piñones y apartarlos.",
+      "Rehogar la cebolla, añadir la carne y saltear hasta que esté seca. Sazonar, añadir los piñones y enfriar.",
+      "Estirar la masa a 2 mm y cortar discos de 9 cm.",
+      "Poner 1 cda de relleno, cerrar en media luna y repulgar.",
+      "Freír a 175–180 ºC 3–4 min."
+     ]
+    }
+   ],
+   "notes": "Empanadillas de mezze. También se hornean a 200 ºC. Fuentes: Za'atar & Zaytoun, Hilda's Kitchen.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-fatayer-bi-sabanekh",
+   "tab": "recetas",
+   "name": "Fatayer bi sabanekh",
+   "group": "Salado",
+   "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Mu'ajjanat / Fatayer y sfiha (empanadillas)",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "Líbano",
+   "yield": "20 ud.",
+   "parts": [
+    {
+     "name": "Masa",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "3",
+       "u": "g",
+       "n": "Levadura seca"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Azúcar"
+      },
+      {
+       "q": "¾",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite"
+      },
+      {
+       "q": "130",
+       "u": "ml",
+       "n": "Agua tibia"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Amasar todo y dejar levar 1–1 h 30 min."
+     ]
+    },
+    {
+     "name": "Relleno",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Espinaca fresca en tiras"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla muy picada"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Zumaque"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "45",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Piñones"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal y pimienta"
+      }
+     ],
+     "steps": [
+      "Frotar la cebolla con zumaque, sal y pimienta.",
+      "Salar la espinaca, frotarla y escurrirla a mano todo lo posible.",
+      "Mezclar todo y dejar escurrir el relleno en un colador.",
+      "Estirar la masa a 2 mm, cortar discos de 9 cm y poner 1 cda de relleno.",
+      "Cerrar en triángulo pellizcando bien las uniones.",
+      "Hornear a 220 ºC 10–15 min."
+     ]
+    }
+   ],
+   "notes": "El relleno debe ser muy ácido y estar bien escurrido para que no se abran. Fuentes: Anissa Helou (Middle East Eye), Maureen Abood.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-man-oushe-bi-za-atar",
+   "tab": "recetas",
+   "name": "Man'oushé bi za'atar",
+   "group": "Salado",
+   "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Mu'ajjanat / Manaqish (panes abiertos)",
+   "diet": "vegano",
+   "freq": "semanal",
+   "tag": "Líbano",
+   "yield": "4 ud.",
+   "parts": [
+    {
+     "name": "Masa",
+     "ings": [
+      {
+       "q": "360",
+       "u": "g",
+       "n": "Harina de fuerza"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Harina floja"
+      },
+      {
+       "q": "3",
+       "u": "g",
+       "n": "Levadura seca"
+      },
+      {
+       "q": "300",
+       "u": "ml",
+       "n": "Agua tibia"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "12",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "15",
+       "u": "ml",
+       "n": "Aceite"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar los secos y añadir el agua con la levadura y el aceite.",
+      "Amasar 5–10 min y dejar levar 1 h 30 min–2 h.",
+      "Dividir en 4 bolas y reposar 30 min."
+     ]
+    },
+    {
+     "name": "Cobertura",
+     "ings": [
+      {
+       "q": "55",
+       "u": "g",
+       "n": "Za'atar (mezcla)"
+      },
+      {
+       "q": "120",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      }
+     ],
+     "steps": [
+      "Mezclar el za'atar con el aceite.",
+      "Estirar cada bola a 25 cm y 6 mm de grosor y marcarla con las yemas de los dedos.",
+      "Untar la mezcla dejando 1 cm de borde.",
+      "Hornear a 200 ºC sobre piedra 7–10 min (o en saj 3–5 min).",
+      "Servir recién hecha, con tomate, pepino, menta, aceitunas o labneh."
+     ]
+    }
+   ],
+   "notes": "Patrimonio Cultural Inmaterial de la UNESCO (2023): «Al-Man'ouché, práctica culinaria emblemática del Líbano». Masa de Barbara Abdeni Massaad («Man'oushé», 2020). Ver «Za'atar» en Productos.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-lahm-bi-ajin",
+   "tab": "recetas",
+   "name": "Lahm bi ajin",
+   "group": "Salado",
+   "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Mu'ajjanat / Manaqish (panes abiertos)",
+   "diet": "carne",
+   "freq": "ocasional",
+   "tag": "Líbano",
+   "yield": "8 ud.",
+   "parts": [
+    {
+     "name": "Masa",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "4",
+       "u": "g",
+       "n": "Levadura seca"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Aceite"
+      },
+      {
+       "q": "175",
+       "u": "ml",
+       "n": "Agua tibia"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Amasar y dejar levar 1 h."
+     ]
+    },
+    {
+     "name": "Cobertura",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Carne picada de cordero (20 % grasa)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla muy picada"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Tomate picado y escurrido"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Concentrado de tomate"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Melaza de granada"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Siete especias"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Pimentón"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Pimienta"
+      }
+     ],
+     "steps": [
+      "Mezclar la cobertura en crudo con las manos.",
+      "Dividir la masa en 8 bolas y estirarlas a 15 cm, muy finas.",
+      "Extender una capa fina de carne casi hasta el borde.",
+      "Hornear a 230–250 ºC sobre piedra o bandeja caliente 8–12 min.",
+      "Servir con limón, yogur y cebolla con zumaque."
+     ]
+    }
+   ],
+   "notes": "Pan plano con carne cruda que se cuece en el horno. Fuente principal: «Sofra» (vía SBS).",
+   "done": false
+  },
+  {
+   "id": "r-recetas-sfiha-baalbakiyeh",
+   "tab": "recetas",
+   "name": "Sfiha baalbakiyeh",
+   "group": "Salado",
+   "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Mu'ajjanat / Fatayer y sfiha (empanadillas)",
+   "diet": "carne",
+   "freq": "ocasional",
+   "tag": "Líbano / Bekaa",
+   "yield": "20 ud.",
+   "parts": [
+    {
+     "name": "Masa",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "90",
+       "u": "g",
+       "n": "Mantequilla o samneh"
+      },
+      {
+       "q": "4",
+       "u": "g",
+       "n": "Levadura seca"
+      },
+      {
+       "q": "8",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "265",
+       "u": "ml",
+       "n": "Agua a 45 ºC"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Arenar la harina con la mantequilla y añadir la levadura y la sal.",
+      "Incorporar el agua, amasar hasta que esté lisa y dejar levar 1 h."
+     ]
+    },
+    {
+     "name": "Relleno",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Cordero con grasa picado a cuchillo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Cebolla muy picada"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Tomate picado fino y escurrido"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Labneh"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Piñones"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Pimienta de Jamaica"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Canela"
+      }
+     ],
+     "steps": [
+      "Mezclar el relleno en crudo.",
+      "Estirar la masa a 2–3 mm y cortar cuadrados de 8 cm.",
+      "Poner 1 cda de relleno y pellizcar las cuatro esquinas para formar una cajita abierta.",
+      "Hornear a 220–250 ºC 10–12 min.",
+      "Servir en montón con limón y yogur."
+     ]
+    }
+   ],
+   "notes": "Especialidad de Baalbek (L'Orient-Le Jour). Masa de Ramzi Choueiri («The Arabian Cookbook»). Las versiones modernas añaden tahini, melaza de granada o pasta de pimiento.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-makanek",
+   "tab": "recetas",
+   "name": "Makanek",
+   "group": "Salado",
+   "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Mazza / Calientes (sukhne)",
+   "diet": "carne",
+   "freq": "ocasional",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Carne picada de cordero y ternera (25 % grasa)"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Piñones"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Cilantro molido"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Pimentón"
+      },
+      {
+       "q": "¼",
+       "u": "cdta",
+       "n": "Nuez moscada"
+      },
+      {
+       "q": "¼",
+       "u": "cdta",
+       "n": "Pimienta negra"
+      },
+      {
+       "q": "¼",
+       "u": "cdta",
+       "n": "Pimienta blanca"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Clavo molido"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Vinagre de vino tinto"
+      },
+      {
+       "q": "10",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "3",
+       "u": "m",
+       "n": "Tripa fina de cordero"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Aceite"
+      },
+      {
+       "q": "40",
+       "u": "ml",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Melaza de granada"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar la tripa 1 h en agua con vinagre y enjuagar.",
+      "Mezclar la carne con las especias, la sal, el vinagre y los piñones.",
+      "Embutir firme sin reventar y retorcer en eslabones de 5 cm.",
+      "Dejar secar 24–48 h en nevera (opcional).",
+      "Saltear 8–9 min, girando, añadir el limón y cocinar 1 min.",
+      "Napar con la melaza de granada y servir con pan árabe."
+     ]
+    }
+   ],
+   "notes": "Salchichitas de mezze; el nombre viene del latín lucanica. Sin tripa: formar cilindros con film.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-arayes",
+   "tab": "recetas",
+   "name": "Arayes",
+   "group": "Salado",
+   "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Mashawi",
+   "diet": "carne",
+   "freq": "ocasional",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Pan árabe de 20 cm"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Carne picada de cordero (20 % grasa)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla rallada y escurrida"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Perejil picado"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Siete especias"
+      },
+      {
+       "q": "¼",
+       "u": "cdta",
+       "n": "Canela"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimienta de Alepo"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite de oliva"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Amasar bien la carne con la cebolla, el perejil, el ajo y las especias.",
+      "Abrir el pan y extender una capa de 5 mm de carne cruda hasta los bordes.",
+      "Cerrar, presionar y pincelar el pan por fuera con aceite.",
+      "Asar a la brasa o plancha a fuego medio 4–5 min por lado, hasta que el pan cruja y la carne esté hecha.",
+      "Cortar en cuartos y servir con tarator."
+     ]
+    }
+   ],
+   "notes": "«Novias». Claudia Roden ya lo recoge en restaurantes libaneses en 1968. También al horno a 200–220 ºC 15–20 min.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-kibbeh-bil-sanieh",
+   "tab": "recetas",
+   "name": "Kibbeh bil sanieh",
+   "group": "Salado",
+   "cat": "Carnes / Ovino",
+   "local": "Kebbeh / Al horno (bil sanieh)",
+   "diet": "carne",
+   "freq": "ocasional",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Masa",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Carne magra de cordero o ternera"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Bulgur fino"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Canela"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Siete especias"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Agua helada"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar el bulgur, remojarlo 15–30 min y escurrir apretando.",
+      "Picar la carne dos veces y amasar con la cebolla rallada, las especias, el bulgur y agua helada hasta una pasta lisa."
+     ]
+    },
+    {
+     "name": "Relleno",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Carne picada"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla picada"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Piñones"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Samneh o aceite"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Canela"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Siete especias"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Dorar los piñones y apartarlos.",
+      "Pochar la cebolla, añadir la carne, dorarla y sazonar. Añadir los piñones y enfriar."
+     ]
+    },
+    {
+     "name": "Montaje",
+     "ings": [
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite de oliva o samneh"
+      }
+     ],
+     "steps": [
+      "Engrasar un molde de 26 cm y cubrir el fondo con la mitad de la masa (6–8 mm), alisando con las manos mojadas.",
+      "Extender el relleno y cubrir con la otra mitad en placas, sellando las juntas.",
+      "Marcar rombos hasta el fondo, hacer un agujero en el centro y regar con el aceite.",
+      "Hornear a 200 ºC 40–50 min.",
+      "Servir tibio con yogur y ensalada."
+     ]
+    }
+   ],
+   "notes": "Siete especias (sabaa baharat): mezcla libanesa con la pimienta de Jamaica como especia principal, más pimienta negra, canela, clavo, nuez moscada, jengibre y cilantro o fenogreco; sirve la comercial. El kibbeh es el plato nacional. Récord Guinness del mayor kibbeh: Ehden (Zgharta), 2009, 233 kg. Fuentes: Maureen Abood, Alan Geaam (L'Orient-Le Jour).",
+   "done": false
+  },
+  {
+   "id": "r-recetas-kibbeh-nayeh",
+   "tab": "recetas",
+   "name": "Kibbeh nayeh",
+   "group": "Salado",
+   "cat": "Entremeses y aperitivos / Fríos",
+   "local": "Kebbeh / Cruda (nayye)",
+   "diet": "carne",
+   "freq": "ocasional",
+   "tag": "Líbano / Norte",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Carne muy magra recién cortada (pierna de cordero, cabra o redondo)"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Bulgur fino blanco"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Cebolla dulce en puré"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Canela"
+      },
+      {
+       "q": "¼",
+       "u": "cdta",
+       "n": "Pimienta"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Cayena"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Agua helada (máximo)"
+      },
+      {
+       "q": "3",
+       "u": "cda",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Hojas de menta, cebolleta y pan árabe"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Congelar la carne a –20 ºC 48 h y descongelar en nevera.",
+      "Lavar el bulgur y escurrirlo apretando bien.",
+      "Limpiar la carne de toda grasa y nervio, cortarla en tiras y enfriarla 30 min en el congelador.",
+      "Picarla dos veces con placa fina en una picadora limpia y fría.",
+      "Amasar con la cebolla y el bulgur, mojándose las manos en agua helada, sin pasar de 60 ml de agua.",
+      "Sazonar, extender en una fuente, marcar surcos y regar con aceite.",
+      "Servir al momento con menta, cebolleta y pan."
+     ]
+    }
+   ],
+   "notes": "Emblema de Zgharta-Ehden, donde se machaca en mortero de piedra (jurn). Kamal Mouzawak lo llama «la comida festiva libanesa por excelencia». SEGURIDAD: nunca con carne picada de bandeja; todo por debajo de 4 ºC; congelar antes contra parásitos (no elimina bacterias); lo que sobre, cocinarlo. Desaconsejado en embarazo, niños, mayores e inmunodeprimidos.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-kibbeh-labanieh",
+   "tab": "recetas",
+   "name": "Kibbeh labanieh",
+   "group": "Salado",
+   "cat": "Carnes / Ovino",
+   "local": "Kebbeh / Guisada en salsa",
+   "diet": "carne",
+   "freq": "ocasional",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Bolas de kibbeh",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Carne magra"
+      },
+      {
+       "q": "125",
+       "u": "g",
+       "n": "Bulgur fino"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Cebolla"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "¼",
+       "u": "cdta",
+       "n": "Canela"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Carne picada (relleno)"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Piñones"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Samneh"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hacer la masa de kibbeh y un relleno salteado de carne, cebolla y piñones como para el kibbeh krass.",
+      "Formar bolas del tamaño de una nuez, ahuecarlas, rellenar y cerrar.",
+      "Hornearlas 15 min a 200 ºC sin dorar."
+     ]
+    },
+    {
+     "name": "Salsa de yogur",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Yogur natural entero"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Huevo"
+      },
+      {
+       "q": "12",
+       "u": "g",
+       "n": "Maicena en 60 ml de agua fría"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Mantequilla"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Diente de ajo machacado"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Cilantro fresco picado"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Menta seca"
+      }
+     ],
+     "steps": [
+      "Batir el yogur con el huevo, la maicena y la sal.",
+      "Calentar a fuego medio removiendo siempre en el mismo sentido hasta que hierva (así no se corta).",
+      "Añadir las bolas y cocer a fuego suave, sin tapar, 15–20 min.",
+      "Sofreír el ajo y el cilantro en la mantequilla 45 s y añadirlos con la menta seca; hervir 5 min.",
+      "Servir con arroz con fideos."
+     ]
+    }
+   ],
+   "notes": "«Plato blanco» de principio de año, para atraer la buena suerte (Tara Khattar, L'Orient-Le Jour). Fuentes: Maureen Abood, Hadia's Lebanese Cuisine.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-shish-barak",
+   "tab": "recetas",
+   "name": "Shish barak",
+   "group": "Salado",
+   "cat": "Pastas alimenticias",
+   "local": "Tabkhat / En yogur",
+   "diet": "carne",
+   "freq": "ocasional",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Empanadillas",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Aceite"
+      },
+      {
+       "q": "145",
+       "u": "ml",
+       "n": "Agua tibia"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Cordero picado"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla muy picada"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Samneh"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Pimienta de Jamaica"
+      },
+      {
+       "q": "¼",
+       "u": "cdta",
+       "n": "Canela"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Amasar la harina, la sal, el aceite y el agua y reposar 30 min.",
+      "Pochar la cebolla, añadir la carne y las especias y cocinar hasta que se evapore el jugo. Enfriar.",
+      "Estirar la masa a 1–2 mm y cortar discos de 6 cm.",
+      "Rellenar con ½ cdta, cerrar en media luna y unir las puntas alrededor del dedo en forma de anillo.",
+      "Hornear 10 min a 180 ºC sin dorar."
+     ]
+    },
+    {
+     "name": "Salsa de yogur",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Yogur"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Clara de huevo"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Maicena en 120 ml de agua"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Samneh"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Diente de ajo machacado"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Cilantro fresco picado"
+      }
+     ],
+     "steps": [
+      "Calentar el yogur con la clara, la maicena y la sal removiendo siempre en el mismo sentido hasta que hierva.",
+      "Añadir las empanadillas y cocer 10–15 min.",
+      "Sofreír el ajo y el cilantro en la samneh e incorporarlos al final."
+     ]
+    }
+   ],
+   "notes": "Empanadillas en yogur, compartidas con Siria y Palestina. Fuentes: DiscoverLebanon, chef Rober Salloum (Gulf News).",
+   "done": false
+  },
+  {
+   "id": "r-recetas-kafta-mashwiyeh",
+   "tab": "recetas",
+   "name": "Kafta mashwiyeh",
+   "group": "Salado",
+   "cat": "Carnes / Bovino",
+   "local": "Mashawi",
+   "diet": "carne",
+   "freq": "ocasional",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Carne picada de ternera o cordero (15–20 % grasa)"
+      },
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Cebolla rallada y escurrida"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Perejil muy picado"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Siete especias"
+      },
+      {
+       "q": "¼",
+       "u": "cdta",
+       "n": "Canela"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "¼",
+       "u": "cdta",
+       "n": "Pimienta"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Aceite"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar y amasar todo y enfriar al menos 1 h.",
+      "Formar porciones de 90 g alargadas sobre brochetas planas.",
+      "Asar a la brasa a fuego medio 3 min por un lado y 4–5 min por el otro, hasta 70 ºC en el centro.",
+      "Servir en pan árabe con tomate asado, cebolla con zumaque y perejil."
+     ]
+    }
+   ],
+   "notes": "Siete especias (sabaa baharat): mezcla libanesa con la pimienta de Jamaica como especia principal, más pimienta negra, canela, clavo, nuez moscada, jengibre y cilantro o fenogreco; sirve la comercial. Fuentes: Maureen Abood, Simply Lebanese.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-shish-taouk",
+   "tab": "recetas",
+   "name": "Shish taouk",
+   "group": "Salado",
+   "cat": "Carnes / Aves y conejo",
+   "local": "Mashawi",
+   "diet": "carne",
+   "freq": "semanal",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Brochetas",
+     "ings": [
+      {
+       "q": "700",
+       "u": "g",
+       "n": "Pechuga o muslo de pollo en dados de 3–4 cm"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Yogur"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      },
+      {
+       "q": "5",
+       "u": "ud.",
+       "n": "Diente de ajo rallado"
+      },
+      {
+       "q": "1½",
+       "u": "cda",
+       "n": "Concentrado de tomate"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimentón dulce"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Pimienta de Jamaica"
+      },
+      {
+       "q": "¼",
+       "u": "cdta",
+       "n": "Canela"
+      },
+      {
+       "q": "¼",
+       "u": "cdta",
+       "n": "Orégano"
+      },
+      {
+       "q": "1½",
+       "u": "cdta",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Batir la marinada y mezclar con el pollo. Marinar en nevera 2–24 h.",
+      "Ensartar en brochetas quitando el exceso de marinada.",
+      "Asar a fuego medio-alto 10–15 min, girando, hasta 74 ºC en el centro."
+     ]
+    },
+    {
+     "name": "Toum (salsa de ajo)",
+     "ings": [
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Ajo pelado (1 cabeza)"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Aceite de girasol"
+      }
+     ],
+     "steps": [
+      "Triturar el ajo con la sal hasta hacer una pasta.",
+      "Montar con la batidora añadiendo el aceite en hilo, alternando con el limón, hasta tener una emulsión blanca y firme."
+     ]
+    }
+   ],
+   "notes": "Del turco tavuk şiş. Se sirve con toum, patatas fritas, pepinillos encurtidos y pan árabe. Fuente: Maureen Abood.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-shawarma-de-pollo",
+   "tab": "recetas",
+   "name": "Shawarma de pollo",
+   "group": "Salado",
+   "cat": "Carnes / Aves y conejo",
+   "local": "Comida callejera",
+   "diet": "carne",
+   "freq": "semanal",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Pollo",
+     "ings": [
+      {
+       "q": "800",
+       "u": "g",
+       "n": "Muslo de pollo deshuesado en tiras"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Yogur"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Zumo de naranja"
+      },
+      {
+       "q": "15",
+       "u": "ml",
+       "n": "Vinagre blanco"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite de girasol"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Concentrado de tomate"
+      },
+      {
+       "q": "2",
+       "u": "cdta",
+       "n": "Pimentón"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Siete especias"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Comino"
+      },
+      {
+       "q": "¼",
+       "u": "cdta",
+       "n": "Cardamomo"
+      },
+      {
+       "q": "¼",
+       "u": "cdta",
+       "n": "Canela"
+      },
+      {
+       "q": "¼",
+       "u": "cdta",
+       "n": "Nuez moscada"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Pimienta blanca"
+      },
+      {
+       "q": "2",
+       "u": "cdta",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar la marinada con el pollo y dejar en nevera 4–24 h.",
+      "Hornear a 220 ºC en una sola capa 35–45 min y gratinar 2–3 min al final."
+     ]
+    },
+    {
+     "name": "Toum (salsa de ajo)",
+     "ings": [
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Ajo pelado (1 cabeza)"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Aceite de girasol"
+      }
+     ],
+     "steps": [
+      "Triturar el ajo con la sal hasta hacer una pasta.",
+      "Montar con la batidora añadiendo el aceite en hilo, alternando con el limón, hasta tener una emulsión blanca y firme."
+     ]
+    },
+    {
+     "name": "Montaje",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Pan árabe fino"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pepinillo encurtido en tiras"
+      }
+     ],
+     "steps": [
+      "Untar el pan con toum, poner el pollo y los pepinillos, enrollar y tostar."
+     ]
+    }
+   ],
+   "notes": "Versión casera del icono callejero de Beirut, heredero del döner otomano. Fuentes: Hadia's Lebanese Cuisine, L'Orient-Le Jour.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-riz-a-djej",
+   "tab": "recetas",
+   "name": "Riz a djej",
+   "group": "Salado",
+   "cat": "Arroces",
+   "local": "Tabkhat / Arroces y cereales",
+   "diet": "carne",
+   "freq": "semanal",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Pollo y caldo",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pollo de 1,5 kg"
+      },
+      {
+       "q": "2,5",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cocer el pollo con los aromáticos a fuego suave 1–1 h 30 min. Desmenuzar y reservar el caldo."
+     ]
+    },
+    {
+     "name": "Arroz",
+     "ings": [
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Piñones"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Almendras peladas"
+      },
+      {
+       "q": "3",
+       "u": "cda",
+       "n": "Mantequilla"
+      },
+      {
+       "q": "½",
+       "u": "ud.",
+       "n": "Cebolla picada"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Carne picada de cordero o ternera"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Canela"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Pimienta de Jamaica"
+      },
+      {
+       "q": "¼",
+       "u": "cdta",
+       "n": "Nuez moscada"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Arroz de grano medio, remojado 30 min"
+      },
+      {
+       "q": "480",
+       "u": "ml",
+       "n": "Caldo del pollo"
+      }
+     ],
+     "steps": [
+      "Tostar los frutos secos en la mantequilla por separado y escurrir.",
+      "En esa grasa, sofreír la cebolla y la carne, añadir las especias y el arroz y nacarar 1 min.",
+      "Añadir el caldo, tapar y cocer a fuego mínimo 12–15 min; reposar 10 min con un paño bajo la tapa.",
+      "Montar en un bol en capas de pollo y arroz, desmoldar y cubrir con los frutos secos.",
+      "Servir con yogur aparte."
+     ]
+    }
+   ],
+   "notes": "Arroz de fiesta. Anissa Helou («Lebanon», 2026) asa el pollo entero relleno de este arroz.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-kousa-mahshi",
+   "tab": "recetas",
+   "name": "Kousa mahshi",
+   "group": "Salado",
+   "cat": "Hortalizas",
+   "local": "Mahashi",
+   "diet": "carne",
+   "freq": "ocasional",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "12",
+       "u": "ud.",
+       "n": "Calabacín libanés claro (1 kg)"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Carne picada de cordero o ternera"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Arroz redondo lavado"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Samneh derretida"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Canela"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Siete especias"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Tomate triturado"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Concentrado de tomate"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Diente de ajo partido"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Agua (aprox.)"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Menta seca"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Vaciar los calabacines con un descorazonador sin perforar el fondo.",
+      "Mezclar la carne, el arroz, la samneh y las especias y rellenar hasta ¾, sin apretar.",
+      "Colocar en una olla alta, inclinados, con el ajo entre ellos.",
+      "Cubrir con el tomate, el concentrado y el agua y poner un plato encima.",
+      "Cocer a fuego suave 45–60 min, hasta que el arroz esté hecho, y añadir la menta al final.",
+      "Servir con su caldo y yogur."
+     ]
+    }
+   ],
+   "notes": "Versión en tomate (bi banadoura); la otra se hace en yogur (bi laban). Mejora de un día para otro (Maureen Abood).",
+   "done": false
+  },
+  {
+   "id": "r-recetas-malfouf-mahshi",
+   "tab": "recetas",
+   "name": "Malfouf mahshi",
+   "group": "Salado",
+   "cat": "Hortalizas",
+   "local": "Mahashi",
+   "diet": "carne",
+   "freq": "ocasional",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Col blanca (1,3 kg)"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Carne picada de cordero o ternera"
+      },
+      {
+       "q": "120",
+       "u": "g",
+       "n": "Arroz redondo lavado"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Samneh derretida"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Siete especias"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Patata en rodajas"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cabeza de ajo (dientes pelados)"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Menta seca"
+      },
+      {
+       "q": "600",
+       "u": "ml",
+       "n": "Caldo o agua"
+      },
+      {
+       "q": "70",
+       "u": "ml",
+       "n": "Zumo de limón"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Escaldar la col sin el troncho 3–6 min y separar las hojas.",
+      "Quitar el nervio central y cortar las hojas grandes del tamaño de una palma.",
+      "Poner 1 cda de relleno (carne, arroz, samneh y especias) en cada hoja y enrollar apretado.",
+      "Cubrir el fondo de la olla con la patata y colocar los rollitos en capas con los ajos entre ellas.",
+      "Añadir el caldo, la menta y sal y poner un plato encima.",
+      "Cocer a fuego suave 1 h 30 min–2 h y añadir el limón los últimos 5–10 min (antes amarga).",
+      "Desmoldar sobre una fuente."
+     ]
+    }
+   ],
+   "notes": "Plato de invierno. Kamal Mouzawak («Manger libanais») añade perejil, menta y cebolla al relleno.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-mujaddara",
+   "tab": "recetas",
+   "name": "Mujaddara",
+   "group": "Salado",
+   "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "Tabkhat / Arroces y cereales",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Lenteja verde o pardina grande"
+      },
+      {
+       "q": "1,5",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Arroz redondo"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Bulgur grueso (opcional)"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Cebolla mediana picada fina"
+      },
+      {
+       "q": "90",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Comino"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Pimienta de Jamaica"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal y pimienta"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cocer las lentejas en el agua 1 h, hasta que estén muy tiernas.",
+      "Pochar la cebolla en el aceite hasta que esté dorada.",
+      "Añadir a las lentejas la cebolla con su aceite, el arroz, el bulgur y las especias.",
+      "Cocer 20 min sin tapar, removiendo a menudo.",
+      "Triturar si se quiere y extender en platos hondos; espesa al enfriar.",
+      "Servir templada o fría con ensalada, cebolleta y pan."
+     ]
+    }
+   ],
+   "notes": "Plato de Cuaresma. La mujaddara es la versión en puré; la moudardara, la de grano suelto con cebolla crujiente encima (Anissa Helou, Food Heritage Foundation).",
+   "done": false
+  },
+  {
+   "id": "r-recetas-moghrabieh",
+   "tab": "recetas",
+   "name": "Moghrabieh",
+   "group": "Salado",
+   "cat": "Pastas alimenticias",
+   "local": "Tabkhat / Arroces y cereales",
+   "diet": "carne",
+   "freq": "semanal",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "Pollo y caldo",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pollo de 1,3 kg en cuartos"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Vaina de cardamomo"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Clavo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hervir el pollo y espumar, añadir la cebolla y las especias y cocer 40 min. Sacar el pollo y colar el caldo."
+     ]
+    },
+    {
+     "name": "Moghrabieh",
+     "ings": [
+      {
+       "q": "350",
+       "u": "g",
+       "n": "Moghrabieh seca"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Garbanzo cocido"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Cebollita perla o chalota"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Alcaravea molida"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Canela molida"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Siete especias"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Mantequilla"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Harina"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite de oliva"
+      }
+     ],
+     "steps": [
+      "Escaldar la moghrabieh 30 min en agua hirviendo, escurrir y aliñar con las especias molidas.",
+      "Saltearla en 3 cda de aceite, añadir 500 ml de caldo, tapar y cocer 20 min.",
+      "Glasear las cebollitas en aceite con el azúcar, sal y un poco de agua.",
+      "Hacer un roux con la mantequilla y la harina y mojar con 500 ml de caldo.",
+      "Añadir a la salsa parte de los garbanzos, de las cebollitas y del pollo; mezclar el resto con la moghrabieh.",
+      "Servir la moghrabieh con el pollo encima y la salsa aparte."
+     ]
+    }
+   ],
+   "notes": "Plato de domingo de las ciudades, según Kamal Mouzawak («Manger libanais»). La alcaravea es la especia clave.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-mloukhieh",
+   "tab": "recetas",
+   "name": "Mloukhieh",
+   "group": "Salado",
+   "cat": "Sopas, consomés, cremas, potajes y cocidos / Potajes y cocidos",
+   "local": "Tabkhat / Yakhneh (guisos)",
+   "diet": "carne",
+   "freq": "semanal",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pollo de 1,3 kg"
+      },
+      {
+       "q": "2",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "700",
+       "u": "g",
+       "n": "Hojas de mloukhieh frescas o congeladas"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cabeza de ajo"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Cilantro fresco"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Semilla de cilantro machacada"
+      },
+      {
+       "q": "3",
+       "u": "cda",
+       "n": "Mantequilla o aceite"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Limón (el zumo)"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Arroz con fideos"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pan árabe tostado y desmigado"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla picada en 200 ml de vinagre"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cocer el pollo en el agua con la cebolla, la canela y el laurel 50 min. Deshuesar y colar el caldo.",
+      "Sofreír el ajo machacado y el cilantro picado 5 min en la grasa.",
+      "Añadir las hojas enteras y rehogar.",
+      "Añadir 1,5 l de caldo y cocer 15–25 min.",
+      "Terminar con el limón y el pollo.",
+      "Montar en plato hondo: arroz, pollo, guiso y pan tostado, con la cebolla en vinagre aparte."
+     ]
+    }
+   ],
+   "notes": "Estilo libanés: hojas enteras (en Egipto se pican). Receta de Tara Khattar (L'Orient-Le Jour).",
+   "done": false
+  },
+  {
+   "id": "r-recetas-sayadieh",
+   "tab": "recetas",
+   "name": "Sayadieh",
+   "group": "Salado",
+   "cat": "Arroces",
+   "local": "Samak",
+   "diet": "pescado",
+   "freq": "semanal",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1,2",
+       "u": "kg",
+       "n": "Pescado blanco entero (mero, lubina, dorada), fileteado; reservar cabeza y espinas"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Cebolla en juliana"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Aceite"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Arroz basmati remojado 30 min"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "2",
+       "u": "cdta",
+       "n": "Comino"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Siete especias"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Hoja de laurel"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Piñones y almendras"
+      },
+      {
+       "q": "½",
+       "u": "ud.",
+       "n": "Limón (el zumo)"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal y pimienta blanca"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Freír la cebolla lentamente hasta que esté marrón muy oscuro, sin quemar. Apartar un tercio.",
+      "Dorar la cabeza y las espinas con el resto de la cebolla, las especias enteras y la mitad del comino.",
+      "Añadir el agua, cocer 45 min y colar: este fondo oscuro da el color.",
+      "Enharinar el pescado sazonado y freírlo.",
+      "Rehogar el arroz con el resto de especias, cubrir con 600 ml del fondo y cocer 20 min.",
+      "Reducir el fondo restante con el limón para la salsa.",
+      "Servir el arroz con el pescado encima, la cebolla y los frutos secos tostados, y la salsa aparte."
+     ]
+    }
+   ],
+   "notes": "«La del pescador»: plato de los pueblos pesqueros de la costa. El color viene solo de la cebolla (la cúrcuma es moderna).",
+   "done": false
+  },
+  {
+   "id": "r-recetas-samkeh-harra",
+   "tab": "recetas",
+   "name": "Samkeh harra",
+   "group": "Salado",
+   "cat": "Pescados",
+   "local": "Samak",
+   "diet": "pescado",
+   "freq": "semanal",
+   "tag": "Líbano / Norte",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1,2",
+       "u": "kg",
+       "n": "Pescado entero (mero, dorada, corvina), limpio"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Limón en rodajas"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Tahini"
+      },
+      {
+       "q": "200",
+       "u": "ml",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "400",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Cilantro fresco picado"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Diente de ajo majado"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Nuez picada"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pimiento verde en tiras finas"
+      },
+      {
+       "q": "2",
+       "u": "cdta",
+       "n": "Guindilla fresca picada"
+      },
+      {
+       "q": "3",
+       "u": "cda",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "20",
+       "u": "g",
+       "n": "Almendra laminada y piñones fritos"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal, comino y cilantro molido"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Untar el pescado con sal, especias y aceite, rellenarlo de limón y envolverlo en papel de aluminio.",
+      "Hornear a 180 ºC 35–40 min.",
+      "Batir el tahini con el limón y el agua y añadir el cilantro, el ajo, la nuez, el pimiento, la guindilla y el aceite.",
+      "Llevar a ebullición removiendo hasta que la salsa oscurezca y el aceite suba.",
+      "Napar el pescado y terminar con los frutos secos."
+     ]
+    }
+   ],
+   "notes": "«Pescado picante» de Trípoli (barrio de El Mina). Receta de Hana el-Zeini para la Food Heritage Foundation; para ocasiones y reuniones familiares.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-shorbat-adas",
+   "tab": "recetas",
+   "name": "Shorbat adas",
+   "group": "Salado",
+   "cat": "Sopas, consomés, cremas, potajes y cocidos / Cremas calientes",
+   "local": "Tabkhat / Sopas (shorba)",
+   "diet": "vegano",
+   "freq": "diario",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Lenteja roja lavada"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Zanahoria"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Patata pequeña"
+      },
+      {
+       "q": "1,5",
+       "u": "l",
+       "n": "Agua o caldo"
+      },
+      {
+       "q": "3",
+       "u": "cda",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "1½",
+       "u": "cdta",
+       "n": "Comino"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Pimienta negra"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Limón (el zumo, más gajos)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pan árabe frito en dados"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Rehogar la cebolla en el aceite.",
+      "Añadir las lentejas, las verduras y el agua y cocer 30–45 min.",
+      "Triturar hasta que quede lisa, sazonar con el comino, la pimienta y la sal y cocer 10 min más.",
+      "Añadir el limón fuera del fuego y servir con el pan frito y gajos de limón."
+     ]
+    }
+   ],
+   "notes": "Crema de lentejas rojas. La otra sopa clásica es el adas bi hamod, de lenteja pardina, acelga y mucho limón (Food Heritage Foundation).",
+   "done": false
+  },
+  {
+   "id": "r-recetas-fatteh-hummus",
+   "tab": "recetas",
+   "name": "Fatteh hummus",
+   "group": "Salado",
+   "cat": "Entremeses y aperitivos / Calientes",
+   "local": "Mazza / Calientes (sukhne)",
+   "diet": "vegetariano",
+   "freq": "semanal",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Garbanzo cocido y 150 ml de su caldo"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Comino"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Pan árabe en cuadrados"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Yogur entero"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Tahini"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Diente de ajo majado con sal"
+      },
+      {
+       "q": "½",
+       "u": "ud.",
+       "n": "Limón (el zumo)"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Piñones"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Samneh o mantequilla"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Pimentón"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Perejil"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Tostar o freír el pan hasta que cruja.",
+      "Calentar los garbanzos en su caldo con el comino.",
+      "Batir el yogur con el ajo, el tahini y el limón, a temperatura ambiente.",
+      "Montar: pan, garbanzos con un poco de caldo y yogur por encima.",
+      "Dorar los piñones en la mantequilla y verterlos chisporroteando.",
+      "Terminar con pimentón y perejil y servir al momento."
+     ]
+    }
+   ],
+   "notes": "Desayuno de fin de semana en Beirut y forma de aprovechar el pan duro. Ramzi Choueiri también logró un récord con la fatteh.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-moussaka-a-batinjan",
+   "tab": "recetas",
+   "name": "Moussaka'a batinjan",
+   "group": "Salado",
+   "cat": "Hortalizas",
+   "local": "Bi zeit",
+   "diet": "vegano",
+   "freq": "semanal",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Berenjena grande en dados de 2 cm"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Garbanzo cocido"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Cebolla en pluma"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Diente de ajo"
+      },
+      {
+       "q": "800",
+       "u": "g",
+       "n": "Tomate maduro picado"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Concentrado de tomate"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Siete especias"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal y pimienta"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Freír o asar la berenjena.",
+      "Pochar la cebolla y el ajo.",
+      "Añadir el tomate, el concentrado y las especias.",
+      "Incorporar la berenjena y los garbanzos y cocer tapado 30–40 min a fuego suave.",
+      "Dejar enfriar y servir frío o a temperatura ambiente."
+     ]
+    }
+   ],
+   "notes": "Guiso vegano sin carne, de mezze o principal (Salma Hage, «The Lebanese Kitchen»). No es la musaca griega.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-kebbeh-arnabieh",
+   "tab": "recetas",
+   "name": "Kebbeh arnabieh",
+   "group": "Salado",
+   "cat": "Carnes / Ovino",
+   "local": "Kebbeh / Guisada en salsa",
+   "diet": "carne",
+   "freq": "ocasional",
+   "tag": "Líbano / Beirut",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "20",
+       "u": "ud.",
+       "n": "Kibbeh hueca rellena (ver kibbeh krass), sin freír"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Tahini"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Zumo de naranja amarga"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Zumo de naranja"
+      },
+      {
+       "q": "125",
+       "u": "ml",
+       "n": "Zumo de mandarina"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Cebolla en juliana"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Aceite"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Garbanzo cocido"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal y pimienta blanca"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Dorar la cebolla en el aceite y añadir los garbanzos.",
+      "Batir el tahini con los zumos hasta que quede liso y añadirlo.",
+      "Cocer a fuego medio removiendo hasta que aflore el aceite.",
+      "Al hervir, añadir las kibbeh y cocer 10 min.",
+      "Sazonar y servir con arroz con fideos."
+     ]
+    }
+   ],
+   "notes": "«Una de las recetas célebres de Beirut» (Food Heritage Foundation). Plato de invierno y de Año Nuevo, en temporada de naranja amarga: en Valencia, de enero a marzo. Variante rápida con dados de cordero.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-yakhnet-bamieh",
+   "tab": "recetas",
+   "name": "Yakhnet bamieh",
+   "group": "Salado",
+   "cat": "Carnes / Ovino",
+   "local": "Tabkhat / Yakhneh (guisos)",
+   "diet": "carne",
+   "freq": "ocasional",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Okra pequeña con el capuchón recortado"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Cordero o ternera en dados"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cebolla picada"
+      },
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Tomate maduro picado"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Concentrado de tomate"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Agua o caldo"
+      },
+      {
+       "q": "3",
+       "u": "cda",
+       "n": "Samneh o aceite"
+      },
+      {
+       "q": "6",
+       "u": "ud.",
+       "n": "Diente de ajo majado"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Cilantro fresco picado"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Cilantro molido"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Siete especias"
+      },
+      {
+       "q": "½",
+       "u": "ud.",
+       "n": "Limón (el zumo)"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal y pimienta"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Dorar la cebolla con la carne y añadir el tomate, el concentrado y el agua; cocer hasta que la carne esté tierna (40–60 min).",
+      "Saltear aparte la okra a fuego vivo hasta dorar (reduce la baba).",
+      "Añadirla al guiso y cocer 10–20 min.",
+      "Sofreír el ajo con los dos cilantros 2 min, añadir y cocer 3 min.",
+      "Terminar con el limón y servir con arroz con fideos."
+     ]
+    }
+   ],
+   "notes": "La versión vegetal en aceite (bamieh bi zeit) se sirve fría. Fuentes: Gulf News, Za'atar & Zaytoun.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-knefeh",
+   "tab": "recetas",
+   "name": "Knefeh",
+   "group": "Dulce",
+   "cat": "",
+   "local": "Halawiyat / Con almíbar o ashta",
+   "diet": "vegetariano",
+   "freq": "ocasional",
+   "tag": "Líbano",
+   "yield": "8 raciones",
+   "parts": [
+    {
+     "name": "Ater (almíbar)",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "240",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Agua de azahar"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Agua de rosas (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hervir el azúcar con el agua y el limón y mantener 5–7 min a fuego suave.",
+      "Fuera del fuego, añadir el agua de azahar (y de rosas) y enfriar por completo."
+     ]
+    },
+    {
+     "name": "Base y relleno",
+     "ings": [
+      {
+       "q": "225",
+       "u": "g",
+       "n": "Kataifi triturado fino"
+      },
+      {
+       "q": "110",
+       "u": "g",
+       "n": "Pan rallado"
+      },
+      {
+       "q": "225",
+       "u": "g",
+       "n": "Mantequilla fundida"
+      },
+      {
+       "q": "225",
+       "u": "g",
+       "n": "Queso akkawi desalado (o mozzarella)"
+      },
+      {
+       "q": "480",
+       "u": "ml",
+       "n": "Leche entera"
+      },
+      {
+       "q": "55",
+       "u": "g",
+       "n": "Sémola fina"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Pistacho picado"
+      }
+     ],
+     "steps": [
+      "Desalar el akkawi en lonchas 2 h, cambiando el agua cada 10 min, y rallarlo.",
+      "Mezclar el kataifi, el pan rallado, la mantequilla y 120 ml de ater y prensar en un molde de 25 cm.",
+      "Calentar la leche, añadir la sémola, remover 2 min y mezclar con el queso.",
+      "Extender sobre la base y hornear a 200 ºC 30–40 min, hasta que la base esté bien dorada.",
+      "Reposar 15 min, volcar, regar con ater frío y espolvorear pistacho.",
+      "Servir caliente, también dentro de un ka'ak de sésamo."
+     ]
+    }
+   ],
+   "notes": "Desayuno callejero de Beirut y especialidad de las pastelerías de Trípoli (Hallab, desde 1881). Receta de Maureen Abood. Lo más tradicional: base solo de kataifi con ghee, cocida sobre el fuego.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-halawet-el-jibn",
+   "tab": "recetas",
+   "name": "Halawet el jibn",
+   "group": "Dulce",
+   "cat": "",
+   "local": "Halawiyat / Con almíbar o ashta",
+   "diet": "vegetariano",
+   "freq": "ocasional",
+   "tag": "Líbano / Norte",
+   "yield": "30 ud.",
+   "parts": [
+    {
+     "name": "Ater (almíbar)",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "240",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Agua de azahar"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Agua de rosas (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hervir el azúcar con el agua y el limón y mantener 5–7 min a fuego suave.",
+      "Fuera del fuego, añadir el agua de azahar (y de rosas) y enfriar por completo."
+     ]
+    },
+    {
+     "name": "Ashta (crema)",
+     "ings": [
+      {
+       "q": "360",
+       "u": "ml",
+       "n": "Leche entera"
+      },
+      {
+       "q": "120",
+       "u": "ml",
+       "n": "Nata"
+      },
+      {
+       "q": "25",
+       "u": "g",
+       "n": "Maicena"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Agua de rosas"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Agua de azahar"
+      }
+     ],
+     "steps": [
+      "Cocer la leche, la nata, la maicena y el azúcar removiendo hasta que espese (unos 7 min).",
+      "Fuera del fuego, añadir las aguas de flores, tapar a piel y enfriar."
+     ]
+    },
+    {
+     "name": "Masa",
+     "ings": [
+      {
+       "q": "350",
+       "u": "g",
+       "n": "Queso akkawi desalado (o mozzarella)"
+      },
+      {
+       "q": "170",
+       "u": "g",
+       "n": "Sémola fina"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "300",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Pistacho molido"
+      }
+     ],
+     "steps": [
+      "Cocer el azúcar, la sémola y el agua a fuego fuerte 2 min, hasta que espese.",
+      "Bajar el fuego, fundir el queso dentro y trabajar hasta que la masa quede lisa.",
+      "Estirarla templada entre dos papeles a unos 3 mm.",
+      "Poner un cordón de ashta a lo largo de un borde y enrollar.",
+      "Cortar en piezas de 4–5 cm y servir con pistacho y el ater aparte."
+     ]
+    }
+   ],
+   "notes": "«Dulce de queso». Origen sirio (Hama u Homs, s. XIX); en el Líbano, Trípoli es su gran plaza. Se toma el mismo día; en nevera, hasta 4 días.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-ma-amoul",
+   "tab": "recetas",
+   "name": "Ma'amoul",
+   "group": "Dulce",
+   "cat": "",
+   "local": "Halawiyat / Horneados sin almíbar",
+   "diet": "vegetariano",
+   "freq": "ocasional",
+   "tag": "Líbano",
+   "yield": "30 ud.",
+   "parts": [
+    {
+     "name": "Masa",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Sémola fina"
+      },
+      {
+       "q": "125",
+       "u": "g",
+       "n": "Sémola gruesa"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Ghee"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Agua de rosas"
+      },
+      {
+       "q": "25",
+       "u": "ml",
+       "n": "Agua de azahar"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Levadura seca"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Batir el ghee a mano hasta que blanquee y añadir el azúcar, las aguas y la levadura.",
+      "Incorporar la sémola poco a poco y reposar 1–2 h."
+     ]
+    },
+    {
+     "name": "Rellenos",
+     "ings": [
+      {
+       "q": "125",
+       "u": "g",
+       "n": "Pasta de dátil"
+      },
+      {
+       "q": "125",
+       "u": "g",
+       "n": "Nuez picada"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Ghee"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Agua de rosas"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azúcar glas"
+      }
+     ],
+     "steps": [
+      "Mezclar la pasta de dátil con un poco de ghee y agua de rosas.",
+      "Mezclar la nuez con el azúcar, el resto del ghee y del agua de rosas.",
+      "Formar bolas de 25 g, rellenar, cerrar y prensar en el molde (tabe').",
+      "Hornear a 200 ºC los de nuez (8–10 min, casi blancos) y a 210 ºC los de dátil (más tostados).",
+      "Enfriar y espolvorear azúcar glas solo los de nuez."
+     ]
+    }
+   ],
+   "notes": "Pastas de Pascua y de Eid, símbolo de reunión familiar. Receta de la chef Amani (L'Orient-Le Jour), a mitad de cantidad. Cada relleno tiene su molde.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-mouhalabieh",
+   "tab": "recetas",
+   "name": "Mouhalabieh",
+   "group": "Dulce",
+   "cat": "",
+   "local": "Halawiyat / De cuchara",
+   "diet": "vegetariano",
+   "freq": "ocasional",
+   "tag": "Líbano",
+   "yield": "6 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Leche entera"
+      },
+      {
+       "q": "55",
+       "u": "g",
+       "n": "Maicena (o almidón de trigo)"
+      },
+      {
+       "q": "90",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "0,5",
+       "u": "g",
+       "n": "Mastic machacado con una pizca de azúcar glas"
+      },
+      {
+       "q": "15",
+       "u": "ml",
+       "n": "Agua de azahar"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pistacho molido"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Disolver la maicena en la leche fría.",
+      "Calentar a fuego fuerte batiendo y, al empezar a hervir, pasar a cuchara de madera.",
+      "Bajar a fuego medio y añadir el azúcar y el mastic.",
+      "Cocer hasta que nape: la raya del dedo en la cuchara no se cierra.",
+      "Fuera del fuego, añadir el azahar.",
+      "Repartir, templar y enfriar tapado. Servir con pistacho."
+     ]
+    }
+   ],
+   "notes": "Flan de leche, postre o merienda. Receta de Orange Blossom Water.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-sfouf",
+   "tab": "recetas",
+   "name": "Sfouf",
+   "group": "Dulce",
+   "cat": "",
+   "local": "Halawiyat / Horneados sin almíbar",
+   "diet": "vegetariano",
+   "freq": "ocasional",
+   "tag": "Líbano",
+   "yield": "24 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Sémola fina"
+      },
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "3",
+       "u": "cdta",
+       "n": "Cúrcuma"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Anís molido"
+      },
+      {
+       "q": "3",
+       "u": "cdta",
+       "n": "Levadura química"
+      },
+      {
+       "q": "350",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "400",
+       "u": "ml",
+       "n": "Leche"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Aceite de girasol"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Tahini (para el molde)"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Piñones"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Untar una bandeja de 25×35 cm con el tahini.",
+      "Mezclar los secos y añadir la leche y el aceite.",
+      "Reposar 30 min.",
+      "Verter, golpear la bandeja para quitar burbujas y cubrir con piñones.",
+      "Hornear a 180 ºC 35–45 min.",
+      "Cortar en rombos o filas cuando esté frío."
+     ]
+    }
+   ],
+   "notes": "«Filas», por cómo se corta. Bizcocho sin huevo, para reuniones y cumpleaños; mejor al día siguiente. El anís y el molde con tahini son lo tradicional (Taste of Beirut).",
+   "done": false
+  },
+  {
+   "id": "r-recetas-namoura",
+   "tab": "recetas",
+   "name": "Namoura",
+   "group": "Dulce",
+   "cat": "",
+   "local": "Halawiyat / Con almíbar o ashta",
+   "diet": "vegetariano",
+   "freq": "ocasional",
+   "tag": "Líbano",
+   "yield": "16 ud.",
+   "parts": [
+    {
+     "name": "Ater (almíbar)",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "240",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Agua de azahar"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Agua de rosas (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hervir el azúcar con el agua y el limón y mantener 5–7 min a fuego suave.",
+      "Fuera del fuego, añadir el agua de azahar (y de rosas) y enfriar por completo."
+     ]
+    },
+    {
+     "name": "Bizcocho",
+     "ings": [
+      {
+       "q": "340",
+       "u": "g",
+       "n": "Sémola gruesa"
+      },
+      {
+       "q": "85",
+       "u": "g",
+       "n": "Ghee"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "245",
+       "u": "g",
+       "n": "Yogur natural"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Bicarbonato"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Levadura química"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Agua de azahar"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Agua de rosas"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Tahini (para el molde)"
+      },
+      {
+       "q": "35",
+       "u": "g",
+       "n": "Almendra pelada en mitades"
+      }
+     ],
+     "steps": [
+      "Arenar 57 g de ghee con la sémola y añadir el azúcar.",
+      "Mezclar el bicarbonato con el yogur, esperar 2 min y añadirlo con la levadura y las aguas.",
+      "Reposar al menos 1 h.",
+      "Untar el molde con tahini y extender la masa.",
+      "Marcar 16 rombos, poner una almendra en cada uno y pintar con el resto del ghee fundido.",
+      "Hornear a 190 ºC 30 min.",
+      "Regar con el ater frío nada más sacarla y reposar 1 h antes de cortar."
+     ]
+    }
+   ],
+   "notes": "Bizcocho de sémola en almíbar (en Egipto, basbousa). Regla: almíbar frío sobre bizcocho caliente. Receta de Simply Lebanese.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-atayef-bi-ashta",
+   "tab": "recetas",
+   "name": "Atayef bi ashta",
+   "group": "Dulce",
+   "cat": "",
+   "local": "Halawiyat / Con almíbar o ashta",
+   "diet": "vegetariano",
+   "freq": "ocasional",
+   "tag": "Líbano",
+   "yield": "20 ud.",
+   "parts": [
+    {
+     "name": "Ater (almíbar)",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "240",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Agua de azahar"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Agua de rosas (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hervir el azúcar con el agua y el limón y mantener 5–7 min a fuego suave.",
+      "Fuera del fuego, añadir el agua de azahar (y de rosas) y enfriar por completo."
+     ]
+    },
+    {
+     "name": "Ashta (crema)",
+     "ings": [
+      {
+       "q": "360",
+       "u": "ml",
+       "n": "Leche entera"
+      },
+      {
+       "q": "120",
+       "u": "ml",
+       "n": "Nata"
+      },
+      {
+       "q": "25",
+       "u": "g",
+       "n": "Maicena"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Agua de rosas"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Agua de azahar"
+      }
+     ],
+     "steps": [
+      "Cocer la leche, la nata, la maicena y el azúcar removiendo hasta que espese (unos 7 min).",
+      "Fuera del fuego, añadir las aguas de flores, tapar a piel y enfriar."
+     ]
+    },
+    {
+     "name": "Tortitas",
+     "ings": [
+      {
+       "q": "375",
+       "u": "ml",
+       "n": "Agua tibia"
+      },
+      {
+       "q": "135",
+       "u": "g",
+       "n": "Harina"
+      },
+      {
+       "q": "65",
+       "u": "g",
+       "n": "Sémola fina"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Maicena"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Levadura química"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Levadura seca"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Agua de rosas"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Agua de azahar"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Pistacho molido"
+      }
+     ],
+     "steps": [
+      "Triturar los ingredientes de la masa y reposar 30 min.",
+      "Cocer cucharadas en sartén antiadherente por una sola cara, hasta que salgan burbujas y la superficie quede mate (8–10 cm).",
+      "Taparlas con un paño.",
+      "Doblar cada una en media luna y pellizcar la mitad del borde para formar un cono.",
+      "Rellenar con ashta, mojar la boca en pistacho y servir frías con ater."
+     ]
+    }
+   ],
+   "notes": "El dulce del Ramadán en el Levante (Saveur). La versión con nuez se cierra del todo y se fríe. Masa de Rym Akkad (L'Orient-Le Jour).",
+   "done": false
+  },
+  {
+   "id": "r-recetas-meghli",
+   "tab": "recetas",
+   "name": "Meghli",
+   "group": "Dulce",
+   "cat": "",
+   "local": "Halawiyat / De cuchara",
+   "diet": "vegano",
+   "freq": "ocasional",
+   "tag": "Líbano",
+   "yield": "4 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Harina de arroz"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Canela molida"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Alcaravea molida"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Anís molido"
+      },
+      {
+       "q": "960",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Coco rallado, pistacho, piñones, almendra y nuez"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Batir los secos con el agua fría.",
+      "Llevar a ebullición a fuego medio-alto, batiendo.",
+      "Bajar el fuego y seguir batiendo 15–20 min, hasta que espese.",
+      "Repartir en cuencos y enfriar al menos 4 h.",
+      "Cubrir con abundantes frutos secos (remojados si se quiere)."
+     ]
+    }
+   ],
+   "notes": "Se ofrece a las visitas para celebrar un nacimiento, y en Navidad. Se dice que la alcaravea favorece la leche materna. Receta de Simply Lebanese.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-riz-bi-halib",
+   "tab": "recetas",
+   "name": "Riz bi halib",
+   "group": "Dulce",
+   "cat": "",
+   "local": "Halawiyat / De cuchara",
+   "diet": "vegetariano",
+   "freq": "ocasional",
+   "tag": "Líbano",
+   "yield": "5 ud.",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Arroz redondo sin lavar"
+      },
+      {
+       "q": "240",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "1,2",
+       "u": "l",
+       "n": "Leche"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "24",
+       "u": "g",
+       "n": "Maicena"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Agua de rosas"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Agua de azahar"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pistacho molido"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cocer el arroz en el agua hasta que la absorba (5–7 min).",
+      "Añadir la leche (reservando 60 ml) y el azúcar y cocer 15 min a fuego medio-suave.",
+      "Disolver la maicena en la leche reservada, añadirla y remover 5 min hasta que espese.",
+      "Fuera del fuego, añadir las aguas de flores.",
+      "Repartir y enfriar; servir con pistacho."
+     ]
+    }
+   ],
+   "notes": "Arroz con leche perfumado con aguas de flores. Solo hay fuentes de recetarios caseros (Simply Lebanese, Alphafoodie).",
+   "done": false
+  },
+  {
+   "id": "r-recetas-znoud-el-sit",
+   "tab": "recetas",
+   "name": "Znoud el sit",
+   "group": "Dulce",
+   "cat": "",
+   "local": "Halawiyat / Con almíbar o ashta",
+   "diet": "vegetariano",
+   "freq": "ocasional",
+   "tag": "Líbano",
+   "yield": "12 ud.",
+   "parts": [
+    {
+     "name": "Ater (almíbar)",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "240",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Agua de azahar"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Agua de rosas (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hervir el azúcar con el agua y el limón y mantener 5–7 min a fuego suave.",
+      "Fuera del fuego, añadir el agua de azahar (y de rosas) y enfriar por completo."
+     ]
+    },
+    {
+     "name": "Ashta (crema)",
+     "ings": [
+      {
+       "q": "360",
+       "u": "ml",
+       "n": "Leche entera"
+      },
+      {
+       "q": "120",
+       "u": "ml",
+       "n": "Nata"
+      },
+      {
+       "q": "25",
+       "u": "g",
+       "n": "Maicena"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Agua de rosas"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Agua de azahar"
+      }
+     ],
+     "steps": [
+      "Cocer la leche, la nata, la maicena y el azúcar removiendo hasta que espese (unos 7 min).",
+      "Fuera del fuego, añadir las aguas de flores, tapar a piel y enfriar."
+     ]
+    },
+    {
+     "name": "Rollitos",
+     "ings": [
+      {
+       "q": "12",
+       "u": "ud.",
+       "n": "Hoja de pasta filo"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Harina y 2 cda de agua (para sellar)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Aceite para freír"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Pistacho molido"
+      }
+     ],
+     "steps": [
+      "Cortar el filo en tiras de 10 cm y poner dos en cruz.",
+      "Poner 2 cda de ashta fría en el centro, doblar los lados y enrollar.",
+      "Sellar con la pasta de harina y agua.",
+      "Freír a 175 ºC unos 4 min.",
+      "Bañar 30 s en ater frío y decorar con pistacho."
+     ]
+    }
+   ],
+   "notes": "«Brazos de la señora», por su forma. Dulce de Ramadán, con café o té. Se congelan crudos y se fríen directamente.",
+   "done": false
+  },
+  {
+   "id": "r-recetas-labneh",
+   "tab": "recetas",
+   "name": "Labneh",
+   "group": "Salado",
+   "cat": "Entremeses y aperitivos / Fríos",
+   "local": "Mazza / Fríos (bārde)",
+   "diet": "vegetariano",
+   "freq": "semanal",
+   "tag": "Líbano",
+   "yield": "4 pax",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Labneh (de 800 g de yogur colado 24 h, ver Productos)"
+      },
+      {
+       "q": "4",
+       "u": "cda",
+       "n": "Aceite de oliva virgen extra"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Za'atar"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Menta seca"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Aceituna negra"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Pepino"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Tomate"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Pan de pita o pan árabe"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Sacar el labneh de la nevera 15 min antes.",
+      "Extenderlo en un plato llano con el dorso de una cuchara, haciendo un surco en espiral.",
+      "Regar con el aceite de modo que llene el surco.",
+      "Espolvorear el za'atar o la menta seca.",
+      "Cortar el pepino y el tomate en gajos y colocarlos alrededor con las aceitunas.",
+      "Servir con pan para mojar o enrollar."
+     ]
+    }
+   ],
+   "notes": "Plato de desayuno y de mazza en todo el Levante. El labneh se hace colando yogur con sal (ficha en Productos). Con 48 h de colado se forman bolitas que se guardan en aceite (labneh mkabbas).",
+   "done": false
+  }
+ ]
+}

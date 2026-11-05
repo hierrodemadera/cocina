@@ -1,0 +1,917 @@
+{
+ "recipes": [
+  {
+   "id": "r-productos-leche-de-soja",
+   "tab": "productos",
+   "name": "Leche de soja",
+   "group": "Legumbres, cereales, frutos secos y semillas",
+   "cat": "Legumbres / Bebidas vegetales",
+   "local": "",
+   "diet": "vegano",
+   "tag": "China",
+   "yield": "1,5 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "200",
+       "u": "g",
+       "n": "Soja amarilla seca"
+      },
+      {
+       "q": "1,5",
+       "u": "l",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar la soja 10–12 h en agua abundante.",
+      "Escurrir y triturar con el agua hasta que quede muy fino.",
+      "Colar por un paño, apretando; lo que queda es okara (se usa en tortitas o masas).",
+      "Hervir la leche 15–20 min a fuego suave, removiendo para que no se pegue ni se desborde.",
+      "Endulzar si se quiere y enfriar."
+     ]
+    }
+   ],
+   "notes": "Cocerla es obligatorio: la soja cruda tiene sustancias que dificultan la digestión de las proteínas. En nevera, 3–4 días.",
+   "done": false
+  },
+  {
+   "id": "r-productos-tofu",
+   "tab": "productos",
+   "name": "Tofu",
+   "group": "Legumbres, cereales, frutos secos y semillas",
+   "cat": "Legumbres / Cuajados y fermentados",
+   "local": "",
+   "diet": "vegano",
+   "tag": "China",
+   "yield": "400 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2",
+       "u": "l",
+       "n": "Leche de soja casera, sin endulzar"
+      },
+      {
+       "q": "8",
+       "u": "g",
+       "n": "Nigari (cloruro de magnesio) o sulfato de calcio"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar la leche de soja a 75–80 ºC.",
+      "Apagar, añadir la mitad del coagulante disuelto en el agua, remover en ocho y parar la cuchara.",
+      "Echar el resto por encima, tapar y dejar 15 min, hasta que se separe en cuajos y suero claro.",
+      "Pasar la cuajada a un molde forrado con paño.",
+      "Cerrar el paño, poner peso (1 kg) y prensar 15–30 min, según se quiera más tierno o más firme.",
+      "Sumergir en agua fría y desmoldar."
+     ]
+    }
+   ],
+   "notes": "En nevera, cubierto de agua (cambiarla cada día), 4–5 días.",
+   "done": false
+  },
+  {
+   "id": "r-productos-tahini",
+   "tab": "productos",
+   "name": "Tahini",
+   "group": "Legumbres, cereales, frutos secos y semillas",
+   "cat": "Semillas / Pastas, cremas y untables",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Líbano",
+   "yield": "1 tarro de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Sésamo blanco pelado"
+      },
+      {
+       "q": "2–4",
+       "u": "cda",
+       "n": "Aceite neutro (si hace falta)"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Tostar el sésamo en el horno a 160 ºC 8–10 min o en sartén, removiendo, hasta que apenas tome color.",
+      "Enfriar.",
+      "Triturar en procesador 5–10 min, rebañando las paredes: primero queda arena, luego pasta.",
+      "Añadir el aceite poco a poco solo si no llega a hacerse fluido.",
+      "Salar y guardar en tarro."
+     ]
+    }
+   ],
+   "notes": "Poco tostado para que no amargue. Base de hummus, baba ganoush y salsas. Aguanta meses en lugar fresco; es normal que el aceite se separe.",
+   "done": false
+  },
+  {
+   "id": "r-productos-mantequilla-de-cacahuete",
+   "tab": "productos",
+   "name": "Mantequilla de cacahuete",
+   "group": "Legumbres, cereales, frutos secos y semillas",
+   "cat": "Legumbres / Pastas, cremas y untables",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Estados Unidos",
+   "yield": "1 tarro de 400 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Cacahuete tostado pelado, sin sal"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Miel (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Si no vienen tostados, tostarlos a 170 ºC 10–12 min y enfriar.",
+      "Triturar en procesador 5–10 min, rebañando las paredes, hasta que suelte su aceite y quede cremosa.",
+      "Añadir la sal y la miel y triturar 1 min más.",
+      "Para versión «crunchy», añadir al final un puñado de cacahuetes picados."
+     ]
+    }
+   ],
+   "notes": "En un tarro cerrado, 1 mes en la despensa o 3 meses en nevera.",
+   "done": false
+  },
+  {
+   "id": "r-productos-horchata-de-chufa",
+   "tab": "productos",
+   "name": "Horchata de chufa",
+   "group": "Legumbres, cereales, frutos secos y semillas",
+   "cat": "Otras materias primas / Bebidas vegetales",
+   "local": "",
+   "diet": "vegano",
+   "tag": "España / Comunidad Valenciana",
+   "yield": "1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Chufa seca"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua muy fría"
+      },
+      {
+       "q": "120",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Canela molida (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar las chufas y remojarlas 24 h en agua, cambiándola cada 8 h.",
+      "Escurrir y triturar con 250 ml de agua y el azúcar hasta hacer una pasta.",
+      "Reposar 2 h en nevera.",
+      "Añadir el resto del agua y triturar otra vez.",
+      "Colar apretando bien por un paño o bolsa de tela, y después por un colador fino.",
+      "Enfriar y servir muy fría, con canela si se quiere."
+     ]
+    }
+   ],
+   "notes": "Con chufa de la DO Chufa de Valencia (l'Horta Nord). La horchata natural no lleva conservantes: en nevera, 24–48 h.",
+   "done": false
+  },
+  {
+   "id": "r-productos-leche-de-almendras",
+   "tab": "productos",
+   "name": "Leche de almendras",
+   "group": "Legumbres, cereales, frutos secos y semillas",
+   "cat": "Frutos secos / Bebidas vegetales",
+   "local": "",
+   "diet": "vegano",
+   "tag": "",
+   "yield": "1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Almendra cruda"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar las almendras 8–12 h y escurrir.",
+      "Triturar con el agua y la sal 1–2 min.",
+      "Colar apretando por un paño o bolsa de tela."
+     ]
+    }
+   ],
+   "notes": "La pulpa sobrante, seca en el horno a baja temperatura, es harina de almendra. En nevera, 3–4 días.",
+   "done": false
+  },
+  {
+   "id": "r-productos-leche-de-avena",
+   "tab": "productos",
+   "name": "Leche de avena",
+   "group": "Legumbres, cereales, frutos secos y semillas",
+   "cat": "Cereales / Bebidas vegetales",
+   "local": "",
+   "diet": "vegano",
+   "tag": "",
+   "yield": "1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "80",
+       "u": "g",
+       "n": "Copos de avena"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua muy fría"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Triturar la avena con el agua muy fría solo 20–30 s.",
+      "Colar sin apretar por un colador fino o paño."
+     ]
+    }
+   ],
+   "notes": "Triturar más o apretar al colar la deja viscosa. En nevera, 3–4 días; agitar antes de usar.",
+   "done": false
+  },
+  {
+   "id": "r-productos-tramussos-altramuces",
+   "tab": "productos",
+   "name": "Tramussos (altramuces)",
+   "group": "Legumbres, cereales, frutos secos y semillas",
+   "cat": "Legumbres / Cocidos y encurtidos",
+   "local": "",
+   "diet": "vegano",
+   "tag": "España / Comunidad Valenciana",
+   "yield": "1 kg",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Altramuz seco"
+      },
+      {
+       "q": "40",
+       "u": "g",
+       "n": "Sal (para la salmuera)"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua (para la salmuera)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar los altramuces 24 h en agua abundante.",
+      "Cocerlos 1 h en agua nueva.",
+      "Desamargar en agua fría, cambiándola 2 veces al día, durante 5–10 días.",
+      "Probar uno cada día: no pasar a la salmuera hasta que no amargue nada.",
+      "Guardar en nevera en salmuera al 4 %."
+     ]
+    }
+   ],
+   "notes": "El amargor son alcaloides tóxicos: la AESAN avisa de intoxicaciones por altramuces mal desamargados. Si amargan, no comerlos y seguir cambiando el agua.",
+   "done": false
+  },
+  {
+   "id": "r-productos-garbanzos-tostados",
+   "tab": "productos",
+   "name": "Garbanzos tostados",
+   "group": "Legumbres, cereales, frutos secos y semillas",
+   "cat": "Legumbres / Tostados y fritos",
+   "local": "",
+   "diet": "vegano",
+   "tag": "España",
+   "yield": "300 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Garbanzo cocido y escurrido"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Aceite de oliva"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimentón o comino (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Secar muy bien los garbanzos con un paño y quitar las pieles sueltas.",
+      "Mezclar con el aceite y la sal.",
+      "Hornear extendidos a 200 ºC 30–40 min, moviendo cada 10 min, hasta que estén crujientes.",
+      "Especiar al sacar y dejar enfriar en la bandeja."
+     ]
+    }
+   ],
+   "notes": "Versión casera de los «torraos». Tierno por dentro = falta horno. En tarro cerrado, 1 semana.",
+   "done": false
+  },
+  {
+   "id": "r-productos-anko-pasta-de-judia-roja",
+   "tab": "productos",
+   "name": "Anko (pasta de judía roja)",
+   "group": "Legumbres, cereales, frutos secos y semillas",
+   "cat": "Legumbres / Pastas, cremas y untables",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Japón",
+   "yield": "600 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Judía azuki"
+      },
+      {
+       "q": "220",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar las azuki, cubrir con agua, hervir 5 min y desechar el agua (quita el amargor).",
+      "Cubrir con agua nueva y cocer a fuego suave 1–1 h 30 min, añadiendo agua si hace falta, hasta que se aplasten entre los dedos.",
+      "Escurrir casi toda el agua.",
+      "Añadir el azúcar en dos veces y la sal y cocer removiendo hasta que espese como un puré firme.",
+      "Enfriar extendida para que no siga cociéndose."
+     ]
+    }
+   ],
+   "notes": "Tsubuan (con grano). Para koshian (fina), pasar las judías por un colador antes del azúcar. Rellena dorayaki y mochi. En nevera, 1 semana; se congela.",
+   "done": false
+  },
+  {
+   "id": "r-productos-gomasio",
+   "tab": "productos",
+   "name": "Gomasio",
+   "group": "Legumbres, cereales, frutos secos y semillas",
+   "cat": "Semillas / Mezclas condimentarias",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Japón",
+   "yield": "1 tarro de 150 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Sésamo"
+      },
+      {
+       "q": "12",
+       "u": "g",
+       "n": "Sal marina gorda"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Tostar la sal en sartén seca 2 min y molerla fina en mortero (suribachi).",
+      "Tostar el sésamo a fuego medio, removiendo, hasta que se infle y huela, sin oscurecer.",
+      "Añadirlo caliente al mortero y moler a medias: la mitad de los granos rotos.",
+      "Enfriar y guardar en tarro."
+     ]
+    }
+   ],
+   "notes": "Proporción tradicional entre 10:1 y 15:1 de sésamo y sal. Para arroz, verduras y sopas. En tarro cerrado, 1 mes.",
+   "done": false
+  },
+  {
+   "id": "r-productos-dukkah",
+   "tab": "productos",
+   "name": "Dukkah",
+   "group": "Legumbres, cereales, frutos secos y semillas",
+   "cat": "Frutos secos / Mezclas condimentarias",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Egipto",
+   "yield": "1 tarro de 200 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Avellana"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Sésamo"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Cilantro en grano"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Comino en grano"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Pimienta negra en grano"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Tostar las avellanas a 180 ºC 8–10 min, frotarlas para quitar la piel y picarlas groseramente.",
+      "Tostar el sésamo en sartén hasta dorar.",
+      "Tostar cilantro, comino y pimienta 1 min y molerlos en mortero.",
+      "Mezclar todo con la sal: debe quedar granulado, no en polvo."
+     ]
+    }
+   ],
+   "notes": "Se come mojando pan en aceite y luego en el dukkah. En tarro cerrado, 1 mes.",
+   "done": false
+  },
+  {
+   "id": "r-productos-za-atar",
+   "tab": "productos",
+   "name": "Za'atar",
+   "group": "Legumbres, cereales, frutos secos y semillas",
+   "cat": "Semillas / Mezclas condimentarias",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Líbano",
+   "yield": "1 tarro de 100 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "cda",
+       "n": "Tomillo seco (o hoja de za'atar, orégano sirio)"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Zumaque"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Sésamo tostado"
+      },
+      {
+       "q": "½",
+       "u": "cdta",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Desmenuzar el tomillo entre los dedos o en mortero.",
+      "Mezclar con el zumaque, el sésamo y la sal."
+     ]
+    }
+   ],
+   "notes": "Para manakish, labneh, huevos o pan con aceite. Las proporciones varían por casa y país (Palestina, Siria, Jordania).",
+   "done": false
+  },
+  {
+   "id": "r-productos-granola",
+   "tab": "productos",
+   "name": "Granola",
+   "group": "Legumbres, cereales, frutos secos y semillas",
+   "cat": "Cereales / Copos y mezclas de desayuno",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Estados Unidos",
+   "yield": "600 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Copos de avena"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Frutos secos picados"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Pipas (girasol o calabaza)"
+      },
+      {
+       "q": "80",
+       "u": "ml",
+       "n": "Miel o sirope de arce"
+      },
+      {
+       "q": "60",
+       "u": "ml",
+       "n": "Aceite neutro"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Canela"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar los secos.",
+      "Calentar la miel con el aceite y verter sobre los secos, mezclando bien.",
+      "Extender en una bandeja con papel, apretando un poco.",
+      "Hornear a 160 ºC 25–30 min, removiendo a mitad, hasta que esté dorada.",
+      "Enfriar sin tocar en la bandeja para que forme grumos.",
+      "Añadir fruta seca, si se quiere, ya fría."
+     ]
+    }
+   ],
+   "notes": "En tarro cerrado, 2–3 semanas.",
+   "done": false
+  },
+  {
+   "id": "r-productos-brotes-de-soja-judia-mungo",
+   "tab": "productos",
+   "name": "Brotes de soja (judía mungo)",
+   "group": "Legumbres, cereales, frutos secos y semillas",
+   "cat": "Legumbres / Germinados",
+   "local": "",
+   "diet": "vegano",
+   "tag": "China",
+   "yield": "400 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Judía mungo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar y remojar las judías 8–12 h en agua fría.",
+      "Escurrir y ponerlas en un germinador o un tarro con gasa, inclinado, a oscuras.",
+      "Aclarar con agua fría 2–3 veces al día y escurrir bien cada vez.",
+      "Cosechar a los 3–5 días, cuando midan 3–5 cm.",
+      "Quitar las pieles flotando en agua y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Los germinados crecen en condiciones que también favorecen bacterias: la AESAN y la EFSA recomiendan cocinarlos antes de comerlos. Salteados 1–2 min bastan. En nevera, 2–3 días.",
+   "done": false
+  },
+  {
+   "id": "r-productos-almendras-fritas",
+   "tab": "productos",
+   "name": "Almendras fritas",
+   "group": "Legumbres, cereales, frutos secos y semillas",
+   "cat": "Frutos secos / Tostados y fritos",
+   "local": "",
+   "diet": "vegano",
+   "tag": "España",
+   "yield": "250 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Almendra marcona pelada"
+      },
+      {
+       "q": "200",
+       "u": "ml",
+       "n": "Aceite de oliva"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal fina"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar el aceite a 160 ºC.",
+      "Freír las almendras 3–5 min, removiendo, hasta que tomen color dorado claro.",
+      "Sacar a papel de cocina y salar enseguida.",
+      "Dejar enfriar: terminan de tostarse y quedan crujientes."
+     ]
+    }
+   ],
+   "notes": "Sacarlas un punto antes de lo que parece: se oscurecen al enfriar. En tarro cerrado, 2 semanas.",
+   "done": false
+  },
+  {
+   "id": "r-productos-pipas-de-girasol-tostadas",
+   "tab": "productos",
+   "name": "Pipas de girasol tostadas",
+   "group": "Legumbres, cereales, frutos secos y semillas",
+   "cat": "Semillas / Tostados y fritos",
+   "local": "",
+   "diet": "vegano",
+   "tag": "España",
+   "yield": "250 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Pipa de girasol cruda, con cáscara"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Sal"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Disolver la sal en el agua y remojar las pipas 6–8 h.",
+      "Escurrir y extender en una bandeja sin secar del todo.",
+      "Hornear a 160 ºC 30–40 min, removiendo cada 10 min, hasta que estén crujientes y la cáscara seca.",
+      "Enfriar en la bandeja."
+     ]
+    }
+   ],
+   "notes": "La salmuera mete la sal dentro de la cáscara, como las de bolsa. En tarro cerrado, 1 mes.",
+   "done": false
+  },
+  {
+   "id": "r-productos-crackers-de-semillas-froknacke",
+   "tab": "productos",
+   "name": "Crackers de semillas (fröknäcke)",
+   "group": "Legumbres, cereales, frutos secos y semillas",
+   "cat": "Semillas / Horneados",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Suecia",
+   "yield": "1 bandeja",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Sésamo"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Pipas de girasol"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Pipas de calabaza"
+      },
+      {
+       "q": "50",
+       "u": "g",
+       "n": "Linaza"
+      },
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Harina de maíz (o de almendra)"
+      },
+      {
+       "q": "50",
+       "u": "ml",
+       "n": "Aceite neutro"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Agua hirviendo"
+      },
+      {
+       "q": "1",
+       "u": "cdta",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar las semillas, la harina y la sal.",
+      "Añadir el aceite y el agua hirviendo y mezclar: la linaza la espesa en unos minutos.",
+      "Extender muy fina entre dos papeles con rodillo.",
+      "Retirar el papel de arriba y marcar con cuchillo las porciones.",
+      "Hornear a 150 ºC 1 h, hasta que esté seca y dorada; dejar enfriar en el horno abierto.",
+      "Partir por las marcas."
+     ]
+    }
+   ],
+   "notes": "Clásico sueco sin gluten. En lata cerrada, 2–3 semanas.",
+   "done": false
+  },
+  {
+   "id": "r-productos-bircher-muesli",
+   "tab": "productos",
+   "name": "Bircher muesli",
+   "group": "Legumbres, cereales, frutos secos y semillas",
+   "cat": "Cereales / Copos y mezclas de desayuno",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "Suiza",
+   "yield": "2 raciones",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "60",
+       "u": "g",
+       "n": "Copos de avena"
+      },
+      {
+       "q": "120",
+       "u": "ml",
+       "n": "Agua (o leche)"
+      },
+      {
+       "q": "1",
+       "u": "cda",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Leche condensada (o yogur y miel)"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Manzana"
+      },
+      {
+       "q": "2",
+       "u": "cda",
+       "n": "Avellana picada"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar la avena en el agua 12 h (o toda la noche) en nevera.",
+      "Mezclar el zumo de limón con la leche condensada.",
+      "Rallar las manzanas con piel justo antes de servir e incorporarlas al momento a la mezcla de limón para que no se oxiden.",
+      "Juntar con la avena y servir con las avellanas por encima."
+     ]
+    }
+   ],
+   "notes": "Lo creó el médico Maximilian Bircher-Benner hacia 1900 en su sanatorio de Zúrich. En su receta original, la manzana pesa mucho más que la avena.",
+   "done": false
+  },
+  {
+   "id": "r-productos-gofio",
+   "tab": "productos",
+   "name": "Gofio",
+   "group": "Legumbres, cereales, frutos secos y semillas",
+   "cat": "Cereales / Harinas y sémolas",
+   "local": "",
+   "diet": "vegano",
+   "tag": "España / Canarias",
+   "yield": "450 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Maíz seco (millo)"
+      },
+      {
+       "q": "1",
+       "u": "pizca",
+       "n": "Sal (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Tostar el millo en una sartén grande o tostador, a fuego medio, removiendo sin parar, 15–20 min, hasta que esté dorado y algunos granos revienten.",
+      "Enfriar por completo.",
+      "Moler en un molino de cereales hasta harina muy fina.",
+      "Tamizar y añadir la sal si se quiere."
+     ]
+    }
+   ],
+   "notes": "Tradicional de molino de piedra; protegido como «Gofio Canario» (IGP). También se hace de trigo, cebada o mezcla. Para escaldón, con leche o amasado con plátano. En tarro cerrado, 2–3 meses.",
+   "done": false
+  }
+ ]
+}

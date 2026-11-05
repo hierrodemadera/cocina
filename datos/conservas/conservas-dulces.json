@@ -1,0 +1,1003 @@
+{
+ "recipes": [
+  {
+   "id": "r-conservas-mermelada-de-fresa",
+   "tab": "conservas",
+   "name": "Mermelada de fresa",
+   "group": "Conservas dulces",
+   "cat": "Confituras y mermeladas / De fruta",
+   "local": "",
+   "diet": "vegano",
+   "tag": "",
+   "yield": "4 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Fresa triturada"
+      },
+      {
+       "q": "650",
+       "u": "g",
+       "n": "Azúcar"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar las fresas antes de quitarles el rabito y triturarlas groseramente.",
+      "Mezclar con el azúcar y calentar despacio, removiendo, hasta que se disuelva.",
+      "Cocer a fuego fuerte, removiendo a menudo, hasta el punto de gelificación.",
+      "Llenar tarros calientes y esterilizados, dejando 6 mm libres.",
+      "Cerrar y esterilizar al baño maría 5 min."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA), «Berry jams without pectin». Punto de gelificación: 104–105 ºC, o cuando una gota en un plato frío se arruga al empujarla. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-mermelada-de-frambuesa-sin-pepitas",
+   "tab": "conservas",
+   "name": "Mermelada de frambuesa sin pepitas",
+   "group": "Conservas dulces",
+   "cat": "Confituras y mermeladas / De fruta",
+   "local": "",
+   "diet": "vegano",
+   "tag": "",
+   "yield": "4 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Frambuesa"
+      },
+      {
+       "q": "650",
+       "u": "g",
+       "n": "Azúcar"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Calentar las frambuesas trituradas hasta que se ablanden y pasarlas por un pasapurés o colador fino.",
+      "Mezclar el puré con el azúcar y calentar despacio hasta disolverlo.",
+      "Cocer a fuego fuerte, removiendo, hasta el punto de gelificación.",
+      "Llenar tarros calientes y esterilizados, dejando 6 mm libres.",
+      "Cerrar y esterilizar al baño maría 5 min."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA), variante sin pepitas de «Berry jams without pectin». Punto de gelificación: 104–105 ºC, o cuando una gota en un plato frío se arruga al empujarla. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-mermelada-de-naranja-amarga",
+   "tab": "conservas",
+   "name": "Mermelada de naranja amarga",
+   "group": "Conservas dulces",
+   "cat": "Confituras y mermeladas / De cítricos (marmalade)",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Reino Unido",
+   "yield": "6 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Naranja amarga (de Sevilla)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Limón"
+      },
+      {
+       "q": "2",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "2",
+       "u": "kg",
+       "n": "Azúcar"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar la fruta y cocerla entera en el agua, tapada, 1 h 30 min a 2 h, hasta que la piel se atraviese fácilmente.",
+      "Sacar la fruta y reservar el agua.",
+      "Partir la fruta por la mitad, sacar la pulpa y las pepitas y hervirlas 10 min en 300 ml del agua reservada. Colar este líquido presionando (aporta pectina).",
+      "Cortar la piel en tiras finas.",
+      "Juntar la piel, el líquido colado y el resto del agua de cocción y añadir el azúcar.",
+      "Calentar despacio hasta disolver el azúcar y hervir a fuego fuerte 15–25 min hasta el punto de gelificación.",
+      "Reposar 10 min para que la piel no suba, llenar tarros calientes y esterilizar al baño maría 5 min."
+     ]
+    }
+   ],
+   "notes": "Las naranjas amargas de Sevilla se exportan casi todas a Reino Unido para esta mermelada. Punto de gelificación: 104–105 ºC, o cuando una gota en un plato frío se arruga al empujarla. Método de baño maría según NCHFP (USDA) para mermeladas de cítricos. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-dulce-de-membrillo",
+   "tab": "conservas",
+   "name": "Dulce de membrillo",
+   "group": "Conservas dulces",
+   "cat": "Pastas de fruta",
+   "local": "",
+   "diet": "vegano",
+   "tag": "España",
+   "yield": "1,5 kg",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1,5",
+       "u": "kg",
+       "n": "Membrillo"
+      },
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Azúcar (aprox. el mismo peso que la pulpa)"
+      },
+      {
+       "q": "½",
+       "u": "ud.",
+       "n": "Limón (el zumo)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar los membrillos frotando la pelusa.",
+      "Cocerlos enteros o en cuartos en agua 20–30 min, hasta que estén tiernos.",
+      "Pelar, quitar el corazón y triturar la pulpa. Pesarla.",
+      "Cocer la pulpa con el mismo peso de azúcar y el zumo de limón a fuego medio-bajo, removiendo sin parar, 40–60 min, hasta que esté rojiza y se despegue del fondo.",
+      "Verter en moldes forrados con papel sulfurizado y alisar.",
+      "Dejar secar 2–3 días a temperatura ambiente, tapado con un paño.",
+      "Envolver y guardar en lugar fresco; dura meses."
+     ]
+    }
+   ],
+   "notes": "Salpica mucho al final: usar cuchara de mango largo. Acompaña el queso manchego.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-confitura-de-albaricoque",
+   "tab": "conservas",
+   "name": "Confitura de albaricoque",
+   "group": "Conservas dulces",
+   "cat": "Confituras y mermeladas / De fruta",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Francia",
+   "yield": "5 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "900",
+       "u": "g",
+       "n": "Albaricoque pelado y troceado"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Zumo de limón"
+      },
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Azúcar"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Escaldar los albaricoques 30 s, enfriar, pelar, deshuesar y triturar groseramente.",
+      "Mezclar con el zumo de limón y el azúcar y calentar despacio hasta disolverlo.",
+      "Cocer a fuego fuerte unos 25 min, removiendo a menudo, hasta que espese.",
+      "Llenar tarros calientes y esterilizados, dejando 6 mm libres.",
+      "Cerrar y esterilizar al baño maría 5 min."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA), «Apricot jam without pectin». Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-mermelada-de-higos",
+   "tab": "conservas",
+   "name": "Mermelada de higos",
+   "group": "Conservas dulces",
+   "cat": "Confituras y mermeladas / De fruta",
+   "local": "",
+   "diet": "vegano",
+   "tag": "España",
+   "yield": "5 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1,1",
+       "u": "kg",
+       "n": "Higo fresco"
+      },
+      {
+       "q": "90",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "30",
+       "u": "ml",
+       "n": "Zumo de limón"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Escaldar los higos 10 min en agua hirviendo, escurrir, quitar el rabito y picarlos.",
+      "Mezclar con el agua y el azúcar y calentar despacio hasta disolverlo.",
+      "Cocer a fuego fuerte, removiendo a menudo, hasta que espese.",
+      "Añadir el zumo de limón y cocer 1 min más.",
+      "Llenar tarros calientes, dejando 6 mm libres, cerrar y esterilizar al baño maría 5 min."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA), «Fig jam without pectin». El limón es necesario: el higo es poco ácido. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-mermelada-de-tomate",
+   "tab": "conservas",
+   "name": "Mermelada de tomate",
+   "group": "Conservas dulces",
+   "cat": "Confituras y mermeladas / De fruta",
+   "local": "",
+   "diet": "vegano",
+   "tag": "",
+   "yield": "5 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1,4",
+       "u": "kg",
+       "n": "Tomate maduro"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Naranja"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Limón"
+      },
+      {
+       "q": "2",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "3",
+       "u": "ud.",
+       "n": "Pimienta de Jamaica en grano"
+      },
+      {
+       "q": "1",
+       "u": "cdta.",
+       "n": "Clavo"
+      },
+      {
+       "q": "600",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "½",
+       "u": "cdta.",
+       "n": "Sal"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Escaldar, pelar y picar los tomates y escurrir el exceso de jugo.",
+      "Cortar las naranjas y el limón en rodajas muy finas y en cuartos.",
+      "Atar las especias en una gasa.",
+      "Mezclar el tomate con el azúcar y la sal hasta disolver.",
+      "Añadir los cítricos y las especias y llevar a ebullición removiendo.",
+      "Hervir a fuego fuerte, removiendo, unos 50 min, hasta que esté espesa y brillante.",
+      "Retirar las especias, llenar tarros calientes dejando 6 mm libres y esterilizar al baño maría 5 min."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA), «Tomato marmalade» (a mitad de cantidad). Los cítricos aseguran la acidez. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-jalea-de-grosella",
+   "tab": "conservas",
+   "name": "Jalea de grosella",
+   "group": "Conservas dulces",
+   "cat": "Jaleas / De fruta",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Francia / Lorena",
+   "yield": "4 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1,5",
+       "u": "kg",
+       "n": "Grosella roja"
+      },
+      {
+       "q": "150",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azúcar (750 g por litro de zumo)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Desgranar las grosellas y cocerlas con el agua 10 min, aplastándolas.",
+      "Colgar en una bolsa de tela o colador con gasa y dejar escurrir sin presionar 4 h (así la jalea queda transparente).",
+      "Medir el zumo y añadir 750 g de azúcar por litro.",
+      "Hervir a fuego fuerte, espumando, hasta el punto de gelificación (104–105 ºC), unos 5–10 min.",
+      "Llenar tarros calientes, dejando 6 mm libres, cerrar y esterilizar al baño maría 5 min."
+     ]
+    }
+   ],
+   "notes": "La grosella es muy rica en pectina y cuaja sin añadirla. En Bar-le-Duc (Lorena) se hace con las semillas extraídas una a una. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-lemon-curd",
+   "tab": "conservas",
+   "name": "Lemon curd",
+   "group": "Conservas dulces",
+   "cat": "Cremas untables / Curds",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "Reino Unido",
+   "yield": "4 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Azúcar extrafino"
+      },
+      {
+       "q": "30",
+       "u": "g",
+       "n": "Ralladura de limón (opcional)"
+      },
+      {
+       "q": "240",
+       "u": "ml",
+       "n": "Zumo de limón embotellado"
+      },
+      {
+       "q": "170",
+       "u": "g",
+       "n": "Mantequilla sin sal fría"
+      },
+      {
+       "q": "7",
+       "u": "ud.",
+       "n": "Yema de huevo"
+      },
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Huevo"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Mezclar el azúcar con la ralladura y dejar 30 min.",
+      "Batir las yemas y los huevos, añadir el azúcar, el zumo de limón y la mantequilla en dados.",
+      "Cocer al baño maría sin que el agua toque el bol, removiendo sin parar, hasta 77 ºC.",
+      "Retirar y remover 5 min hasta que espese. Colar.",
+      "Llenar tarros calientes dejando 1 cm libre y cerrar.",
+      "Poner los tarros en agua a 82 ºC, llevar a ebullición y esterilizar 15 min.",
+      "Enfriar 12–24 h sin mover."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA). Usar zumo embotellado: el del limón fresco varía de acidez. Consumir en 3–4 meses y desechar si se oscurece o se separa. Alternativa: congelar hasta 1 año.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-compota-de-manzana",
+   "tab": "conservas",
+   "name": "Compota de manzana",
+   "group": "Conservas dulces",
+   "cat": "Frutas en medio líquido / Compotas",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Francia",
+   "yield": "4 tarros de 500 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "2,5",
+       "u": "kg",
+       "n": "Manzana (reineta o golden)"
+      },
+      {
+       "q": "250",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Azúcar (opcional)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Pelar, descorazonar y trocear las manzanas, dejándolas en agua con un poco de limón mientras se trabaja.",
+      "Escurrir y cocerlas con el agua y la canela, tapadas, hasta que estén tiernas (5–20 min).",
+      "Retirar la canela y triturar o pasar por el pasapurés. Añadir el azúcar si se quiere.",
+      "Llevar de nuevo a ebullición y llenar tarros calientes dejando 1 cm libre.",
+      "Cerrar y esterilizar al baño maría 15 min (tarros de 500 ml) o 20 min (1 l)."
+     ]
+    }
+   ],
+   "notes": "Método de la compota de manzana del NCHFP (USDA). Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-melocoton-en-almibar",
+   "tab": "conservas",
+   "name": "Melocotón en almíbar",
+   "group": "Conservas dulces",
+   "cat": "Frutas en medio líquido / En almíbar",
+   "local": "",
+   "diet": "vegano",
+   "tag": "España / Aragón",
+   "yield": "4 tarros de 1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "3",
+       "u": "kg",
+       "n": "Melocotón de carne amarilla"
+      },
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Agua"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Agua con zumo de limón (antioxidante)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Escaldar los melocotones 30–60 s, enfriar y pelar.",
+      "Partirlos por la mitad, deshuesarlos y dejarlos en agua con limón.",
+      "Preparar un almíbar medio hirviendo el agua con el azúcar.",
+      "Escurrir los melocotones, ponerlos en el almíbar y llevar a ebullición.",
+      "Llenar los tarros con las mitades boca abajo y cubrir con el almíbar hirviendo, dejando 1 cm libre.",
+      "Cerrar y esterilizar al baño maría 25 min (1 l) o 20 min (500 ml)."
+     ]
+    }
+   ],
+   "notes": "Fuente: NCHFP (USDA), «Peaches – hot pack». No usar melocotones de carne blanca: pueden no ser lo bastante ácidos. El melocotón de Calanda (Aragón) es el más famoso. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-cabello-de-angel",
+   "tab": "conservas",
+   "name": "Cabello de ángel",
+   "group": "Conservas dulces",
+   "cat": "Confituras y mermeladas / De fruta",
+   "local": "",
+   "diet": "vegano",
+   "tag": "España",
+   "yield": "1,5 kg",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Cidra cayote (unos 2,5 kg)"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Azúcar (el mismo peso que la pulpa escurrida)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Piel de limón"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Partir la cidra con un golpe, retirar las pepitas y cocerla en trozos con piel en agua 30–40 min, hasta que la pulpa se deshaga en hebras.",
+      "Enfriar en agua fría, separar la pulpa de la piel y deshilacharla con un tenedor.",
+      "Lavarla en varias aguas y escurrirla muy bien, apretando. Pesarla.",
+      "Cocer la pulpa con el mismo peso de azúcar, la canela y la piel de limón a fuego suave 40–60 min, removiendo, hasta que esté brillante y casi sin líquido.",
+      "Retirar la canela y la piel, llenar tarros calientes y cerrar. Esterilizar al baño maría 10 min."
+     ]
+    }
+   ],
+   "notes": "La cidra cayote (Cucurbita ficifolia) se encuentra en otoño. Relleno de ensaimadas, tortas y empanadillas. Tiempos de baño maría para 0–300 m de altitud: a más altura, alargarlos según la fuente. Esterilizar tarros y usar tapas nuevas.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-guindas-en-aguardiente",
+   "tab": "conservas",
+   "name": "Guindas en aguardiente",
+   "group": "Conservas dulces",
+   "cat": "Frutas en medio líquido / En alcohol",
+   "local": "",
+   "diet": "vegano",
+   "tag": "España",
+   "yield": "1 tarro de 1 l",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Guinda o cereza ácida"
+      },
+      {
+       "q": "150",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Aguardiente de orujo o anís seco (mínimo 40 % vol.)"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Rama de canela"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar y secar las guindas, dejando la mitad del rabito.",
+      "Pincharlas con una aguja.",
+      "Colocarlas en el tarro alternando con el azúcar y la canela.",
+      "Cubrir con el aguardiente y cerrar.",
+      "Agitar el tarro cada día la primera semana.",
+      "Dejar macerar en lugar oscuro un mínimo de 2 meses."
+     ]
+    }
+   ],
+   "notes": "El alcohol a 40 % las conserva sin esterilizar. Es una conserva alcohólica: no apta para niños.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-arrope",
+   "tab": "conservas",
+   "name": "Arrope",
+   "group": "Conservas dulces",
+   "cat": "Jarabes y arropes / Arropes",
+   "local": "",
+   "diet": "vegano",
+   "tag": "España",
+   "yield": "500 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "3",
+       "u": "l",
+       "n": "Mosto de uva recién prensado"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Calabaza o membrillo en dados (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Colar el mosto y cocerlo a fuego suave en una olla ancha, espumando.",
+      "Reducirlo durante 3–4 h, hasta que quede una sexta parte y tenga textura de jarabe.",
+      "Si se usa fruta, añadirla cuando quede un tercio y cocer hasta que esté confitada.",
+      "Envasar en caliente en tarros esterilizados y cerrar."
+     ]
+    }
+   ],
+   "notes": "Endulzante tradicional de La Mancha y Andalucía anterior al azúcar. Muy concentrado, se conserva meses en lugar fresco.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-crema-de-castanas",
+   "tab": "conservas",
+   "name": "Crema de castañas",
+   "group": "Conservas dulces",
+   "cat": "Cremas untables / De castaña",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Francia / Ardèche",
+   "yield": "3 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Castaña"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "200",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Vaina de vainilla"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Hacer un corte a las castañas, hervirlas 15 min y pelarlas en caliente, quitando también la piel interior.",
+      "Cocerlas en agua nueva 20 min más, hasta que estén muy tiernas, y triturarlas finas.",
+      "Hervir el agua con el azúcar y la vainilla abierta 5 min.",
+      "Añadir el puré y cocer a fuego suave 10–15 min, removiendo, hasta que esté espeso y brillante.",
+      "Retirar la vainilla, envasar en tarros limpios y calientes y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "La castaña es poco ácida y no hay tiempos de esterilización validados para hacerla en casa: guardar en nevera y consumir en 3 semanas, o congelar.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-piel-de-naranja-confitada",
+   "tab": "conservas",
+   "name": "Piel de naranja confitada",
+   "group": "Conservas dulces",
+   "cat": "Frutas confitadas / Confitadas",
+   "local": "",
+   "diet": "vegano",
+   "tag": "",
+   "yield": "300 g",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "4",
+       "u": "ud.",
+       "n": "Naranja de piel gruesa"
+      },
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "500",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "100",
+       "u": "g",
+       "n": "Azúcar (para rebozar)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cortar la piel de las naranjas en tiras de 1 cm, con parte de la albedo blanca.",
+      "Hervirla 5 min en agua, escurrir y repetir 3 veces con agua nueva para quitar el amargor.",
+      "Hacer un almíbar con el agua y el azúcar y cocer la piel a fuego muy suave 1 h, hasta que esté translúcida.",
+      "Dejarla en el almíbar toda la noche.",
+      "Escurrirla y secarla en una rejilla 24 h.",
+      "Rebozarla en azúcar y guardar en un bote hermético."
+     ]
+    }
+   ],
+   "notes": "Se puede bañar en chocolate. Bien seca, dura meses.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-powid-a-crema-de-ciruela",
+   "tab": "conservas",
+   "name": "Powidła (crema de ciruela)",
+   "group": "Conservas dulces",
+   "cat": "Cremas untables / De fruta",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Polonia",
+   "yield": "4 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "3",
+       "u": "kg",
+       "n": "Ciruela madura (mejor damascena o węgierka)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar, deshuesar y trocear las ciruelas.",
+      "Cocerlas en una olla de fondo grueso a fuego bajo 2 h, removiendo, hasta que se deshagan.",
+      "Pasar por el pasapurés si se quiere fina.",
+      "Seguir cociendo a fuego muy bajo (o en el horno a 150 ºC, removiendo cada 30 min) en sesiones de 2–3 h durante 2–3 días, hasta que esté oscura y muy espesa.",
+      "Envasar en caliente, dejando 6 mm libres, y esterilizar al baño maría 10 min."
+     ]
+    }
+   ],
+   "notes": "Sin azúcar añadido: se concentra solo por la cocción larga. Relleno típico de pączki y pierogi.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-dulce-de-leche",
+   "tab": "conservas",
+   "name": "Dulce de leche",
+   "group": "Conservas dulces",
+   "cat": "Cremas untables / Dulces lácteos",
+   "local": "",
+   "diet": "vegetariano",
+   "tag": "Argentina",
+   "yield": "2 tarros de 250 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "l",
+       "n": "Leche entera"
+      },
+      {
+       "q": "300",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "½",
+       "u": "cdta.",
+       "n": "Bicarbonato"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Vaina de vainilla"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Poner la leche con el azúcar y la vainilla abierta en una olla de fondo grueso.",
+      "Llevar a ebullición, retirar del fuego y añadir el bicarbonato disuelto en una cucharada de leche: subirá la espuma.",
+      "Cocer a fuego bajo 2–3 h, removiendo cada vez más a menudo al final, hasta que tome color caramelo y nape la cuchara.",
+      "Retirar la vainilla, envasar en tarros limpios y calientes y cerrar.",
+      "Guardar en nevera; dura 1 mes."
+     ]
+    }
+   ],
+   "notes": "No hervir latas de leche condensada cerradas: pueden explotar.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-goiabada",
+   "tab": "conservas",
+   "name": "Goiabada",
+   "group": "Conservas dulces",
+   "cat": "Pastas de fruta",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Brasil",
+   "yield": "1 kg",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "1",
+       "u": "kg",
+       "n": "Guayaba roja"
+      },
+      {
+       "q": "700",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "100",
+       "u": "ml",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Lavar las guayabas, cortarlas en cuartos y cocerlas con el agua 10 min.",
+      "Triturar y pasar por un colador para quitar las semillas.",
+      "Cocer el puré con el azúcar a fuego medio-bajo, removiendo sin parar, 40–60 min, hasta que se despegue del fondo.",
+      "Verter en un molde forrado y dejar secar 2–3 días.",
+      "Cortar en bloques, envolver y guardar en lugar fresco."
+     ]
+    }
+   ],
+   "notes": "Con queso fresco es el «romeu e julieta». Como el membrillo, muy concentrada se conserva meses.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-kuri-no-kanroni-castanas-en-almibar",
+   "tab": "conservas",
+   "name": "Kuri no kanroni (castañas en almíbar)",
+   "group": "Conservas dulces",
+   "cat": "Frutas en medio líquido / En almíbar",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Japón",
+   "yield": "1 tarro de 750 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Castaña pelada (sin la piel interior)"
+      },
+      {
+       "q": "400",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "400",
+       "u": "ml",
+       "n": "Agua"
+      },
+      {
+       "q": "1",
+       "u": "ud.",
+       "n": "Fruto de gardenia seco (kuchinashi), partido"
+      },
+      {
+       "q": "2",
+       "u": "cda.",
+       "n": "Brandy o mirin (opcional)"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Remojar las castañas con cáscara en agua toda la noche; pelar la cáscara dura y la piel interior con un cuchillo afilado, dejando forma de castaña.",
+      "Mantener las castañas peladas en agua al menos 1 h para quitar amargor.",
+      "Cubrir con agua nueva, añadir la gardenia envuelta en una gasa y cocer a fuego suave 20 min desde el hervor, sin borbotones; enfriar en agua fría.",
+      "Disolver 200 g de azúcar en los 400 ml de agua, añadir las castañas escurridas y apagar en cuanto rompa a hervir.",
+      "Cubrir con papel (otoshibuta) y reposar toda la noche.",
+      "Añadir los 200 g de azúcar restantes (y el brandy si se usa), llevar a hervor suave, apagar y reposar otra noche.",
+      "Envasar en tarro esterilizado cubiertas de almíbar y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "El azúcar en dos veces evita que la castaña se endurezca; no dejar que hierva fuerte o se rompe. La gardenia da el amarillo típico; sin ella quedan pálidas. En nevera, unas 2 semanas. Es la base de casi todos los dulces de castaña de esta lista.",
+   "done": false
+  },
+  {
+   "id": "r-conservas-kuri-no-shibukawani-castanas-en-almibar-con-piel-interior",
+   "tab": "conservas",
+   "name": "Kuri no shibukawani (castañas en almíbar con piel interior)",
+   "group": "Conservas dulces",
+   "cat": "Frutas en medio líquido / En almíbar",
+   "local": "",
+   "diet": "vegano",
+   "tag": "Japón",
+   "yield": "1 tarro de 750 ml",
+   "parts": [
+    {
+     "name": "",
+     "ings": [
+      {
+       "q": "500",
+       "u": "g",
+       "n": "Castaña con cáscara"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Bicarbonato (en tres tandas de 1 cdta.)"
+      },
+      {
+       "q": "250",
+       "u": "g",
+       "n": "Azúcar"
+      },
+      {
+       "q": "1",
+       "u": "cda.",
+       "n": "Salsa de soja"
+      },
+      {
+       "q": "",
+       "u": "C/S",
+       "n": "Agua"
+      }
+     ],
+     "steps": [
+      "Mise en place de géneros y útiles.",
+      "Cubrir las castañas con agua caliente 30 min y quitar solo la cáscara dura, sin dañar la piel interior (shibukawa).",
+      "Cubrir con agua abundante y 1 cdta. de bicarbonato; dejar en remojo de 4 h a una noche.",
+      "Llevar a ebullición y cocer 10 min a fuego suave; escurrir.",
+      "Repetir la cocción con agua limpia y bicarbonato hasta que el agua salga casi clara (normalmente 3 veces), enfriando cada vez poco a poco con agua del grifo.",
+      "Retirar con los dedos o un palillo las fibras gruesas y la vena del lomo, sin romper la piel.",
+      "Cocer 10 min más solo con agua para quitar el sabor a bicarbonato.",
+      "Cubrir con agua nueva, añadir el azúcar, tapar con otoshibuta y cocer 30 min a fuego muy suave; reposar toda la noche.",
+      "Sacar las castañas, reducir el almíbar con la salsa de soja 10–15 min, devolver las castañas y glasearlas 10 min.",
+      "Envasar en tarro esterilizado cubiertas de almíbar y guardar en nevera."
+     ]
+    }
+   ],
+   "notes": "Las unas gotas de soja redondean el dulzor y dan brillo. Si se rompe la piel interior la castaña se deshace: manipular siempre con agua templada. En nevera, unas 2–3 semanas; para más tiempo, esterilizar los tarros.",
+   "done": false
+  }
+ ]
+}
