@@ -32,14 +32,14 @@
       "name": "Quinoa",
       "note": "",
       "group": "Arroces y cereales",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-despensa-cuscus",
       "name": "Cuscús",
       "note": "",
       "group": "Arroces y cereales",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-despensa-bulgur",
@@ -53,14 +53,14 @@
       "name": "Espaguetis",
       "note": "",
       "group": "Pasta y fideos",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-despensa-macarrones",
       "name": "Macarrones",
       "note": "",
       "group": "Pasta y fideos",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-despensa-fideos-finos",
@@ -74,14 +74,14 @@
       "name": "Fideos para ramen",
       "note": "",
       "group": "Pasta y fideos",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-despensa-fideos-de-arroz",
       "name": "Fideos de arroz",
       "note": "",
       "group": "Pasta y fideos",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-despensa-garbanzos",
@@ -95,7 +95,7 @@
       "name": "Lentejas",
       "note": "secas y cocidas",
       "group": "Legumbres",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-despensa-alubias",
@@ -214,7 +214,7 @@
       "name": "Leche de avena",
       "note": "",
       "group": "Lácteos y bebidas vegetales",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-despensa-leche-de-soja",
@@ -249,21 +249,21 @@
       "name": "Leche de coco",
       "note": "",
       "group": "Conservas y encurtidos",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-despensa-caldo",
       "name": "Caldo",
       "note": "brick",
       "group": "Conservas y encurtidos",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-despensa-atun",
       "name": "Atún",
       "note": "",
       "group": "Conservas y encurtidos",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-despensa-sardinas-o-caballa",
@@ -347,7 +347,7 @@
       "name": "Vinagre de arroz",
       "note": "",
       "group": "Aceites, vinagres y salsas",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-despensa-salsa-de-soja",
@@ -396,7 +396,7 @@
       "name": "Crema de cacahuete",
       "note": "",
       "group": "Untables",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-despensa-miel",
@@ -452,14 +452,14 @@
       "name": "Sésamo blanco",
       "note": "",
       "group": "Frutos secos y semillas",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-despensa-sesamo-negro",
       "name": "Sésamo negro",
       "note": "",
       "group": "Frutos secos y semillas",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-despensa-chia",
@@ -480,7 +480,7 @@
       "name": "Alga kombu",
       "note": "",
       "group": "Algas",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-despensa-alga-nori",
@@ -550,14 +550,14 @@
       "name": "Patatas",
       "note": "",
       "group": "Fresco fuera de la nevera",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-despensa-cebolla",
       "name": "Cebolla",
       "note": "",
       "group": "Fresco fuera de la nevera",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-despensa-cebolla-morada",
@@ -578,7 +578,7 @@
       "name": "Fruta",
       "note": "",
       "group": "Fresco fuera de la nevera",
-      "missing": false
+      "missing": true
      }
     ]
    },
@@ -891,7 +891,7 @@
       "name": "Lechugas",
       "note": "",
       "group": "Verduras y hortalizas",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-nevera-rucula-brotes",
@@ -905,126 +905,126 @@
       "name": "Espinacas",
       "note": "",
       "group": "Verduras y hortalizas",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-nevera-col-repollo",
       "name": "Col / repollo",
       "note": "",
       "group": "Verduras y hortalizas",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-nevera-brocoli",
       "name": "Brócoli",
       "note": "",
       "group": "Verduras y hortalizas",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-nevera-coliflor",
       "name": "Coliflor",
       "note": "",
       "group": "Verduras y hortalizas",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-nevera-zanahoria",
       "name": "Zanahoria",
       "note": "",
       "group": "Verduras y hortalizas",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-nevera-pepino",
       "name": "Pepino",
       "note": "",
       "group": "Verduras y hortalizas",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-nevera-calabacin",
       "name": "Calabacín",
       "note": "",
       "group": "Verduras y hortalizas",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-nevera-berenjena",
       "name": "Berenjena",
       "note": "",
       "group": "Verduras y hortalizas",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-nevera-pimientos",
       "name": "Pimientos",
       "note": "",
       "group": "Verduras y hortalizas",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-nevera-puerro",
       "name": "Puerro",
       "note": "",
       "group": "Verduras y hortalizas",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-nevera-apio",
       "name": "Apio",
       "note": "",
       "group": "Verduras y hortalizas",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-nevera-tomate",
       "name": "Tomate",
       "note": "",
       "group": "Verduras y hortalizas",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-nevera-boniato",
       "name": "Boniato",
       "note": "",
       "group": "Verduras y hortalizas",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-nevera-remolacha",
       "name": "Remolacha",
       "note": "",
       "group": "Verduras y hortalizas",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-nevera-rabanitos",
       "name": "Rabanitos",
       "note": "",
       "group": "Verduras y hortalizas",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-nevera-ajos",
       "name": "Ajos",
       "note": "",
       "group": "Verduras y hortalizas",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-nevera-jengibre-fresco",
       "name": "Jengibre fresco",
       "note": "",
       "group": "Verduras y hortalizas",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-nevera-champinones",
       "name": "Champiñones",
       "note": "",
       "group": "Setas",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-nevera-setas-variadas",
@@ -1038,7 +1038,7 @@
       "name": "Aguacate",
       "note": "",
       "group": "Fruta",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-nevera-limas",
@@ -1052,14 +1052,14 @@
       "name": "Huevos",
       "note": "",
       "group": "Huevos y lácteos",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-nevera-yogur",
       "name": "Yogur",
       "note": "",
       "group": "Huevos y lácteos",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-nevera-yogur-griego",
@@ -1094,7 +1094,7 @@
       "name": "Quesos",
       "note": "",
       "group": "Huevos y lácteos",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-nevera-parmesano",
@@ -1108,7 +1108,7 @@
       "name": "Tofu",
       "note": "",
       "group": "Proteína vegetal",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-nevera-seitan",
@@ -1217,7 +1217,7 @@
       "name": "Vino blanco",
       "note": "",
       "group": "",
-      "missing": false
+      "missing": true
      },
      {
       "id": "p-bodega-vino-tinto",
