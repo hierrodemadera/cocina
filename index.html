@@ -97,6 +97,55 @@ html.despensa,html.despensa body,html.despensa .top{background:var(--bg);}
 .rcard.item .miss{display:none;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--miss);
   border:1px solid var(--miss);border-radius:6px;padding:0 6px;flex-shrink:0;}
 .rcard.item.missing .miss{display:inline-block;}
+/* Temporada */
+.season{padding:12px 0 0;}
+.tp-months{display:grid;grid-template-columns:repeat(12,1fr);gap:3px;background:var(--soft);border-radius:11px;padding:3px;}
+.tp-months button{height:34px;border-radius:8px;font-size:14px;font-weight:600;color:var(--muted);position:relative;}
+.tp-months button.on{background:var(--accent);color:var(--on-accent);}
+.tp-months button.now::after{content:'';position:absolute;left:50%;bottom:3px;width:4px;height:4px;border-radius:50%;background:var(--ok);transform:translateX(-50%);}
+.tp-head{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;padding:18px 0 4px;flex-wrap:wrap;}
+.tp-title{font-size:26px;font-weight:800;letter-spacing:-.01em;line-height:1.1;}
+.tp-sub{color:var(--muted);font-size:14px;margin-top:3px;}
+.tp-legend{display:flex;flex-wrap:wrap;gap:6px 16px;color:var(--muted);font-size:12.5px;padding:8px 0 2px;}
+.tp-legend > span{display:inline-flex;align-items:center;gap:6px;}
+.tp-legend i{width:12px;height:12px;border-radius:3px;background:var(--line);}
+.tp-legend i.pk,.tp-bar i.pk,.tp-cal i.pk{background:var(--ok);}
+.tp-legend i.sn,.tp-bar i.sn,.tp-cal i.sn{background:color-mix(in srgb, var(--ok) 30%, transparent);}
+.tp-v{display:inline-block;font-size:9.5px;font-weight:800;letter-spacing:.06em;color:#d9480f;border:1px solid currentColor;border-radius:4px;padding:0 3px;line-height:14px;margin-left:6px;vertical-align:2px;}
+.tp-legend .tp-v,.tp-meta .tp-v{margin:0 2px 0 0;}
+.tp-cat{margin-top:18px;}
+.tp-ch{font-weight:800;font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;padding:6px 0 8px;border-bottom:2px solid var(--fg);margin-bottom:10px;display:flex;gap:8px;align-items:baseline;}
+.tp-ch .c{font-weight:500;color:var(--muted);}
+.tp-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;}
+.tp-it{display:flex;flex-direction:column;align-items:flex-start;gap:7px;text-align:left;padding:10px 11px 9px;border-radius:12px;background:var(--card);border:1px solid var(--line);box-shadow:var(--card-shadow);}
+.tp-it.peak{border-color:color-mix(in srgb, var(--ok) 55%, transparent);}
+.tp-n{font-size:15px;font-weight:600;line-height:1.2;}
+.tp-ph{font-size:11.5px;color:var(--muted);margin-top:-2px;}
+.tp-bar{display:grid;grid-template-columns:repeat(12,1fr);gap:2px;width:100%;}
+.tp-bar i{height:6px;border-radius:2px;background:var(--line);position:relative;}
+.tp-bar i.cur{outline:1.5px solid var(--fg);outline-offset:1px;}
+.tp-bar.big{gap:3px;margin:12px 0 4px;}
+.tp-bar.big i{height:34px;border-radius:7px;font-style:normal;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center;color:var(--muted);}
+.tp-bar.big i.pk{color:#fff;}
+.tp-bar.big i.sn{color:var(--fg);}
+.tp-cal{display:flex;flex-direction:column;}
+.tp-row{display:grid;grid-template-columns:minmax(110px,1fr) repeat(12,minmax(14px,26px));gap:2px;align-items:center;min-height:30px;text-align:left;border-bottom:1px solid var(--line);}
+.tp-row.off .tp-rn{color:var(--muted);}
+.tp-rn{font-size:14px;line-height:1.15;padding:4px 6px 4px 0;}
+.tp-row i{height:16px;border-radius:3px;background:var(--soft);}
+.tp-row i.cur{outline:1.5px solid var(--fg);outline-offset:0;}
+.tp-mh{min-height:22px;border-bottom:0;}
+.tp-mh b{font-size:11px;color:var(--muted);text-align:center;font-weight:700;}
+.tp-mh b.cur{color:var(--fg);}
+.tp-foot{color:var(--muted);font-size:13px;line-height:1.6;margin:26px 0 0;}
+.tp-meta{color:var(--muted);font-size:14px;}
+.tp-state{font-size:15px;padding:8px 0 2px;}
+.tp-state.pk b{color:var(--ok);}
+.tp-note{font-size:15px;line-height:1.5;margin:8px 0 0;}
+.tp-recs{display:flex;flex-direction:column;}
+.tp-recs button{text-align:left;font-size:15px;padding:10px 0;border-bottom:1px solid var(--line);}
+.tp-recs .muted{padding-top:10px;}
+@media (min-width:900px){ .season{margin:0 calc(50% - 50vw);padding:14px 28px 0;} .tp-months{max-width:620px;} }
 /* Stock: hoja de la nevera */
 .stock{padding:14px 0 0;}
 @media (min-width:900px){ .stock{margin:0 calc(50% - 50vw);padding:14px 28px 0;} }
@@ -1029,7 +1078,7 @@ function saveLocal(){ try{ localStorage.setItem(KEY, JSON.stringify(data)); }cat
 function save(){ saveLocal(); if(typeof scheduleSync === 'function') scheduleSync(); }
 let saveT;
 function saveSoon(){ clearTimeout(saveT); saveT = setTimeout(save, 350); }
-function saveUi(){ try{ const c = Object.assign({}, ui); delete c.q; delete c.searching; delete c.xadding; delete c.xfocus; localStorage.setItem(UIKEY, JSON.stringify(c)); }catch(e){} }
+function saveUi(){ try{ const c = Object.assign({}, ui); delete c.q; delete c.searching; delete c.xadding; delete c.xfocus; delete c.tmonth; localStorage.setItem(UIKEY, JSON.stringify(c)); }catch(e){} }
 function validData(d){ return d && Array.isArray(d.recipes); }
 function slug(s){ return norm(s).replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,60); }
 function asText(v){ return Array.isArray(v) ? v.map(x=> String(x).trim()).filter(Boolean).join('\n') : String(v||''); }
@@ -1255,7 +1304,7 @@ $('#tabs').addEventListener('click', e=>{
 function updateHeaderIcons(){
   if(ui.space === 'despensa'){
     $('#search-btn').style.display = 'none'; $('#filter-btn').style.display = 'none'; $('#diet-btn').style.display = 'none';
-    $('#fab').classList.toggle('hide', ui.ptab === 'compra' || ui.ptab === 'semana');
+    $('#fab').classList.toggle('hide', ui.ptab === 'compra' || ui.ptab === 'semana' || ui.ptab === 'temporada');
     return;
   }
   $('#search-btn').style.display = '';
@@ -1383,6 +1432,7 @@ function renderGroups(){
 $('#groups').addEventListener('click', e=>{
   const b = e.target.closest('.chip'); if(!b) return;
   if(b.dataset.z != null){ ui.zone = b.dataset.z; saveUi(); renderZones(); keepBoard(renderPantry); return; }
+  if(b.dataset.tc != null){ ui.tcat = b.dataset.tc; saveUi(); renderZones(); renderPantry(); return; }
   if(b.dataset.r != null){ ui.region = b.dataset.r; ui.subregion = ''; saveUi(); renderGroups(); renderMain(); const nb = $('#main .board'); if(nb) nb.scrollLeft = 0; return; }
   if(b.dataset.s != null){ ui.subregion = b.dataset.s; saveUi(); renderGroups(); renderMain(); const nb = $('#main .board'); if(nb) nb.scrollLeft = 0; return; }
   ui.group[ui.tab] = b.dataset.g; saveUi(); renderGroups(); renderMain();
@@ -2310,10 +2360,20 @@ function renderPTabs(){
   const n = missingItems().filter(x=> !x.i.bought).length + weekShopCount() + (data.pantry.extra || []).filter(x=> !x.bought).length;
   const pt = ui.ptab, nw = data.week.length;
   $('#tabs').innerHTML = `<button class="tab${pt==='lista'?' on':''}" data-ptab="lista">Stock</button>`
-    + `<button class="tab${pt==='compra'?' on':''}" data-ptab="compra">Compra${n?`<span class="n">${n}</span>`:''}</button>`;
+    + `<button class="tab${pt==='compra'?' on':''}" data-ptab="compra">Compra${n?`<span class="n">${n}</span>`:''}</button>`
+    + `<button class="tab${pt==='temporada'?' on':''}" data-ptab="temporada">Temporada</button>`;
 }
 function renderZones(){
   const el = $('#groups');
+  if(ui.ptab === 'temporada'){
+    const m = tMonth(), cat = ui.tcat || '';
+    el.classList.remove('hide');
+    el.innerHTML = `<button class="chip${!cat?' on':''}" data-tc="">Todo</button>` + SEASON.cats.map(([id, name])=>{
+      const n = SEASON.items.filter(it=> it.c === id && sIn(it, m)).length;
+      return `<button class="chip${cat===id?' on':''}" data-tc="${id}">${esc(name)}<span class="c">${n}</span></button>`;
+    }).join('');
+    return;
+  }
   if(ui.ptab !== 'lista'){ el.classList.add('hide'); el.innerHTML = ''; return; }
   el.classList.remove('hide');
   const cur = curZone();
@@ -2348,6 +2408,7 @@ function renderPantry(){
   document.body.classList.remove('boardmode');
   if(ui.ptab === 'compra'){ renderBuy(main); return; }
   if(ui.ptab === 'semana'){ renderWeek(main); return; }
+  if(ui.ptab === 'temporada'){ renderSeason(main); return; }
   const cur = curZone(), zones = cur ? [cur] : data.pantry.zones;
   main.innerHTML = `<div class="stock">
     ${zones.map(stZone).join('')}
@@ -2375,6 +2436,134 @@ function renderPantry(){
     if(ptype === 'mouse'){ stop(); openItem(it.dataset.item, it.dataset.zone); }
   });
 })();
+/* ============================================================
+   TEMPORADA: qué hay de temporada cada mes (frutas, verduras, setas, pescado y marisco)
+   España, con la huerta y la lonja valencianas de referencia. Orientativo: el tiempo,
+   el invernadero y las vedas mueven las fechas.
+   ============================================================ */
+const SEASON = {"cats":[["fruta","Fruta"],["verdura","Verdura y hortaliza"],["seta","Setas"],["pescado","Pescado"],["marisco","Marisco"],["seco","Frutos secos y más"]],"items":[{"n":"Naranja","c":"fruta","m":"111111000011","p":"111000000001","t":"Navelina (nov–ene), Navel Lane Late (feb–abr) y Valencia Late (abr–jun).","v":1},{"n":"Mandarina","c":"fruta","m":"111000001111","p":"100000000011","t":"Satsuma desde septiembre, clementina (clemenules) de noviembre a enero y tardías hasta marzo.","v":1},{"n":"Limón","c":"fruta","m":"111111111111","p":"111000000111","t":"Fino de octubre a marzo y Verna de febrero a julio: hay casi todo el año.","v":1},{"n":"Pomelo","c":"fruta","m":"111100000011","p":"111000000001","t":"","v":1},{"n":"Lima","c":"fruta","m":"000000011111","p":"000000001110","t":"","v":0},{"n":"Caqui","c":"fruta","m":"100000000111","p":"000000000111","t":"Rojo Brillante de la Ribera del Xúquer (DOP). Persimon: el firme que se come como una manzana.","v":1},{"n":"Granada","c":"fruta","m":"100000001111","p":"000000000110","t":"Mollar de Elche (DOP): la más dulce, con la semilla blanda.","v":1},{"n":"Membrillo","c":"fruta","m":"000000001110","p":"000000000100","t":"Para dulce de membrillo; no se come crudo.","v":0},{"n":"Manzana","c":"fruta","m":"000000011111","p":"000000001110","t":"Se recoge de agosto a noviembre y se guarda en cámara el resto del año.","v":0},{"n":"Pera","c":"fruta","m":"000000111110","p":"000000011000","t":"Ercolini y limonera en julio; conferencia y blanquilla a finales de verano.","v":0},{"n":"Uva de mesa","c":"fruta","m":"000000111111","p":"000000011100","t":"Uva embolsada del Vinalopó (DOP): la de Nochevieja.","v":1},{"n":"Breva","c":"fruta","m":"000001100000","p":"000001000000","t":"La primera cosecha de la higuera, más grande que el higo.","v":0},{"n":"Higo","c":"fruta","m":"000000011100","p":"000000011000","t":"","v":1},{"n":"Higo chumbo","c":"fruta","m":"000000011000","p":"000000010000","t":"Fruto de la pala (chumbera). Cuidado con las púas: se pela con guantes.","v":1},{"n":"Azufaifa (jínjol)","c":"fruta","m":"000000001100","p":"000000001000","t":"Fruta pequeña de huerta, típica de los pueblos valencianos.","v":1},{"n":"Melón","c":"fruta","m":"000001111000","p":"000000110000","t":"","v":0},{"n":"Sandía","c":"fruta","m":"000001111000","p":"000000110000","t":"","v":1},{"n":"Albaricoque","c":"fruta","m":"000011100000","p":"000011000000","t":"","v":1},{"n":"Cereza","c":"fruta","m":"000011100000","p":"000001000000","t":"Del Jerte y de la montaña de Alicante; en junio, la mejor.","v":0},{"n":"Níspero","c":"fruta","m":"000111000000","p":"000010000000","t":"Callosa d'en Sarrià (DOP), en la Marina Baixa.","v":1},{"n":"Fresa","c":"fruta","m":"111111000000","p":"001110000000","t":"Fresón de Huelva de enero a mayo; la de huerta valenciana, en primavera.","v":0},{"n":"Arándano","c":"fruta","m":"000111100000","p":"000011000000","t":"","v":0},{"n":"Frambuesa","c":"fruta","m":"000001111000","p":"000000110000","t":"Al aire libre en verano; el resto del año, de invernadero.","v":0},{"n":"Mora","c":"fruta","m":"000000111000","p":"000000010000","t":"","v":0},{"n":"Grosella","c":"fruta","m":"000001110000","p":"000000100000","t":"","v":0},{"n":"Melocotón","c":"fruta","m":"000011111100","p":"000000110000","t":"El de Calanda (DOP), embolsado en el árbol, llega en septiembre y octubre.","v":1},{"n":"Paraguayo","c":"fruta","m":"000001110000","p":"000000100000","t":"","v":0},{"n":"Nectarina","c":"fruta","m":"000011111000","p":"000000100000","t":"","v":1},{"n":"Ciruela","c":"fruta","m":"000001111000","p":"000000110000","t":"","v":1},{"n":"Kiwi","c":"fruta","m":"111100000111","p":"110000000001","t":"Se recoge en otoño y aguanta en cámara hasta primavera.","v":0},{"n":"Aguacate","c":"fruta","m":"111110000111","p":"111000000001","t":"Hass de Málaga y de la Comunitat Valenciana, de otoño a primavera.","v":1},{"n":"Chirimoya","c":"fruta","m":"111100000111","p":"100000000011","t":"Costa Tropical de Granada y Málaga (DOP).","v":0},{"n":"Mango","c":"fruta","m":"000000011110","p":"000000001100","t":"Mango de la Axarquía (Málaga).","v":0},{"n":"Madroño","c":"fruta","m":"000000000111","p":"000000000010","t":"Fruto silvestre; muy maduro tiene un punto alcohólico.","v":0},{"n":"Plátano de Canarias","c":"fruta","m":"111111111111","p":"000000000000","t":"Hay todo el año.","v":0},{"n":"Alcachofa","c":"verdura","m":"111110000111","p":"111000000000","t":"Alcachofa de Benicarló (DOP). La reina de la paella de invierno.","v":1},{"n":"Acelga","c":"verdura","m":"111111111111","p":"111000000111","t":"","v":1},{"n":"Ajo tierno","c":"verdura","m":"111100000000","p":"011000000000","t":"Para revueltos y para la paella de invierno, con alcachofa y habas.","v":1},{"n":"Ajo","c":"verdura","m":"000011110000","p":"000001100000","t":"Se cosecha a principios de verano y se guarda seco el resto del año.","v":0},{"n":"Apio","c":"verdura","m":"111110000111","p":"111000000001","t":"","v":1},{"n":"Berenjena","c":"verdura","m":"000001111100","p":"000000111000","t":"","v":1},{"n":"Boniato","c":"verdura","m":"100000001111","p":"000000000110","t":"Asado, con castañas, para Todos los Santos.","v":1},{"n":"Borraja","c":"verdura","m":"111100000111","p":"110000000011","t":"Tallos y hojas, cocidos con patata (Aragón y Navarra).","v":0},{"n":"Brócoli","c":"verdura","m":"111100000111","p":"110000000011","t":"","v":0},{"n":"Calabacín","c":"verdura","m":"000011111000","p":"000001110000","t":"","v":1},{"n":"Calabaza","c":"verdura","m":"000000001111","p":"000000000110","t":"Entera aguanta meses: se encuentra hasta finales de invierno.","v":1},{"n":"Cardo","c":"verdura","m":"111000000111","p":"100000000001","t":"De Navidad; con almendras o en el cocido.","v":1},{"n":"Cebolla","c":"verdura","m":"000001111100","p":"000000110000","t":"Se cosecha en verano y se guarda todo el año.","v":1},{"n":"Cebolleta (cebolla tierna)","c":"verdura","m":"011111000000","p":"001110000000","t":"","v":1},{"n":"Calçot","c":"verdura","m":"111100000001","p":"111000000000","t":"A la brasa con salsa romesco (Valls, Tarragona).","v":0},{"n":"Chirivía","c":"verdura","m":"111000000111","p":"100000000011","t":"Para caldos y el puchero.","v":1},{"n":"Col / repollo","c":"verdura","m":"111100000111","p":"110000000011","t":"","v":1},{"n":"Col lombarda","c":"verdura","m":"111000000111","p":"100000000011","t":"","v":0},{"n":"Coles de Bruselas","c":"verdura","m":"110000000111","p":"100000000011","t":"","v":0},{"n":"Col rizada / kale","c":"verdura","m":"111000000111","p":"110000000001","t":"Mejor después de las primeras heladas.","v":0},{"n":"Coliflor","c":"verdura","m":"111100000111","p":"110000000011","t":"","v":1},{"n":"Romanesco","c":"verdura","m":"111000000111","p":"100000000011","t":"","v":0},{"n":"Endivia","c":"verdura","m":"111100000111","p":"110000000001","t":"","v":0},{"n":"Escarola","c":"verdura","m":"111000000111","p":"110000000001","t":"","v":1},{"n":"Canónigos","c":"verdura","m":"111000000111","p":"110000000011","t":"","v":0},{"n":"Rúcula","c":"verdura","m":"111100000111","p":"111000000011","t":"","v":0},{"n":"Espinaca","c":"verdura","m":"111110001111","p":"111000000011","t":"","v":1},{"n":"Lechuga","c":"verdura","m":"111111111111","p":"111000000011","t":"Todo el año: en invierno, de la huerta valenciana y de Murcia; en verano, del norte.","v":1},{"n":"Hinojo","c":"verdura","m":"111100000111","p":"110000000011","t":"","v":0},{"n":"Nabo","c":"verdura","m":"111000000111","p":"100000000011","t":"","v":1},{"n":"Grelos","c":"verdura","m":"111000000011","p":"110000000000","t":"Los brotes del nabo (Galicia).","v":0},{"n":"Rábano","c":"verdura","m":"111100000111","p":"111000000011","t":"","v":1},{"n":"Puerro","c":"verdura","m":"111100001111","p":"110000000011","t":"","v":1},{"n":"Remolacha","c":"verdura","m":"000001111111","p":"000000001110","t":"","v":1},{"n":"Zanahoria","c":"verdura","m":"000111111111","p":"000011100000","t":"","v":1},{"n":"Espárrago verde","c":"verdura","m":"001111000000","p":"001110000000","t":"","v":0},{"n":"Espárrago blanco","c":"verdura","m":"001111000000","p":"000110000000","t":"Navarra (IGP) y vega de Granada.","v":0},{"n":"Espárrago triguero","c":"verdura","m":"011100000000","p":"001000000000","t":"Silvestre: se coge en el campo.","v":0},{"n":"Guisante","c":"verdura","m":"011110000000","p":"001100000000","t":"","v":1},{"n":"Tirabeque","c":"verdura","m":"011110000000","p":"001100000000","t":"","v":0},{"n":"Haba","c":"verdura","m":"011110000000","p":"001100000000","t":"Tiernas, con ajos tiernos; las muy pequeñas, crudas.","v":1},{"n":"Judía verde","c":"verdura","m":"000001111100","p":"000000111000","t":"","v":1},{"n":"Bajoqueta","c":"verdura","m":"000001111000","p":"000000110000","t":"Judía verde plana: imprescindible en la paella valenciana.","v":1},{"n":"Ferraura","c":"verdura","m":"000001111000","p":"000000110000","t":"Judía plana y ancha de la paella valenciana.","v":1},{"n":"Garrofó","c":"verdura","m":"000000111000","p":"000000010000","t":"Tierno solo en verano; el resto del año, seco y remojado.","v":1},{"n":"Tavella","c":"verdura","m":"000001111000","p":"000000110000","t":"Judía de grano tierno, también para la paella.","v":1},{"n":"Tomate","c":"verdura","m":"000001111100","p":"000000111000","t":"Valenciano y de penjar. El de verano, el mejor.","v":1},{"n":"Tomate raf","c":"verdura","m":"111110000001","p":"011100000000","t":"De Almería: el tomate bueno del invierno.","v":0},{"n":"Pimiento","c":"verdura","m":"000001111100","p":"000000111000","t":"","v":1},{"n":"Pimiento de Padrón","c":"verdura","m":"000001111000","p":"000000110000","t":"","v":0},{"n":"Pimiento del piquillo","c":"verdura","m":"000000001110","p":"000000001100","t":"Lodosa (DOP): se asa y se pela.","v":0},{"n":"Pepino","c":"verdura","m":"000001111000","p":"000000110000","t":"","v":1},{"n":"Maíz dulce","c":"verdura","m":"000000111000","p":"000000010000","t":"","v":0},{"n":"Patata nueva","c":"verdura","m":"000111100000","p":"000011000000","t":"Temprana: piel fina que se quita con los dedos.","v":1},{"n":"Patata","c":"verdura","m":"000000111110","p":"000000011100","t":"Se cosecha a final de verano y se guarda todo el año.","v":0},{"n":"Níscalo (rovelló)","c":"seta","m":"000000000111","p":"000000000110","t":"Pinares; a la brasa con ajo y perejil.","v":1},{"n":"Boletus","c":"seta","m":"000000001110","p":"000000000100","t":"Boletus edulis; los de verano (aestivalis) salen en junio.","v":0},{"n":"Rebozuelo","c":"seta","m":"000000001111","p":"000000000110","t":"También en primavera y verano si llueve.","v":0},{"n":"Trompeta de los muertos","c":"seta","m":"000000000111","p":"000000000010","t":"","v":0},{"n":"Seta de cardo","c":"seta","m":"001110000111","p":"000000000010","t":"Sale en otoño y otra vez en primavera.","v":0},{"n":"Pie azul","c":"seta","m":"000000000111","p":"000000000010","t":"","v":0},{"n":"Llenega","c":"seta","m":"100000000011","p":"000000000001","t":"Llenega negra: de las últimas setas del año.","v":1},{"n":"Colmenilla","c":"seta","m":"001110000000","p":"000100000000","t":"Siempre cocinada: cruda es tóxica.","v":0},{"n":"Perretxiko (seta de San Jorge)","c":"seta","m":"000110000000","p":"000100000000","t":"Sale en torno al 23 de abril, San Jorge.","v":0},{"n":"Trufa negra","c":"seta","m":"111000000001","p":"110000000000","t":"Sarrión (Teruel) y Andilla (Valencia).","v":1},{"n":"Trufa de verano","c":"seta","m":"000001111000","p":"000000110000","t":"Más suave que la negra.","v":0},{"n":"Champiñón","c":"seta","m":"111111111111","p":"000000000000","t":"De cultivo: hay todo el año.","v":0},{"n":"Seta de ostra","c":"seta","m":"111111111111","p":"000000000000","t":"De cultivo: hay todo el año.","v":0},{"n":"Boquerón","c":"pescado","m":"001111111110","p":"000111000000","t":"Anchoa del Cantábrico en primavera; en el Mediterráneo, hasta otoño.","v":1},{"n":"Sardina","c":"pescado","m":"000011111100","p":"000001110000","t":"En verano está más grasa y sabrosa.","v":1},{"n":"Caballa (verdel)","c":"pescado","m":"011111111100","p":"001100000000","t":"La costera del Cantábrico es en primavera; en el Mediterráneo se pesca hasta otoño.","v":1},{"n":"Jurel","c":"pescado","m":"000111111100","p":"000001111000","t":"","v":1},{"n":"Bonito del norte","c":"pescado","m":"000001111100","p":"000000110000","t":"Costera del Cantábrico, de junio a octubre.","v":0},{"n":"Atún rojo","c":"pescado","m":"000011100000","p":"000011000000","t":"De almadraba, cuando entra al Mediterráneo a desovar.","v":0},{"n":"Bacoreta","c":"pescado","m":"100000001111","p":"000000000110","t":"Túnido pequeño del Mediterráneo.","v":1},{"n":"Bonito del Mediterráneo (bonítol)","c":"pescado","m":"100000000111","p":"000000000011","t":"Sarda: más pequeño que el del norte.","v":1},{"n":"Llampuga","c":"pescado","m":"000000011111","p":"000000001100","t":"Del Mediterráneo; frita o con pimientos.","v":1},{"n":"Lecha (pez limón)","c":"pescado","m":"110000001111","p":"000000000110","t":"","v":1},{"n":"Salmonete","c":"pescado","m":"000000001111","p":"000000000110","t":"El de roca, más sabroso que el de fango.","v":1},{"n":"Pez espada","c":"pescado","m":"000011111000","p":"000001110000","t":"","v":0},{"n":"Rascacio / cabracho","c":"pescado","m":"000011111000","p":"000001100000","t":"Para suquet, caldos y el pastel de cabracho.","v":1},{"n":"Merluza","c":"pescado","m":"111111111111","p":"000000000000","t":"Hay todo el año; la de pincho (anzuelo), la mejor.","v":0},{"n":"Bacaladilla","c":"pescado","m":"001111110000","p":"000111000000","t":"Barata y fina; frita o en caldos.","v":1},{"n":"Brótola","c":"pescado","m":"001111111111","p":"000000000000","t":"Pescado poco valorado y muy bueno; para caldos y al horno.","v":1},{"n":"Palaia (gallo)","c":"pescado","m":"111111111111","p":"000000000000","t":"Pescado plano de la lonja valenciana; frita o a la plancha.","v":1},{"n":"Pintarroja (gatet)","c":"pescado","m":"111111111111","p":"000000000000","t":"","v":1},{"n":"Raya","c":"pescado","m":"111111111111","p":"110000000001","t":"Con pocas espinas; para all i pebre y al vapor.","v":1},{"n":"Herrera (mabra)","c":"pescado","m":"111000000111","p":"110000000001","t":"","v":1},{"n":"Breca","c":"pescado","m":"111100000001","p":"111000000000","t":"","v":1},{"n":"Mújol (llisa)","c":"pescado","m":"111111000111","p":"110000000011","t":"Muy de la Albufera; adobada o a la sal.","v":1},{"n":"Anguila","c":"pescado","m":"111000000111","p":"110000000001","t":"Albufera: all i pebre.","v":1},{"n":"Angula","c":"pescado","m":"111000000011","p":"100000000001","t":"","v":0},{"n":"Rape","c":"pescado","m":"111000000111","p":"110000000011","t":"","v":0},{"n":"Besugo","c":"pescado","m":"110000000011","p":"000000000001","t":"El pescado de la cena de Nochebuena.","v":1},{"n":"Dorada salvaje","c":"pescado","m":"111000000111","p":"100000000011","t":"La de piscifactoría hay todo el año.","v":1},{"n":"Lubina salvaje","c":"pescado","m":"111000000011","p":"110000000001","t":"La de piscifactoría hay todo el año.","v":0},{"n":"Pargo","c":"pescado","m":"100000000111","p":"000000000001","t":"","v":0},{"n":"Congrio","c":"pescado","m":"111000000001","p":"110000000000","t":"Para caldos y guisos.","v":0},{"n":"Lenguado","c":"pescado","m":"111100000011","p":"111000000000","t":"","v":0},{"n":"Rodaballo salvaje","c":"pescado","m":"111100000001","p":"111000000000","t":"El de piscifactoría hay todo el año.","v":0},{"n":"Bacalao fresco","c":"pescado","m":"111100000001","p":"111000000000","t":"El salado y desalado sirve todo el año.","v":0},{"n":"Gamba roja","c":"marisco","m":"001111111111","p":"000001110000","t":"De Dénia, Xàbia y Santa Pola; la de cabeza morada, la mejor.","v":1},{"n":"Langostino","c":"marisco","m":"111111111111","p":"000000000000","t":"El de Vinaròs, el más apreciado de la costa valenciana.","v":1},{"n":"Galera","c":"marisco","m":"111000000011","p":"110000000001","t":"Para arroces y caldos; en invierno viene cargada.","v":1},{"n":"Cigala","c":"marisco","m":"111111111111","p":"000000000000","t":"","v":0},{"n":"Cangrejo azul","c":"marisco","m":"111111111111","p":"000000011100","t":"Especie invasora: comerlo ayuda. Arroces y fideuà.","v":1},{"n":"Bogavante","c":"marisco","m":"000011110000","p":"000001100000","t":"","v":0},{"n":"Langosta","c":"marisco","m":"000011111000","p":"000001110000","t":"","v":0},{"n":"Centolla","c":"marisco","m":"111110000011","p":"110000000001","t":"Galicia: veda en verano y otoño.","v":0},{"n":"Nécora","c":"marisco","m":"111110000011","p":"111000000001","t":"","v":0},{"n":"Buey de mar","c":"marisco","m":"111000000111","p":"100000000011","t":"","v":0},{"n":"Percebe","c":"marisco","m":"111100000111","p":"110000000011","t":"","v":0},{"n":"Clòtxina","c":"marisco","m":"000011111000","p":"000001100000","t":"Mejillón valenciano del puerto: más pequeño y sabroso. Al vapor.","v":1},{"n":"Mejillón","c":"marisco","m":"111111111111","p":"110000001111","t":"De batea gallega: hay todo el año.","v":0},{"n":"Berberecho","c":"marisco","m":"111100000111","p":"111000000011","t":"","v":0},{"n":"Almeja","c":"marisco","m":"111100000111","p":"110000000001","t":"","v":0},{"n":"Navaja","c":"marisco","m":"111110000111","p":"111000000001","t":"Fuera de temporada hay veda según la cofradía.","v":0},{"n":"Ostra","c":"marisco","m":"111100001111","p":"110000000011","t":"Los meses con R.","v":0},{"n":"Vieira","c":"marisco","m":"111000000011","p":"110000000001","t":"","v":0},{"n":"Zamburiña","c":"marisco","m":"111100000111","p":"110000000011","t":"","v":0},{"n":"Erizo de mar","c":"marisco","m":"111100000011","p":"111000000000","t":"Galicia y Asturias; veda de mayo a octubre.","v":0},{"n":"Pulpo","c":"marisco","m":"111110000111","p":"111000000000","t":"El de roca, mejor en invierno y primavera.","v":1},{"n":"Sepia","c":"marisco","m":"011111100000","p":"001110000000","t":"Sepia con cebolla, a la plancha o en arroz.","v":1},{"n":"Calamar","c":"marisco","m":"111111111111","p":"100000000011","t":"Hay todo el año; el mejor, en otoño e invierno.","v":1},{"n":"Chipirón","c":"marisco","m":"000001111000","p":"000000110000","t":"","v":0},{"n":"Castaña","c":"seco","m":"000000000111","p":"000000000110","t":"Asada, con boniatos, en Todos los Santos.","v":0},{"n":"Nuez","c":"seco","m":"000000001110","p":"000000000100","t":"Fresca, la piel interior sale sola.","v":0},{"n":"Almendra","c":"seco","m":"000000011100","p":"000000001000","t":"Marcona y largueta; Alicante y Valencia son grandes productoras.","v":1},{"n":"Avellana","c":"seco","m":"000000011100","p":"000000001000","t":"","v":0},{"n":"Piñón","c":"seco","m":"111000000011","p":"000000000000","t":"","v":0},{"n":"Chufa","c":"seco","m":"110000000111","p":"000000000011","t":"Chufa de Valencia (DO). Se recoge en invierno y la horchata se toma en verano.","v":1},{"n":"Cacau del collaret","c":"seco","m":"000000001110","p":"000000000100","t":"Cacahuete valenciano; tierno y recién tostado en otoño.","v":1},{"n":"Aceituna para aliñar","c":"seco","m":"000000001110","p":"000000001100","t":"Verdes, para partir y aliñar en casa.","v":1}]};
+const MESES = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+const MES1 = ['E','F','M','A','M','J','J','A','S','O','N','D'];
+const tMonth = ()=> (ui.tmonth >= 1 && ui.tmonth <= 12) ? ui.tmonth : new Date().getMonth() + 1;
+const sIn = (it, m)=> it.m[m-1] === '1', sPeak = (it, m)=> it.p[m-1] === '1';
+const sAll = it=> it.m === '111111111111';
+const sCat = id=> (SEASON.cats.find(c=> c[0] === id) || [id, id])[1];
+/* fase del producto en un mes: empieza, en su mejor momento, últimas semanas… */
+function sPhase(it, m){
+  if(!sIn(it, m)) return '';
+  if(sAll(it)) return 'todo el año';
+  const prev = (m + 10) % 12 + 1, next = m % 12 + 1;
+  if(!sIn(it, prev)) return 'empieza';
+  if(!sIn(it, next)) return 'se acaba';
+  return '';
+}
+function sBar(it, m, big){
+  return `<span class="tp-bar${big ? ' big' : ''}">` + MES1.map((l, i)=>{
+    const k = sPeak(it, i+1) ? ' pk' : sIn(it, i+1) ? ' sn' : '';
+    return `<i class="${k}${i+1 === m ? ' cur' : ''}">${big ? l : ''}</i>`;
+  }).join('') + `</span>`;
+}
+function sTile(it, m){
+  const ph = sPhase(it, m), i = SEASON.items.indexOf(it);
+  return `<button class="tp-it${sPeak(it, m) ? ' peak' : ''}" data-si="${i}">
+    <span class="tp-n">${esc(it.n)}${it.v ? '<span class="tp-v" title="De la Comunitat Valenciana">VLC</span>' : ''}</span>
+    ${sBar(it, m)}
+    ${ph ? `<span class="tp-ph">${ph}</span>` : ''}
+  </button>`;
+}
+function renderSeason(main){
+  const m = tMonth(), now = new Date().getMonth() + 1, cat = ui.tcat || '', view = ui.tview === 'cal' ? 'cal' : 'mes';
+  const items = SEASON.items.filter(it=> !cat || it.c === cat);
+  const strip = `<div class="tp-months">${MES1.map((l, i)=> `<button class="${i+1 === m ? 'on' : ''}${i+1 === now ? ' now' : ''}" data-tm="${i+1}" aria-label="${MESES[i]}">${l}</button>`).join('')}</div>`;
+  const inMonth = items.filter(it=> sIn(it, m));
+  const head = `<div class="tp-head">
+      <div><h2 class="tp-title">${MESES[m-1][0].toUpperCase() + MESES[m-1].slice(1)}</h2>
+      <div class="tp-sub">${m === now ? 'Este mes · ' : ''}${inMonth.length} de temporada${cat ? ' en ' + esc(sCat(cat).toLowerCase()) : ''}</div></div>
+      <div class="kseg"><button class="${view === 'mes' ? 'on' : ''}" data-tv="mes">Mes</button><button class="${view === 'cal' ? 'on' : ''}" data-tv="cal">Calendario</button></div>
+    </div>
+    <div class="tp-legend"><span><i class="pk"></i>en su mejor momento</span><span><i class="sn"></i>de temporada</span><span><span class="tp-v">VLC</span>Comunitat Valenciana</span></div>`;
+  let body = '';
+  const cats = SEASON.cats.filter(c=> !cat || c[0] === cat);
+  if(view === 'mes'){
+    cats.forEach(([cid, cname])=>{
+      const list = inMonth.filter(it=> it.c === cid);
+      if(!list.length) return;
+      // primero lo que está en su mejor momento, luego lo que empieza o acaba, y al final lo de todo el año
+      const rank = it=> sPeak(it, m) ? 0 : sAll(it) ? 2 : 1;
+      list.sort((a, b)=> rank(a) - rank(b) || a.n.localeCompare(b.n, 'es'));
+      body += `<section class="tp-cat"><div class="tp-ch">${esc(cname)}<span class="c">${list.length}</span></div><div class="tp-grid">${list.map(it=> sTile(it, m)).join('')}</div></section>`;
+    });
+    if(!body) body = `<div class="empty">Este mes no hay nada de temporada en ${esc(sCat(cat).toLowerCase())}.</div>`;
+  } else {
+    cats.forEach(([cid, cname])=>{
+      const list = items.filter(it=> it.c === cid).sort((a, b)=> a.n.localeCompare(b.n, 'es'));
+      body += `<section class="tp-cat"><div class="tp-ch">${esc(cname)}<span class="c">${list.length}</span></div>
+        <div class="tp-cal">
+          <div class="tp-row tp-mh"><span></span>${MES1.map((l, i)=> `<b class="${i+1 === m ? 'cur' : ''}">${l}</b>`).join('')}</div>
+          ${list.map(it=> `<button class="tp-row${sIn(it, m) ? '' : ' off'}" data-si="${SEASON.items.indexOf(it)}"><span class="tp-rn">${esc(it.n)}${it.v ? '<span class="tp-v">VLC</span>' : ''}</span>${MES1.map((l, i)=> `<i class="${sPeak(it, i+1) ? 'pk' : sIn(it, i+1) ? 'sn' : ''}${i+1 === m ? ' cur' : ''}"></i>`).join('')}</button>`).join('')}
+        </div></section>`;
+    });
+  }
+  main.innerHTML = `<div class="season">${strip}${head}${body}
+    <p class="tp-foot">Temporada de recolección en España, con la huerta y la lonja valencianas de referencia. Es orientativa: el tiempo, los invernaderos y las vedas adelantan o retrasan las fechas. Toca un producto para ver su año y las recetas que lo llevan.</p></div>`;
+}
+/* recetas que llevan el producto (por el nombre del ingrediente o de la receta) */
+function sRecipes(it){
+  const keys = it.n.replace(/\(.*?\)/g, '/').split('/').map(x=> norm(x)).filter(Boolean).map(k=> k.replace(/ salvaje$| fresco$| nueva$| de mesa$| para aliñar$/, ''));
+  // cada palabra, en singular o plural: «gamba roja» encuentra «gambas rojas»
+  const word = w=> (w.length > 4 ? w.replace(/(es|s)$/, '') : w).replace(/[^a-z0-9ñ]/g, '') + '(s|es)?';
+  const find = ks=>{
+    const res = [...new Set(ks)].filter(k=> k.length >= 3).map(k=> new RegExp(' ' + k.split(/\s+/).map(word).join(' +') + ' '));
+    const has = txt=>{ const t = ' ' + norm(txt).replace(/[^a-z0-9ñ]+/g, ' ') + ' '; return res.some(re=> re.test(t)); };
+    return data.recipes.filter(r=> has(r.name) || r.parts.some(p=> p.ings.some(i=> has(i.n)))).sort((a, b)=> a.name.localeCompare(b.name, 'es'));
+  };
+  // si con el nombre entero no sale nada, se busca por la primera palabra («gamba roja» → gambas)
+  const out = find(keys);
+  return out.length ? out : find(keys.filter(k=> !/ del? /.test(k)).map(k=> k.split(' ')[0]).filter(k=> k.length >= 4));
+}
+function openSeason(i){
+  const it = SEASON.items[i]; if(!it) return;
+  const m = tMonth(), ph = sPhase(it, m);
+  const state = sPeak(it, m) ? 'En su mejor momento' : sIn(it, m) ? 'De temporada' : 'Fuera de temporada';
+  const peakTxt = (()=>{ // «de diciembre a marzo»
+    const ms = [...Array(12).keys()].map(k=> k+1).filter(k=> sPeak(it, k)); if(!ms.length) return '';
+    let start = ms.find(k=> !sPeak(it, (k + 10) % 12 + 1)) || ms[0], end = start; while(sPeak(it, end % 12 + 1) && end % 12 + 1 !== start) end = end % 12 + 1;
+    return start === end ? MESES[start-1] : `de ${MESES[start-1]} a ${MESES[end-1]}`;
+  })();
+  const recs = sRecipes(it);
+  const inBuy = (data.pantry.extra || []).some(x=> norm(x.name) === norm(it.n) && !x.bought);
+  openSheet(`<div class="sh-head"><button class="x" data-act="close" aria-label="Cerrar">✕</button><h2>${esc(it.n)}</h2></div>
+    <div class="sh-body">
+      <div class="tp-meta">${esc(sCat(it.c))}${it.v ? ' · <span class="tp-v">VLC</span> Comunitat Valenciana' : ''}</div>
+      ${sBar(it, m, true)}
+      <div class="tp-state${sPeak(it, m) ? ' pk' : sIn(it, m) ? ' sn' : ''}">${MESES[m-1][0].toUpperCase() + MESES[m-1].slice(1)}: <b>${state}</b>${ph && ph !== 'todo el año' ? ` · ${ph}` : ''}</div>
+      ${sAll(it) ? `<p class="tp-note">Hay todo el año${peakTxt ? `; lo mejor, ${peakTxt}` : ''}.</p>` : peakTxt ? `<p class="tp-note">Lo mejor, ${peakTxt}.</p>` : ''}
+      ${it.t ? `<p class="tp-note">${esc(it.t)}</p>` : ''}
+      <div class="foot" style="margin-top:16px;"><button class="sh-btn ${inBuy ? 'ghost' : 'primary'}" data-act="buy"${inBuy ? ' disabled' : ''}>${inBuy ? '✓ En la compra' : '+ A la compra'}</button></div>
+      <div class="ghead"><span class="t">Recetas con ${esc(it.n.split(' (')[0].toLowerCase())}</span><span class="c">${recs.length || ''}</span></div>
+      ${recs.length ? `<div class="tp-recs">${recs.slice(0, 30).map(r=> `<button data-rid="${r.id}">${esc(r.name)}</button>`).join('')}${recs.length > 30 ? `<span class="muted">y ${recs.length - 30} más</span>` : ''}</div>`
+        : '<p class="muted">Aún no hay recetas que lo lleven.</p>'}
+    </div>`, '', sh=>{
+      sh.addEventListener('click', e=>{
+        const r = e.target.closest('[data-rid]');
+        if(r){ openFicha(r.dataset.rid); return; } // la ficha ocupa la misma hoja
+        const a = e.target.closest('[data-act]'); if(!a) return;
+        if(a.dataset.act === 'close') return closeSheet();
+        if(a.dataset.act === 'buy'){
+          data.pantry.extra = data.pantry.extra || [];
+          data.pantry.extra.push({ id: uid(), name: it.n, bought: false });
+          save(); renderPTabs(); toast(`${it.n}: a la compra`);
+          a.textContent = '✓ En la compra'; a.disabled = true; a.classList.replace('primary', 'ghost');
+        }
+      });
+    });
+}
+function seasonClick(e){
+  const t = e.target;
+  const mb = t.closest('[data-tm]'); if(mb){ ui.tmonth = +mb.dataset.tm; renderZones(); renderPantry(); return; }
+  const vb = t.closest('[data-tv]'); if(vb){ ui.tview = vb.dataset.tv; saveUi(); renderPantry(); return; }
+  const si = t.closest('[data-si]'); if(si){ openSeason(+si.dataset.si); return; }
+}
 function renderBuy(main){
   const miss = missingItems();
   data.week = data.week.filter(w=> byId(w.recipeId));
@@ -2438,6 +2627,7 @@ function addExtra(){
   save(); renderPantry(); renderPTabs();
 }
 function pantryClick(e){
+  if(ui.ptab === 'temporada'){ seasonClick(e); return; }
   if(ui.ptab === 'semana' || (ui.ptab === 'compra' && e.target.closest('.card[data-w], [data-act=unstrike], [data-act=clear]'))){ weekClick(e); renderPTabs(); return; }
   const t = e.target;
   if(t.closest('[data-addzone]')) return openZone(null);
@@ -2965,7 +3155,7 @@ async function boot(){
   if(!Array.isArray(ui.diets)) ui.diets = [];
   ui.diets = ui.diets.filter(k=> DIET_KEYS.includes(k));
   if(ui.ptab === 'semana') ui.ptab = 'compra'; // la Semana ahora va dentro de la Compra
-  if(!['lista','compra'].includes(ui.ptab)) ui.ptab = 'lista';
+  if(!['lista','compra','temporada'].includes(ui.ptab)) ui.ptab = 'lista';
   const stored = loadJSON(KEY);
   if(validData(stored)){
     data = cleanData(stored);
